@@ -8,11 +8,11 @@
 		<version>2.1.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.data.conformityService</groupId>
-	<artifactId>ConformityService</artifactId>
+	<groupId>com.data</groupId>
+	<artifactId>WreckerInterface</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ConformityService</name>
-	<description>Microservice project for Conformity Wreckage on data</description>
+	<name>WreckerInterface</name>
+	<description>Microservice project for Interfaces</description>
 
 	<properties>
 		<java.version>1.8</java.version>

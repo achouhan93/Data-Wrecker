@@ -1,18 +1,13 @@
-package com.data.decimalService;
+package com.data.WreckerInterface;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-
-
-public class DecimalServiceApplication {
+public class WreckerInterfaceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DecimalServiceApplication.class, args);
+		SpringApplication.run(WreckerInterfaceApplication.class, args);
 	}
-	
-	
-
 
 }
