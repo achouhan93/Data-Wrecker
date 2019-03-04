@@ -1,4 +1,4 @@
-package com.data.patternidentification;
+package com.data.columndatatypeprediction;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DataPatternIdentificationTests {
+public class ColumnDataTypePredictionTests {
 
 	@Test
 	public void contextLoads() {
