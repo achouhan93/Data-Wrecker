@@ -1,4 +1,4 @@
-package com.data.wrecker.BooleanService;
+package com.data.wrecker.service_boolean;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
