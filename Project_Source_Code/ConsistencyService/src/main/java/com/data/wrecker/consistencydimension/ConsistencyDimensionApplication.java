@@ -1,17 +1,24 @@
-package com.data.wrecker.service_date;
+package com.data.wrecker.consistencydimension;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 
 @SpringBootApplication
 @EnableDiscoveryClient
 @RestController
-public class DateServiceApplication {
+public class ConsistencyDimensionApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DateServiceApplication.class, args);
+		SpringApplication.run(ConsistencyDimensionApplication.class, args);
 	}
+	
+	@RequestMapping(value = "/")
+	   public String home() {
+	      return "Consistency Service";
+	   }
 
 }
