@@ -16,15 +16,16 @@ public class DateDataTypeImpl implements DateDataTypeService{
 
 	String jsonData = "";
 	JSONObject jsonObject = new JSONObject(jsonData);
+	
 	int avgWrecking = getAvgWrecking(20);
 	
 		@Override
 	public boolean NullCheck() {
-		
-		if(jsonObject.getInt("NULL_COUNT")> avgWrecking) {
+			JSONArray jsonArray = jsonObject.getJSONArray("profilerinfo");
+			JSONObject jsonObjectNullCheck = new JSONObject(jsonArray);
+		if(jsonObjectNullCheck.getInt("nullcount")> avgWrecking) {
 			return false;
 		} else {
-		
 			return true;
 		}
 	}
@@ -33,7 +34,6 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	public boolean ConsistencyCheck() {
 		JSONArray jsonArray = jsonObject.getJSONArray("REGEX");
 		if(jsonArray.length()>1) {
-			
 			return isConsistent(jsonArray);
 			
 		}else {
@@ -55,6 +55,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	
 	
 	private int getAvgWrecking(int wreckingPercentage) {
+		int totalNumberOfRows = jsonObject.getInt("");
 		return wreckingPercentage/4;
 	}
 	

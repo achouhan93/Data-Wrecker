@@ -1,4 +1,4 @@
-package com.data.characterService;
+package com.data.chardatatype;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
