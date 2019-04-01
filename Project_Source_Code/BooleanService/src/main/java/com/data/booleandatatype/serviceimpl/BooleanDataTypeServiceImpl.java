@@ -10,58 +10,7 @@ import com.data.booleandatatype.service.BooleanDataTypeService;
 
 public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 
-	String jsonData = "[\r\n" + 
-			"{\r\n" + 
-			"	\"TOTAL ROW COUNT\":100,\r\n" + 
-			"	\"NULL COUNT\":20,\r\n" + 
-			"	\"DISTINCT OUNT\": 4,\r\n" + 
-			"	\"UNIQUE COUNT\": 0,\r\n" + 
-			"	\"DUPLICATE\": 50,\r\n" + 
-			"	\"DISTINCT VALUE LIST \":[\r\n" + 
-			"	{\r\n" + 
-			"	\"VALUE\": \"1\",\r\n" + 
-			"	\"VALUE COUNT \": 45\r\n" + 
-			"	},\r\n" + 
-			"	{\r\n" + 
-			"	\"VALUE\": \"0\",\r\n" + 
-			"	\"VALUE COUNT \": 40  \r\n" + 
-			"	},\r\n" + 
-			"	{\r\n" + 
-			"	\"VALUE\": \"TRR\",\r\n" + 
-			"	\"VALUE COUNT \": 10  \r\n" + 
-			"	},\r\n" + 
-			"	{\r\n" + 
-			"	\"VALUE\": \"FLL\",\r\n" + 
-			"	\"VALUE COUNT \": 5  \r\n" + 
-			"	}\r\n" + 
-			"	],\r\n" + 
-			"	\r\n" + 
-			"	\"UNIQUE VALUE LIST\":[],\r\n" + 
-			"	\"MIN_LENGTH\":1,\r\n" + 
-			"	\"MAX_LENGTH\":3,\r\n" + 
-			"	\"AVG_LENGTH\":1,\r\n" + 
-			"	\"MINVALUE\":0,\r\n" + 
-			"	\"MAX VALUE\":1,\r\n" + 
-			"	\"AVG VALUE\":1,\r\n" + 
-			"	\"TRUE COUNT\":1,\r\n" + 
-			"	\"FALSE COUNT\":0,\r\n" + 
-			"	\"REGEX\":[\r\n" + 
-			"	\"REGEX_PATTREN_1\":{\r\n" + 
-			"	\"REGEX_PATTREN\":\"XXYYDD\",\r\n" + 
-			"	\"REGEX_COUNT\":3\r\n" + 
-			"	},\r\n" + 
-			"	\"REGEX_PATTREN_2\":{\r\n" + 
-			"	\"REGEX_PATTREN\":\"FFBBHH\",\r\n" + 
-			"	\"REGEX_COUNT\":6\r\n" + 
-			"	},\r\n" + 
-			"	\"REGEX_PATTREN_3\":{\r\n" + 
-			"	\"REGEX_PATTREN\":\"HOJJ\",\r\n" + 
-			"	\"REGEX_COUNT\":6\r\n" + 
-			"	}\r\n" + 
-			"	]\r\n" + 
-			"	\r\n" + 
-			"	}\r\n" + 
-			"]";
+	String jsonData = "";
 	JSONObject jsonObject = new JSONObject(jsonData);
 	int avgWrecking = getAvgWrecking(20);
 	

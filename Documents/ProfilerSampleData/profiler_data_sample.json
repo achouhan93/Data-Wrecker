@@ -1,0 +1,49 @@
+{
+"profilierinfo":{
+	"totalrowcount":100,
+	"nullcount":20,
+	"distinctount": 4,
+	"uniquecount": 0,
+	"duplicate": 50,
+	"distinctvaluelist":[
+	{
+	"value": "1",
+	"valuecount":45
+	},
+	{
+	"value":"0",
+	"valuecount":40
+	},
+	{
+	"value":"trr",
+	"valuecount":10
+	},
+	{
+	"value":"fll",
+	"valuecount":5
+	}
+	],
+	"minlength":1,
+	"maxlength":3,
+	"avglength":1,
+	"minvalue":0,
+	"maxvalue":1,
+	"avgvalue":1,
+	"truecount":1,
+	"falsecount":0	
+	},
+	"regexinfo":[
+	{
+	"regexpattren":"xxyydd",
+	"regexcount":3
+	},
+	{
+	"regexpattren":"ffbbhh",
+	"regexcount":6
+	},
+	{
+	"regexpattren":"hojj",
+	"regexcount":6
+	}
+	]
+}

@@ -2,20 +2,23 @@ package com.data.datedatatype.serviceimpl;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 
+import com.data.datedatatype.model.ProfilerInfo;
+import com.data.datedatatype.repository.ProfilerInfoRepository;
 import com.data.datedatatype.service.DateDataTypeService;
 
 public class DateDataTypeImpl implements DateDataTypeService{
 
-	String jsonData = "[{}]";
+	String jsonData = "";
 	JSONObject jsonObject = new JSONObject(jsonData);
 	int avgWrecking = getAvgWrecking(20);
 	
-	
-	@Override
+		@Override
 	public boolean NullCheck() {
 		
 		if(jsonObject.getInt("NULL_COUNT")> avgWrecking) {
