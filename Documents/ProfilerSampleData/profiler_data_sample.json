@@ -1,4 +1,6 @@
 {
+"column_name":"abcd",
+"column_datatype":"",
 "profilierinfo":{
 	"totalrowcount":100,
 	"nullcount":20,
