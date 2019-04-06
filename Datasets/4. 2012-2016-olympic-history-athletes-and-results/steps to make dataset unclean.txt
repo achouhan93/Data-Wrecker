@@ -1,0 +1,33 @@
+1.Duplicated values for some id
+ no of records 1240
+2.Format of Id values changed 6317 --> 6317.00 etc
+ no of records 1463
+3.Gender value changed
+ M --> Male -- 871 records
+ M --> Men -- 593
+ F --> Female -- 684
+ F --> Women -- 821
+4.Age values change 
+ negative -- 655
+ format 25--> 25.00 -- 327
+5.Changed values of Height 
+ negative --300
+ format 167--> 167.0 --161
+ 180-->1800 -- 129
+6.Changed values of Age
+ negative -- 253
+ format 60 --> 60.00 -- 94
+7.Changed values of Team 
+ Egypt --> egypt --71
+8.Changed values of NOC 
+ USA-->US --269
+9.Year
+ 2012-->12 -- 222
+10.Season 
+ Summer-->summer--164
+11.Games (this column is combination of Year & Season)
+ values missing 258
+12. City
+ London-->london--233
+13.Medal
+ Silver-->S--163 

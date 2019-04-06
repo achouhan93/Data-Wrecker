@@ -1,0 +1,28 @@
+1.Date format changed
+ dd-mm-yy to dd-mon-yy --
+ changed for: all dates in 2017
+ no of records affected = 1219
+2.Changed value of locations 
+ changed for: sydney->sidney & cobar->cobra
+ no of records : 464 sydney & 389 Cobar
+3.MinTemp changed, value cannot be greater than 33.9 [Data is not acurate it doesnt real world values]
+ changed for : 11.1->111,12.1->121,13.1->131
+ no of records : 153 for 11.1, 140 for 12.1, 140 for 13.1
+4.MaxTemp changed, value cannot be greater than 46.6
+ changed for : 22.6->226, 23.6->236, 24.6->246
+ no of records : 130 for 22.6, 134 for 23.6, 129 for 24.6
+5 Data duplicated
+ duplicated for May June July 20012 records
+ no of records : 609
+6 Rain Today column values blank
+ no of records: 1000
+ Retrace logic: value can be set as Yes if rainfall is >0 else 'No'
+ Note:we can delete entire column also (data will be unleaned in terms of schema)
+7. Same can be done for Rain tomorrow column, values of Rain Tomorrow depends on Risk_MM column
+8 Wind speed changed as negative
+ changed for wind speed=22
+ no of records 593.
+9 Changed WindDir values 
+ changed for N to North 516 records
+ changed for E to East 536 records
+10 Chnaged some values to NA randomly
