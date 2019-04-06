@@ -10,6 +10,6 @@ import com.data.datedatatype.model.ProfilerInfo;
 @Repository
 public interface ProfilerInfoRepository extends MongoRepository<ProfilerInfo, String>{
 
-	 List<ProfilerInfo> findByprofilerId(final int profilerId);	
+	// List<ProfilerInfo> findByprofilerId(final int profilerId);	
 	
 }

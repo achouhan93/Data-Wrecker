@@ -2,7 +2,7 @@ package com.data.datedatatype.service;
 
 
 public interface DateDataTypeService {
-
+	
 	public boolean NullCheck();
 	
 	public boolean ConsistencyCheck();

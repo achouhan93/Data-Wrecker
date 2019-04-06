@@ -7,23 +7,30 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.data.datedatatype.model.ProfilerInfo;
 import com.data.datedatatype.repository.ProfilerInfoRepository;
 import com.data.datedatatype.service.DateDataTypeService;
 
+
+@Transactional 
 public class DateDataTypeImpl implements DateDataTypeService{
 
 	String jsonData = "";
 	JSONObject jsonObject = new JSONObject(jsonData);
+	JSONArray profilerJsonArray = jsonObject.getJSONArray("profilerinfo");
+	JSONArray regexJsonArray = jsonObject.getJSONArray("regexinfo");
+	JSONObject profilerJsonObject = new JSONObject(profilerJsonArray);
+	JSONObject regexJsonObject = new JSONObject(regexJsonArray);
 	
 	int avgWrecking = getAvgWrecking(20);
 	
 		@Override
 	public boolean NullCheck() {
-			JSONArray jsonArray = jsonObject.getJSONArray("profilerinfo");
-			JSONObject jsonObjectNullCheck = new JSONObject(jsonArray);
-		if(jsonObjectNullCheck.getInt("nullcount")> avgWrecking) {
+			
+		if(profilerJsonObject.getInt("nullcount")> avgWrecking) {
 			return false;
 		} else {
 			return true;
@@ -32,9 +39,9 @@ public class DateDataTypeImpl implements DateDataTypeService{
 
 	@Override
 	public boolean ConsistencyCheck() {
-		JSONArray jsonArray = jsonObject.getJSONArray("REGEX");
-		if(jsonArray.length()>1) {
-			return isConsistent(jsonArray);
+	
+		if(regexJsonArray.length()>1) {
+			return isConsistent(regexJsonArray);
 			
 		}else {
 			return true;	
@@ -44,7 +51,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 
 	@Override
 	public boolean ValidityCheck() {
-		return isValid(jsonObject);
+		return isValid(profilerJsonObject);
 	}
 
 	@Override
@@ -66,8 +73,8 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		JSONObject isConsistentJsonObject = new JSONObject();
 		for(int i=0; i< jsonArray.length(); i++) {
 			isConsistentJsonObject = jsonArray.getJSONObject(i);
-			regexCountArrayList.add(isConsistentJsonObject.getInt("REGEX_COUNT"));
-			totalCount = totalCount + isConsistentJsonObject.getInt("REGEX_COUNT");
+			regexCountArrayList.add(isConsistentJsonObject.getInt("regexcount"));
+			totalCount = totalCount + isConsistentJsonObject.getInt("regexcount");
 		}
 		int maxValue = Collections.max(regexCountArrayList);
 		if((totalCount - maxValue) > avgWrecking) {
@@ -80,11 +87,11 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	
 	private boolean isValid(JSONObject jsonObject) {
 		
-		if(!(jsonObject.getInt("MIN_LENGTH") == jsonObject.getInt("MAX_LENGTH") && 
-				jsonObject.getInt("MAX_LENGTH") == jsonObject.getInt("AVG_LENGTH"))) {
-			int minLength = jsonObject.getInt("MIN_LENGTH");
-			int maxLength = jsonObject.getInt("MAX_LENGTH");
-			int avgLength = jsonObject.getInt("AVG_LENGTH");
+		if(!(jsonObject.getInt("minlength") == jsonObject.getInt("maxlength") && 
+				jsonObject.getInt("maxlength") == jsonObject.getInt("avglength"))) {
+			int minLength = jsonObject.getInt("minlength");
+			int maxLength = jsonObject.getInt("maxlength");
+			int avgLength = jsonObject.getInt("avglength");
 			int maxValue = getMaxValue(minLength, maxLength, avgLength);
 			
 			if(maxValue == avgLength) {

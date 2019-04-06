@@ -4,8 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
 
+@ComponentScan("com.data.datedatatype")
+@SpringBootApplication
 public class DateDataTypeApplication {
 
 	public static void main(String[] args) {
