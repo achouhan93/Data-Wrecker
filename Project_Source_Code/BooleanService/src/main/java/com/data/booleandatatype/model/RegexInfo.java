@@ -1,6 +1,7 @@
-package com.data.datedatatype.model;
+package com.data.booleandatatype.model;
 
 public class RegexInfo {
+
 
 	private String regexPattern;
 	private int regexPatternCount;
@@ -33,5 +34,6 @@ public class RegexInfo {
 	}	
 	
 	
+
 	
 }

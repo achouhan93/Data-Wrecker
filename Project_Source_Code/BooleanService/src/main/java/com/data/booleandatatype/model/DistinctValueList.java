@@ -1,5 +1,4 @@
-package com.data.datedatatype.model;
-
+package com.data.booleandatatype.model;
 
 public class DistinctValueList {
 

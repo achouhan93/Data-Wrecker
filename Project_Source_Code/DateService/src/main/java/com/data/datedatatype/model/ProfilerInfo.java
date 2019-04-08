@@ -1,6 +1,6 @@
 package com.data.datedatatype.model;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -10,24 +10,34 @@ public class ProfilerInfo {
 
 	@Id
 	private int _id;
+	private String columnname;
+	private String columndatatype;
+	private int wreckingPercentage;
 	private int totalRowCount;
 	private int nullCount;
 	private int distinctCount;
-	private List<DistinctValueList> distinctvaluelist;
+	private ArrayList<DistinctValueList> distinctvaluelist;
 	private int uniqueCount;
 	private int duplicateCount;
 	private int minLength;
 	private int maxLength;
 	private int avgLength;
+	private int minValue;
+	private int maxValue;
+	private int avgValue;
 	private int trueCount;
 	private int falseCount;
-	private List<RegexInfo> regexInfo;
-
-	public ProfilerInfo(int _id, int totalRowCount, int nullCount, int distinctCount,
-			List<DistinctValueList> distinctvaluelist, int uniqueCount, int duplicateCount, int minLength,
-			int maxLength, int avgLength, int trueCount, int falseCount, List<RegexInfo> regexInfo) {
+	private ArrayList<RegexInfo> regexInfo;
+	
+	public ProfilerInfo(int _id, String columnname, String columndatatype, int wreckingPercentage, int totalRowCount,
+			int nullCount, int distinctCount, ArrayList<DistinctValueList> distinctvaluelist, int uniqueCount,
+			int duplicateCount, int minLength, int maxLength, int avgLength, int minValue, int maxValue, int avgValue,
+			int trueCount, int falseCount, ArrayList<RegexInfo> regexInfo) {
 		super();
 		this._id = _id;
+		this.columnname = columnname;
+		this.columndatatype = columndatatype;
+		this.wreckingPercentage = wreckingPercentage;
 		this.totalRowCount = totalRowCount;
 		this.nullCount = nullCount;
 		this.distinctCount = distinctCount;
@@ -37,6 +47,9 @@ public class ProfilerInfo {
 		this.minLength = minLength;
 		this.maxLength = maxLength;
 		this.avgLength = avgLength;
+		this.minValue = minValue;
+		this.maxValue = maxValue;
+		this.avgValue = avgValue;
 		this.trueCount = trueCount;
 		this.falseCount = falseCount;
 		this.regexInfo = regexInfo;
@@ -48,6 +61,30 @@ public class ProfilerInfo {
 
 	public void set_id(int _id) {
 		this._id = _id;
+	}
+
+	public String getColumnname() {
+		return columnname;
+	}
+
+	public void setColumnname(String columnname) {
+		this.columnname = columnname;
+	}
+
+	public String getColumndatatype() {
+		return columndatatype;
+	}
+
+	public void setColumndatatype(String columndatatype) {
+		this.columndatatype = columndatatype;
+	}
+
+	public int getWreckingPercentage() {
+		return wreckingPercentage;
+	}
+
+	public void setWreckingPercentage(int wreckingPercentage) {
+		this.wreckingPercentage = wreckingPercentage;
 	}
 
 	public int getTotalRowCount() {
@@ -74,11 +111,11 @@ public class ProfilerInfo {
 		this.distinctCount = distinctCount;
 	}
 
-	public List<DistinctValueList> getDistinctvaluelist() {
+	public ArrayList<DistinctValueList> getDistinctvaluelist() {
 		return distinctvaluelist;
 	}
 
-	public void setDistinctvaluelist(List<DistinctValueList> distinctvaluelist) {
+	public void setDistinctvaluelist(ArrayList<DistinctValueList> distinctvaluelist) {
 		this.distinctvaluelist = distinctvaluelist;
 	}
 
@@ -122,6 +159,30 @@ public class ProfilerInfo {
 		this.avgLength = avgLength;
 	}
 
+	public int getMinValue() {
+		return minValue;
+	}
+
+	public void setMinValue(int minValue) {
+		this.minValue = minValue;
+	}
+
+	public int getMaxValue() {
+		return maxValue;
+	}
+
+	public void setMaxValue(int maxValue) {
+		this.maxValue = maxValue;
+	}
+
+	public int getAvgValue() {
+		return avgValue;
+	}
+
+	public void setAvgValue(int avgValue) {
+		this.avgValue = avgValue;
+	}
+
 	public int getTrueCount() {
 		return trueCount;
 	}
@@ -138,12 +199,13 @@ public class ProfilerInfo {
 		this.falseCount = falseCount;
 	}
 
-	public List<RegexInfo> getRegexInfo() {
+	public ArrayList<RegexInfo> getRegexInfo() {
 		return regexInfo;
 	}
 
-	public void setRegexInfo(List<RegexInfo> regexInfo) {
+	public void setRegexInfo(ArrayList<RegexInfo> regexInfo) {
 		this.regexInfo = regexInfo;
+	}	
+	
+	
 	}
-
-}

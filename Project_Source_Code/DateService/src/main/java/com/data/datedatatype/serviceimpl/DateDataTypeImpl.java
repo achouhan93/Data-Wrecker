@@ -11,26 +11,21 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.data.datedatatype.model.ProfilerInfo;
+import com.data.datedatatype.model.RegexInfo;
 import com.data.datedatatype.repository.ProfilerInfoRepository;
 import com.data.datedatatype.service.DateDataTypeService;
 
 
-@Transactional 
+@Service
+@Transactional
 public class DateDataTypeImpl implements DateDataTypeService{
 
-	String jsonData = "";
-	JSONObject jsonObject = new JSONObject(jsonData);
-	JSONArray profilerJsonArray = jsonObject.getJSONArray("profilerinfo");
-	JSONArray regexJsonArray = jsonObject.getJSONArray("regexinfo");
-	JSONObject profilerJsonObject = new JSONObject(profilerJsonArray);
-	JSONObject regexJsonObject = new JSONObject(regexJsonArray);
-	
-	int avgWrecking = getAvgWrecking(20);
-	
+	//private ProfilerInfo profilerInfo;
+
 		@Override
-	public boolean NullCheck() {
+	public boolean NullCheck(ProfilerInfo profilerInfo) {
 			
-		if(profilerJsonObject.getInt("nullcount")> avgWrecking) {
+		if(profilerInfo.getNullCount() > 20) {
 			return false;
 		} else {
 			return true;
@@ -38,46 +33,44 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	}
 
 	@Override
-	public boolean ConsistencyCheck() {
-	
-		if(regexJsonArray.length()>1) {
-			return isConsistent(regexJsonArray);
+	public boolean ConsistencyCheck(ProfilerInfo profilerInfo) {
+		if(profilerInfo.getRegexInfo().size() > 1) {
+			return isConsistent(profilerInfo);
 			
 		}else {
 			return true;	
-		}
+		}	
 		
 	}
 
 	@Override
-	public boolean ValidityCheck() {
-		return isValid(profilerJsonObject);
+	public boolean ValidityCheck(ProfilerInfo profilerInfo) {
+		return isValid(profilerInfo);	
 	}
 
 	@Override
-	public boolean AccuracyCheck() {
+	public boolean AccuracyCheck(ProfilerInfo profilerInfo) {
 		return true;
 	}
 	
 	
-	
+	/*
 	private int getAvgWrecking(int wreckingPercentage) {
 		int totalNumberOfRows = jsonObject.getInt("");
 		return wreckingPercentage/4;
-	}
+	}*/
 	
 
-	private boolean isConsistent(JSONArray jsonArray) {
+	private boolean isConsistent(ProfilerInfo profilerInfo) {
 		int totalCount = 0;
-		ArrayList<Integer> regexCountArrayList = new ArrayList(); 
-		JSONObject isConsistentJsonObject = new JSONObject();
-		for(int i=0; i< jsonArray.length(); i++) {
-			isConsistentJsonObject = jsonArray.getJSONObject(i);
-			regexCountArrayList.add(isConsistentJsonObject.getInt("regexcount"));
-			totalCount = totalCount + isConsistentJsonObject.getInt("regexcount");
+		ArrayList<RegexInfo> regexCountArrayList = profilerInfo.getRegexInfo(); 
+		ArrayList<Integer> regexCounts = new ArrayList();
+		for(int i=0; i< regexCountArrayList.size(); i++) {			
+			regexCounts.add(regexCountArrayList.get(i).getRegexPatternCount());
+			totalCount = totalCount + regexCountArrayList.get(i).getRegexPatternCount();			
 		}
-		int maxValue = Collections.max(regexCountArrayList);
-		if((totalCount - maxValue) > avgWrecking) {
+		int maxValue = Collections.max(regexCounts);
+		if((totalCount - maxValue) > 20) {
 			return false;
 		} else {
 			return true;
@@ -85,13 +78,13 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	}
 	
 	
-	private boolean isValid(JSONObject jsonObject) {
+	private boolean isValid(ProfilerInfo profilerInfo) {
 		
-		if(!(jsonObject.getInt("minlength") == jsonObject.getInt("maxlength") && 
-				jsonObject.getInt("maxlength") == jsonObject.getInt("avglength"))) {
-			int minLength = jsonObject.getInt("minlength");
-			int maxLength = jsonObject.getInt("maxlength");
-			int avgLength = jsonObject.getInt("avglength");
+		if(!(profilerInfo.getMinLength() == profilerInfo.getMaxLength() && 
+				profilerInfo.getMaxLength() == profilerInfo.getAvgLength())) {
+			int minLength = profilerInfo.getMinLength();
+			int maxLength = profilerInfo.getMaxLength();
+			int avgLength = profilerInfo.getAvgLength();
 			int maxValue = getMaxValue(minLength, maxLength, avgLength);
 			
 			if(maxValue == avgLength) {
@@ -121,7 +114,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	}
 	
 	private boolean isNotWrecked(int number1, int number2) {
-		if((number1 + number2) > avgWrecking) {
+		if((number1 + number2) > 20) {
 			return false;
 		}else {
 			return true;
