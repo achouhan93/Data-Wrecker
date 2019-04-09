@@ -4,7 +4,7 @@ import com.data.booleandatatype.model.ProfilerInfo;
 
 public interface BooleanDataTypeService {
 	
-public boolean NullCheck(ProfilerInfo profilerInfo);
+	public boolean NullCheck(ProfilerInfo profilerInfo);
 	
 	public boolean ConsistencyCheck(ProfilerInfo profilerInfo);
 	

@@ -32,7 +32,7 @@ public class BooleanDataTypeController {
 		jsonObject.append("Accuracy", booleanservice.AccuracyCheck(profilerInfo));
 		jsonObject.append("Consistency",booleanservice.ConsistencyCheck(profilerInfo));
 		jsonObject.append("Validity", booleanservice.ValidityCheck(profilerInfo));
-	return jsonObject.toString();
+		return jsonObject.toString();
 	
 	}	
 	
