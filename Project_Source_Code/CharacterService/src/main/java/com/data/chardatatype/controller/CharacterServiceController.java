@@ -30,8 +30,7 @@ public class CharacterServiceController {
 		jsonObject.append("Accuracy", characterService.AccuracyCheck(profilerInfo));
 		jsonObject.append("Consistency",characterService.ConsistencyCheck(profilerInfo));
 		jsonObject.append("Validity", characterService.ValidityCheck(profilerInfo));
-	return jsonObject.toString();
-	
+		return jsonObject.toString();
 	}
 	
 	

@@ -9,6 +9,7 @@ import org.springframework.data.mongodb.core.aggregation.AccumulatorOperators.Av
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.data.chardatatype.model.DistinctValueListChar;
 import com.data.chardatatype.model.ProfilerInfoChar;
 import com.data.chardatatype.model.RegexInfoChar;
 import com.data.chardatatype.service.CharacterDataTypeService;
@@ -34,23 +35,22 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 
 	@Override
 	public boolean ValidityCheck(ProfilerInfoChar profilerInfo) {
-		ArrayList<RegexInfoChar> regexInfoArrayList = profilerInfo.getRegexInfo();
+		ArrayList<DistinctValueListChar> distinctValueArrayList = profilerInfo.getDistinctvaluelist();
 		int count = 0;
-		if(regexInfoArrayList.size() > 1) {
-			for(int i =0; i< regexInfoArrayList.size(); i++) {
-				if(!(regexInfoArrayList.get(i).getRegexPattern().contains("X") || regexInfoArrayList.get(i).getRegexPattern().contains("x"))) {
-					count = count + regexInfoArrayList.get(i).getRegexPatternCount();
+		if(profilerInfo.getDistinctCount() > 1) {
+			for(int i =0; i< distinctValueArrayList.size(); i++) {
+				if(!(distinctValueArrayList.get(i).getDistinctValueName().length() > 1)) {
+					count = count + distinctValueArrayList.get(i).getDistinctValueCount();
 				}				
-			}
+			}		
+			
 			if(count > 20) {
 				return false;
 			}else {
 				return true;
 			}
-		}else if(regexInfoArrayList.get(0).getRegexPattern().contains("X") || regexInfoArrayList.get(0).getRegexPattern().contains("x")) {
-			return true;
 		}else {
-			return false;
+			return true;
 		}
 		
 	}
