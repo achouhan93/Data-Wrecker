@@ -15,7 +15,17 @@ public class ColumnStatisticsController {
 	ColumnStatisticsService columnStatisticsService;
 	@GetMapping("/")
 	public String getColumnStatistics() {
-		String columnName="questionDescription";
-		return "Column Statistics Working "+columnStatisticsService.getColumnStatistics(columnName);		
+		String dbName="test";
+		String columnName="Region";//Region/Sales Channel/Total Profit/Order Date/Date(weatherAusData)
+		String collectionName="salesDataSmall";//weatherAusData/salesDataSmall
+		String columnDataType="String";//String/Double/Integer/Date/Boolean
+		String dateFormat="dd-MM-yy";
+		String booleanTrueValue="Online";//True/1/Y/y
+		String booleanFalseValue="Offline";//False/0/N/n
+		return "Column Statistics Working "+columnStatisticsService.getColumnStatistics(dbName,collectionName, columnName, columnDataType, dateFormat, booleanTrueValue, booleanFalseValue);
 	}
+//	@GetMapping("/getCSV")
+//	public String getCSV() {
+//		return columnStatisticsService.getCSV();
+//	}
 }
