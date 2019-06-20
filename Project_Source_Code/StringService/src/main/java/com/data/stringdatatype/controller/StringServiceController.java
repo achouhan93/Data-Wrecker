@@ -1,16 +1,17 @@
 package com.data.stringdatatype.controller;
 
 import java.util.ArrayList;
+import java.util.List;
 
-import org.json.JSONObject;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.data.stringdatatype.model.DistinctValueListString;
-import com.data.stringdatatype.model.ProfilerInfoString;
-import com.data.stringdatatype.model.RegexInfoString;
+import com.data.stringdatatype.model.ColumnStatisticsModel;
+import com.data.stringdatatype.model.DimensionsResult;
+import com.data.stringdatatype.repository.ProfilerInfoStringRepository;
 import com.data.stringdatatype.service.StringDataTypeService;
 
 
@@ -20,23 +21,46 @@ public class StringServiceController {
 
 	 
 	@Autowired
-	StringDataTypeService characterService;
+	StringDataTypeService stringService;
+	@Autowired
+	private ProfilerInfoStringRepository profilerInfoRepo;
+	private List<ColumnStatisticsModel> columnStatisticsModel;  
 	
 	
-	@GetMapping("/booleanDimension")
+	/*@RequestMapping(value = "/result", method = RequestMethod.GET)
 	public String getDimensions()
 	{
 		ProfilerInfoString profilerInfo = loadProfileInfoObj();
 		JSONObject jsonObject = new JSONObject();
-		jsonObject.append("NullCHeck", characterService.NullCheck(profilerInfo));
-		jsonObject.append("Accuracy", characterService.AccuracyCheck(profilerInfo));
-		jsonObject.append("Consistency",characterService.ConsistencyCheck(profilerInfo));
-		jsonObject.append("Validity", characterService.ValidityCheck(profilerInfo));
+		jsonObject.append("NullCHeck", stringService.NullCheck(profilerInfo));
+		jsonObject.append("Accuracy", stringService.AccuracyCheck(profilerInfo));
+		jsonObject.append("Consistency",stringService.ConsistencyCheck(profilerInfo));
+		jsonObject.append("Validity", stringService.ValidityCheck(profilerInfo));
 		return jsonObject.toString();
+	}*/
+	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public List<ColumnStatisticsModel> getAllDocuments() {
+		columnStatisticsModel = profilerInfoRepo.findAll();
+	  return columnStatisticsModel;
+	}
+	
+	@RequestMapping(value = "/result", method = RequestMethod.GET)
+	public List<DimensionsResult> getDimensionResults(){
+		List<DimensionsResult> dimensionResultList = new ArrayList<DimensionsResult>();
+		DimensionsResult dimensionResult = new DimensionsResult();
+		columnStatisticsModel = profilerInfoRepo.findAll();
+		
+		dimensionResult.setNullCheck(stringService.NullCheck(columnStatisticsModel.get(0)));
+		dimensionResult.setAccuracyCheck(stringService.AccuracyCheck(columnStatisticsModel.get(0)));
+		dimensionResult.setConsistencyCheck(stringService.AccuracyCheck(columnStatisticsModel.get(0)));
+		dimensionResult.setValidityCheck(stringService.ValidityCheck(columnStatisticsModel.get(0)));
+		dimensionResultList.add(dimensionResult);
+		return dimensionResultList;
 	}
 	
 	 
-	 @RequestMapping("/abcd")
+	/* @RequestMapping("/abcd")
 		public ProfilerInfoString loadProfileInfoObj() {
 			
 			ArrayList<DistinctValueListString> distinctValueList = new ArrayList();
@@ -52,5 +76,5 @@ public class StringServiceController {
 			ProfilerInfoString profilerInfo = new ProfilerInfoString(1,"colname","date",20,100,10,3,distinctValueList,2,9,2,5,3,10,20,15,10,20,regexInfoList);
 			//profilerInfoImpl.create(profilerInfo);
 			return profilerInfo;
-		}
+		}*/
 }

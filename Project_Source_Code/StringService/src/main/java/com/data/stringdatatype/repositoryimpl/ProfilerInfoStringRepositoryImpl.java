@@ -7,11 +7,5 @@ import com.data.stringdatatype.repository.ProfilerInfoStringRepository;
 
 public class ProfilerInfoStringRepositoryImpl {
 
-	@Autowired
-	private ProfilerInfoStringRepository profilerInfoRepository;
 
-	
-	public void create(ProfilerInfoString profilerInfo) {
-		profilerInfoRepository.save(profilerInfo);
-	}
 }

@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.data.datedatatype.model.ColumnStatisticsModel;
 import com.data.datedatatype.model.ProfilerInfo;
 import com.data.datedatatype.model.RegexInfo;
 import com.data.datedatatype.repository.ProfilerInfoRepository;
@@ -20,10 +21,11 @@ import com.data.datedatatype.service.DateDataTypeService;
 @Transactional
 public class DateDataTypeImpl implements DateDataTypeService{
 
-	//private ProfilerInfo profilerInfo;
+	private ProfilerInfoRepository profilerInfoRepo;
+	
 
 		@Override
-	public boolean NullCheck(ProfilerInfo profilerInfo) {
+	public boolean NullCheck(ColumnStatisticsModel profilerInfo) {
 			
 		if(profilerInfo.getNullCount() > 20) {
 			return false;
@@ -33,23 +35,23 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	}
 
 	@Override
-	public boolean ConsistencyCheck(ProfilerInfo profilerInfo) {
-		if(profilerInfo.getRegexInfo().size() > 1) {
+	public boolean ConsistencyCheck(ColumnStatisticsModel profilerInfo) {
+		/*if(profilerInfo.getRegexInfo().size() > 1) {
 			return isConsistent(profilerInfo);
 			
 		}else {
 			return true;	
-		}	
-		
+		}	*/
+		return true;
 	}
 
 	@Override
-	public boolean ValidityCheck(ProfilerInfo profilerInfo) {
+	public boolean ValidityCheck(ColumnStatisticsModel profilerInfo) {
 		return isValid(profilerInfo);	
 	}
 
 	@Override
-	public boolean AccuracyCheck(ProfilerInfo profilerInfo) {
+	public boolean AccuracyCheck(ColumnStatisticsModel profilerInfo) {
 		return true;
 	}
 	
@@ -61,8 +63,8 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	}*/
 	
 
-	private boolean isConsistent(ProfilerInfo profilerInfo) {
-		int totalCount = 0;
+	private boolean isConsistent(ColumnStatisticsModel profilerInfo) {
+		/*int totalCount = 0;
 		ArrayList<RegexInfo> regexCountArrayList = profilerInfo.getRegexInfo(); 
 		ArrayList<Integer> regexCounts = new ArrayList();
 		for(int i=0; i< regexCountArrayList.size(); i++) {			
@@ -74,17 +76,18 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			return false;
 		} else {
 			return true;
-		}
+		}*/
+		return true;
 	}
 	
 	
-	private boolean isValid(ProfilerInfo profilerInfo) {
+	private boolean isValid(ColumnStatisticsModel profilerInfo) {
 		
 		if(!(profilerInfo.getMinLength() == profilerInfo.getMaxLength() && 
-				profilerInfo.getMaxLength() == profilerInfo.getAvgLength())) {
+				profilerInfo.getMaxLength() == profilerInfo.getAverageLength())) {
 			int minLength = profilerInfo.getMinLength();
 			int maxLength = profilerInfo.getMaxLength();
-			int avgLength = profilerInfo.getAvgLength();
+			int avgLength = profilerInfo.getAverageLength();
 			int maxValue = getMaxValue(minLength, maxLength, avgLength);
 			
 			if(maxValue == avgLength) {

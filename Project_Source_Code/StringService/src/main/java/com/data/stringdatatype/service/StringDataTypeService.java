@@ -1,15 +1,15 @@
 package com.data.stringdatatype.service;
 
-import com.data.stringdatatype.model.ProfilerInfoString;
+import com.data.stringdatatype.model.ColumnStatisticsModel;
 
 public interface StringDataTypeService {
 
-	public boolean NullCheck(ProfilerInfoString profilerInfo);
+	public boolean NullCheck(ColumnStatisticsModel profilerInfo);
 	
-	public boolean ConsistencyCheck(ProfilerInfoString profilerInfo);
+	public boolean ConsistencyCheck(ColumnStatisticsModel profilerInfo);
 	
-	public boolean ValidityCheck(ProfilerInfoString profilerInfo);
+	public boolean ValidityCheck(ColumnStatisticsModel profilerInfo);
 	
-	public boolean AccuracyCheck(ProfilerInfoString profilerInfo);
+	public boolean AccuracyCheck(ColumnStatisticsModel profilerInfo);
 	
 }
