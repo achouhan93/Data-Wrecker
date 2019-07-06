@@ -4,16 +4,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.data.datedatatype.model.ColumnStatisticsModel;
-import com.data.datedatatype.model.ProfilerInfo;
-import com.data.datedatatype.model.RegexInfo;
-import com.data.datedatatype.repository.ProfilerInfoRepository;
+import com.data.datedatatype.model.DatasetStats;
+import com.data.datedatatype.model.Dimensions;
+import com.data.datedatatype.model.PatternModel;
 import com.data.datedatatype.service.DateDataTypeService;
 
 
@@ -21,73 +17,112 @@ import com.data.datedatatype.service.DateDataTypeService;
 @Transactional
 public class DateDataTypeImpl implements DateDataTypeService{
 
-	private ProfilerInfoRepository profilerInfoRepo;
+	// private ProfilerInfoRepository profilerInfoRepo;
+	// private DatasetStats datasetStats;
 	
+	private Dimensions dimensions;
 
-		@Override
-	public boolean NullCheck(ColumnStatisticsModel profilerInfo) {
-			
-		if(profilerInfo.getNullCount() > 20) {
-			return false;
+	@Override
+	public Dimensions NullCheck(DatasetStats datasetStats) {
+		
+		dimensions = new Dimensions();
+		
+		if(datasetStats.getColumnStats().getNullCount() > 20) {
+			dimensions.setDimensionName("NullCheck");
+			dimensions.setStatus(false);
+			dimensions.setReason("The number of null values exceeds 20");
+			return dimensions;
 		} else {
-			return true;
+			dimensions.setDimensionName("NullCheck");
+			dimensions.setStatus(true);
+			dimensions.setReason("The number of null values less than 20");
+			return dimensions;
 		}
 	}
 
 	@Override
-	public boolean ConsistencyCheck(ColumnStatisticsModel profilerInfo) {
-		/*if(profilerInfo.getRegexInfo().size() > 1) {
-			return isConsistent(profilerInfo);
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats) {
+		dimensions = new Dimensions();
+		
+		if(datasetStats.getPropertyModel().getPatternModel().size() > 1) {
+			if(isConsistent(datasetStats)) {
+				dimensions.setDimensionName("ConsistencyCheck");
+				dimensions.setStatus(true);
+				dimensions.setReason("The patterns identified are less than 20 in their occurances");
+				return dimensions;
+			}else {
+				dimensions.setDimensionName("ConsistencyCheck");
+				dimensions.setStatus(false);
+				dimensions.setReason("The patterns identified are greater than 20 in their occurances");
+				return dimensions;
+			}
 			
 		}else {
-			return true;	
-		}	*/
-		return true;
+			dimensions.setDimensionName("ConsistencyCheck");
+			dimensions.setStatus(true);
+			dimensions.setReason("The patterns identified are less than 20 in their occurances");
+			return dimensions;
+		}	
 	}
 
 	@Override
-	public boolean ValidityCheck(ColumnStatisticsModel profilerInfo) {
-		return isValid(profilerInfo);	
+	public Dimensions ValidityCheck(DatasetStats datasetStats) {
+		dimensions = new Dimensions();
+		if(isValid(datasetStats)) {
+			dimensions.setDimensionName("ValidityCheck");
+			dimensions.setStatus(true);
+			dimensions.setReason("There are valid values which is less than 20");
+			return dimensions;
+		}else {
+			dimensions.setDimensionName("ValidityCheck");
+			dimensions.setStatus(false);
+			dimensions.setReason("There are Invalid values which is greater than 20");
+			return dimensions;
+		}
 	}
 
 	@Override
-	public boolean AccuracyCheck(ColumnStatisticsModel profilerInfo) {
-		return true;
+	public Dimensions AccuracyCheck(DatasetStats datasetStats) {
+		dimensions = new Dimensions();
+		dimensions.setDimensionName("AccuracyCheck");
+		dimensions.setStatus(true);
+		dimensions.setReason("There are Accurate values in the datasets");
+		return dimensions;
+		
 	}
 	
 	
-	/*
-	private int getAvgWrecking(int wreckingPercentage) {
-		int totalNumberOfRows = jsonObject.getInt("");
-		return wreckingPercentage/4;
+	
+	/*private int getAvgWrecking(int wreckingPercentage, int totalRows) {
+		return (wreckingPercentage * totalRows)/4;
 	}*/
 	
 
-	private boolean isConsistent(ColumnStatisticsModel profilerInfo) {
-		/*int totalCount = 0;
-		ArrayList<RegexInfo> regexCountArrayList = profilerInfo.getRegexInfo(); 
-		ArrayList<Integer> regexCounts = new ArrayList();
-		for(int i=0; i< regexCountArrayList.size(); i++) {			
-			regexCounts.add(regexCountArrayList.get(i).getRegexPatternCount());
-			totalCount = totalCount + regexCountArrayList.get(i).getRegexPatternCount();			
+	private boolean isConsistent(DatasetStats datasetStats) {
+		int totalCount = 0;
+		List<PatternModel> patternModelList = datasetStats.getPropertyModel().getPatternModel(); 
+		ArrayList<Integer> regexCounts = new ArrayList<Integer>();
+		for(int i=0; i< patternModelList.size(); i++) {			
+			regexCounts.add(patternModelList.get(i).getOccurance());
+			totalCount = totalCount + patternModelList.get(i).getOccurance();			
 		}
 		int maxValue = Collections.max(regexCounts);
 		if((totalCount - maxValue) > 20) {
 			return false;
 		} else {
 			return true;
-		}*/
-		return true;
+		}
 	}
 	
 	
-	private boolean isValid(ColumnStatisticsModel profilerInfo) {
+	private boolean isValid(DatasetStats datasetStats) {
+			
 		
-		if(!(profilerInfo.getMinLength() == profilerInfo.getMaxLength() && 
-				profilerInfo.getMaxLength() == profilerInfo.getAverageLength())) {
-			int minLength = profilerInfo.getMinLength();
-			int maxLength = profilerInfo.getMaxLength();
-			int avgLength = profilerInfo.getAverageLength();
+		if(!(datasetStats.getColumnStats().getMinLength() == datasetStats.getColumnStats().getMaxLength() && 
+				datasetStats.getColumnStats().getMaxLength() == datasetStats.getColumnStats().getAverageLength())) {
+			int minLength = datasetStats.getColumnStats().getMinLength();
+			int maxLength = datasetStats.getColumnStats().getMaxLength();
+			int avgLength = datasetStats.getColumnStats().getAverageLength();
 			int maxValue = getMaxValue(minLength, maxLength, avgLength);
 			
 			if(maxValue == avgLength) {

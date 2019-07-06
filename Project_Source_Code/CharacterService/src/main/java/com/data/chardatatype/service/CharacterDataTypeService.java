@@ -1,16 +1,17 @@
 package com.data.chardatatype.service;
 
-import com.data.chardatatype.model.ProfilerInfoChar;
+import com.data.chardatatype.model.DatasetStats;
+import com.data.chardatatype.model.Dimensions;
 
 public interface CharacterDataTypeService {
 
-public boolean NullCheck(ProfilerInfoChar profilerInfo);
+public Dimensions NullCheck(DatasetStats datasetStats);
 	
-	public boolean ConsistencyCheck(ProfilerInfoChar profilerInfo);
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats);
 	
-	public boolean ValidityCheck(ProfilerInfoChar profilerInfo);
+	public Dimensions ValidityCheck(DatasetStats datasetStats);
 	
-	public boolean AccuracyCheck(ProfilerInfoChar profilerInfo);
+	public Dimensions AccuracyCheck(DatasetStats datasetStats);
 	
 	
 }

@@ -1,15 +1,17 @@
 package com.data.booleandatatype.service;
 
-import com.data.booleandatatype.model.ProfilerInfo;
+import com.data.booleandatatype.model.DatasetStats;
+import com.data.booleandatatype.model.Dimensions;
 
 public interface BooleanDataTypeService {
 	
-	public boolean NullCheck(ProfilerInfo profilerInfo);
+public Dimensions NullCheck(DatasetStats datasetStats);
 	
-	public boolean ConsistencyCheck(ProfilerInfo profilerInfo);
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats);
 	
-	public boolean ValidityCheck(ProfilerInfo profilerInfo);
+	public Dimensions ValidityCheck(DatasetStats datasetStats);
 	
-	public boolean AccuracyCheck(ProfilerInfo profilerInfo);
+	public Dimensions AccuracyCheck(DatasetStats datasetStats);
+	
 	
 }

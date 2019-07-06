@@ -1,17 +1,17 @@
 package com.data.datedatatype.service;
 
-import com.data.datedatatype.model.ColumnStatisticsModel;
-import com.data.datedatatype.model.ProfilerInfo;
+import com.data.datedatatype.model.DatasetStats;
+import com.data.datedatatype.model.Dimensions;
 
 public interface DateDataTypeService {
 	
-	public boolean NullCheck(ColumnStatisticsModel profilerInfo);
+	public Dimensions NullCheck(DatasetStats datasetStats);
 	
-	public boolean ConsistencyCheck(ColumnStatisticsModel profilerInfo);
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats);
 	
-	public boolean ValidityCheck(ColumnStatisticsModel profilerInfo);
+	public Dimensions ValidityCheck(DatasetStats datasetStats);
 	
-	public boolean AccuracyCheck(ColumnStatisticsModel profilerInfo);
+	public Dimensions AccuracyCheck(DatasetStats datasetStats);
 	
 	
 }
