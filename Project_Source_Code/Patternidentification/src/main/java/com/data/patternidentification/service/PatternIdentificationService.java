@@ -1,12 +1,12 @@
 package com.data.patternidentification.service;
 
-import java.util.Map;
-
-import org.json.JSONObject;
+import com.data.patternidentification.exception.PatternIdentificationException;
+import com.data.patternidentification.model.PatternIdentificationModel;
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 public interface PatternIdentificationService {
 
 
-	Map<String, Map<String, Map<String, Integer>>> getPatternidentificationData(String fileName);
+	PatternIdentificationModel getPatternidentificationData(String fileName) throws PatternIdentificationException, JsonProcessingException;
 
 }
