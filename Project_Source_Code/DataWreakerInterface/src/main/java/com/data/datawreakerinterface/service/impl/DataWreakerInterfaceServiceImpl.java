@@ -7,7 +7,7 @@ import org.bson.Document;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.data.datawreakerinterface.exception.PatternIdentificationException;
+import com.data.datawreakerinterface.exception.DataWreakernterfaceException;
 import com.data.datawreakerinterface.service.DataWreakerIntefaceService;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
@@ -18,7 +18,7 @@ import com.mongodb.client.MongoDatabase;
 @Transactional
 public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceService {
 
-	public String putCsvDataIntoMongo() throws PatternIdentificationException {
+	public String putCsvDataIntoMongo() throws DataWreakernterfaceException {
 		Runtime r = Runtime.getRuntime();
 		String fileName = null;
 		File dir = new File(
@@ -47,7 +47,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 			if (iterator.hasNext()) {
 				System.out.println("Data import has failed!!!!!!!!!!!!");
 				System.out.println("seems like collection with same dataset name already exist");
-				throw new PatternIdentificationException(com.data.datawreakerinterface.exception.ErrorCodes.SOMETHING_WENT_WRONG);
+				throw new DataWreakernterfaceException(com.data.datawreakerinterface.exception.ErrorCodes.SOMETHING_WENT_WRONG);
 			} 
 		}
 			catch (IOException e) {
