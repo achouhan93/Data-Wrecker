@@ -1,1 +1,4 @@
-com\data\DataWreakerInterface\DataWreakerInterface.class
+com\data\datawreakerinterface\DataWreakerInterface.class
+com\data\datawreakerinterface\controller\DataWreakerInterfaceController.class
+com\data\datawreakerinterface\service\impl\DataWreakerInterfaceServiceImpl.class
+com\data\datawreakerinterface\service\DataWreakerIntefaceService.class
