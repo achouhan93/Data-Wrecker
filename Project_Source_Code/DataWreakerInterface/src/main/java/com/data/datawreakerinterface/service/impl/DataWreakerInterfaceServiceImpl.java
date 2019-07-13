@@ -21,6 +21,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 	public String putCsvDataIntoMongo() throws DataWreakernterfaceException {
 		Runtime r = Runtime.getRuntime();
 		String fileName = null;
+		String database = "testdataset";
 		File dir = new File(
 				"D:\\software\\mongodb-win32-x86_64-2008plus-ssl-4.0.9\\mongodb-win32-x86_64-2008plus-ssl-4.0.9\\bin\\dataset");
 		try {
@@ -35,7 +36,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 			String[] collectionName= fileName.split("\\.");
 			System.out.println("Executing shell command to import file data into MongoDB");
 
-			r.exec("c:\\windows\\system32\\cmd.exe /c mongoimport -d testdataset -c " + collectionName[0]
+			r.exec("c:\\windows\\system32\\cmd.exe /c mongoimport -d "+database+" -c " + collectionName[0]
 					+ " --type csv --file " + fileName +" --headerline", null, dir);
 			
 			
