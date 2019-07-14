@@ -159,7 +159,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					}
 				}
 
-				columnPatternDetails.setColumnName(columnData.get(0));
+				columnPatternDetails.setColumnName(columnHeaders.get(z));
 				columnPatternDetails.setPropertyModel(propertyData);
 				columnPatternDetailsList.add(columnPatternDetails);
 				
