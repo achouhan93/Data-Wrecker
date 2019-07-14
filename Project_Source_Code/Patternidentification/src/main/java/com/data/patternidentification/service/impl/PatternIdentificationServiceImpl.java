@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -42,9 +41,10 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 	private ColumnPatternRepository columnPatternRepository;
 
 	@Override
-	public PatternIdentificationModel getPatternidentificationData(String fileName)
+	public PatternIdentificationModel getPatternidentificationData(String collectionName)
 			throws PatternIdentificationException {
 		LOGGER.info("Inside Service");
+		// mocking the object of columnheaderdata :::: expecting this array to be passed by orchestrator
 		List<String> columnHeaders = new ArrayList<String>();
 		columnHeaders.add("Date");
 		columnHeaders.add("statecode");
@@ -82,8 +82,8 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 			for (int z=0; z<columnHeaders.size();z++)
 			{
 			MongoClient mongoClient = new MongoClient();
-			MongoDatabase database = mongoClient.getDatabase("testdataset");
-			MongoCollection<Document> collection = database.getCollection("FL_insurance_sample");
+			MongoDatabase database = mongoClient.getDatabase("ReverseEngineering");
+			MongoCollection<Document> collection = database.getCollection(collectionName);
 			
 			List<String> columnData = new ArrayList<>();
 			try (MongoCursor<Document> cur = collection.find().iterator()) {
@@ -173,6 +173,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					com.data.patternidentification.exception.ErrorCodes.SOMETHING_WENT_WRONG);
 		}
 		patternIdentificationModel = new PatternIdentificationModel();
+		patternIdentificationModel.setFileName(collectionName);
 		patternIdentificationModel.setDatasetStats(columnPatternDetailsList);
 		columnPatternRepository.save(patternIdentificationModel);
 		return patternIdentificationModel;

@@ -7,6 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PatternIdentificationModel {
-	
+	String fileName;
 	List<ColumnPatternModel> datasetStats;
+	
 }
