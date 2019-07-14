@@ -41,15 +41,15 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 	private ColumnPatternRepository columnPatternRepository;
 
 	@Override
-	public PatternIdentificationModel getPatternidentificationData(String collectionName)
+	public PatternIdentificationModel getPatternidentificationData(String collectionName,List<String> columnHeaders)
 			throws PatternIdentificationException {
 		LOGGER.info("Inside Service");
 		// mocking the object of columnheaderdata :::: expecting this array to be passed by orchestrator
-		List<String> columnHeaders = new ArrayList<String>();
+		/*columnHeaders = new ArrayList<String>();
 		columnHeaders.add("Date");
 		columnHeaders.add("statecode");
 		columnHeaders.add("county");
-		columnHeaders.add("eq_site_limit");
+		columnHeaders.add("eq_site_limit");*/
 		
 		ColumnPatternModel columnPatternDetails = null;
 		PropertyModel propertyData = null;
@@ -142,7 +142,6 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 						// Existing pattern found
 						for (int j = 0; j < propertyData.getPatternModel().size(); j++) {
 							if (propertyData.getPatternModel().get(j).getPattern().equals(smallAphabetFillteredStr)) {
-								System.out.println("Match found");
 								occurancecnt = propertyData.getPatternModel().get(j).getOccurance() + 1;
 								propertyData.getPatternModel().get(j).setOccurance(occurancecnt);
 								matchFound = true;
@@ -217,5 +216,6 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		}
 		return dateFormats.get(dateFormatIterator);
 	}
+
 
 }
