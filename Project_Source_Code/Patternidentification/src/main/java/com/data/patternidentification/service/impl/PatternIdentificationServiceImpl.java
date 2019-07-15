@@ -49,7 +49,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		columnHeaders.add("statecode");
 		columnHeaders.add("county");
 		columnHeaders.add("eq_site_limit");*/
-		
+
 		ColumnPatternModel columnPatternDetails = null;
 		PropertyModel propertyData = null;
 		PatternIdentificationModel patternIdentificationModel = null;
@@ -72,25 +72,25 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 				LOGGER.info(columnData);
 */				//read dataset from mongo
 				//DB db = mongo.getDB("yourdb");
-				
+
 				//JSONObject completedataset = columnPatternRepository.findAll();
 			for (int z=0; z<columnHeaders.size();z++)
 			{
 			MongoClient mongoClient = new MongoClient();
 			MongoDatabase database = mongoClient.getDatabase("ReverseEngineering");
 			MongoCollection<Document> collection = database.getCollection(collectionName);
-			
+
 			List<String> columnData = new ArrayList<>();
 			try (MongoCursor<Document> cur = collection.find().iterator()) {
 				while (cur.hasNext()) {
 					columnData.add((String) cur.next().get(columnHeaders.get(z)).toString());
-				
+
 				}
 			}
 			mongoClient.close();
 			System.out.println("   "+columnData);
-		
-			
+
+
 				List<PatternModel> patternDataList = new ArrayList<PatternModel>();
 				propertyData = new PropertyModel();
 				for (int columnDataIterator = 0; columnDataIterator < columnData.size(); columnDataIterator++) {
@@ -156,10 +156,10 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 				columnPatternDetails.setColumnName(columnHeaders.get(z));
 				columnPatternDetails.setPropertyModel(propertyData);
 				columnPatternDetailsList.add(columnPatternDetails);
-				
+
 				columnData.clear();
 
-		
+
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

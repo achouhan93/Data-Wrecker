@@ -2,6 +2,9 @@ package com.data.patternidentification.controller;
 
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +30,12 @@ public class PatternIdentificationController {
 	@GetMapping("/getPossiblePatternsForData")
 	public PatternIdentificationModel patternIdentification(@RequestParam String fileName) throws PatternIdentificationException, JsonProcessingException {
 		LOGGER.info("Inside Patternidentification controller");
-		return patternIdentificationService.getPatternidentificationData(fileName);
+		List<String> columnHeaders = new ArrayList<String>();
+		columnHeaders.add("Date");
+		columnHeaders.add("statecode");
+		columnHeaders.add("county");
+		columnHeaders.add("eq_site_limit");
+		return patternIdentificationService.getPatternidentificationData(fileName,columnHeaders);
 
 	}
 }
