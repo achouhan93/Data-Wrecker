@@ -21,7 +21,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 	public String putCsvDataIntoMongo() throws DataWreakernterfaceException {
 		Runtime r = Runtime.getRuntime();
 		String fileName = null;
-		String database = "testdataset";
+		String database = "ReverseEngineering";
 		File dir = new File(
 				"D:\\software\\mongodb-win32-x86_64-2008plus-ssl-4.0.9\\mongodb-win32-x86_64-2008plus-ssl-4.0.9\\bin\\dataset");
 		try {
@@ -41,7 +41,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 			
 			
 			@SuppressWarnings("resource")
-			MongoDatabase mydatabase = new MongoClient().getDatabase("testdataset");
+			MongoDatabase mydatabase = new MongoClient().getDatabase("ReverseEngineering");
 			FindIterable<Document> mydatabaserecords = mydatabase.getCollection(collectionName[0]).find();
 			MongoCursor<Document> iterator = mydatabaserecords.iterator();
 			

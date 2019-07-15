@@ -10,6 +10,4 @@ import lombok.Setter;
 public class PatternIdentificationSubModel {
 	String columnPatternIdentified;
 	int occurance;
-	
-
 }

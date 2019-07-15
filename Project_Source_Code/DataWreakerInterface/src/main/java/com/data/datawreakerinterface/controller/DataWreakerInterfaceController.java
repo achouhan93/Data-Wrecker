@@ -27,7 +27,7 @@ public class DataWreakerInterfaceController {
 	public String DataPopulationIntoMongo() throws FileNotFoundException, IOException, DataWreakernterfaceException
 	{
 		LOGGER.info("DataPopulationIntoMongo controller");
-		return dataWreakerInterfaceService.putCsvDataIntoMongo();
+		return dataWreakerInterfaceService.putCsvDataIntoMongo().toString();
 		
 	}
 	

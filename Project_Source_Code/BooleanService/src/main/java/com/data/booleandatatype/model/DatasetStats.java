@@ -1,6 +1,5 @@
 package com.data.booleandatatype.model;
 
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -11,11 +10,11 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-@Document(collection = "DatasetStats")
+@Document(collection = "datasetStats")
 public class DatasetStats {
 
 	@Id
-	private ObjectId  _id;
+	private String  _id;
 	private String columnName;
 	private PropertyModel propertyModel;
 	private String columnDataType;

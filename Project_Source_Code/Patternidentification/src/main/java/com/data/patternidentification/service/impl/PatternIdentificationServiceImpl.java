@@ -1,4 +1,3 @@
-
 package com.data.patternidentification.service.impl;
 
 import java.text.ParseException;
@@ -7,7 +6,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -42,14 +40,15 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 	private ColumnPatternRepository columnPatternRepository;
 
 	@Override
-	public PatternIdentificationModel getPatternidentificationData(String fileName)
+	public PatternIdentificationModel getPatternidentificationData(String collectionName,List<String> columnHeaders)
 			throws PatternIdentificationException {
 		LOGGER.info("Inside Service");
-		List<String> columnHeaders = new ArrayList<String>();
+		// mocking the object of columnheaderdata :::: expecting this array to be passed by orchestrator
+		/*columnHeaders = new ArrayList<String>();
 		columnHeaders.add("Date");
 		columnHeaders.add("statecode");
 		columnHeaders.add("county");
-		columnHeaders.add("eq_site_limit");
+		columnHeaders.add("eq_site_limit");*/
 		
 		ColumnPatternModel columnPatternDetails = null;
 		PropertyModel propertyData = null;
@@ -59,20 +58,16 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 						/*File file = new File("D:\\FL_insurance_sample.csv");
 			// File file = new File("D:\\SRH_ACS\\research proj\\dataset\\dataset 1 -
 			List<String> lines = null;
-
 			lines = Files.readAllLines(file.toPath(), StandardCharsets.ISO_8859_1);
 			int i = 0;
-
 			do {
 				List<String> columnData = new ArrayList<>();
 				for (String line : lines) {
-
 					if (columnIterationCnt < lines.size()) {
 						String[] array = line.split(",");
 						columnCnt = array.length;
 						columnData.add(array[columnIterationCnt]);
 					}
-
 				}
 				LOGGER.info(columnData);
 */				//read dataset from mongo
@@ -82,8 +77,8 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 			for (int z=0; z<columnHeaders.size();z++)
 			{
 			MongoClient mongoClient = new MongoClient();
-			MongoDatabase database = mongoClient.getDatabase("testdataset");
-			MongoCollection<Document> collection = database.getCollection("FL_insurance_sample");
+			MongoDatabase database = mongoClient.getDatabase("ReverseEngineering");
+			MongoCollection<Document> collection = database.getCollection(collectionName);
 			
 			List<String> columnData = new ArrayList<>();
 			try (MongoCursor<Document> cur = collection.find().iterator()) {
@@ -142,7 +137,6 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 						// Existing pattern found
 						for (int j = 0; j < propertyData.getPatternModel().size(); j++) {
 							if (propertyData.getPatternModel().get(j).getPattern().equals(smallAphabetFillteredStr)) {
-								System.out.println("Match found");
 								occurancecnt = propertyData.getPatternModel().get(j).getOccurance() + 1;
 								propertyData.getPatternModel().get(j).setOccurance(occurancecnt);
 								matchFound = true;
@@ -159,7 +153,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					}
 				}
 
-				columnPatternDetails.setColumnName(columnData.get(0));
+				columnPatternDetails.setColumnName(columnHeaders.get(z));
 				columnPatternDetails.setPropertyModel(propertyData);
 				columnPatternDetailsList.add(columnPatternDetails);
 				
@@ -173,6 +167,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					com.data.patternidentification.exception.ErrorCodes.SOMETHING_WENT_WRONG);
 		}
 		patternIdentificationModel = new PatternIdentificationModel();
+		patternIdentificationModel.setFileName(collectionName);
 		patternIdentificationModel.setDatasetStats(columnPatternDetailsList);
 		columnPatternRepository.save(patternIdentificationModel);
 		return patternIdentificationModel;
@@ -216,5 +211,6 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		}
 		return dateFormats.get(dateFormatIterator);
 	}
+
 
 }
