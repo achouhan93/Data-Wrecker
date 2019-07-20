@@ -1,18 +1,16 @@
 package com.data.patternidentification.model;
 
-import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class ColumnPatternModel {
-	
-	@Id
-	 public ObjectId _id;
+public class DatasetStats {
 	String columnName;
 	PropertyModel propertyModel;
+	private String columnDataType;
+	private ColumnStats columnStats;
+	private DimensionServices dimensionServices;
 
 }

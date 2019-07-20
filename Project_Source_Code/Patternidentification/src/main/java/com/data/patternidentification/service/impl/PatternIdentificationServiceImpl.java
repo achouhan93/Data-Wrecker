@@ -5,23 +5,31 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.bson.Document;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.data.patternidentification.dao.PatternIdentificationDao;
 import com.data.patternidentification.exception.PatternIdentificationException;
-import com.data.patternidentification.model.ColumnPatternModel;
-import com.data.patternidentification.model.PatternIdentificationModel;
+import com.data.patternidentification.model.DatasetStats;
+import com.data.patternidentification.model.DataProfilerInfo;
 import com.data.patternidentification.model.PatternModel;
 import com.data.patternidentification.model.PropertyModel;
 import com.data.patternidentification.repositories.ColumnPatternRepository;
 import com.data.patternidentification.service.PatternIdentificationService;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
@@ -40,7 +48,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 	private ColumnPatternRepository columnPatternRepository;
 
 	@Override
-	public PatternIdentificationModel getPatternidentificationData(String collectionName,List<String> columnHeaders)
+	public DataProfilerInfo getPatternidentificationData(String collectionName)
 			throws PatternIdentificationException {
 		LOGGER.info("Inside Service");
 		// mocking the object of columnheaderdata :::: expecting this array to be passed by orchestrator
@@ -49,11 +57,13 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		columnHeaders.add("statecode");
 		columnHeaders.add("county");
 		columnHeaders.add("eq_site_limit");*/
+		
+		List<String> columnHeaders = getColumnNames("ReverseEngineering", collectionName);
 
-		ColumnPatternModel columnPatternDetails = null;
+		DatasetStats columnPatternDetails = null;
 		PropertyModel propertyData = null;
-		PatternIdentificationModel patternIdentificationModel = null;
-		List<ColumnPatternModel> columnPatternDetailsList = new ArrayList<ColumnPatternModel>();
+		DataProfilerInfo dataProfilerInfo = null;
+		List<DatasetStats> columnPatternDetailsList = new ArrayList<DatasetStats>();
 		try {
 						/*File file = new File("D:\\FL_insurance_sample.csv");
 			// File file = new File("D:\\SRH_ACS\\research proj\\dataset\\dataset 1 -
@@ -99,7 +109,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					String capAphabetFillteredStr = null;
 					String smallAphabetFillteredStr = null;
 					Boolean matchFound = false;
-					columnPatternDetails = new ColumnPatternModel();
+					columnPatternDetails = new DatasetStats();
 					/*if (columnDataIterator == 0) {
 						continue;
 					}*/
@@ -166,11 +176,11 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 			throw new PatternIdentificationException(
 					com.data.patternidentification.exception.ErrorCodes.SOMETHING_WENT_WRONG);
 		}
-		patternIdentificationModel = new PatternIdentificationModel();
-		patternIdentificationModel.setFileName(collectionName);
-		patternIdentificationModel.setDatasetStats(columnPatternDetailsList);
-		columnPatternRepository.save(patternIdentificationModel);
-		return patternIdentificationModel;
+		dataProfilerInfo = new DataProfilerInfo();
+		dataProfilerInfo.setFileName(collectionName);
+		dataProfilerInfo.setDatasetStats(columnPatternDetailsList);
+		columnPatternRepository.save(dataProfilerInfo);
+		return dataProfilerInfo;
 
 	}
 
@@ -212,5 +222,57 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		return dateFormats.get(dateFormatIterator);
 	}
 
+	@SuppressWarnings("deprecation")
+	public List<String> getColumnNames(String databaseName, String collectionName) {
+		Mongo mongo = new Mongo("localhost", 27017);
+		DB db = mongo.getDB(databaseName);
+		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
+		DBCursor cursor = collection.find();
+		JSONArray dbList = new JSONArray();
+		List<String> columnNamesList = new ArrayList<String>();
+		
+		while(cursor.hasNext()) {
+			String str = cursor.next().toString();
+			try {	
+				JSONObject jsnobj = new JSONObject(str);
+				dbList.put(jsnobj);				
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+		}
+		JSONObject json_obj;
+		try {
+			json_obj = dbList.getJSONObject(7);
+			Iterator columnNames = json_obj.keys();
+		
+			while(columnNames.hasNext()) {
+				String key = (String) columnNames.next();
+				columnNamesList.add(key);
+			}
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		for(int i =0; i< columnNamesList.size(); i++) {
+			if(columnNamesList.get(i).isEmpty() || columnNamesList.get(i).equals("_id") ) {
+				columnNamesList.remove(i);
+			}
+		}
+		/*for(int j = 0;  j< dbList.length(); j++ ) {
+			try {
+			
+				String jsonString =  dbList.getJSONObject(j).put("columnNames", columnNamesList).toString();
+				DBObject dbObj = (DBObject) JSON.parse(jsonString);
+				collection.save(dbObj);
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}*/
+		return columnNamesList;
+		
+	}
+	
 
 }

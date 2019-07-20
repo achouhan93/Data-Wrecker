@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.data.datawreakerinterface.exception.DataWreakernterfaceException;
+import com.data.datawreakerinterface.model.DatasetDetails;
 import com.data.datawreakerinterface.service.DataWreakerIntefaceService;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
@@ -18,12 +19,14 @@ import com.mongodb.client.MongoDatabase;
 @Transactional
 public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceService {
 
-	public String putCsvDataIntoMongo() throws DataWreakernterfaceException {
+	public DatasetDetails putCsvDataIntoMongo() throws DataWreakernterfaceException {
+		DatasetDetails dataSet = new DatasetDetails();
 		Runtime r = Runtime.getRuntime();
 		String fileName = null;
 		String database = "ReverseEngineering";
+		String[] collectionName = null;
 		File dir = new File(
-				"D:\\software\\mongodb-win32-x86_64-2008plus-ssl-4.0.9\\mongodb-win32-x86_64-2008plus-ssl-4.0.9\\bin\\dataset");
+				"F:\\Datasets");
 		try {
 			File[] listOfFiles = dir.listFiles();
 
@@ -33,7 +36,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 					fileName = listOfFiles[i].getName();
 				}
 			}
-			String[] collectionName= fileName.split("\\.");
+			collectionName= fileName.split("\\.");
 			System.out.println("Executing shell command to import file data into MongoDB");
 
 			r.exec("c:\\windows\\system32\\cmd.exe /c mongoimport -d "+database+" -c " + collectionName[0]
@@ -54,8 +57,9 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 			catch (IOException e) {
 				e.printStackTrace();
 			}
-		
-		return "Data imported from file to MongoDB Successfully";
+		dataSet.setResult("Data imported from file to MongoDB Successfully");
+		dataSet.setCollectionName(collectionName[0]);
+		return dataSet;
 	}
 
 }

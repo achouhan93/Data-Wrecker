@@ -15,7 +15,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.data.columnStatistics.dao.ColumnStatisticsDaoMongo;
-import com.data.columnStatistics.model.ColumnStatisticsModel;
+import com.data.columnStatistics.model.ColumnStats;
+import com.data.columnStatistics.model.DataProfilerInfo;
+import com.data.columnStatistics.model.DatasetStats;
+import com.data.columnStatistics.repository.ColumnStatsRepo;
 import com.data.columnStatistics.service.ColumnStatisticsService;
 
 @Service
@@ -24,11 +27,119 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 	@Autowired
 	// ColumnStatisticsDao columnStatisticsDao;
 	ColumnStatisticsDaoMongo columnStatisticsDaoMongo;
+	@Autowired
+	private ColumnStatsRepo columnStatsRepo;
+	
+	private String dbName = "ReverseEngineering";
+	private String collectionName = "dataProfilerInfo";
+	
 
 	@Override
 	public String getColumnStatistics(String dbName, String collectionName, String columnName, String columnDataType, String dateFormat, String booleanTrueValue, String booleanFalseValue) {
-		ColumnStatisticsModel columnStatisticsModel=new ColumnStatisticsModel();
-		List<String> columnValuesList = columnStatisticsDaoMongo.getColumnValues(dbName, collectionName, columnName);
+		String fileName = "testdatasetSample1";
+		DataProfilerInfo dataProfilerInfo = null;
+		List<DataProfilerInfo> dataProfilerInfoList = columnStatsRepo.findAll();
+		for(int i =0; i< dataProfilerInfoList.size(); i++) {
+			if(dataProfilerInfoList.get(i).getFileName().equals(fileName)) {
+				dataProfilerInfo = dataProfilerInfoList.get(i);
+				break;
+			}
+		}
+		
+		//List<DatasetStats> datasetStatsList = dataProfilerInfo.getDatasetStats();
+		
+		for(int j =0; j < dataProfilerInfo.getDatasetStats().size(); j++) {
+			
+			dataProfilerInfo.getDatasetStats().get(j).setColumnStats(performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy","Online","Offline"));	
+		}
+		
+		columnStatsRepo.save(dataProfilerInfo);
+		return "Done";
+	}
+
+	private double getAvgValueDecimal(List<String> columnValuesListWithoutNull) {
+		List<Double> columnValuesListWithoutNullDecimal = columnValuesListWithoutNull.stream()
+				.map(s -> Double.parseDouble(s)).collect(Collectors.toList());
+		return (double) columnValuesListWithoutNullDecimal.stream().mapToDouble(val -> val).average().orElse(0.0);
+	}
+
+	private double getMinValueDecimal(List<String> columnValuesListWithoutNull) {
+		List<Double> columnValuesListWithoutNullDecimal = columnValuesListWithoutNull.stream()
+				.map(s -> Double.parseDouble(s)).collect(Collectors.toList());
+		return Collections.min(columnValuesListWithoutNullDecimal);
+	}
+
+	private double getMaxValueDecimal(List<String> columnValuesListWithoutNull) {
+		List<Double> columnValuesListWithoutNullDecimal = columnValuesListWithoutNull.stream()
+				.map(s -> Double.parseDouble(s)).collect(Collectors.toList());
+		return Collections.max(columnValuesListWithoutNullDecimal);
+	}
+
+	private int getAvgValueInteger(List<String> columnValuesListWithoutNull) {
+		List<Integer> columnValuesListWithoutNullInteger = columnValuesListWithoutNull.stream()
+				.map(s -> Integer.parseInt(s)).collect(Collectors.toList());
+		return (int) columnValuesListWithoutNullInteger.stream().mapToInt(val -> val).average().orElse(0.0);
+	}
+
+	private int getMinValueInteger(List<String> columnValuesListWithoutNull) {
+		List<Integer> columnValuesListWithoutNullInteger = columnValuesListWithoutNull.stream()
+				.map(s -> Integer.parseInt(s)).collect(Collectors.toList());
+		return Collections.min(columnValuesListWithoutNullInteger);
+	}
+
+	private int getMaxValueInteger(List<String> columnValuesListWithoutNull) {
+		List<Integer> columnValuesListWithoutNullInteger = columnValuesListWithoutNull.stream()
+				.map(s -> Integer.parseInt(s)).collect(Collectors.toList());
+		return Collections.max(columnValuesListWithoutNullInteger);
+	}
+
+	private LocalDate getMinDate(List<String> columnValuesListWithoutNull,String dateFormat) {
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
+		List<LocalDate> columnValuesListWithoutNullDate= columnValuesListWithoutNull.stream().map(date -> LocalDate.parse(date, formatter)).collect(Collectors.toList());
+		return Collections.min(columnValuesListWithoutNullDate);
+	}
+
+	private LocalDate getMaxDate(List<String> columnValuesListWithoutNull,String dateFormat) {
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
+		List<LocalDate> columnValuesListWithoutNullDate= columnValuesListWithoutNull.stream().map(date -> LocalDate.parse(date, formatter)).collect(Collectors.toList());
+		return Collections.max(columnValuesListWithoutNullDate);
+	}
+
+	private int getAvgLength(List<String> columnValuesListWithoutNull) {
+		List<Integer> lengthOfEachValueList = getLengthOfEachValueList(columnValuesListWithoutNull);
+		return (int) lengthOfEachValueList.stream().mapToInt(val -> val).average().orElse(0.0);
+	}
+
+	private int getMinLength(List<String> columnValuesListWithoutNull) {
+		List<Integer> lengthOfEachValueList = getLengthOfEachValueList(columnValuesListWithoutNull);
+		Collections.sort(lengthOfEachValueList);
+		return lengthOfEachValueList.get(0);
+	}
+
+	private int getMaxLength(List<String> columnValuesListWithoutNull) {
+		List<Integer> lengthOfEachValueList = getLengthOfEachValueList(columnValuesListWithoutNull);
+		Collections.sort(lengthOfEachValueList);
+		return lengthOfEachValueList.get(lengthOfEachValueList.size() - 1);
+	}
+
+	private List<Integer> getLengthOfEachValueList(List<String> columnValuesListWithoutNull) {
+		List<Integer> lengthOfEachValueList = new ArrayList<>();
+		for (String strTemp : columnValuesListWithoutNull) {
+			lengthOfEachValueList.add(strTemp.length());
+		}
+		return lengthOfEachValueList;
+	}
+
+	private List<String> getListWithoutNull(List<String> list) {
+		return list.stream().filter(Objects::nonNull).collect(Collectors.toList());
+	}
+	
+	private ColumnStats performStatsOperation(DatasetStats datasetStats, String dateFormat, String booleanTrueValue, String booleanFalseValue) {
+		String columnName = datasetStats.getColumnName();
+		String columnDataType = "String";//datasetStats.getColumnDataType();
+		
+		ColumnStats columnStatisticsModel=new ColumnStats();
+		List<String> columnValuesList = columnStatisticsDaoMongo.getColumnValues(dbName, "testdatasetSample1", columnName);
 		int rowCount = columnValuesList.size();
 		columnStatisticsModel.setRowCount(rowCount);
 		System.out.println("");
@@ -158,85 +269,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		System.out.println("True Count: " + trueCount);
 		System.out.println("False Count: " + falseCount);
 		
-		columnStatisticsDaoMongo.saveColumnStatistics(columnStatisticsModel,dbName,collectionName,columnName);
-		return ("Service IMPL input column name : " + columnName);
-	}
-
-	private double getAvgValueDecimal(List<String> columnValuesListWithoutNull) {
-		List<Double> columnValuesListWithoutNullDecimal = columnValuesListWithoutNull.stream()
-				.map(s -> Double.parseDouble(s)).collect(Collectors.toList());
-		return (double) columnValuesListWithoutNullDecimal.stream().mapToDouble(val -> val).average().orElse(0.0);
-	}
-
-	private double getMinValueDecimal(List<String> columnValuesListWithoutNull) {
-		List<Double> columnValuesListWithoutNullDecimal = columnValuesListWithoutNull.stream()
-				.map(s -> Double.parseDouble(s)).collect(Collectors.toList());
-		return Collections.min(columnValuesListWithoutNullDecimal);
-	}
-
-	private double getMaxValueDecimal(List<String> columnValuesListWithoutNull) {
-		List<Double> columnValuesListWithoutNullDecimal = columnValuesListWithoutNull.stream()
-				.map(s -> Double.parseDouble(s)).collect(Collectors.toList());
-		return Collections.max(columnValuesListWithoutNullDecimal);
-	}
-
-	private int getAvgValueInteger(List<String> columnValuesListWithoutNull) {
-		List<Integer> columnValuesListWithoutNullInteger = columnValuesListWithoutNull.stream()
-				.map(s -> Integer.parseInt(s)).collect(Collectors.toList());
-		return (int) columnValuesListWithoutNullInteger.stream().mapToInt(val -> val).average().orElse(0.0);
-	}
-
-	private int getMinValueInteger(List<String> columnValuesListWithoutNull) {
-		List<Integer> columnValuesListWithoutNullInteger = columnValuesListWithoutNull.stream()
-				.map(s -> Integer.parseInt(s)).collect(Collectors.toList());
-		return Collections.min(columnValuesListWithoutNullInteger);
-	}
-
-	private int getMaxValueInteger(List<String> columnValuesListWithoutNull) {
-		List<Integer> columnValuesListWithoutNullInteger = columnValuesListWithoutNull.stream()
-				.map(s -> Integer.parseInt(s)).collect(Collectors.toList());
-		return Collections.max(columnValuesListWithoutNullInteger);
-	}
-
-	private LocalDate getMinDate(List<String> columnValuesListWithoutNull,String dateFormat) {
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
-		List<LocalDate> columnValuesListWithoutNullDate= columnValuesListWithoutNull.stream().map(date -> LocalDate.parse(date, formatter)).collect(Collectors.toList());
-		return Collections.min(columnValuesListWithoutNullDate);
-	}
-
-	private LocalDate getMaxDate(List<String> columnValuesListWithoutNull,String dateFormat) {
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
-		List<LocalDate> columnValuesListWithoutNullDate= columnValuesListWithoutNull.stream().map(date -> LocalDate.parse(date, formatter)).collect(Collectors.toList());
-		return Collections.max(columnValuesListWithoutNullDate);
-	}
-
-	private int getAvgLength(List<String> columnValuesListWithoutNull) {
-		List<Integer> lengthOfEachValueList = getLengthOfEachValueList(columnValuesListWithoutNull);
-		return (int) lengthOfEachValueList.stream().mapToInt(val -> val).average().orElse(0.0);
-	}
-
-	private int getMinLength(List<String> columnValuesListWithoutNull) {
-		List<Integer> lengthOfEachValueList = getLengthOfEachValueList(columnValuesListWithoutNull);
-		Collections.sort(lengthOfEachValueList);
-		return lengthOfEachValueList.get(0);
-	}
-
-	private int getMaxLength(List<String> columnValuesListWithoutNull) {
-		List<Integer> lengthOfEachValueList = getLengthOfEachValueList(columnValuesListWithoutNull);
-		Collections.sort(lengthOfEachValueList);
-		return lengthOfEachValueList.get(lengthOfEachValueList.size() - 1);
-	}
-
-	private List<Integer> getLengthOfEachValueList(List<String> columnValuesListWithoutNull) {
-		List<Integer> lengthOfEachValueList = new ArrayList<>();
-		for (String strTemp : columnValuesListWithoutNull) {
-			lengthOfEachValueList.add(strTemp.length());
-		}
-		return lengthOfEachValueList;
-	}
-
-	private List<String> getListWithoutNull(List<String> list) {
-		return list.stream().filter(Objects::nonNull).collect(Collectors.toList());
+		return columnStatisticsModel;
 	}
 
 }

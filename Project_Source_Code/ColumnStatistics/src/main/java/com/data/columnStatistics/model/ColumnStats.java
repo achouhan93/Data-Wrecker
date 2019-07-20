@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
-public class ColumnStatisticsModel {
+public class ColumnStats {
 	int rowCount;
 	int nullCount;
 	List<String> distinctValueList;

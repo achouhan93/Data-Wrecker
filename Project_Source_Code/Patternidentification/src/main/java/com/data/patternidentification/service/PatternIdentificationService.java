@@ -1,15 +1,13 @@
 package com.data.patternidentification.service;
 
-import java.util.List;
-
 import com.data.patternidentification.exception.PatternIdentificationException;
-import com.data.patternidentification.model.PatternIdentificationModel;
+import com.data.patternidentification.model.DataProfilerInfo;
 
 public interface PatternIdentificationService {
 
 
 
-	PatternIdentificationModel getPatternidentificationData(String collectionName, List<String> columnHeaders)
+	DataProfilerInfo getPatternidentificationData(String collectionName)
 			throws PatternIdentificationException;
 
 }

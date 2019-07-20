@@ -7,7 +7,7 @@ import org.bson.Document;
 import org.springframework.stereotype.Repository;
 
 import com.data.columnStatistics.dao.ColumnStatisticsDaoMongo;
-import com.data.columnStatistics.model.ColumnStatisticsModel;
+import com.data.columnStatistics.model.ColumnStats;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
@@ -19,9 +19,9 @@ public class ColumnSatisticsDaoMongoImpl implements ColumnStatisticsDaoMongo {
 
 	@Override
 	public List<String> getColumnValues(String dbName, String collectionName, String columnName) {
-
+		
 		MongoClient mongoClient = new MongoClient();
-		MongoDatabase database = mongoClient.getDatabase("test");
+		MongoDatabase database = mongoClient.getDatabase(dbName);
 		MongoCollection<Document> collection = database.getCollection(collectionName);
 		List<String> items = new ArrayList<>();
 		try (MongoCursor<Document> cur = collection.find().iterator()) {
@@ -34,12 +34,12 @@ public class ColumnSatisticsDaoMongoImpl implements ColumnStatisticsDaoMongo {
 	}
 
 	@Override
-	public void saveColumnStatistics(ColumnStatisticsModel columnStatisticsModel, String dbName, String collectionName, String columnName) {
+	public void saveColumnStatistics(ColumnStats columnStatisticsModel, String dbName, String collectionName, String columnName) {
 		MongoClient mongoClient = new MongoClient();
 		MongoDatabase database = mongoClient.getDatabase(dbName);
 		String collectionNameToStoreStatistics=collectionName+columnName+"Statistics";
 		boolean collectionExists=checkCollection(database,collectionNameToStoreStatistics);
-		System.out.println("------------collectionNameToStore------------  "+collectionNameToStoreStatistics);
+		System.out.println("------------collectionNameToStore------------"+collectionNameToStoreStatistics);
 		if (!collectionExists) {
 			database.createCollection(collectionNameToStoreStatistics);
 		}
@@ -82,5 +82,4 @@ public class ColumnSatisticsDaoMongoImpl implements ColumnStatisticsDaoMongo {
 	    }
 		return false;
 	}
-
 }

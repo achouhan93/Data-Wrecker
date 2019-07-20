@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.data.datawreakerinterface.exception.DataWreakernterfaceException;
+import com.data.datawreakerinterface.model.DatasetDetails;
 import com.data.datawreakerinterface.service.DataWreakerIntefaceService;
 
 @RestController
@@ -24,10 +25,10 @@ public class DataWreakerInterfaceController {
 
 	
 	@GetMapping("/dataPopulation")
-	public String DataPopulationIntoMongo() throws FileNotFoundException, IOException, DataWreakernterfaceException
+	public DatasetDetails DataPopulationIntoMongo() throws FileNotFoundException, IOException, DataWreakernterfaceException
 	{
 		LOGGER.info("DataPopulationIntoMongo controller");
-		return dataWreakerInterfaceService.putCsvDataIntoMongo().toString();
+		return dataWreakerInterfaceService.putCsvDataIntoMongo();
 		
 	}
 	
