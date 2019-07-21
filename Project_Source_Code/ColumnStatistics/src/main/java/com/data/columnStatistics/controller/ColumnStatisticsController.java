@@ -21,10 +21,4 @@ public class ColumnStatisticsController {
 		String booleanFalseValue="Offline";//False/0/N/n
 		return "Column Statistics Working "+columnStatisticsService.getColumnStatistics(fileName,dateFormat, booleanTrueValue, booleanFalseValue);
 	}
-//	@GetMapping("/getCSV")
-//	public String getCSV() {
-//		return columnStatisticsService.getCSV();
-//	}
-	
-	
 }

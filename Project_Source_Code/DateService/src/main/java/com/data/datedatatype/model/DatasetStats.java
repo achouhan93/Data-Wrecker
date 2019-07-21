@@ -12,12 +12,13 @@ import lombok.ToString;
 @ToString
 @Document(collection = "datasetStats")
 public class DatasetStats {
+	
 	@Id
 	private String  _id;
 	private String columnName;
 	private PropertyModel propertyModel;
 	private String columnDataType;
 	private ColumnStats columnStats;
-	private DimensionServices dimensionServices;
+	private DimensionsInfoModel dimensionInfo;
 
 }

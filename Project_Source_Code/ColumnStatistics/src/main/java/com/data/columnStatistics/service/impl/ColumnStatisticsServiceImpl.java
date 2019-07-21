@@ -174,8 +174,8 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
         while(iterator.hasNext()) {
         	Map.Entry<String, Long> entry = iterator.next(); 
         	frequencyOfColumnValues = new FrequencyOfColumnValues();
-        	frequencyOfColumnValues.setColumnValue(entry.getKey());
-        	frequencyOfColumnValues.setValueCount(entry.getValue());
+        	frequencyOfColumnValues.setColumnDistinctValue(entry.getKey());
+        	frequencyOfColumnValues.setColumnDistinctValueOccurance(entry.getValue());
         	frequencyOfColumnValuesList.add(frequencyOfColumnValues);
         }
         
@@ -187,7 +187,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		// columnStatisticsModel.setFrequencyOfColumnValuesMap(null);
 		//setFrequencyOfColumnValuesMap();
 		// Unique values list
-		columnStatisticsModel.setFrequencyOfColumn(frequencyOfColumnValuesList);
+		columnStatisticsModel.setFrequencyOfColumnValues(frequencyOfColumnValuesList);
 		List<String> uniqueValuesList = new ArrayList<>();
 		List<String> duplicateValuesList = new ArrayList<>();
 		int uniqueCount = 0;

@@ -2,7 +2,6 @@ package com.data.columnStatistics.model;
 
 import java.time.LocalDate;
 import java.util.List;
-import java.util.Map;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +14,7 @@ public class ColumnStats {
 	int nullCount;
 	List<String> distinctValueList;
 	int distinctCount;
-	List<FrequencyOfColumnValues> frequencyOfColumn;
+	List<FrequencyOfColumnValues> frequencyOfColumnValues;
 	List<String> uniqueValuesList;
 	List<String> duplicateValuesList;
 	int uniqueCount;

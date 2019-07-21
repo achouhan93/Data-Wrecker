@@ -9,7 +9,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class DimensionServices {
+public class DimensionsInfoModel {
 
 	private List<Dimensions> dimensionsList;
 }

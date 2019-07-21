@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.data.datedatatype.model.DatasetStats;
-import com.data.datedatatype.model.DimensionServices;
+import com.data.datedatatype.model.DimensionsInfoModel;
 import com.data.datedatatype.model.Dimensions;
 import com.data.datedatatype.repository.DatasetStatsInfoRepository;
 import com.data.datedatatype.service.DatasetStatsProcessingService;
@@ -29,7 +29,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	@Override
 	public List<Dimensions> getDimensionResults(String columnName) {
 	
-		DimensionServices dimensionServices = new DimensionServices();
+		DimensionsInfoModel dimensionServices = new DimensionsInfoModel();
 		dimensionsList = new ArrayList<Dimensions>();
 		datasetStatsList = datasetStatsRepo.findAll();
 		datasetStats = getDatasetThroughColumnName(columnName,datasetStatsList);
@@ -54,9 +54,9 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	}
 	
 	private boolean updateDimensionList(DatasetStats updatdeDatasetStats, List<Dimensions> newDimensionsList) {
-		DimensionServices dimensionServices = new DimensionServices();
+		DimensionsInfoModel dimensionServices = new DimensionsInfoModel();
 		dimensionServices.setDimensionsList(newDimensionsList);
-		updatdeDatasetStats.setDimensionServices(dimensionServices);
+		updatdeDatasetStats.setDimensionInfo(dimensionServices);
 		datasetStatsRepo.save(updatdeDatasetStats);
 		return false;
 	}
