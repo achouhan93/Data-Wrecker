@@ -49,7 +49,6 @@ public class ColumnSatisticsDaoMongoImpl implements ColumnStatisticsDaoMongo {
 				.append("nullCount", columnStatisticsModel.getNullCount())
 				.append("distinctValueList", columnStatisticsModel.getDistinctValueList())
 				.append("distinctCount", columnStatisticsModel.getDistinctCount())
-				.append("frequencyOfColumnValuesMap", columnStatisticsModel.getFrequencyOfColumnValuesMap())
 				.append("uniqueValuesList", columnStatisticsModel.getUniqueValuesList())
 				.append("duplicateValuesList", columnStatisticsModel.getDuplicateValuesList())
 				.append("uniqueCount",columnStatisticsModel.getUniqueCount())
