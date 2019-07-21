@@ -8,9 +8,7 @@ import lombok.Setter;
 @Setter
 public class DatasetStats {
 	String columnName;
-	PropertyModel propertyModel;
-	private String columnDataType;
-	private ColumnStats columnStats;
-	private DimensionServices dimensionServices;
+	ProfilingInfoModel profilingInfo;
+	DimensionInfoModel dimentionList;
 
 }

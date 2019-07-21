@@ -7,8 +7,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PropertyModel {
-	//String propertyName;
-	List<PatternModel> patternModel;
-
+public class ProfilingInfoModel {
+	
+	List<PatternModel> patternsIdentified;
+	String columnDataType;
+	ColumnStats columnStats;
 }

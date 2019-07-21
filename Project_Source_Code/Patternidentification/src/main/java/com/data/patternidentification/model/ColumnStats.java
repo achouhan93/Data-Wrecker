@@ -16,7 +16,7 @@ public class ColumnStats {
 	int nullCount;
 	List<String> distinctValueList;
 	int distinctCount;
-	Map<String, Long> frequencyOfColumnValuesMap;
+	List<FrequencyOfColumnValues> frequencyOfColumnValues;
 	List<String> uniqueValuesList;
 	List<String> duplicateValuesList;
 	int uniqueCount;
