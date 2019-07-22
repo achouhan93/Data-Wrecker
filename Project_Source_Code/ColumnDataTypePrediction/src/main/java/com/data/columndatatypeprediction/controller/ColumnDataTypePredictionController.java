@@ -1,12 +1,11 @@
 package com.data.columndatatypeprediction.controller;
 
 import java.io.IOException;
-import java.util.Map;
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONException;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,10 +25,11 @@ public class ColumnDataTypePredictionController {
 	ColumnDataTypePredictionService columnDataTypePredictionService;
 	
 	@GetMapping("/getDataTypeOfAColumns")
-	public Map<String, String> columnDataTypePrediction(String patternIdentificationFilepath) throws JSONException, JsonParseException, JsonMappingException, IOException
+	public String columnDataTypePrediction(String collectionName) throws JSONException, JsonParseException, JsonMappingException, IOException
 	{
 		LOGGER.info("Inside columnDataTypePrediction controller");
-		return columnDataTypePredictionService.getColumnDataTypePrediction(patternIdentificationFilepath);
+		List<String> columnHeader = null;
+		return columnDataTypePredictionService.getColumnDataTypePrediction(collectionName,columnHeader);
 		
 	}
 }
