@@ -2,8 +2,7 @@ package com.data.datedatatype.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.data.datedatatype.model.DatasetStats;
+import com.data.datedatatype.model.DataProfilerInfo;
 
-public interface DatasetStatsInfoRepository extends MongoRepository<DatasetStats, String>{
-
+public interface DatasetStatsInfoRepository extends MongoRepository<DataProfilerInfo, String>{
 }

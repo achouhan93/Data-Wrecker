@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PatternModel {
-	int occurance ;
-	String pattern;
+public class PatternIdentificationResponseModel {
+	private String errorMessage;
+
 }

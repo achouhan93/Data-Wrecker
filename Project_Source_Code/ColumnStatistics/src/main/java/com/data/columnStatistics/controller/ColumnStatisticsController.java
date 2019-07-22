@@ -9,16 +9,21 @@ import org.springframework.web.bind.annotation.RestController;
 import com.data.columnStatistics.service.ColumnStatisticsService;
 
 @RestController
-@RequestMapping("/column-statistics")
+@RequestMapping("/columnStatistics")
 public class ColumnStatisticsController {
 	
 	@Autowired
 	ColumnStatisticsService columnStatisticsService;
-	@GetMapping("/")
+	@GetMapping("/getColumnStats")
 	public String getColumnStatistics(@RequestParam String fileName) {
 		String dateFormat="dd-MM-yy";
 		String booleanTrueValue="Online";//True/1/Y/y
 		String booleanFalseValue="Offline";//False/0/N/n
-		return "Column Statistics Working "+columnStatisticsService.getColumnStatistics(fileName,dateFormat, booleanTrueValue, booleanFalseValue);
+		String status = columnStatisticsService.getColumnStatistics(fileName,dateFormat, booleanTrueValue, booleanFalseValue);
+		if(status.equals("Success")) {
+			return "Success";
+		}else {
+			return "Error";
+		}
 	}
 }

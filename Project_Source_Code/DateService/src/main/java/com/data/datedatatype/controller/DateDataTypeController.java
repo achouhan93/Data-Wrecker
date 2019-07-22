@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.data.datedatatype.model.DatasetStats;
+import com.data.datedatatype.model.DataProfilerInfo;
 import com.data.datedatatype.model.Dimensions;
 import com.data.datedatatype.repository.DatasetStatsInfoRepository;
 import com.data.datedatatype.service.DatasetStatsProcessingService; 
@@ -22,19 +22,19 @@ public class DateDataTypeController {
 	private DatasetStatsInfoRepository datasetStatsRepo;
 	@Autowired
 	private DatasetStatsProcessingService datasetStatsProcessingService;
-	private List<DatasetStats> datasetStatsList;
+	private List<DataProfilerInfo> datasetStatsList;
 
 
 
 	@RequestMapping(value = "/datasetStats", method = RequestMethod.GET)
-	public List<DatasetStats> getStats() {
+	public List<DataProfilerInfo> getStats() {
 		datasetStatsList = datasetStatsRepo.findAll();
 		return datasetStatsList;
 	}
 	
 	@RequestMapping(value = "/dateDatatypeDimensions", method = RequestMethod.GET)
-	public List<Dimensions> getDimensionResults(@RequestParam String columnName){
-		return datasetStatsProcessingService.getDimensionResults(columnName);
+	public List<Dimensions> getDimensionResults(@RequestParam String fileName){
+		return datasetStatsProcessingService.getDimensionResults(fileName);
 	}
 	
 }

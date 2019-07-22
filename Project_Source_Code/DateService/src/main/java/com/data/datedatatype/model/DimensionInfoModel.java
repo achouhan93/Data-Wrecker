@@ -4,12 +4,9 @@ import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 @Getter
 @Setter
-@ToString
-public class DimensionsInfoModel {
-
-	private List<Dimensions> dimensionsList;
+public class DimensionInfoModel {
+	List<Dimensions> dimensionsList;
 }

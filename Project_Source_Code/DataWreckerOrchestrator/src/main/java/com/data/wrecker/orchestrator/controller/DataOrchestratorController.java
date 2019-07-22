@@ -15,7 +15,7 @@ public class DataOrchestratorController {
 
 	@Autowired
 	GetProfilerInfoFromServices callPatternIdentificationService;
-	@Autowired
+	
 	private DataProfilerInfo dataProfilerInfo;
 	
 	@GetMapping("/start")
@@ -27,5 +27,10 @@ public class DataOrchestratorController {
 	@GetMapping("/getColumnDatatype")
 	public DataProfilerInfo getColumnDatatype() {
 		return null;
+	}
+	
+	@GetMapping("/getColumnStatistics")
+	public String getColumnStats(@RequestParam String fileName) {
+		return callPatternIdentificationService.callColumnStatisticsService(fileName);	
 	}
 }

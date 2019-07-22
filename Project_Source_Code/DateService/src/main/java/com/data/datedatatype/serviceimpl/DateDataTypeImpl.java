@@ -27,7 +27,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		
 		dimensions = new Dimensions();
 		
-		if(datasetStats.getColumnStats().getNullCount() > 20) {
+		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > 20) {
 			dimensions.setDimensionName("NullCheck");
 			dimensions.setStatus(false);
 			dimensions.setReason("The number of null values exceeds 20");
@@ -44,7 +44,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	public Dimensions ConsistencyCheck(DatasetStats datasetStats) {
 		dimensions = new Dimensions();
 		
-		if(datasetStats.getPropertyModel().getPatternModel().size() > 1) {
+		if(datasetStats.getProfilingInfo().getPatternsIdentified().size() > 1) {
 			if(isConsistent(datasetStats)) {
 				dimensions.setDimensionName("ConsistencyCheck");
 				dimensions.setStatus(true);
@@ -91,16 +91,9 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		
 	}
 	
-	
-	
-	/*private int getAvgWrecking(int wreckingPercentage, int totalRows) {
-		return (wreckingPercentage * totalRows)/4;
-	}*/
-	
-
 	private boolean isConsistent(DatasetStats datasetStats) {
 		int totalCount = 0;
-		List<PatternModel> patternModelList = datasetStats.getPropertyModel().getPatternModel(); 
+		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified(); 
 		ArrayList<Integer> regexCounts = new ArrayList<Integer>();
 		for(int i=0; i< patternModelList.size(); i++) {			
 			regexCounts.add(patternModelList.get(i).getOccurance());
@@ -118,11 +111,11 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	private boolean isValid(DatasetStats datasetStats) {
 			
 		
-		if(!(datasetStats.getColumnStats().getMinLength() == datasetStats.getColumnStats().getMaxLength() && 
-				datasetStats.getColumnStats().getMaxLength() == datasetStats.getColumnStats().getAverageLength())) {
-			int minLength = datasetStats.getColumnStats().getMinLength();
-			int maxLength = datasetStats.getColumnStats().getMaxLength();
-			int avgLength = datasetStats.getColumnStats().getAverageLength();
+		if(!(datasetStats.getProfilingInfo().getColumnStats().getMinLength() == datasetStats.getProfilingInfo().getColumnStats().getMaxLength() && 
+				datasetStats.getProfilingInfo().getColumnStats().getMaxLength() == datasetStats.getProfilingInfo().getColumnStats().getAverageLength())) {
+			int minLength = datasetStats.getProfilingInfo().getColumnStats().getMinLength();
+			int maxLength = datasetStats.getProfilingInfo().getColumnStats().getMaxLength();
+			int avgLength = datasetStats.getProfilingInfo().getColumnStats().getAverageLength();
 			int maxValue = getMaxValue(minLength, maxLength, avgLength);
 			
 			if(maxValue == avgLength) {

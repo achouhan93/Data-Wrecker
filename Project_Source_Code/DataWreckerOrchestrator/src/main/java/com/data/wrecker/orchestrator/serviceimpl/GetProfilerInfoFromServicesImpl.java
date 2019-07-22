@@ -23,9 +23,10 @@ public class GetProfilerInfoFromServicesImpl implements GetProfilerInfoFromServi
 	}
 
 	@Override
-	public DataProfilerInfo callColumnStatisticsService() {
+	public String callColumnStatisticsService(String filename) {
 		// TODO Auto-generated method stub
-		return null;
+		String resp = new RestTemplate().getForObject("http://localhost:8080/columnStatistics/getColumnStats?fileName="+filename, String.class);
+		return resp;
 	}
 	
 	

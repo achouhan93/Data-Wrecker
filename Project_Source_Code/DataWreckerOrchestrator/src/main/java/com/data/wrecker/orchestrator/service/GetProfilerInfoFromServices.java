@@ -8,7 +8,7 @@ public interface GetProfilerInfoFromServices {
 	
 	public DataProfilerInfo callColumnDatatypePredictionService();
 	
-	public DataProfilerInfo callColumnStatisticsService();
+	public String callColumnStatisticsService(String filename);
 	
 	
 	

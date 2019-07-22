@@ -54,10 +54,11 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		for (int j = 0; j < dataProfilerInfo.getDatasetStats().size(); j++) {
 			dataProfilerInfo.getDatasetStats().get(j).setColumnStats(
 					performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy", "Online", "Offline"));
+			dataProfilerInfo.getDatasetStats().get(j).setColumnDataType("String");
 		}
 		
 		columnStatsRepo.save(dataProfilerInfo);
-		return "Done";
+		return "Success";
 	}
 
 	private double getAvgValueDecimal(List<String> columnValuesListWithoutNull) {
