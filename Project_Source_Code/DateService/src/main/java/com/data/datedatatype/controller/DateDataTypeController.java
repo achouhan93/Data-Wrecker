@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.data.datedatatype.model.DataProfilerInfo;
-import com.data.datedatatype.model.Dimensions;
 import com.data.datedatatype.repository.DatasetStatsInfoRepository;
 import com.data.datedatatype.service.DatasetStatsProcessingService; 
 
@@ -33,7 +32,7 @@ public class DateDataTypeController {
 	}
 	
 	@RequestMapping(value = "/dateDatatypeDimensions", method = RequestMethod.GET)
-	public List<Dimensions> getDimensionResults(@RequestParam String fileName, @RequestParam int wreckingPercentage){
+	public String getDimensionResults(@RequestParam String fileName, @RequestParam int wreckingPercentage){
 		return datasetStatsProcessingService.getDimensionResults(fileName,wreckingPercentage);
 	}
 	

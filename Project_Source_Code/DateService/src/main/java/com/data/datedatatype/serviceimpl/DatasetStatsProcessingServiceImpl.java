@@ -29,8 +29,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	private List<Dimensions> dimensionsList;
 	
 	@Override
-	public List<Dimensions> getDimensionResults(String fileName,int wreckingPercentage) {
-	
+	public String getDimensionResults(String fileName,int wreckingPercentage) {	
 		
 		dimensionsList = new ArrayList<Dimensions>();
 		dataProfilerInfoList = datasetStatsRepo.findAll();
@@ -45,9 +44,11 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 		datasetStatsList =getDimensionResults(dataProfilerInfo.getDatasetStats(),wreckingPercentage);
 		dataProfilerInfo.setDatasetStats(datasetStatsList);
 		
-		
-		updateDimensionList(dataProfilerInfo);
-		return null;
+		if(updateDimensionList(dataProfilerInfo)) {
+			return "Success";
+		}else {
+			return "Fail";
+		}		
 	}
 
 	

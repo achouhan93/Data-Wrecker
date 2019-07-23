@@ -6,7 +6,7 @@ public interface CallDataTypeServices {
 	
 	public String callCharacterService(String fileName);
 	
-	public String callDateService(String fileName);
+	public String callDateService(String fileName,int wreckingPercentage);
 	
 	public String callStringService(String fileName);
 	
