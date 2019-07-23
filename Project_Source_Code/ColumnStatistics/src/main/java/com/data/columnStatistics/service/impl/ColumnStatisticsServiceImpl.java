@@ -62,7 +62,10 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 			columnPatternModel.addAll(dataProfilerInfo.getDatasetStats());
 			/*dataProfilerInfo.getDatasetStats().get(j).setColumnStats(
 					performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy", "Online", "Offline"));*/
-			columnStats = performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy", "Online", "Offline");
+			columnStats = new ColumnStats();
+			profilingInfoModel = new ProfilingInfoModel();
+			columnStats = performStatsOperation(dataProfilerInfo.getDatasetStats().get(j),fileName, "dd-MM-yy", "Online", "Offline");
+			
 			profilingInfoModel.setColumnDataType(dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().getColumnDataType());
 			profilingInfoModel.setPatternsIdentified(dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().getPatternsIdentified());
 			profilingInfoModel.setColumnStats(columnStats);
@@ -70,7 +73,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 
 			columnPatternModel.get(j).setProfilingInfo(profilingInfoModel);
 
-			dataProfilerInfo.setDatasetStats(columnPatternModel);
+			dataProfilerInfo.getDatasetStats().get(j).setProfilingInfo(profilingInfoModel);
 
 		}
 		System.out.println("dataProfilerInfo "+dataProfilerInfo);
@@ -157,12 +160,12 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		return list.stream().filter(Objects::nonNull).collect(Collectors.toList());
 	}
 
-	private ColumnStats performStatsOperation(DatasetStats datasetStats, String dateFormat, String booleanTrueValue, String booleanFalseValue) {
+	private ColumnStats performStatsOperation(DatasetStats datasetStats,String fileName, String dateFormat, String booleanTrueValue, String booleanFalseValue) {
 		String columnName = datasetStats.getColumnName();
 		String columnDataType = "String";//datasetStats.getColumnDataType();
 
 		ColumnStats columnStatisticsModel=new ColumnStats();
-		List<String> columnValuesList = columnStatisticsDaoMongo.getColumnValues(dbName, "dataset2", columnName);
+		List<String> columnValuesList = columnStatisticsDaoMongo.getColumnValues(dbName, fileName, columnName);
 		int rowCount = columnValuesList.size();
 		columnStatisticsModel.setRowCount(rowCount);
 		System.out.println("");
