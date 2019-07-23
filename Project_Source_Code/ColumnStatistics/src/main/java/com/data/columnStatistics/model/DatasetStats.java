@@ -9,8 +9,7 @@ import lombok.Setter;
 public class DatasetStats {
 	
 	private String columnName;
-	private PropertyModel propertyModel;
-	private String columnDataType;
-	private ColumnStats columnStats;
-	private DimensionServices dimensionServices;
+	private ProfilingInfoModel profilingInfo;
+	private DimensionInfoModel dimensionServices;
+	
 }

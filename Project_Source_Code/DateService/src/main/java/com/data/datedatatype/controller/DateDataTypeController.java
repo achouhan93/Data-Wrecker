@@ -33,8 +33,8 @@ public class DateDataTypeController {
 	}
 	
 	@RequestMapping(value = "/dateDatatypeDimensions", method = RequestMethod.GET)
-	public List<Dimensions> getDimensionResults(@RequestParam String fileName){
-		return datasetStatsProcessingService.getDimensionResults(fileName);
+	public List<Dimensions> getDimensionResults(@RequestParam String fileName, @RequestParam int wreckingPercentage){
+		return datasetStatsProcessingService.getDimensionResults(fileName,wreckingPercentage);
 	}
 	
 }

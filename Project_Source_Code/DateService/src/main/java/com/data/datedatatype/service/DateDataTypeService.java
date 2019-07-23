@@ -5,13 +5,13 @@ import com.data.datedatatype.model.Dimensions;
 
 public interface DateDataTypeService {
 	
-	public Dimensions NullCheck(DatasetStats datasetStats);
+	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
-	public Dimensions ConsistencyCheck(DatasetStats datasetStats);
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
-	public Dimensions ValidityCheck(DatasetStats datasetStats);
+	public Dimensions ValidityCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
-	public Dimensions AccuracyCheck(DatasetStats datasetStats);
+	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
 	
 }

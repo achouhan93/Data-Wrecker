@@ -6,5 +6,5 @@ import com.data.datedatatype.model.Dimensions;
 
 public interface DatasetStatsProcessingService {
 
-	public List<Dimensions> getDimensionResults(String columnName);
+	public List<Dimensions> getDimensionResults(String columnName, int wreckingPercentage);
 }

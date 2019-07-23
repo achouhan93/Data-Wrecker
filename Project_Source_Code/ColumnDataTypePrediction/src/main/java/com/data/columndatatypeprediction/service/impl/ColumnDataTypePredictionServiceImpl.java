@@ -2,7 +2,6 @@ package com.data.columndatatypeprediction.service.impl;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -38,10 +37,11 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 
 		// get header of the dataset
 		List<String> columnHeader1 = new ArrayList<String>();
-		columnHeader1.add("eq_site_limit");
-		columnHeader1.add("county");
-		columnHeader1.add("statecode");
-		columnHeader1.add("Date");
+		columnHeader1.add("Last");
+		columnHeader1.add("Agency");
+		columnHeader1.add("Base Salary");
+		columnHeader1.add("Title");
+		columnHeader1.add("First");
 		List<DataSetStats> columnPatternModel = null;
 		ProfilingInfoModel profilingInfoModel = new ProfilingInfoModel();
 		List<DataProfilerInfo> datasetStatsList = columnPatternRepository.findAll();

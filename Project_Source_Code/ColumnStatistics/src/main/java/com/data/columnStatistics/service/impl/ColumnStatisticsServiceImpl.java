@@ -52,9 +52,8 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		// List<DatasetStats> datasetStatsList = dataProfilerInfo.getDatasetStats();
 
 		for (int j = 0; j < dataProfilerInfo.getDatasetStats().size(); j++) {
-			dataProfilerInfo.getDatasetStats().get(j).setColumnStats(
+			dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().setColumnStats(
 					performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy", "Online", "Offline"));
-			dataProfilerInfo.getDatasetStats().get(j).setColumnDataType("String");
 		}
 		
 		columnStatsRepo.save(dataProfilerInfo);

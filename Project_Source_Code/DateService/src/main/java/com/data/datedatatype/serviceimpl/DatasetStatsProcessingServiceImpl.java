@@ -29,7 +29,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	private List<Dimensions> dimensionsList;
 	
 	@Override
-	public List<Dimensions> getDimensionResults(String fileName) {
+	public List<Dimensions> getDimensionResults(String fileName,int wreckingPercentage) {
 	
 		
 		dimensionsList = new ArrayList<Dimensions>();
@@ -38,12 +38,11 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 			if(dataProfilerInfoList.get(i).getFileName().equals(fileName)) {
 				dataProfilerInfo = new DataProfilerInfo();
 				dataProfilerInfo = dataProfilerInfoList.get(i);
-				break;
-				
+				break;				
 			}
 		}
 		
-		datasetStatsList =getDimensionResults(dataProfilerInfo.getDatasetStats());
+		datasetStatsList =getDimensionResults(dataProfilerInfo.getDatasetStats(),wreckingPercentage);
 		dataProfilerInfo.setDatasetStats(datasetStatsList);
 		
 		
@@ -62,14 +61,14 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 		
 	}
 	
-	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList) {
+	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
 		DimensionInfoModel dimensionServices = new DimensionInfoModel();
 		for(int j =0; j< datasetStatsList.size(); j++) {
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("Date")) {
-				dimensionsList.add(dateService.NullCheck(datasetStatsList.get(j)));
-				dimensionsList.add(dateService.AccuracyCheck(datasetStatsList.get(j)));
-				dimensionsList.add(dateService.ConsistencyCheck(datasetStatsList.get(j)));
-				dimensionsList.add(dateService.ValidityCheck(datasetStatsList.get(j)));
+				dimensionsList.add(dateService.NullCheck(datasetStatsList.get(j),wreckingPercentage));
+				dimensionsList.add(dateService.AccuracyCheck(datasetStatsList.get(j),wreckingPercentage));
+				dimensionsList.add(dateService.ConsistencyCheck(datasetStatsList.get(j),wreckingPercentage));
+				dimensionsList.add(dateService.ValidityCheck(datasetStatsList.get(j),wreckingPercentage));
 				dimensionServices = new DimensionInfoModel();
 				dimensionServices.setDimensionsList(dimensionsList);
 				datasetStatsList.get(j).setDimentionList(dimensionServices);
