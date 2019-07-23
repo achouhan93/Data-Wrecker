@@ -22,6 +22,7 @@ import com.data.columnStatistics.model.DataProfilerInfo;
 import com.data.columnStatistics.model.DatasetStats;
 import com.data.columnStatistics.model.FrequencyOfColumn;
 import com.data.columnStatistics.model.FrequencyOfColumnValues;
+import com.data.columnStatistics.model.ProfilingInfoModel;
 import com.data.columnStatistics.repository.ColumnStatsRepo;
 import com.data.columnStatistics.service.ColumnStatisticsService;
 
@@ -41,6 +42,11 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 	public String getColumnStatistics( String fileName,String dateFormat, String booleanTrueValue, String booleanFalseValue) {
 		//String fileName = "testdatasetSample1";
 		DataProfilerInfo dataProfilerInfo = null;
+
+		com.data.columnStatistics.model.ProfilingInfoModel profilingInfoModel = new ProfilingInfoModel();
+		DatasetStats datasetStats = null;
+		List<DatasetStats> datasetStatsList = null;
+		ColumnStats columnStats = null;
 		List<DataProfilerInfo> dataProfilerInfoList = columnStatsRepo.findAll();
 		for (int i = 0; i < dataProfilerInfoList.size(); i++) {
 			if (dataProfilerInfoList.get(i).getFileName().equals(fileName)) {
@@ -52,10 +58,22 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		// List<DatasetStats> datasetStatsList = dataProfilerInfo.getDatasetStats();
 
 		for (int j = 0; j < dataProfilerInfo.getDatasetStats().size(); j++) {
-			dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().setColumnStats(
-					performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy", "Online", "Offline"));
+			List<DatasetStats> columnPatternModel = new ArrayList<DatasetStats>();
+			columnPatternModel.addAll(dataProfilerInfo.getDatasetStats());
+			/*dataProfilerInfo.getDatasetStats().get(j).setColumnStats(
+					performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy", "Online", "Offline"));*/
+			columnStats = performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy", "Online", "Offline");
+			profilingInfoModel.setColumnDataType(dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().getColumnDataType());
+			profilingInfoModel.setPatternsIdentified(dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().getPatternsIdentified());
+			profilingInfoModel.setColumnStats(columnStats);
+
+
+			columnPatternModel.get(j).setProfilingInfo(profilingInfoModel);
+
+			dataProfilerInfo.setDatasetStats(columnPatternModel);
+
 		}
-		
+		System.out.println("dataProfilerInfo "+dataProfilerInfo);
 		columnStatsRepo.save(dataProfilerInfo);
 		return "Success";
 	}
@@ -142,9 +160,9 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 	private ColumnStats performStatsOperation(DatasetStats datasetStats, String dateFormat, String booleanTrueValue, String booleanFalseValue) {
 		String columnName = datasetStats.getColumnName();
 		String columnDataType = "String";//datasetStats.getColumnDataType();
-		
+
 		ColumnStats columnStatisticsModel=new ColumnStats();
-		List<String> columnValuesList = columnStatisticsDaoMongo.getColumnValues(dbName, "testdatasetSample1", columnName);
+		List<String> columnValuesList = columnStatisticsDaoMongo.getColumnValues(dbName, "dataset2", columnName);
 		int rowCount = columnValuesList.size();
 		columnStatisticsModel.setRowCount(rowCount);
 		System.out.println("");
@@ -162,26 +180,26 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		columnStatisticsModel.setDistinctCount(distinctCount);
 		System.out.println("Distinct values list :" + distinctValueList);
 		System.out.println("Total Distinct values :" + distinctCount);
-		System.out.println(" ");	
+		System.out.println(" ");
 		// Get count of each value in map
 		Map<String, Long> frequencyOfColumnValuesMap = new HashMap<String,Long>();
 	    frequencyOfColumnValuesMap = columnValuesListWithoutNull.stream()
 				.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 		FrequencyOfColumnValues frequencyOfColumnValues = new FrequencyOfColumnValues();
-		List<FrequencyOfColumnValues> frequencyOfColumnValuesList = new ArrayList<FrequencyOfColumnValues>(); 
-		
-		Iterator<Map.Entry<String, Long>> iterator = frequencyOfColumnValuesMap.entrySet().iterator(); 
+		List<FrequencyOfColumnValues> frequencyOfColumnValuesList = new ArrayList<FrequencyOfColumnValues>();
+
+		Iterator<Map.Entry<String, Long>> iterator = frequencyOfColumnValuesMap.entrySet().iterator();
         while(iterator.hasNext()) {
-        	Map.Entry<String, Long> entry = iterator.next(); 
+        	Map.Entry<String, Long> entry = iterator.next();
         	frequencyOfColumnValues = new FrequencyOfColumnValues();
         	frequencyOfColumnValues.setColumnDistinctValue(entry.getKey());
         	frequencyOfColumnValues.setColumnDistinctValueOccurance(entry.getValue());
         	frequencyOfColumnValuesList.add(frequencyOfColumnValues);
         }
-        
+
         frequencyOfColumnValuesMap.forEach((k,v) -> System.out.println("Key = "
-                + k + ", Value = " + v)); 
-		
+                + k + ", Value = " + v));
+
 		FrequencyOfColumn frequencyOfColumn = new FrequencyOfColumn();
 		frequencyOfColumn.setFrequencyOfColumnValuesList(frequencyOfColumnValuesList);
 		// columnStatisticsModel.setFrequencyOfColumnValuesMap(null);
@@ -269,31 +287,31 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		System.out.println("Max Value : " + maxValue);
 		System.out.println("Min Value : " + minValue);
 		System.out.println("Average Value : " + averageValue);
-		
+
 		columnStatisticsModel.setMaxValueDecimal(maxValueDecimal);
 		columnStatisticsModel.setMinValueDecimal(minValueDecimal);
 		columnStatisticsModel.setAverageValueDecimal(averageValueDecimal);
 		System.out.println("Max Value Decimal: " + maxValueDecimal);
 		System.out.println("Min Value Decimal: " + minValueDecimal);
 		System.out.println("Average Value Decimal: " + averageValueDecimal);
-		
+
 		columnStatisticsModel.setMaxLength(maxLength);
 		columnStatisticsModel.setMinLength(minLength);
 		columnStatisticsModel.setAverageLength(averageLength);
 		System.out.println("Max length : " + maxLength);
 		System.out.println("Min length : " + minLength);
 		System.out.println("Average length : " + averageLength);
-		
+
 		columnStatisticsModel.setMaxDate(maxDate);
 		columnStatisticsModel.setMinDate(minDate);
 		System.out.println("Max Date : " + maxDate);
 		System.out.println("Min Date : " + minDate);
-		
+
 		columnStatisticsModel.setTrueCount(trueCount);
 		columnStatisticsModel.setFalseCount(falseCount);
 		System.out.println("True Count: " + trueCount);
 		System.out.println("False Count: " + falseCount);
-		
+
 		return columnStatisticsModel;
 	}
 
