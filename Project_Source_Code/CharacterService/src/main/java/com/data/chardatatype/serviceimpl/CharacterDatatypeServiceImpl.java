@@ -18,11 +18,11 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	private Dimensions dimensions;
 	
 	@Override
-	public Dimensions NullCheck(DatasetStats datasetStats) {
+	public Dimensions NullCheck(DatasetStats datasetStats,int wreckingPercentage) {
 		
 		dimensions = new Dimensions();
-		
-		if(datasetStats.getColumnStats().getNullCount() > 20) {
+		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > avgWrecking) {
 			dimensions.setDimensionName("NullCheck");
 			dimensions.setStatus(false);
 			dimensions.setReason("The number of null values exceeds 20");
@@ -36,7 +36,8 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	}
 
 	@Override
-	public Dimensions ConsistencyCheck(DatasetStats datasetStats) {
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int wreckingPercentage) {
+		
 		dimensions = new Dimensions();
 		dimensions.setDimensionName("ConsistencyCheck");
 		dimensions.setStatus(true);
@@ -45,9 +46,10 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	}
 
 	@Override
-	public Dimensions ValidityCheck(DatasetStats datasetStats) {
+	public Dimensions ValidityCheck(DatasetStats datasetStats,int wreckingPercentage) {
 		dimensions = new Dimensions();
-		List<PatternModel> patternModelList = datasetStats.getPropertyModel().getPatternModel(); //profilerInfo.getDistinctvaluelist();
+		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified();
 		int count = 0;
 		for(int i=0; i < patternModelList.size(); i++ ) {
 			if(patternModelList.get(i).getPattern().length() > 1) {
@@ -55,7 +57,7 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 			}
 		}
 		
-		if(count > 20) {
+		if(count > avgWrecking) {
 			dimensions.setDimensionName("ValidityCheck");
 			dimensions.setStatus(false);
 			dimensions.setReason("There are Invalid values which is greater than 20");
@@ -69,12 +71,18 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	}
 
 	@Override
-	public Dimensions AccuracyCheck(DatasetStats datasetStats) {
+	public Dimensions AccuracyCheck(DatasetStats datasetStats,int wreckingPercentage) {
 		dimensions = new Dimensions();
 		dimensions.setDimensionName("AccuracyCheck");
 		dimensions.setStatus(true);
 		dimensions.setReason("There are Accurate values in the datasets");
 		return dimensions;
+	}
+	
+	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
+		
+		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 4) ; 
+		return totalRowsCanBeWrecked;
 	}
 	
 }

@@ -102,7 +102,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			totalCount = totalCount + patternModelList.get(i).getOccurance();			
 		}
 		int maxValue = Collections.max(regexCounts);
-		if((totalCount - maxValue) > 20) {
+		if((totalCount - maxValue) > totalRowsCanBeWrecked) {
 			return false;
 		} else {
 			return true;

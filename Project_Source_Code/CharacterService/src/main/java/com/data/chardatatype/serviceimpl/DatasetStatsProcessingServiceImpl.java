@@ -7,8 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.data.chardatatype.model.DataProfilerInfo;
 import com.data.chardatatype.model.DatasetStats;
-import com.data.chardatatype.model.DimensionServices;
+import com.data.chardatatype.model.DimensionInfoModel;
 import com.data.chardatatype.model.Dimensions;
 import com.data.chardatatype.repository.DatasetStatsInfoRepository;
 import com.data.chardatatype.service.CharacterDataTypeService;
@@ -24,43 +25,54 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	@Autowired
 	private CharacterDataTypeService characterService;
 	private List<DatasetStats> datasetStatsList;
-	private DatasetStats datasetStats;
 	private List<Dimensions> dimensionsList;
+	private List<DataProfilerInfo> dataProfilerInfoList;
+	private DataProfilerInfo dataProfilerInfo;
+	
 	@Override
-	public List<Dimensions> getDimensionResults(String columnName) {
-	
-		DimensionServices dimensionServices = new DimensionServices();
+	public String getDimensionResults(String fileName,int wreckingPercentage) {
 		dimensionsList = new ArrayList<Dimensions>();
-		datasetStatsList = datasetStatsRepo.findAll();
-		datasetStats = getDatasetThroughColumnName(columnName,datasetStatsList);
-		dimensionsList.add(characterService.NullCheck(datasetStats));
-		dimensionsList.add(characterService.AccuracyCheck(datasetStats));
-		dimensionsList.add(characterService.ConsistencyCheck(datasetStats));
-		dimensionsList.add(characterService.ValidityCheck(datasetStats));
-		dimensionServices.setDimensionsList(dimensionsList);
-		updateDimensionList(datasetStats, dimensionsList);
-		return dimensionsList;
-	}
-	
-	private DatasetStats getDatasetThroughColumnName(String columnName, List<DatasetStats> datasetStatsList) {
-		datasetStats = new DatasetStats();
-		for(int i=0; i< datasetStatsList.size(); i++) {
-			if(datasetStatsList.get(i).getColumnName().equals(columnName)) {
-				datasetStats = datasetStatsList.get(i);
-				break;
+		dataProfilerInfoList = datasetStatsRepo.findAll();
+		for(int i =0; i < dataProfilerInfoList.size(); i++) {
+			if(dataProfilerInfoList.get(i).getFileName().equals(fileName)) {
+				dataProfilerInfo = new DataProfilerInfo();
+				dataProfilerInfo = dataProfilerInfoList.get(i);
+				break;				
 			}
 		}
-		return datasetStats;
+		datasetStatsList =getDimensionResults(dataProfilerInfo.getDatasetStats(),wreckingPercentage);
+		dataProfilerInfo.setDatasetStats(datasetStatsList);
+		if(updateDimensionList(dataProfilerInfo)) {
+			return "Success";
+		}else {
+			return "Fail";
+		}
 	}
 	
-	private boolean updateDimensionList(DatasetStats updatdeDatasetStats, List<Dimensions> newDimensionsList) {
-		DimensionServices dimensionServices = new DimensionServices();
-		dimensionServices.setDimensionsList(newDimensionsList);
-		updatdeDatasetStats.setDimensionServices(dimensionServices);
-		datasetStatsRepo.save(updatdeDatasetStats);
-		return false;
+	private boolean updateDimensionList(DataProfilerInfo dataProfilerInfo) {
+		if(datasetStatsRepo.save(dataProfilerInfo) != null) {
+			return true;	
+		}else {
+			return false;
+		}			
 	}
 	
+	
+	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
+		DimensionInfoModel dimensionServices = new DimensionInfoModel();
+		for(int j =0; j< datasetStatsList.size(); j++) {
+			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("Character")) {
+				dimensionsList.add(characterService.NullCheck(datasetStatsList.get(j),wreckingPercentage));
+				dimensionsList.add(characterService.AccuracyCheck(datasetStatsList.get(j),wreckingPercentage));
+				dimensionsList.add(characterService.ConsistencyCheck(datasetStatsList.get(j),wreckingPercentage));
+				dimensionsList.add(characterService.ValidityCheck(datasetStatsList.get(j),wreckingPercentage));
+				dimensionServices = new DimensionInfoModel();
+				dimensionServices.setDimensionsList(dimensionsList);
+				datasetStatsList.get(j).setDimentionList(dimensionServices);
+			}
+		}
+		return datasetStatsList;
+	}
 	
 
 }

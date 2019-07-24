@@ -40,4 +40,15 @@ public class DataOrchestratorController {
 	public String callDateDataTyprService(@RequestParam String fileName) {
 		return callDatatypeServices.callDateService(fileName, 25);
 	}
+	
+	@GetMapping("/callBooleanService")
+	public String callBooleanDataTypeService(@RequestParam String fileName) {
+		return callDatatypeServices.callBooleanService(fileName, 25);
+	}
+	
+	@GetMapping("/callCharacterService")
+	public String callCharacterDataTypeService(@RequestParam String fileName) {
+		return callDatatypeServices.callCharacterService(fileName, 25);
+	}
+	
 }
