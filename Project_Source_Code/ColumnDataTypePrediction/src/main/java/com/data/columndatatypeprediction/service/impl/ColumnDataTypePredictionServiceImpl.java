@@ -37,11 +37,10 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 
 		// get header of the dataset
 		List<String> columnHeader1 = new ArrayList<String>();
-		columnHeader1.add("Last");
-		columnHeader1.add("Agency");
-		columnHeader1.add("Base Salary");
-		columnHeader1.add("Title");
-		columnHeader1.add("First");
+		columnHeader1.add("eq_site_limit");
+		columnHeader1.add("county");
+		columnHeader1.add("statecode");
+		columnHeader1.add("Date");
 		List<DataSetStats> columnPatternModel = null;
 		ProfilingInfoModel profilingInfoModel = new ProfilingInfoModel();
 		List<DataProfilerInfo> datasetStatsList = columnPatternRepository.findAll();
