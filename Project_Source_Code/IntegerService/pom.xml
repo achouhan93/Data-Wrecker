@@ -9,9 +9,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.data</groupId>
-	<artifactId>ColumnDataTypePrediction</artifactId>
+	<artifactId>integerdatatype</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ColumnDataTypePrediction</name>
+	<name>integerdatatype</name>
 	<description>Data Profiling</description>
 
 	<properties>
