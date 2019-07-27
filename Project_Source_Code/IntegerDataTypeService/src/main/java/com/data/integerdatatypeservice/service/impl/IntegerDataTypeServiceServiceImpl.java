@@ -16,11 +16,11 @@ import com.data.integerdatatypeservice.model.DimensionInfoModel;
 import com.data.integerdatatypeservice.model.Dimensions;
 import com.data.integerdatatypeservice.model.ProfilingInfoModel;
 import com.data.integerdatatypeservice.repository.IntegerDataTypeRepository;
-import com.data.integerdatatypeservice.service.IntegerDataTypeService;
+import com.data.integerdatatypeservice.service.IntegerDataTypeServiceService;
 
 @Service
 @Transactional
-public class IntegerDataTypeServiceImpl implements IntegerDataTypeService {
+public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeServiceService {
 
 	@Autowired
 	IntegerDataTypeRepository integerDataTypeRepository;
@@ -28,8 +28,8 @@ public class IntegerDataTypeServiceImpl implements IntegerDataTypeService {
 	private static final Logger LOGGER = LogManager.getLogger();
 
 	@Override
-	public String getDecimalDataTypePrediction(int wreakingPercentage, String collectionName) {
-		LOGGER.info("Inside DecimalDataTypeServiceImpl");
+	public String getIntegerDataTypePrediction(int wreakingPercentage, String collectionName) {
+		LOGGER.info("Inside getIntegerDataTypePrediction");
 		wreakingPercentage = 20; // Hardcoded value for wreaking %
 
 		int numberOfRecords = 100;

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.data.integerdatatypeservice.service.IntegerDataTypeService;
+import com.data.integerdatatypeservice.service.IntegerDataTypeServiceService;
 
 
 @RestController
@@ -17,13 +17,13 @@ public class IntegerDataTypeServiceController {
 	private static final Logger LOGGER = LogManager.getLogger();
 	
 	@Autowired
-	IntegerDataTypeService integerDataTypeService;
+	IntegerDataTypeServiceService integerDataTypeService;
 	
 	@GetMapping("/integerDataTypeDecision")
 	public String columnDataTypePrediction(int wreakingPercentage,String collectionName)
 	{
 		LOGGER.info("Inside integerDataType controller");
-		return integerDataTypeService.getDecimalDataTypePrediction(wreakingPercentage,collectionName);
+		return integerDataTypeService.getIntegerDataTypePrediction(wreakingPercentage,collectionName);
 	}
 
 }
