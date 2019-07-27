@@ -158,6 +158,17 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 
 	private List<String> getListWithoutNull(List<String> list) {
 		return list.stream().filter(Objects::nonNull).collect(Collectors.toList());
+		
+	}
+	
+	private int getNullValues(List<String> list) {
+		int nonNullCountwithnull = 0;
+		int nonNullCountwithquotes = 0;
+		int nonNullCountwithspace = 0;
+		
+	   
+		return nonNullCountwithspace;
+	  
 	}
 
 	private ColumnStats performStatsOperation(DatasetStats datasetStats,String fileName, String dateFormat, String booleanTrueValue, String booleanFalseValue) {
@@ -175,6 +186,8 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		System.out.println("Total Row count :" + rowCount);
 		List<String> columnValuesListWithoutNull = getListWithoutNull(columnValuesList);
 		int nullCount = rowCount - columnValuesListWithoutNull.size();
+		int nullCountnew = rowCount - getNullValues(columnValuesList);
+		System.out.println("Hitesh chaudhari - null values: "+ nullCountnew);
 		columnStatisticsModel.setNullCount(nullCount);
 		System.out.println("Null count :" + nullCount);
 		List<String> distinctValueList = columnValuesListWithoutNull.stream().distinct().collect(Collectors.toList());
