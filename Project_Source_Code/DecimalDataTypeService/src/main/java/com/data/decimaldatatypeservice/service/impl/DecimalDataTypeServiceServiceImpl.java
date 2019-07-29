@@ -1,4 +1,4 @@
-package com.data.integerdatatypeservice.service.impl;
+package com.data.decimaldatatypeservice.service.impl;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
@@ -10,26 +10,26 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.data.integerdatatypeservice.model.DataProfilerInfo;
-import com.data.integerdatatypeservice.model.DataSetStats;
-import com.data.integerdatatypeservice.model.DimensionInfoModel;
-import com.data.integerdatatypeservice.model.Dimensions;
-import com.data.integerdatatypeservice.model.ProfilingInfoModel;
-import com.data.integerdatatypeservice.repository.IntegerDataTypeRepository;
-import com.data.integerdatatypeservice.service.IntegerDataTypeServiceService;
+import com.data.decimaldatatypeservice.model.DataProfilerInfo;
+import com.data.decimaldatatypeservice.model.DataSetStats;
+import com.data.decimaldatatypeservice.model.DimensionInfoModel;
+import com.data.decimaldatatypeservice.model.Dimensions;
+import com.data.decimaldatatypeservice.model.ProfilingInfoModel;
+import com.data.decimaldatatypeservice.repository.DecimalDataTypeServiceRepository;
+import com.data.decimaldatatypeservice.service.DecimalDataTypeServiceService;
 
 @Service
 @Transactional
-public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeServiceService {
-
+public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeServiceService {
+	
 	@Autowired
-	IntegerDataTypeRepository integerDataTypeRepository;
+	DecimalDataTypeServiceRepository decimalDataTypeServiceRepository;
 
 	private static final Logger LOGGER = LogManager.getLogger();
 
 	@Override
-	public String getIntegerDataTypePrediction(int wreakingPercentage, String collectionName) {
-		LOGGER.info("Inside getIntegerDataTypePrediction");
+	public String getDecimalDataTypePrediction(int wreakingPercentage, String collectionName) {
+		LOGGER.info("Inside getDecimalDataTypePrediction");
 		wreakingPercentage = 20; // Hardcoded value for wreaking %
 
 		int numberOfRecords = 100;
@@ -48,7 +48,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 
 			List<DataSetStats> dataSetStatsList = null;
 			ProfilingInfoModel profilingInfoModel = new ProfilingInfoModel();
-			List<DataProfilerInfo> datasetStatsList = integerDataTypeRepository.findAll();
+			List<DataProfilerInfo> datasetStatsList = decimalDataTypeServiceRepository.findAll();
 			DataProfilerInfo dataProfilerInfo = new DataProfilerInfo();
 
 			/*
@@ -76,7 +76,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						profilingInfoModel = dataSetStatsList.get(j).getProfilingInfo();
 					}
 				}
-				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Integer")) {
+				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Decimal")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
 							.size(); patternIterator++) {
 						LOGGER.info("Pattern = "
@@ -92,7 +92,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 							completenessCnt = completenessCnt + patternValue;
 							LOGGER.info("Completeness may be called");
 						}
-						// signed integer
+						// signed Decimal check
 						else if (patternString.matches("(?<=\\s|^)[-+]?\\d+(?=\\s|$)")) {
 							if (patternString.matches("^\\d+$")) {
 								positiveValidityCnt = positiveValidityCnt + patternValue;
@@ -100,12 +100,12 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 								negativeValidityCnt = negativeValidityCnt + patternValue;
 							}
 						}
-						// float value with . or ,
+						// int value
 						else if ((patternString.matches("^[-+]?\\d+(\\.\\d+)?$")
 								|| patternString.matches("^[-+]?\\d+(\\,\\d+)?$"))
 								&& (patternString.contains(".") || patternString.contains(","))) {
 							consistancyCnt = consistancyCnt + patternValue;
-							LOGGER.info("Consistancy for './,' may be called");
+							LOGGER.info("Consistancy for integer may be called");
 						} else {
 							accuracyCnt = accuracyCnt + patternValue;
 							LOGGER.info("Accuracy may be called");
@@ -121,12 +121,12 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						DimensionsList.add(dimensions);
 					}
 					
-					if (indivisualWreakingCountForDimentions > consistancyCnt) {
-						datadimention.add("consistancy");
+					if (indivisualWreakingCountForDimentions > completenessCnt) {
+						datadimention.add("Consistancy");
 						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("consistancy");
-						dimensions.setReason("insufficient decimal values by:"
-								+ (indivisualWreakingCountForDimentions - consistancyCnt));
+						dimensions.setDimensionName("Consistancy");
+						dimensions.setReason("insufficient integer values by:"
+								+ (indivisualWreakingCountForDimentions - completenessCnt));
 						dimensions.setStatus(true);
 						DimensionsList.add(dimensions);
 					}
@@ -135,7 +135,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						datadimention.add("validaity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
-						dimensions.setReason("insufficient +ve integer values by:"
+						dimensions.setReason("insufficient +ve Decimal values by:"
 								+ (indivisualWreakingCountForDimentions - positiveValidityCnt));
 						dimensions.setStatus(true);
 						DimensionsList.add(dimensions);
@@ -144,7 +144,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						datadimention.add("validaity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
-						dimensions.setReason("insufficient -ve integer values by:"
+						dimensions.setReason("insufficient -ve Decimal values by:"
 								+ (indivisualWreakingCountForDimentions - negativeValidityCnt));
 						dimensions.setStatus(true);
 						DimensionsList.add(dimensions);
@@ -164,7 +164,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 				dataSetStatsList.get(datasetHeadersIterator).setDimensionList(dimensionInfoModel);
 			}
 			dataProfilerInfo.setDatasetStats(dataSetStatsList);
-			integerDataTypeRepository.save(dataProfilerInfo);
+			decimalDataTypeServiceRepository.save(dataProfilerInfo);
 
 		} catch (Exception e) {
 			LOGGER.info("Exception " + e);

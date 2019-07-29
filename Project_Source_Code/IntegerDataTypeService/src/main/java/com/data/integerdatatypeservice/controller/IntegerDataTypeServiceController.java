@@ -1,5 +1,7 @@
 package com.data.integerdatatypeservice.controller;
 
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,10 +22,10 @@ public class IntegerDataTypeServiceController {
 	IntegerDataTypeServiceService integerDataTypeService;
 	
 	@GetMapping("/integerDataTypeDecision")
-	public String columnDataTypePrediction(int wreakingPercentage,String collectionName)
+	public String columnDataTypePrediction(int wreakingDataRecordPosition,String collectionName)
 	{
 		LOGGER.info("Inside integerDataType controller");
-		return integerDataTypeService.getIntegerDataTypePrediction(wreakingPercentage,collectionName);
+		return integerDataTypeService.getIntegerDataTypePrediction(wreakingDataRecordPosition,collectionName);
 	}
 
 }
