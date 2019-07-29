@@ -115,19 +115,19 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 						datadimention.add("Completeness");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Completeness");
-						dimensions.setReason("insufficient null values by:"
-								+ (indivisualWreakingCountForDimentions - completenessCnt));
+						dimensions.setReason("insufficient null values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - completenessCnt);
 						DimensionsList.add(dimensions);
 					}
 					
-					if (indivisualWreakingCountForDimentions > completenessCnt) {
+					if (indivisualWreakingCountForDimentions > consistancyCnt) {
 						datadimention.add("Consistancy");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Consistancy");
-						dimensions.setReason("insufficient integer values by:"
-								+ (indivisualWreakingCountForDimentions - completenessCnt));
+						dimensions.setReason("insufficient integer values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - consistancyCnt);
 						DimensionsList.add(dimensions);
 					}
 
@@ -135,27 +135,26 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 						datadimention.add("validaity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
-						dimensions.setReason("insufficient +ve Decimal values by:"
-								+ (indivisualWreakingCountForDimentions - positiveValidityCnt));
-						dimensions.setStatus(true);
+						dimensions.setReason("insufficient +ve Decimal values");
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - positiveValidityCnt);
 						DimensionsList.add(dimensions);
 					}
 					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
 						datadimention.add("validaity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
-						dimensions.setReason("insufficient -ve Decimal values by:"
-								+ (indivisualWreakingCountForDimentions - negativeValidityCnt));
+						dimensions.setReason("insufficient -ve Decimal values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - negativeValidityCnt);
 						DimensionsList.add(dimensions);
 					}
 					if (indivisualWreakingCountForDimentions > accuracyCnt) {
 						datadimention.add("Accuracy");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Accuracy");
-						dimensions.setReason("insufficient accurate values by:"
-								+ (indivisualWreakingCountForDimentions - accuracyCnt));
+						dimensions.setReason("insufficient accurate values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - accuracyCnt);
 						DimensionsList.add(dimensions);
 					}
 				}
