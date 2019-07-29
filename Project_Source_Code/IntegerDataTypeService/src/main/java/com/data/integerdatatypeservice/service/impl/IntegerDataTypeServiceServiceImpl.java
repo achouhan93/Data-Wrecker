@@ -115,9 +115,9 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						datadimention.add("Completeness");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Completeness");
-						dimensions.setReason("insufficient null values by:"
-								+ (indivisualWreakingCountForDimentions - completenessCnt));
+						dimensions.setReason("insufficient null values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - completenessCnt);
 						DimensionsList.add(dimensions);
 					}
 					
@@ -125,9 +125,9 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						datadimention.add("consistancy");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("consistancy");
-						dimensions.setReason("insufficient decimal values by:"
-								+ (indivisualWreakingCountForDimentions - consistancyCnt));
+						dimensions.setReason("insufficient decimal values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - consistancyCnt);
 						DimensionsList.add(dimensions);
 					}
 
@@ -135,28 +135,40 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						datadimention.add("validaity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
-						dimensions.setReason("insufficient +ve integer values by:"
-								+ (indivisualWreakingCountForDimentions - positiveValidityCnt));
+						dimensions.setReason("insufficient +ve integer values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - positiveValidityCnt);
 						DimensionsList.add(dimensions);
 					}
 					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
 						datadimention.add("validaity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
-						dimensions.setReason("insufficient -ve integer values by:"
-								+ (indivisualWreakingCountForDimentions - negativeValidityCnt));
+						dimensions.setReason("insufficient -ve integer values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - negativeValidityCnt);
 						DimensionsList.add(dimensions);
 					}
 					if (indivisualWreakingCountForDimentions > accuracyCnt) {
 						datadimention.add("Accuracy");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Accuracy");
-						dimensions.setReason("insufficient accurate values by:"
-								+ (indivisualWreakingCountForDimentions - accuracyCnt));
+						dimensions.setReason("insufficient accurate values");
 						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - accuracyCnt);
 						DimensionsList.add(dimensions);
+					}
+					
+					if(indivisualWreakingCountForDimentions > profilingInfoModel.getColumnStats().getDuplicateCount())
+					{
+						datadimention.add("Uniqueness");
+						Dimensions dimensions = new Dimensions();
+						dimensions.setDimensionName("Accuracy");
+						dimensions.setReason("insufficient uniqueness values");
+						dimensions.setStatus(true);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - profilingInfoModel.getColumnStats().getDuplicateCount());
+						DimensionsList.add(dimensions);
+						
 					}
 				}
 
