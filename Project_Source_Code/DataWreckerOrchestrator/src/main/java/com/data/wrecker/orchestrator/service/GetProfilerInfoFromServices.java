@@ -6,7 +6,7 @@ public interface GetProfilerInfoFromServices {
 
 	public DataProfilerInfo callPatternIdentificationService(String filename);
 	
-	public DataProfilerInfo callColumnDatatypePredictionService();
+	public String callColumnDatatypePredictionService(String fileName);
 	
 	public String callColumnStatisticsService(String filename);
 	

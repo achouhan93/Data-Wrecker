@@ -15,25 +15,25 @@ import com.data.wrecker.orchestrator.service.GetProfilerInfoFromServices;
 public class DataOrchestratorController {
 
 	@Autowired
-	GetProfilerInfoFromServices callPatternIdentificationService;
+	GetProfilerInfoFromServices getProfilerInfoFromServices;
 	@Autowired
 	CallDataTypeServices callDatatypeServices;
 	private DataProfilerInfo dataProfilerInfo;
 	
-	@GetMapping("/start")
+	@GetMapping("/getPatterns")
 	public DataProfilerInfo getRandomizer(@RequestParam String fileName) {		
-		dataProfilerInfo = callPatternIdentificationService.callPatternIdentificationService(fileName);
+		dataProfilerInfo = getProfilerInfoFromServices.callPatternIdentificationService(fileName);
 		return dataProfilerInfo;
 	}
 	
 	@GetMapping("/getColumnDatatype")
-	public DataProfilerInfo getColumnDatatype() {
-		return null;
+	public String getColumnDatatype(@RequestParam String fileName) {
+		return getProfilerInfoFromServices.callColumnDatatypePredictionService(fileName);
 	}
 	
 	@GetMapping("/getColumnStatistics")
 	public String getColumnStats(@RequestParam String fileName) {
-		return callPatternIdentificationService.callColumnStatisticsService(fileName);	
+		return getProfilerInfoFromServices.callColumnStatisticsService(fileName);	
 	}
 	
 	@GetMapping("/callDateService")
@@ -49,6 +49,16 @@ public class DataOrchestratorController {
 	@GetMapping("/callCharacterService")
 	public String callCharacterDataTypeService(@RequestParam String fileName) {
 		return callDatatypeServices.callCharacterService(fileName, 25);
+	}
+	
+	@GetMapping("/callIntegerService")
+	public String callIntegerDataTypeService(@RequestParam String fileName) {
+		return callDatatypeServices.callIntegerService(fileName, 25);
+	}
+	
+	@GetMapping("/callDecimalService")
+	public String callDecimalDataTypeService(@RequestParam String fileName) {
+		return callDatatypeServices.callDecimalService(fileName, 25);
 	}
 	
 }
