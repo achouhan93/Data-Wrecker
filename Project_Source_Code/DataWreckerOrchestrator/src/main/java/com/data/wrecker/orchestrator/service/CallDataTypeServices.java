@@ -10,5 +10,4 @@ public interface CallDataTypeServices {
 	
 	public String callStringService(String fileName);
 	
-	
 }

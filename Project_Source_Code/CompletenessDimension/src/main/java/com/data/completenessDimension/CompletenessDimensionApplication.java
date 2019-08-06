@@ -1,14 +1,13 @@
-package com.data.integerService;
+package com.data.completenessDimension;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IntegerServiceApplication {
+public class CompletenessDimensionApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(IntegerServiceApplication.class, args);
+		SpringApplication.run(CompletenessDimensionApplication.class, args);
 	}
-	
 
 }
