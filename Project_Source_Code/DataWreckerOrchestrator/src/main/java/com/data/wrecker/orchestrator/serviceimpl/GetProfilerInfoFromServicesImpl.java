@@ -13,18 +13,16 @@ public class GetProfilerInfoFromServicesImpl implements GetProfilerInfoFromServi
 
 	@Override
 	public DataProfilerInfo callPatternIdentificationService(String filename) {
-		return  new RestTemplate().getForObject("http://localhost:8086/patternIdentification/getPossiblePatternsForData?fileName="+filename, DataProfilerInfo.class);
+		return  new RestTemplate().getForObject("http://localhost:8081/patternIdentification/getPossiblePatternsForData?fileName="+filename, DataProfilerInfo.class);
 	}
 
 	@Override
-	public DataProfilerInfo callColumnDatatypePredictionService() {
-		// TODO Auto-generated method stub
-		return null;
+	public String callColumnDatatypePredictionService(String filename) {
+		return new RestTemplate().getForObject("localhost:8082/columnDataTypePrediction/getDataTypeOfAColumns?collectionName="+filename, String.class);
 	}
 
 	@Override
 	public String callColumnStatisticsService(String filename) {
-		// TODO Auto-generated method stub
 		String resp = new RestTemplate().getForObject("http://localhost:8080/columnStatistics/getColumnStats?fileName="+filename, String.class);
 		return resp;
 	}

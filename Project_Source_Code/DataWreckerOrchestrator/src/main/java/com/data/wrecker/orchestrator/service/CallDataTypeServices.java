@@ -9,5 +9,9 @@ public interface CallDataTypeServices {
 	public String callDateService(String fileName,int wreckingPercentage);
 	
 	public String callStringService(String fileName);
+
+	public String callIntegerService(String fileName, int wreckingPercentage);
+
+	public String callDecimalService(String fileName, int wreckingPercentage);
 	
 }

@@ -241,6 +241,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		columnStatisticsModel.setUniqueCount(uniqueCount);
 		columnStatisticsModel.setDuplicateValuesList(duplicateValuesList);
 		columnStatisticsModel.setUniqueCount(uniqueCount);
+		columnStatisticsModel.setDistinctCount(duplicateCount);
 		System.out.println("Unique value List: " + uniqueValuesList);
 		System.out.println("Total unique values :" + uniqueCount);
 		System.out.println("Duplicate value List: " + duplicateValuesList);
