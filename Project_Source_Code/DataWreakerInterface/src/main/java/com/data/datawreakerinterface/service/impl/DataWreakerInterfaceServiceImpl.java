@@ -26,7 +26,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 		String database = "ReverseEngineering";
 		String[] collectionName = null;
 		File dir = new File(
-				"D:\\software\\mongodb-win32-x86_64-2008plus-ssl-4.0.9\\mongodb-win32-x86_64-2008plus-ssl-4.0.9\\bin\\dataset");
+				"F:\\Datasets");
 		try {
 			File[] listOfFiles = dir.listFiles();
 

@@ -18,6 +18,6 @@ public class CompletenessDimensionController {
 	
 	@RequestMapping(value = "/completenessDimension", method = RequestMethod.GET)
 	public String applyCompletenessDimension(@RequestParam String collectionName, @RequestParam String columnName) {	
-		return completenessDimensionService.removeValues();
+		return completenessDimensionService.removeValues(collectionName,columnName);
 	}
 }

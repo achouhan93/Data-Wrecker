@@ -87,7 +87,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 				List<String> columnData = new ArrayList<>();
 				try (MongoCursor<Document> cur = collection.find().iterator()) {
 					while (cur.hasNext()) {
-						columnData.add((String) cur.next().get(columnHeaders.get(z)).toString());
+						columnData.add((String) cur.next().get(columnHeaders.get(z)).toString().trim());
 
 					}
 				}
@@ -110,7 +110,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 						smallAphabetFillteredStr = findPatternForDate(columnData.get(columnDataIterator));
 					}
 					// patternIdentificationLogic
-					if (columnData.get(columnDataIterator) != null && smallAphabetFillteredStr == null) {
+					if (columnData.get(columnDataIterator).trim() != null && smallAphabetFillteredStr == null) {
 						if ((columnData.get(columnDataIterator).length() == 1
 								&& (columnData.get(columnDataIterator).equals("0")
 										|| columnData.get(columnDataIterator).equals("1"))

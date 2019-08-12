@@ -37,10 +37,13 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 
 		// get header of the dataset
 		List<String> columnHeader1 = new ArrayList<String>();
-		columnHeader1.add("eq_site_limit");
-		columnHeader1.add("county");
-		columnHeader1.add("statecode");
-		columnHeader1.add("Date");
+		columnHeader1 = getColumnHeaders(collectionName);
+		/*columnHeader1.add("Name");
+		columnHeader1.add("Year");
+		columnHeader1.add("Gender");
+		columnHeader1.add("Count");
+		columnHeader1.add("Boolean");
+		columnHeader1.add("Boolean Values");*/
 		List<DataSetStats> columnPatternModel = null;
 		ProfilingInfoModel profilingInfoModel = new ProfilingInfoModel();
 		List<DataProfilerInfo> datasetStatsList = columnPatternRepository.findAll();
@@ -50,8 +53,10 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 					datasetStatsList);
 			columnPatternModel = dataProfilerInfo.getDatasetStats();
 			for (int j = 0; j < columnPatternModel.size(); j++) {
+				profilingInfoModel =  new ProfilingInfoModel();
 				if (columnPatternModel.get(j).getColumnName().equals(columnHeader1.get(datasetHeadersIterator))) {
 					profilingInfoModel = columnPatternModel.get(j).getProfilingInfo();
+					break;
 				}
 			}
 			Map<String, Integer> dataTypes = new TreeMap<String, Integer>();
@@ -69,7 +74,9 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 			int dateCnt = 0;
 			for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
 					.size(); patternIterator++) {
-
+				
+				//profilingInfoModel = new ProfilingInfoModel();			
+				
 				LOGGER.info("Pattern = " + profilingInfoModel.getPatternsIdentified().get(patternIterator).getPattern()
 						+ ", Occurance = "
 						+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance());
@@ -151,4 +158,22 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 		return dataProfilerInfo;
 	}
 
+	
+	private List<String> getColumnHeaders(String collectionName) {
+		List<DataProfilerInfo> datasetProfilerInfo = columnPatternRepository.findAll();
+		List<DataSetStats> datasetStats = new ArrayList<DataSetStats>();
+		List<String> columnHeader1 = new ArrayList<String>();
+		
+		for(int i =0;i < datasetProfilerInfo.size();i++) {
+			if(datasetProfilerInfo.get(i).getFileName().equals(collectionName)) {
+				datasetStats = datasetProfilerInfo.get(i).getDatasetStats();
+				for(int index = 0;index<datasetStats.size();index++) {
+					columnHeader1.add(datasetStats.get(index).getColumnName());
+				}
+				break;
+			}
+		}
+		
+		return columnHeader1;
+	}
 }
