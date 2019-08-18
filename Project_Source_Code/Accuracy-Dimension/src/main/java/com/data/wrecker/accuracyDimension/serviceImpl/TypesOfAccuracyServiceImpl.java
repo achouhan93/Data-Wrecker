@@ -1,9 +1,13 @@
 package com.data.wrecker.accuracyDimension.serviceImpl;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
+import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,6 +16,8 @@ import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.data.wrecker.accuracyDimension.model.DatasetStats;
+import com.data.wrecker.accuracyDimension.model.PatternModel;
 import com.data.wrecker.accuracyDimension.service.TypesOfAccuracyToBeEffected;
 
 
@@ -78,7 +84,7 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected{
 	public String generateJunkValues(String colValue) {
 		LOGGER.info("Generate Junk Values ");
 		String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+{}:>?/.,;'[]";
-		char[] characters = colValue.toCharArray();
+		char[] characters = str.toCharArray();
 		char[] newString = new char[characters.length];
 		for(int i=0; i< colValue.length();i++) {
 			rand = new Random();
@@ -107,6 +113,36 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected{
             output.append(characters.remove(randPicker));
         }
 		return output.toString();
+	}
+
+	@Override
+	public int convertIntToOppositeSign(int colValue) {		
+		return -colValue;
+	}
+
+	@Override
+	public String addYearsToDate(DatasetStats datasetStats, String date) {
+		String dateFormatPattern = ""; 
+		rand = new Random();
+		int yearsTobeAdded = rand.nextInt(1000) + 100;
+		
+		List<PatternModel> patternsIdentified  = datasetStats.getProfilingInfo().getPatternsIdentified();
+		for(int i = 0; i < patternsIdentified.size();i++) {
+			if(Pattern.matches(date, patternsIdentified.get(i).getPattern())) {
+				dateFormatPattern = patternsIdentified.get(i).getPattern(); 
+				SimpleDateFormat sdf = new SimpleDateFormat(dateFormatPattern);
+				Calendar c = Calendar.getInstance();
+				try {
+					c.setTime(sdf.parse(date));
+				} catch (ParseException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				c.add(Calendar.YEAR, yearsTobeAdded);
+				date = sdf.format(c.getTime());
+			}
+		}
+		return date;
 	}
 
 }

@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.data.wrecker.accuracyDimension.model.DataProfilerInfo;
+import com.data.wrecker.accuracyDimension.model.DatasetStats;
 import com.data.wrecker.accuracyDimension.repository.DataProfilerInfoRepo;
 import com.data.wrecker.accuracyDimension.service.AccuracyDimensionService;
 import com.mongodb.DB;
@@ -33,7 +34,10 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 	private DataProfilerInfo dataProfilerInfo;
 	private List<DataProfilerInfo> dataProfilerInfoList;
 	private Random rand;
+	private List<DatasetStats> datasetStatsList;
+	private DatasetStats datasetStats;
 	private static final Logger LOGGER = LogManager.getLogger();
+	
 	
 	
 	@Override
@@ -160,16 +164,56 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 
 	private JSONObject callServicesForDate(JSONObject jsonObj, String colName) {
 		rand = new Random();
-		int options = rand.nextInt(4);
+		int options = rand.nextInt(2);
+		String collectionName = "";
+		String result = "";
+		DatasetStats datasetStatsInfo = getDatasetStats(colName, collectionName);
+		try {
+			
+		switch(options) {
+			case 0: 
+				jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
+				LOGGER.info("AfterApplying Accuracy interChangedValues "+jsonObj.toString());
+				break;
+			case 1:
+				result = accuracyServiceImpl.addYearsToDate(datasetStatsInfo, jsonObj.getString(colName));
+				jsonObj.put(colName, result);
+				LOGGER.info("AfterApplying Accuracy addYearsToDate "+jsonObj.toString());
+				break;				
+			}
+		}catch (JSONException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+			
 		
-		return null;
+		return jsonObj;
 	}
 
 
 
 	private JSONObject callServicesForInteger(JSONObject jsonObj, String colName) {
 		rand = new Random();
-		int options = rand.nextInt(4);
+		int options = rand.nextInt(2);
+		int result = 0;
+		try {
+			
+			switch(options) {
+			case 0: 
+				jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
+				LOGGER.info("AfterApplying Accuracy interChangedValues "+jsonObj.toString());
+				break;
+			case 1: 
+				result = accuracyServiceImpl.convertIntToOppositeSign(jsonObj.getInt(colName));
+				jsonObj.put(colName, result);
+				LOGGER.info("AfterApplying Accuracy convertIntToOppositeSign "+jsonObj.toString());
+				break;				
+			}
+			
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		return null;
 	}
@@ -209,5 +253,27 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 		return jsonObj;
 	}
 
+	
+	private DatasetStats getDatasetStats(String colName, String cllectionName) {
+		
+		dataProfilerInfoList = new ArrayList<DataProfilerInfo>();
+		
+		dataProfilerInfoList = dataProfilerInfoRepo.findAll();
+		for(int i =0; i < dataProfilerInfoList.size(); i++) {
+			if(dataProfilerInfoList.get(i).getFileName().equals(cllectionName)) {
+				dataProfilerInfo = new DataProfilerInfo();
+				datasetStatsList = dataProfilerInfoList.get(i).getDatasetStats();
+				for(int j =0; j < datasetStatsList.size(); j++) {
+					if(datasetStatsList.get(j).getColumnName().equals(colName)) {
+						datasetStats = new DatasetStats();
+						datasetStats = datasetStatsList.get(j);
+						break;
+					}
+				}	
+			}
+		}
+		
+		return datasetStats;
+	}
 
 }
