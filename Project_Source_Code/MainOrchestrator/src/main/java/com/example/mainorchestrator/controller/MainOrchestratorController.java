@@ -23,9 +23,13 @@ public class MainOrchestratorController {
 	
 	
 	@GetMapping("/loadFileIntoMongo")
-	public DatasetDetails loadFileIntoMongo() {
-		datasetDetails =  loadFileService.loadFileIntoMongo();
-		return datasetDetails;
+	public String loadFileIntoMongo() { 
+		DatasetDetails datasetDetails = loadFileService.loadFileIntoMongo(); 
+		String result = datasetDetails.getResult();
+		if(result.equals("Success")) {
+			result = loadFileService.callAllDataTypeDimensionServices(datasetDetails.getCollectionName(), 25);
+		}
+		return result;
 	}
 	
 	@GetMapping("/random")

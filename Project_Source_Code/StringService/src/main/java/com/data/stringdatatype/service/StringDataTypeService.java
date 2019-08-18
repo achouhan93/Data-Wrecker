@@ -1,15 +1,16 @@
 package com.data.stringdatatype.service;
 
-import com.data.stringdatatype.model.ColumnStatisticsModel;
+import com.data.stringdatatype.model.DatasetStats;
+import com.data.stringdatatype.model.Dimensions;
 
 public interface StringDataTypeService {
 
-	public boolean NullCheck(ColumnStatisticsModel profilerInfo);
+	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
-	public boolean ConsistencyCheck(ColumnStatisticsModel profilerInfo);
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
-	public boolean ValidityCheck(ColumnStatisticsModel profilerInfo);
+	public Dimensions ValidityCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
-	public boolean AccuracyCheck(ColumnStatisticsModel profilerInfo);
+	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
 }

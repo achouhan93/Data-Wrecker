@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.data.patternidentification.exception.PatternIdentificationException;
 import com.data.patternidentification.model.DataProfilerInfo;
+import com.data.patternidentification.model.DatasetDetails;
 import com.data.patternidentification.service.PatternIdentificationService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
@@ -25,9 +26,18 @@ public class PatternIdentificationController {
 	PatternIdentificationService patternIdentificationService;
 
 	@GetMapping("/getPossiblePatternsForData")
-	public DataProfilerInfo patternIdentification(@RequestParam String fileName) throws PatternIdentificationException, JsonProcessingException {
+	public DatasetDetails patternIdentification(@RequestParam String fileName) throws PatternIdentificationException, JsonProcessingException {
 		LOGGER.info("Inside Patternidentification controller");
-		return patternIdentificationService.getPatternidentificationData(fileName);
+		DataProfilerInfo dataProfilerInfo = new DataProfilerInfo();
+		DatasetDetails dataSetDetails = new DatasetDetails();
+		dataProfilerInfo = patternIdentificationService.getPatternidentificationData(fileName);
+		if(dataProfilerInfo.getFileName().isEmpty()) {
+			dataSetDetails.setResult("Failure");
+		}else {
+			dataSetDetails.setResult("Success");
+			dataSetDetails.setCollectionName(dataProfilerInfo.getFileName());
+		}
+		return dataSetDetails;
 
 	}
 }

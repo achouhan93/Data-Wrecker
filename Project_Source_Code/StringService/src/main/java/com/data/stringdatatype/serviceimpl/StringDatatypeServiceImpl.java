@@ -4,7 +4,8 @@
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.data.stringdatatype.model.ColumnStatisticsModel;
+import com.data.stringdatatype.model.DatasetStats;
+import com.data.stringdatatype.model.Dimensions;
 import com.data.stringdatatype.service.StringDataTypeService;
 
 
@@ -12,23 +13,37 @@ import com.data.stringdatatype.service.StringDataTypeService;
 @Transactional
 public class StringDatatypeServiceImpl implements StringDataTypeService {
 
+	private Dimensions dimensions;
+
+	
 	@Override
-	public boolean NullCheck(ColumnStatisticsModel profilerInfo) {
-		if(profilerInfo.getNullCount() > 20) {
-			return false;
+	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage) {
+		dimensions = new Dimensions();
+		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		
+		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > totalRowsCanBeWrecked) {
+			dimensions.setDimensionName("NullCheck");
+			dimensions.setStatus(false);
+			dimensions.setReason("The number of null values exceeds threshold");
+			return dimensions;
 		} else {
-			return true;
+			dimensions.setDimensionName("NullCheck");
+			dimensions.setStatus(true);
+			dimensions.setReason("The number of null values less than threshold");
+			return dimensions;
 		}
 	}
 
 	@Override
-	public boolean ConsistencyCheck(ColumnStatisticsModel profilerInfo) {
-		
-		return false;
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int wreckingPercentage) {
+		dimensions.setDimensionName("ConsistencyCheck");
+		dimensions.setStatus(true);
+		dimensions.setReason("The patterns identified are less than 20 in their occurances");
+		return dimensions;
 	}
 
 	@Override
-	public boolean ValidityCheck(ColumnStatisticsModel profilerInfo) {
+	public  Dimensions ValidityCheck(DatasetStats datasetStats, int wreckingPercentage) {
 		String emailRegex = "^[a-z0-9+_.-]+@(.+)$";
 		boolean result = false;
 		
@@ -44,14 +59,36 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 				}
 			}
 		}*/
-		return result;
+		dimensions.setDimensionName("ValidityCheck");
+		dimensions.setStatus(true);
+		dimensions.setReason("There are valid values which is less than 20");
+		return dimensions;
 	}
 
 	@Override
-	public boolean AccuracyCheck(ColumnStatisticsModel profilerInfo) {
-		// TODO Auto-generated method stub
-		return false;
+	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage) {
+		dimensions = new Dimensions();
+		dimensions.setDimensionName("AccuracyCheck");
+		dimensions.setStatus(true);
+		dimensions.setReason("There are Accurate values in the datasets");
+		return dimensions;
+		
 	}
 
+
+	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
+		
+		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 4) ; 
+		return totalRowsCanBeWrecked;
+	}
+	
+	private boolean isNotWrecked(int number1, int number2,int totalRowsCanBeWrecked) {
+		if((number1 + number2) > totalRowsCanBeWrecked) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+	
 	
 }

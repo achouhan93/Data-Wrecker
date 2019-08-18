@@ -36,10 +36,11 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 
 		// get header of the dataset
 		List<String> columnHeader1 = new ArrayList<String>();
-		columnHeader1.add("eq_site_limit");
+		columnHeader1 = getColumnHeaders(collectionName); //Getting columnheader from the document in mongo
+		/*columnHeader1.add("eq_site_limit");
 		columnHeader1.add("county");
 		columnHeader1.add("statecode");
-		columnHeader1.add("Date");
+		columnHeader1.add("Date");*/
 		int indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
 		LinkedHashSet<String> datadimention = new LinkedHashSet<String>();
 
@@ -195,6 +196,25 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 
 		return dataProfilerInfo;
 
+	}
+	
+	
+	private List<String> getColumnHeaders(String collectionName) {
+		List<DataProfilerInfo> datasetProfilerInfo = integerDataTypeRepository.findAll();
+		List<DataSetStats> datasetStats = new ArrayList<DataSetStats>();
+		List<String> columnHeader1 = new ArrayList<String>();
+		
+		for(int i =0;i < datasetProfilerInfo.size();i++) {
+			if(datasetProfilerInfo.get(i).getFileName().equals(collectionName)) {
+				datasetStats = datasetProfilerInfo.get(i).getDatasetStats();
+				for(int index = 0;index<datasetStats.size();index++) {
+					columnHeader1.add(datasetStats.get(index).getColumnName());
+				}
+				break;
+			}
+		}
+		
+		return columnHeader1;
 	}
 
 }
