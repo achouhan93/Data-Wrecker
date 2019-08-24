@@ -1,10 +1,10 @@
 package com.data.wrecker.orchestrator.service;
 
-import com.data.wrecker.orchestrator.entity.DataProfilerInfo;
+import com.data.wrecker.orchestrator.entity.DatasetDetails;
 
 public interface GetProfilerInfoFromServices {
 
-	public DataProfilerInfo callPatternIdentificationService(String filename);
+	public DatasetDetails callPatternIdentificationService(String filename);
 	
 	public String callColumnDatatypePredictionService(String fileName);
 	

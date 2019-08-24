@@ -12,31 +12,32 @@ public class CallDatatypeServiceImpl implements CallDataTypeServices{
 
 	@Override
 	public String callBooleanService(String fileName, int wreckingPercentage) {
-		String url = "http://localhost:8082/dimension/booleanDatatypeDimensions?columnName="+fileName+"&wreckingPercentage="+wreckingPercentage;
+		String url = "http://localhost:8086/dimension/booleanDatatypeDimensions?columnName="+fileName+"&wreckingPercentage="+wreckingPercentage;
 		return  new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override
 	public String callCharacterService(String fileName, int wreckingPercentage) {
-		String url = "http://localhost:8081/dimension/characterDatatypeDimensions?fileName="+fileName+"&wreckingPercentage="+wreckingPercentage;
+		String url = "http://localhost:8088/dimension/characterDatatypeDimensions?fileName="+fileName+"&wreckingPercentage="+wreckingPercentage;
 		return new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override
 	public String callDateService(String fileName, int wreckingPercentage) {
-		String url = "http://localhost:8083/dimension/dateDatatypeDimensions?fileName="+fileName+"&wreckingPercentage="+wreckingPercentage;
+		String url = "http://localhost:8087/dimension/dateDatatypeDimensions?fileName="+fileName+"&wreckingPercentage="+wreckingPercentage;
 		return  new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override
 	public String callStringService(String fileName) {
-		// TODO Auto-generated method stub
+		// port 8090
 		return null;
 	}
 
 	@Override
 	public String callIntegerService(String fileName, int wreckingPercentage) {
-		String url = "localhost:8087/integerDataType/integerDataTypeDecision?wreakingDataRecordPosition="+wreckingPercentage+"&collectionName="+fileName;
+		// http://localhost:8089/integerDataType/integerDataTypeDecision?wreakingDataRecordPosition=25&collectionName=NationalNames_1
+		String url = "http://localhost:8089/integerDataType/integerDataTypeDecision?wreakingDataRecordPosition="+wreckingPercentage+"&collectionName="+fileName;
 		return  new RestTemplate().getForObject(url, String.class);
 	}
 

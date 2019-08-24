@@ -6,59 +6,26 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.data.wrecker.orchestrator.entity.DataProfilerInfo;
+import com.data.wrecker.orchestrator.service.CallAllMicroservices;
 import com.data.wrecker.orchestrator.service.CallDataTypeServices;
-import com.data.wrecker.orchestrator.service.GetProfilerInfoFromServices;
 
 @RestController
 @RequestMapping("/data_wrecker_orchestrator")
 public class DataOrchestratorController {
 
 	@Autowired
-	GetProfilerInfoFromServices getProfilerInfoFromServices;
-	@Autowired
+	CallAllMicroservices callAllServices;
 	CallDataTypeServices callDatatypeServices;
-	private DataProfilerInfo dataProfilerInfo;
 	
-	@GetMapping("/getPatterns")
-	public DataProfilerInfo getRandomizer(@RequestParam String fileName) {		
-		dataProfilerInfo = getProfilerInfoFromServices.callPatternIdentificationService(fileName);
-		return dataProfilerInfo;
+	@GetMapping("/getDataprofileInfo")
+	public String getDataprofileInfo(@RequestParam String fileName) {
+		return callAllServices.callDataprofilingServices(fileName);
+	
 	}
 	
-	@GetMapping("/getColumnDatatype")
-	public String getColumnDatatype(@RequestParam String fileName) {
-		return getProfilerInfoFromServices.callColumnDatatypePredictionService(fileName);
+	@GetMapping("/applyDimensions")
+	public String applyDimensions(@RequestParam String collectionName) {
+		return callAllServices.callDimensionServices(collectionName);
 	}
-	
-	@GetMapping("/getColumnStatistics")
-	public String getColumnStats(@RequestParam String fileName) {
-		return getProfilerInfoFromServices.callColumnStatisticsService(fileName);	
-	}
-	
-	@GetMapping("/callDateService")
-	public String callDateDataTyprService(@RequestParam String fileName) {
-		return callDatatypeServices.callDateService(fileName, 25);
-	}
-	
-	@GetMapping("/callBooleanService")
-	public String callBooleanDataTypeService(@RequestParam String fileName) {
-		return callDatatypeServices.callBooleanService(fileName, 25);
-	}
-	
-	@GetMapping("/callCharacterService")
-	public String callCharacterDataTypeService(@RequestParam String fileName) {
-		return callDatatypeServices.callCharacterService(fileName, 25);
-	}
-	
-	@GetMapping("/callIntegerService")
-	public String callIntegerDataTypeService(@RequestParam String fileName) {
-		return callDatatypeServices.callIntegerService(fileName, 25);
-	}
-	
-	@GetMapping("/callDecimalService")
-	public String callDecimalDataTypeService(@RequestParam String fileName) {
-		return callDatatypeServices.callDecimalService(fileName, 25);
-	}
-	
+
 }

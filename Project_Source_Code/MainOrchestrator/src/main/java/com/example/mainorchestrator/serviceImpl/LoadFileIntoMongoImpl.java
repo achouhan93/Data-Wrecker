@@ -1,5 +1,7 @@
 package com.example.mainorchestrator.serviceImpl;
 
+import java.util.Random;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
@@ -19,11 +21,19 @@ public class LoadFileIntoMongoImpl implements LoadFileIntoMongo{
 	public DatasetDetails loadFileIntoMongo() {
 		DatasetDetails datasetDetails = new DatasetDetails();
 		datasetDetails = new RestTemplate().getForObject("http://localhost:8080/dataWreakerInterface/dataPopulation", DatasetDetails.class);
-		String collectionName = "";
 		String result = "";
 		if(datasetDetails.getResult().equals("Data imported from file to MongoDB Successfully")) {
-						
-			collectionName = datasetDetails.getCollectionName();
+		
+			Random rand = new Random();
+			int wreckingPercentage = rand.nextInt(10) + 20;
+			datasetDetails.setWreckingPercentage(wreckingPercentage);
+			result = "Success";
+			LOGGER.info("Data has successfully loaded into MongoDb and The Wrecking percentage calsulated is "+wreckingPercentage);
+			
+			LOGGER.info("Calling Data Wrecker Orchestrator Service ");
+			
+			
+			/*collectionName = datasetDetails.getCollectionName();
 			LOGGER.info("Data imported Successfully Now calling Pattern Identification service created name "+datasetDetails.getCollectionName());
 			datasetDetails = new DatasetDetails();
 			String URL = "http://localhost:8081/patternIdentification/getPossiblePatternsForData?fileName="+collectionName;
@@ -46,7 +56,7 @@ public class LoadFileIntoMongoImpl implements LoadFileIntoMongo{
 			}else {
 				LOGGER.info("PatternsIdentification Service has failed! ");
 				result = "Failure in PatternsIdentification";
-			}
+			}*/
 		}else {
 			LOGGER.info("Failed to load file into Mongo! ");
 			result = "Failed to load file into Mongo.........!!!!!";
@@ -56,7 +66,7 @@ public class LoadFileIntoMongoImpl implements LoadFileIntoMongo{
 	}
 
 	@Override
-	public String callAllDataTypeDimensionServices(String fileName, int wreckingPercentage) {	
+	public String callDataWreckerOrchestrator(String fileName, int wreckingPercentage) {	
 		String result = "";
 		String URL = "http://localhost:8086/dimension/booleanDatatypeDimensions?columnName="+fileName+"&wreckingPercentage="+wreckingPercentage;		
 		result = callRestTemplates(URL);

@@ -6,5 +6,5 @@ public interface LoadFileIntoMongo {
 
 	public DatasetDetails loadFileIntoMongo();
 	
-	public String callAllDataTypeDimensionServices(String fileName, int wreckingPercentage);
+	public String callDataWreckerOrchestrator(String fileName, int wreckingPercentage);
 }
