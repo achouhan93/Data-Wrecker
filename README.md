@@ -13,4 +13,6 @@ Port Numbers for the Microservices
 8088-characterDatatypeDimensions
 8089-Integer
 8090-String
+8091-DataWrecker Orchestrator
+8092-Completeness Dimension
 
