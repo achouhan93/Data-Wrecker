@@ -1,10 +1,15 @@
 package com.data.wrecker.orchestrator.serviceimpl;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,7 +21,12 @@ import com.data.wrecker.orchestrator.entity.Dimensions;
 import com.data.wrecker.orchestrator.repository.DataProfilerInfoRepository;
 import com.data.wrecker.orchestrator.service.CallAllMicroservices;
 import com.data.wrecker.orchestrator.service.CallDataTypeServices;
+import com.data.wrecker.orchestrator.service.CallDimensionServices;
 import com.data.wrecker.orchestrator.service.GetProfilerInfoFromServices;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.Mongo;
 
 @Service
 @Transactional
@@ -28,6 +38,8 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	private CallDataTypeServices callDatatypeService;
 	@Autowired
 	private DataProfilerInfoRepository dataProfilerInfoRepo;
+	@Autowired
+	private CallDimensionServices callDimensionServices;
 
 	private static final Logger LOGGER = LogManager.getLogger();
 	private static final String RESULT = "Success";
@@ -108,12 +120,14 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 						
 						LOGGER.info("Integer service is Successful ");
 						
-						/*result = callDatatypeService.callStringService(fileName);
+						result = callDatatypeService.callStringService(fileName,wreckPercentage);
 						if(result.equals(RESULT)) {
-							
+							result = "Success";
+							LOGGER.info("String service is Successful ");
 						}else {
+							LOGGER.info("String service is UnSuccessful ");
 							result = "Failure";
-						}*/
+						}
 						
 					} else {
 						
@@ -142,24 +156,27 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	}
 	
 	@Override
-	public String callDimensionServices(String collectionName) {
+	public String callDimensionServices(String collectionName,int wreckingPercentage) {
 		List<String> columnHeaders = new ArrayList<String>();
+		columnHeaders = getColumnHeaders(collectionName);
+		
 		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(collectionName);
-		for(int i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
-			columnHeaders.add(dataprofilerInfo.getDatasetStats().get(i).getColumnName());
-		}
 		List<DatasetStats> datasetStatsList = dataprofilerInfo.getDatasetStats();
-		String result = "";
-		for(int j =0; j< datasetStatsList.size(); j++) {
+		
+		/*for(int j =0; j< datasetStatsList.size(); j++) {
 			if(datasetStatsList.get(j).getColumnName().equals(columnHeaders.get(j))) {
 				List<Dimensions> dimensionList = new ArrayList<Dimensions>();
 				dimensionList = getDimensionResults(datasetStatsList.get(j));
 				result = callDimensionServicesForWrecking(dimensionList, columnHeaders.get(j));
 				
 			}			
-		}
+		}*/
 		
-		return result;
+		int totalRowCount = datasetStatsList.get(1).getProfilingInfo().getColumnStats().getRowCount();
+		int totalNumberOfRecordsToWreck = numberOfrecordsTobePicked(totalRowCount,wreckingPercentage);
+		List<Integer> uniqueIdsToWreck = getIdsToWreck(totalNumberOfRecordsToWreck, totalRowCount);
+		wreckRecordsWithIDs(uniqueIdsToWreck, collectionName);
+		return "Total records can be wreked "+totalNumberOfRecordsToWreck;
 	}
 	
 	private List<Dimensions> getDimensionResults(DatasetStats datasetStats) {	
@@ -184,27 +201,27 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		switch (dimensionName) {
 		
 		case "Completeness":
-			LOGGER.info("Completeness Called");
+			LOGGER.info("Completeness Called ColumnName "+columnName);
 			result = "Completeness";
 			break;
 			
 		case "Uniqueness":
-			LOGGER.info("Uniqueness Called");
+			LOGGER.info("Uniqueness Called ColumnName "+columnName);
 			result = "Uniqueness";
 			break;
 		
 		case "Consistency":
-			LOGGER.info("Consistency Called");
+			LOGGER.info("Consistency Called ColumnName "+columnName);
 			result = "Consistency";
 			break;
 		
 		case "Accuracy":
-			LOGGER.info("Accuracy Called");
+			LOGGER.info("Accuracy Called ColumnName "+columnName);
 			result = "Accuracy";
 			break;	
 		
 		case "Validity":
-			LOGGER.info("Validity Called");
+			LOGGER.info("Validity Called ColumnName "+columnName);
 			result = "Validity";
 			break;	
 			
@@ -227,7 +244,153 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		return dataProfilerInfo;
 }
 	
+	private int numberOfrecordsTobePicked(int rowCount,int wreckingPercentage) {
+		
+		return (rowCount * wreckingPercentage) / 100 ;
+	}
+	
+	private List<Integer> getIdsToWreck(int recordsCount, int totalRowCount) {
+		
+		ArrayList<Integer> recordIds = new ArrayList<Integer>();
+		ArrayList <Integer> uniqueIds = new ArrayList<Integer>();
+	
+		int index =0;
+		for(index = 0; index < totalRowCount; index ++) {	
+			recordIds.add(index);			
+		}
+		
+		Collections.shuffle(recordIds);
+
+		for( index =0; index < recordsCount; index++) {
+			uniqueIds.add(recordIds.get(new Integer(index)));			
+		}
+		
+		return uniqueIds;
+	}
+	
+	private JSONArray getDatasetFromDb(String collectionName) {
+		Mongo mongo = new Mongo("localhost", 27017);
+		DB db = mongo.getDB("ReverseEngineering");
+		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
+		DBCursor cursor = collection.find();
+		JSONArray dbList = new JSONArray();
+				
+		
+		while(cursor.hasNext()) {
+			String str = cursor.next().toString();
+			try {	
+				JSONObject jsnobj = new JSONObject(str);
+				dbList.put(jsnobj);				
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+		}
+		
+	
+		return dbList;
+	}
+	
+	private List<String> getColumnHeaders(String collectionName) {
+		List<String> columnHeaders = new ArrayList<String>();
+		
+		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(collectionName);
+		for(int i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
+			columnHeaders.add(dataprofilerInfo.getDatasetStats().get(i).getColumnName());
+			//dataprofilerInfo.getDatasetStats().get(i).getDimensionList()
+		}
+		
+		return columnHeaders;
+	}
 	
 	
+	private void wreckRecordsWithIDs(List<Integer> uniqueIdList, String collectionName) {
+		JSONArray datasetArray = getDatasetFromDb(collectionName);
+		List<String> objectIds = new ArrayList<String>();
+		List<String> columnNames = new ArrayList<String>();
+		int i=0;
+		try {			
+			for(i =0; i < uniqueIdList.size(); i++ ) {
+				objectIds.add(datasetArray.getJSONObject(uniqueIdList.get(i)).getJSONObject("_id").getString("$oid"));
+			}
+			
+		} catch (JSONException e) {
+			e.printStackTrace();
+		} 
+		
+		columnNames = getColumnHeaders(collectionName);
+		
+		for(i =0; i < columnNames.size(); i++ ) {
+	
+			String colName = columnNames.get(i);
+			int totalRecordsToWreck = getTotalRecordsToWreck(collectionName, colName);
+			Collections.shuffle(objectIds);
+			List<String> objectIdsToWreck = new ArrayList<String>();
+			
+			for(int j =0; j < totalRecordsToWreck; j++) {
+				objectIdsToWreck.add(objectIds.get(j));
+				objectIds.remove(j);				
+			}
+			
+			
+		}
+		
+	}
+	
+	
+	private String callDimensionServices(List<String> objectIdsToWreck, String colName, String collectionName) {
+		
+		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(collectionName);
+		List<Dimensions> dimensionsList = new ArrayList<Dimensions>();
+		List<String> wreckingIdsForDimension = new ArrayList<String>();
+		
+		int i =0;
+		for( i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
+			if(dataprofilerInfo.getDatasetStats().get(i).getColumnName().equals(colName)) {
+				dimensionsList = new ArrayList<Dimensions>();
+				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionList().getDimensionsList();
+				break;
+			}
+		}
+		if(!dimensionsList.isEmpty()) {
+			
+			for(i =0; i< dimensionsList.size(); i++) {
+				if(dimensionsList.get(i).isStatus()) {
+					int dimensionWreckingCount = dimensionsList.get(i).getRemainingWreakingCount();
+					Collections.shuffle(objectIdsToWreck);
+					for(int j =0; j< dimensionWreckingCount; j++) {
+						wreckingIdsForDimension.add(objectIdsToWreck.get(j));
+						objectIdsToWreck.remove(j);
+					}
+					callDimension(dimensionsList.get(i).getDimensionName(), colName);
+					
+				}
+			}			
+		}
+		
+		return null;
+	}
+	
+	private int getTotalRecordsToWreck(String collectionName, String columnName) {
+		
+		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(collectionName);
+		List<Dimensions> dimensionsList = new ArrayList<Dimensions>();
+		int i =0;
+		int totalCount =0;
+		for( i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
+			if(dataprofilerInfo.getDatasetStats().get(i).getColumnName().equals(columnName)) {
+				dimensionsList = new ArrayList<Dimensions>();
+				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionList().getDimensionsList();
+			}
+		}
+		if(!dimensionsList.isEmpty()) {
+			for(i=0; i< dimensionsList.size(); i++) {
+				totalCount = totalCount + dimensionsList.get(i).getRemainingWreakingCount();
+			}			
+		}
+
+		return totalCount;
+		
+	}
 	
 }

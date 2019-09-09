@@ -123,9 +123,9 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					}
 					
 					if (indivisualWreakingCountForDimentions > consistancyCnt) {
-						datadimention.add("consistancy");
+						datadimention.add("Consistency");
 						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("consistancy");
+						dimensions.setDimensionName("Consistency");
 						dimensions.setReason("insufficient decimal values");
 						dimensions.setStatus(true);
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - consistancyCnt);
@@ -133,18 +133,18 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					}
 
 					if (indivisualWreakingCountForDimentions > positiveValidityCnt) {
-						datadimention.add("validaity");
+						datadimention.add("Validaity");
 						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("validaity");
+						dimensions.setDimensionName("Validaity");
 						dimensions.setReason("insufficient +ve integer values");
 						dimensions.setStatus(true);
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - positiveValidityCnt);
 						DimensionsList.add(dimensions);
 					}
 					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
-						datadimention.add("validaity");
+						datadimention.add("Validaity");
 						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("validaity");
+						dimensions.setDimensionName("Validaity");
 						dimensions.setReason("insufficient -ve integer values");
 						dimensions.setStatus(true);
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - negativeValidityCnt);
@@ -164,7 +164,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					{
 						datadimention.add("Uniqueness");
 						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("Accuracy");
+						dimensions.setDimensionName("Uniqueness");
 						dimensions.setReason("insufficient uniqueness values");
 						dimensions.setStatus(true);
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - profilingInfoModel.getColumnStats().getDuplicateCount());

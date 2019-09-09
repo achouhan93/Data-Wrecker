@@ -5,12 +5,12 @@ import com.data.stringdatatype.model.Dimensions;
 
 public interface StringDataTypeService {
 
-	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage);
+	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount);
 	
-	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int wreckingPercentage);
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount);
 	
-	public Dimensions ValidityCheck(DatasetStats datasetStats, int wreckingPercentage);
+	public Dimensions ValidityCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount);
 	
-	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage);
+	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount);
 	
 }

@@ -11,5 +11,6 @@ public class Dimensions {
 
 	private String dimensionName;
 	private boolean status;
-	private String Reason;
+	private String reason;
+	private int remainingWreakingCount;
 }

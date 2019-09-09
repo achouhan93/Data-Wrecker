@@ -8,7 +8,7 @@ public interface CallDataTypeServices {
 	
 	public String callDateService(String fileName,int wreckingPercentage);
 	
-	public String callStringService(String fileName);
+	public String callStringService(String fileName,int wreckingPercentage);
 
 	public String callIntegerService(String fileName, int wreckingPercentage);
 

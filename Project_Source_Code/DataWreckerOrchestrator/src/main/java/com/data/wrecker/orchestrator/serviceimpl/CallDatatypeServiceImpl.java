@@ -29,9 +29,9 @@ public class CallDatatypeServiceImpl implements CallDataTypeServices{
 	}
 
 	@Override
-	public String callStringService(String fileName) {
-		// port 8090
-		return null;
+	public String callStringService(String fileName, int wreckingPercentage) {
+		String url = "http://localhost:8090/dimension/stringDatatypeDimensions/?fileName="+fileName+"&wreckingPercentage="+wreckingPercentage;
+		return  new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override

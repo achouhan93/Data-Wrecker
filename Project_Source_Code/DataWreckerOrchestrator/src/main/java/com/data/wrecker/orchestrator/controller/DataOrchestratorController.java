@@ -24,8 +24,8 @@ public class DataOrchestratorController {
 	}
 	
 	@GetMapping("/applyDimensions")
-	public String applyDimensions(@RequestParam String collectionName) {
-		return callAllServices.callDimensionServices(collectionName);
+	public String applyDimensions(@RequestParam String collectionName, @RequestParam int wreckingPercentage) {
+		return callAllServices.callDimensionServices(collectionName,wreckingPercentage);
 	}
 
 }

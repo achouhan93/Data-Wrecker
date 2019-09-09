@@ -9,6 +9,6 @@ import lombok.Setter;
 public class DatasetStats {
 	String columnName;
 	ProfilingInfoModel profilingInfo;
-	DimensionInfoModel dimentionList;
+	DimensionInfoModel dimensionList;
 
 }
