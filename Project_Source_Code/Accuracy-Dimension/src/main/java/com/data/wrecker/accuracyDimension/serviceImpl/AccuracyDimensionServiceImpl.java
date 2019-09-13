@@ -13,8 +13,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.data.wrecker.accuracyDimension.model.ChangesLog;
 import com.data.wrecker.accuracyDimension.model.DataProfilerInfo;
 import com.data.wrecker.accuracyDimension.model.DatasetStats;
+import com.data.wrecker.accuracyDimension.repository.ChangesLogsRepository;
 import com.data.wrecker.accuracyDimension.repository.DataProfilerInfoRepo;
 import com.data.wrecker.accuracyDimension.service.AccuracyDimensionService;
 import com.mongodb.DB;
@@ -37,11 +39,16 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 	private List<DatasetStats> datasetStatsList;
 	private DatasetStats datasetStats;
 	private static final Logger LOGGER = LogManager.getLogger();
+	private List<ChangesLog> changesLogList;
+	private ChangesLog changesLog;
+	@Autowired
+	private ChangesLogsRepository changesLogrepo;
+	
 	
 	
 	
 	@Override
-	public String removeAccuracyDimension(String collectionName, String columnName) {
+	public String removeAccuracyDimension(String collectionName, String columnName,List<String> wreckingIds) {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType  = getColumnDataType(collectionName,columnName);
 		List<Integer> randomValues = new ArrayList<Integer>();
@@ -51,18 +58,25 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 			randomValues.add(randomNumber);
 			LOGGER.info("Random Number  " +randomNumber);
 		}
-		for(int j =0; j < randomValues.size(); j++ ) {
-			try {				
-				JSONObject jsonObj = datasetArray.getJSONObject(randomValues.get(j));
-				jsonObj = removeAccuracy(columnName, columnDataType, jsonObj);
-				
-				// datasetArray.getJSONObject(randomValues.get(j)).put("isWrecked", true);
-				LOGGER.info("Wrecked Data \n" +  jsonObj.toString());
-			} catch (JSONException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}		
+		try {
+		for(int j =0; j < wreckingIds.size(); j++ ) {
+			String objectId = wreckingIds.get(j);
+			for(int i=0;i<datasetArray.length();i++) {
+				if(datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {
+					
+					JSONObject jsonObj = datasetArray.getJSONObject(i);
+					jsonObj = removeAccuracy(columnName, columnDataType, jsonObj);					
+					// datasetArray.getJSONObject(randomValues.get(j)).put("isWrecked", true);
+					LOGGER.info("Wrecked Data \n" +  jsonObj.toString());
+					
+				}				
+			}	
+		}
+		
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		return null;
 	}

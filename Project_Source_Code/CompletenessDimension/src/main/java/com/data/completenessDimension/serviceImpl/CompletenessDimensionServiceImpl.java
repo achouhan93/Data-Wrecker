@@ -2,17 +2,19 @@ package com.data.completenessDimension.serviceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.data.completenessDimension.model.ChangesLog;
+import com.data.completenessDimension.repository.ChangesLogsRepository;
 import com.data.completenessDimension.service.CompletenessDimensionService;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -27,29 +29,39 @@ import com.mongodb.util.JSON;
 public class CompletenessDimensionServiceImpl implements CompletenessDimensionService{
 
 	private static final Logger LOGGER = LogManager.getLogger();
+	private List<ChangesLog> changesLogList;
+	private ChangesLog changesLog;
+	@Autowired
+	private ChangesLogsRepository changesLogrepo;
 	
 	@Override
-	public String removeValues(String collectionName, String columnName) {
+	public String removeValues(String collectionName, String columnName,List<String> wreckingIdsForDimension) {
 		// TODO Auto-generated method stub
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
-		List<Integer> randomValues = new ArrayList<Integer>();
-		Random randomGenerator = new Random();
-		for(int i=0;i<5;i++) {
-			int randomNumber = randomGenerator.nextInt(50) ;
-			randomValues.add(randomNumber);
-			LOGGER.info("Random Number  " +randomNumber);
-		}
-		for(int j =0; j < randomValues.size(); j++ ) {
-			try {
-				LOGGER.info("Old Data \n" +  datasetArray.getJSONObject(randomValues.get(j)));
-				datasetArray.getJSONObject(randomValues.get(j)).put(columnName, "");
-				datasetArray.getJSONObject(randomValues.get(j)).put("isWrecked", true);
-				LOGGER.info("Wrecked Data \n" +  datasetArray.getJSONObject(randomValues.get(j)));
-			} catch (JSONException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+		changesLogList = new ArrayList<ChangesLog>();
+		try {
+		for(int j =0; j < wreckingIdsForDimension.size(); j++ ) {
+			String objectId = wreckingIdsForDimension.get(j);
+			for(int i =0; i < datasetArray.length(); i++) {
+				if(datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {					
+					changesLog = new ChangesLog();
+					changesLog.setColumnName(columnName);
+					changesLog.setOid(objectId);
+					changesLog.setDimensionName("Completeness");
+					changesLog.setOldValue(datasetArray.getJSONObject(i).toString());
+					datasetArray.getJSONObject(i).put(columnName, "");
+					datasetArray.getJSONObject(i).put("isWrecked", true);
+					changesLog.setNewValue(datasetArray.getJSONObject(i).toString());
+					changesLogList.add(changesLog);
+					addToDb(changesLog);
+				}
 			}
-		}		
+		}
+		
+		}catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return addIntoDatabase(collectionName,datasetArray);		
 	}
 	
@@ -58,9 +70,7 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 		DB db = mongo.getDB("ReverseEngineering");
 		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
 		DBCursor cursor = collection.find();
-		JSONArray dbList = new JSONArray();
-		List<String> columnNamesList = new ArrayList<String>();
-		
+		JSONArray dbList = new JSONArray();		
 		
 		while(cursor.hasNext()) {
 			String str = cursor.next().toString();
@@ -75,6 +85,10 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 		
 	
 		return dbList;
+	}
+	
+	private void addToDb(ChangesLog changesLog) {
+		changesLogrepo.insert(changesLog);
 	}
 	
 	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {

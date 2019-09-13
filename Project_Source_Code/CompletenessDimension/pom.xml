@@ -61,6 +61,12 @@
 		</dependency>
 		
 		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.4</version><!--$NO-MVN-MAN-VER$ -->
+		</dependency>
+		
+		<dependency>
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>

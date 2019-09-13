@@ -9,10 +9,13 @@ import org.apache.logging.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.data.uniquenessDimension.model.ChangesLog;
+import com.data.uniquenessDimension.repository.ChangesLogsRepository;
 import com.data.uniquenessDimension.service.UniquenessDimensionService;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -26,37 +29,76 @@ import com.mongodb.util.JSON;
 public class UniquenessDimensionServiceImpl implements UniquenessDimensionService{
 
 	private static final Logger LOGGER = LogManager.getLogger();
+	private List<ChangesLog> changesLogList;
+	private ChangesLog changesLog;
+	@Autowired
+	private ChangesLogsRepository changesLogrepo;
+	
 	
 	@Override
-	public String applyUniquenessDimension(String collectionName, String columnName) {
-		LOGGER.info(" Uniqueness Service Started ");
+	public String applyUniquenessDimension(String collectionName, String columnName,List<String> wreckingIdsForDimension) {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
-		List<Integer> randomValues = new ArrayList<Integer>();
-		Random randomGenerator = new Random();
-		for(int i=0;i<5;i++) {
-			int randomNumber = randomGenerator.nextInt(50) ;
-			randomValues.add(randomNumber);
-			LOGGER.info("Random Number  " +randomNumber);
+		JSONArray changedRecordObj= new JSONArray();
+		changesLogList = new ArrayList<ChangesLog>();
+		
+		try {
+			
+		for(int j =0; j < wreckingIdsForDimension.size(); j++ ) {
+				
+				changedRecordObj= new JSONArray();				
+				String objectId = wreckingIdsForDimension.get(j);
+				
+				for(int i =0; i < datasetArray.length(); i++) {
+					
+						String oid = datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid");
+						if(oid.equals(objectId)) {
+							// LOGGER.info("Initial length " + datasetArray.length() );
+							changesLog = new ChangesLog();
+							changesLog.setDimensionName("Uniqueness");
+							changesLog.setColumnName(columnName);
+							changesLog.setOid(objectId);
+							changesLog.setOldValue(datasetArray.getJSONObject(i).toString());
+							JSONObject jsonObject = new JSONObject();
+							jsonObject = datasetArray.getJSONObject(i);
+							datasetArray.getJSONObject(i).put("isWrecked", true);
+							jsonObject.remove("_id");
+							jsonObject.put("isWrecked", true);				
+							changedRecordObj.put(jsonObject);
+							changesLog.setNewValue(datasetArray.getJSONObject(i).toString());
+							changesLogList.add(changesLog);
+							addToDb(changesLog);
+							break;
+						}
+					
+					
+					
+			}
+		
 		}
 		
-		for(int j =0; j < randomValues.size(); j++ ) {
+		
+		}catch(JSONException e) {
+			e.printStackTrace();
+		}
+		
+		// LOGGER.info("Final length " + datasetArray.length() );
+		
+		for(int k=0;k<changedRecordObj.length();k++) {
+			
 			try {
-				JSONObject jsonObject = new JSONObject();
-				jsonObject = datasetArray.getJSONObject(randomValues.get(j));
-				jsonObject.remove("_id");
-				datasetArray.getJSONObject(randomValues.get(j)).put("isWrecked", true);
-				jsonObject.put("isWrecked", true);
-				
-				datasetArray.put(jsonObject);
-				LOGGER.info("datasetArray length " + datasetArray.length() );
+				datasetArray.put(changedRecordObj.getJSONObject(k));
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			
 		}
-		LOGGER.info("Final length " + datasetArray.length() );
+		
 		return addIntoDatabase(collectionName,datasetArray);
 	}
+
+	
+
 	
 	
 	private JSONArray getDatasetFromDb(String collectionName) {
@@ -83,6 +125,10 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 		return dbList;
 	}
 	
+	private void addToDb(ChangesLog changesLog) {
+		changesLogrepo.insert(changesLog);
+	}
+	
 	
 	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {
 		Mongo mongo = new Mongo("localhost", 27017);
@@ -102,14 +148,12 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 		}
 			
 		DBCollection collection = db.createCollection(newCollectionName, null);
-		LOGGER.info("Length of Array before adding into DB \n"+jsonArray.toString());
 		 for (int i =0; i < jsonArray.length(); i++) {
 		 
 			 DBObject dbObject;
 			try {
 				dbObject = (DBObject) JSON.parse(jsonArray.getJSONObject(i).toString());
 				collection.insert(dbObject);
-				LOGGER.info("Data added! "+i);
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

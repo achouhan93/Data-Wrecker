@@ -21,7 +21,7 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 	
 	private DataProfilerInfo dataProfilerInfo;
 	private List<DataProfilerInfo> dataProfilerInfoList;
-	private Random rand;
+	private Random rand = new Random();
 	
 	@Override
 	public String interchangeColumnValues(String colValue, DataProfilerInfo datasetProfiler,String columnName,String fileName) {
@@ -161,6 +161,7 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 	        {
 	            chars[index] = Character.toUpperCase(c);
 	        }
+	        count++;
 	    }
 		return new String(chars);
 	}
