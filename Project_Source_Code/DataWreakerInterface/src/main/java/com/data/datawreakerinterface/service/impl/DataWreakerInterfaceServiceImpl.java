@@ -25,7 +25,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 		String fileName = null;
 		String database = "ReverseEngineering";
 		String[] collectionName = null;
-		File dir = new File("F:\\Datasets");
+		File dir = new File("D:\\Datasets");
 		try {
 			File[] listOfFiles = dir.listFiles();
 
@@ -39,7 +39,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 			System.out.println("Executing shell command to import file data into MongoDB");
 
 			r.exec("c:\\windows\\system32\\cmd.exe /c mongoimport -d "+database+" -c " + collectionName[0]
-					+ " --type csv --file " + fileName +" --headerline", null, dir);
+					+ "_0 --type csv --file " + fileName +" --headerline", null, dir);
 			
 			
 			@SuppressWarnings("resource")
