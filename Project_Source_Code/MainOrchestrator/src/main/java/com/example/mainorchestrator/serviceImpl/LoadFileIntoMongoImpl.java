@@ -68,45 +68,13 @@ public class LoadFileIntoMongoImpl implements LoadFileIntoMongo{
 	@Override
 	public String callDataWreckerOrchestrator(String fileName, int wreckingPercentage) {	
 		String result = "";
-		String URL = "http://localhost:8086/dimension/booleanDatatypeDimensions?columnName="+fileName+"&wreckingPercentage="+wreckingPercentage;		
+		String URL = "http://localhost:8091/data_wrecker_orchestrator/getDataprofileInfo?fileName="+fileName;		
 		result = callRestTemplates(URL);
 		if(result.equals("Success")) {
-			LOGGER.info("Boolean Service has been completed  ");
-			LOGGER.info("Starting Date service ");
-			URL = "http://localhost:8087/dimension/dateDatatypeDimensions?fileName="+fileName+"&wreckingPercentage="+wreckingPercentage;
-			result = callRestTemplates(URL);
-			if(result.equals("Success")) {
-				LOGGER.info("Date Service has been completed  ");
-				LOGGER.info("Starting Character service ");
-				URL = "http://localhost:8088/dimension/characterDatatypeDimensions?fileName="+fileName+"&wreckingPercentage="+wreckingPercentage;
-				result = callRestTemplates(URL);
-				if(result.equals("Success")) {
-					LOGGER.info("Character Service has been completed  ");
-					LOGGER.info("Starting String service ");
-					URL = "http://localhost:8090/dimension/stringDatatypeDimensions/?fileName="+fileName+"&wreckingPercentage="+wreckingPercentage;
-					result = callRestTemplates(URL);
-					if(result.equals("Success")) {
-					LOGGER.info("String Service has been completed  ");
-					LOGGER.info("Starting Integer service ");
-					URL = "http://localhost:8089/integerDataType/integerDataTypeDecision?wreakingDataRecordPosition="+wreckingPercentage+"&collectionName="+fileName;
-					result = callRestTemplates(URL);
-					if(result.equals("Success")) {
-						LOGGER.info("Integer Service has been completed  ");
-					}else {
-					 result = "Failure in Itegering Service";
-					}
-					
-					}else {
-						result = "Failure in String Service";
-					}
-				}else {
-					result = "Failure in Character Service";
-				}
-			}
+			return result;
 		}else {
-			result = "Failure in Boolean Service";
+			return "Failure in profiling services";
 		}
-		return result;
 	}
 
 	

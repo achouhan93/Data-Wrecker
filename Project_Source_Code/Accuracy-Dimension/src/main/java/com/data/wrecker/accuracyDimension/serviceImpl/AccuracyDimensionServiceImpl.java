@@ -10,6 +10,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -22,7 +23,9 @@ import com.data.wrecker.accuracyDimension.service.AccuracyDimensionService;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
 import com.mongodb.Mongo;
+import com.mongodb.util.JSON;
 
 
 @Service
@@ -43,32 +46,31 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 	private ChangesLog changesLog;
 	@Autowired
 	private ChangesLogsRepository changesLogrepo;
-	
-	
+	private Mongo mongo;
+	private DB db;
 	
 	
 	@Override
 	public String removeAccuracyDimension(String collectionName, String columnName,List<String> wreckingIds) {
+		String firstCollectionName = getFirstVersionOfCollection(collectionName);
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
-		String columnDataType  = getColumnDataType(collectionName,columnName);
-		List<Integer> randomValues = new ArrayList<Integer>();
-		Random randomGenerator = new Random();
-		for(int i=0;i<5;i++) {
-			int randomNumber = randomGenerator.nextInt(50) ;
-			randomValues.add(randomNumber);
-			LOGGER.info("Random Number  " +randomNumber);
-		}
+		String columnDataType  = getColumnDataType(firstCollectionName,columnName);
+		changesLogList = new ArrayList<ChangesLog>();
 		try {
 		for(int j =0; j < wreckingIds.size(); j++ ) {
 			String objectId = wreckingIds.get(j);
 			for(int i=0;i<datasetArray.length();i++) {
 				if(datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {
-					
+					changesLog = new ChangesLog();
+					changesLog.setColumnName(columnName);
+					changesLog.setOid(objectId);
+					changesLog.setDimensionName("Accuracy");
 					JSONObject jsonObj = datasetArray.getJSONObject(i);
-					jsonObj = removeAccuracy(columnName, columnDataType, jsonObj);					
-					// datasetArray.getJSONObject(randomValues.get(j)).put("isWrecked", true);
-					LOGGER.info("Wrecked Data \n" +  jsonObj.toString());
-					
+					changesLog.setOldValue(jsonObj.toString());
+					jsonObj = removeAccuracy(columnName, columnDataType, jsonObj);
+					changesLog.setNewValue(jsonObj.toString());
+					changesLogList.add(changesLog);
+					addToDb(changesLog);					
 				}				
 			}	
 		}
@@ -78,14 +80,57 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 			e.printStackTrace();
 		}
 		
-		return null;
+		return addIntoDatabase(collectionName,datasetArray);
 	}
 	
 	
 	
+	private void addToDb(ChangesLog changesLog2) {
+		changesLogrepo.insert(changesLog);
+		
+	}
+	
+	
+
+	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
+		String[] name = collectionName.split("_");
+		List<Document> jsonList = new ArrayList<Document>();
+		
+		String newCollectionName;
+		int versionNumber;
+		if(name[name.length - 1].isEmpty()) {
+			newCollectionName = name[0]+"_1";
+			LOGGER.info("New Collection Name is "+ name[0]+"_1");
+		}else {
+			versionNumber = Integer.parseInt(name[name.length - 1]) + 1;
+			newCollectionName = name[0]+"_"+versionNumber;
+			LOGGER.info("New Collection Name is "+newCollectionName);
+		}
+			
+		DBCollection collection = db.createCollection(collectionName, null);
+		 for (int i =0; i < jsonArray.length(); i++) {
+		 
+			 DBObject dbObject;
+			try {
+				dbObject = (DBObject) JSON.parse(jsonArray.getJSONObject(i).toString());
+				collection.save(dbObject);
+				//LOGGER.info("Data added!");
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		 }		
+		 mongo.close();
+		return collectionName;
+	}
+
+
 	private JSONArray getDatasetFromDb(String collectionName) {
-		Mongo mongo = new Mongo("localhost", 27017);
-		DB db = mongo.getDB("ReverseEngineering");
+		
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
 		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
 		DBCursor cursor = collection.find();
 		JSONArray dbList = new JSONArray();
@@ -102,6 +147,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 				e.printStackTrace();
 			} 
 		}
+		mongo.close();
 		return dbList;
 	}
 	
@@ -130,7 +176,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 	}
 	
 	private JSONObject removeAccuracy(String colName, String columnDatatype, JSONObject jsonObj) {
-		String result = "";
+		
 		switch(columnDatatype.toLowerCase()) {
 		case "string": 
 			LOGGER.info("String");
@@ -229,7 +275,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 			e.printStackTrace();
 		}
 		
-		return null;
+		return jsonObj;
 	}
 
 
@@ -290,4 +336,17 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 		return datasetStats;
 	}
 
+	private String getFirstVersionOfCollection(String collectionName) {
+		String[] name = collectionName.split("_");
+		String newCollectionName;
+		if(Integer.parseInt(name[name.length - 1]) == 1) {
+			newCollectionName = collectionName;
+			 LOGGER.info("New Collection Name is "+ collectionName);
+		}else {
+			newCollectionName = name[0]+"_"+1;
+			 LOGGER.info("New Collection Name is "+newCollectionName);
+		}
+		return newCollectionName;
+	}
+	
 }

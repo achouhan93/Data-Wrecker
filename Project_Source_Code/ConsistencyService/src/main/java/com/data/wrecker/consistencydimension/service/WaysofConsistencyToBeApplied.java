@@ -18,7 +18,7 @@ public interface WaysofConsistencyToBeApplied {
 	
 	public String affectBooleanValues(boolean colValue);
 	
-	public int affectNumbers(int colValue);
+	public String convertToFloat(int colValue);
 	
 	public String affectCurrencyValues(String colValue);
 		

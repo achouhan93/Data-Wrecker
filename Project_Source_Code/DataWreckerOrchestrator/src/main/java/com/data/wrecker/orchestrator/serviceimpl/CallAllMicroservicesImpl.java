@@ -43,6 +43,8 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 
 	private static final Logger LOGGER = LogManager.getLogger();
 	private static final String RESULT = "Success";
+	private Mongo mongo;
+	private DB db;
 	
 	@Override
 	public String callDataprofilingServices(String fileName) {
@@ -181,30 +183,26 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	
 	private String callDimension(List<String> wreckingIdsForDimension, String dimensionName, String columnName, String collectionName ) {
 		String result = "";
-		LOGGER.info("IDS for dimension "+wreckingIdsForDimension.size());
+		// LOGGER.info("IDS for dimension "+wreckingIdsForDimension.size());
 		switch (dimensionName) {
 		
 		case "Completeness":
-			result = callDimensionService.callConsistencyService(wreckingIdsForDimension, columnName, collectionName);
+			result = callDimensionService.callCompletenessService(wreckingIdsForDimension, columnName, collectionName);
 			break;
 			
-		case "Uniqueness":
-			result = callDimensionService.callUniquenessService(wreckingIdsForDimension, columnName, collectionName);
-			break;
-		
 		case "Consistency":
 			result = callDimensionService.callConsistencyService(wreckingIdsForDimension, columnName, collectionName);	
 			break;
 		
-		case "Accuracy":
-			callDimensionService.callAccuracyServcie(wreckingIdsForDimension, columnName, collectionName);
-			result = "Accuracy";
+		case "Accuracy":			
+			result = callDimensionService.callAccuracyServcie(wreckingIdsForDimension, columnName, collectionName);
 			break;	
 		
-		case "Validity":
-			callDimensionService.callValidityServcie(wreckingIdsForDimension, columnName, collectionName);
-			result = "Validity";
+		case "Validity":			
+			result = callDimensionService.callValidityServcie(wreckingIdsForDimension, columnName, collectionName);
 			break;	
+		default:
+			result = collectionName;
 			
 		}
 		
@@ -250,8 +248,8 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	}
 	
 	private JSONArray getDatasetFromDb(String collectionName) {
-		Mongo mongo = new Mongo("localhost", 27017);
-		DB db = mongo.getDB("ReverseEngineering");
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
 		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
 		DBCursor cursor = collection.find();
 		JSONArray dbList = new JSONArray();
@@ -268,6 +266,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 			} 
 		}
 		
+		mongo.close();
 		return dbList;
 	}
 	
@@ -323,7 +322,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	private String callDimensionServices(List<String> objectIdsToWreck, String colName, String collectionName) {
 		
 		String firstVersionOfCollection = getFirstVersionOfCollection(collectionName);
-		LOGGER.info("First Version "+firstVersionOfCollection);
+		// LOGGER.info("First Version "+firstVersionOfCollection);
 		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(firstVersionOfCollection);
 		List<Dimensions> dimensionsList = new ArrayList<Dimensions>();
 		List<String> wreckingIdsForDimension = new ArrayList<String>();
@@ -340,7 +339,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 			int count =0;
 			int dimensionWreckingCount = 0;
 			for(i =0; i< dimensionsList.size(); i++) {
-				if(dimensionsList.get(i).isStatus() && dimensionsList.get(i).getDimensionName().equals("Completeness")) {
+				if(dimensionsList.get(i).isStatus()) {
 					 dimensionWreckingCount = dimensionWreckingCount + dimensionsList.get(i).getRemainingWreakingCount();
 					wreckingIdsForDimension = objectIdsToWreck.subList(count, dimensionWreckingCount-1);
 					
@@ -379,13 +378,13 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	private String getFirstVersionOfCollection(String collectionName) {
 		String[] name = collectionName.split("_");
 		String newCollectionName;
-		int versionNumber;
+		
 		if(Integer.parseInt(name[name.length - 1]) == 1) {
 			newCollectionName = collectionName;
-			LOGGER.info("New Collection Name is "+ collectionName);
+			// LOGGER.info("New Collection Name is "+ collectionName);
 		}else {
 			newCollectionName = name[0]+"_"+1;
-			LOGGER.info("New Collection Name is "+newCollectionName);
+			// LOGGER.info("New Collection Name is "+newCollectionName);
 		}
 		return newCollectionName;
 	}

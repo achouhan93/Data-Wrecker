@@ -14,9 +14,11 @@ public interface WaysToAffectValidityService {
 	
 	public String convertBoolIntoPositiveNegative(String colValue);
 	
-	public String applayValidityForZeroandOnes(int colValue);
+	public String replaceCharacterWithSpecialChars(String colValue);
 
 	public String invalidateInteger(int colValue);
 	
 	public String addYearsToDate(DatasetStats datasetStats, String date);
+	
+	public String generateInvalidDates(String colValue);
 }

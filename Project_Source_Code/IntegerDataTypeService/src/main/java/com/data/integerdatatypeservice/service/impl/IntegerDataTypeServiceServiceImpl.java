@@ -133,18 +133,18 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					}
 
 					if (indivisualWreakingCountForDimentions > positiveValidityCnt) {
-						datadimention.add("Validaity");
+						datadimention.add("Validity");
 						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("Validaity");
+						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient +ve integer values");
 						dimensions.setStatus(true);
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - positiveValidityCnt);
 						DimensionsList.add(dimensions);
 					}
 					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
-						datadimention.add("Validaity");
+						datadimention.add("Validity");
 						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("Validaity");
+						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient -ve integer values");
 						dimensions.setStatus(true);
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - negativeValidityCnt);

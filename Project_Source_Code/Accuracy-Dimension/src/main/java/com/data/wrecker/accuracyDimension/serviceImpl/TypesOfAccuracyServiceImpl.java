@@ -31,8 +31,7 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected{
 	@Override
 	public JSONObject interChangedValues(JSONObject jsonObj, String columnName) {
 		LOGGER.info("Interchanging values "+jsonObj.toString());
-		
-		
+
 		Iterator columnNames = jsonObj.keys();
 		List<String> columnHeaders =new ArrayList<String>();
 		
@@ -60,22 +59,29 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	
-		
-		LOGGER.info("Interchanged0 values "+jsonObj.toString());
 		
 		return jsonObj;
 	}
 
 	@Override
 	public String typosForValues(String colValue) {
-		LOGGER.info("Typos");
+		// LOGGER.info("Typos");
 		rand = new Random();
-		int count = rand.nextInt(4);
+		int count = 0;
+		if(colValue.length() > 1) {
+			 count = rand.nextInt(colValue.length() / 2) + 1;	
+		}else {
+			count = 4;
+		}
 		
+		String strings = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+{}:>?/.,;'[]";
 		char[] chars = colValue.toCharArray();
-		while(count < 0) {			
-			chars[count] = (char) (rand.nextInt(26) + 'a');
+		char[] stringsArray = strings.toCharArray(); 
+		while(count > 0) {			
+			int num = rand.nextInt(stringsArray.length);
+			int index = rand.nextInt(chars.length);
+			chars[index] = stringsArray[num];
+			count--;
 		}
 		return new String(chars);
 	}
@@ -83,15 +89,12 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected{
 	@Override
 	public String generateJunkValues(String colValue) {
 		LOGGER.info("Generate Junk Values ");
-		String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+{}:>?/.,;'[]";
+		rand = new Random();
+		String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+{}:>?/.,;'[] ";
 		char[] characters = str.toCharArray();
-		char[] newString = new char[characters.length];
-		for(int i=0; i< colValue.length();i++) {
-			rand = new Random();
-			int index = rand.nextInt(characters.length);
-			newString[i] = characters[index];			
-		}
-		return String.copyValueOf(newString);
+		int randomIndex = rand.nextInt(characters.length);
+		int subStringLength = rand.nextInt(colValue.length());
+		return colValue.substring(0, subStringLength) + characters[randomIndex] + colValue.substring(subStringLength);
 	}
 
 	@Override
@@ -129,7 +132,7 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected{
 		List<PatternModel> patternsIdentified  = datasetStats.getProfilingInfo().getPatternsIdentified();
 		for(int i = 0; i < patternsIdentified.size();i++) {
 			if(Pattern.matches(date, patternsIdentified.get(i).getPattern())) {
-				dateFormatPattern = patternsIdentified.get(i).getPattern(); 
+				dateFormatPattern = patternsIdentified.get(i).getPattern();
 				SimpleDateFormat sdf = new SimpleDateFormat(dateFormatPattern);
 				Calendar c = Calendar.getInstance();
 				try {

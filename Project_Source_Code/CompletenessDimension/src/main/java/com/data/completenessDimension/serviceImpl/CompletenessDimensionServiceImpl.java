@@ -33,6 +33,9 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 	private ChangesLog changesLog;
 	@Autowired
 	private ChangesLogsRepository changesLogrepo;
+	private Mongo mongo;
+	private DB db;
+
 	
 	@Override
 	public String removeValues(String collectionName, String columnName,List<String> wreckingIdsForDimension) {
@@ -66,8 +69,8 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 	}
 	
 	private JSONArray getDatasetFromDb(String collectionName) {
-		Mongo mongo = new Mongo("localhost", 27017);
-		DB db = mongo.getDB("ReverseEngineering");
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
 		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
 		DBCursor cursor = collection.find();
 		JSONArray dbList = new JSONArray();		
@@ -83,7 +86,7 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 			} 
 		}
 		
-	
+		mongo.close();
 		return dbList;
 	}
 	
@@ -92,8 +95,8 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 	}
 	
 	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {
-		Mongo mongo = new Mongo("localhost", 27017);
-		DB db = mongo.getDB("ReverseEngineering");
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
 		String[] name = collectionName.split("_");
 		List<Document> jsonList = new ArrayList<Document>();
 		
@@ -108,20 +111,21 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 			LOGGER.info("New Collection Name is "+newCollectionName);
 		}
 			
-		DBCollection collection = db.createCollection(newCollectionName, null);
+		DBCollection collection = db.createCollection(collectionName, null);
 		 for (int i =0; i < jsonArray.length(); i++) {
 		 
 			 DBObject dbObject;
 			try {
 				dbObject = (DBObject) JSON.parse(jsonArray.getJSONObject(i).toString());
-				collection.insert(dbObject);
+				collection.save(dbObject);
 				//LOGGER.info("Data added!");
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		 }		
-		return newCollectionName;
+		 mongo.close();
+		return collectionName;
 	}
 	
 	

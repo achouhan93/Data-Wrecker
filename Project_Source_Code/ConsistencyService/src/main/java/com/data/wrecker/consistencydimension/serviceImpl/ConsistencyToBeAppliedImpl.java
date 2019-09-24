@@ -1,8 +1,14 @@
 package com.data.wrecker.consistencydimension.serviceImpl;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,6 +28,7 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 	private DataProfilerInfo dataProfilerInfo;
 	private List<DataProfilerInfo> dataProfilerInfoList;
 	private Random rand = new Random();
+	private static final Logger LOGGER = LogManager.getLogger();
 	
 	@Override
 	public String interchangeColumnValues(String colValue, DataProfilerInfo datasetProfiler,String columnName,String fileName) {
@@ -73,31 +80,61 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 
 	@Override
 	public String changeDateFormat(String colValue) {
-		// TODO Auto-generated method stub
-		return null;
+		String newDate = "";
+		String[] dateFormats = {"dd-MM-yy","dd-MM-yyyy","MM-dd-yyyy","yyyy-MM-dd","EEEEE MMMMM yyyy HH:mm:ss.SSSZ","yyyy-MM-dd HH:mm:ss"};
+		int ind =0;
+		rand = new Random();
+		 try {
+			 DateFormat srcDf = new SimpleDateFormat(colValue);
+			 
+			 Date date = srcDf.parse(colValue);
+			 
+			 ind = rand.nextInt(dateFormats.length);
+			 
+			 DateFormat destDf = new SimpleDateFormat(dateFormats[ind]);
+			 
+			 newDate = destDf.format(date);
+			 
+			 while(newDate.equals(colValue)) {
+			
+				 ind = rand.nextInt(dateFormats.length);
+				 
+				 destDf = new SimpleDateFormat(dateFormats[ind]);
+				 
+				 newDate = destDf.format(date);
+				 
+			 }
+			 
+			
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 LOGGER.info("New Date "+newDate);
+		return newDate;
 	}
 
 	@Override
 	public String affectBooleanValues(boolean colValue) {
-		String boolValue = String.valueOf(colValue);
-		switch(boolValue) {
-		
-		case "True":
-			boolValue = "TREU";
-		
-		}
-		return null;
-	}
-
-	@Override
-	public int affectNumbers(int colValue) {
-		// TODO Auto-generated method stub
+		String boolValue;
+		int index =0;
+		String[] truthValues = {"tRuE","TRue","TruE","Treu","Ture","t","T","1","Trre"};
+		String[] falseValues = {"faLsE","FaLSE","FaLSe","FAls","f","0","FASE","Fals","FLSE","Fale"};
 		rand = new Random();
-		colValue = colValue + rand.nextInt(colValue) + 1;
+		if(colValue) {
+		boolValue = String.valueOf(colValue);
+		index = rand.nextInt(truthValues.length);
 		
-		return colValue;
+		boolValue = truthValues[index];		
+		}else {
+			boolValue = String.valueOf(colValue);
+			index = rand.nextInt(falseValues.length);
+			boolValue = falseValues[index];
+		}
+		LOGGER.info("Value "+boolValue);
+		return boolValue;
 	}
-
+	
 	@Override
 	public String affectCurrencyValues(String colValue) {
 		// TODO Auto-generated method stub
@@ -147,8 +184,19 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 
 	@Override
 	public String reverseCase(String colValue) {
-		char[] chars = colValue.toCharArray();
-		int count = rand.nextInt(colValue.length());
+		return reverseStringCase(colValue);
+	}
+
+
+	@Override
+	public String changeItIntoUpperCase(String colValue) {
+		// TODO Auto-generated method stub
+		return colValue.toUpperCase();
+	}
+	
+	private String reverseStringCase(String stringValue) {
+		char[] chars = stringValue.toCharArray();
+		int count = rand.nextInt(stringValue.length());
 	    while(count < chars.length)
 	    {
 	    	int index = rand.nextInt(chars.length);
@@ -168,8 +216,11 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 
 
 	@Override
-	public String changeItIntoUpperCase(String colValue) {
-		// TODO Auto-generated method stub
-		return colValue.toUpperCase();
+	public String convertToFloat(int colValue) {
+	
+		float val = (float)(colValue);
+		
+		return String.valueOf(val);
+		
 	}
 }

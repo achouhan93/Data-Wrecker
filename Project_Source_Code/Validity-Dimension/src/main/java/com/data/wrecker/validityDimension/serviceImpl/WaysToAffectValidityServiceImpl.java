@@ -11,6 +11,8 @@ import java.util.regex.Pattern;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.data.wrecker.validityDimension.model.DataProfilerInfo;
 import com.data.wrecker.validityDimension.model.DatasetStats;
@@ -18,6 +20,8 @@ import com.data.wrecker.validityDimension.model.PatternModel;
 import com.data.wrecker.validityDimension.repository.DataProfilerInfoRepo;
 import com.data.wrecker.validityDimension.service.WaysToAffectValidityService;
 
+@Service
+@Transactional
 public class WaysToAffectValidityServiceImpl  implements WaysToAffectValidityService{
 
 	@Autowired
@@ -100,38 +104,26 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 				value = "-Ve";
 			}
 			break;
-		}
-		return value;
-	}
-
-	@Override
-	public String applayValidityForZeroandOnes(int colValue) {
-
-		rand = new Random();
-		String value = "";
-		
-		switch (colValue) {
-		
-		case 0:
-			if(rand.nextInt(2)  > 0) {
-				value = "+0";
-			}else {
-				value = "-0";
-			}
-			break;
-		
-		case 1:
+		case "1":
 			if(rand.nextInt(2)  > 0) {
 				value = "+1";
 			}else {
 				value = "-1";
 			}
 			break;
-		
-		}		
-		
+		case "0":
+			if(rand.nextInt(2)  > 0) {
+				value = "+0";
+			}else {
+				value = "-0";
+			}
+			break;
+			
+		}
 		return value;
 	}
+
+	
 
 	@Override
 	public String invalidateInteger(int colValue) {
@@ -197,6 +189,33 @@ private DatasetStats getDatasetStats(String colName, String cllectionName) {
 		
 		return datasetStats;
 	}
+
+@Override
+public String replaceCharacterWithSpecialChars(String colValue) {
+	String chars = "!@#$%^&*()_+-=,./;'[] {}:?><";
+	char[] charArray = chars.toCharArray();
+	rand = new Random();
+	int randNum = rand.nextInt(charArray.length);	
+	return Character.toString(charArray[randNum]);
+	
+}
+
+@Override
+public String generateInvalidDates(String colValue) {
+	rand = new Random();
+	int date = rand.nextInt(31) + 32;
+	int month = rand.nextInt(12) + 12;
+	int year = rand.nextInt(3000) + 2000;
+	String [] months = {"JANE","FEBU","MARK","APLR","MAI","JAME","JLIY","AGUS","SPTB","OCBMR","NVMBR","DCBRF"};
+	if(colValue.contains("/")) {
+		colValue = date + "/" +month +"/" + year;
+	}else if(colValue.contains("-")) {
+		colValue = date + "-" +month +"-" + year;
+	}else {
+		colValue = date + " " +months[rand.nextInt(months.length)] +" " + year;
+	}
+	return colValue;
+}
 
 
 

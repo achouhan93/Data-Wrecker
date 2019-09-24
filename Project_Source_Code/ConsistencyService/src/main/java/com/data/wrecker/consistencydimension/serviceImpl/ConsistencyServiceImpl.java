@@ -44,6 +44,9 @@ public class ConsistencyServiceImpl implements ConsistencyService{
 	private ChangesLog changesLog;
 	@Autowired
 	private ChangesLogsRepository changesLogrepo;
+	private Mongo mongo ;
+	private DB db;
+	
 	
 	@Override
 	public String removeConsistencyDimension(String collectionName, String columnName,List<String> wreckingIds) {
@@ -56,9 +59,9 @@ public class ConsistencyServiceImpl implements ConsistencyService{
 			
 		for(int j =0; j < wreckingIds.size(); j++ ) {
 			
+			String objectId = wreckingIds.get(j);
+			
 			for(int i=0; i < datasetArray.length();i++) {
-				
-				String objectId = wreckingIds.get(j);
 				
 				if(datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {
 					String colValue = datasetArray.getJSONObject(i).get(columnName).toString();
@@ -106,18 +109,18 @@ public class ConsistencyServiceImpl implements ConsistencyService{
 			break;
 		case "date":
 			LOGGER.info("Date");
-			result = callServicesForDate();
+			result = callServicesForDate(colValue);
 			break;
 		case "boolean":
 			LOGGER.info("Boolean");
-			result = callServicesForBoolean();
+			result = callServicesForBoolean(colValue);
 		}
 		return result;
 	}
 	
 	private JSONArray getDatasetFromDb(String collectionName) {
-		Mongo mongo = new Mongo("localhost", 27017);
-		DB db = mongo.getDB("ReverseEngineering");
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
 		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
 		DBCursor cursor = collection.find();
 		JSONArray dbList = new JSONArray();
@@ -135,7 +138,7 @@ public class ConsistencyServiceImpl implements ConsistencyService{
 			} 
 		}
 		
-	
+		mongo.close();
 		return dbList;
 	}
 	
@@ -209,18 +212,19 @@ public class ConsistencyServiceImpl implements ConsistencyService{
 			num = waysofConsistencyToBeApplied.convertIntegerIntoBinary(colValue);
 			break;
 		case 1: 
-			num = Integer.toString(waysofConsistencyToBeApplied.affectNumbers(colValue));		
+			num = waysofConsistencyToBeApplied.convertToFloat(colValue);		
 			
 		}
 		return num;
 	}
 	
-	private String callServicesForBoolean() {
-		return null;
+	private String callServicesForBoolean(String colValue) {
+		
+		return waysofConsistencyToBeApplied.affectBooleanValues(Boolean.parseBoolean(colValue));
 	}
 	
-	private String callServicesForDate() {
-		return null;
+	private String callServicesForDate(String colValue) {
+		return waysofConsistencyToBeApplied.changeDateFormat(colValue);
 	}
 	
 	private int getRandomNumber(int num) {
@@ -251,8 +255,8 @@ public class ConsistencyServiceImpl implements ConsistencyService{
 	
 	
 	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {
-		Mongo mongo = new Mongo("localhost", 27017);
-		DB db = mongo.getDB("ReverseEngineering");
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
 		String[] name = collectionName.split("_");
 		List<Document> jsonList = new ArrayList<Document>();
 		
@@ -260,27 +264,27 @@ public class ConsistencyServiceImpl implements ConsistencyService{
 		int versionNumber;
 		if(name[name.length - 1].isEmpty()) {
 			newCollectionName = name[0]+"_1";
-			LOGGER.info("New Collection Name is "+ name[0]+"_1");
+			// LOGGER.info("New Collection Name is "+ name[0]+"_1");
 		}else {
 			versionNumber = Integer.parseInt(name[name.length - 1]) + 1;
 			newCollectionName = name[0]+"_"+versionNumber;
-			LOGGER.info("New Collection Name is "+newCollectionName);
+			// LOGGER.info("New Collection Name is "+newCollectionName);
 		}
 			
-		DBCollection collection = db.createCollection(newCollectionName, null);
+		DBCollection collection = db.createCollection(collectionName, null);
 		 for (int i =0; i < jsonArray.length(); i++) {
 		 
 			 DBObject dbObject;
 			try {
 				dbObject = (DBObject) JSON.parse(jsonArray.getJSONObject(i).toString());
-				collection.insert(dbObject);
-				//LOGGER.info("Data added!");
+				collection.save(dbObject);
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		 }		
-		return newCollectionName;
+		 }	
+		 mongo.close();
+		return collectionName;
 	}
 	
 	private String getFirstVersionOfCollection(String collectionName) {
