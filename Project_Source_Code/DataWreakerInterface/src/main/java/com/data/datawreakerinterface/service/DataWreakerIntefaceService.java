@@ -6,5 +6,7 @@ import com.data.datawreakerinterface.model.DatasetDetails;
 public interface DataWreakerIntefaceService {
 
 	public DatasetDetails putCsvDataIntoMongo() throws DataWreakernterfaceException;
+	
+	public DatasetDetails exportDataAsCSV(String collectionName) throws DataWreakernterfaceException;
 
 }

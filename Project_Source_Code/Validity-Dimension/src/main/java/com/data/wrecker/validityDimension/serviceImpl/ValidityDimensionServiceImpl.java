@@ -68,11 +68,11 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService{
 						changesLog.setColumnName(columnName);
 						changesLog.setOid(objectId);
 						changesLog.setDimensionName("Consistency");
-						changesLog.setOldValue(datasetArray.getJSONObject(i).toString());
+						changesLog.setOldValue(colValue);
 						colValue = removeValidity(colValue,columnDataType);
 						datasetArray.getJSONObject(i).put(columnName,colValue);
 						datasetArray.getJSONObject(i).put("isWrecked", true);
-						changesLog.setNewValue(datasetArray.getJSONObject(i).toString());
+						changesLog.setNewValue(colValue);
 						changesLogList.add(changesLog);
 						addToDb(changesLog);
 					}
