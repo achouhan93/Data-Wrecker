@@ -124,8 +124,17 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 						
 						result = callDatatypeService.callStringService(fileName,wreckPercentage);
 						if(result.equals(RESULT)) {
-							result = "Success";
+							
 							LOGGER.info("String service is Successful ");
+							result =  callDatatypeService.callDecimalService(fileName, wreckPercentage);
+							
+							if(result.equals(RESULT)) {
+								LOGGER.info("Decimal service is Successful ");
+								result = "Success";
+							}else {
+								LOGGER.info("String service is UnSuccessful ");
+								result = "Failure";
+							}
 						}else {
 							LOGGER.info("String service is UnSuccessful ");
 							result = "Failure";
@@ -183,7 +192,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	
 	private String callDimension(List<String> wreckingIdsForDimension, String dimensionName, String columnName, String collectionName ) {
 		String result = "";
-		// LOGGER.info("IDS for dimension "+wreckingIdsForDimension.size());
+		
 		switch (dimensionName) {
 		
 		case "Completeness":

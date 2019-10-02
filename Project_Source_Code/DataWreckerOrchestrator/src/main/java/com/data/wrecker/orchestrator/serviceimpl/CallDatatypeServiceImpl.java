@@ -43,7 +43,7 @@ public class CallDatatypeServiceImpl implements CallDataTypeServices{
 
 	@Override
 	public String callDecimalService(String fileName, int wreckingPercentage) {
-		String url = "localhost:8088/decimalDataType/decimalDataTypeDecision?wreakingDataRecordPosition="+wreckingPercentage+"&collectionName="+fileName;
+		String url = "localhost:8097/decimalDataType/decimalDataTypeDecision?wreakingDataRecordPosition="+wreckingPercentage+"&collectionName="+fileName;
 		return  new RestTemplate().getForObject(url, String.class);
 	}
 
