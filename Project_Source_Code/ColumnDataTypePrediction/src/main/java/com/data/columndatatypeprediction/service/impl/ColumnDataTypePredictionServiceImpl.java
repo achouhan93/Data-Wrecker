@@ -62,7 +62,7 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 			Map<String, Integer> dataTypes = new TreeMap<String, Integer>();
 			dataTypes.put("Boolean", 0);
 			dataTypes.put("Character", 0);
-			dataTypes.put("Double", 0);
+			dataTypes.put("Decimal", 0);
 			dataTypes.put("Integer", 0);
 			dataTypes.put("String", 0);
 			dataTypes.put("Date", 0);
@@ -77,9 +77,9 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 				
 				//profilingInfoModel = new ProfilingInfoModel();			
 				
-				LOGGER.info("Pattern = " + profilingInfoModel.getPatternsIdentified().get(patternIterator).getPattern()
+				/*LOGGER.info("Pattern = " + profilingInfoModel.getPatternsIdentified().get(patternIterator).getPattern()
 						+ ", Occurance = "
-						+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance());
+						+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance());*/
 				String pattern = profilingInfoModel.getPatternsIdentified().get(patternIterator).getPattern();
 				int patternOccurance = profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance();
 				int checkforDateWithdoubleSlashOrDot = 0;
@@ -104,7 +104,7 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 				} else if (pattern.matches("(\\+|-)?([0-9]+(\\.[0-9]+))")
 						|| pattern.matches("(\\+|-)?([0-9]+(\\,[0-9]+))")) {
 					doubleCnt = doubleCnt + patternOccurance;
-					dataTypes.put("Double", doubleCnt);
+					dataTypes.put("Decimal", doubleCnt);
 				} else if (pattern.matches("[0-9]+")) {
 					intCnt = intCnt + patternOccurance;
 					dataTypes.put("Integer", intCnt);
@@ -117,7 +117,7 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 				}
 
 			}
-			System.out.println("dataTypes" + dataTypes);
+			//System.out.println("dataTypes" + dataTypes);
 			Map.Entry<String, Integer> maxEntry = null;
 			// finding out max key value pair out of map
 			for (Map.Entry<String, Integer> entry : dataTypes.entrySet()) {
@@ -125,8 +125,8 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 					maxEntry = entry;
 				}
 			}
-			System.out.println("data type for column: " + columnHeader1.get(datasetHeadersIterator) + " is : "
-					+ maxEntry.getKey());
+			/*System.out.println("data type for column: " + columnHeader1.get(datasetHeadersIterator) + " is : "
+					+ maxEntry.getKey());*/
 			profilingInfoModel.setColumnDataType(maxEntry.getKey());
 			columnPatternModel.get(datasetHeadersIterator).setProfilingInfo(profilingInfoModel);
 			dataProfilerInfo.setDatasetStats(columnPatternModel);

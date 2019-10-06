@@ -27,8 +27,8 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount) {
 		dimensions = new Dimensions();
 		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount(), Colcount);
-		LOGGER.info("Total wreckingPercentage " + wreckingPercentage);
-		LOGGER.info("Total wreck count " + totalRowsCanBeWrecked);
+		/*LOGGER.info("Total wreckingPercentage " + wreckingPercentage);
+		LOGGER.info("Total wreck count " + totalRowsCanBeWrecked);*/
 		
 		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > totalRowsCanBeWrecked) {
 			dimensions.setDimensionName("Completeness");

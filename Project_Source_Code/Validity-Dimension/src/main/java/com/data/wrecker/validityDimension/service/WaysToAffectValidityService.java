@@ -21,4 +21,6 @@ public interface WaysToAffectValidityService {
 	public String addYearsToDate(DatasetStats datasetStats, String date);
 	
 	public String generateInvalidDates(String colValue);
+
+	public String invalidDecimal(String colValue);
 }

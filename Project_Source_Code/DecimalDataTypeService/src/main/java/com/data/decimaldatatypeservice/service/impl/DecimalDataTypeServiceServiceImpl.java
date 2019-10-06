@@ -79,10 +79,10 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Decimal")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
 							.size(); patternIterator++) {
-						LOGGER.info("Pattern = "
+						/*LOGGER.info("Pattern = "
 								+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getPattern()
 								+ ", Occurance = "
-								+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance());
+								+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance());*/
 						String patternString = profilingInfoModel.getPatternsIdentified().get(patternIterator)
 								.getPattern();
 						int patternValue = profilingInfoModel.getPatternsIdentified().get(patternIterator)
@@ -90,7 +90,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 						// null value present?
 						if (patternString.equals("")) {
 							completenessCnt = completenessCnt + patternValue;
-							LOGGER.info("Completeness may be called");
+							//LOGGER.info("Completeness may be called");
 						}
 						// signed Decimal check
 						else if (patternString.matches("(?<=\\s|^)[-+]?\\d+(?=\\s|$)")) {
@@ -105,10 +105,10 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 								|| patternString.matches("^[-+]?\\d+(\\,\\d+)?$"))
 								&& (patternString.contains(".") || patternString.contains(","))) {
 							consistancyCnt = consistancyCnt + patternValue;
-							LOGGER.info("Consistancy for integer may be called");
+							//LOGGER.info("Consistancy for integer may be called");
 						} else {
 							accuracyCnt = accuracyCnt + patternValue;
-							LOGGER.info("Accuracy may be called");
+							//LOGGER.info("Accuracy may be called");
 						}
 					}
 					if (indivisualWreakingCountForDimentions > completenessCnt) {

@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.6.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.data.wrecker.orchestrator</groupId>
 	<artifactId>DataWreckerOrchestrator</artifactId>
@@ -15,6 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 		<java.version>1.8</java.version>
 	</properties>
 
@@ -48,13 +49,13 @@
 			<artifactId>de.flapdoodle.embed.mongo</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-			<dependency>
+
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<version>1.18.4</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
