@@ -100,23 +100,33 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		switch (columnDatatype.toLowerCase()) {
 		case "string":
 			LOGGER.info("String");
-			result = callServicesForString(colValue);
+			if (colValue.isEmpty()) {
+				result = callServicesForString(colValue);
+			}
 			break;
 		case "integer":
 			LOGGER.info("Integer");
-			result = callServicesForInteger(Integer.parseInt(colValue));
+			if (colValue.isEmpty()) {
+				result = callServicesForInteger(Integer.parseInt(colValue));
+			}
 			break;
 		case "character":
 			LOGGER.info("Character");
-			result = callServicesForChar(colValue);
+			if (colValue.isEmpty()) {
+				result = callServicesForChar(colValue);
+			}
 			break;
 		case "date":
 			LOGGER.info("Date");
-			result = callServicesForDate(colValue);
+			if (colValue.isEmpty()) {
+				result = callServicesForDate(colValue);
+			}
 			break;
 		case "boolean":
 			LOGGER.info("Boolean");
-			result = callServicesForBoolean(colValue);
+			if (colValue.isEmpty()) {
+				result = callServicesForBoolean(colValue);
+			}
 		}
 		return result;
 	}
