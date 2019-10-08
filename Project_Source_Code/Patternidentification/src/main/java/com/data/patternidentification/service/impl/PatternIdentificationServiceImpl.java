@@ -92,7 +92,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					}
 				}
 				mongoClient.close();
-				System.out.println("   " + columnData);
+				//System.out.println("   " + columnData);
 
 				List<PatternModel> patternDataList = new ArrayList<PatternModel>();
 				propertyData = new ProfilingInfoModel();
@@ -106,7 +106,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					/*
 					 * if (columnDataIterator == 0) { continue; }
 					 */
-					if (columnHeaders.get(z).equalsIgnoreCase("Date") || columnHeaders.get(z).equalsIgnoreCase("Time")) {
+					if (columnHeaders.contains("Date") || columnHeaders.get(z).contains("Time")) {
 						smallAphabetFillteredStr = findPatternForDate(columnData.get(columnDataIterator));
 					}
 					// patternIdentificationLogic
@@ -180,7 +180,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 	public String findPatternForDate(String value) throws PatternIdentificationException {
 		Date date = null;
 		int dateFormatIterator = 0;
-		List<String> dateFormats = Arrays.asList("dd/MM/yyyy", "MM/dd/yyyy", "yyyy/dd/MM", "yyyy/MM/dd");
+		List<String> dateFormats = Arrays.asList("dd-MM-yyyy","dd/MM/yyyy", "MM/dd/yyyy", "yyyy/dd/MM", "yyyy/MM/dd");
 		// "yyyy-MM-dd",
 		// "yyyy-dd-MM",
 		// "yyyy-MM-dd

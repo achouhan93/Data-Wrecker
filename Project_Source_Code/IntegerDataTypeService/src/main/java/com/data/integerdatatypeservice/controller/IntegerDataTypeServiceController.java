@@ -20,10 +20,10 @@ public class IntegerDataTypeServiceController {
 	IntegerDataTypeServiceService integerDataTypeService;
 	
 	@GetMapping("/integerDataTypeDecision")
-	public String columnDataTypePrediction(int wreakingDataRecordPosition,String collectionName)
+	public String columnDataTypePrediction(int wreckingPercentage,String collectionName)
 	{
 		LOGGER.info("Inside integerDataType controller");
-		return integerDataTypeService.getIntegerDataTypePrediction(wreakingDataRecordPosition,collectionName);
+		return integerDataTypeService.getIntegerDataTypePrediction(wreckingPercentage,collectionName);
 	}
 
 }

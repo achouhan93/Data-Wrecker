@@ -88,42 +88,43 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 			}
 
 		}
-		System.out.println("++++++++++" + columnDataTypeList);
+		System.out.println("columnDataTypeList" + columnDataTypeList);
 		for (int i = 0; i < datasetSize; i++) {
 			for (int j = 0; j < columnNamesList.size(); j++) {
 
 				// reading each record
 				colValue = dbList.getJSONObject(i).get(columnNamesList.get(j)).toString();
 				columnName = columnNamesList.get(j);
-				System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue + " DataType "
-						+ columnDataTypeList.get(j));
+				/*System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue + " DataType "
+						+ columnDataTypeList.get(j));*/
 				//String isWreaked = null;
 				switch (columnDataTypeList.get(j)) {
 				case "Boolean":
 					if (!(colValue.equalsIgnoreCase("True") || colValue.equalsIgnoreCase("False")
 							|| colValue.equalsIgnoreCase("1") || colValue.equalsIgnoreCase("0"))
 							|| colValue.equals(null)) {
-						System.out.println("Record Data ColumnName:" + columnName + " ColumnValue:" + colValue
-								+ " DataType:" + columnDataTypeList.get(j) );
+						/*System.out.println("Record Data ColumnName:" + columnName + " ColumnValue:" + colValue
+								+ " DataType:" + columnDataTypeList.get(j) );*/
 						dbList.getJSONObject(i).put("isWreaked",true);
-						System.out.println("+++++++++++"+dbList);
+						//System.out.println("+++++++++++"+dbList);
 					}
 					break;
 				case "String":
-					System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
-							+ " DataType " + columnDataTypeList.get(j));
+					/*System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
+							+ " DataType " + columnDataTypeList.get(j));*/
+					dbList.getJSONObject(i).put("isWreaked",false);
 					break;
 				case "Integer":
-					if (colValue.matches("^(\\+|-)?\\d+$")) {
-						System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
-								+ " DataType " + columnDataTypeList.get(j) );
+					if (!colValue.matches("^(\\+|-)?\\d+$")) {
+						/*System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
+								+ " DataType " + columnDataTypeList.get(j) );*/
 						dbList.getJSONObject(i).put("isWreaked",true);
 					}
 					break;
 				case "Double":
-					if (colValue.matches("^-?[0-9]\\d*(\\.\\d+)?$")) {
-						System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
-								+ " DataType " + columnDataTypeList.get(j));
+					if (colValue.matches("^-?[0-9][0-9,.]+$") && (colValue.contains(".") || colValue.contains(","))) {
+						/*System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
+								+ " DataType " + columnDataTypeList.get(j));*/
 						dbList.getJSONObject(i).put("isWreaked",true);
 					}
 					break;
@@ -133,15 +134,15 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 					count = StringUtils.countMatches(colValue, "/");
 					count = StringUtils.countMatches(colValue, "-");
 					if (count == 2) {
-						System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
-								+ " DataType " + columnDataTypeList.get(j));
+						/*System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
+								+ " DataType " + columnDataTypeList.get(j));*/
 						dbList.getJSONObject(i).put("isWreaked",true);
 					}
 					break;
 				case "Character":
 					if (colValue.length() == 1) {
-						System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
-								+ " DataType " + columnDataTypeList.get(j));
+						/*System.out.println("Record Data ColumnName " + columnName + " ColumnValue " + colValue
+								+ " DataType " + columnDataTypeList.get(j));*/
 						dbList.getJSONObject(i).put("isWreaked",true);
 					}
 					break;

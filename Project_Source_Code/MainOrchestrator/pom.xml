@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.6.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>MainOrchestrator</artifactId>
@@ -15,6 +15,7 @@
 	<description>Project for Data wrecking</description>
 
 	<properties>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 		<java.version>1.8</java.version>
 	</properties>
 
@@ -52,9 +53,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-	   		<groupId>org.json</groupId>
-	   		<artifactId>json</artifactId>
-	   		<version>20080701</version>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20080701</version>
 		</dependency>
 	</dependencies>
 

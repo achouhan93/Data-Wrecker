@@ -19,9 +19,9 @@ public class DecimalDataTypeServiceController {
 	DecimalDataTypeServiceService decimalDataTypeService;
 	
 	@GetMapping("/decimalDataTypeDecision")
-	public String columnDataTypePrediction(int wreakingPercentage,String collectionName)
+	public String columnDataTypePrediction(int wreckingPercentage,String collectionName)
 	{
 		LOGGER.info("Inside decimalDataTypeService controller");
-		return decimalDataTypeService.getDecimalDataTypePrediction(wreakingPercentage,collectionName);
+		return decimalDataTypeService.getDecimalDataTypePrediction(wreckingPercentage,collectionName);
 	}
 }

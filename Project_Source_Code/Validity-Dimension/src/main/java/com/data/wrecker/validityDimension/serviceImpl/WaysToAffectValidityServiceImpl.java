@@ -142,6 +142,23 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 	 
 	}
 	
+	@Override
+	public String invalidDecimal(String colValue) {
+	 /*int length = String.valueOf(colValue).length();
+	 
+	 LOGGER.info("Generate Junk Values ");
+		String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+{}|,<>?[]./";
+		char[] characters = str.toCharArray();
+		char[] newString = new char[characters.length];
+		for(int i=0; i< length;i++) {
+			rand = new Random();
+			int index = rand.nextInt(characters.length);
+			newString[i] = characters[index];			
+		}
+		return String.copyValueOf(newString);*/ 
+		return null;
+	 
+	}
 	
 	@Override
 	public String addYearsToDate(DatasetStats datasetStats, String date){
@@ -216,6 +233,7 @@ public String generateInvalidDates(String colValue) {
 	}
 	return colValue;
 }
+
 
 
 

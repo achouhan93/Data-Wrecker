@@ -30,7 +30,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 	@Override
 	public String getIntegerDataTypePrediction(int wreakingPercentage, String collectionName) {
 		LOGGER.info("Inside getIntegerDataTypePrediction");
-		wreakingPercentage = 20; // Hardcoded value for wreaking %
+		//wreakingPercentage = 20; // Hardcoded value for wreaking %
 
 		int numberOfRecords = 100;
 
@@ -41,10 +41,10 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 		columnHeader1.add("county");
 		columnHeader1.add("statecode");
 		columnHeader1.add("Date");*/
-		int indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
+		//int indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
 		LinkedHashSet<String> datadimention = new LinkedHashSet<String>();
 
-		LOGGER.info("indivisualWreakingCountForDimentions" + indivisualWreakingCountForDimentions);
+		//LOGGER.info("indivisualWreakingCountForDimentions" + indivisualWreakingCountForDimentions);
 		try {
 
 			List<DataSetStats> dataSetStatsList = null;
@@ -80,10 +80,10 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Integer")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
 							.size(); patternIterator++) {
-						LOGGER.info("Pattern = "
+						/*LOGGER.info("Pattern = "
 								+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getPattern()
 								+ ", Occurance = "
-								+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance());
+								+ profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance());*/
 						String patternString = profilingInfoModel.getPatternsIdentified().get(patternIterator)
 								.getPattern();
 						int patternValue = profilingInfoModel.getPatternsIdentified().get(patternIterator)
@@ -91,7 +91,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						// null value present?
 						if (patternString.equals("")) {
 							completenessCnt = completenessCnt + patternValue;
-							LOGGER.info("Completeness may be called");
+							//LOGGER.info("Completeness may be called");
 						}
 						// signed integer
 						else if (patternString.matches("(?<=\\s|^)[-+]?\\d+(?=\\s|$)")) {
@@ -106,68 +106,68 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 								|| patternString.matches("^[-+]?\\d+(\\,\\d+)?$"))
 								&& (patternString.contains(".") || patternString.contains(","))) {
 							consistancyCnt = consistancyCnt + patternValue;
-							LOGGER.info("Consistancy for './,' may be called");
+							//LOGGER.info("Consistancy for './,' may be called");
 						} else {
 							accuracyCnt = accuracyCnt + patternValue;
-							LOGGER.info("Accuracy may be called");
+							//LOGGER.info("Accuracy may be called");
 						}
 					}
-					if (indivisualWreakingCountForDimentions > completenessCnt) {
+					if (wreakingPercentage > completenessCnt) {
 						datadimention.add("Completeness");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Completeness");
 						dimensions.setReason("insufficient null values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - completenessCnt);
+						dimensions.setRemainingWreakingCount(wreakingPercentage - completenessCnt);
 						DimensionsList.add(dimensions);
 					}
 					
-					if (indivisualWreakingCountForDimentions > consistancyCnt) {
+					if (wreakingPercentage > consistancyCnt) {
 						datadimention.add("Consistency");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Consistency");
 						dimensions.setReason("insufficient decimal values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - consistancyCnt);
+						dimensions.setRemainingWreakingCount(wreakingPercentage - consistancyCnt);
 						DimensionsList.add(dimensions);
 					}
 
-					if (indivisualWreakingCountForDimentions > positiveValidityCnt) {
+					if (wreakingPercentage > positiveValidityCnt) {
 						datadimention.add("Validity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient +ve integer values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - positiveValidityCnt);
+						dimensions.setRemainingWreakingCount(wreakingPercentage - positiveValidityCnt);
 						DimensionsList.add(dimensions);
 					}
-					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
+					if (wreakingPercentage > negativeValidityCnt) {
 						datadimention.add("Validity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient -ve integer values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - negativeValidityCnt);
+						dimensions.setRemainingWreakingCount(wreakingPercentage - negativeValidityCnt);
 						DimensionsList.add(dimensions);
 					}
-					if (indivisualWreakingCountForDimentions > accuracyCnt) {
+					if (wreakingPercentage > accuracyCnt) {
 						datadimention.add("Accuracy");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Accuracy");
 						dimensions.setReason("insufficient accurate values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - accuracyCnt);
+						dimensions.setRemainingWreakingCount(wreakingPercentage - accuracyCnt);
 						DimensionsList.add(dimensions);
 					}
 					
-					if(indivisualWreakingCountForDimentions > profilingInfoModel.getColumnStats().getDuplicateCount())
+					if(wreakingPercentage > profilingInfoModel.getColumnStats().getDuplicateCount())
 					{
 						datadimention.add("Uniqueness");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Uniqueness");
 						dimensions.setReason("insufficient uniqueness values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - profilingInfoModel.getColumnStats().getDuplicateCount());
+						dimensions.setRemainingWreakingCount(wreakingPercentage - profilingInfoModel.getColumnStats().getDuplicateCount());
 						DimensionsList.add(dimensions);
 						
 					}

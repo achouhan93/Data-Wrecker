@@ -76,7 +76,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 			dataProfilerInfo.getDatasetStats().get(j).setProfilingInfo(profilingInfoModel);
 
 		}
-		System.out.println("dataProfilerInfo "+dataProfilerInfo);
+		//System.out.println("dataProfilerInfo "+dataProfilerInfo);
 		columnStatsRepo.save(dataProfilerInfo);
 		return "Success";
 	}
@@ -179,24 +179,24 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		List<String> columnValuesList = columnStatisticsDaoMongo.getColumnValues(dbName, fileName, columnName);
 		int rowCount = columnValuesList.size();
 		columnStatisticsModel.setRowCount(rowCount);
-		System.out.println("");
+		/*System.out.println("");
 		System.out.println("");
 		System.out.println(" Column Statistics ");
 		System.out.println("");
-		System.out.println("Total Row count :" + rowCount);
+		System.out.println("Total Row count :" + rowCount);*/
 		List<String> columnValuesListWithoutNull = getListWithoutNull(columnValuesList);
 		int nullCount = rowCount - columnValuesListWithoutNull.size();
 		int nullCountnew = rowCount - getNullValues(columnValuesList);
-		System.out.println("Hitesh chaudhari - null values: "+ nullCountnew);
+		//System.out.println("Hitesh chaudhari - null values: "+ nullCountnew);
 		columnStatisticsModel.setNullCount(nullCount);
-		System.out.println("Null count :" + nullCount);
+		//System.out.println("Null count :" + nullCount);
 		List<String> distinctValueList = columnValuesListWithoutNull.stream().distinct().collect(Collectors.toList());
 		columnStatisticsModel.setDistinctValueList(distinctValueList);
 		int distinctCount = distinctValueList.size();
 		columnStatisticsModel.setDistinctCount(distinctCount);
-		System.out.println("Distinct values list :" + distinctValueList);
+		/*System.out.println("Distinct values list :" + distinctValueList);
 		System.out.println("Total Distinct values :" + distinctCount);
-		System.out.println(" ");
+		System.out.println(" ");*/
 		// Get count of each value in map
 		Map<String, Long> frequencyOfColumnValuesMap = new HashMap<String,Long>();
 	    frequencyOfColumnValuesMap = columnValuesListWithoutNull.stream()
@@ -242,19 +242,19 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		columnStatisticsModel.setDuplicateValuesList(duplicateValuesList);
 		columnStatisticsModel.setUniqueCount(uniqueCount);
 		columnStatisticsModel.setDistinctCount(duplicateCount);
-		System.out.println("Unique value List: " + uniqueValuesList);
+		/*System.out.println("Unique value List: " + uniqueValuesList);
 		System.out.println("Total unique values :" + uniqueCount);
 		System.out.println("Duplicate value List: " + duplicateValuesList);
-		System.out.println("Total Duplicate values :" + duplicateCount);
+		System.out.println("Total Duplicate values :" + duplicateCount);*/
 		boolean isPrimaryKey = false;
 		if (rowCount == distinctCount) {
 			isPrimaryKey = true;
 		}
 		;
 		columnStatisticsModel.setPrimaryKey(isPrimaryKey);
-		System.out.println(" ");
+		/*System.out.println(" ");
 		System.out.println("IsPrimaryKey: " + isPrimaryKey);
-		System.out.println(" ");
+		System.out.println(" ");*/
 
 		int maxLength = 0;
 		int minLength = 0;
@@ -301,33 +301,33 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		columnStatisticsModel.setMaxValue(maxValue);
 		columnStatisticsModel.setMinValue(minValue);
 		columnStatisticsModel.setAverageValue(averageValue);
-		System.out.println("Max Value : " + maxValue);
+		/*System.out.println("Max Value : " + maxValue);
 		System.out.println("Min Value : " + minValue);
-		System.out.println("Average Value : " + averageValue);
+		System.out.println("Average Value : " + averageValue);*/
 
 		columnStatisticsModel.setMaxValueDecimal(maxValueDecimal);
 		columnStatisticsModel.setMinValueDecimal(minValueDecimal);
 		columnStatisticsModel.setAverageValueDecimal(averageValueDecimal);
-		System.out.println("Max Value Decimal: " + maxValueDecimal);
+		/*System.out.println("Max Value Decimal: " + maxValueDecimal);
 		System.out.println("Min Value Decimal: " + minValueDecimal);
-		System.out.println("Average Value Decimal: " + averageValueDecimal);
+		System.out.println("Average Value Decimal: " + averageValueDecimal);*/
 
 		columnStatisticsModel.setMaxLength(maxLength);
 		columnStatisticsModel.setMinLength(minLength);
 		columnStatisticsModel.setAverageLength(averageLength);
-		System.out.println("Max length : " + maxLength);
+		/*System.out.println("Max length : " + maxLength);
 		System.out.println("Min length : " + minLength);
 		System.out.println("Average length : " + averageLength);
-
+*/
 		columnStatisticsModel.setMaxDate(maxDate);
 		columnStatisticsModel.setMinDate(minDate);
-		System.out.println("Max Date : " + maxDate);
-		System.out.println("Min Date : " + minDate);
+		/*System.out.println("Max Date : " + maxDate);
+		System.out.println("Min Date : " + minDate);*/
 
 		columnStatisticsModel.setTrueCount(trueCount);
 		columnStatisticsModel.setFalseCount(falseCount);
-		System.out.println("True Count: " + trueCount);
-		System.out.println("False Count: " + falseCount);
+		/*System.out.println("True Count: " + trueCount);
+		System.out.println("False Count: " + falseCount);*/
 
 		return columnStatisticsModel;
 	}
