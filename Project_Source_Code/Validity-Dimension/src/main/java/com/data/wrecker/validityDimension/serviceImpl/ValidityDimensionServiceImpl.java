@@ -66,7 +66,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 						changesLog = new ChangesLog();
 						changesLog.setColumnName(columnName);
 						changesLog.setOid(objectId);
-						changesLog.setDimensionName("Consistency");
+						changesLog.setDimensionName("Validity");
 						changesLog.setOldValue(colValue);
 						colValue = removeValidity(colValue, columnDataType);
 						datasetArray.getJSONObject(i).put(columnName, colValue);
