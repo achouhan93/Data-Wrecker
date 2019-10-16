@@ -71,6 +71,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 							changesLog.setColumnName(columnName);
 							changesLog.setOid(objectId);
 							changesLog.setDimensionName("Consistency");
+							changesLog.setDatasetName(collectionName);
 							changesLog.setOldValue(colValue);
 							colValue = removeConsistency(colValue, columnDataType);
 							datasetArray.getJSONObject(i).put(columnName, colValue);

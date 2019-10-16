@@ -51,6 +51,7 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 					changesLog.setColumnName(columnName);
 					changesLog.setOid(objectId);
 					changesLog.setDimensionName("Completeness");
+					changesLog.setDatasetName(collectionName);
 					changesLog.setOldValue(datasetArray.getJSONObject(i).get(columnName).toString());
 					datasetArray.getJSONObject(i).put(columnName, "");
 					datasetArray.getJSONObject(i).put("isWrecked", true);

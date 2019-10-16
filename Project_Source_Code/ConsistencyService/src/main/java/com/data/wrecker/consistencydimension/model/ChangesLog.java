@@ -12,4 +12,5 @@ public class ChangesLog {
 	private String newValue;
 	private String oid;
 	private String dimensionName;
+	private String datasetName;
 }

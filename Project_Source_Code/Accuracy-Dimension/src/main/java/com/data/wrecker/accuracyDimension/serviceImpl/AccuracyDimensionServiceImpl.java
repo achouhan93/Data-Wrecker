@@ -65,6 +65,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 					changesLog.setColumnName(columnName);
 					changesLog.setOid(objectId);
 					changesLog.setDimensionName("Accuracy");
+					changesLog.setDatasetName(collectionName);
 					JSONObject jsonObj = datasetArray.getJSONObject(i);
 					changesLog.setOldValue(jsonObj.get(columnName).toString());
 					jsonObj = removeAccuracy(columnName, columnDataType, jsonObj);

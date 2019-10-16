@@ -1,0 +1,1 @@
+This dataset gives weather information of 7 locations of Australia (Cobar,Sydney,Canberra,Melbourne,Brisbane,Adelaide,Perth) for years between 2008-2017

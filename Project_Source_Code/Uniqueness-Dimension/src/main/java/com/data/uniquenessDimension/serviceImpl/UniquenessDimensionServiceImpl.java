@@ -55,6 +55,7 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 							// LOGGER.info("Initial length " + datasetArray.length() );
 							changesLog = new ChangesLog();
 							changesLog.setDimensionName("Uniqueness");
+							changesLog.setDatasetName(collectionName);
 							changesLog.setColumnName(columnName);
 							changesLog.setOid(objectId);
 							changesLog.setOldValue(datasetArray.getJSONObject(i).get(columnName).toString());
