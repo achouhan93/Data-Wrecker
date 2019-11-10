@@ -19,6 +19,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 
 
 	private Dimensions dimensions;
+	private int invalidValues = 0;
 
 	@Override
 	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage) {
@@ -29,11 +30,13 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > totalRowsCanBeWrecked) {
 			dimensions.setDimensionName("NullCheck");
 			dimensions.setStatus(false);
+			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			dimensions.setReason("The number of null values exceeds threshold");
 			return dimensions;
 		} else {
 			dimensions.setDimensionName("NullCheck");
 			dimensions.setStatus(true);
+			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			dimensions.setReason("The number of null values less than threshold");
 			return dimensions;
 		}
@@ -48,19 +51,22 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			if(isConsistent(datasetStats,totalRowsCanBeWrecked)) {
 				dimensions.setDimensionName("ConsistencyCheck");
 				dimensions.setStatus(true);
-				dimensions.setReason("The patterns identified are less than 20 in their occurances");
+				dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
+				dimensions.setReason("The patterns identified are less than the desired percentage");
 				return dimensions;
 			}else {
 				dimensions.setDimensionName("ConsistencyCheck");
 				dimensions.setStatus(false);
-				dimensions.setReason("The patterns identified are greater than 20 in their occurances");
+				dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
+				dimensions.setReason("The patterns identified are greater than the desired percentage");
 				return dimensions;
 			}
 			
 		}else {
 			dimensions.setDimensionName("ConsistencyCheck");
 			dimensions.setStatus(true);
-			dimensions.setReason("The patterns identified are less than 20 in their occurances");
+			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
+			dimensions.setReason("The patterns identified are less than the desired percentage");
 			return dimensions;
 		}	
 	}
@@ -74,21 +80,25 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			dimensions.setDimensionName("ValidityCheck");
 			dimensions.setStatus(true);
 			dimensions.setReason("There are valid values which is less than 20");
+			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - invalidValues);
 			return dimensions;
 		}else {
 			dimensions.setDimensionName("ValidityCheck");
 			dimensions.setStatus(false);
 			dimensions.setReason("There are Invalid values which is greater than 20");
+			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - invalidValues);
 			return dimensions;
 		}
 	}
 
 	@Override
 	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage) {
+		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		dimensions = new Dimensions();
 		dimensions.setDimensionName("AccuracyCheck");
 		dimensions.setStatus(true);
 		dimensions.setReason("There are Accurate values in the datasets");
+		dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked);
 		return dimensions;
 		
 	}
@@ -107,6 +117,19 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		} else {
 			return true;
 		}
+	}
+	
+	private int numberOfinConsistentValues(DatasetStats datasetStats,int totalRowsCanBeWrecked) {
+		int totalCount = 0;
+		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified(); 
+		ArrayList<Integer> regexCounts = new ArrayList<Integer>();
+		for(int i=0; i< patternModelList.size(); i++) {			
+			regexCounts.add(patternModelList.get(i).getOccurance());
+			totalCount = totalCount + patternModelList.get(i).getOccurance();			
+		}
+		int maxValue = Collections.max(regexCounts);
+		
+		return totalCount - maxValue;
 	}
 	
 	
@@ -132,6 +155,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		}		
 	}
 	
+
 	private int getMaxValue(int number1, int number2, int number3) {
 		if(number1 > number2) {
 			if(number1 > number3) {
@@ -148,8 +172,10 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	
 	private boolean isNotWrecked(int number1, int number2,int totalRowsCanBeWrecked) {
 		if((number1 + number2) > totalRowsCanBeWrecked) {
+			invalidValues = number1 + number2 - totalRowsCanBeWrecked;
 			return false;
 		}else {
+			invalidValues = number1 + number2 - totalRowsCanBeWrecked;
 			return true;
 		}
 	}
