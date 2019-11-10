@@ -111,13 +111,19 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					}
 					// patternIdentificationLogic
 					if (columnData.get(columnDataIterator).trim() != null && smallAphabetFillteredStr == null) {
-						if ((columnData.get(columnDataIterator).length() == 1
-								&& (columnData.get(columnDataIterator).equals("0")
-										|| columnData.get(columnDataIterator).equals("1"))
-								|| ((columnData.get(columnDataIterator).length() == 4
-										|| (columnData.get(columnDataIterator).length() == 5))
-										&& (columnData.get(columnDataIterator).equalsIgnoreCase("True")
-												|| columnData.get(columnDataIterator).equalsIgnoreCase("False"))))) {
+						/*if ( ( columnData.get(columnDataIterator).length() == 1
+								&& (columnData.get(columnDataIterator).equals("0") || columnData.get(columnDataIterator).equals("1"))
+								|| ((columnData.get(columnDataIterator).length() == 4 || (columnData.get(columnDataIterator).length() == 5))
+								&& (columnData.get(columnDataIterator).equalsIgnoreCase("True")
+												|| columnData.get(columnDataIterator).equalsIgnoreCase("False"))) ) )*/ 
+						if ( 
+								( columnData.get(columnDataIterator).length() == 1 
+								&& (columnData.get(columnDataIterator).equals("0") || columnData.get(columnDataIterator).equals("1") || 
+								columnData.get(columnDataIterator).equalsIgnoreCase("T") || columnData.get(columnDataIterator).equalsIgnoreCase("F") )) ||
+								( (columnData.get(columnDataIterator).length() == 4 && columnData.get(columnDataIterator).equalsIgnoreCase("True")) ||
+								(columnData.get(columnDataIterator).length() == 5 && columnData.get(columnDataIterator).equalsIgnoreCase("False")) ) 
+							)
+						{
 							smallAphabetFillteredStr = columnData.get(columnDataIterator);
 						} else {
 							columnStr = columnData.get(columnDataIterator);
@@ -236,7 +242,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		}
 		JSONObject json_obj;
 		try {
-			json_obj = dbList.getJSONObject(7);
+			json_obj = dbList.getJSONObject(1);
 			Iterator columnNames = json_obj.keys();
 
 			while (columnNames.hasNext()) {
