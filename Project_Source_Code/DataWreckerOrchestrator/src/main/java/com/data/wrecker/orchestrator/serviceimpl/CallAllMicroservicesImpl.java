@@ -47,7 +47,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	private DB db;
 	
 	@Override
-	public String callDataprofilingServices(String fileName) {
+	public String callDataprofilingServices(String fileName, int wreckPercentage) {
 		DatasetDetails datasetDetails;
 		String collectionName = fileName;
 		String result = "";
@@ -72,7 +72,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 					
 					LOGGER.info("ColumnStatistics Service Successful");
 					LOGGER.info("Data profiling is Completed \n Now calling Datatype services ");
-					result = callDatatypeServices(collectionName);
+					result = callDatatypeServices(collectionName, wreckPercentage);
 					LOGGER.info("Result after datatype services " + result);
 					
 				}else {
@@ -99,9 +99,9 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	}
 	
 	
-	private String callDatatypeServices(String fileName) {
+	private String callDatatypeServices(String fileName, int wreckPercentage) {
 		
-		int wreckPercentage = 20;
+		
 		String result = "";
 		
 		result = callDatatypeService.callBooleanService(fileName, wreckPercentage);
@@ -190,7 +190,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		return wreckRecordsWithIDs(uniqueIdsToWreck, collectionName); 
 	}
 	
-	private String callDimension(List<String> wreckingIdsForDimension, String dimensionName, String columnName, String collectionName ) {
+	private String callDimension(List<Integer> wreckingIdsForDimension, String dimensionName, String columnName, String collectionName ) {
 		String result = "";
 		
 		switch (dimensionName) {
@@ -314,27 +314,30 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 			String colName = columnNames.get(i);
 			int totalRecordsToWreck = getTotalRecordsToWreck(collectionName, colName);
 			Collections.shuffle(objectIds);
-			List<String> objectIdsToWreck = new ArrayList<String>();
-			objectIdsToWreck = objectIds.subList(0, totalRecordsToWreck);
+			List<Integer> recordIndexes = new ArrayList<Integer>();
+			//objectIdsToWreck = objectIds.subList(0, totalRecordsToWreck);
 			
 			for(int j =0; j < totalRecordsToWreck; j++) {
-			//	objectIdsToWreck.add(objectIds.get(j));
-				objectIds.remove(j);
+				if(!uniqueIdList.isEmpty()) {
+					recordIndexes.add(uniqueIdList.get(0));
+					uniqueIdList.remove(0);	
+				}
+				
 			}
 		
-			newCollectionName = callDimensionServices(objectIdsToWreck, colName, newCollectionName);
+			newCollectionName = callDimensionServices(recordIndexes, colName, newCollectionName);
 		}
 		return newCollectionName;
 	}
 	
 	
-	private String callDimensionServices(List<String> objectIdsToWreck, String colName, String collectionName) {
+	private String callDimensionServices(List<Integer> objectIdsToWreck, String colName, String collectionName) {
 		
 		String firstVersionOfCollection = getFirstVersionOfCollection(collectionName);
 		// LOGGER.info("First Version "+firstVersionOfCollection);
 		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(firstVersionOfCollection);
 		List<Dimensions> dimensionsList = new ArrayList<Dimensions>();
-		List<String> wreckingIdsForDimension = new ArrayList<String>();
+		List<Integer> wreckingIdsForDimension = new ArrayList<Integer>();
 		String newCollectionName = collectionName;
 		int i =0;
 		for( i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
@@ -392,7 +395,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 			newCollectionName = collectionName;
 			// LOGGER.info("New Collection Name is "+ collectionName);
 		}else {
-			newCollectionName = name[0]+"_"+1;
+			newCollectionName = name[0]+"_"+0;
 			// LOGGER.info("New Collection Name is "+newCollectionName);
 		}
 		return newCollectionName;

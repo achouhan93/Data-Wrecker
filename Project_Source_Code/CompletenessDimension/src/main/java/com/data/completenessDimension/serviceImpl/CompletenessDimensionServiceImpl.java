@@ -42,24 +42,28 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 		// TODO Auto-generated method stub
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		changesLogList = new ArrayList<ChangesLog>();
+		
+		List<Integer> recordIndexes = new ArrayList<Integer>();
+
+		for(String str : wreckingIdsForDimension) {
+			recordIndexes.add(Integer.valueOf(str));
+		}
+		
 		try {
-		for(int j =0; j < wreckingIdsForDimension.size(); j++ ) {
-			String objectId = wreckingIdsForDimension.get(j);
-			for(int i =0; i < datasetArray.length(); i++) {
-				if(datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {					
-					changesLog = new ChangesLog();
-					changesLog.setColumnName(columnName);
-					changesLog.setOid(objectId);
-					changesLog.setDimensionName("Completeness");
-					changesLog.setDatasetName(collectionName);
-					changesLog.setOldValue(datasetArray.getJSONObject(i).get(columnName).toString());
-					datasetArray.getJSONObject(i).put(columnName, "");
-					datasetArray.getJSONObject(i).put("isWrecked", true);
-					changesLog.setNewValue(datasetArray.getJSONObject(i).get(columnName).toString());
-					changesLogList.add(changesLog);
-					addToDb(changesLog);
-				}
-			}
+		for(int j =0; j < recordIndexes.size(); j++ ) {
+			
+			changesLog = new ChangesLog();
+			changesLog.setColumnName(columnName);
+			changesLog.setOid(recordIndexes.get(j));
+			changesLog.setDimensionName("Completeness");
+			changesLog.setDatasetName(collectionName);
+			changesLog.setOldValue(datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString());
+			datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, "");
+			datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
+			changesLog.setNewValue("");
+			changesLogList.add(changesLog);
+			addToDb(changesLog);
+		
 		}
 		
 		}catch (JSONException e) {

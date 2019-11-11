@@ -53,35 +53,33 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType = getColumnDataType(firstCollectionName, columnName);
 		changesLogList = new ArrayList<ChangesLog>();
+		List<Integer> recordIndexes = new ArrayList<Integer>();
 
+		for(String str : wreckingIds) {
+			recordIndexes.add(Integer.valueOf(str));
+		}
+		
 		try {
 
-			for (int j = 0; j < wreckingIds.size(); j++) {
-
-				String objectId = wreckingIds.get(j);
-
-				for (int i = 0; i < datasetArray.length(); i++) {
-
-					if (datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {
-						String colValue = datasetArray.getJSONObject(i).get(columnName).toString();
-						if (colValue == null || colValue.isEmpty()) {
-							System.out.println("value is null ");
-						} else {
-							changesLog = new ChangesLog();
-							changesLog.setColumnName(columnName);
-							changesLog.setOid(objectId);
-							changesLog.setDimensionName("Consistency");
-							changesLog.setDatasetName(collectionName);
-							changesLog.setOldValue(colValue);
-							colValue = removeConsistency(colValue, columnDataType);
-							datasetArray.getJSONObject(i).put(columnName, colValue);
-							datasetArray.getJSONObject(i).put("isWrecked", true);
-							changesLog.setNewValue(colValue);
-							changesLogList.add(changesLog);
-							addToDb(changesLog);
-						}
-					}
-				}
+			for (int j = 0; j < recordIndexes.size(); j++) {
+				
+				String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
+				if (colValue == null || colValue.isEmpty()) {
+					System.out.println("value is null ");
+				} else {
+					changesLog = new ChangesLog();
+					changesLog.setColumnName(columnName);
+					changesLog.setOid(recordIndexes.get(j));
+					changesLog.setDimensionName("Consistency");
+					changesLog.setDatasetName(collectionName);
+					changesLog.setOldValue(colValue);
+					colValue = removeConsistency(colValue, columnDataType);
+					datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, colValue);
+					datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
+					changesLog.setNewValue(colValue);
+					changesLogList.add(changesLog);
+					addToDb(changesLog);
+				}			
 			}
 
 		} catch (JSONException e) {
@@ -304,7 +302,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 			newCollectionName = collectionName;
 			LOGGER.info("New Collection Name is " + collectionName);
 		} else {
-			newCollectionName = name[0] + "_" + 1;
+			newCollectionName = name[0] + "_" + 0;
 			LOGGER.info("New Collection Name is " + newCollectionName);
 		}
 		return newCollectionName;

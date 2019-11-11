@@ -56,24 +56,29 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType  = getColumnDataType(firstCollectionName,columnName);
 		changesLogList = new ArrayList<ChangesLog>();
+		List<Integer> recordIndexes = new ArrayList<Integer>();
+
+		for(String str : wreckingIds) {
+			recordIndexes.add(Integer.valueOf(str));
+		}
+
+		
+		
 		try {
-		for(int j =0; j < wreckingIds.size(); j++ ) {
-			String objectId = wreckingIds.get(j);
-			for(int i=0;i<datasetArray.length();i++) {
-				if(datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {
+		for(int j =0; j < recordIndexes.size(); j++ ) {
+			
 					changesLog = new ChangesLog();
 					changesLog.setColumnName(columnName);
-					changesLog.setOid(objectId);
+					changesLog.setOid(recordIndexes.get(j));
 					changesLog.setDimensionName("Accuracy");
 					changesLog.setDatasetName(collectionName);
-					JSONObject jsonObj = datasetArray.getJSONObject(i);
+					JSONObject jsonObj = datasetArray.getJSONObject(recordIndexes.get(j));
 					changesLog.setOldValue(jsonObj.get(columnName).toString());
 					jsonObj = removeAccuracy(columnName, columnDataType, jsonObj);
+					datasetArray.put(jsonObj);
 					changesLog.setNewValue(jsonObj.get(columnName).toString());
 					changesLogList.add(changesLog);
-					addToDb(changesLog);					
-				}				
-			}	
+					addToDb(changesLog);
 		}
 		
 		} catch (JSONException e) {
@@ -347,7 +352,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 			newCollectionName = name[0]+"_"+1;
 			 LOGGER.info("New Collection Name is "+newCollectionName);
 		}
-		return newCollectionName;
+		return collectionName;
 	}
 	
 }

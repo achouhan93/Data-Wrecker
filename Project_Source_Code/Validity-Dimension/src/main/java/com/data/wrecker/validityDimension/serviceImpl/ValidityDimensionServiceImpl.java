@@ -53,31 +53,30 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType = getColumnDataType(firstCollectionName, columnName);
 		changesLogList = new ArrayList<ChangesLog>();
+		List<Integer> recordIndexes = new ArrayList<Integer>();
+
+		for(String str : wreckingIds) {
+			recordIndexes.add(Integer.valueOf(str));
+		}
+		
 
 		try {
-			for (int j = 0; j < wreckingIds.size(); j++) {
-
-				String objectId = wreckingIds.get(j);
-
-				for (int i = 0; i < datasetArray.length(); i++) {
-
-					if (datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {
-						String colValue = datasetArray.getJSONObject(i).get(columnName).toString();
+			for (int j = 0; j < recordIndexes.size(); j++) {
+				
+						String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
 						changesLog = new ChangesLog();
 						changesLog.setColumnName(columnName);
-						changesLog.setOid(objectId);
+						changesLog.setOid(recordIndexes.get(j));
 						changesLog.setDimensionName("Validity");
 						changesLog.setDatasetName(collectionName);
 						changesLog.setOldValue(colValue);
 						colValue = removeValidity(colValue, columnDataType);
-						datasetArray.getJSONObject(i).put(columnName, colValue);
-						datasetArray.getJSONObject(i).put("isWrecked", true);
+						datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, colValue);
+						datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
 						changesLog.setNewValue(colValue);
 						changesLogList.add(changesLog);
 						addToDb(changesLog);
-					}
-
-				}
+					
 			}
 
 		} catch (JSONException e) {
@@ -179,7 +178,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 			newCollectionName = name[0] + "_" + 1;
 			LOGGER.info("New Collection Name is " + newCollectionName);
 		}
-		return newCollectionName;
+		return collectionName;
 	}
 
 	private String removeValidity(String colValue, String columnDatatype) {
