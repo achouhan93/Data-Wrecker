@@ -30,27 +30,24 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 	@Override
 	public String getDecimalDataTypePrediction(int wreakingPercentage, String collectionName) {
 		LOGGER.info("Inside getDecimalDataTypePrediction");
-		wreakingPercentage = 20; // Hardcoded value for wreaking %
+		/*wreakingPercentage = 20; // Hardcoded value for wreaking %
 
-		int numberOfRecords = 100;
+		int numberOfRecords = 100;*/
 
 		// get header of the dataset
 		List<String> columnHeader1 = new ArrayList<String>();
-		columnHeader1.add("eq_site_limit");
-		columnHeader1.add("county");
-		columnHeader1.add("statecode");
-		columnHeader1.add("Date");
-		int indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
+		
+		int indivisualWreakingCountForDimentions = 0;
 		LinkedHashSet<String> datadimention = new LinkedHashSet<String>();
 
-		LOGGER.info("indivisualWreakingCountForDimentions" + indivisualWreakingCountForDimentions);
+		//LOGGER.info("indivisualWreakingCountForDimentions" + indivisualWreakingCountForDimentions);
 		try {
 
 			List<DataSetStats> dataSetStatsList = null;
 			ProfilingInfoModel profilingInfoModel = new ProfilingInfoModel();
 			List<DataProfilerInfo> datasetStatsList = decimalDataTypeServiceRepository.findAll();
 			DataProfilerInfo dataProfilerInfo = new DataProfilerInfo();
-
+			
 			/*
 			 * int consistancyCnt = 0; int completenessCnt = 0; int accuracyCnt = 0; int
 			 * validaityCnt = 0;
@@ -58,7 +55,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 
 			for (int datasetHeadersIterator = 0; datasetHeadersIterator < columnHeader1
 					.size(); datasetHeadersIterator++) {
-
+				
 				DimensionInfoModel dimensionInfoModel = new DimensionInfoModel();
 				List<Dimensions> DimensionsList = new ArrayList<Dimensions>();
 
@@ -75,6 +72,8 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 					if (dataSetStatsList.get(j).getColumnName().equals(columnHeader1.get(datasetHeadersIterator))) {
 						profilingInfoModel = dataSetStatsList.get(j).getProfilingInfo();
 					}
+					int numberOfRecords = profilingInfoModel.getColumnStats().getRowCount();
+					 indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
 				}
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Decimal")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()

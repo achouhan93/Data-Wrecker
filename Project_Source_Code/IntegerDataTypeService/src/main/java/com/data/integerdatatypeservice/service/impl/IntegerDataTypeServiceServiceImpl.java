@@ -30,9 +30,9 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 	@Override
 	public String getIntegerDataTypePrediction(int wreakingPercentage, String collectionName) {
 		LOGGER.info("Inside getIntegerDataTypePrediction");
+		int indivisualWreakingCountForDimentions = 0;
 		//wreakingPercentage = 20; // Hardcoded value for wreaking %
 
-		int numberOfRecords = 100;
 
 		// get header of the dataset
 		List<String> columnHeader1 = new ArrayList<String>();
@@ -76,6 +76,8 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					if (dataSetStatsList.get(j).getColumnName().equals(columnHeader1.get(datasetHeadersIterator))) {
 						profilingInfoModel = dataSetStatsList.get(j).getProfilingInfo();
 					}
+					int numberOfRecords = profilingInfoModel.getColumnStats().getRowCount();
+					 indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
 				}
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Integer")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
@@ -112,55 +114,55 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 							//LOGGER.info("Accuracy may be called");
 						}
 					}
-					if (wreakingPercentage > completenessCnt) {
+					if (indivisualWreakingCountForDimentions > completenessCnt) {
 						datadimention.add("Completeness");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Completeness");
 						dimensions.setReason("insufficient null values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(wreakingPercentage - completenessCnt);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - completenessCnt);
 						DimensionsList.add(dimensions);
 					}
 					
-					if (wreakingPercentage > consistancyCnt) {
+					if (indivisualWreakingCountForDimentions > consistancyCnt) {
 						datadimention.add("Consistency");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Consistency");
 						dimensions.setReason("insufficient decimal values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(wreakingPercentage - consistancyCnt);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - consistancyCnt);
 						DimensionsList.add(dimensions);
 					}
 
-					if (wreakingPercentage > positiveValidityCnt) {
+					if (indivisualWreakingCountForDimentions > positiveValidityCnt) {
 						datadimention.add("Validity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient +ve integer values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(wreakingPercentage - positiveValidityCnt);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - positiveValidityCnt);
 						DimensionsList.add(dimensions);
 					}
-					if (wreakingPercentage > negativeValidityCnt) {
+					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
 						datadimention.add("Validity");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient -ve integer values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(wreakingPercentage - negativeValidityCnt);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - negativeValidityCnt);
 						DimensionsList.add(dimensions);
 					}
-					if (wreakingPercentage > accuracyCnt) {
+					if (indivisualWreakingCountForDimentions > accuracyCnt) {
 						datadimention.add("Accuracy");
 						Dimensions dimensions = new Dimensions();
 						dimensions.setDimensionName("Accuracy");
 						dimensions.setReason("insufficient accurate values");
 						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(wreakingPercentage - accuracyCnt);
+						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - accuracyCnt);
 						DimensionsList.add(dimensions);
 					}
 					
-					if(wreakingPercentage > profilingInfoModel.getColumnStats().getDuplicateCount())
+					/*if(wreakingPercentage > profilingInfoModel.getColumnStats().getDuplicateCount())
 					{
 						datadimention.add("Uniqueness");
 						Dimensions dimensions = new Dimensions();
@@ -170,7 +172,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						dimensions.setRemainingWreakingCount(wreakingPercentage - profilingInfoModel.getColumnStats().getDuplicateCount());
 						DimensionsList.add(dimensions);
 						
-					}
+					}*/
 				}
 
 				dimensionInfoModel.setDimensionsList(DimensionsList);
