@@ -23,14 +23,16 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 		dimensions = new Dimensions();
 		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > avgWrecking) {
-			dimensions.setDimensionName("NullCheck");
+			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(false);
-			dimensions.setReason("The number of null values exceeds 20");
+			dimensions.setReason("The number of null values exceeds the desired count");
+			dimensions.setRemainingWreakingCount(avgWrecking - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			return dimensions;
 		} else {
-			dimensions.setDimensionName("NullCheck");
+			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(true);
-			dimensions.setReason("The number of null values less than 20");
+			dimensions.setRemainingWreakingCount(avgWrecking - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
+			dimensions.setReason("The number of null values less than the desired count");
 			return dimensions;
 		}
 	}
@@ -38,11 +40,48 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	@Override
 	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int wreckingPercentage) {
 		
-		dimensions = new Dimensions();
-		dimensions.setDimensionName("ConsistencyCheck");
-		dimensions.setStatus(true);
-		dimensions.setReason("The patterns identified are less than 20 in their occurances");
-		return dimensions;
+		List<PatternModel> patternsIdentified = datasetStats.getProfilingInfo().getPatternsIdentified();
+		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		int patternXcount = 0;
+		int patternxCount = 0;
+		int dirtyPatternCount = 0;
+		if(patternsIdentified.size() > 1) {
+		
+			for(int i =0; i < patternsIdentified.size(); i++ ) {
+				if(patternsIdentified.get(i).getPattern().equals("X")) {
+					patternXcount = patternXcount + patternsIdentified.get(i).getOccurance();
+				}else if(patternsIdentified.get(i).getPattern().equals("x")) {
+					patternxCount = patternxCount + patternsIdentified.get(i).getOccurance();
+				}
+			}	
+		}
+		
+		if(patternXcount > patternxCount) {
+			dirtyPatternCount = patternXcount;
+		}else {
+			dirtyPatternCount = patternxCount;
+		}
+		
+		if(avgWrecking > dirtyPatternCount) {
+			
+			dimensions = new Dimensions();
+			dimensions.setDimensionName("Consistency");
+			dimensions.setStatus(true);
+			dimensions.setReason("The patterns identified are less than the desired count");
+			dimensions.setRemainingWreakingCount(avgWrecking - dirtyPatternCount);
+			return dimensions;
+			
+		}else {
+			
+			dimensions = new Dimensions();
+			dimensions.setDimensionName("Consistency");
+			dimensions.setStatus(true);
+			dimensions.setReason("The patterns identified are greater than the desired count");
+			dimensions.setRemainingWreakingCount(avgWrecking - dirtyPatternCount);
+			return dimensions;
+			
+		}
+		
 	}
 
 	@Override
@@ -58,24 +97,31 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 		}
 		
 		if(count > avgWrecking) {
-			dimensions.setDimensionName("ValidityCheck");
+			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(false);
-			dimensions.setReason("There are Invalid values which is greater than 20");
+			dimensions.setReason("There are Invalid values are greater than the desired count");
+			dimensions.setRemainingWreakingCount(avgWrecking - count);
 			return dimensions;
 		}else {
-			dimensions.setDimensionName("ValidityCheck");
+			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(true);
-			dimensions.setReason("There are valid values which is lesser than 20");
+			dimensions.setReason("There are valid values are lesser than the desired count");
+			dimensions.setRemainingWreakingCount(avgWrecking - count);
 			return dimensions;
 		}
 	}
 
 	@Override
 	public Dimensions AccuracyCheck(DatasetStats datasetStats,int wreckingPercentage) {
+		
+		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		
 		dimensions = new Dimensions();
-		dimensions.setDimensionName("AccuracyCheck");
+		dimensions.setDimensionName("Accuracy");
 		dimensions.setStatus(true);
+		dimensions.setRemainingWreakingCount(avgWrecking);
 		dimensions.setReason("There are Accurate values in the datasets");
+		
 		return dimensions;
 	}
 	

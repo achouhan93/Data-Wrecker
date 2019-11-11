@@ -75,8 +75,20 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	public Dimensions ValidityCheck(DatasetStats datasetStats, int wreckingPercentage) {
 		dimensions = new Dimensions();
 		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		int totalCount = 0;
+		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified();
+		if(patternModelList.size() > 1) {
+			
+			for(int i=0; i< patternModelList.size(); i++) {			
+			
+				if((patternModelList.get(i).getPattern().toLowerCase().contains("x") ||patternModelList.get(i).getPattern().toLowerCase().contains("0") )) {
+					totalCount = totalCount + patternModelList.get(i).getOccurance();
+				}
+			}
+			
+		}
 		
-		if(isValid(datasetStats,totalRowsCanBeWrecked)) {
+		if(totalCount > totalRowsCanBeWrecked) {
 			dimensions.setDimensionName("ValidityCheck");
 			dimensions.setStatus(true);
 			dimensions.setReason("There are valid values which is less than 20");
@@ -107,10 +119,17 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		int totalCount = 0;
 		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified(); 
 		ArrayList<Integer> regexCounts = new ArrayList<Integer>();
-		for(int i=0; i< patternModelList.size(); i++) {			
-			regexCounts.add(patternModelList.get(i).getOccurance());
-			totalCount = totalCount + patternModelList.get(i).getOccurance();			
+		if(patternModelList.size() > 1) {
+			
+			for(int i=0; i< patternModelList.size(); i++) {			
+			
+				if(!(patternModelList.get(i).getPattern().toLowerCase().contains("x") ||patternModelList.get(i).getPattern().toLowerCase().contains("0") )) {
+					regexCounts.add(patternModelList.get(i).getOccurance());
+				}
+			}
+			
 		}
+		
 		int maxValue = Collections.max(regexCounts);
 		if((totalCount - maxValue) > totalRowsCanBeWrecked) {
 			return false;
@@ -121,19 +140,30 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	
 	private int numberOfinConsistentValues(DatasetStats datasetStats,int totalRowsCanBeWrecked) {
 		int totalCount = 0;
+		
+		
 		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified(); 
 		ArrayList<Integer> regexCounts = new ArrayList<Integer>();
-		for(int i=0; i< patternModelList.size(); i++) {			
-			regexCounts.add(patternModelList.get(i).getOccurance());
-			totalCount = totalCount + patternModelList.get(i).getOccurance();			
-		}
-		int maxValue = Collections.max(regexCounts);
 		
-		return totalCount - maxValue;
+		if(patternModelList.size() > 1) {
+			
+			for(int i=0; i< patternModelList.size(); i++) {			
+			
+				if(!(patternModelList.get(i).getPattern().toLowerCase().contains("x") ||patternModelList.get(i).getPattern().toLowerCase().contains("0") )) {
+					regexCounts.add(patternModelList.get(i).getOccurance());
+					totalCount = totalCount + patternModelList.get(i).getOccurance();
+				}
+			}
+			
+		}
+		
+		int maxValue = Collections.max(regexCounts);
+		return totalRowsCanBeWrecked -(totalCount - maxValue);
+		
 	}
 	
 	
-	private boolean isValid(DatasetStats datasetStats,int totalRowsCanBeWrecked) {
+	/*private boolean isValid(DatasetStats datasetStats,int totalRowsCanBeWrecked) {
 			
 		
 		if(!(datasetStats.getProfilingInfo().getColumnStats().getMinLength() == datasetStats.getProfilingInfo().getColumnStats().getMaxLength() && 
@@ -154,9 +184,9 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			return true;
 		}		
 	}
-	
+	*/
 
-	private int getMaxValue(int number1, int number2, int number3) {
+	/*private int getMaxValue(int number1, int number2, int number3) {
 		if(number1 > number2) {
 			if(number1 > number3) {
 				return number3;
@@ -178,10 +208,9 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			invalidValues = number1 + number2 - totalRowsCanBeWrecked;
 			return true;
 		}
-	}
+	}*/
 	
-	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
-		
+	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {	
 		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 4) ; 
 		return totalRowsCanBeWrecked;
 	}

@@ -1,7 +1,5 @@
 package com.data.booleandatatype.serviceimpl;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -9,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.booleandatatype.model.DatasetStats;
 import com.data.booleandatatype.model.Dimensions;
+import com.data.booleandatatype.model.FrequencyOfColumnValues;
 import com.data.booleandatatype.model.PatternModel;
 import com.data.booleandatatype.service.BooleanDataTypeService;
 
@@ -27,14 +26,16 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		
 		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > avgWrecking) {
-			dimensions.setDimensionName("NullCheck");
+			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(false);
-			dimensions.setReason("The number of null values exceeds 20");
+			dimensions.setReason("The number of null values exceeds the desired count");
+			dimensions.setRemainingWreakingCount(avgWrecking - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			return dimensions;
 		} else {
-			dimensions.setDimensionName("NullCheck");
+			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(true);
-			dimensions.setReason("The number of null values less than 20");
+			dimensions.setReason("The number of null values less than the desired count");
+			dimensions.setRemainingWreakingCount(avgWrecking - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			return dimensions;
 		}
 	}
@@ -42,48 +43,54 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 	@Override
 	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int wreckingPercentage) {
 		dimensions = new Dimensions();
-		// int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
-		if(datasetStats.getProfilingInfo().getPatternsIdentified().size() > 1) {
-			if(isConsistent(datasetStats)) {
-				dimensions.setDimensionName("ConsistencyCheck");
+		 int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		if(datasetStats.getProfilingInfo().getPatternsIdentified().size() > 2) {
+			if(isConsistent(datasetStats, avgWrecking)) {
+				dimensions.setDimensionName("Consistency");
 				dimensions.setStatus(true);
-				dimensions.setReason("The patterns identified are less than 20 in their occurances");
+				dimensions.setReason("The patterns identified are less than the desired count");
 				return dimensions;
 			}else {
-				dimensions.setDimensionName("ConsistencyCheck");
+				dimensions.setDimensionName("Consistency");
 				dimensions.setStatus(false);
-				dimensions.setReason("The patterns identified are greater than 20 in their occurances");
+				dimensions.setReason("The patterns identified are greater than the desired count");
 				return dimensions;
 			}
 			
 		}else {
-			dimensions.setDimensionName("ConsistencyCheck");
+			dimensions.setDimensionName("Consistency");
 			dimensions.setStatus(true);
-			dimensions.setReason("The patterns identified are less than 20 in their occurances");
+			dimensions.setReason("The patterns identified are less than the desired count");
+			dimensions.setRemainingWreakingCount(avgWrecking);
 			return dimensions;
 		}	
 	}
 
 	@Override
 	public Dimensions ValidityCheck(DatasetStats datasetStats,int wreckingPercentage) {	
-		int trueCount = datasetStats.getProfilingInfo().getColumnStats().getTrueCount();
-		int falseCount = datasetStats.getProfilingInfo().getColumnStats().getFalseCount();
-		int nullCount = datasetStats.getProfilingInfo().getColumnStats().getNullCount();
+		
 		int totalRowsCount = datasetStats.getProfilingInfo().getColumnStats().getRowCount();
+		int count = 0;
+		dimensions = new Dimensions();
+		
+		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified();
+		for(int i =0; i < patternModelList.size(); i++) {
+			if(patternModelList.get(i).getPattern().toLowerCase().contains("x")) {
+				count = count + patternModelList.get(i).getOccurance();
+			}
+		}
+		
 		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
-		if((trueCount + falseCount + nullCount ) == totalRowsCount ) {
-			dimensions.setDimensionName("ValidityCheck");
+		if(count <  totalRowsCount ) {
+			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(true);
 			dimensions.setReason("The column contains valid values");
-			return dimensions;
-		}else if((totalRowsCount - (trueCount + falseCount + nullCount)) > avgWrecking ) {
-			dimensions.setDimensionName("ValidityCheck");
-			dimensions.setStatus(false);
-			dimensions.setReason("The column contains Invalid values");
+			dimensions.setRemainingWreakingCount(avgWrecking - count);
 			return dimensions;
 		}else {
-			dimensions.setDimensionName("ValidityCheck");
-			dimensions.setStatus(true);
+			dimensions.setDimensionName("Validity");
+			dimensions.setStatus(false);
+			dimensions.setRemainingWreakingCount(avgWrecking - count);
 			dimensions.setReason("The column contains valid values");
 			return dimensions;
 		}
@@ -91,26 +98,58 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 
 	@Override
 	public Dimensions AccuracyCheck(DatasetStats datasetStats,int wreckingPercentage) {
-		dimensions.setDimensionName("AccuracyCheck");
-		dimensions.setStatus(true);
-		dimensions.setReason("The column contains Accurate values");
-		return dimensions;
+		
+		List<FrequencyOfColumnValues> distinctValues = datasetStats.getProfilingInfo().getColumnStats().getFrequencyOfColumnValues();
+		int inaccurateCount = 0;
+		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		dimensions = new Dimensions();
+		
+		for(int i =0; i < distinctValues.size(); i++) {
+			if(!distinctValues.get(i).getColumnDistinctValue().toLowerCase().matches("^([Tt][Rr][Uu][Ee]|[Ff][Aa][Ll][Ss][Ee]|[0-1])$")) {
+				
+				if(distinctValues.get(i).getColumnDistinctValue().toLowerCase().contains("t") || distinctValues.get(i).getColumnDistinctValue().toLowerCase().contains("f") || distinctValues.get(i).getColumnDistinctValue().toLowerCase().contains("0") || distinctValues.get(i).getColumnDistinctValue().toLowerCase().contains("1")) {
+					inaccurateCount = inaccurateCount + distinctValues.get(i).getColumnDistinctValueOccurance();
+				}
+			}
+			
+		}
+		if(inaccurateCount > avgWrecking) {
+		
+			dimensions.setDimensionName("Accuracy");
+			dimensions.setStatus(false);
+			dimensions.setReason("The column contains Inaccurate values");	
+			return dimensions;
+			
+		}else {
+			dimensions.setDimensionName("Accuracy");
+			dimensions.setStatus(true);
+			dimensions.setReason("The column contains Accurate values");
+			dimensions.setRemainingWreakingCount(avgWrecking - inaccurateCount);
+			return dimensions;
+		}
+		
 	}
 
 	
 
 
 	
-	private boolean isConsistent(DatasetStats datasetStats) {
+	private boolean isConsistent(DatasetStats datasetStats, int avgWrecking) {
 		int totalCount = 0;
+	
 		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified(); 
-		ArrayList<Integer> regexCounts = new ArrayList<Integer>();
-		for(int i=0; i< patternModelList.size(); i++) {			
-			regexCounts.add(patternModelList.get(i).getOccurance());
-			totalCount = totalCount + patternModelList.get(i).getOccurance();			
+				
+		if(patternModelList.size() > 2 ) {
+			
+			for(int i=2; i< patternModelList.size(); i++) {			
+				if(!patternModelList.get(i).getPattern().toLowerCase().contains("x")) {
+					totalCount = totalCount + patternModelList.get(i).getOccurance();
+				}
+			}
+			
 		}
-		int maxValue = Collections.max(regexCounts);		
-		if((totalCount - maxValue) > 20) {
+				
+		if(totalCount > avgWrecking) {
 			return false;
 		} else {
 			return true;
@@ -119,7 +158,7 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 	
 	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
 		
-		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 4) ; 
+		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 5) ; 
 		return totalRowsCanBeWrecked;
 	}
 	
