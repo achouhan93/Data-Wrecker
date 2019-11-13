@@ -73,7 +73,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 						profilingInfoModel = dataSetStatsList.get(j).getProfilingInfo();
 					}
 					int numberOfRecords = profilingInfoModel.getColumnStats().getRowCount();
-					 indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
+					indivisualWreakingCountForDimentions = ( ( (wreakingPercentage / 4) * numberOfRecords) / ( 100* columnHeader1.size() ) );
 				}
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Decimal")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
@@ -156,10 +156,11 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - accuracyCnt);
 						DimensionsList.add(dimensions);
 					}
+					dimensionInfoModel.setDimensionsList(DimensionsList);
+					dataSetStatsList.get(datasetHeadersIterator).setDimensionList(dimensionInfoModel);
 				}
 
-				dimensionInfoModel.setDimensionsList(DimensionsList);
-				dataSetStatsList.get(datasetHeadersIterator).setDimensionList(dimensionInfoModel);
+				
 			}
 			dataProfilerInfo.setDatasetStats(dataSetStatsList);
 			decimalDataTypeServiceRepository.save(dataProfilerInfo);

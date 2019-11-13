@@ -60,15 +60,18 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	
 	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
 		DimensionInfoModel dimensionServices = new DimensionInfoModel();
+		int totalRowCount = datasetStatsList.get(0).getProfilingInfo().getColumnStats().getRowCount();
+		int avgWreckingCount = (totalRowCount * wreckingPercentage) / (100 * 4 * datasetStatsList.size());
+		
 		for(int j =0; j< datasetStatsList.size(); j++) {
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("Character")) {
-				dimensionsList.add(characterService.NullCheck(datasetStatsList.get(j),wreckingPercentage));
-				dimensionsList.add(characterService.AccuracyCheck(datasetStatsList.get(j),wreckingPercentage));
-				dimensionsList.add(characterService.ConsistencyCheck(datasetStatsList.get(j),wreckingPercentage));
-				dimensionsList.add(characterService.ValidityCheck(datasetStatsList.get(j),wreckingPercentage));
+				dimensionsList.add(characterService.NullCheck(datasetStatsList.get(j),avgWreckingCount));
+				dimensionsList.add(characterService.AccuracyCheck(datasetStatsList.get(j),avgWreckingCount));
+				dimensionsList.add(characterService.ConsistencyCheck(datasetStatsList.get(j),avgWreckingCount));
+				dimensionsList.add(characterService.ValidityCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionServices = new DimensionInfoModel();
 				dimensionServices.setDimensionsList(dimensionsList);
-				datasetStatsList.get(j).setDimentionList(dimensionServices);
+				datasetStatsList.get(j).setDimensionsList(dimensionsList);
 			}
 		}
 		return datasetStatsList;

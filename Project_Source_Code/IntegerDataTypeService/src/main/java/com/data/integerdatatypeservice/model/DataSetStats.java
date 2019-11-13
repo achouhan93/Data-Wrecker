@@ -1,5 +1,7 @@
 package com.data.integerdatatypeservice.model;
 
+import java.util.List;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,8 +10,8 @@ import lombok.Setter;
 @Setter
 public class DataSetStats {
 
-	private String columnName;
-	private ProfilingInfoModel profilingInfo;
-	private DimensionInfoModel dimensionList;
+	String columnName;
+	ProfilingInfoModel profilingInfo;
+	List<Dimensions> dimensionsList;
 
 }

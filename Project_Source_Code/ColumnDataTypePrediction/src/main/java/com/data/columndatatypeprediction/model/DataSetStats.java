@@ -1,6 +1,10 @@
 package com.data.columndatatypeprediction.model;
 
 
+import java.util.List;
+
+
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,6 +13,6 @@ import lombok.Setter;
 public class DataSetStats {
 	String columnName;
 	ProfilingInfoModel profilingInfo;
-	DimensionInfoModel dimentionList;
+	List<Dimensions> dimensionsList;
 
 }

@@ -18,10 +18,10 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	private Dimensions dimensions;
 	
 	@Override
-	public Dimensions NullCheck(DatasetStats datasetStats,int wreckingPercentage) {
+	public Dimensions NullCheck(DatasetStats datasetStats,int avgWrecking) {
 		
 		dimensions = new Dimensions();
-		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > avgWrecking) {
 			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(false);
@@ -38,10 +38,10 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	}
 
 	@Override
-	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int wreckingPercentage) {
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int avgWrecking) {
 		
 		List<PatternModel> patternsIdentified = datasetStats.getProfilingInfo().getPatternsIdentified();
-		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		int patternXcount = 0;
 		int patternxCount = 0;
 		int dirtyPatternCount = 0;
@@ -85,9 +85,9 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	}
 
 	@Override
-	public Dimensions ValidityCheck(DatasetStats datasetStats,int wreckingPercentage) {
+	public Dimensions ValidityCheck(DatasetStats datasetStats,int avgWrecking) {
 		dimensions = new Dimensions();
-		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified();
 		int count = 0;
 		for(int i=0; i < patternModelList.size(); i++ ) {
@@ -112,9 +112,9 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 	}
 
 	@Override
-	public Dimensions AccuracyCheck(DatasetStats datasetStats,int wreckingPercentage) {
+	public Dimensions AccuracyCheck(DatasetStats datasetStats,int avgWrecking) {
 		
-		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		
 		dimensions = new Dimensions();
 		dimensions.setDimensionName("Accuracy");
@@ -125,10 +125,10 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 		return dimensions;
 	}
 	
-	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
+	/*private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
 		
 		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 4) ; 
 		return totalRowsCanBeWrecked;
 	}
-	
+	*/
 }

@@ -20,30 +20,30 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 	private Dimensions dimensions;
 	
 	@Override
-	public Dimensions NullCheck(DatasetStats datasetStats,int wreckingPercentage) {
+	public Dimensions NullCheck(DatasetStats datasetStats,int avgWreckingCount) {
 		
 		dimensions = new Dimensions();
-		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		
-		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > avgWrecking) {
+		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > avgWreckingCount) {
 			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(false);
 			dimensions.setReason("The number of null values exceeds the desired count");
-			dimensions.setRemainingWreakingCount(avgWrecking - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
+			dimensions.setRemainingWreakingCount(avgWreckingCount - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			return dimensions;
 		} else {
 			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(true);
 			dimensions.setReason("The number of null values less than the desired count");
-			dimensions.setRemainingWreakingCount(avgWrecking - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
+			dimensions.setRemainingWreakingCount(avgWreckingCount - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			return dimensions;
 		}
 	}
 	
 	@Override
-	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int wreckingPercentage) {
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int avgWrecking) {
 		dimensions = new Dimensions();
-		 int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		 //int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		if(datasetStats.getProfilingInfo().getPatternsIdentified().size() > 2) {
 			if(isConsistent(datasetStats, avgWrecking)) {
 				dimensions.setDimensionName("Consistency");
@@ -67,7 +67,7 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 	}
 
 	@Override
-	public Dimensions ValidityCheck(DatasetStats datasetStats,int wreckingPercentage) {	
+	public Dimensions ValidityCheck(DatasetStats datasetStats,int avgWrecking) {	
 		
 		int totalRowsCount = datasetStats.getProfilingInfo().getColumnStats().getRowCount();
 		int count = 0;
@@ -80,7 +80,7 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 			}
 		}
 		
-		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		if(count <  totalRowsCount ) {
 			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(true);
@@ -97,11 +97,11 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 	}
 
 	@Override
-	public Dimensions AccuracyCheck(DatasetStats datasetStats,int wreckingPercentage) {
+	public Dimensions AccuracyCheck(DatasetStats datasetStats,int avgWrecking) {
 		
 		List<FrequencyOfColumnValues> distinctValues = datasetStats.getProfilingInfo().getColumnStats().getFrequencyOfColumnValues();
 		int inaccurateCount = 0;
-		int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		dimensions = new Dimensions();
 		
 		for(int i =0; i < distinctValues.size(); i++) {
@@ -156,11 +156,11 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 		}
 	}
 	
-	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
+	/*private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
 		
 		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 5) ; 
 		return totalRowsCanBeWrecked;
 	}
-	
+	*/
 	
 }

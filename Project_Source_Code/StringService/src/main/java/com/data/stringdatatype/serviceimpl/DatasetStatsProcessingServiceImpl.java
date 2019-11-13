@@ -62,6 +62,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	
 	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
 		DimensionInfoModel dimensionServices = new DimensionInfoModel();
+		
 		int columnCount = datasetStatsList.size();
 		for(int j =0; j< datasetStatsList.size(); j++) {
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("String")) {
@@ -72,7 +73,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 				dimensionsList.add(dateService.ValidityCheck(datasetStatsList.get(j),wreckingPercentage, columnCount));
 				dimensionServices = new DimensionInfoModel();
 				dimensionServices.setDimensionsList(dimensionsList);
-				datasetStatsList.get(j).setDimensionList(dimensionServices);
+				datasetStatsList.get(j).setDimensionsList(dimensionsList);
 			}
 		}
 		return datasetStatsList;

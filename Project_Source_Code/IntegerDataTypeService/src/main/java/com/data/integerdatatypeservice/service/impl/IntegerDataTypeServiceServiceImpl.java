@@ -77,7 +77,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						profilingInfoModel = dataSetStatsList.get(j).getProfilingInfo();
 					}
 					int numberOfRecords = profilingInfoModel.getColumnStats().getRowCount();
-					 indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
+					indivisualWreakingCountForDimentions = ( ( (wreakingPercentage / 4) * numberOfRecords) / ( 100* columnHeader1.size() ) );
 				}
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Integer")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
@@ -173,10 +173,11 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						DimensionsList.add(dimensions);
 						
 					}*/
+					dimensionInfoModel.setDimensionsList(DimensionsList);
+					dataSetStatsList.get(datasetHeadersIterator).setDimensionsList(DimensionsList);
 				}
 
-				dimensionInfoModel.setDimensionsList(DimensionsList);
-				dataSetStatsList.get(datasetHeadersIterator).setDimensionList(dimensionInfoModel);
+				
 			}
 			dataProfilerInfo.setDatasetStats(dataSetStatsList);
 			integerDataTypeRepository.save(dataProfilerInfo);
