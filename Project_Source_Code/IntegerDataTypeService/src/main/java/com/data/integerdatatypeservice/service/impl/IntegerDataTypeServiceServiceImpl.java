@@ -77,7 +77,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						profilingInfoModel = dataSetStatsList.get(j).getProfilingInfo();
 					}
 					int numberOfRecords = profilingInfoModel.getColumnStats().getRowCount();
-					indivisualWreakingCountForDimentions = ( ( (wreakingPercentage / 5) * numberOfRecords) / ( 100* columnHeader1.size() ) );
+					indivisualWreakingCountForDimentions = ( ( (wreakingPercentage / 4) * numberOfRecords) / ( 100* columnHeader1.size() ) );
 				}
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Integer")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
@@ -162,17 +162,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						DimensionsList.add(dimensions);
 					}
 					
-					if(wreakingPercentage > profilingInfoModel.getColumnStats().getDuplicateCount())
-					{
-						datadimention.add("Uniqueness");
-						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("Uniqueness");
-						dimensions.setReason("insufficient uniqueness values");
-						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(wreakingPercentage - profilingInfoModel.getColumnStats().getDuplicateCount());
-						DimensionsList.add(dimensions);
-						
-					}
+					
 					dimensionInfoModel.setDimensionsList(DimensionsList);
 					dataSetStatsList.get(datasetHeadersIterator).setDimensionsList(DimensionsList);
 				}

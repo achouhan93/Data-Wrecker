@@ -203,9 +203,9 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 			result = callDimensionService.callConsistencyService(wreckingIdsForDimension, columnName, collectionName);	
 			break;
 			
-		case "Uniqueness":
+		/*case "Uniqueness":
 			result = callDimensionService.callUniquenessService(wreckingIdsForDimension, columnName, collectionName);	
-			break;
+			break;*/
 		
 		case "Accuracy":			
 			result = callDimensionService.callAccuracyServcie(wreckingIdsForDimension, columnName, collectionName);
