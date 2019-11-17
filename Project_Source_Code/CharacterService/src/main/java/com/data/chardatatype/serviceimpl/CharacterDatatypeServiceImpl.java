@@ -68,7 +68,7 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 			dimensions.setDimensionName("Consistency");
 			dimensions.setStatus(true);
 			dimensions.setReason("The patterns identified are less than the desired count");
-			dimensions.setRemainingWreakingCount(avgWrecking - dirtyPatternCount);
+			dimensions.setRemainingWreakingCount(avgWrecking);
 			return dimensions;
 			
 		}else {
@@ -77,7 +77,7 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 			dimensions.setDimensionName("Consistency");
 			dimensions.setStatus(true);
 			dimensions.setReason("The patterns identified are greater than the desired count");
-			dimensions.setRemainingWreakingCount(avgWrecking - dirtyPatternCount);
+			dimensions.setRemainingWreakingCount(avgWrecking);
 			return dimensions;
 			
 		}
@@ -100,13 +100,13 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(false);
 			dimensions.setReason("There are Invalid values are greater than the desired count");
-			dimensions.setRemainingWreakingCount(avgWrecking - count);
+			dimensions.setRemainingWreakingCount(avgWrecking);
 			return dimensions;
 		}else {
 			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(true);
 			dimensions.setReason("There are valid values are lesser than the desired count");
-			dimensions.setRemainingWreakingCount(avgWrecking - count);
+			dimensions.setRemainingWreakingCount(avgWrecking);
 			return dimensions;
 		}
 	}

@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.booleandatatype.model.DataProfilerInfo;
 import com.data.booleandatatype.model.DatasetStats;
-import com.data.booleandatatype.model.DimensionInfoModel;
 import com.data.booleandatatype.model.Dimensions;
 import com.data.booleandatatype.repository.DatasetStatsInfoRepository;
 import com.data.booleandatatype.service.BooleanDataTypeService;
@@ -58,7 +57,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	}
 	
 	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
-		DimensionInfoModel dimensionServices = new DimensionInfoModel();
+		
 		int totalRowCount = datasetStatsList.get(0).getProfilingInfo().getColumnStats().getRowCount();
 		int avgWreckingCount = (totalRowCount * wreckingPercentage) / (100 * 4 * datasetStatsList.size()); 
 		for(int j =0; j< datasetStatsList.size(); j++) {
@@ -68,8 +67,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 				dimensionsList.add(booleanService.AccuracyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(booleanService.ConsistencyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(booleanService.ValidityCheck(datasetStatsList.get(j),avgWreckingCount));
-				dimensionServices = new DimensionInfoModel();
-				dimensionServices.setDimensionsList(dimensionsList);
+				
 				datasetStatsList.get(j).setDimensionsList(dimensionsList);
 			}
 		}

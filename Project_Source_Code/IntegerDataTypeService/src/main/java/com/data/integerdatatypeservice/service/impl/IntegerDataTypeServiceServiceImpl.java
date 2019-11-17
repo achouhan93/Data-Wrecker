@@ -12,7 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.integerdatatypeservice.model.DataProfilerInfo;
 import com.data.integerdatatypeservice.model.DataSetStats;
-import com.data.integerdatatypeservice.model.DimensionInfoModel;
 import com.data.integerdatatypeservice.model.Dimensions;
 import com.data.integerdatatypeservice.model.ProfilingInfoModel;
 import com.data.integerdatatypeservice.repository.IntegerDataTypeRepository;
@@ -60,7 +59,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 			for (int datasetHeadersIterator = 0; datasetHeadersIterator < columnHeader1
 					.size(); datasetHeadersIterator++) {
 
-				DimensionInfoModel dimensionInfoModel = new DimensionInfoModel();
+				
 				List<Dimensions> DimensionsList = new ArrayList<Dimensions>();
 
 				int consistancyCnt = 0;
@@ -163,7 +162,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					}
 					
 					
-					dimensionInfoModel.setDimensionsList(DimensionsList);
+					
 					dataSetStatsList.get(datasetHeadersIterator).setDimensionsList(DimensionsList);
 				}
 

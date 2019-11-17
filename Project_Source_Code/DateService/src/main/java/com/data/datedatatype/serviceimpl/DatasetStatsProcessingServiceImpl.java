@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.datedatatype.model.DataProfilerInfo;
 import com.data.datedatatype.model.DatasetStats;
-import com.data.datedatatype.model.DimensionInfoModel;
 import com.data.datedatatype.model.Dimensions;
 import com.data.datedatatype.repository.DatasetStatsInfoRepository;
 import com.data.datedatatype.service.DatasetStatsProcessingService;
@@ -63,7 +62,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	}
 	
 	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
-		DimensionInfoModel dimensionServices = new DimensionInfoModel();
+		
 		int totalRowCount = datasetStatsList.get(0).getProfilingInfo().getColumnStats().getRowCount();
 		int avgWreckingCount = (totalRowCount * wreckingPercentage) / (100 * 4 * datasetStatsList.size()); 
 
@@ -73,8 +72,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 				dimensionsList.add(dateService.AccuracyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(dateService.ConsistencyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(dateService.ValidityCheck(datasetStatsList.get(j),avgWreckingCount));
-				dimensionServices = new DimensionInfoModel();
-				dimensionServices.setDimensionsList(dimensionsList);
+				
 				datasetStatsList.get(j).setDimensionsList(dimensionsList);
 			}
 		}

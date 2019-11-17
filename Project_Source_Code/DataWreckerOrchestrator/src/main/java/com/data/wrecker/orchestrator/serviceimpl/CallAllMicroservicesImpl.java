@@ -347,7 +347,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		for( i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
 			if(dataprofilerInfo.getDatasetStats().get(i).getColumnName().equals(colName)) {
 				dimensionsList = new ArrayList<Dimensions>();
-				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionList().getDimensionsList();
+				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionsList();
 				break;
 			}
 		}
@@ -355,13 +355,15 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 			int count =0;
 			int dimensionWreckingCount = 0;
 			for(i =0; i< dimensionsList.size(); i++) {
-				if(dimensionsList.get(i).isStatus()) {
+				if(dimensionsList.get(i).isStatus() == true) {
+					
 					 dimensionWreckingCount = dimensionWreckingCount + dimensionsList.get(i).getRemainingWreakingCount();
 					wreckingIdsForDimension = objectIdsToWreck.subList(count, dimensionWreckingCount-1);
 					
 					
 					newCollectionName =  callDimension(wreckingIdsForDimension, dimensionsList.get(i).getDimensionName(), colName, newCollectionName);
 					count = dimensionWreckingCount;
+					
 				}
 			}			
 		}
@@ -378,7 +380,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		for( i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
 			if(dataprofilerInfo.getDatasetStats().get(i).getColumnName().equals(columnName)) {
 				dimensionsList = new ArrayList<Dimensions>();
-				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionList().getDimensionsList();
+				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionsList();
 			}
 		}
 		if(!dimensionsList.isEmpty()) {
