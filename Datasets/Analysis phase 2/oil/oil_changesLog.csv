@@ -1,0 +1,1763 @@
+_id,columnName,oldValue,newValue,oid,dimensionName,datasetName
+ObjectId(5dd3218f760b2a21b4c4966e),INSTRUMENT,EBAM,,17814,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4966f),INSTRUMENT,DataRam 4,,9967,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49670),INSTRUMENT,DataRam 4,,18381,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49671),INSTRUMENT,EBAM,,8301,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49672),INSTRUMENT,AreaRae,,16382,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49673),INSTRUMENT,EBAM,,11072,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49674),INSTRUMENT,MultiRae,,18512,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49675),INSTRUMENT,MultiRae,,7495,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49676),INSTRUMENT,EBAM,,18244,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49677),INSTRUMENT,AreaRae,,10769,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49678),INSTRUMENT,MultiRae,,12505,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49679),INSTRUMENT,AreaRae,,19281,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4967a),INSTRUMENT,AreaRae,,11670,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4967b),INSTRUMENT,MultiRae,,1308,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4967c),INSTRUMENT,AreaRae,,4082,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4967d),INSTRUMENT,MultiRae,,9073,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4967e),INSTRUMENT,AreaRae,,12603,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4967f),INSTRUMENT,MultiRae,,15264,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49680),INSTRUMENT,MultiRae,,4595,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49681),INSTRUMENT,MultiRae,,4670,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49682),INSTRUMENT,EBAM,,4330,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49683),INSTRUMENT,MultiRae,,12174,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49684),INSTRUMENT,AreaRae,,5154,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49685),INSTRUMENT,,,6077,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49686),INSTRUMENT,MultiRae,,17790,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49687),INSTRUMENT,AreaRae,,19742,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49688),INSTRUMENT,AreaRae,,13101,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c49689),INSTRUMENT,MultiRae,,16185,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4968a),INSTRUMENT,MultiRae,,12660,Completeness,oil_0
+ObjectId(5dd32190760b2a21b4c4968b),INSTRUMENT,AreaRae,,15093,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4968c),INSTRUMENT,AreaRae,,9244,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4968d),INSTRUMENT,DataRam 4,,17250,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4968e),INSTRUMENT,EBAM,,5960,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4968f),INSTRUMENT,DataRam 4,,8977,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49690),INSTRUMENT,MultiRae,,16280,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49691),INSTRUMENT,,,10947,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49692),INSTRUMENT,MultiRae,,1189,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49693),INSTRUMENT,AreaRae,,5645,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49694),INSTRUMENT,AreaRae,,1523,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49695),INSTRUMENT,MultiRae,,7422,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49696),INSTRUMENT,MultiRae,,1361,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49697),INSTRUMENT,AreaRae,,6093,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49698),INSTRUMENT,EBAM,,5963,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c49699),INSTRUMENT,AreaRae,,8203,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4969a),INSTRUMENT,EBAM,,4993,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4969b),INSTRUMENT,EBAM,,668,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4969c),INSTRUMENT,EBAM,,10232,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4969d),INSTRUMENT,DataRam 4,,12845,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4969e),INSTRUMENT,AreaRae,,19917,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c4969f),INSTRUMENT,EBAM,,12054,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a0),INSTRUMENT,EBAM,,18445,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a1),INSTRUMENT,MultiRae,,10714,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a2),INSTRUMENT,DataRam,,4279,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a3),INSTRUMENT,MultiRae,,17911,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a4),INSTRUMENT,AreaRae,,15936,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a5),INSTRUMENT,MultiRae,,12279,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a6),INSTRUMENT,MultiRae,,3198,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a7),INSTRUMENT,EBAM,,13154,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a8),INSTRUMENT,AreaRae,,5458,Completeness,oil_0
+ObjectId(5dd32191760b2a21b4c496a9),INSTRUMENT,MultiRae,,5994,Completeness,oil_0
+ObjectId(5dd321f8760b2a06b8db6787),INSTRUMENT,EBAM,,8816,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6788),INSTRUMENT,EBAM,,739,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6789),INSTRUMENT,EBAM,,13775,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db678a),INSTRUMENT,EBAM,,16547,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db678b),INSTRUMENT,EBAM,,2179,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db678c),INSTRUMENT,DataRam,,3929,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db678d),INSTRUMENT,AreaRae,,13475,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db678e),INSTRUMENT,EBAM,,16282,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db678f),INSTRUMENT,EBAM,,6618,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6790),INSTRUMENT,AreaRae,,4762,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6791),INSTRUMENT,MultiRae,,4429,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6792),INSTRUMENT,EBAM,,14310,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6793),INSTRUMENT,MultiRae,,11230,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6794),INSTRUMENT,EBAM,,5905,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6795),INSTRUMENT,MultiRae,,10370,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6796),INSTRUMENT,AreaRae,,12311,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6797),INSTRUMENT,AreaRae,,10578,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6798),INSTRUMENT,EBAM,,6913,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db6799),INSTRUMENT,MultiRae,,19212,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db679a),INSTRUMENT,DataRam 4,,16880,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db679b),INSTRUMENT,AreaRae,,14353,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db679c),INSTRUMENT,AreaRae,,14177,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db679d),INSTRUMENT,EBAM,,3775,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db679e),INSTRUMENT,EBAM,,17364,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db679f),INSTRUMENT,MultiRae,,14384,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a0),INSTRUMENT,AreaRae,,9473,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a1),INSTRUMENT,AreaRae,,19037,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a2),INSTRUMENT,DataRam 4,,19550,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a3),INSTRUMENT,MultiRae,,19011,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a4),INSTRUMENT,EBAM,,18548,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a5),INSTRUMENT,MultiRae,,7856,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a6),INSTRUMENT,MultiRae,,14827,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a7),INSTRUMENT,MiniRAE,,734,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a8),INSTRUMENT,AreaRae,,19549,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67a9),INSTRUMENT,EBAM,,11556,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67aa),INSTRUMENT,AreaRae,,3378,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67ab),INSTRUMENT,AreaRae,,9359,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67ac),INSTRUMENT,AreaRae,,15945,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67ad),INSTRUMENT,AreaRae,,10463,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67ae),INSTRUMENT,AreaRae,,12324,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67af),INSTRUMENT,AreaRae,,19841,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67b0),INSTRUMENT,AreaRae,,383,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67b1),INSTRUMENT,EBAM,,144,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67b2),INSTRUMENT,MultiRae,,18140,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67b3),INSTRUMENT,MultiRae,,17287,Consistency,oil_0
+ObjectId(5dd321f8760b2a06b8db67b4),INSTRUMENT,DataRam 4,,14708,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67b5),INSTRUMENT,AreaRae,,9207,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67b6),INSTRUMENT,AreaRae,,11250,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67b7),INSTRUMENT,EBAM,,8980,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67b8),INSTRUMENT,AreaRae,,11310,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67b9),INSTRUMENT,AreaRae,,4887,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67ba),INSTRUMENT,EBAM,,15983,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67bb),INSTRUMENT,EBAM,,11246,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67bc),INSTRUMENT,EBAM,,11839,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67bd),INSTRUMENT,EBAM,,12412,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67be),INSTRUMENT,AreaRae,,4328,Consistency,oil_0
+ObjectId(5dd321f9760b2a06b8db67bf),INSTRUMENT,AreaRae,,1574,Consistency,oil_0
+ObjectId(5dd3224d760b2a2b14b1f043),INSTRUMENT,EBAM,AMAE,3245,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f044),INSTRUMENT,AreaRae,eerAaRa,7939,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f045),INSTRUMENT,MultiRae,aaiMatau,6344,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f046),INSTRUMENT,AreaRae,aeARrea,14215,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f047),INSTRUMENT,MultiRae,RlMuitae,9480,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f048),INSTRUMENT,EBAM,BMEB,2315,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f049),INSTRUMENT,EBAM,BMAE,16747,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f04a),INSTRUMENT,AreaRae,eerarAe,5394,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f04b),INSTRUMENT,DataRam 4,Rat a4Dam,15684,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f04c),INSTRUMENT,AreaRae,arAeRea,8136,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f04d),INSTRUMENT,MiniRAE,AiMEnMA,781,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f04e),INSTRUMENT,EBAM,EMAB,3261,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f04f),INSTRUMENT,DataRam 4,aD aa4mtR,8815,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f050),INSTRUMENT,AreaRae,raaeRAe,7694,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f051),INSTRUMENT,MultiRae,lMRtaiue,3802,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f052),INSTRUMENT,AreaRae,AaRaAeA,19385,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f053),INSTRUMENT,EBAM,BMAE,13615,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f054),INSTRUMENT,EBAM,MEAB,16200,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f055),INSTRUMENT,EBAM,MEBA,19972,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f056),INSTRUMENT,DataRam 4,4a4DatRaa,19543,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f057),INSTRUMENT,AreaRae,Aaeeere,12426,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f058),INSTRUMENT,MultiRae,taluaait,17275,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f059),INSTRUMENT,MultiRae,eRaeelMM,3497,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f05a),INSTRUMENT,EBAM,BMAB,9548,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f05b),INSTRUMENT,MultiRae,liRRlleu,12606,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f05c),INSTRUMENT,AreaRae,aeReeeA,17284,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f05d),INSTRUMENT,AreaRae,ARareea,17157,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f05e),INSTRUMENT,DataRam 4,Da aRt4ma,15514,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f05f),INSTRUMENT,AreaRae,AeaaeeA,9911,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f060),INSTRUMENT,EBAM,EMBA,13594,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f061),INSTRUMENT,EBAM,BAMA,18151,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f062),INSTRUMENT,EBAM,MEBE,15210,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f063),INSTRUMENT,AreaRae,aereeAa,13331,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f064),INSTRUMENT,MultiRae,iMatlueR,9156,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f065),INSTRUMENT,MultiRae,aatuelMR,17220,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f066),INSTRUMENT,EBAM,BAEE,18667,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f067),INSTRUMENT,EBAM,AEMB,11078,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f068),INSTRUMENT,MultiRae,ulielMRi,4498,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f069),INSTRUMENT,EBAM,MBAE,7470,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f06a),INSTRUMENT,AreaRae,aeaarAR,5728,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f06b),INSTRUMENT,AreaRae,aAaaarA,10029,Validity,oil_0
+ObjectId(5dd3224d760b2a2b14b1f06c),INSTRUMENT,AreaRae,rAeRraa,17673,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f06d),INSTRUMENT,MultiRae,RuuRittt,5360,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f06e),INSTRUMENT,MultiRae,ReutatRl,15078,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f06f),INSTRUMENT,EBAM,MEAM,3326,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f070),INSTRUMENT,MultiRae,eialMuRt,7195,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f071),INSTRUMENT,DataRam 4,Da4tama R,19696,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f072),INSTRUMENT,MultiRae,ttiuaull,2083,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f073),INSTRUMENT,MultiRae,uRllleta,14394,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f074),INSTRUMENT,AreaRae,eaAearR,18011,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f075),INSTRUMENT,EBAM,AEBM,19383,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f076),INSTRUMENT,EBAM,BABM,14431,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f077),INSTRUMENT,EBAM,EMMM,15256,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f078),INSTRUMENT,MultiRae,laaiRMMt,2134,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f079),INSTRUMENT,EBAM,MBAE,18202,Validity,oil_0
+ObjectId(5dd3224e760b2a2b14b1f07a),INSTRUMENT,EBAM,MEAA,14481,Validity,oil_0
+ObjectId(5dd32252760b2a2b14b1f07b),INSTRUMENT,,,12916,Validity,oil_0
+ObjectId(5dd32252760b2a2b14b1f07c),INSTRUMENT,MultiRae,eielaeut,9816,Validity,oil_0
+ObjectId(5dd32252760b2a2b14b1f07d),INSTRUMENT,,,17093,Validity,oil_0
+ObjectId(5dd32252760b2a2b14b1f07e),INSTRUMENT,EBAM,ABBM,947,Validity,oil_0
+ObjectId(5dd3229f760b2a21b4c496ac),RESULTS,0,,848,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496ad),RESULTS,,,10955,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496ae),RESULTS,,,6059,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496af),RESULTS,1.2,,3339,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b0),RESULTS,,,13650,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b1),RESULTS,1.2,,3306,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b2),RESULTS,32.3,,2587,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b3),RESULTS,,,17045,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b4),RESULTS,,,11892,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b5),RESULTS,1,,8244,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b6),RESULTS,22.8,,11400,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b7),RESULTS,,,2439,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b8),RESULTS,,,5790,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496b9),RESULTS,,,1669,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496ba),RESULTS,38.3,,15253,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496bb),RESULTS,,,7289,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496bc),RESULTS,11.6,,11812,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496bd),RESULTS,1.5,,15003,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496be),RESULTS,,,5592,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496bf),RESULTS,28.6,,8710,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496c0),RESULTS,,,10347,Completeness,oil_0
+ObjectId(5dd3229f760b2a21b4c496c1),RESULTS,,,9372,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496c2),RESULTS,,,17959,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496c3),RESULTS,0.7,,4063,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496c4),RESULTS,20.5,,18133,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496c5),RESULTS,0.2,,13970,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496c6),RESULTS,,,300,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496c7),RESULTS,,,19285,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496c8),RESULTS,33,,4755,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496c9),RESULTS,20.6,,19141,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496ca),RESULTS,66.2,,19642,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496cb),RESULTS,,,7761,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496cc),RESULTS,,,5548,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496cd),RESULTS,15.9,,4869,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496ce),RESULTS,7.1,,14470,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496cf),RESULTS,,,7952,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d0),RESULTS,,,15745,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d1),RESULTS,,,17479,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d2),RESULTS,0.2,,670,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d3),RESULTS,,,18073,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d4),RESULTS,,,3654,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d5),RESULTS,,,9113,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d6),RESULTS,,,2513,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d7),RESULTS,0.1,,16877,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d8),RESULTS,,,8774,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496d9),RESULTS,23,,11739,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496da),RESULTS,,,6035,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496db),RESULTS,51.8,,1925,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496dc),RESULTS,,,5974,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496dd),RESULTS,,,13272,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496de),RESULTS,,,999,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496df),RESULTS,18.7,,11683,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496e0),RESULTS,7.5,,12032,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496e1),RESULTS,0.1,,426,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496e2),RESULTS,2.8,,19310,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496e3),RESULTS,,,11900,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496e4),RESULTS,,,9303,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496e5),RESULTS,,,9184,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496e6),RESULTS,,,1256,Completeness,oil_0
+ObjectId(5dd322a0760b2a21b4c496e7),RESULTS,,,13381,Completeness,oil_0
+ObjectId(5dd322b1760b2a06b8db67c2),RESULTS,1.6,,14435,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67c3),RESULTS,42.4,,5419,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67c4),RESULTS,101.8,,15665,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67c5),RESULTS,14.7,,12700,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67c6),RESULTS,42.6,,3482,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67c7),RESULTS,52.3,,3661,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67c8),RESULTS,0.2,,4707,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67c9),RESULTS,10.9,,17636,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67ca),RESULTS,0.7,,4090,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67cb),RESULTS,32.1,,2650,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67cc),RESULTS,7.9,,14127,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67cd),RESULTS,32.9,,1216,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67ce),RESULTS,13.2,,18979,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67cf),RESULTS,50,,2537,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d0),RESULTS,17.6,,8155,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d1),RESULTS,87.5,,15511,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d2),RESULTS,16.8,,1476,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d3),RESULTS,14.4,,5446,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d4),RESULTS,14,,10807,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d5),RESULTS,23.3,,3218,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d6),RESULTS,0.1,,17355,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d7),RESULTS,52.2,,15868,Consistency,oil_0
+ObjectId(5dd322b1760b2a06b8db67d8),RESULTS,0.3,,1675,Consistency,oil_0
+ObjectId(5dd322cb760b2a2b14b1f081),RESULTS,,,10386,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f082),RESULTS,1.5,.15,3479,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f083),RESULTS,18.1,.181,6687,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f084),RESULTS,5.8,.55,13435,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f085),RESULTS,,,17631,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f086),RESULTS,,,9063,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f087),RESULTS,2.5,555,1778,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f088),RESULTS,9.6,69.,15095,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f089),RESULTS,38.8,8388,145,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f08a),RESULTS,23.6,.226,8355,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f08b),RESULTS,,,6602,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f08c),RESULTS,88.9,8.89,641,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f08d),RESULTS,36.5,356.,6511,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f08e),RESULTS,35.8,3.58,7990,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f08f),RESULTS,36.5,5353,6506,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f090),RESULTS,68.8,8.88,621,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f091),RESULTS,85.6,6866,5979,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f092),RESULTS,38.4,3333,3078,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f093),RESULTS,1.8,1.1,19776,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f094),RESULTS,,,1482,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f095),RESULTS,12,12,17099,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f096),RESULTS,0.3,30.,15301,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f097),RESULTS,0.4,4.4,6027,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f098),RESULTS,87.8,8788,9250,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f099),RESULTS,,,15053,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f09a),RESULTS,,,10877,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f09b),RESULTS,70.1,.701,6124,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f09c),RESULTS,,,16852,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f09d),RESULTS,,,6454,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f09e),RESULTS,15.8,5181,14285,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f09f),RESULTS,40.7,.074,2389,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a0),RESULTS,39.6,.693,18284,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a1),RESULTS,,,10069,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a2),RESULTS,,,8208,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a3),RESULTS,,,8950,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a4),RESULTS,53,33,5910,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a5),RESULTS,,,12442,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a6),RESULTS,0.6,0.0,8755,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a7),RESULTS,24.7,.24.,9059,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a8),RESULTS,,,13663,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0a9),RESULTS,33.4,43.3,16390,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0aa),RESULTS,,,13274,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0ab),RESULTS,16.5,.5.1,15700,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0ac),RESULTS,15.5,5.15,11033,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0ad),RESULTS,55.6,6666,4656,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0ae),RESULTS,81.4,4.81,12959,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0af),RESULTS,,,19271,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b0),RESULTS,,,6015,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b1),RESULTS,,,16363,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b2),RESULTS,13.6,...3,3387,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b3),RESULTS,,,6744,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b4),RESULTS,,,9053,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b5),RESULTS,,,13724,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b6),RESULTS,,,8493,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b7),RESULTS,51.3,1.31,3441,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b8),RESULTS,0.3,33.,7773,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0b9),RESULTS,56.9,.956,4217,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0ba),RESULTS,16.8,16.8,2045,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0bb),RESULTS,,,11254,Validity,oil_0
+ObjectId(5dd322cb760b2a2b14b1f0bc),RESULTS,,,15476,Validity,oil_0
+ObjectId(5dd322d9760b2a21b4c496ea),INTERVAL,1-Hour Avg,,959,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496eb),INTERVAL,1-Hour Avg,,19414,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496ec),INTERVAL,1-Hour Avg,,11520,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496ed),INTERVAL,1-Hour Avg,,8076,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496ee),INTERVAL,1-Hour Avg,,11711,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496ef),INTERVAL,1-Hour Avg,,2661,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f0),INTERVAL,1-Hour Avg,,13871,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f1),INTERVAL,1-Hour Avg,,3854,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f2),INTERVAL,1-Hour Avg,,10516,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f3),INTERVAL,1-Hour Avg,,4955,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f4),INTERVAL,1-Hour Avg,,15441,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f5),INTERVAL,1-Hour Avg,,13036,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f6),INTERVAL,1-Hour Avg,,11043,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f7),INTERVAL,1-Hour Avg,,13605,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f8),INTERVAL,1-Hour Avg,,11859,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496f9),INTERVAL,1-Hour Avg,,5466,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496fa),INTERVAL,1-Hour Avg,,6219,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496fb),INTERVAL,1-Hour Avg,,10673,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496fc),INTERVAL,1-Hour Avg,,18777,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496fd),INTERVAL,1-Hour Avg,,15045,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496fe),INTERVAL,1-Hour Avg,,8902,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c496ff),INTERVAL,1-Hour Avg,,347,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49700),INTERVAL,1-Hour Avg,,19349,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49701),INTERVAL,1-Hour Avg,,5982,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49702),INTERVAL,1-Hour Avg,,7063,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49703),INTERVAL,1-Hour Avg,,4642,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49704),INTERVAL,1-Hour Avg,,7015,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49705),INTERVAL,1-Hour Avg,,11416,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49706),INTERVAL,1-Hour Avg,,10024,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49707),INTERVAL,1-Hour Avg,,4761,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49708),INTERVAL,1-Hour Avg,,9673,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49709),INTERVAL,1-Hour,,8572,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4970a),INTERVAL,1-Hour Avg,,3341,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4970b),INTERVAL,1-Hour Avg,,19796,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4970c),INTERVAL,1-Hour Avg,,8215,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4970d),INTERVAL,1-Hour Avg,,1921,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4970e),INTERVAL,1-Hour Avg,,10038,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4970f),INTERVAL,1-Hour Avg,,16652,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49710),INTERVAL,1-Hour Avg,,3170,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49711),INTERVAL,1-Hour Avg,,19623,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49712),INTERVAL,1-Hour Avg,,14357,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49713),INTERVAL,1-Hour Avg,,19835,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49714),INTERVAL,1-Hour Avg,,12312,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49715),INTERVAL,1-Hour Avg,,1571,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49716),INTERVAL,1-Hour Avg,,7881,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49717),INTERVAL,1-Hour Avg,,9120,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49718),INTERVAL,1-Hour Avg,,6660,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49719),INTERVAL,1-Hour Avg,,11615,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4971a),INTERVAL,1-Hour Avg,,11395,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4971b),INTERVAL,1-Hour Avg,,5725,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4971c),INTERVAL,1-Hour Avg,,7684,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4971d),INTERVAL,1-Hour Avg,,8932,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4971e),INTERVAL,1-Hour Avg,,15559,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c4971f),INTERVAL,1-Hour Avg,,10986,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49720),INTERVAL,1-Hour Avg,,16152,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49721),INTERVAL,1-Hour Avg,,12309,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49722),INTERVAL,1-Hour Avg,,12410,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49723),INTERVAL,1-Hour Avg,,3645,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49724),INTERVAL,1-Hour Avg,,5692,Completeness,oil_0
+ObjectId(5dd322d9760b2a21b4c49725),INTERVAL,1-Hour Avg,,14067,Completeness,oil_0
+ObjectId(5dd3232f760b2a2ff82530ac),INTERVAL,1-Hour Avg,1-Houri Avg,7985,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530ad),INTERVAL,1-Hour Avg,ppm,566,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530ae),INTERVAL,1-Hour Avg,01-Hour Avg,3888,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530af),INTERVAL,1-Hour Avg,1-HouF!Avg,14503,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b0),INTERVAL,1-Hour Avg,A 1-gHrvou,3987,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b1),INTERVAL,1-Hour Avg,1'-Hour Avg,3933,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b2),INTERVAL,1-Hour Avg,1-Hour Avbg,1654,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b3),INTERVAL,1-Hour Avg,1-_our Avg,4338,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b4),INTERVAL,1-Hour Avg," AogrH1-vu",17305,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b5),INTERVAL,1-Hour Avg,1)Ho)r dvg,8407,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b6),INTERVAL,1-Hour Avg,AgHvour- 1,5275,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b7),INTERVAL,1-Hour Avg,1m-Hour Avg,16872,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b8),INTERVAL,1-Hour Avg,0-Hour bvg,2188,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530b9),INTERVAL,1-Hour Avg,AreaRae,6403,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530ba),INTERVAL,1-Hour Avg,1-HourJ Avg,18141,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530bb),INTERVAL,1-Hour Avg,PM10,14283,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530bc),INTERVAL,1-Hour Avg,1-HJur6Avg,1128,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530bd),INTERVAL,1-Hour Avg,Air,16386,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530be),INTERVAL,1-Hour Avg,AreaRae,13712,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530bf),INTERVAL,1-Hour Avg,VOC,8751,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c0),INTERVAL,1-Hour Avg,Ar1v -ouHg,1207,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c1),INTERVAL,1-Hour Avg,v uAo1gr-H,8218,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c2),INTERVAL,1-Hour Avg,- roHgA1uv,3381,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c3),INTERVAL,1-Hour Avg,1-Hou'bAag,12121,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c4),INTERVAL,1-Hour Avg,1-oo.r Avg,3355,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c5),INTERVAL,1-Hour Avg,_-HourlAv6,393,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c6),INTERVAL,1-Hour Avg,Hgvo -1Aur,3836,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c7),INTERVAL,1-Hour Avg,A 1Hgrov-u,14390,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c8),INTERVAL,1-Hour Avg,EBAM,15480,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530c9),INTERVAL,1-Hour Avg,u1-Hour Avg,13123,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530ca),INTERVAL,1-Hour Avg,1AHovgu r-,9724,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530cb),INTERVAL,1-Hour Avg,1-Hour JAvg,12137,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530cc),INTERVAL,1-Hour Avg,1-HXur Avu,1145,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530cd),INTERVAL,1-Hour Avg,1xHounRAvg,12092,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530ce),INTERVAL,1-Hour Avg,PM10,13247,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530cf),INTERVAL,1-Hour Avg,1-Hour @Avg,11459,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530d0),INTERVAL,1-Hour Avg,1-Hour Av],400,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530d1),INTERVAL,1-Hour Avg,N/A,19400,Accuracy,oil_0
+ObjectId(5dd3232f760b2a2ff82530d2),INTERVAL,1-Hour Avg,May 21 2010,11735,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530d3),INTERVAL,1-Hour Avg,1-H{our Avg,18492,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530d4),INTERVAL,1-Hour Avg,PM10,15806,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530d5),INTERVAL,1-Hour Avg,MULTIRAE,16736,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530d6),INTERVAL,1-Hour Avg,N/A,4178,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530d7),INTERVAL,1-Hour Avg,1-Hour  Avg,12971,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530d8),INTERVAL,1-Hour Avg,hgHour AYg,19045,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530d9),INTERVAL,1-Hour Avg,May 21 2010,11954,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530da),INTERVAL,1-Hour Avg,1-Hou$r Avg,3006,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530db),INTERVAL,1-Hour Avg,1-Hour Av g,18106,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530dc),INTERVAL,1-Hour Avg,,3685,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530dd),INTERVAL,1-Hour Avg,o -uArvH1g,8762,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530de),INTERVAL,1-Hour Avg," gov-1HuAr",14442,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530df),INTERVAL,1-Hour Avg,N/A,6523,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530e0),INTERVAL,1-Hour Avg,Mississippi,10409,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530e1),INTERVAL,1-Hour Avg,1-H_u:1A0g,12158,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530e2),INTERVAL,1-Hour Avg,uvH1-roAg ,433,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530e3),INTERVAL,1-Hour Avg,1-Hour AQvg,12542,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530e4),INTERVAL,1-Hour Avg,Alabama,13178,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530e5),INTERVAL,1-Hour Avg,^-HoZr Avg,6717,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530e6),INTERVAL,1-Hour Avg,gu A-v1Hro,2498,Accuracy,oil_0
+ObjectId(5dd32330760b2a2ff82530e7),INTERVAL,1-Hour Avg,1-Hour [Avg,14040,Accuracy,oil_0
+ObjectId(5dd32367760b2a06b8db67db),INTERVAL,1-Hour Avg,,5937,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67dc),INTERVAL,1-Hour Avg,,18217,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67dd),INTERVAL,1-Hour Avg,,10792,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67de),INTERVAL,1-Hour Avg,,6429,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67df),INTERVAL,1-Hour Avg,,12610,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e0),INTERVAL,1-Hour Avg,,4491,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e1),INTERVAL,1-Hour Avg,,3825,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e2),INTERVAL,1-Hour Avg,,17565,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e3),INTERVAL,1-Hour Avg,,13980,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e4),INTERVAL,1-Hour Avg,,15414,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e5),INTERVAL,1-Hour Avg,,3876,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e6),INTERVAL,1-Hour Avg,,3151,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e7),INTERVAL,1-Hour Avg,,11779,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e8),INTERVAL,1-Hour Avg,,913,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67e9),INTERVAL,1-Hour Avg,,11644,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67ea),INTERVAL,1-Hour Avg,,15696,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67eb),INTERVAL,1 Hour Avg,,888,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67ec),INTERVAL,1-Hour Avg,,9531,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67ed),INTERVAL,1-Hour Avg,,16348,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67ee),INTERVAL,1-Hour Avg,,15530,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67ef),INTERVAL,1-Hour Avg,,1254,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67f0),INTERVAL,1-Hour Avg,,16249,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67f1),INTERVAL,1-Hour Avg,,4798,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67f2),INTERVAL,1-Hour Avg,,13593,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67f3),INTERVAL,1-Hour Avg,,15770,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67f4),INTERVAL,1-Hour Avg,,11697,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67f5),INTERVAL,1-Hour Avg,,15458,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67f6),INTERVAL,1-Hour Avg,,19629,Consistency,oil_0
+ObjectId(5dd32367760b2a06b8db67f7),INTERVAL,1-Hour Avg,,3195,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db67f8),INTERVAL,1-Hour Avg,,17201,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db67f9),INTERVAL,1-Hour Avg,,14562,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db67fa),INTERVAL,1-Hour Avg,,8156,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db67fb),INTERVAL,1-Hour Avg,,1963,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db67fc),INTERVAL,1-Hour Avg,,2215,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db67fd),INTERVAL,1-Hour Avg,,3919,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db67fe),INTERVAL,1-Hour Avg,,12516,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db67ff),INTERVAL,1-Hour Avg,,14109,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db6800),INTERVAL,1-Hour Avg,,6898,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db6801),INTERVAL,1-Hour Avg,,16208,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db6802),INTERVAL,1-Hour Avg,,8350,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db6803),INTERVAL,1-Hour Avg,,13801,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db6804),INTERVAL,1-Hour Avg,,19472,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db6805),INTERVAL,1-Hour Avg,,11612,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db6806),INTERVAL,1-Hour Avg,,16143,Consistency,oil_0
+ObjectId(5dd32369760b2a06b8db6807),INTERVAL,1-Hour Avg,,5830,Consistency,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0bf),INTERVAL,1-Hour Avg,vooA1gu11g,2796,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c0),INTERVAL,1-Hour Avg,r1vAuH- Au,8533,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c1),INTERVAL,1-Hour Avg,ogHv--H g-,85,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c2),INTERVAL,1-Hour Avg,og1ou H g ,13204,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c3),INTERVAL,1-Hour Avg,go HgvAg-r,1791,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c4),INTERVAL,1-Hour Avg," ru--go-rv",19832,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c5),INTERVAL,1-Hour Avg,rruHgAHv1r,7570,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c6),INTERVAL,1-Hour Avg,uA rvvHH H,8412,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c7),INTERVAL,1-Hour Avg,1 gruv-HoA,11334,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c8),INTERVAL,1-Hour Avg,gAg1 g--Au,17723,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0c9),INTERVAL,1-Hour Avg,A oAvv1vv ,4958,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0ca),INTERVAL,1-Hour Avg,1uAA1AuHvH,1431,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0cb),INTERVAL,1-Hour Avg,rv-Agu 1Ho,19997,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0cc),INTERVAL,1-Hour Avg,AoHuv-rg1 ,19024,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0cd),INTERVAL,1-Hour Avg,ouHvooouAo,6879,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0ce),INTERVAL,1-Hour Avg," 1vAo-AH  ",17925,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0cf),INTERVAL,1-Hour Avg,gH1g--o1--,5048,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d0),INTERVAL,1-Hour Avg,Hu vHvHrvg,18052,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d1),INTERVAL,1-Hour Avg,uuuoAoH -g,8158,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d2),INTERVAL,1-Hour Avg,vr1-uAog H,10723,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d3),INTERVAL,1-Hour Avg,HAvorgu -1,10680,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d4),INTERVAL,1-Hour Avg,rH1 1--HgA,3975,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d5),INTERVAL,1-Hour Avg,rHr1v-u Hr,8825,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d6),INTERVAL,1-Hour Avg,1o1A-HgvAH,2110,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d7),INTERVAL,1-Hour Avg,A Ag-ugAou,1510,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d8),INTERVAL,1-Hour Avg,g1H Hu-oAo,1601,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0d9),INTERVAL,1-Hour Avg,goA urrgAo,410,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0da),INTERVAL,1-Hour Avg,Hr1ov- ugA,11329,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0db),INTERVAL,1-Hour Avg,1uugo rv g,13570,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0dc),INTERVAL,1-Hour Avg,Ag-1 Hrvuo,6199,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0dd),INTERVAL,1-Hour Avg,A vruH1g-o,15873,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0de),INTERVAL,1-Hour Avg,o1v-H1Huvr,4938,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0df),INTERVAL,1-Hour Avg,11Avor1Aug,2201,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e0),INTERVAL,1-Hour Avg,g-HAu1v ro,4261,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e1),INTERVAL,1-Hour Avg,u 1gHHv uv,9952,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e2),INTERVAL,1-Hour Avg,vA uA-uoAr,2071,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e3),INTERVAL,1-Hour Avg,Avgu-uA-1H,2775,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e4),INTERVAL,1-Hour Avg,11uo1r-urv,15571,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e5),INTERVAL,1-Hour Avg,vr1HHg-vu ,19846,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e6),INTERVAL,1-Hour Avg,1gAvHu o-r,13175,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e7),INTERVAL,1-Hour Avg," o-gHruvA1",15937,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e8),INTERVAL,1-Hour Avg,g1o1ogvHHv,8228,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0e9),INTERVAL,1-Hour Avg,rHovv1 o1-,17566,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0ea),INTERVAL,1-Hour Avg,o-- A1A vo,18662,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0eb),INTERVAL,1-Hour Avg,rouH1vAg- ,12575,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0ec),INTERVAL,1-Hour Avg,ug1H-vro A,7545,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0ed),INTERVAL,1-Hour Avg,vrAvg1ugHo,1844,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0ee),INTERVAL,1-Hour Avg," -Ar1HrvuH",14655,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0ef),INTERVAL,1-Hour Avg,rgH Auo-1v,7189,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f0),INTERVAL,1-Hour Avg,v-oug1HrA ,17076,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f1),INTERVAL,1-Hour Avg,HA 1rgvu-o,18500,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f2),INTERVAL,1-Hour Avg,rvguo1-HA ,6080,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f3),INTERVAL,1-Hour Avg,-AAAvArHHo,2686,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f4),INTERVAL,1-Hour Avg,uvgoA 1r-H,378,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f5),INTERVAL,1-Hour Avg,o1r1o1Agr-,9684,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f6),INTERVAL,1-Hour Avg,1vug-1  r1,4751,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f7),INTERVAL,1-Hour Avg,rgH ogA Ar,17913,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f8),INTERVAL,1-Hour Avg,H-1A1HrHv-,6938,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0f9),INTERVAL,1-Hour Avg,1HoA-ruv g,16944,Validity,oil_0
+ObjectId(5dd3236e760b2a2b14b1f0fa),INTERVAL,1-Hour Avg,r oHvg-u1A,11811,Validity,oil_0
+ObjectId(5dd32373760b2a21b4c49728),DATE,May 06 2010,,18746,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49729),DATE,May 10 2010,,17311,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4972a),DATE,June 10 2010,,2127,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4972b),DATE,June 10 2010,,2500,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4972c),DATE,June 13 2010,,279,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4972d),DATE,May 22 2010,,11393,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4972e),DATE,May 22 2010,,11384,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4972f),DATE,May 20 2010,,12440,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49730),DATE,May 09 2010,,17540,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49731),DATE,June 01 2010,,6657,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49732),DATE,June 02 2010,,6275,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49733),DATE,June 13 2010,,163,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49734),DATE,May 05 2010,,19089,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49735),DATE,May 29 2012,,10072,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49736),DATE,June 12 2010,,832,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49737),DATE,June 13 2010,,617,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49738),DATE,May 18 2010,,13199,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49739),DATE,May 03 2010,,19945,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4973a),DATE,May 03 2010,,19904,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4973b),DATE,June 12 2010,,737,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4973c),DATE,May 03 2010,,19683,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4973d),DATE,June 08 2010,,3465,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4973e),DATE,May 21 2010,,11873,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4973f),DATE,June 13 2010,,153,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49740),DATE,May 31 2010,,7400,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49741),DATE,May 25 2010,,10132,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49742),DATE,May 25 2010,,9925,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49743),DATE,June 08 2010,,3185,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49744),DATE,May 19 2010,,12625,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49745),DATE,May 06 2010,,18674,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49746),DATE,June 02 2010,,6473,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49747),DATE,May 17 2010,,13976,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49748),DATE,May 21 2010,,11914,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49749),DATE,June 05 2010,,4828,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4974a),DATE,May 28 2010,,8575,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4974b),DATE,May 28 2010,,8739,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4974c),DATE,May 29 2010,,7999,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4974d),DATE,June 06 2010,,4358,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4974e),DATE,May 28 2010,,8462,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4974f),DATE,May 31 2010,,7124,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49750),DATE,May 12 2010,,16069,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49751),DATE,May 15 2010,,14548,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49752),DATE,May 19 2010,,12780,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49753),DATE,May 10 2010,,16994,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49754),DATE,May 14 2010,,15160,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49755),DATE,May 30 2010,,7497,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49756),DATE,May 18 2010,,13140,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49757),DATE,May 31 2010,,7078,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49758),DATE,June 12 2010,,1265,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49759),DATE,May 20 2010,,12501,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4975a),DATE,May 15 2010,,14508,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4975b),DATE,June 01 2010,,6852,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4975c),DATE,May 25 2010,,9898,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4975d),DATE,May 12 2010,,16060,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4975e),DATE,May 07 2010,,18385,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c4975f),DATE,June 06 2010,,4252,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49760),DATE,May 27 2010,,8963,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49761),DATE,May 12 2010,,15967,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49762),DATE,17,,14018,Completeness,oil_0
+ObjectId(5dd32373760b2a21b4c49763),DATE,June 10 2010,,1967,Completeness,oil_0
+ObjectId(5dd32389760b2a2ff82530ea),DATE,May 22 2010," y00 221aM2",11423,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530eb),DATE,June 02 2010,Air,6116,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530ec),DATE,June 11 2010,Louisiana,1427,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530ed),DATE,May 13 2010,May 13 201D0,15727,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530ee),DATE,May 19 2010,,12724,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530ef),DATE,May 13 2010,May 13 2q010,15290,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f0),DATE,June 13 2010,1012 enu03J ,356,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f1),DATE,May 11 2010,xMay 11 2010,16867,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f2),DATE,June 12 2010,dgne 1i 2010,867,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f3),DATE,June 04 2010,June 04 2x010,5431,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f4),DATE,May 03 2010,!ay 03 2010,19761,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f5),DATE,June 02 2010,xunw 02 20XH,6177,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f6),DATE,May 16 2010,May 16 b2010,14130,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f7),DATE,May 28 2010,May 2lp2n10,8461,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f8),DATE,May 18 2010,,13409,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530f9),DATE,May 05 2010,DataRam 4,19234,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530fa),DATE,May 19 2010,36.5,12626,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530fb),DATE,May 24 2010,May 2] 2010,10668,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530fc),DATE,May 15 2010,Mfy&1W 2e!0,14621,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530fd),DATE,June 10 2010,+cne 1# 201E,2172,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530fe),DATE,May 17 2010,10 7a 0y21M,13952,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff82530ff),DATE,June 03 2010,e1Ju02n3 00 ,5843,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253100),DATE,June 11 2010,June 11 20M10,1805,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253101),DATE,May 24 2010,MayK 24 2010,10216,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253102),DATE,May 21 2010,M4g CM 2010,11747,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253103),DATE,May 23 2010,MBy 23 %010,11077,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253104),DATE,May 13 2010,May 1q3 2010,15232,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253105),DATE,June 08 2010,J]ny 0K 2010,3156,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253106),DATE,May 26 2010,0 Ma21y 062,9361,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253107),DATE,May 22 2010,"  020M2ay12",11486,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253108),DATE,June 06 2010,June 06 27010,4139,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253109),DATE,May 22 2010,VaN 22 z'10,11607,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825310a),DATE,May 22 2010,May 22 2#010,11482,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825310b),DATE,May 29 2010,yM2 091a0 2,8021,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825310c),DATE,May 11 2010,Ma20111y0  ,16693,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825310d),DATE,June 04 2010,n04 ue0J10 2,5170,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825310e),DATE,May 08 2010,May 08d2010,18162,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825310f),DATE,May 10 2010,MayG1K 201),17152,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253110),DATE,May 13 2010,May2 13 2010,15485,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253111),DATE,May 07 2010,MayD07 2010,18597,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253112),DATE,May 13 2010,3y1a2M0  01,15594,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253113),DATE,June 11 2010,1e 121u0 J0n,1350,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253114),DATE,May 28 2010,Tay /O 20[0,8730,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253115),DATE,May 26 2010,EBAM,9345,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253116),DATE,June 01 2010,02e 0 nuJ110,6914,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253117),DATE,June 13 2010,Ju5ne 13 2010,317,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253118),DATE,June 09 2010,J1 e90u00 2n,2997,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253119),DATE,May 25 2010," y 205aM102",9872,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825311a),DATE,May 07 2010,Fay[07 N01i,18354,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825311b),DATE,May 12 2010,Ma)y 12 2010,16263,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825311c),DATE,May 26 2010,Air,9368,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825311d),DATE,June 10 2010,1J 1200 nu0e,2122,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825311e),DATE,June 04 2010,June A4 2010,5063,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff825311f),DATE,May 26 2010,May 26D2010,9306,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253120),DATE,May 20 2010,,12310,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253121),DATE,May 16 2010,Mu[ 1$ Y01[,14309,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253122),DATE,June 01 2010,,6832,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253123),DATE,May 10 2010,May 10j2010,16954,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253124),DATE,May 08 2010,May 08 42010,17926,Accuracy,oil_0
+ObjectId(5dd32389760b2a2ff8253125),DATE,04 2010,,19624,Accuracy,oil_0
+ObjectId(5dd32399760b2a06b8db680a),DATE,May 24 2010,,10192,Consistency,oil_0
+ObjectId(5dd32399760b2a06b8db680b),DATE,June 12 2010,,1011,Consistency,oil_0
+ObjectId(5dd32399760b2a06b8db680c),DATE,June 06 2010,,4460,Consistency,oil_0
+ObjectId(5dd32399760b2a06b8db680d),DATE,May 05 2010,,19130,Consistency,oil_0
+ObjectId(5dd32399760b2a06b8db680e),DATE,May 08 2010,,18012,Consistency,oil_0
+ObjectId(5dd32399760b2a06b8db680f),DATE,June 09 2010,,2718,Consistency,oil_0
+ObjectId(5dd32399760b2a06b8db6810),DATE,May 27 2010,,9106,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6811),DATE,May 15 2010,,14488,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6812),DATE,May 27 2010,,8819,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6813),DATE,May 12 2010,,16335,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6814),DATE,May 10 2010,,17324,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6815),DATE,May 12 2010,,16052,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6816),DATE,May 05 2010,,19287,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6817),DATE,June 05 2010,,4827,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6818),DATE,June 06 2010,,4135,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6819),DATE,June 01 2010,,6843,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db681a),DATE,May 26 2010,,9317,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db681b),DATE,May 29 2010,,7943,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db681c),DATE,June 10 2010,,1949,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db681d),DATE,June 03 2010,,5555,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db681e),DATE,May 09 2010,,17494,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db681f),DATE,June 10 2010,,2351,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6820),DATE,May 03 2010,,19748,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6821),DATE,May 09 2010,,17757,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6822),DATE,May 25 2010,,9707,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6823),DATE,May 06 2010,,18943,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6824),DATE,May 11 2010,,16398,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6825),DATE,May 25 2010,,9753,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6826),DATE,May 12 2010,,16083,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6827),DATE,June 09 2010,,2502,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6828),DATE,June 06 2010,,4443,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6829),DATE,May 26 2010,,9563,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db682a),DATE,June 03 2010,,5856,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db682b),DATE,June 11 2010,,1803,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db682c),DATE,June 08 2010,,3489,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db682d),DATE,May 10 2010,,17264,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db682e),DATE,June 04 2010,,5167,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db682f),DATE,June 09 2010,,2584,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6830),DATE,May 08 2010,,17817,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6831),DATE,June 01 2010,,6831,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6832),DATE,May 20 2010,,12327,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6833),DATE,June 08 2010,,3546,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6834),DATE,June 12 2010,,1157,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6835),DATE,May 22 2010,,11261,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6836),DATE,June 03 2010,,5934,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6837),DATE,June 02 2010,,6351,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6838),DATE,May 30 2010,,7838,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6839),DATE,June 01 2010,,6725,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db683a),DATE,May 23 2010,,10872,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db683b),DATE,June 04 2010,,5426,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db683c),DATE,16,,14035,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db683d),DATE,May 21 2010,,11734,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db683e),DATE,June 03 2010,,5638,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db683f),DATE,June 11 2010,,1352,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6840),DATE,May 05 2010,,19094,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6841),DATE,May 28 2010,,8469,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6842),DATE,June 02 2010,,6376,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6843),DATE,May 21 2010,,12079,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6844),DATE,June 02 2010,,6327,Consistency,oil_0
+ObjectId(5dd3239a760b2a06b8db6845),DATE,May 26 2010,,9410,Consistency,oil_0
+ObjectId(5dd323ab760b2a2b14b1f0fd),DATE,May 27 2010," 217a 2 2a ",8964,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f0fe),DATE,May 30 2010,0 0000 MMM1,7433,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f0ff),DATE,May 21 2010,1120M0 21yM,11759,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f100),DATE,May 16 2010,211y1 ay 6a,14140,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f101),DATE,May 06 2010,"  1206ay00M",18769,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f102),DATE,May 13 2010,10 Ma0 1y23,15431,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f103),DATE,June 04 2010,e2J10 u 0n40,5350,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f104),DATE,May 06 2010,602Ma6M 060,18825,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f105),DATE,May 08 2010,0a0180000 0,18204,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f106),DATE,May 22 2010," 2a02y0aay0",11372,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f107),DATE,June 06 2010,0n0 u6160uen,4228,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f108),DATE,May 18 2010,2 18  0yy10,13483,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f109),DATE,May 31 2010,20310ay M1 ,7307,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f10a),DATE,May 22 2010,0M2 2M21002,11442,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f10b),DATE,June 09 2010,092u0J2euJ11,2995,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f10c),DATE,May 06 2010,02y60 0M a1,18892,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f10d),DATE,June 04 2010,0nJ0 0   1e4,5092,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f10e),DATE,May 16 2010,6y  M10021a,14141,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f10f),DATE,June 11 2010,1 nJ 10ue021,1679,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f110),DATE,May 22 2010,22M 20a0 1y,11386,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f111),DATE,June 13 2010,ne0 2 1 0J0u,552,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f112),DATE,May 20 2010,1y0ay 1 y20,12254,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f113),DATE,May 15 2010,a12 1M 050y,14496,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f114),DATE,June 02 2010,nnu00J2u1Ju ,6021,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f115),DATE,May 29 2010,22y091  202,7964,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f116),DATE,June 05 2010,2 JJ52en0nn ,4780,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f117),DATE,June 06 2010,0 e n01J0uJ6,4248,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f118),DATE,May 09 2010,20y90 1aM0 ,17781,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f119),DATE,May 06 2010,M0 a21y60 0,18817,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f11a),DATE,June 03 2010,un10 203e0J ,5710,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f11b),DATE,June 12 2010,e202J2JnJJ1e,1302,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f11c),DATE,May 24 2010,a02 0212a0 ,10267,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f11d),DATE,May 11 2010," 021M a1y10",16888,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f11e),DATE,June 04 2010,0 e0n20  e 2,5423,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f11f),DATE,May 31 2010,M3Ma a12  y,7155,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f120),DATE,May 11 2010,111 0112101,16775,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f121),DATE,16,16,14031,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f122),DATE,May 14 2010,M0  4y1a021,14963,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f123),DATE,June 12 2010,1e201 0e 1e1,1235,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f124),DATE,June 06 2010,0 2Jue6001 n,4184,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f125),DATE,May 13 2010,0 1May231 0,15604,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f126),DATE,May 30 2010,00 M2 y30a1,7715,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f127),DATE,May 22 2010," Ma0 20 Ma ",11464,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f128),DATE,May 10 2010,M M01 a00aM,17369,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f129),DATE,May 23 2010,302aMy012  ,11026,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f12a),DATE,May 19 2010,M99y09   yM,12974,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f12b),DATE,May 09 2010,M010  09ay2,17722,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f12c),DATE,May 15 2010,11M y2a005 ,14663,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f12d),DATE,June 04 2010," uJe42 10n00",6313,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f12e),DATE,May 23 2010,322M200M M1,11116,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f12f),DATE,May 17 2010," M1027 2217",13745,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f130),DATE,May 26 2010,12 Ma2 02aM,9295,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f131),DATE,May 25 2010,222y0y0aM21,9764,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f132),DATE,May 22 2010,1 22ya 22M ,11229,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f133),DATE,May 24 2010," 204y0 a1M2",10503,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f134),DATE,June 01 2010,0u1J0 01e0J ,6487,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f135),DATE,May 14 2010,M1y2a0401  ,15084,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f136),DATE,June 01 2010,11J2n0J00e0 ,6631,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f137),DATE,May 31 2010,11 M001MM0a,7304,Validity,oil_0
+ObjectId(5dd323ab760b2a2b14b1f138),DATE,May 19 2010,Ma09 2 y110,12757,Validity,oil_0
+ObjectId(5dd323b0760b2a21b4c49766),MATRIX,Air,,14919,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49767),MATRIX,Air,,17116,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49768),MATRIX,Air,,18158,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49769),MATRIX,Air,,4163,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4976a),MATRIX,Air,,11786,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4976b),MATRIX,Air,,11278,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4976c),MATRIX,Air,,9173,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4976d),MATRIX,Air,,10534,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4976e),MATRIX,Air,,14094,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4976f),MATRIX,Air,,6291,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49770),MATRIX,Air,,11082,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49771),MATRIX,Air,,13851,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49772),MATRIX,Air,,10875,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49773),MATRIX,Air,,5894,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49774),MATRIX,Air,,11667,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49775),MATRIX,Air,,10799,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49776),MATRIX,Air,,15609,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49777),MATRIX,Air,,11087,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49778),MATRIX,Air,,18293,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49779),MATRIX,Air,,17288,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4977a),MATRIX,Air,,3019,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4977b),MATRIX,Air,,4651,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4977c),MATRIX,Air,,2449,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4977d),MATRIX,Air,,15766,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4977e),MATRIX,Air,,6895,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4977f),MATRIX,Air,,2218,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49780),MATRIX,Air,,9451,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49781),MATRIX,Air,,18064,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49782),MATRIX,Air,,19602,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49783),MATRIX,Air,,1194,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49784),MATRIX,Air,,18994,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49785),MATRIX,Air,,18516,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49786),MATRIX,Air,,5717,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49787),MATRIX,Air,,15087,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49788),MATRIX,Air,,15600,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49789),MATRIX,Air,,7253,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4978a),MATRIX,Air,,17246,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4978b),MATRIX,Air,,6699,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4978c),MATRIX,Air,,16034,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4978d),MATRIX,Air,,18021,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4978e),MATRIX,Air,,4668,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4978f),MATRIX,Air,,12995,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49790),MATRIX,Air,,1200,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49791),MATRIX,Air,,546,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49792),MATRIX,Air,,5720,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49793),MATRIX,Air,,4172,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49794),MATRIX,Air,,8851,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49795),MATRIX,Air,,16773,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49796),MATRIX,Air,,6207,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49797),MATRIX,Air,,18857,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49798),MATRIX,Air,,18157,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c49799),MATRIX,Air,,9216,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4979a),MATRIX,Air,,2036,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4979b),MATRIX,Air,,13188,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4979c),MATRIX,Air,,10381,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4979d),MATRIX,Air,,12423,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4979e),MATRIX,Air,,4355,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c4979f),MATRIX,Air,,13229,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c497a0),MATRIX,Air,,13591,Completeness,oil_0
+ObjectId(5dd323b0760b2a21b4c497a1),MATRIX,Air,,10211,Completeness,oil_0
+ObjectId(5dd323b3760b2a2ff8253128),MATRIX,Air,AKr,2969,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253129),MATRIX,Air,%Air,11283,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825312a),MATRIX,Air,Alr,10832,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825312b),MATRIX,Air,Air,10102,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825312c),MATRIX,Air,*ir,13473,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825312d),MATRIX,Air,,3500,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825312e),MATRIX,Air,Ainr,12678,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825312f),MATRIX,Air,irA,17214,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253130),MATRIX,Air,Aic,9885,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253131),MATRIX,Air,Aia,3893,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253132),MATRIX,Air,AiU,7245,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253133),MATRIX,Air,riA,16981,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253134),MATRIX,Air,Ai9,5698,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253135),MATRIX,Air,rAi,5749,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253136),MATRIX,Air,AiS,259,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253137),MATRIX,dfgf,h2s,8717,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253138),MATRIX,Air,APr,10399,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253139),MATRIX,Air,Ai6,4004,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825313a),MATRIX,Air,'ir,15574,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825313b),MATRIX,Air,rAir,16805,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825313c),MATRIX,Air,nir,7419,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825313d),MATRIX,Air,XAir,14728,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825313e),MATRIX,Air,;ir,5980,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825313f),MATRIX,Air,ppm,7671,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253140),MATRIX,Air,June 05 2010,4910,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253141),MATRIX,Air,Aih,16728,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253142),MATRIX,Air,Louisiana,7582,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253143),MATRIX,Air,[Air,10997,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253144),MATRIX,Air,iAr,10747,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253145),MATRIX,Air,Ai?r,6329,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253146),MATRIX,Air,May 12 2010,15928,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253147),MATRIX,Air,iAr,14661,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253148),MATRIX,Air,N/A,9515,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff8253149),MATRIX,Air,xir,4202,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825314a),MATRIX,Air,Ai^,19215,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825314b),MATRIX,Air,VOC,5184,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825314c),MATRIX,Air,Arir,16510,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825314d),MATRIX,Air,irA,11782,Accuracy,oil_0
+ObjectId(5dd323b3760b2a2ff825314e),MATRIX,Air,irA,16953,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff825314f),MATRIX,Air,Air,16380,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253150),MATRIX,Air,A@r,14948,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253151),MATRIX,Air,Aibr,7013,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253152),MATRIX,Air,Aixr,1041,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253153),MATRIX,Air,AXr,19068,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253154),MATRIX,Air,Ajr,12538,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253155),MATRIX,Air,AiRr,2769,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253156),MATRIX,Air,A@r,12337,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253157),MATRIX,Air,N/A,16966,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253158),MATRIX,Air,rAi,10778,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253159),MATRIX,Air,ZAir,17271,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff825315a),MATRIX,Air,iAr,2970,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff825315b),MATRIX,Air,A%r,3863,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff825315c),MATRIX,Air,riA,10292,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff825315d),MATRIX,Air,Aip,6798,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff825315e),MATRIX,Air,iAr,6209,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff825315f),MATRIX,Air,A3ir,18336,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253160),MATRIX,Air,riA,4170,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253161),MATRIX,Air,riA,3246,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253162),MATRIX,Air,Ahir,14469,Accuracy,oil_0
+ObjectId(5dd323b4760b2a2ff8253163),MATRIX,Air,rAi,15139,Accuracy,oil_0
+ObjectId(5dd323ba760b2a06b8db6848),MATRIX,Air,,2041,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6849),MATRIX,Air,,12750,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db684a),MATRIX,Air,,3418,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db684b),MATRIX,Air,,18507,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db684c),MATRIX,Air,,9518,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db684d),MATRIX,Air,,15224,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db684e),MATRIX,Air,,7665,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db684f),MATRIX,Air,,17643,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6850),MATRIX,Air,,15229,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6851),MATRIX,Air,,16963,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6852),MATRIX,Air,,11635,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6853),MATRIX,Air,,18004,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6854),MATRIX,Air,,13130,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6855),MATRIX,Air,,7785,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6856),MATRIX,Air,,4978,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6857),MATRIX,Air,,15817,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6858),MATRIX,Air,,191,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6859),MATRIX,Air,,1152,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db685a),MATRIX,Air,,3038,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db685b),MATRIX,Air,,15482,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db685c),MATRIX,Air,,4214,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db685d),MATRIX,Air,,12855,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db685e),MATRIX,Air,,14355,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db685f),MATRIX,Air,,8078,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6860),MATRIX,Air,,8399,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6861),MATRIX,Air,,14071,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6862),MATRIX,Air,,12892,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6863),MATRIX,Air,,11646,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6864),MATRIX,Air,,18932,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6865),MATRIX,Air,,19127,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6866),MATRIX,Air,,6573,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6867),MATRIX,vcvcbv,,5461,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6868),MATRIX,Air,,11461,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6869),MATRIX,Air,,15312,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db686a),MATRIX,Air,,1337,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db686b),MATRIX,Air,,16342,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db686c),MATRIX,Air,,66,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db686d),MATRIX,Air,,13721,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db686e),MATRIX,Air,,17830,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db686f),MATRIX,Air,,17026,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6870),MATRIX,Air,,13442,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6871),MATRIX,Air,,6002,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6872),MATRIX,Air,,7488,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6873),MATRIX,Air,,1812,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6874),MATRIX,Air,,5699,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6875),MATRIX,Air,,17530,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6876),MATRIX,Air,,17451,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6877),MATRIX,Air,,16520,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6878),MATRIX,Air,,5620,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6879),MATRIX,Air,,17813,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db687a),MATRIX,Air,,5880,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db687b),MATRIX,Air,,11627,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db687c),MATRIX,Air,,11783,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db687d),MATRIX,Air,,3468,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db687e),MATRIX,Air,,19179,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db687f),MATRIX,Air,,6187,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6880),MATRIX,Air,,17539,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6881),MATRIX,Air,,6068,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6882),MATRIX,Air,,5672,Consistency,oil_0
+ObjectId(5dd323ba760b2a06b8db6883),MATRIX,Air,,3388,Consistency,oil_0
+ObjectId(5dd323c0760b2a2b14b1f13b),MATRIX,Air,Air,5162,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f13c),MATRIX,Air,ArA,6321,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f13d),MATRIX,Air,rir,13430,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f13e),MATRIX,Air,irA,13676,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f13f),MATRIX,Air,riA,11743,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f140),MATRIX,Air,rAi,690,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f141),MATRIX,Air,iiA,9801,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f142),MATRIX,Air,rAi,18092,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f143),MATRIX,Air,Aii,7209,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f144),MATRIX,Air,Air,92,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f145),MATRIX,Air,iAr,5273,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f146),MATRIX,Air,Ari,17639,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f147),MATRIX,Air,irA,59,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f148),MATRIX,Air,AAr,6315,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f149),MATRIX,Air,Ari,15338,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f14a),MATRIX,Air,irA,6115,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f14b),MATRIX,Air,iiA,12950,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f14c),MATRIX,Air,riA,11161,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f14d),MATRIX,Air,iri,7461,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f14e),MATRIX,Air,iAA,10197,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f14f),MATRIX,Air,iri,4106,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f150),MATRIX,Air,iAi,7452,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f151),MATRIX,Air,iAi,13740,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f152),MATRIX,Air,ArA,1532,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f153),MATRIX,Air,AAr,14231,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f154),MATRIX,Air,iAi,7837,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f155),MATRIX,Air,Ari,6357,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f156),MATRIX,Air,iri,18085,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f157),MATRIX,Air,Arr,4401,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f158),MATRIX,Air,irA,17145,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f159),MATRIX,Air,Arr,19510,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f15a),MATRIX,Air,AAA,10938,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f15b),MATRIX,Air,iii,6808,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f15c),MATRIX,Air,iAi,19554,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f15d),MATRIX,Air,iAr,13445,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f15e),MATRIX,Air,AAr,7086,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f15f),MATRIX,Air,rrr,16258,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f160),MATRIX,Air,iAi,1544,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f161),MATRIX,Air,riA,17842,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f162),MATRIX,Air,iAr,3110,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f163),MATRIX,Air,riA,2484,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f164),MATRIX,Air,iir,2433,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f165),MATRIX,Air,irA,11813,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f166),MATRIX,Air,Ari,4558,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f167),MATRIX,Air,Arr,9047,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f168),MATRIX,Air,Air,709,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f169),MATRIX,Air,rri,180,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f16a),MATRIX,Air,iAr,14719,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f16b),MATRIX,Air,Air,907,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f16c),MATRIX,Air,irA,13185,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f16d),MATRIX,Air,rAA,18370,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f16e),MATRIX,Air,iir,2144,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f16f),MATRIX,Air,rAi,3312,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f170),MATRIX,Air,Arr,8467,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f171),MATRIX,Air,rrr,10244,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f172),MATRIX,Air,Ari,18531,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f173),MATRIX,Air,Aii,14299,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f174),MATRIX,Air,irA,11999,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f175),MATRIX,Air,iiA,2564,Validity,oil_0
+ObjectId(5dd323c0760b2a2b14b1f176),MATRIX,Air,iAr,12598,Validity,oil_0
+ObjectId(5dd323c5760b2a21b4c497a4),UNIT,ug/m3,,4548,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497a5),UNIT,ppm,,9735,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497a6),UNIT,ppm,,2025,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497a7),UNIT,ppm,,13997,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497a8),UNIT,ppm,,9278,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497a9),UNIT,ppm,,8449,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497aa),UNIT,ug/m3,,11106,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497ab),UNIT,ppm,,16763,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497ac),UNIT,ug/m3,,10536,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497ad),UNIT,ug/m3,,16636,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497ae),UNIT,ppm,,5782,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497af),UNIT,ug/m3,,547,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b0),UNIT,ppm,,168,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b1),UNIT,ppm,,17871,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b2),UNIT,ug/m3,,9412,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b3),UNIT,ppm,,6702,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b4),UNIT,ppm,,4639,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b5),UNIT,ug/m3,,14162,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b6),UNIT,ug/m3,,15730,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b7),UNIT,ppm,,11192,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b8),UNIT,ppm,,9344,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497b9),UNIT,ppm,,17604,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497ba),UNIT,ppm,,2618,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497bb),UNIT,ug/m3,,4072,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497bc),UNIT,ppm,,11454,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497bd),UNIT,ppm,,6410,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497be),UNIT,ppm,,708,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497bf),UNIT,ppm,,4883,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c0),UNIT,ppm,,2905,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c1),UNIT,ppm,,19970,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c2),UNIT,ppm,,18191,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c3),UNIT,ppm,,15756,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c4),UNIT,ug/m3,,14996,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c5),UNIT,ppm,,6412,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c6),UNIT,ppm,,430,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c7),UNIT,ppm,,6709,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c8),UNIT,ppm,,8966,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497c9),UNIT,ppm,,19115,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497ca),UNIT,ppm,,16556,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497cb),UNIT,ppm,,15575,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497cc),UNIT,ppm,,13876,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497cd),UNIT,ppm,,10419,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497ce),UNIT,ppm,,14090,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497cf),UNIT,ppm,,14003,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d0),UNIT,ug/m3,,11913,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d1),UNIT,ppm,,3408,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d2),UNIT,ppm,,4802,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d3),UNIT,ug/m3,,495,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d4),UNIT,ug/m3,,8388,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d5),UNIT,ug/m3,,18501,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d6),UNIT,ug/m3,,13858,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d7),UNIT,ug/m3,,13029,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d8),UNIT,ug/m3,,1327,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497d9),UNIT,ug/m3,,9373,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497da),UNIT,ug/m3,,7611,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497db),UNIT,ug/m3,,11370,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497dc),UNIT,ug/m3,,17612,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497dd),UNIT,ppm,,19377,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497de),UNIT,ppm,,16027,Completeness,oil_0
+ObjectId(5dd323c5760b2a21b4c497df),UNIT,ppm,,3675,Completeness,oil_0
+ObjectId(5dd323cc760b2a2ff8253166),UNIT,ug/m3,gug/m3,16848,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253167),UNIT,ppm,pmp,7012,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253168),UNIT,ppm,Air,6085,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253169),UNIT,ppm,pmp,14506,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825316a),UNIT,ppm,N/A,4676,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825316b),UNIT,ppm,6pm,6050,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825316c),UNIT,ug/m3,3/gum,6841,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825316d),UNIT,ppm,ppm,14650,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825316e),UNIT,ug/m3,3gu/m,7054,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825316f),UNIT,ug/m3,ug/c3,1735,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253170),UNIT,ppm,dpm,18389,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253171),UNIT,ppm,$ppm,10596,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253172),UNIT,ppm,Louisiana,17717,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253173),UNIT,ug/m3,ug8/m3,11256,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253174),UNIT,ppm,1-Hour Avg,11441,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253175),UNIT,ppm,,5484,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253176),UNIT,ug/m3,ug/7m3,15061,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253177),UNIT,ppm,ppD,13485,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253178),UNIT,ug/m3,N/A,18211,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253179),UNIT,ug/m3,ugGm?,6769,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825317a),UNIT,ppm,pZpm,1839,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825317b),UNIT,ug/m3,ug/mu3,402,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825317c),UNIT,ppm,pjm,14568,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825317d),UNIT,ppm,ppA,4117,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825317e),UNIT,ppm,pprm,8836,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff825317f),UNIT,ppm,Mississippi,3767,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253180),UNIT,ppm,p2pm,7317,Accuracy,oil_0
+ObjectId(5dd323cc760b2a2ff8253181),UNIT,ppm,,4213,Accuracy,oil_0
+ObjectId(5dd323d0760b2a06b8db6886),UNIT,ppm,,17519,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6887),UNIT,ppm,,17004,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6888),UNIT,ppm,,19738,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6889),UNIT,ppm,,15850,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db688a),UNIT,ppm,,14710,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db688b),UNIT,ppm,,14582,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db688c),UNIT,ppm,,11733,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db688d),UNIT,ug/m3,,11491,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db688e),UNIT,ppm,,18711,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db688f),UNIT,ppm,,16826,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6890),UNIT,ppm,,6153,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6891),UNIT,ppm,,17529,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6892),UNIT,ppm,,12725,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6893),UNIT,ppm,,5123,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6894),UNIT,ppm,,10327,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6895),UNIT,ug/m3,,18382,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6896),UNIT,ppm,,7127,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6897),UNIT,ppm,,4684,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6898),UNIT,ppm,,19042,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db6899),UNIT,ppm,,612,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db689a),UNIT,ug/m3,,2855,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db689b),UNIT,ug/m3,,16825,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db689c),UNIT,ppm,,6982,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db689d),UNIT,ppm,,14938,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db689e),UNIT,ppm,,12192,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db689f),UNIT,ppm,,10612,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a0),UNIT,ppm,,6479,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a1),UNIT,ug/m3,,5944,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a2),UNIT,ppm,,5607,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a3),UNIT,ppm,,18981,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a4),UNIT,ppm,,14250,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a5),UNIT,ppm,,1439,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a6),UNIT,ug/m3,,3356,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a7),UNIT,ppm,,8212,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a8),UNIT,ppm,,18680,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68a9),UNIT,ppm,,12878,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68aa),UNIT,ppm,,10488,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68ab),UNIT,ppm,,5689,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68ac),UNIT,ug/m3,,11548,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68ad),UNIT,ppm,,7585,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68ae),UNIT,ug/m3,,15015,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68af),UNIT,ppm,,12915,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b0),UNIT,ug/m3,,4240,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b1),UNIT,ug/m3,,1267,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b2),UNIT,ppm,,1118,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b3),UNIT,ug/m3,,7940,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b4),UNIT,ug/m3,,6271,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b5),UNIT,ppm,,9411,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b6),UNIT,ppm,,10076,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b7),UNIT,ppm,,17016,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b8),UNIT,ug/m3,,12136,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68b9),UNIT,ug/m3,,14021,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68ba),UNIT,ppm,,3673,Consistency,oil_0
+ObjectId(5dd323d0760b2a06b8db68bb),UNIT,ug/m3,,10616,Consistency,oil_0
+ObjectId(5dd323d1760b2a06b8db68bc),UNIT,ug/m3,,9307,Consistency,oil_0
+ObjectId(5dd323d1760b2a06b8db68bd),UNIT,ppm,,16712,Consistency,oil_0
+ObjectId(5dd323d1760b2a06b8db68be),UNIT,ppm,,8934,Consistency,oil_0
+ObjectId(5dd323d1760b2a06b8db68bf),UNIT,ug/m3,,15845,Consistency,oil_0
+ObjectId(5dd323d1760b2a06b8db68c0),UNIT,ug/m3,,12184,Consistency,oil_0
+ObjectId(5dd323d1760b2a06b8db68c1),UNIT,ug/m3,,3796,Consistency,oil_0
+ObjectId(5dd323d7760b2a2b14b1f179),UNIT,ug/m3,ug3/u,8283,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f17a),UNIT,ug/m3,33mu/,2417,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f17b),UNIT,ppm,pmp,3615,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f17c),UNIT,ppm,pmm,8786,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f17d),UNIT,ppm,ppp,9033,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f17e),UNIT,ppm,mpp,19455,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f17f),UNIT,ppm,mmp,18846,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f180),UNIT,ppm,mpp,2124,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f181),UNIT,ppm,mpp,12295,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f182),UNIT,ppm,ppm,13678,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f183),UNIT,ppm,pmp,11953,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f184),UNIT,ug/m3,g/u33,15145,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f185),UNIT,ug/m3,g33gg,1851,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f186),UNIT,ppm,pmp,9131,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f187),UNIT,ppm,ppm,7664,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f188),UNIT,ppm,ppm,5046,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f189),UNIT,ug/m3,ugguu,11190,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f18a),UNIT,ug/m3,/g/g/,8567,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f18b),UNIT,ppm,pmp,8364,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f18c),UNIT,ug/m3,3gu/m,12251,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f18d),UNIT,ppm,ppm,1887,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f18e),UNIT,ug/m3,umm//,8387,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f18f),UNIT,ppm,ppm,11225,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f190),UNIT,ug/m3,gggug,4717,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f191),UNIT,ppm,ppp,16895,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f192),UNIT,ug/m3,uguu3,13164,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f193),UNIT,ppm,ppm,16722,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f194),UNIT,ppm,ppp,8211,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f195),UNIT,ug/m3,ug3/m,12135,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f196),UNIT,ppm,mpp,13942,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f197),UNIT,ppm,pmm,19714,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f198),UNIT,ug/m3,um/mg,10737,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f199),UNIT,ug/m3,mg3/m,3277,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f19a),UNIT,ug/m3,33/m3,2978,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f19b),UNIT,ppm,mpp,14350,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f19c),UNIT,ppm,ppp,16089,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f19d),UNIT,ug/m3,mg/m3,1897,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f19e),UNIT,ppm,ppp,9860,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f19f),UNIT,ppm,ppm,2722,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a0),UNIT,ug/m3,g/3ug,14518,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a1),UNIT,ug/m3,m//3/,14734,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a2),UNIT,ug/m3,/3mug,13927,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a3),UNIT,ug/m3,/m3gu,9514,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a4),UNIT,ppm,mpp,9479,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a5),UNIT,ppm,mpp,14321,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a6),UNIT,ppm,pmp,13955,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a7),UNIT,ppm,ppp,2383,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a8),UNIT,ppm,mpp,8309,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1a9),UNIT,ug/m3,ggmum,19865,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1aa),UNIT,ug/m3,333//,556,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1ab),UNIT,ppm,pmp,2246,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1ac),UNIT,ppm,mmm,2794,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1ad),UNIT,ug/m3,umm3m,6378,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1ae),UNIT,ug/m3,umu//,19845,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1af),UNIT,ppm,ppp,5243,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1b0),UNIT,ug/m3,/g//m,10018,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1b1),UNIT,ppm,pmp,5267,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1b2),UNIT,ug/m3,gm3gm,12951,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1b3),UNIT,ug/m3,/mgu3,2461,Validity,oil_0
+ObjectId(5dd323d7760b2a2b14b1f1b4),UNIT,ug/m3,mggg3,5695,Validity,oil_0
+ObjectId(5dd323df760b2a21b4c497e2),STATE,Alabama,,16946,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497e3),STATE,,,7917,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497e4),STATE,Louisiana,,6924,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497e5),STATE,Louisiana,,8743,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497e6),STATE,Louisiana,,8229,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497e7),STATE,Louisiana,,11770,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497e8),STATE,Louisiana,,12541,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497e9),STATE,Louisiana,,12023,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497ea),STATE,,,8223,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497eb),STATE,Louisiana,,16573,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497ec),STATE,Louisiana,,15784,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497ed),STATE,Louisiana,,16839,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497ee),STATE,Louisiana,,9586,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497ef),STATE,Louisiana,,1156,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f0),STATE,Mississippi,,12814,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f1),STATE,Mississippi,,7575,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f2),STATE,Louisiana,,8162,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f3),STATE,,,12617,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f4),STATE,,,2729,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f5),STATE,Louisiana,,14953,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f6),STATE,Louisiana,,8969,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f7),STATE,Louisiana,,18992,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f8),STATE,,,4771,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497f9),STATE,Louisiana,,9676,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497fa),STATE,Louisiana,,4641,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497fb),STATE,Louisiana,,1255,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497fc),STATE,,,17316,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497fd),STATE,Louisiana,,10097,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497fe),STATE,Louisiana,,14082,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c497ff),STATE,Louisiana,,14240,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49800),STATE,Louisiana,,13431,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49801),STATE,Louisiana,,3535,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49802),STATE,Louisiana,,43,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49803),STATE,Alabama,,5613,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49804),STATE,,,5611,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49805),STATE,Louisiana,,19553,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49806),STATE,Louisiana,,3243,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49807),STATE,Florida,,13689,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49808),STATE,Mississippi,,16723,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49809),STATE,Louisiana,,9455,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4980a),STATE,Louisiana,,16312,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4980b),STATE,mumbai,,1225,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4980c),STATE,Louisiana,,14490,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4980d),STATE,Louisiana,,1920,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4980e),STATE,Louisiana,,6017,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4980f),STATE,,,16748,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49810),STATE,Florida,,3837,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49811),STATE,Mississippi,,3745,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49812),STATE,Louisiana,,19957,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49813),STATE,Louisiana,,11015,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49814),STATE,Alabama,,18319,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49815),STATE,Mississippi,,15904,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49816),STATE,Louisiana,,14382,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49817),STATE,,,9581,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49818),STATE,Louisiana,,4182,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c49819),STATE,Louisiana,,14797,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4981a),STATE,frankfurt,,19491,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4981b),STATE,Louisiana,,17945,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4981c),STATE,frankfurt,,19363,Completeness,oil_0
+ObjectId(5dd323df760b2a21b4c4981d),STATE,Louisiana,,16452,Completeness,oil_0
+ObjectId(5dd323e2760b2a06b8db68c4),STATE,Louisiana,,17797,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68c5),STATE,Florida,,4384,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68c6),STATE,Louisiana,,1793,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68c7),STATE,Louisiana,,4532,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68c8),STATE,Alabama,,6141,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68c9),STATE,Louisiana,,2897,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68ca),STATE,Louisiana,,1300,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68cb),STATE,Louisiana,,11848,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68cc),STATE,Louisiana,,11973,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68cd),STATE,Louisiana,,14494,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68ce),STATE,Louisiana,,735,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68cf),STATE,Louisiana,,4501,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d0),STATE,Louisiana,,14111,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d1),STATE,Louisiana,,5898,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d2),STATE,Mississippi,,6092,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d3),STATE,Louisiana,,12507,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d4),STATE,Mississippi,,3889,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d5),STATE,Louisiana,,9087,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d6),STATE,Louisiana,,831,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d7),STATE,Louisiana,,6504,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d8),STATE,Louisiana,,4,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68d9),STATE,Louisiana,,18274,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68da),STATE,Louisiana,,4504,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68db),STATE,Louisiana,,18275,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68dc),STATE,Louisiana,,595,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68dd),STATE,Alabama,,5709,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68de),STATE,Louisiana,,1494,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68df),STATE,Louisiana,,139,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e0),STATE,Louisiana,,6623,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e1),STATE,Louisiana,,19110,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e2),STATE,Mississippi,,17902,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e3),STATE,Louisiana,,11200,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e4),STATE,Florida,,5624,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e5),STATE,Mississippi,,10773,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e6),STATE,Alabama,,18565,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e7),STATE,Louisiana,,4035,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e8),STATE,Louisiana,,16369,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68e9),STATE,Louisiana,,10098,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68ea),STATE,Louisiana,,1741,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68eb),STATE,Louisiana,,17269,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68ec),STATE,Louisiana,,613,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68ed),STATE,Louisiana,,10042,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68ee),STATE,Louisiana,,15744,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68ef),STATE,Alabama,,344,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68f0),STATE,Louisiana,,19770,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68f1),STATE,Louisiana,,7016,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68f2),STATE,Louisiana,,9508,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68f3),STATE,Louisiana,,10617,Consistency,oil_0
+ObjectId(5dd323e2760b2a06b8db68f4),STATE,Louisiana,,8592,Consistency,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1b7),STATE,Mississippi,sssisiMpiip,16145,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1b8),STATE,Louisiana,iosaLuain,11279,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1b9),STATE,Louisiana,naiiaianu,7995,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1ba),STATE,Louisiana,aoiiasaon,3680,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1bb),STATE,,,16292,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1bc),STATE,Louisiana,osuoaoaso,4136,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1bd),STATE,Louisiana,sLoiionLa,2892,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1be),STATE,Louisiana,sisiaanaa,14328,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1bf),STATE,Louisiana,uiouounsn,4472,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c0),STATE,Louisiana,iuaioanLs,8700,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c1),STATE,,,5191,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c2),STATE,Louisiana,niuiasLoa,18429,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c3),STATE,Louisiana,aoiinuasi,15023,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c4),STATE,Louisiana,inioaaaii,9814,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c5),STATE,Alabama,aAblama,10835,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c6),STATE,Louisiana,LuisssnoL,15927,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c7),STATE,Louisiana,ioasiisii,17009,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c8),STATE,,,7061,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1c9),STATE,Louisiana,iuaaiaoua,13883,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1ca),STATE,Louisiana,naassoios,16238,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1cb),STATE,,,12771,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1cc),STATE,,,7029,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1cd),STATE,Louisiana,iooansoao,8621,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1ce),STATE,Louisiana,uLsiLLuau,1709,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1cf),STATE,,,7522,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d0),STATE,Louisiana,insoaiLsi,18798,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d1),STATE,Alabama,amAaamm,2128,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d2),STATE,Louisiana,iinininoa,8195,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d3),STATE,Louisiana,asinanuas,1786,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d4),STATE,Louisiana,iaLiniusn,2089,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d5),STATE,,,10817,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d6),STATE,Louisiana,nsaaLuiio,14981,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d7),STATE,Louisiana,aLaionsui,5459,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d8),STATE,Louisiana,aiLsouian,2836,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1d9),STATE,Louisiana,aiaLoiiaa,4009,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1da),STATE,,,3579,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1db),STATE,Louisiana,aiiiianas,455,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1dc),STATE,Louisiana,naiaiLosu,3970,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1dd),STATE,Louisiana,naoLsiuai,1959,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1de),STATE,Louisiana,aisuoLina,5432,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1df),STATE,Louisiana,iLsanouia,8447,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e0),STATE,Louisiana,nnaoiiLoa,1641,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e1),STATE,Louisiana,noisuiLaa,15541,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e2),STATE,Louisiana,usaiioaLn,11060,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e3),STATE,Mississippi,psisipissMi,17512,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e4),STATE,Louisiana,iaoniasuL,11816,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e5),STATE,Louisiana,LLuonsuuo,12636,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e6),STATE,Mississippi,iMspssiispi,16555,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e7),STATE,Louisiana,nauLinuLa,7877,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e8),STATE,Louisiana,nosiiasua,8157,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1e9),STATE,Louisiana,iiLauunnn,8693,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1ea),STATE,,,17980,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1eb),STATE,Louisiana,osiuuLiio,12608,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1ec),STATE,Florida,oldraiF,9397,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1ed),STATE,Louisiana,aoaLuiisn,18276,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1ee),STATE,Louisiana,sniuuiiLn,1915,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1ef),STATE,Louisiana,aouaaLiai,5179,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1f0),STATE,Mississippi,iMssisiispp,8518,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1f1),STATE,Louisiana,aaaoiisna,13957,Validity,oil_0
+ObjectId(5dd323e6760b2a2b14b1f1f2),STATE,Louisiana,aaLsuoaua,7925,Validity,oil_0
+ObjectId(5dd323ed760b2a21b4c49820),CAS NUMBER,N/A,,9931,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49821),CAS NUMBER,N/A,,7032,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49822),CAS NUMBER,N/A,,2443,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49823),CAS NUMBER,N/A,,7282,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49824),CAS NUMBER,N/A,,9426,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49825),CAS NUMBER,N/A,,2586,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49826),CAS NUMBER,N/A,,14717,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49827),CAS NUMBER,N/A,,18161,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49828),CAS NUMBER,N/A,,11819,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49829),CAS NUMBER,N/A,,19913,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4982a),CAS NUMBER,N/A,,9592,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4982b),CAS NUMBER,N/A,,6716,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4982c),CAS NUMBER,NA,,2909,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4982d),CAS NUMBER,N/A,,1572,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4982e),CAS NUMBER,N/A,,12705,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4982f),CAS NUMBER,N/A,,1169,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49830),CAS NUMBER,N/A,,5091,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49831),CAS NUMBER,N/A,,17121,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49832),CAS NUMBER,N/A,,16186,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49833),CAS NUMBER,N/A,,18931,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49834),CAS NUMBER,N/A,,6480,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49835),CAS NUMBER,N/A,,1591,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49836),CAS NUMBER,N/A,,2987,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49837),CAS NUMBER,N/A,,3599,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49838),CAS NUMBER,N/A,,4421,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49839),CAS NUMBER,N/A,,9360,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4983a),CAS NUMBER,N/A,,8144,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4983b),CAS NUMBER,N/A,,4339,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4983c),CAS NUMBER,N/A,,8358,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4983d),CAS NUMBER,N/A,,1873,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4983e),CAS NUMBER,N/A,,6674,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c4983f),CAS NUMBER,N/A,,18916,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49840),CAS NUMBER,N/A,,15171,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49841),CAS NUMBER,N/A,,2883,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49842),CAS NUMBER,N/A,,395,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49843),CAS NUMBER,N/A,,10868,Completeness,oil_0
+ObjectId(5dd323ed760b2a21b4c49844),CAS NUMBER,N/A,,16835,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49845),CAS NUMBER,N/A,,19530,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49846),CAS NUMBER,N/A,,19897,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49847),CAS NUMBER,N/A,,17569,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49848),CAS NUMBER,N/A,,1070,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49849),CAS NUMBER,N/A,,4872,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c4984a),CAS NUMBER,N/A,,17578,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c4984b),CAS NUMBER,N/A,,9717,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c4984c),CAS NUMBER,N/A,,19640,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c4984d),CAS NUMBER,N/A,,11968,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c4984e),CAS NUMBER,N/A,,5667,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c4984f),CAS NUMBER,N/A,,2535,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49850),CAS NUMBER,N/A,,12670,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49851),CAS NUMBER,N/A,,19992,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49852),CAS NUMBER,N/A,,8598,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49853),CAS NUMBER,N/A,,17464,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49854),CAS NUMBER,N/A,,15949,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49855),CAS NUMBER,N/A,,8859,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49856),CAS NUMBER,N/A,,2424,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49857),CAS NUMBER,N/A,,6112,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49858),CAS NUMBER,N/A,,1582,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c49859),CAS NUMBER,N/A,,9371,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c4985a),CAS NUMBER,N/A,,7145,Completeness,oil_0
+ObjectId(5dd323ee760b2a21b4c4985b),CAS NUMBER,N/A,,3463,Completeness,oil_0
+ObjectId(5dd323f1760b2a06b8db68f7),CAS NUMBER,N/A,,15385,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db68f8),CAS NUMBER,N/A,,6985,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db68f9),CAS NUMBER,N/A,,13560,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db68fa),CAS NUMBER,N/A,,14861,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db68fb),CAS NUMBER,N/A,,12595,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db68fc),CAS NUMBER,N/A,,16683,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db68fd),CAS NUMBER,N/A,,3910,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db68fe),CAS NUMBER,N/A,,1605,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db68ff),CAS NUMBER,N/A,,187,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6900),CAS NUMBER,N/A,,8933,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6901),CAS NUMBER,N/A,,13737,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6902),CAS NUMBER,N/A,,4609,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6903),CAS NUMBER,N/A,,2256,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6904),CAS NUMBER,N/A,,9950,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6905),CAS NUMBER,N/A,,14570,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6906),CAS NUMBER,N/A,,12698,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6907),CAS NUMBER,N/A,,7576,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6908),CAS NUMBER,N/A,,6091,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6909),CAS NUMBER,N/A,,486,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db690a),CAS NUMBER,N/A,,18348,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db690b),CAS NUMBER,N/A,,18446,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db690c),CAS NUMBER,N/A,,19291,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db690d),CAS NUMBER,N/A,,6175,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db690e),CAS NUMBER,N/A,,19879,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db690f),CAS NUMBER,N/A,,4646,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6910),CAS NUMBER,N/A,,13739,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6911),CAS NUMBER,N/A,,8434,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6912),CAS NUMBER,N/A,,19005,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6913),CAS NUMBER,N/A,,13076,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6914),CAS NUMBER,N/A,,1475,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6915),CAS NUMBER,N/A,,10934,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6916),CAS NUMBER,N/A,,692,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6917),CAS NUMBER,N/A,,7955,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6918),CAS NUMBER,N/A,,728,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6919),CAS NUMBER,N/A,,4891,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db691a),CAS NUMBER,N/A,,835,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db691b),CAS NUMBER,N/A,,6498,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db691c),CAS NUMBER,N/A,,7674,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db691d),CAS NUMBER,N/A,,7904,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db691e),CAS NUMBER,N/A,,6807,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db691f),CAS NUMBER,N/A,,5623,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6920),CAS NUMBER,N/A,,14065,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6921),CAS NUMBER,N/A,,15309,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6922),CAS NUMBER,N/A,,8515,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6923),CAS NUMBER,NA,,2914,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6924),CAS NUMBER,N/A,,7907,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6925),CAS NUMBER,N/A,,9465,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6926),CAS NUMBER,N/A,,18222,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6927),CAS NUMBER,N/A,,13959,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6928),CAS NUMBER,N/A,,5777,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6929),CAS NUMBER,N/A,,343,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db692a),CAS NUMBER,N/A,,2177,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db692b),CAS NUMBER,NA,,13418,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db692c),CAS NUMBER,N/A,,9579,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db692d),CAS NUMBER,N/A,,10834,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db692e),CAS NUMBER,N/A,,12042,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db692f),CAS NUMBER,N/A,,1119,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6930),CAS NUMBER,N/A,,7068,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6931),CAS NUMBER,N/A,,5274,Consistency,oil_0
+ObjectId(5dd323f1760b2a06b8db6932),CAS NUMBER,N/A,,14942,Consistency,oil_0
+ObjectId(5dd323f8760b2a21b4c4985e),SUBSTANCE,H2S,,17594,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4985f),SUBSTANCE,H2S,,1934,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49860),SUBSTANCE,VOC,,16197,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49861),SUBSTANCE,H2S,,17996,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49862),SUBSTANCE,H2S,,6249,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49863),SUBSTANCE,VOC,,18301,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49864),SUBSTANCE,PM10,,1530,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49865),SUBSTANCE,PM10,,3759,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49866),SUBSTANCE,PM10,,1501,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49867),SUBSTANCE,H2S,,18335,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49868),SUBSTANCE,H2S,,10465,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49869),SUBSTANCE,PM10,,585,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4986a),SUBSTANCE,PM10,,1764,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4986b),SUBSTANCE,VOC,,16899,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4986c),SUBSTANCE,H2S,,11197,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4986d),SUBSTANCE,VOC,,10477,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4986e),SUBSTANCE,VOC,,18408,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4986f),SUBSTANCE,VOC,,4858,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49870),SUBSTANCE,VOC,,15381,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49871),SUBSTANCE,H2S,,6387,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49872),SUBSTANCE,VOC,,12372,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49873),SUBSTANCE,PM10,,8111,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49874),SUBSTANCE,H2S,,8277,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49875),SUBSTANCE,VOC,,17366,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49876),SUBSTANCE,VOC,,19402,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49877),SUBSTANCE,VOC,,1944,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49878),SUBSTANCE,PM10,,5392,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49879),SUBSTANCE,PM10,,6011,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4987a),SUBSTANCE,VOC,,7783,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4987b),SUBSTANCE,PM10,,1229,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4987c),SUBSTANCE,PM10,,15081,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4987d),SUBSTANCE,VOC,,12763,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4987e),SUBSTANCE,H2S,,2529,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4987f),SUBSTANCE,VOC,,13397,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49880),SUBSTANCE,VOC,,12217,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49881),SUBSTANCE,H2S,,12685,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49882),SUBSTANCE,VOC,,7800,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49883),SUBSTANCE,PM10,,3191,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49884),SUBSTANCE,H2S,,7466,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49885),SUBSTANCE,H2S,,17847,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49886),SUBSTANCE,VOC,,10481,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49887),SUBSTANCE,VOC,,2023,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49888),SUBSTANCE,H2S,,8160,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49889),SUBSTANCE,VOC,,7988,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4988a),SUBSTANCE,PM10,,2601,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4988b),SUBSTANCE,PM10,,10176,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4988c),SUBSTANCE,PM10,,1712,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4988d),SUBSTANCE,PM10,,15212,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4988e),SUBSTANCE,PM10,,9249,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c4988f),SUBSTANCE,PM10,,5559,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49890),SUBSTANCE,PM10,,1672,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49891),SUBSTANCE,PM10,,4979,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49892),SUBSTANCE,VOC,,7537,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49893),SUBSTANCE,PM10,,12641,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49894),SUBSTANCE,H2S,,5945,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49895),SUBSTANCE,VOC,,19825,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49896),SUBSTANCE,PM10,,2518,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49897),SUBSTANCE,VOC,,16793,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49898),SUBSTANCE,VOC,,17584,Completeness,oil_0
+ObjectId(5dd323f8760b2a21b4c49899),SUBSTANCE,VOC,,1451,Completeness,oil_0
+ObjectId(5dd323ff760b2a2ff8253184),SUBSTANCE,VOC,VO*,15528,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253185),SUBSTANCE,H2S,eH2S,15007,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253186),SUBSTANCE,H2S,Louisiana,5073,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253187),SUBSTANCE,H2S,SH2,12434,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253188),SUBSTANCE,VOC,June 04 2010,5083,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253189),SUBSTANCE,VOC,,18252,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825318a),SUBSTANCE,PM10,0M1P,3207,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825318b),SUBSTANCE,VOC,VjC,19610,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825318c),SUBSTANCE,PM10,YPM10,3126,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825318d),SUBSTANCE,VOC,VOB,10776,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825318e),SUBSTANCE,H2S,rH2S,11891,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825318f),SUBSTANCE,PM10,TB10,2027,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253190),SUBSTANCE,PM10,4M10,18165,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253191),SUBSTANCE,VOC,VO4C,19999,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253192),SUBSTANCE,VOC,1-Hour Avg,16202,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253193),SUBSTANCE,VOC,OVC,16894,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253194),SUBSTANCE,PM10,Prh0,7825,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253195),SUBSTANCE,VOC,VCO,12466,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253196),SUBSTANCE,VOC,AreaRae,19487,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253197),SUBSTANCE,H2S,H2mS,7018,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253198),SUBSTANCE,VOC,VQC,2916,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff8253199),SUBSTANCE,PM10,M1P0,18519,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825319a),SUBSTANCE,PM10,PMs0,5628,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825319b),SUBSTANCE,H2S,H+S,883,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825319c),SUBSTANCE,H2S,HoS,9520,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825319d),SUBSTANCE,PM10,Air,14423,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825319e),SUBSTANCE,PM10,Pb10,11687,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff825319f),SUBSTANCE,PM10,10PM,11050,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a0),SUBSTANCE,VOC,OCV,3169,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a1),SUBSTANCE,VOC,VOs,19364,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a2),SUBSTANCE,PM10,MP01,10751,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a3),SUBSTANCE,VOC,V%C,7757,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a4),SUBSTANCE,VOC,Air,10344,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a5),SUBSTANCE,VOC,/OC,14657,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a6),SUBSTANCE,VOC,NOC,16664,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a7),SUBSTANCE,VOC,VFC,4371,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a8),SUBSTANCE,PM10,PM1L0,18193,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531a9),SUBSTANCE,VOC,May 25 2010,9806,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531aa),SUBSTANCE,PM10,PM1Q,1537,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531ab),SUBSTANCE,H2S,ppm,19777,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531ac),SUBSTANCE,H2S,ppm,5479,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531ad),SUBSTANCE,PM10,PM1g,13717,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531ae),SUBSTANCE,PM10,24.8,4946,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531af),SUBSTANCE,VOC,VCO,3009,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b0),SUBSTANCE,VOC,VOC,9905,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b1),SUBSTANCE,H2S,qH2S,3871,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b2),SUBSTANCE,PM10,PMZ0,17323,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b3),SUBSTANCE,VOC,CVO,10230,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b4),SUBSTANCE,VOC,V]C,5954,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b5),SUBSTANCE,H2S,HS2,8505,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b6),SUBSTANCE,PM10,1  Avg,1718,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b7),SUBSTANCE,VOC,V1C,96,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b8),SUBSTANCE,H2S,N/A,10489,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531b9),SUBSTANCE,H2S,H22S,10836,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531ba),SUBSTANCE,VOC,hOC,19728,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531bb),SUBSTANCE,PM10,PMe0,11234,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531bc),SUBSTANCE,PM10,ug/m3,14765,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531bd),SUBSTANCE,VOC,VO9,12040,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531be),SUBSTANCE,VOC,N/A,12072,Accuracy,oil_0
+ObjectId(5dd323ff760b2a2ff82531bf),SUBSTANCE,VOC,V{OC,8565,Accuracy,oil_0
+ObjectId(5dd32402760b2a06b8db6935),SUBSTANCE,VOC,,83,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6936),SUBSTANCE,VOC,,13508,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6937),SUBSTANCE,VOC,,16331,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6938),SUBSTANCE,PM10,,6778,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6939),SUBSTANCE,PM10,,7178,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db693a),SUBSTANCE,voc,,6863,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db693b),SUBSTANCE,VOC,,11738,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db693c),SUBSTANCE,VOC,,5389,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db693d),SUBSTANCE,PM10,,3734,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db693e),SUBSTANCE,H2S,,15729,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db693f),SUBSTANCE,VOC,,10545,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6940),SUBSTANCE,VOC,,12351,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6941),SUBSTANCE,VOC,,19252,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6942),SUBSTANCE,PM10,,5008,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6943),SUBSTANCE,H2S,,17732,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6944),SUBSTANCE,PM10,,10625,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6945),SUBSTANCE,PM10,,17025,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6946),SUBSTANCE,H2S,,8154,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6947),SUBSTANCE,H2S,,13193,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6948),SUBSTANCE,H2S,,7843,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6949),SUBSTANCE,H2S,,11716,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db694a),SUBSTANCE,VOC,,4621,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db694b),SUBSTANCE,PM10,,6078,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db694c),SUBSTANCE,VOC,,5504,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db694d),SUBSTANCE,VOC,,4689,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db694e),SUBSTANCE,PM10,,6399,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db694f),SUBSTANCE,PM10,,10886,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6950),SUBSTANCE,PM10,,18006,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6951),SUBSTANCE,VOC,,11101,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6952),SUBSTANCE,H2S,,6672,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6953),SUBSTANCE,VOC,,15434,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6954),SUBSTANCE,PM10,,19345,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6955),SUBSTANCE,VOC,,18964,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6956),SUBSTANCE,VOC,,9850,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6957),SUBSTANCE,VOC,,9853,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6958),SUBSTANCE,PM10,,8663,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6959),SUBSTANCE,VOC,,19187,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db695a),SUBSTANCE,VOC,,11418,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db695b),SUBSTANCE,PM10,,1245,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db695c),SUBSTANCE,VOC,,1140,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db695d),SUBSTANCE,H2S,,11838,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db695e),SUBSTANCE,VOC,,8166,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db695f),SUBSTANCE,H2S,,10003,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6960),SUBSTANCE,PM10,,5112,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6961),SUBSTANCE,PM10,,5435,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6962),SUBSTANCE,VOC,,17990,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6963),SUBSTANCE,VOC,,1399,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6964),SUBSTANCE,VOC,,1333,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6965),SUBSTANCE,VOC,,18505,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6966),SUBSTANCE,H2S,,7427,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6967),SUBSTANCE,VOC,,5473,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6968),SUBSTANCE,VOC,,11584,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6969),SUBSTANCE,H2S,,18683,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db696a),SUBSTANCE,PM10,,7763,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db696b),SUBSTANCE,PM10,,13369,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db696c),SUBSTANCE,VOC,,14189,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db696d),SUBSTANCE,H2S,,12108,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db696e),SUBSTANCE,VOC,,15422,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db696f),SUBSTANCE,H2S,,4514,Consistency,oil_0
+ObjectId(5dd32402760b2a06b8db6970),SUBSTANCE,PM10,,4056,Consistency,oil_0
+ObjectId(5dd32406760b2a2b14b1f1f5),SUBSTANCE,VOC,VOC,5258,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1f6),SUBSTANCE,PM10,MPMM,14476,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1f7),SUBSTANCE,VOC,VOO,16802,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1f8),SUBSTANCE,VOC,VCO,522,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1f9),SUBSTANCE,PM10,M01P,994,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1fa),SUBSTANCE,VOC,VOV,2992,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1fb),SUBSTANCE,PM10,1P0M,5565,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1fc),SUBSTANCE,PM10,11P0,5939,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1fd),SUBSTANCE,PM10,1MP0,8741,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1fe),SUBSTANCE,PM10,10M0,3080,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f1ff),SUBSTANCE,PM10,1M0P,9632,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f200),SUBSTANCE,PM10,0P1M,14420,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f201),SUBSTANCE,VOC,OVO,11260,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f202),SUBSTANCE,PM10,1000,16715,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f203),SUBSTANCE,H2S,2HS,7042,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f204),SUBSTANCE,PM10,M10P,170,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f205),SUBSTANCE,H2S,H2H,8760,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f206),SUBSTANCE,PM10,0PM1,6948,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f207),SUBSTANCE,H2S,2SH,3405,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f208),SUBSTANCE,VOC,COO,15801,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f209),SUBSTANCE,VOC,VCO,13201,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f20a),SUBSTANCE,VOC,VOC,12257,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f20b),SUBSTANCE,VOC,VVO,17953,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f20c),SUBSTANCE,PM10,01PP,4457,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f20d),SUBSTANCE,VOC,VVV,3519,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f20e),SUBSTANCE,PM10,01PM,10325,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f20f),SUBSTANCE,H2S,S2H,12593,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f210),SUBSTANCE,PM10,0M01,14586,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f211),SUBSTANCE,VOC,CVO,19703,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f212),SUBSTANCE,PM10,PP1M,18472,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f213),SUBSTANCE,VOC,OCV,571,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f214),SUBSTANCE,PM10,PP0P,6396,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f215),SUBSTANCE,PM10,0M1P,12627,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f216),SUBSTANCE,PM10,00PM,2222,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f217),SUBSTANCE,VOC,CVV,9638,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f218),SUBSTANCE,PM10,PM1P,5272,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f219),SUBSTANCE,VOC,OCV,18731,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f21a),SUBSTANCE,H2S,SH2,2757,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f21b),SUBSTANCE,H2S,HHH,19230,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f21c),SUBSTANCE,PM10,1010,3693,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f21d),SUBSTANCE,PM10,M111,7023,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f21e),SUBSTANCE,VOC,CVV,4702,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f21f),SUBSTANCE,VOC,CVV,16686,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f220),SUBSTANCE,H2S,222,17689,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f221),SUBSTANCE,H2S,H2S,13210,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f222),SUBSTANCE,PM10,1PM0,1390,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f223),SUBSTANCE,PM10,P10M,3986,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f224),SUBSTANCE,PM10,1M0P,221,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f225),SUBSTANCE,VOC,CCO,629,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f226),SUBSTANCE,VOC,CCV,9428,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f227),SUBSTANCE,H2S,H2S,5257,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f228),SUBSTANCE,PM10,PP01,16193,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f229),SUBSTANCE,PM10,011M,14038,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f22a),SUBSTANCE,PM10,P0M1,9196,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f22b),SUBSTANCE,PM10,M10P,18958,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f22c),SUBSTANCE,H2S,2SH,10356,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f22d),SUBSTANCE,VOC,VVO,19641,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f22e),SUBSTANCE,H2S,2H2,7393,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f22f),SUBSTANCE,PM10,P0P1,10722,Validity,oil_0
+ObjectId(5dd32406760b2a2b14b1f230),SUBSTANCE,PM10,P1M0,8372,Validity,oil_0

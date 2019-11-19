@@ -1,0 +1,1942 @@
+_id,columnName,oldValue,newValue,oid,dimensionName,datasetName
+ObjectId(5dd0983cf712fc3690a048cf),Department,Texas Workforce Commission,,19452,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d0),Department,Health And Human Services Commission,,11766,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d1),Department,Health And Human Services Commission,,17777,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d2),Department,Department of Aging And Disability Services,,12780,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d3),Department,Department of Family And Protective Services,,14629,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d4),Department,Department of Aging And Disability Services,,905,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d5),Department,Department of State Health Services,,16578,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d6),Department,Department of Family And Protective Services,,4703,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d7),Department,Department of Family And Protective Services,,5700,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d8),Department,Department of State Health Services,,10925,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048d9),Department,Department of State Health Services,,2990,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048da),Department,Department of Aging And Disability Services,,18106,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048db),Department,Health And Human Services Commission,,13937,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048dc),Department,Department of Aging And Disability Services,,2312,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048dd),Department,Department of Aging And Disability Services,,10004,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048de),Department,Health And Human Services Commission,,7729,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048df),Department,Health And Human Services Commission,,13455,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e0),Department,Texas Workforce Commission,,19270,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e1),Department,Department of Family And Protective Services,,7384,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e2),Department,Department of Aging And Disability Services,,11117,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e3),Department,Department of Family And Protective Services,,17320,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e4),Department,Health And Human Services Commission,,18341,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e5),Department,Department of Public Safety,,18517,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e6),Department,Department of Public Safety,,18971,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e7),Department,Department of Aging And Disability Services,,12377,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e8),Department,Department of State Health Services,,729,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048e9),Department,Health And Human Services Commission,,3889,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048ea),Department,Health And Human Services Commission,,4053,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048eb),Department,Health And Human Services Commission,,13747,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048ec),Department,Department of Aging And Disability Services,,9621,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048ed),Department,Department of State Health Services,,1653,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048ee),Department,Department of Public Safety,,15527,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048ef),Department,Department of Aging And Disability Services,,10353,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f0),Department,Department of Family And Protective Services,,7542,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f1),Department,Health And Human Services Commission,,3418,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f2),Department,Aging And Disability Services,,44,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f3),Department,Department of State Health Services,,12933,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f4),Department,Department of State Health Services,,1651,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f5),Department,Department of State Health Services,,2771,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f6),Department,Health And Human Services Commission,,14547,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f7),Department,Health And Human Services Commission,,6731,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f8),Department,Department of State Health Services,,1228,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048f9),Department,Department of Aging And Disability Services,,12590,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048fa),Department,Department of State Health Services,,6373,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048fb),Department,Department of Family And Protective Services,,7446,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048fc),Department,Health And Human Services Commission,,14237,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048fd),Department,Texas Workforce Commission,,19720,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048fe),Department,Department of Aging And Disability Services,,762,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a048ff),Department,Department of Aging And Disability Services,,11076,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04900),Department,Texas Department of Insurance,,8578,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04901),Department,Health And Human Services Commission,,3615,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04902),Department,Department of Family And Protective Services,,14323,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04903),Department,Department of Public Safety,,14617,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04904),Department,Department of Family And Protective Services,,2758,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04905),Department,Department of State Health Services,,14287,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04906),Department,Department of State Health Services,,11607,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04907),Department,Health And Human Services Commission,,17799,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04908),Department,Department of Aging And Disability Services,,18127,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04909),Department,Department of Family And Protective Services,,6513,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0490a),Department,Department of Aging And Disability Services,,2274,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0490b),Department,Department of Family And Protective Services,,4890,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0490c),Department,Department of Aging And Disability Services,,2082,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0490d),Department,Department of Aging And Disability Services,,10046,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0490e),Department,Texas Department of Insurance,,8215,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0490f),Department,Department of Family And Protective Services,,16651,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04910),Department,Texas Department of Insurance,,14905,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04911),Department,Health And Human Services Commission,,13499,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04912),Department,Department of Aging And Disability Services,,12044,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04913),Department,Department of Aging And Disability Services,,7854,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04914),Department,Department of Aging And Disability Services,,8105,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04915),Department,Health And Human Services Commission,,18435,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04916),Department,Department of Aging And Disability Services,,1844,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04917),Department,Texas Workforce Commission,,16155,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04918),Department,Department of Public Safety,,18899,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04919),Department,Department of State Health Services,,1373,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0491a),Department,Department of Aging And Disability Services,,10921,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0491b),Department,Department of State Health Services,,5462,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0491c),Department,Department of Public Safety,,18642,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0491d),Department,Health And Human Services Commission,,16868,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0491e),Department,Department of Aging And Disability Services,,698,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a0491f),Department,Department of Aging And Disability Services,,1927,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04920),Department,Department of Aging And Disability Services,,10685,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04921),Department,Department of Family And Protective Services,,1669,Completeness,texas_0
+ObjectId(5dd0983df712fc3690a04922),Department,Department of Public Safety,,13242,Completeness,texas_0
+ObjectId(5dd0984bf712fc2ae45bc86d),Department,Texas Workforce Commission,,16368,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc86e),Department,Department of Aging And Disability Services,,5220,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc86f),Department,Department of Aging And Disability Services,,10179,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc870),Department,Health And Human Services Commission,,3752,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc871),Department,Health And Human Services Commission,,1613,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc872),Department,Department of Aging And Disability Services,,9023,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc873),Department,Department of Family And Protective Services,,3461,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc874),Department,Department of Aging And Disability Services,,10447,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc875),Department,Texas Department of Insurance,,15275,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc876),Department,Department of State Health Services,,1907,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc877),Department,Health And Human Services Commission,,18431,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc878),Department,Department of Aging And Disability Services,,2395,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc879),Department,Department of Family And Protective Services,,3386,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc87a),Department,Department of Public Safety,,12975,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc87b),Department,Department of Public Safety,,13183,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc87c),Department,Department of Family And Protective Services,,7576,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc87d),Department,Health And Human Services Commission,,14695,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc87e),Department,Department of State Health Services,,10639,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc87f),Department,Department of Family And Protective Services,,11366,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc880),Department,Department of Aging And Disability Services,,10823,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc881),Department,Health And Human Services Commission,,3780,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc882),Department,Department of Aging And Disability Services,,2521,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc883),Department,Health And Human Services Commission,,17128,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc884),Department,Department of Aging And Disability Services,,10198,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc885),Department,Department of Public Safety,,9992,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc886),Department,Health And Human Services Commission,,13756,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc887),Department,Department of Family And Protective Services,,420,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc888),Department,Department of Family And Protective Services,,11539,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc889),Department,Department of Aging And Disability Services,,10351,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc88a),Department,Department of Aging And Disability Services,,7165,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc88b),Department,Texas Workforce Commission,,19670,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc88c),Department,Department of Public Safety,,12960,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc88d),Department,Department of Family And Protective Services,,6350,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc88e),Department,Department of Aging And Disability Services,,7906,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc88f),Department,Texas Workforce Commission,,19570,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc890),Department,Department of Aging And Disability Services,,10650,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc891),Department,Health And Human Services Commission,,17055,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc892),Department,Department of Public Safety,,18548,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc893),Department,Department of Licensing And Regulation,,17604,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc894),Department,Health And Human Services Commission,,16717,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc895),Department,Texas Workforce Commission,,19991,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc896),Department,Department of Aging And Disability Services,,9077,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc897),Department,Department of Family And Protective Services,,3448,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc898),Department,Health And Human Services Commission,,3607,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc899),Department,Texas Workforce Commission,,19798,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc89a),Department,Department of Aging And Disability Services,,17772,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc89b),Department,Department of State Health Services,,7658,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc89c),Department,Health And Human Services Commission,,13952,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc89d),Department,Department of State Health Services,,7608,Consistency,texas_0
+ObjectId(5dd0984bf712fc2ae45bc89e),Department,Health And Human Services Commission,,4978,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc89f),Department,Department of Aging And Disability Services,,12696,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a0),Department,Health And Human Services Commission,,2211,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a1),Department,Department of Family And Protective Services,,2384,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a2),Department,Department of Family And Protective Services,,5476,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a3),Department,Department of Aging And Disability Services,,10844,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a4),Department,Department of Public Safety,,15556,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a5),Department,Department of Aging And Disability Services,,4269,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a6),Department,Health And Human Services Commission,,16672,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a7),Department,Department of State Health Services,,9123,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a8),Department,Department of Public Safety,,16985,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8a9),Department,Health And Human Services Commission,,11277,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8aa),Department,Health And Human Services Commission,,4355,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8ab),Department,Department of Public Safety,,15132,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8ac),Department,Department of Aging And Disability Services,,2479,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8ad),Department,Health And Human Services Commission,,13637,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8ae),Department,Department of State Health Services,,4230,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8af),Department,Department of Family And Protective Services,,13371,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b0),Department,Department of Public Safety,,15559,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b1),Department,Texas Workforce Commission,,19120,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b2),Department,Department of Aging And Disability Services,,16962,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b3),Department,Department of Family And Protective Services,,543,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b4),Department,Department of Aging And Disability Services,,11043,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b5),Department,Health And Human Services Commission,,12513,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b6),Department,Texas Workforce Commission,,16360,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b7),Department,Department of Aging And Disability Services,,11027,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b8),Department,Department of Public Safety,,15884,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8b9),Department,Department of Aging And Disability Services,,2801,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8ba),Department,Department of Aging And Disability Services,,10588,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8bb),Department,Department of Family And Protective Services,,5238,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8bc),Department,Department of Family And Protective Services,,17409,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8bd),Department,Department of Family And Protective Services,,11724,Consistency,texas_0
+ObjectId(5dd0984cf712fc2ae45bc8be),Department,Department of Family And Protective Services,,6144,Consistency,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a1),Department,Department of Public Safety,aaeytomPtpuer aDiStfmoD ifc,18623,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a2),Department,Department of Aging And Disability Services,eiirlADtcmsaSdts patneifienAvniDg og  e ryb,9029,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a3),Department,Health And Human Services Commission,dri AHudloanemHercHAmvmnnuHiohsmn na,13816,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a4),Department,Department of Aging And Disability Services,angbl  tnogoboDpS  tigomlinAD cameogebtSat ,12145,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a5),Department,Department of State Health Services,mte pthHeetro ae mtSentico  DDvsona,10410,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a6),Department,Health And Human Services Commission,eiuaCt l snSishHmsnv aeocA menidmHro,16914,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a7),Department,Health And Human Services Commission,rev nHouen niSsnvurueieCCCA iSiiso n,11659,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a8),Department,Health And Human Services Commission,ao stmnhe ismHSnoClcaiHenv  sAriemud,14112,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49a9),Department,Department of Family And Protective Services,ei ersipfeSvvc pooi cyeyPe  e o a met Solsie,11379,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49aa),Department,Department of Aging And Disability Services,ee Aginsbyv losregnc mfDaiitidn DipAtSe art,12177,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ab),Department,Texas Workforce Commission,ksssc fCiomoxrooeeWn rmaTi,19053,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ac),Department,Department of Public Safety,luetPym af DbSpeaif ctroten,18558,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ad),Department,Texas Workforce Commission,eaWioCmnaosmk oc TT e cois,19613,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ae),Department,Department of State Health Services,Sreet t aap   a HftpaeD meSe cespit,1304,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49af),Department,Department of Family And Protective Services,otit mDDeevtvimiveapteaSeFeeemndieD neAttcei,3604,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b0),Department,Department of Public Safety,lSm uittnSbtft tPrtcPy oSen,13220,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b1),Department,Department of Aging And Disability Services,epittvrcnDmaeAnngg yeisDl frSA aedoi is itb,3134,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b2),Department,Department of Public Safety,tpSftcoaitlrPyef Daebmn e u,11884,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b3),Department,Department of Family And Protective Services,te eaDmA ecimPtiparrdeyS vvF  etrlnonfctseoi,475,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b4),Department,Department of Aging And Disability Services," einogfrne  fssga aASiieeier ieofAayvntidic",7636,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b5),Department,Department of Aging And Disability Services,SleAienifieAapylg sloADpfgSoiSsyoaipgmvySy ,1674,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b6),Department,,,15716,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b7),Department,Department of Family And Protective Services,t emerevtramtmoc vaerlmrrDpS mtecrSoDceDceDD,5237,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b8),Department,Department of Aging And Disability Services,abtgip godnoDig dDv in myepAaAeosngDAiinoma,18077,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49b9),Department,Department of Aging And Disability Services,teinnnley  b israoDdgaiy ffAtacilvv i  s m ,12768,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ba),Department,Department of Public Safety,t fanrbiey mPectDo utpleafS,15924,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49bb),Department,Department of Aging And Disability Services," gamgdobe  aSiyettic piAfstrinDlsnDAve iern",5213,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49bc),Department,Department of Aging And Disability Services,iy ieboSgtndinrtssgefaD vDiin ame clAArep t,777,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49bd),Department,Texas Workforce Commission,feCerCWrs s rimoroomaieomk,19803,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49be),Department,Texas Workforce Commission,ceT kiri oaiofoonoksoTxra ,19467,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49bf),Department,Department of State Health Services,eieehrrSttpa  csvenef tSt aeolHmaDt,10663,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c0),Department,Department of State Health Services," at ehDS empcise vtreetafenoStatHlr",6812,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c1),Department,Health And Human Services Commission,uSim nrdnaCnCmvrmalsar Snns assoeo H,13464,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c2),Department,Department of State Health Services,peSt tfttai DSaeeHr SHr pvho r sto ,2848,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c3),Department,Health And Human Services Commission,ninSassmrva i n seemhi aa omd  mmHsn,16813,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c4),Department,Texas Workforce Commission,eee  onsckireTo  smomerosn,19371,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c5),Department,Department of Aging And Disability Services,DASDsyatlr vAaA fedsdasSS eygaDrd siAD iedt,12652,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c6),Department,Texas Workforce Commission,oeoksaTCfimr Wsis onmoxrec,19742,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c7),Department,Department of State Health Services,ttH ea tnpSpseeoSHp  eaceeoeDepvSit,6379,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c8),Department,Health And Human Services Commission,SoSeruoC dSrnscCasrsSiaomAd o hs Ha ,3776,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49c9),Department,Department of Public Safety,lceS  fptetfDeottap ceSmPai,16458,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ca),Department,Department of Public Safety,elbtrtfeuyDeiSotn maa fPc p,18732,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49cb),Department,Department of Aging And Disability Services,netoavovireintebrrefiDDctncf i emtntbDr  tf,203,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49cc),Department,Department of Aging And Disability Services,geAriemd  nstlristtgaS nDeoapiAv  ficnybDei,9347,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49cd),Department,Department of Family And Protective Services,einctnDifycetmoferen e mrreeeoDccl rmddnpcai,16837,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ce),Department,Texas Department of Insurance," ce men neeDaxfrpossTrnuIatat",14856,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49cf),Department,Department of State Health Services,thtcaevtiear feSDeasHm  tSente prlo,10270,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d0),Department,Department of Aging And Disability Services,itvpmAt teriyasneDlSri fniobs  AeiDnceadgg ,17749,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d1),Department,Department of Family And Protective Services,spaanneoteltrdSdreSciePDftPFterea ett f sy e,17440,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d2),Department,Department of Aging And Disability Services,ayA picsDei s mrtinrl itode eASggbnDavnftie,12778,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d3),Department,Department of Family And Protective Services,srerml yttSaie Fnoeiaevtfnrv Aie cdPctpomD e,3588,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d4),Department,Department of State Health Services," tieSveleSa taona hteDmetrcstHper f",1666,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d5),Department,Department of State Health Services,eDntpolnSHeDntma DtnaS fae rntDfeae,3439,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d6),Department,Health And Human Services Commission,isriHnmHsdSeAiSisiaimiiSonSvr  mloda,4387,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d7),Department,Department of Family And Protective Services,ernvyAnolceai  rieoeea ireA DStDfvdo eeSttet,6141,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d8),Department,Department of Family And Protective Services,e  ac reFlcec itomrDyeAovtn reiio  yarymtci ,5614,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49d9),Department,Health And Human Services Commission,isHasniooH msoisHhmmi s rsllrHhS h C,6293,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49da),Department,Texas Department of Insurance,ansfn aetsrmaee ptrTceuxI onD,8941,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49db),Department,Department of State Health Services,fr taaertetc h avDHeSml ieenptSseot,1649,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49dc),Department,Department of Aging And Disability Services,Dcec b aevf   gderl cfef nA Ddbpi mniyma yr,635,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49dd),Department,Department of Aging And Disability Services,sAeSibm itparongi riy Deei vdncftltn saADge,2654,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49de),Department,Health And Human Services Commission,noSnSHslA lChrasueiH ui imrciatlol n,14395,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49df),Department,Department of State Health Services," De emre tDalf c eaveaoehiaSleicctl",6067,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e0),Department,Department of Family And Protective Services,ApeernytmDfsv  ettnadAAnmefidtcrtDmivac vmo ,16798,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e1),Department,Department of Aging And Disability Services,eo anSttviDnreig  lAADibcetnmidsy as ipgfer,9606,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e2),Department,Health And Human Services Commission,idtermhhnmSticndnaaaaoHaAsoCuelmooch,14000,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e3),Department,Health And Human Services Commission,nCSemnennol nmo neCnisd eiuvhhS nvar,1622,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e4),Department,Aging And Disability Services,eAcbnergnAvenibsitnetblSig id,56,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e5),Department,Department of Family And Protective Services,e  mseeo yAt oeDmeo dtefSvnevPeatr reieP  oo,9282,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e6),Department,Health And Human Services Commission,vvCnonuncdesisesti CnHesHseatidtorr ,13477,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e7),Department,Department of Aging And Disability Services,A bAetsdlSviamin tefeyr rnisaDnpeoDgti gc i,11181,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e8),Department,Health And Human Services Commission,ssantoHAeml st sionnsi s umH mAaemCc,18433,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49e9),Department,Department of Aging And Disability Services,Danoemseclsvpii  stigsA nyDbsi nso gl  ytgf,10022,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ea),Department,Department of Public Safety," ac Dcopb t tafunfpaDlfltPt",15761,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49eb),Department,,,15117,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ec),Department,Texas Workforce Commission,WWCTooffiesrrWsemnieoWoke ,470,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ed),Department,Department of Licensing And Regulation,petAtmgie  efRl oacsoDngininruLdann et,16571,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ee),Department,Department of State Health Services,ttaSavpintr leecDt  h HfeeeSaomrset,13269,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49ef),Department,Department of State Health Services,etDet aveHeSn  iahcstrmreaf ptetoSl,3041,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49f0),Department,Department of Family And Protective Services,FcAvrot efmtmsmeitcearyDeccDoSciloPcaoeleApe,4902,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49f1),Department,Department of Aging And Disability Services,lcinngb i  eSnmrobaeAi maAfsetAndiAiirac Ai,18138,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49f2),Department,Department of Aging And Disability Services,adycDA ecrbiisitvcivpgieoeagAtAtvtfDvngcm n,11008,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49f3),Department,Department of Family And Protective Services," ctermeieDoPierfv rcaeontSapmedtnyF siA lv t",1476,Validity,texas_0
+ObjectId(5dd09859f712fc1fb4bf49f4),Department,Department of Public Safety,ab Pyn mleetpcbeft nattanat,18577,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49f7),Annual_salary,31,0m                                                            ,6790,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49f8),Annual_salary,21,9i                                                            ,531,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49f9),Annual_salary,33,nK                                                            ,18788,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49fa),Annual_salary,63,6n                                                            ,19086,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49fb),Annual_salary,29,23                                                            ,2199,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49fc),Annual_salary,63,OZ                                                            ,16209,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49fd),Annual_salary,53,J1                                                            ,8174,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49fe),Annual_salary,36,6c                                                            ,8103,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf49ff),Annual_salary,61,lA                                                            ,2916,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a00),Annual_salary,55,B4                                                            ,3056,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a01),Annual_salary,28,4c                                                            ,1071,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a02),Annual_salary,30,2u                                                            ,4076,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a03),Annual_salary,27,HW                                                            ,3393,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a04),Annual_salary,31,jx                                                            ,1751,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a05),Annual_salary,39,sO                                                            ,3719,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a06),Annual_salary,103,Nwf                                                           ,18648,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a07),Annual_salary,57,XC                                                            ,9375,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a08),Annual_salary,46,x6                                                            ,3145,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a09),Annual_salary,23,S0                                                            ,7105,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a0a),Annual_salary,36,nc                                                            ,16222,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a0b),Annual_salary,21,WK                                                            ,3220,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a0c),Annual_salary,32,NT                                                            ,3593,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a0d),Annual_salary,47,Wc                                                            ,15942,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a0e),Annual_salary,48,tU                                                            ,13480,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a0f),Annual_salary,30,Nk                                                            ,15663,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a10),Annual_salary,32,cL                                                            ,388,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a11),Annual_salary,60,Pm                                                            ,2049,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a12),Annual_salary,34,8U                                                            ,15423,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a13),Annual_salary,44,FA                                                            ,11132,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a14),Annual_salary,22,NB                                                            ,4869,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a15),Annual_salary,44,id                                                            ,16133,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a16),Annual_salary,31,Po                                                            ,5470,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a17),Annual_salary,54,Lm                                                            ,2112,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a18),Annual_salary,37,Bi                                                            ,3718,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a19),Annual_salary,51,IF                                                            ,70,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a1a),Annual_salary,29,di                                                            ,14557,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a1b),Annual_salary,41,vL                                                            ,3907,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a1c),Annual_salary,22,FU                                                            ,17998,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a1d),Annual_salary,46,vx                                                            ,1930,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a1e),Annual_salary,35,YJ                                                            ,4631,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a1f),Annual_salary,43,m2                                                            ,8532,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a20),Annual_salary,24,9y                                                            ,143,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a21),Annual_salary,35,su                                                            ,9354,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a22),Annual_salary,40,TQ                                                            ,9580,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a23),Annual_salary,22,x0                                                            ,7704,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a24),Annual_salary,31,Cx                                                            ,19473,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a25),Annual_salary,26,70                                                            ,12147,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a26),Annual_salary,70,iN                                                            ,10550,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a27),Annual_salary,52,wY                                                            ,9262,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a28),Annual_salary,54,ns                                                            ,10506,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a29),Annual_salary,23,2h                                                            ,6649,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a2a),Annual_salary,22,qk                                                            ,5823,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a2b),Annual_salary,26,ok                                                            ,18609,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a2c),Annual_salary,30,zP                                                            ,199,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a2d),Annual_salary,30,ul                                                            ,4174,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a2e),Annual_salary,29,4R                                                            ,18844,Validity,texas_0
+ObjectId(5dd09863f712fc1fb4bf4a2f),Annual_salary,80,Wo                                                            ,2672,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a30),Annual_salary,32,8T                                                            ,9179,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a31),Annual_salary,32,kC                                                            ,14810,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a32),Annual_salary,25,ri                                                            ,8816,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a33),Annual_salary,21,IJ                                                            ,10058,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a34),Annual_salary,24,K4                                                            ,17149,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a35),Annual_salary,25,yN                                                            ,783,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a36),Annual_salary,57,33                                                            ,18098,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a37),Annual_salary,47,LB                                                            ,2502,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a38),Annual_salary,34,Ec                                                            ,8544,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a39),Annual_salary,22,up                                                            ,7596,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a3a),Annual_salary,56,Fs                                                            ,2230,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a3b),Annual_salary,50,Z4                                                            ,14923,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a3c),Annual_salary,20,Qw                                                            ,10496,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a3d),Annual_salary,21,vc                                                            ,9035,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a3e),Annual_salary,33,GH                                                            ,1215,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a3f),Annual_salary,46,SE                                                            ,8717,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a40),Annual_salary,36,jp                                                            ,12687,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a41),Annual_salary,35,Hg                                                            ,16330,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a42),Annual_salary,33,t6                                                            ,13887,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a43),Annual_salary,30,63                                                            ,18233,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a44),Annual_salary,33,bb                                                            ,14460,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a45),Annual_salary,41,9y                                                            ,8512,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a46),Annual_salary,26,iQ                                                            ,19408,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a47),Annual_salary,27,sG                                                            ,12748,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a48),Annual_salary,31,Zy                                                            ,9408,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a49),Annual_salary,27,tu                                                            ,3264,Validity,texas_0
+ObjectId(5dd09864f712fc1fb4bf4a4a),Annual_salary,23,z3                                                            ,11533,Validity,texas_0
+ObjectId(5dd0986df712fc2af4086329),Annual_salary,35,-35,2844,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408632a),Annual_salary,27,f,13537,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408632b),Annual_salary,20,-20,6824,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408632c),Annual_salary,21,-21,686,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408632d),Annual_salary,,,18586,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408632e),Annual_salary,26,-26,5770,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408632f),Annual_salary,60,-60,8638,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086330),Annual_salary,27,Department of State Health Services,7281,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086331),Annual_salary,47,Systems Analyst III,2178,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086332),Annual_salary,30,-30,4848,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086333),Annual_salary,57,-57,15869,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086334),Annual_salary,35,Licensed Vocational Nurse II,14001,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086335),Annual_salary,20,-20,8068,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086336),Annual_salary,31,Administrative Asst III,14845,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086337),Annual_salary,20,11-01-2009 00:00,10843,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086338),Annual_salary,15.24,-15,1544,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086339),Annual_salary,28,-28,19407,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408633a),Annual_salary,25,-25,19604,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408633b),Annual_salary,44,-44,3131,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408633c),Annual_salary,28,-28,819,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408633d),Annual_salary,41,Texas Workforce Commission,16120,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408633e),Annual_salary,35,F,3636,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408633f),Annual_salary,35,"5,23,566",19398,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086340),Annual_salary,43,-43,13935,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086341),Annual_salary,23,1/20/2009 0:00,17279,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086342),Annual_salary,33,-33,3285,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086343),Annual_salary,32,F,16734,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086344),Annual_salary,52,Training Spec V,7312,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086345),Annual_salary,22,-22,1772,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086346),Annual_salary,27,M,19249,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086347),Annual_salary,43,-43,1594,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086348),Annual_salary,20,Mental Retardation Asst I,9636,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086349),Annual_salary,30,-30,17034,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408634a),Annual_salary,29,-29,16025,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408634b),Annual_salary,23,Administrative Asst I,8135,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408634c),Annual_salary,29,"5,50,166",11668,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408634d),Annual_salary,27,H/Srvc Spec II,4821,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408634e),Annual_salary,21,-21,2089,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408634f),Annual_salary,20,F,6643,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086350),Annual_salary,20,-20,2097,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086351),Annual_salary,35,Patricia Huff,13338,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086352),Annual_salary,24,-24,9086,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086353),Annual_salary,38,Mary Luper,620,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086354),Annual_salary,26,Department of Public Safety,16968,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086355),Annual_salary,32,-32,4289,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086356),Annual_salary,38,"5,55,690",6003,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086357),Annual_salary,34,-34,5819,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086358),Annual_salary,29,-29,14049,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086359),Annual_salary,32,-32,1462,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408635a),Annual_salary,47,-47,14548,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408635b),Annual_salary,21,-21,173,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408635c),Annual_salary,20,01.Mar.2018 02:45AM,9164,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408635d),Annual_salary,21,-21,9428,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408635e),Annual_salary,32,fffffffffffffff,410,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af408635f),Annual_salary,24,Beatriz Flores,1324,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086360),Annual_salary,32,"5,48,722",4350,Accuracy,texas_0
+ObjectId(5dd0986df712fc2af4086361),Annual_salary,47,-47,17160,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086362),Annual_salary,29,H/Srvc Spec III,3863,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086363),Annual_salary,38,-38,2819,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086364),Annual_salary,59,-59,4860,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086365),Annual_salary,51,-51,18014,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086366),Annual_salary,31,Jessalyn Goodman,2121,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086367),Annual_salary,30,Michael Williams,8147,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086368),Annual_salary,50,-50,12800,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086369),Annual_salary,67,-67,5916,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af408636a),Annual_salary,54,Accts Exam V,19422,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af408636b),Annual_salary,24,-24,1690,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af408636c),Annual_salary,22,"5,51,043",13760,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af408636d),Annual_salary,40,Inspctr VI,18027,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af408636e),Annual_salary,56,"5,52,495",8191,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af408636f),Annual_salary,26,Department of Public Safety,18497,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086370),Annual_salary,52,-52,3541,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086371),Annual_salary,57,"5,88,564",9473,Accuracy,texas_0
+ObjectId(5dd0986ef712fc2af4086372),Annual_salary,32,09-01-2004 00:00,14243,Accuracy,texas_0
+ObjectId(5dd09873f712fc3690a04925),Title,Mental Retardation Asst III,,11306,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04926),Title,Financial Exam V,,8704,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04927),Title,Family & Protect Scvs Supr II,,4290,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04928),Title,Administrative Asst IV,,14855,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04929),Title,Human Services Technician III,,11285,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0492a),Title,Administrative Asst III,,12105,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0492b),Title,Mental Retardation Asst I,,9393,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0492c),Title,Mental Retardation Asst 11,,1084,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0492d),Title,Trooper,,13049,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0492e),Title,Nurse III,,17687,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0492f),Title,Rehab Therapy Technician V,,2076,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04930),Title,Trooper,,13257,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04931),Title,Contract Spec II,,4522,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04932),Title,Psychiatric Nursing Asst I,,9777,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04933),Title,Inspctr II,,15168,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04934),Title,H/Srvc Spec IV,,17563,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04935),Title,Inspctr II,,18758,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04936),Title,Child Protective Svcs Spec IV,,14483,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04937),Title,Nurse III,,302,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04938),Title,Systems Support Specialist III,,6567,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04939),Title,Mental Retardation Asst I,,10711,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0493a),Title,Insur Spec II,,8556,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0493b),Title,Clerk II,,2923,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0493c),Title,Mental Retardation Asst II,,4569,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0493d),Title,Mgr II,,15893,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0493e),Title,Rehab Therapy Technician I,,8075,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0493f),Title,Clerk IV,,1830,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04940),Title,Administrative Asst I,,5386,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04941),Title,Staff Srvcs Offcr III,,6395,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04942),Title,Child Protective Svcs Spec II,,13842,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04943),Title,Family Services Specialist I,,6504,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04944),Title,Network Spec II,,18268,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04945),Title,Rehab Therapy Technician III,,81,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04946),Title,H/Srvc Spec II,,6983,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04947),Title,Executive Asst I,,13063,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04948),Title,Laundry/Sewing Room Worker I,,14748,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04949),Title,Attorney IV,,12901,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0494a),Title,pRoGrAm sPeCiAlIsT Ii,,19166,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0494b),Title,Sergeant,,13017,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0494c),Title,Unempl Insur Claims Exam I,,19603,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0494d),Title,Administrative Asst II,,6861,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0494e),Title,Investigator VI,,14657,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0494f),Title,Cook II,,12689,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04950),Title,Mental Retardation Asst III,,760,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04951),Title,Systems Analyst IV,,15431,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04952),Title,Volunteer Services Coord IV,,12889,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04953),Title,H/Srvc Spec VI,,13933,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04954),Title,Mental Retardation Asst I,,10383,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04955),Title,Child Protective Svcs Spec I,,12860,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04956),Title,Budget Analyst II,,15634,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04957),Title,Mental Retardation Asst I,,11858,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04958),Title,Licensed Vocational Nurse III,,10721,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04959),Title,Claims Examiner II,,8569,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0495a),Title,Clerk IV,,12111,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0495b),Title,Hr Spec III,,8746,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0495c),Title,Mental Retardation Asst I,,12670,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0495d),Title,Psychiatric Nursing Asst I,,969,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0495e),Title,Nurse IV,,1188,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0495f),Title,Benefit Review Offcr,,8947,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04960),Title,Program Specialist VI,,6975,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04961),Title,H/Srvc Spec III,,14039,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04962),Title,Accounting Technician II,,17010,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04963),Title,Rehab Therapy Technician I,,18078,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04964),Title,Clerk III,,4396,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04965),Title,Administrative Asst I,,13169,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04966),Title,Unempl Insur Claims Exam III,,19009,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04967),Title,Investigator VI,,3529,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04968),Title,Clerk III,,13740,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04969),Title,Administrative Asst IV,,7146,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0496a),Title,Food Service Worker I,,17765,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0496b),Title,H/Srvc Spec III,,17486,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0496c),Title,Nurse III,,10782,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0496d),Title,Administrative Asst III,,1839,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0496e),Title,Mental Retardation Asst III,,11887,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a0496f),Title,Administrative Asst III,,15550,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04970),Title,Custodian I,,10412,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04971),Title,Mental Retardation Asst I,,8276,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04972),Title,wOrKfOrCe dEv sPeCiAlIsT Iv,,19195,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04973),Title,Sergeant,,18580,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04974),Title,H/Srvc Spec III,,5046,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04975),Title,Mental Retardation Asst II,,2629,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04976),Title,Custodian II,,9237,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04977),Title,Clerk III,,15384,Completeness,texas_0
+ObjectId(5dd09873f712fc3690a04978),Title,Mgr III,,10243,Completeness,texas_0
+ObjectId(5dd09878f712fc2af4086375),Title,Investigator VII,aVsotgiIvIn teIr,8994,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086376),Title,Unempl Insur Claims Exam III,32,19553,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086377),Title,Administrative Asst II,Administrative AssYt II,773,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086378),Title,Child Protective Svcs Spec II,Meaghan O'Shea,1422,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086379),Title,Family & Protect Scvs Supr I,39,16429,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408637a),Title,Inspctr III,9/22/2008 0:00,4996,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408637b),Title,Program Supervisor II,ProgramISupOrzi?or II,4837,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408637c),Title,Customer Service Rep II,26,16205,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408637d),Title,Clerk II,C^lerk II,18878,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408637e),Title,Mental Retardation Asst I,"5,90,501",180,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408637f),Title,Family Services Specialist I,"5,57,836",8231,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086380),Title,Administrative Asst II,AstttmiiseIsA nr iIvad,16705,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086381),Title,Food Service Worker I,Food^Service &or?e] I,990,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086382),Title,Workforce Dev Specialist I,Texas Workforce Commission,19533,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086383),Title,Mental Retardation Asst III,tdttInIM nise al IrAaoseRta,17956,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086384),Title,Public Health Technician I,Public Health Tec]hnician I,4958,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086385),Title,Administrative Asst III,Administrative kAsst III,13438,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086386),Title,Reimbursement Officer I,Reimbu0:e*ent78ffbcer6I,6128,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086387),Title,Administrative Asst II,03-08-2010 00:00,12982,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086388),Title,Psychiatric Nursing Asst I,F,2317,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086389),Title,Child Protective Svcs Spec II,Child Protective SvIcs Spec II,13800,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408638a),Title,Inspctr III,Department of Family And Protective Services,5383,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408638b),Title,H/Srvc Spec II,H/_Srvc Spec II,7561,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408638c),Title,Trooper,Tjooz]r,8546,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408638d),Title,Human Services Technician III,Human Servigces Technician III,17326,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408638e),Title,Child Protective Svcs Spec II,"5,61,528",16495,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408638f),Title,Attorney II,F,15258,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086390),Title,Network Spec I,N)tworh Spec I,14920,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086391),Title,Mental Retardation Asst II,"{""$oid"":""5dd096e6408626e373ae4033""}",12672,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086392),Title,H/Srvc Spec III,F,8773,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086393),Title,Rehab Therapy Technician II,Rehab Therapy Technician IzI,10236,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086394),Title,Nurse III,nurse IRl,7763,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086395),Title,Administrative Asst III,30,18507,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086396),Title,Licensed Vocational Nurse II,"{""$oid"":""5dd096e5408626e373ae0f93""}",224,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086397),Title,Lieutenant,LieutewOnt,15536,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086398),Title,Administrative Asst I,Adminkistrative Asst I,42,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af4086399),Title,Psychiatric Nursing Asst I,Arielle Carmouche,1329,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408639a),Title,Administrative Asst III,AdminRistrative Asst III,15315,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408639b),Title,Mental Retardation Asst III,riIoaaslI MttnnttRIA sadee ,18143,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408639c),Title,Programmer VI,VeormPm rgarI,14096,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408639d),Title,H/Srvc Spec II,H/_Ivc ^pe6 bI,12464,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408639e),Title,Insur Spec III,InswrVNpec IIM,8681,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af408639f),Title,Mental Retardation Asst I,MentaPl Retardation Asst I,10519,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af40863a0),Title,Nurse IV,NurEse IV,8137,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af40863a1),Title,Licensed Vocational Nurse II,Licensed  Vocational Nurse II,7711,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af40863a2),Title,Psychiatric Nursing Asst II,Psychioatric Nursing Asst II,1545,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af40863a3),Title,Mgr II,"{""$oid"":""5dd096e6408626e373ae1bf9""}",3398,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af40863a4),Title,Customer Service Rep II,Customer Service fRep II,15565,Accuracy,texas_0
+ObjectId(5dd09878f712fc2af40863a5),Title,Inspctr VI,I*spctr VI,6031,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863a6),Title,Mgr V,MVg r,4485,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863a7),Title,Clerk III,26,7946,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863a8),Title,Clerk I,Clerk h,676,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863a9),Title,Sergeant,"5,35,821",13064,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863aa),Title,Case Mgr I,"  egCraIMs",7283,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863ab),Title,Mental Retardation Asst I,HMental Retardation Asst I,16956,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863ac),Title,Adult Protective Svcs Spec IV,09-05-2006 00:00,739,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863ad),Title,"H/Srvc,Spec,III","H/Srvc,SpDec,III",17080,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863ae),Title,Administrative Asst II,Ad?inistrative msst II,4015,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863af),Title,Systems Analyst V,sattV l meyssASny,9050,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b0),Title,Cook II,Cook IR,2311,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b1),Title,Child Protective Svcs Spec III,ti Ch vIe  sSidpItcoecPvrSecIl,398,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b2),Title,Respiratory Care Practitioner,"Respiratory C,are Practitioner",6699,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b3),Title,Trooper,Santa Delacruz,15113,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b4),Title,Family & Protect Scvs Supr II,SSe a &Ivyoliutrct  IrF spmPc,3460,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b5),Title,H/Srvc Spec III,Ipec  cr/IHIvSS,690,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b6),Title,Administrative Asst III,Department of Public Safety,18863,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b7),Title,Clerk IV,Clerk ?IV,12121,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b8),Title,Mental Retardation Asst I,Mental Retar5dation Asst I,12811,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863b9),Title,H/Srvc Spec III,H/Srvc Spec *III,16049,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863ba),Title,Child Protective Svcs Spec II,!h#ld P{oRecdivq SvcvrSpee II,17229,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863bb),Title,Systems Analyst IV,Sybstems Analyst IV,5264,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863bc),Title,Investigator IV,tsIVtgravIie on,13843,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863bd),Title,Mental Retardation Asst I,drotaa RnI Mt tetnsieAlas,12653,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863be),Title,Clerk.III,C#lerk.III,14134,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863bf),Title,Program Specialist III,vrvgr'o y8ecqalEsgwIII,1454,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c0),Title,Custodial Mgr I,Custodial* Mgr I,18670,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c1),Title,Systems Analyst II,Department of Aging And Disability Services,2944,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c2),Title,Mental Retardation Asst I,Me%t}l Retardation Asst I,12740,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c3),Title,Psychiatric Nursing Asst II,PsychiaLtric Nursing Asst II,6608,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c4),Title,Mental Retardation Asst I,Mental Rvetardation Asst I,9940,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c5),Title,H/Srvc.Spec.III,3/19/2007 0:00,14151,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c6),Title,H/Srvc Spec III,H/Srvc Spec $III,16680,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c7),Title,H/Srvc Spec VII,8/14/2006 0:00,2877,Accuracy,texas_0
+ObjectId(5dd09879f712fc2af40863c8),Title,Nurse III,Nurse OIII,17922,Accuracy,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c1),Title,Licensed Vocational Nurse III,,12399,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c2),Title,H/Srvc Spec II,,17808,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c3),Title,H/Srvc Spec III,,14996,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c4),Title,Program Specialist IV,,17658,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c5),Title,Workforce Dev Specialist II,,16182,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c6),Title,Program Specialist II,,12771,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c7),Title,Pharmacist II,,9598,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c8),Title,Family & Protect Scvs Supr II,,11237,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8c9),Title,Case Mgr I,,1570,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8ca),Title,Contract Techn III,,4725,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8cb),Title,Program Specialist I,,9537,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8cc),Title,Clerk II,,13403,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8cd),Title,Program Specialist IV,,3410,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8ce),Title,Clerk III,,7851,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8cf),Title,Custodian II,,347,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d0),Title,Child Protective Svcs Spec II,,5799,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d1),Title,Licensed Vocational Nurse III,,678,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d2),Title,Trooper,,18632,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d3),Title,Legal Assistant II,,2415,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d4),Title,Program Specialist VII,,2606,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d5),Title,Investigator V,,3324,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d6),Title,Mental Retardation Asst I,,9025,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d7),Title,Workforce Dev Specialist I,,19320,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d8),Title,aCcTs eXaM Ii,,19185,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8d9),Title,Resident Specialist V,,17318,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8da),Title,Administrative Asst II,,18943,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8db),Title,Food Srvc Mgr III,,11074,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8dc),Title,Systems Support Specialist II,,16030,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8dd),Title,Clerk III,,12566,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8de),Title,Physician III,,9731,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8df),Title,Program Specialist I,,2863,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e0),Title,Mental Retardation Asst II,,9184,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e1),Title,Food Service Worker I,,1798,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e2),Title,H/Srvc Spec II,,3113,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e3),Title,Mental Retardation Asst I,,12153,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e4),Title,Mental Retardation Asst I,,17342,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e5),Title,Investigator VI,,4329,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e6),Title,Mental Retardation Asst I,,17261,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e7),Title,Child Protective Svcs Spec V,,124,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e8),Title,Administrative Asst III,,13632,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8e9),Title,H/Srvc Spec III,,18429,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8ea),Title,Mental Retardation Asst I,,12040,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8eb),Title,Staff Srvcs Offcr IV,,1335,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8ec),Title,Security Officer II,,3053,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8ed),Title,Mgr I,,13855,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8ee),Title,Nurse IV,,6192,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8ef),Title,Qual M Retardation Prof I,,9403,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f0),Title,Custodian I,,17863,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f1),Title,Trooper,,13174,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f2),Title,Program Specialist I,,8352,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f3),Title,Clerk III,,6380,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f4),Title,Administrative Asst III,,10493,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f5),Title,Govt Relations Specialist I,,16112,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f6),Title,Child Protective Svcs Spec II,,5340,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f7),Title,H/Srvc Spec VII,,16770,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f8),Title,H/Srvc Spec III,,13521,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8f9),Title,Mental Retardation Asst I,,12087,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8fa),Title,Child Protective Svcs Spec II,,4863,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8fb),Title,Maintenance Supervisor I,,16089,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8fc),Title,Family & Protect Scvs Supr II,,1764,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8fd),Title,Registered Therapist V,,2881,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8fe),Title,Director IV,,8479,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc8ff),Title,Investigator III,,3837,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc900),Title,Child Protective Svcs Spec II,,11363,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc901),Title,H/Srvc Spec IV,,14512,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc902),Title,Workforce Dev Specialist III,,16376,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc903),Title,Forensic Scientist III,,15050,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc904),Title,Public Health Nurse I,,6136,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc905),Title,Clerk IV,,2008,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc906),Title,Director III,,2996,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc907),Title,Child Protective Svcs Spec III,,11253,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc908),Title,Social Worker IIi,,1411,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc909),Title,Child Protective Svcs Spec II,,5938,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc90a),Title,Child Protective Svcs Spec II,,11386,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc90b),Title,Psychiatric Nursing Asst III,,6227,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc90c),Title,Program Supervisor II,,19757,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc90d),Title,Financial Analyst I,,6413,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc90e),Title,Clerk IV,,3561,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc90f),Title,Mental Retardation Asst I,,8051,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc910),Title,Systems Analyst IV,,14642,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc911),Title,Mental Retardation Asst I,,8019,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc912),Title,Licensed Vocational Nurse II,,10120,Consistency,texas_0
+ObjectId(5dd0988ef712fc2ae45bc913),Title,Mgr II,,12333,Consistency,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a4d),Title,H/Srvc Spec III,rrSSpcrpIe/SHI ,14986,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a4e),Title,H/Srvc Spec IV,rSvvHcHvH VrSI,14586,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a4f),Title,Actuary II,yA  IAucIr,16926,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a50),Title,Trooper,eoToprr,18945,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a51),Title,Mental Retardation Asst II,anaitsarsoaltta l tnoIMotM,9472,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a52),Title,H/Srvc Spec III,cSHcreI I/p IvS,3761,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a53),Title,Financial Exam VI,nIFcn aaimcnaixFV,14934,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a54),Title,Deputy Director,Dtercyuoi Dtpre,15867,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a55),Title,Pharmacy Technician I,TyacemTr cImecciiiaah,5535,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a56),Title,Licensed Vocational Nurse II,I eI oeLIeiNVuc narnLecVuLud,9975,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a57),Title,Child Protective Svcs Spec III,spesP chSpstcIiIhreltoSsv t  e,16627,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a58),Title,Program Specialist II,ig cSaglepIrPi  ieIP ,7051,Validity,texas_0
+ObjectId(5dd0989ef712fc1fb4bf4a59),Title,Mental Retardation Asst II,saroIaIelRA estdMtni antt ,10257,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a5a),Title,Mental Retardation Asst I,lnit InsttlseooIsAa atIns,10256,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a5b),Title,Mgr III,rMgIMMM,9461,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a5c),Title,Child Protective Svcs Spec III,elecIeihclCtihs cdesCccIrcIvvv,12882,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a5d),Title,H/Srvc Spec II,/S c/Icp/pHSSe,14977,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a5e),Title,Administrative Asst III,tIit aIstAvA dIAIstr na,1416,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a5f),Title,Director I,irIIDtIIII,8564,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a60),Title,H/Srvc Spec III," I cc IevIe SHc",17188,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a61),Title,Accountant VI,cnuItuVIncnoa,17640,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a62),Title,Attorney V,VAotArneoe,10468,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a63),Title,H/Srvc Spec II,cISr  /S cpSI ,4526,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a64),Title,Auditor IV,IdAVid o  ,4341,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a65),Title,Mental Retardation Asst I,dtr tiioneai aiMrtMda  Rr,615,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a66),Title,H/Srvc Spec III,/ I c eeSvpIIS/,16865,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a67),Title,Legal Secretary III,allyIeIStlagyI LtIe,14105,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a68),Title,Systems Analyst IV,sSltVe namysyst AI,17819,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a69),Title,H/Srvc Spec II,ccSHSc  rvec  ,14113,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a6a),Title,Customer Service Rep II,Cteemu   epu emcICcomSv,19969,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a6b),Title,Customer Service Rep III,ee  imSieuRSCspeireIervm,15437,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a6c),Title,H/Srvc Spec IV,rSV v/IcepSHc ,12549,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a6d),Title,Human Services Technician I,vcimihcHhH cv i unicTsTeH i,5589,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a6e),Title,Child Protective Svcs Spec II,oltIelv cvIvPi ivCtihIcdtepst,277,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a6f),Title,Mental Retardation Asst I,lsIattd tnsaaoReA rinMt e,618,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a70),Title,Licensed Vocational Nurse III,LctcecaVuaeiesIiIenslorleIion,1157,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a71),Title,Psychiatric Nursing Asst I,nsNuIsP tty irs riicgcaAsh,9200,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a72),Title,Director II,itrrDceIIo ,4162,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a73),Title,Unempl Insur Claims Exam II,sia UmI e IUnnIsUesC pninxr,19630,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a74),Title,Maint Techn IV,nMnchaVtI eT i,10720,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a75),Title,Systems Analyst V,VysyyVesn m yt sy,16532,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a76),Title,Registered Therapist II,hriihaegIeTiipghttirIRs,2826,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a77),Title,Human Services Technician III,ncI hninh eac   ueehTSieeinSn,161,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a78),Title,Medical Aide II,aiMel I  iIieMd,17256,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a79),Title,Actuary II,IruautyaAu,8725,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a7a),Title,Mental Retardation Asst I,adaoaeastrder  rltsontltt,10177,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a7b),Title,Human Services Technician III,IeanhnenaeiicuI hcuTicasmaimc,4660,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a7c),Title,Family & Protect Scvs Supr II,cr&ocIFi cP ccesc&eovSsave  &,13918,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a7d),Title,Custodian I,ttanI  nI a,843,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a7e),Title,Network Spec III,pwIerorpItewNNIe,8421,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a7f),Title,Psychiatric Nursing Asst I,irIgsnatt  t   yarN t  siI,13262,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a80),Title,Mental Retardation Asst I,idtlMMAiAAet ldMdte t  sR,10917,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a81),Title,Custodian III,sCn nIsCiaosI,264,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a82),Title,Customer Service Rep II,eSereeCecIrsiv oRIieRmS,19661,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a83),Title,Workforce Dev Specialist I,vtv SceviDeellDc S eoWceWp,19049,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a84),Title,Chemist I,I eChh ii,11534,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a85),Title,Rehab Therapy Technician I,ph  ra peaRneTpacapcaaTeeb,10750,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a86),Title,Systems Analyst V," nennnV Sset ateV",7757,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a87),Title,Maintenance Supervisor III,npIsSa aiMvrnuIoticIr eene,12418,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a88),Title,Mgr III,IMg rII,14494,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a89),Title,Maintenance Supervisor IV," tMnveuriaVpcserIe naSoin",2096,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a8a),Title,H/Srvc Spec IV,ccpvI e SSrH/V,14708,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a8b),Title,Qual M Retardation Prof 111,rRtQo la1e Mfra11a t doniuP,1027,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a8c),Title,Workforce Dev Specialist III,rSSaoelrceti ocsac IioieDIlk,19987,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a8d),Title,Insur Spec II," IIrIIrsSss I",14939,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a8e),Title,Clerk III," Ik eIere",7706,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a8f),Title,Executive Asst I,Excstute exu eAI,16402,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a90),Title,Nurse III,e IuINsIr,7363,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a91),Title,Program Specialist VI,sSr SoaammmSrtmmla pi,2462,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a92),Title,Administrative Asst 11,s stavitAmv itavtstt1t,1028,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a93),Title,Food Service Worker I,"  koFSdrWS IeI r WS  ",4253,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a94),Title,Food Service Worker I," rk  rrSoFkrrookkW F ",7908,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a95),Title,Workforce Dev Specialist I,ckiIre cfievW re siafte iI,19478,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a96),Title,H/Srvc Spec III," ep IeSIe S/IHc",5849,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a97),Title,Administrative Asst I,iitssdtntisnimdnItiei,13312,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a98),Title,Trooper,rppoopr,13215,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a99),Title,Administrative Asst I,edtssArmtai tvA siiIn,8391,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a9a),Title,Systems Analyst II,smaSaImttnmmesIssy,1619,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a9b),Title,H/Srvc Spec III,ISIr  cSccIHSp ,13381,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a9c),Title,Sergeant,ernSaegt,15174,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a9d),Title,Workforce Dev Specialist II,letr SDioesWofp  IrikccvaIe,19917,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a9e),Title,Administrative Asst II,seItieaAis s av n ssts,15311,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4a9f),Title,Systems Support Specialist III,SaIe topuIsil trsSpcpItys Seim,5582,Validity,texas_0
+ObjectId(5dd0989ff712fc1fb4bf4aa0),Title,Auditor III,rtIitrIIod ,13651,Validity,texas_0
+ObjectId(5dd098a5f712fc3690a0497b),Gender,M,,7568,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0497c),Gender,M,,8442,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0497d),Gender,F,,3498,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0497e),Gender,F,,607,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0497f),Gender,F,,653,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04980),Gender,F,,5872,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04981),Gender,F,,2085,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04982),Gender,F,,19810,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04983),Gender,F,,13812,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04984),Gender,F,,10141,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04985),Gender,M,,18980,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04986),Gender,F,,7696,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04987),Gender,F,,5606,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04988),Gender,F,,8858,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04989),Gender,,,18513,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0498a),Gender,F,,4810,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0498b),Gender,M,,11261,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0498c),Gender,M,,2918,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0498d),Gender,F,,4517,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0498e),Gender,F,,5030,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0498f),Gender,F,,4662,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04990),Gender,YFX,,194,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04991),Gender,M,,19839,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04992),Gender,F,,5941,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04993),Gender,F,,10914,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04994),Gender,M,,2535,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04995),Gender,M,,13093,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04996),Gender,F,,7682,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04997),Gender,F,,9553,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04998),Gender,F,,8419,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a04999),Gender,F,,14963,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0499a),Gender,F,,16824,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0499b),Gender,F,,16109,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0499c),Gender,F,,7611,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0499d),Gender,M,,12987,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0499e),Gender,F,,14393,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a0499f),Gender,F,,16218,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a0),Gender,F,,15642,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a1),Gender,M,,1809,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a2),Gender,F,,8397,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a3),Gender,F,,5054,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a4),Gender,F,,10101,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a5),Gender,M,,18309,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a6),Gender,F,,3565,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a7),Gender,M,,13219,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a8),Gender,M,,3054,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049a9),Gender,M,,13926,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049aa),Gender,F,,17434,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049ab),Gender,M,,14255,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049ac),Gender,F,,6556,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049ad),Gender,F,,17323,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049ae),Gender,F,,15267,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049af),Gender,M,,6112,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b0),Gender,F,,17257,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b1),Gender,F,,8422,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b2),Gender,M,,18565,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b3),Gender,M,,3920,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b4),Gender,F,,9486,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b5),Gender,F,,1835,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b6),Gender,,,15569,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b7),Gender,M,,3791,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b8),Gender,F,,2762,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049b9),Gender,F,,600,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049ba),Gender,F,,17699,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049bb),Gender,F,,19529,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049bc),Gender,M,,3582,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049bd),Gender,F,,7470,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049be),Gender,M,,2226,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049bf),Gender,F,,12183,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c0),Gender,F,,3157,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c1),Gender,f,,15187,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c2),Gender,M,,10045,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c3),Gender,F,,9530,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c4),Gender,F,,13931,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c5),Gender,F,,13822,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c6),Gender,F,,11520,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c7),Gender,M,,9646,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c8),Gender,F,,16031,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049c9),Gender,F,,6142,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049ca),Gender,F,,7591,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049cb),Gender,F,,9701,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049cc),Gender,F,,7113,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049cd),Gender,F,,16273,Completeness,texas_0
+ObjectId(5dd098a5f712fc3690a049ce),Gender,F,,9417,Completeness,texas_0
+ObjectId(5dd098b3f712fc2af40863cb),Gender,M,6M,13221,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863cc),Gender,F,DF,6299,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863cd),Gender,F,2,12814,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863ce),Gender,F,F,5097,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863cf),Gender,F,F,15450,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863d0),Gender,M,"5,89,218",7904,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863d1),Gender,F,jF,6578,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863d2),Gender,F,F,17431,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863d3),Gender,F,F,16893,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863d4),Gender,M,Trooper,16460,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863d5),Gender,F,A,1100,Accuracy,texas_0
+ObjectId(5dd098b3f712fc2af40863d6),Gender,F,],19705,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863d7),Gender,F,o,17578,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863d8),Gender,M,22,8199,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863d9),Gender,F,09-01-2004 00:00,2868,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863da),Gender,F,8,10092,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863db),Gender,F,F,15647,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863dc),Gender,F,VF,13954,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863dd),Gender,M,WM,15626,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863de),Gender,F,F,4346,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863df),Gender,F,F,9350,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e0),Gender,F,"5,46,945",14611,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e1),Gender,F,F,858,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e2),Gender,M,cM,9280,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e3),Gender,F,B,9283,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e4),Gender,F,:F,673,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e5),Gender,F,26,18013,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e6),Gender,F,F,6763,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e7),Gender,F,g,6755,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e8),Gender,F,I,1493,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863e9),Gender,M,1,5482,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863ea),Gender,F,F,12530,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863eb),Gender,M,4M,19534,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863ec),Gender,F,PF,13897,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863ed),Gender,F,09-01-2004 00:00,11816,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863ee),Gender,M,25,1696,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863ef),Gender,F,@F,9704,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f0),Gender,F,F,6036,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f1),Gender,F,3,6747,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f2),Gender,F,Texas Workforce Commission,19871,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f3),Gender,F,A,16482,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f4),Gender,F,Texas Workforce Commission,18996,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f5),Gender,F,pF,9990,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f6),Gender,M,"5,72,694",6296,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f7),Gender,F,F,17216,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f8),Gender,F,F,8143,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863f9),Gender,F,V,12478,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863fa),Gender,m,>m,10736,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863fb),Gender,F,18,3204,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863fc),Gender,F,F,6352,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863fd),Gender,F,xF,16144,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863fe),Gender,F,],4512,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af40863ff),Gender,F,29,3901,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086400),Gender,M,41,7022,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086401),Gender,M,M,8630,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086402),Gender,m,Jm,10888,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086403),Gender,f,"5,91,382",13542,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086404),Gender,F,F,19910,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086405),Gender,F,02-08-2010 00:00,15121,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086406),Gender,F,H,10525,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086407),Gender,F,L,1500,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086408),Gender,F,'F,13483,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086409),Gender,F,20,12134,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408640a),Gender,F,dF,4211,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408640b),Gender,F,F,16122,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408640c),Gender,M,.M,10607,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408640d),Gender,M,0,2716,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408640e),Gender,F,F,7884,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408640f),Gender,M,M,8894,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086410),Gender,F,),19695,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086411),Gender,M,M,2176,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086412),Gender,F,@,19625,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086413),Gender,M,'M,10227,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086414),Gender,F,H,16556,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086415),Gender,F,EF,18988,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086416),Gender,F,F,2204,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086417),Gender,F,F,6611,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086418),Gender,F,gF,4214,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af4086419),Gender,M,$M,14122,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408641a),Gender,M,M,10358,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408641b),Gender,F,F,1492,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408641c),Gender,,null,13277,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408641d),Gender,F,F,3663,Accuracy,texas_0
+ObjectId(5dd098b4f712fc2af408641e),Gender,F,O,6050,Accuracy,texas_0
+ObjectId(5dd098b8f712fc2ae45bc916),Gender,F,,1110,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc917),Gender,F,,14532,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc918),Gender,F,,17090,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc919),Gender,F,,7940,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc91a),Gender,F,,12406,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc91b),Gender,F,,1610,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc91c),Gender,F,,6193,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc91d),Gender,F,,12564,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc91e),Gender,M,,6896,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc91f),Gender,F,,16373,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc920),Gender,F,,11701,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc921),Gender,F,,5724,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc922),Gender,F,,12142,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc923),Gender,M,,2099,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc924),Gender,F,,9785,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc925),Gender,F,,2988,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc926),Gender,M,,1528,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc927),Gender,F,,8325,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc928),Gender,F,,5066,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc929),Gender,M,,12963,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc92a),Gender,F,,10279,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc92b),Gender,fffffffffffffff,,119,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc92c),Gender,F,,12848,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc92d),Gender,F,,9922,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc92e),Gender,F,,6558,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc92f),Gender,M,,18949,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc930),Gender,F,,11471,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc931),Gender,F,,5728,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc932),Gender,F,,3380,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc933),Gender,F,,8010,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc934),Gender,F,,5185,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc935),Gender,M,,8083,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc936),Gender,F,,1595,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc937),Gender,F,,9506,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc938),Gender,M,,2357,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc939),Gender,F,,4400,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc93a),Gender,M,,4664,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc93b),Gender,M,,7513,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc93c),Gender,F,,14267,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc93d),Gender,F,,18855,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc93e),Gender,F,,9412,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc93f),Gender,M,,1969,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc940),Gender,F,,18403,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc941),Gender,M,,12286,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc942),Gender,F,,11965,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc943),Gender,F,,19953,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc944),Gender,F,,16107,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc945),Gender,F,,1775,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc946),Gender,F,,11360,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc947),Gender,F,,5537,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc948),Gender,M,,19847,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc949),Gender,F,,13704,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc94a),Gender,M,,17748,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc94b),Gender,M,,8846,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc94c),Gender,F,,1278,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc94d),Gender,F,,9291,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc94e),Gender,F,,6826,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc94f),Gender,M,,11988,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc950),Gender,M,,16779,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc951),Gender,F,,9608,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc952),Gender,F,,12950,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc953),Gender,F,,14484,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc954),Gender,M,,12591,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc955),Gender,M,,12709,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc956),Gender,F,,5660,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc957),Gender,F,,973,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc958),Gender,M,,2120,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc959),Gender,M,,19834,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc95a),Gender,F,,2729,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc95b),Gender,F,,16111,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc95c),Gender,M,,17498,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc95d),Gender,F,,5351,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc95e),Gender,F,,11202,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc95f),Gender,F,,18487,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc960),Gender,F,,7033,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc961),Gender,F,,13279,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc962),Gender,F,,5491,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc963),Gender,F,,2755,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc964),Gender,F,,11515,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc965),Gender,M,,6065,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc966),Gender,F,,9115,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc967),Gender,F,,18292,Consistency,texas_0
+ObjectId(5dd098b8f712fc2ae45bc968),Gender,F,,18065,Consistency,texas_0
+ObjectId(5dd098bdf712fc3690a049d1),Hire_date,2/17/2004 0:00,,8275,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049d2),Hire_date,11/21/2005 0:00,,6622,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049d3),Hire_date,03-01-2010 00:00,,9491,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049d4),Hire_date,06-11-2007 00:00,,15046,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049d5),Hire_date,6/13/2008 0:00,,9614,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049d6),Hire_date,12-01-2008 00:00,,12366,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049d7),Hire_date,4/17/2006 0:00,,9548,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049d8),Hire_date,3/19/2007 0:00,,17535,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049d9),Hire_date,3/19/2007 0:00,,2640,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049da),Hire_date,10-08-2007 00:00,,17518,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049db),Hire_date,08-01-2008 00:00,,14623,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049dc),Hire_date,09-01-2004 00:00,,9595,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049dd),Hire_date,11-01-2009 00:00,,11733,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049de),Hire_date,09-01-2004 00:00,,10228,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049df),Hire_date,09-01-1992 00:00,,16855,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e0),Hire_date,09-01-2004 00:00,,1880,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e1),Hire_date,09-01-2004 00:00,,6305,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e2),Hire_date,09-01-2004 00:00,,831,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e3),Hire_date,02-01-2007 00:00,,10995,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e4),Hire_date,11/20/2006 0:00,,13880,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e5),Hire_date,09-01-2004 00:00,,10630,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e6),Hire_date,8/18/2008 0:00,,13590,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e7),Hire_date,03-01-2008 00:00,,121,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e8),Hire_date,1/17/2006 0:00,,19632,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049e9),Hire_date,04-01-2009 00:00,,1102,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049ea),Hire_date,09-01-1992 00:00,,14458,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049eb),Hire_date,3/16/2010 0:00,,91,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049ec),Hire_date,09-01-2004 00:00,,2912,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049ed),Hire_date,11-01-1999 00:00,,13091,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049ee),Hire_date,05-01-2008 00:00,,9759,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049ef),Hire_date,08-07-2006 00:00,,12556,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f0),Hire_date,01-07-2008 00:00,,15309,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f1),Hire_date,11/13/1995 0:00,,8979,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f2),Hire_date,8/18/2008 0:00,,14488,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f3),Hire_date,09-10-2007 00:00,,3801,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f4),Hire_date,09-01-2004 00:00,,1238,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f5),Hire_date,01-01-2004 00:00,,5842,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f6),Hire_date,05-05-2008 00:00,,4498,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f7),Hire_date,05-01-2009 00:00,,10189,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f8),Hire_date,09-01-2007 00:00,,13927,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049f9),Hire_date,08-01-2009 00:00,,9519,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049fa),Hire_date,02-01-2009 00:00,,1268,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049fb),Hire_date,11-06-2006 00:00,,14524,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049fc),Hire_date,09-01-2004 00:00,,7732,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049fd),Hire_date,05-01-2008 00:00,,12719,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049fe),Hire_date,1/20/2009 0:00,,13373,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a049ff),Hire_date,2/16/2007 0:00,,10517,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a00),Hire_date,04-06-2007 00:00,,19673,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a01),Hire_date,05-01-2005 00:00,,4319,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a02),Hire_date,09-01-2004 00:00,,16580,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a03),Hire_date,09-01-2004 00:00,,4385,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a04),Hire_date,1/16/2007 0:00,,12878,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a05),Hire_date,09-01-2004 00:00,,14075,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a06),Hire_date,09-01-2004 00:00,,17959,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a07),Hire_date,9/14/2009 0:00,,13201,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a08),Hire_date,01-01-2006 00:00,,9370,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a09),Hire_date,11/21/2005 0:00,,13901,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a0a),Hire_date,09-01-2004 00:00,,4225,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a0b),Hire_date,,,15031,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a0c),Hire_date,11/28/2007 0:00,,11744,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a0d),Hire_date,09-01-2006 00:00,,2853,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a0e),Hire_date,09-01-1992 00:00,,11246,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a0f),Hire_date,09-01-2004 00:00,,10962,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a10),Hire_date,,,15853,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a11),Hire_date,02-01-2008 00:00,,13658,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a12),Hire_date,09-01-2004 00:00,,3280,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a13),Hire_date,09-01-2004 00:00,,12659,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a14),Hire_date,06-01-1996 00:00,,19835,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a15),Hire_date,09-01-2004 00:00,,8784,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a16),Hire_date,09-01-2004 00:00,,18461,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a17),Hire_date,9/22/2009 0:00,,4550,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a18),Hire_date,07-01-2007 00:00,,17801,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a19),Hire_date,07-01-2008 00:00,,1879,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a1a),Hire_date,11-01-2007 00:00,,8469,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a1b),Hire_date,09-01-2004 00:00,,14794,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a1c),Hire_date,09-01-1992 00:00,,17874,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a1d),Hire_date,03-10-2008 00:00,,5771,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a1e),Hire_date,06-01-2002 00:00,,13000,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a1f),Hire_date,09-01-2004 00:00,,13945,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a20),Hire_date,09-01-1992 00:00,,12923,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a21),Hire_date,12-01-2007 00:00,,12791,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a22),Hire_date,09-01-2009 00:00,,9569,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a23),Hire_date,06-01-1996 00:00,,19128,Completeness,texas_0
+ObjectId(5dd098bef712fc3690a04a24),Hire_date,09-01-2004 00:00,,17067,Completeness,texas_0
+ObjectId(5dd098c5f712fc2af4086421),Hire_date,11-01-2009 00:00,1&-01-;d>9Z00^0a,4398,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086422),Hire_date,2/27/2006 0:00,18,6276,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086423),Hire_date,2/22/2008 0:00," 00082/2:02/02",18033,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086424),Hire_date,09-01-2004 00:00,:09-0000-002104 ,7605,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086425),Hire_date,08-01-1997 00:00,",08-01-1997 00:00",3479,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086426),Hire_date,10/17/1998 0:00,10/17/1998 03:00,8625,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086427),Hire_date,4/14/2008 0:00,0/0:214 08/004,17496,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086428),Hire_date,06-01-2005 00:00,06-01-2T005 00:00,12610,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086429),Hire_date,09-01-2004 00:00,H/Srvc Spec IV,13435,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408642a),Hire_date,5/19/2008 0:00,Texas Department of Insurance,15283,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408642b),Hire_date,02-08-2010 00:00,22,3931,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408642c),Hire_date,02-01-2010 00:00,M,12387,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408642d),Hire_date,09-01-2004 00:00,000001- 0920-0:4,7297,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408642e),Hire_date,2/25/2008 0:00,>/2d62d08 0:00,13462,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408642f),Hire_date,08-01-2009 00:00,208-19:00-00000 ,9196,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086430),Hire_date,1/15/1998 0:00,10/8095/910 :1,19116,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086431),Hire_date,09-01-2005 00:00,"5,39,996",8439,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086432),Hire_date,09-01-2007 00:00,"09-01-200V 0B:,0",9209,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086433),Hire_date,1/16/2008 0:00,0:161002 80//0,9024,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086434),Hire_date,12-05-2008 00:00,12-b5-200p!00}00,4803,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086435),Hire_date,10-01-2008 00:00,8-0:1000 021-000,1526,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086436),Hire_date,04-01-2008 00:00,Custodian I,8292,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086437),Hire_date,6/15/2005 0:00,Administrative Asst III,16468,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086438),Hire_date,09-01-2004 00:00,09-01-2004 000:00,16669,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086439),Hire_date,7/21/2008 0:00,720810:/2000 /,1318,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408643a),Hire_date,10-09-1999 00:00,100-099:0-09910 ,8603,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408643b),Hire_date,7/18/2005 0:00,"5,86,766",12316,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408643c),Hire_date,09-01-2004 00:00,32,16056,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408643d),Hire_date,09-01-2004 00:00,09-0&l20I4 0m:00,7319,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408643e),Hire_date,09-01-2004 00:00,0:02- 0009-00041,13349,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408643f),Hire_date,1/21/2007 0:00,Trooper,15827,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086440),Hire_date,09-01-2004 00:00,N9-01-L_0I 00:00,11550,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086441),Hire_date,11/19/2008 0:00,11/19/2?008 0:00,4801,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086442),Hire_date,02-01-2006 00:00,02-}01-2006 00:00,7371,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086443),Hire_date,11-06-2006 00:00,11O-06-2006 00:00,5664,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086444),Hire_date,3/13/2006 0:00,3/13/2g06]0:C0,8385,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086445),Hire_date,09-05-2000 00:00,0002:0900 -0-500,15931,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086446),Hire_date,04-01-2009 00:00,04-01 -2009 00:00,10521,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086447),Hire_date,1/19/2010 0:00,1A11/J010 0*0m,1947,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086448),Hire_date,4/20/2009 0:00,4/24:2009 0:00,16113,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af4086449),Hire_date,02-01-2010 00:00,Attorney IV,5399,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408644a),Hire_date,09-01-2004 00:00,S9-01N2+04 +0:z0,5524,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408644b),Hire_date,12-01-1996 00:00,12-01-19y96 00:00,1736,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408644c),Hire_date,1/16/2001 0:00,012/0/00:061 1,3725,Accuracy,texas_0
+ObjectId(5dd098c5f712fc2af408644d),Hire_date,09-01-2004 00:00,Reynaldo Garza,11014,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af408644e),Hire_date,09-01-2004 00:00,09-O01-2004 00:00,10582,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af408644f),Hire_date,09-01-2004 00:00,09-01->2004 00:00,811,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086450),Hire_date,5/21/2001 0:00,"5,40,163",8606,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086451),Hire_date,06-01-1996 00:00,6:106000 --09091,19514,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086452),Hire_date,09-01-2004 00:00,0g-0PoW0wp N0:00,12156,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086453),Hire_date,2/17/2009 0:00,2/17/2009 0:q00,11220,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086454),Hire_date,03-01-2010 00:00,"03-01l208U 00:0,",18787,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086455),Hire_date,7/17/2009 0:00,/0/7007:0 0192,6958,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086456),Hire_date,09-01-2004 00:00,M,9405,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086457),Hire_date,01-01-2010 00:00,01-H1-G0@g 00:00,2297,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086458),Hire_date,09-01-2004 00:00,4-0920010 00:00-,7867,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086459),Hire_date,07-09-2007 00:00,0090 700:70--200,4062,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af408645a),Hire_date,03-01-2004 00:00,03-0:-200z 00:0p,8406,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af408645b),Hire_date,12/16/2009 0:00,0612092 00:/10/,11937,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af408645c),Hire_date,07-01-2002 00:00,0-020702-0: 1000,8388,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af408645d),Hire_date,10/15/2009 0:00,"5,38,588",17629,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af408645e),Hire_date,09-01-2004 00:00,Shenita Hicks,4125,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af408645f),Hire_date,11-10-2008 00:00,11-B10-2008 00:00,7951,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086460),Hire_date,09-01-1992 00:00,1- 009:9-0019200,11647,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086461),Hire_date,09-01-2004 00:00,09-01-2004 00:300,3307,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086462),Hire_date,10-01-2007 00:00,10)01-#0Cki00:e0,5471,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086463),Hire_date,5/15/2006 0:00,5/1V5/2006 0:00,17895,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086464),Hire_date,09-01-2004 00:00,09-01-2004y 00:00,17920,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086465),Hire_date,6/15/2005 0:00,5020:0/60150/ ,14507,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086466),Hire_date,06-01-2000 00:00,6-0200010-0000 :,13358,Accuracy,texas_0
+ObjectId(5dd098c6f712fc2af4086467),Hire_date,06-01-2006 00:00,xyeWI-2006 00:>0,3480,Accuracy,texas_0
+ObjectId(5dd098ccf712fc2ae45bc96b),Hire_date,11/16/2009 0:00,,18023,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc96c),Hire_date,09-01-2004 00:00,,2294,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc96d),Hire_date,9/16/2008 0:00,,11016,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc96e),Hire_date,9/16/2009 0:00,,18111,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc96f),Hire_date,09-01-2004 00:00,,12240,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc970),Hire_date,09-01-1992 00:00,,5765,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc971),Hire_date,09-01-1983 00:00,,18715,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc972),Hire_date,7/14/2008 0:00,,14013,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc973),Hire_date,11/13/2009 0:00,,8278,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc974),Hire_date,10-12-2009 00:00,,17208,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc975),Hire_date,04-05-1993 00:00,,1461,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc976),Hire_date,05-01-2006 00:00,,623,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc977),Hire_date,09-01-2004 00:00,,9380,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc978),Hire_date,08-01-2007 00:00,,7880,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc979),Hire_date,08-01-2008 00:00,,28,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc97a),Hire_date,03-01-2008 00:00,,17020,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc97b),Hire_date,09-01-2004 00:00,,5461,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc97c),Hire_date,09-01-2004 00:00,,5536,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc97d),Hire_date,09-01-2004 00:00,,10405,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc97e),Hire_date,09-01-2004 00:00,,8106,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc97f),Hire_date,11/19/2007 0:00,,15529,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc980),Hire_date,3/17/2010 0:00,,17566,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc981),Hire_date,9/24/2007 0:00,,7586,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc982),Hire_date,10-05-2009 00:00,,17555,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc983),Hire_date,09-01-2004 00:00,,17940,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc984),Hire_date,03-01-2008 00:00,,13638,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc985),Hire_date,2/21/2006 0:00,,13852,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc986),Hire_date,08-05-1991 00:00,,15707,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc987),Hire_date,3/30/2008 0:00,,15157,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc988),Hire_date,7/14/2008 0:00,,8669,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc989),Hire_date,3/21/2005 0:00,,469,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc98a),Hire_date,11-01-2009 00:00,,345,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc98b),Hire_date,10-01-1997 00:00,,8253,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc98c),Hire_date,9/22/1997 0:00,,15599,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc98d),Hire_date,02-01-2008 00:00,,5517,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc98e),Hire_date,11/22/2004 0:00,,18291,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc98f),Hire_date,1/25/2010 0:00,,4732,Consistency,texas_0
+ObjectId(5dd098ccf712fc2ae45bc990),Hire_date,09-01-1992 00:00,,16492,Consistency,texas_0
+ObjectId(5dd098cff712fc1fb4bf4aa3),Hire_date,1/24/2005 0:00,:40 /0/5200210,5957,Validity,texas_0
+ObjectId(5dd098cff712fc1fb4bf4aa4),Hire_date,04-01-2007 00:00,0404-700-7740000,6016,Validity,texas_0
+ObjectId(5dd098cff712fc1fb4bf4aa5),Hire_date,09-01-2004 00:00,--0004100:00902 ,6673,Validity,texas_0
+ObjectId(5dd098cff712fc1fb4bf4aa6),Hire_date,02-12-1996 00:00," 1-019-2290060:0",5947,Validity,texas_0
+ObjectId(5dd098cff712fc1fb4bf4aa7),Hire_date,6/25/2007 0:00,06 :/050227/00,11622,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aa8),Hire_date,11-01-2009 00:00,1-0:-009 0101020,9088,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aa9),Hire_date,4/17/2006 0:00,/4:0100/02076 ,11244,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aaa),Hire_date,2/15/2010 0:00,20:500 0//2011,13984,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aab),Hire_date,09-01-2004 00:00,1-014900-00--000,8829,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aac),Hire_date,2/26/1996 0:00," 002/:0 29000/",1763,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aad),Hire_date,07-01-2006 00:00,0:07:- 10-07-021,12645,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aae),Hire_date,12/14/2009 0:00,"  /4/200:040/0/",2213,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aaf),Hire_date,12-01-2007 00:00,000- 0 10:0-0000,14472,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab0),Hire_date,9/24/2008 0:00,292000022 0092,4393,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab1),Hire_date,07-01-2008 00:00,10  20170878780 ,9699,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab2),Hire_date,,,15908,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab3),Hire_date,01-01-2007 00:00,2:0700-0010 01-0,59,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab4),Hire_date,05-01-2006 00:00,-00 0610--6 00:6,1294,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab5),Hire_date,07-07-2008 00:00,820-0-0:70 0:008,1400,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab6),Hire_date,02-01-2009 00:00,012-000009911022,4604,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab7),Hire_date,09-01-2004 00:00,002 00 --100020-,7984,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab8),Hire_date,4/15/2005 0:00,004://00210 55,5525,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ab9),Hire_date,08-04-2008 00:00,-00-: 4820080000,2248,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aba),Hire_date,12-01-2009 00:00,0 0-0 1100:-010-,14686,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4abb),Hire_date,12/15/2008 0:00,/0111 000200:2:,13925,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4abc),Hire_date,06-01-1996 00:00,1-99:00961100:-0,19194,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4abd),Hire_date,09-01-2005 00:00,92000005  001000,11346,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4abe),Hire_date,11-10-2008 00:00,1020100000020-01,5544,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4abf),Hire_date,5/16/2005 0:00,000600600560/0,10029,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac0),Hire_date,04-01-2009 00:00,24000112002020-0,12783,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac1),Hire_date,03-01-2008 00:00,803--3003020 00-,7109,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac2),Hire_date,09-01-2004 00:00,0029400-0199-000,7903,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac3),Hire_date,09-01-2004 00:00,4:0-0902204-0009,4244,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac4),Hire_date,6/16/2008 0:00,0016020//01 08,10787,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac5),Hire_date,07-01-2008 00:00,02 00072:701-0 0,1920,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac6),Hire_date,2/27/2006 0:00,7 72//0020060/,8485,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac7),Hire_date,05-10-1999 00:00,0-0:000--000010 ,3253,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac8),Hire_date,08-12-1991 00:00,91019001 08--:02,15832,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ac9),Hire_date,12-08-2008 00:00,020-002880-01 0:,7140,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aca),Hire_date,09-01-2004 00:00,00-:-00--0209 4:,8311,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4acb),Hire_date,8/16/2004 0:00,80  /060:860/ ,17351,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4acc),Hire_date,12/22/2003 0:00,00220 /0:202202,19078,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4acd),Hire_date,12/15/2008 0:00,18 :012/00/0205,4181,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ace),Hire_date,04-01-2004 00:00,:00 2-04001-4000,4083,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4acf),Hire_date,09-01-1992 00:00,-9-9-0-9-0-00002,11407,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad0),Hire_date,09-11-2006 00:00,6-10102000 0000-,3834,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad1),Hire_date,1/20/2010 0:00,://0001::1/:00,2754,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad2),Hire_date,06-01-2005 00:00,00051060000--105,13236,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad3),Hire_date,8/17/2009 0:00,1:008800802/27,12353,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad4),Hire_date,06-01-1996 00:00,69 0-019-000061:,19508,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad5),Hire_date,09-01-2004 00:00,000000100000--02,11136,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad6),Hire_date,1/30/2006 0:00,20/2/:/:/020:2,7544,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad7),Hire_date,08-04-2008 00:00,0-:0 40 0008-0-0,1937,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad8),Hire_date,08-01-1995 00:00,8109--00500 10:9,8668,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ad9),Hire_date,08-01-2007 00:00,-0-80000:7:00:0:,912,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ada),Hire_date,06-01-2009 00:00,0-01-0:00902060 ,5120,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4adb),Hire_date,03-01-2009 00:00,0 20093-:000100-,13791,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4adc),Hire_date,04-01-2009 00:00,0--0:4-:0-0: 0--,1553,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4add),Hire_date,09-01-2004 00:00,0--4-20-1000- : ,427,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ade),Hire_date,11-01-2008 00:00,001-0002:- 11800,1587,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4adf),Hire_date,12/27/1995 0:00,2 9/7551119/19:,411,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae0),Hire_date,6/28/2004 0:00,066: /0/6/8200,17423,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae1),Hire_date,9/15/1994 0:00,059/90/049: 11,15886,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae2),Hire_date,1/25/2010 0:00,:/21 225020::5,17545,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae3),Hire_date,09-01-2004 00:00,20--90010040: 00,9228,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae4),Hire_date,04-01-2006 00:00,000:--460000120 ,11435,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae5),Hire_date,2/25/2008 0:00,20/:25/280 0:2,14883,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae6),Hire_date,09-01-2004 00:00,029001200-900000,7967,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae7),Hire_date,7/31/2007 0:00,303:1/03070:07,3829,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae8),Hire_date,3/30/2008 0:00," :000003/0/:00",13229,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4ae9),Hire_date,08-01-2005 00:00,002-:00080-05 10,4366,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aea),Hire_date,10-01-2009 00:00,000200--9010--0 ,2644,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aeb),Hire_date,07-01-1997 00:00,:07-0 --::-90::1,19474,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aec),Hire_date,12-01-2007 00:00," -0-02710001200:",309,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aed),Hire_date,9/28/2009 0:00,92088000290:90,6949,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aee),Hire_date,03-03-2010 00:00,000-:-203130000 ,19535,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4aef),Hire_date,03-03-2008 00:00,-000:08--3:38 -0,7143,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4af0),Hire_date,02-01-2010 00:00,20000- :1002120-,7770,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4af1),Hire_date,3/29/2010 0:00,2/0/10130/0239,5919,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4af2),Hire_date,06-01-2006 00:00,6002000-100200 0,14482,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4af3),Hire_date,06-01-2009 00:00,00010- 0-60002:9,11780,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4af4),Hire_date,09-01-2005 00:00,0902205000000250,8953,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4af5),Hire_date,01-01-2005 00:00,5-21:000000001 -,9950,Validity,texas_0
+ObjectId(5dd098d0f712fc1fb4bf4af6),Hire_date,03-12-2007 00:00,31-3 0017-210-00,18603,Validity,texas_0
+ObjectId(5dd098d3f712fc3690a04a27),dsgh,"5,64,367",,3680,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a28),dsgh,"5,57,817",,14052,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a29),dsgh,"5,87,224",,11148,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a2a),dsgh,"5,55,068",,13844,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a2b),dsgh,"5,38,729",,15330,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a2c),dsgh,"5,86,416",,17657,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a2d),dsgh,"5,47,505",,8229,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a2e),dsgh,"5,57,551",,15398,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a2f),dsgh,"5,58,503",,367,Completeness,texas_0
+ObjectId(5dd098d3f712fc3690a04a30),dsgh,"5,92,847",,7354,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a31),dsgh,"5,55,071",,13830,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a32),dsgh,"5,31,540",,15226,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a33),dsgh,"5,51,665",,5285,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a34),dsgh,"5,59,769",,6353,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a35),dsgh,"5,35,763",,13005,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a36),dsgh,"5,86,302",,17888,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a37),dsgh,"5,57,834",,8273,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a38),dsgh,"5,72,295",,12894,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a39),dsgh,"5,44,594",,17174,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a3a),dsgh,"5,87,404",,10929,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a3b),dsgh,"5,87,060",,11921,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a3c),dsgh,"5,61,659",,7502,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a3d),dsgh,"5,67,779",,443,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a3e),dsgh,"5,89,962",,1855,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a3f),dsgh,"5,87,200",,11174,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a40),dsgh,"5,93,106",,4587,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a41),dsgh,"5,64,115",,5496,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a42),dsgh,"5,89,313",,5224,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a43),dsgh,"5,92,721",,16955,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a44),dsgh,"5,89,591",,3000,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a45),dsgh,"5,86,070",,18150,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a46),dsgh,"5,87,887",,10319,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a47),dsgh,"5,93,020",,6030,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a48),dsgh,"5,61,747",,7426,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a49),dsgh,"5,36,808",,18651,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a4a),dsgh,"5,88,234",,9883,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a4b),dsgh,"5,45,171",,16724,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a4c),dsgh,"5,88,878",,9100,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a4d),dsgh,"5,72,797",,4984,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a4e),dsgh,"5,87,826",,10391,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a4f),dsgh,"5,67,746",,1139,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a50),dsgh,"5,87,783",,10444,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a51),dsgh,"5,40,089",,8531,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a52),dsgh,"5,45,068",,18313,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a53),dsgh,"5,48,832",,13682,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a54),dsgh,"5,89,777",,2531,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a55),dsgh,"5,90,310",,730,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a56),dsgh,"5,25,094",,16124,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a57),dsgh,"5,86,921",,12089,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a58),dsgh,"5,57,528",,16820,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a59),dsgh,"5,61,831",,7136,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a5a),dsgh,"5,47,983",,11747,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a5b),dsgh,"5,72,905",,2919,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a5c),dsgh,"5,62,073",,734,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a5d),dsgh,"5,49,130",,2939,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a5e),dsgh,"5,64,289",,4670,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a5f),dsgh,"5,61,668",,7511,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a60),dsgh,"5,25,120",,16150,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a61),dsgh,"5,64,267",,4772,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a62),dsgh,"5,51,968",,16870,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a63),dsgh,"5,39,649",,8977,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a64),dsgh,"5,51,650",,5852,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a65),dsgh,"5,52,530",,5905,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a66),dsgh,"5,48,729",,4357,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a67),dsgh,"5,89,919",,2273,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a68),dsgh,"5,58,413",,1822,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a69),dsgh,"5,69,783",,11923,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a6a),dsgh,"5,54,115",,1983,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a6b),dsgh,"5,25,321",,16349,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a6c),dsgh,"5,61,888",,5939,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a6d),dsgh,"5,54,645",,8172,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a6e),dsgh,"5,54,102",,2173,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a6f),dsgh,"5,64,197",,5113,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a70),dsgh,"5,36,911",,18748,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a71),dsgh,"5,72,399",,7628,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a72),dsgh,"5,37,086",,18923,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a73),dsgh,"5,86,702",,12400,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a74),dsgh,"5,86,901",,12140,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a75),dsgh,"5,64,213",,5084,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a76),dsgh,"5,39,875",,15286,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a77),dsgh,"5,23,807",,19639,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a78),dsgh,"5,52,353",,14068,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a79),dsgh,"5,67,476",,1485,Completeness,texas_0
+ObjectId(5dd098d4f712fc3690a04a7a),dsgh,"5,87,461",,10865,Completeness,texas_0
+ObjectId(5dd098d9f712fc2af408646a),dsgh,"5,60,016","5600,6,1",3155,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408646b),dsgh,"5,86,650",",556,068",12609,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408646c),dsgh,"5,37,153","35,5731,",16459,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408646d),dsgh,"5,57,559","5,57595,",14875,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408646e),dsgh,"5,72,879","5o,72,879",3438,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408646f),dsgh,"5,89,846","5,89,8i6",2394,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086470),dsgh,"5,93,108","1,3,0598",4585,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086471),dsgh,"5,23,914","5,23,91>4",19746,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086472),dsgh,"5,40,034",",434005,",8477,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086473),dsgh,"5,91,303",",,91,G+;",17338,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086474),dsgh,"5,52,452","5,5B,>52",11441,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086475),dsgh,"5,91,485",20,1958,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086476),dsgh,"5,88,163",Department of Aging And Disability Services,9969,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086477),dsgh,"5,54,677","767455,,",7702,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086478),dsgh,"5,54,088",5$54Q088,3657,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086479),dsgh,"5,45,125",Health And Human Services Commission,18370,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408647a),dsgh,"5,67,848",M,1895,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408647b),dsgh,"5,87,655","5,87,6(55",10606,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408647c),dsgh,"5,67,229","5,r7,229",2839,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408647d),dsgh,"5,63,883","3,3,8685",11433,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408647e),dsgh,"5,44,591","5G(W,591",17171,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408647f),dsgh,"5,87,468",21,10854,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086480),dsgh,"5,23,937",",93253,7",19769,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086481),dsgh,"5,62,001","5,62{0v1",3443,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086482),dsgh,"5,64,049",Child Protective Svcs Spec II,5640,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086483),dsgh,"5,87,735","5,87,B735",10502,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086484),dsgh,"5,59,771","5A,59,771",6288,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086485),dsgh,"5,52,397","5,52B,397",13899,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086486),dsgh,"5,38,741","51,7384,",15342,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086487),dsgh,"5,62,226","5,62,2J26",14497,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086488),dsgh,"5,87,080","5],87,080",11895,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086489),dsgh,"5,67,245",5p67xy4A,2717,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408648a),dsgh,"5,36,884",Elouise Stroud-Mitchell,18723,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408648b),dsgh,"5,55,057","5,Q5,05_",13867,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408648c),dsgh,"5,64,201","5Z64,201",5108,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408648d),dsgh,"5,55,215","5,55,2%15",6532,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408648e),dsgh,"5,70,364",",6405,37",663,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408648f),dsgh,"5,51,736","5,51,73t6",4851,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086490),dsgh,"5,92,942",09-01-2004 00:00,6920,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086491),dsgh,"5,55,382","5,55{,382",5791,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086492),dsgh,"5,93,041","5d,93,041",5527,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086493),dsgh,"5,23,844","5,G23,844",19676,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086494),dsgh,"5,92,986","5,92j98:",6386,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086495),dsgh,"5,67,036","5,67,03R6",6156,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086496),dsgh,"5,69,985",22,10114,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086497),dsgh,"5,67,449",Nurse I,1525,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086498),dsgh,"5,87,674",Department of Aging And Disability Services,10575,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af4086499),dsgh,"5,87,865","685,,587",10348,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408649a),dsgh,"5,89,505","5,9850,5",3188,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408649b),dsgh,"5,56,700","5,5F,700",11497,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408649c),dsgh,"5,23,578","5,23,h578",19410,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408649d),dsgh,"5,54,603","54630,5,",13473,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408649e),dsgh,"5,61,986",M,3458,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af408649f),dsgh,"5,90,207",Department of Aging And Disability Services,863,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a0),dsgh,"5,86,235","5,a6,235",17981,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a1),dsgh,"5,69,671",Licensed Vocational Nurse II,12799,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a2),dsgh,"5,87,585","5,87,5895",10704,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a3),dsgh,"5,72,886","5,72,8m86",3200,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a4),dsgh,"5,63,891","5,63G891",11384,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a5),dsgh,"5,37,794","773,495,",15984,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a6),dsgh,"5,25,337",Unempl Insur Claims Exam III,16363,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a7),dsgh,"5,67,295","5725,6,9",2529,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a8),dsgh,"5,95,012","5,95,0(12",515,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864a9),dsgh,"5,87,924","V5,87,924",10272,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864aa),dsgh,"5,30,399","5,30,r6]",15568,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864ab),dsgh,"5,70,040",49,9760,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864ac),dsgh,"5,53,869",09-01-2009 00:00,17572,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864ad),dsgh,"5,47,822",Joslyn Higgins,4134,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864ae),dsgh,"5,94,997","5,94,T997",549,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864af),dsgh,"5,44,812","5,k4,812",6919,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b0),dsgh,"5,72,293","5y,72,293",12903,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b1),dsgh,"5,46,272","5,496,272",4533,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b2),dsgh,"5,40,248",Andres Telles III,8691,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b3),dsgh,"5,30,064",M,15736,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b4),dsgh,"5,51,011","5,51,019",13727,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b5),dsgh,"5,54,988",",59,8854",14017,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b6),dsgh,"5,68,120",Department of State Health Services,9874,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b7),dsgh,"5,39,705","85,39,705",14850,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b8),dsgh,"5,69,731",36,12236,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864b9),dsgh,"5,54,024",",255440,",13372,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864ba),dsgh,"5,89,717",M,2725,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864bb),dsgh,"5,56,685",",8655,65",11577,Accuracy,texas_0
+ObjectId(5dd098d9f712fc2af40864bc),dsgh,"5,51,105",Budget Analyst IV,7254,Accuracy,texas_0
+ObjectId(5dd098e5f712fc2ae45bc993),dsgh,"5,72,804",,4929,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc994),dsgh,"5,39,994",,8437,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc995),dsgh,"5,62,077",,738,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc996),dsgh,"5,64,379",,3621,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc997),dsgh,"5,61,782",,7462,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc998),dsgh,"5,63,634",,16948,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc999),dsgh,"5,90,278",,778,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc99a),dsgh,"5,47,521",,3831,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc99b),dsgh,"5,49,118",,3364,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc99c),dsgh,"5,47,976",,11740,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc99d),dsgh,"5,54,563",,13572,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc99e),dsgh,"5,55,324",,5733,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc99f),dsgh,"5,44,627",,17207,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a0),dsgh,"5,32,072",,13240,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a1),dsgh,"5,88,860",,9120,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a2),dsgh,"5,94,969",,1804,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a3),dsgh,"5,23,195",,19027,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a4),dsgh,"5,58,779",,2145,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a5),dsgh,"5,55,181",,6498,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a6),dsgh,"5,36,956",,18794,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a7),dsgh,"5,30,094",,15766,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a8),dsgh,"5,55,478",,3550,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9a9),dsgh,"5,90,172",,903,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9aa),dsgh,"5,46,277",,4538,Consistency,texas_0
+ObjectId(5dd098e5f712fc2ae45bc9ab),dsgh,"5,38,699",,15433,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9ac),dsgh,"5,62,359",,5090,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9ad),dsgh,"5,52,305",,14162,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9ae),dsgh,"5,86,989",,12019,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9af),dsgh,"5,39,351",,15964,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b0),dsgh,"5,39,559",,16443,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b1),dsgh,"5,89,341",,5195,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b2),dsgh,"5,60,547",,2686,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b3),dsgh,"5,72,757",,5515,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b4),dsgh,"5,87,512",,10803,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b5),dsgh,"5,87,022",,11971,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b6),dsgh,"5,39,577",,14902,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b7),dsgh,"5,30,314",,15485,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b8),dsgh,"5,63,976",,6588,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9b9),dsgh,"5,93,133",,1925,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9ba),dsgh,"5,72,502",,6895,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9bb),dsgh,"5,67,207",,3012,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9bc),dsgh,"5,72,411",,7574,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9bd),dsgh,"5,45,248",,12577,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9be),dsgh,"5,61,594",,8251,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9bf),dsgh,"5,90,175",,899,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c0),dsgh,"5,89,480",,3232,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c1),dsgh,"5,30,026",,15701,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c2),dsgh,"5,87,239",,11137,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c3),dsgh,"5,30,019",,15694,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c4),dsgh,"5,90,186",,888,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c5),dsgh,"5,67,285",,2566,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c6),dsgh,"5,29,933",,15609,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c7),dsgh,"5,70,385",,174,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c8),dsgh,"5,72,801",,4931,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9c9),dsgh,"5,66,968",,6254,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9ca),dsgh,"5,86,736",,12363,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9cb),dsgh,"5,51,032",,13749,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9cc),dsgh,"5,92,790",,7666,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9cd),dsgh,"5,38,696",,15430,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9ce),dsgh,"5,52,471",,8208,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9cf),dsgh,"5,89,392",,4303,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d0),dsgh,"5,23,972",,19804,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d1),dsgh,"5,60,571",,474,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d2),dsgh,"5,95,044",,123,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d3),dsgh,"5,25,226",,16254,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d4),dsgh,"5,57,679",,3225,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d5),dsgh,"5,23,827",,19659,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d6),dsgh,"5,89,826",,2437,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d7),dsgh,"5,52,555",,4953,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d8),dsgh,"5,56,719",,8169,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9d9),dsgh,"5,54,747",,4718,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9da),dsgh,"5,91,367",,14720,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9db),dsgh,"5,52,637",,2202,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9dc),dsgh,"5,51,157",,2010,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9dd),dsgh,"5,63,895",,11340,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9de),dsgh,"5,67,453",,1521,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9df),dsgh,"5,66,974",,6248,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9e0),dsgh,"5,52,404",,13876,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9e1),dsgh,"5,40,161",,8604,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9e2),dsgh,"5,44,720",,16072,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9e3),dsgh,"5,55,056",,13870,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9e4),dsgh,"5,72,249",,13995,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9e5),dsgh,"5,51,967",,16867,Consistency,texas_0
+ObjectId(5dd098e6f712fc2ae45bc9e6),dsgh,"5,55,353",,5762,Consistency,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4af9),dsgh,"5,63,820","8,2,0653",12431,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4afa),dsgh,"5,63,926","36,5,293",11193,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4afb),dsgh,"5,47,800",",400,,85",4112,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4afc),dsgh,"5,86,940",",6,50869",12069,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4afd),dsgh,"5,23,958","25,95,83",19787,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4afe),dsgh,"5,90,442","50,494,2",576,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4aff),dsgh,"5,90,195",",,5,95,0",875,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b00),dsgh,"5,62,127","57,,1,22",11199,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b01),dsgh,"5,60,006","0606,,05",16661,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b02),dsgh,"5,52,585","25,2,,,5",4521,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b03),dsgh,"5,56,624",",26,55,,",14774,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b04),dsgh,"5,86,803","85,56830",12262,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b05),dsgh,"5,72,372",",527732,",7670,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b06),dsgh,"5,72,361",15356221,7750,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b07),dsgh,"5,87,474",84477574,10847,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b08),dsgh,"5,72,690","20,765,9",6330,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b09),dsgh,"5,72,238","22,,8357",14033,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b0a),dsgh,"5,67,052",",,570,70",6066,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b0b),dsgh,"5,61,971","19,5,,51",3473,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b0c),dsgh,"5,64,094","50,,4450",5564,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b0d),dsgh,"5,30,370",03770005,15540,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b0e),dsgh,"5,89,960","5,699,6,",1863,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b0f),dsgh,"5,67,365",65336555,1655,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b10),dsgh,"5,51,348","5381,54,",4483,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b11),dsgh,"5,45,518","45851,5,",14814,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b12),dsgh,"5,70,307","000,3007",1087,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b13),dsgh,"5,87,450",04487554,10876,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b14),dsgh,"5,54,229","222,4224",11613,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b15),dsgh,"5,92,892","899,,222",7089,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b16),dsgh,"5,36,773","77,,3336",18616,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b17),dsgh,"5,86,468","568456,6",12828,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b18),dsgh,"5,63,929","959,,269",10801,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b19),dsgh,"5,52,608","555,58,6",3626,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b1a),dsgh,"5,37,158","377777,,",16463,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b1b),dsgh,"5,64,253","562,3,34",4997,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b1c),dsgh,"5,91,357","5573,9,1",15006,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b1d),dsgh,"5,52,270","20,525,7",14780,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b1e),dsgh,"5,90,016","06155,60",1097,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b1f),dsgh,"5,31,492",99419534,15177,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b20),dsgh,"5,87,577",",7,78755",10713,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b21),dsgh,"5,55,328","5,8,5532",5737,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b22),dsgh,"5,55,263","5,,25365",5982,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b23),dsgh,"5,59,919","5,9,,,55",245,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b24),dsgh,"5,38,666","6,8,6555",16553,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b25),dsgh,"5,86,064",",560468,",18158,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b26),dsgh,"5,38,567","6,557,55",17608,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b27),dsgh,"5,58,374",73753575,11203,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b28),dsgh,"5,90,094","05,9,904",1004,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b29),dsgh,"5,67,286","2,,85666",2547,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b2a),dsgh,"5,46,880","884,6458",14543,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b2b),dsgh,"5,52,296","655,,69,",14156,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b2c),dsgh,"5,92,723","9,,33,57",15396,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b2d),dsgh,"5,30,103","0,,15033",15775,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b2e),dsgh,"5,39,955","93,,5559",8398,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b2f),dsgh,"5,55,197",",55,9517",6514,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b30),dsgh,535\0899,3089\595,4006,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b31),dsgh,"5,87,455","788778,,",10879,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b32),dsgh,"5,57,837",",75,,,77",7787,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b33),dsgh,"5,44,498","45,9,4,5",17078,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b34),dsgh,"5,67,396","6,775,69",1580,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b35),dsgh,"5,30,313",",3335130",15482,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b36),dsgh,"5,67,575","576,,,5,",1327,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b37),dsgh,"5,55,468","45,5,865",4990,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b38),dsgh,"5,67,608","06,,7768",1280,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b39),dsgh,"5,72,610",",,075612",6706,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b3a),dsgh,"5,89,498","8854,99,",3206,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b3b),dsgh,"5,72,252","52,22552",13992,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b3c),dsgh,"5,88,598",",885,99,",9438,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b3d),dsgh,"5,47,595","5574,75,",3905,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b3e),dsgh,"5,88,599",85885998,9437,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b3f),dsgh,"5,64,373","3,637,54",3637,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b40),dsgh,"5,32,021","205,0,02",13188,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b41),dsgh,"5,67,536",",5635655",1353,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b42),dsgh,"5,61,960","0115696,",3808,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b43),dsgh,"5,66,769","695,766,",16581,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b44),dsgh,"5,66,843",",4566,83",11320,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b45),dsgh,"5,30,164","00604,,0",15835,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b46),dsgh,"5,69,910","1,90695,",10573,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b47),dsgh,"5,45,214",",,552144",15376,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b48),dsgh,"5,36,979",",597,693",18817,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b49),dsgh,"5,70,008","5,08,007",9972,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b4a),dsgh,"5,67,213","1,,75,13",2998,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b4b),dsgh,"5,72,665",",7,65,,7",6392,Validity,texas_0
+ObjectId(5dd098e8f712fc1fb4bf4b4c),dsgh,"5,72,740","7,0,7524",5890,Validity,texas_0
+ObjectId(5dd098ebf712fc3690a04a7d),Name,Bertha Lopez,,7336,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a7e),Name,Darla Mitchell,,12524,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a7f),Name,Laurie Schmidt-Staples,,1923,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a80),Name,Kelly Skinner,,5604,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a81),Name,Theresa Ramos,,5860,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a82),Name,Delores Marburger,,2907,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a83),Name,Lisa Dale,,11311,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a84),Name,John Forrest,,13142,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a85),Name,Yolette Garraud,,12654,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a86),Name,Nita Bliss,,6462,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a87),Name,Kendall Hamm,,10725,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a88),Name,John Foster,,13150,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a89),Name,Christina Jackson,,4871,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a8a),Name,Latoya Jackson,,9243,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a8b),Name,Latisha Scott,,519,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a8c),Name,Anna Ramirez,,17831,Completeness,texas_0
+ObjectId(5dd098ebf712fc3690a04a8d),Name,Lauren Branch,,6981,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a8e),Name,Karen Heard,,3880,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a8f),Name,Stephanie Allen,,6507,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a90),Name,Vanessa Carrillo,,17462,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a91),Name,Sheri Gonzalez,,9202,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a92),Name,Aline Aucoin,,15690,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a93),Name,Debra Andrew,,5714,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a94),Name,Courtney Craig,,18363,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a95),Name,Marlene Davis,,8240,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a96),Name,Brenda Chatman,,5436,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a97),Name,Mary Castro,,1179,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a98),Name,Rosie Gasca,,12398,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a99),Name,James Tarter,,18805,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a9a),Name,Tracy Casanova,,1241,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a9b),Name,Clara Chapa,,5421,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a9c),Name,Ginger Higgins,,9965,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a9d),Name,Nekita Sisk,,5624,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a9e),Name,Leonora Lewis,,4852,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04a9f),Name,Kristina Castillo,,17144,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa0),Name,Trevor Dillard,,15216,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa1),Name,Rebecca Hall,,10781,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa2),Name,Debra Lyda,,6801,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa3),Name,Tramisha Freeman,,17948,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa4),Name,Adrianna Villela,,18264,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa5),Name,Jane E Arriola,,19016,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa6),Name,YvelouseLeow,,231,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa7),Name,Sandra Ortiz,,6637,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa8),Name,Michelle Esparza,,1708,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aa9),Name,Walter Romanowski,,14777,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aaa),Name,Catherine Jacobs,,9171,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aab),Name,Tonya Gilmore,,12213,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aac),Name,Larry Scott Franks,,19931,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aad),Name,Don Daffron,,12578,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aae),Name,Juanita Burdette,,2414,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aaf),Name,Chiquita Denise Cleveland,,19468,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab0),Name,Emily Marugg,,3516,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab1),Name,Miguel Hernandez,,10096,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab2),Name,Cynthia Roberson,,14117,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab3),Name,Paulino Garza Jr,,12402,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab4),Name,Susan Mcadams,,1842,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab5),Name,Brenda Bahena,,19044,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab6),Name,Roberto Ayala Jr,,15703,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab7),Name,Emilio Chavez Jr,,7183,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab8),Name,Kimberly Jackson,,9246,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ab9),Name,Janet Garcia,,12809,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aba),Name,Sandra Ling,,3360,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04abb),Name,Michelle Englert,,8232,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04abc),Name,Doris Samuel,,16841,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04abd),Name,Jerome Loggin,,923,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04abe),Name,Angela Pearson,,7080,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04abf),Name,Penelope Doherty,,14877,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac0),Name,Linda Jaramillo,,2314,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac1),Name,Karen Fritz,,17924,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac2),Name,Guadalupe Cruz,,16743,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac3),Name,Anthony Reed,,13007,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac4),Name,Kellee Underwood,,14716,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac5),Name,Lora Simmons,,6103,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac6),Name,Taffy Sweet,,18760,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac7),Name,Dimitria Pope,,2941,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac8),Name,Rachel Carrera,,17852,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ac9),Name,Susan Dobie,,14870,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04aca),Name,Mario Galvan,,19970,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04acb),Name,Alicia Hernandez,,3951,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04acc),Name,Pearl Jackson,,9215,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04acd),Name,Elvira Thompson,,18907,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ace),Name,Crista Martinez,,16127,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04acf),Name,Eva (Christy) Shoemaker,,6612,Completeness,texas_0
+ObjectId(5dd098ecf712fc3690a04ad0),Name,Mark Bonner,,6255,Completeness,texas_0
+ObjectId(5dd098eff712fc2af40864bf),Name,Claudia Lucio,Claudia Lqucio,6856,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c0),Name,Sherri Gonzalez,rroGSzlnihzea e,9198,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c1),Name,Bertha Villegas,Bel+ha Villngas,18263,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c2),Name,Andrea Lowe,AFdre?WLowe,6898,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c3),Name,Nicolette Borgardts,erNtsd otcaBgreitol,6239,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c4),Name,Donna Williams,DEnnV W%lkiams,13475,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c5),Name,Fausat Lawal,Fausa{ LIeal,2413,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c6),Name,Kent Rastede," etnaKeRdtes",12979,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c7),Name,Carmen Gomez,Carmen Goomez,14666,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c8),Name,Geycha Blanke,GneaalhyBek c,6606,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864c9),Name,Bryan Jacobs,BXya7 Jaco0s,9172,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864ca),Name,Rachel St Julian,Department of Family And Protective Services,4768,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864cb),Name,Josephine Camarillo,JosephineJ Camarillo,19317,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864cc),Name,Sandra Guerra,Ga enardrSaur,1055,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864cd),Name,Stephanie Hodge,F,9840,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864ce),Name,Guadalupe Martinez,Guadalupe Ma8tinez,4949,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864cf),Name,Leaann Johnson,snJnhonneao La,8104,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d0),Name,Sylvie Islas,4/20/2009 0:00,5876,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d1),Name,Norma Vazquez,Normea Vazquez,3658,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d2),Name,Anaya Newell,"5,62,022",2674,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d3),Name,Santos Cantu Jr,Santos Cantu 4Jr,1364,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d4),Name,Angel Wahome,33,11617,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d5),Name,Samantha Mendoza,ShMdatna noaeamz,14953,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d6),Name,Stacy Garcia,Stacy G5arcia,1424,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d7),Name,Irene Ramirez,IamriR ezneer,13500,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d8),Name,William Wilkinson Jr,William Wilkinsown Jr,17000,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864d9),Name,Amber Lefevre,eb femevrALer,2245,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864da),Name,Jamie Specht,Jamie Specht,5038,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864db),Name,Maricela Benavides,F,17860,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864dc),Name,Shirley Turner,Shirlet Turner,16037,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864dd),Name,Yadira Galvan,adYnalravi Ga,17692,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864de),Name,Michael Franks," lkhMncesFriaa",13191,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864df),Name,Henry Herold,51,10050,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e0),Name,Keisha Moses,Keisha Mos'es,6905,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e1),Name,Barbara Jean Dietzmann,renabmann JziarDa eBat,19691,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e2),Name,Stephanie Urias,1/20/2010 0:00,14638,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e3),Name,Gloria Phillips,G0orMa 8hillipT,8396,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e4),Name,Rosie Haggerty,Rosge Haggeoty,10841,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e5),Name,Donna K Gann,4nn}n K 7aSn,19975,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e6),Name,Irene Hernandez,Xren_ HeKnbndez,3987,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e7),Name,Ofelia Y De Leon,Texas Workforce Commission,19635,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e8),Name,Justin Schaaf,Justnn Schaaf,14443,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864e9),Name,Melanie Scott,Department of Family And Protective Services,12321,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864ea),Name,Jacquelyn Lewis,F,1659,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864eb),Name,Kelly Mayes,zKelly Mayes,2247,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864ec),Name,Loretta Glaspy,talresGtpL aoy,12187,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864ed),Name,Lightning Rasmussen,Lightn5ng RMsmussen,4797,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864ee),Name,Meghan Anthony,Meghan Anthocny,15603,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864ef),Name,Meredith Penny,Department of Aging And Disability Services,6827,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f0),Name,Antoine Hines,M,9902,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f1),Name,Landrea Hastings,Landrea H9astings,10434,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f2),Name,Mary Doris Matabalan,Mary Doqris Matabalan,3020,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f3),Name,Roberta Stephens,RoYberta Stephens,4627,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f4),Name,Katherine Meza,Kath0rin;#Mpza,11687,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f5),Name,Steven Skelton,nlettkeSnvSeo ,14196,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f6),Name,Monica Manzano,Administrative Asst II,3519,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f7),Name,Deborah Evans,Workforce Dev Specialist II,19823,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f8),Name,Ezequiel Kelly,eyiee EluKqzll,4266,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864f9),Name,Josephine Spencer,p hsceiJrenenopeS,4950,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864fa),Name,Aaron Berns,AXaron Berns,15930,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864fb),Name,Reagan Jacobs,Reagan J>cXus,9168,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864fc),Name,Linda Erickson,cndEinoLrisak ,7215,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864fd),Name,Mary Beeler,MaryT Beeler,19126,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864fe),Name,Pedro Rosas,Health And Human Services Commission,14160,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af40864ff),Name,Miranda Garcia,"5,86,527",12763,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086500),Name,Sofia Flores,oesroiF aSlf,18156,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086501),Name,Joslyn Shirey,lyorsneyS iJh,6767,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086502),Name,Tanya Dumas,F,4416,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086503),Name,Vicente Carrillo,rolln rtaCiVeiec,1293,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086504),Name,Gertha Laurie,Gertha Lauri2e,6692,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086505),Name,Constance Bramlette,osatCnameBnretletc ,4914,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086506),Name,Adelita Valadez,Ad)lYta Vala^e.,14521,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086507),Name,Lupe Vela Jr,LPupe Vela Jr,2075,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086508),Name,Ayodeji Siwoniku,AyoVeri Siwon0kf,5620,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086509),Name,Sarah Hilderbran,Sarah Hilderbra n,4142,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af408650a),Name,Richard Cayetano,cicwardzE[yetlnm,1153,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af408650b),Name,Grayson Richardson,Grcayson Richardson,8488,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af408650c),Name,Shelley Phillips,spihPle eihlSlly,2105,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af408650d),Name,Maria Hernandez,idara rnnezMaeH,10109,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af408650e),Name,Hattie Bolden,odt HtianleBe,6267,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af408650f),Name,Leopold Rosas,(*op6jd Rp8as,14171,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086510),Name,Gwendolyn Davis,Gw[endolyn Davis,19617,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086511),Name,Geraci Mack,Geraci Mabck,6713,Accuracy,texas_0
+ObjectId(5dd098eff712fc2af4086512),Name,Carolyn Payton,CarXolyn Payton,7090,Accuracy,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9e9),Name,Brenda Smallwood,,13357,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9ea),Name,Nancy Virginia Budaus,,19278,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9eb),Name,Vivian L Cantu,,19348,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9ec),Name,Elisha Sessions,,11514,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9ed),Name,Michael Dinh,,15220,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9ee),Name,Jill Ledbetter,,5344,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9ef),Name,Carey Parsons,,13753,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f0),Name,Alta Walker,,11626,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f1),Name,Pauline Covarrubia,,18337,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f2),Name,Rachel W Minsky,,16333,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f3),Name,Brandon Jones,,7981,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f4),Name,Nellie Garces,,16689,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f5),Name,Floretta Pitre,,14303,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f6),Name,Scott Bingaman,,9790,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f7),Name,Karrie Emerson,,11592,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f8),Name,Allison Craig,,18362,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9f9),Name,Rick Smithson,,5274,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9fa),Name,Faith Smith,,8811,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9fb),Name,Everardo Guerrero,,11226,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9fc),Name,Blanca E Arreaga,,19012,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9fd),Name,Courtney Shaw,,11338,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9fe),Name,Brenda Brock,,3679,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bc9ff),Name,Shanell Gray,,11775,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca00),Name,Rosa Sanchez,,3614,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca01),Name,Lakesha Henry,,10215,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca02),Name,Tommy Haynes,,10349,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca03),Name,Kristin Payne,,13708,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca04),Name,Ethel Bowens,,6171,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca05),Name,Mary Jackson,,16444,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca06),Name,Martha Green,,11164,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca07),Name,Tristi Lee,,2267,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca08),Name,Pamela Durden,,17631,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca09),Name,Kelly Ford,,17837,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca0a),Name,Connie Gillaspia,,10427,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca0b),Name,George Cardenas,,1358,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca0c),Name,Veronica Vargas,,12515,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca0d),Name,Gigi Mitchell,,11661,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca0e),Name,William Syers,,1431,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca0f),Name,Modesta Garcia,,12292,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca10),Name,Lauren Parish,,7367,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca11),Name,Amanda Garza,,12617,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca12),Name,Kristy Kitchens,,3051,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca13),Name,Martha Haley,,10811,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca14),Name,Meagan Gilbert,,10485,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca15),Name,Frankie Lee,,2304,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca16),Name,Marlies Garza,,12580,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca17),Name,Tiffany Nelson,,3428,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca18),Name,Jerry Humphries,,12109,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca19),Name,Deana Jackson,,4302,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca1a),Name,Jennifer Shinsako,,6770,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca1b),Name,Alma Fraire,,18011,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca1c),Name,Francisca Ibezim,,9385,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca1d),Name,K Cunningham,,15388,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca1e),Name,Susie Kovar,,2874,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca1f),Name,Janet Miller,,5634,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca20),Name,Tim Passell,,13761,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca21),Name,Patricia Brachel,,16749,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca22),Name,Diana Benefield,,17857,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca23),Name,Mary Lewis,,13547,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca24),Name,Joe Maholly,,6472,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca25),Name,Mona Garcia,,12760,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca26),Name,Demetrise Gamble,,17689,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca27),Name,Marginell Lueck,,661,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca28),Name,Demonica Jackson,,9288,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca29),Name,Sara Bennett,,15914,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca2a),Name,Prince-Vincent Dedeaux,,15103,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca2b),Name,Isidra Y Morin,,16410,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca2c),Name,Howard Smith,,8634,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca2d),Name,David Correa,,5557,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca2e),Name,Cynthia Carraway,,17878,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca2f),Name,Israel Mejias,,17302,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca30),Name,Diane Giesenschlag,,12265,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca31),Name,Cherica Allen,,6485,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca32),Name,Patricia Cook,,10981,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca33),Name,Scott Smith,,8637,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca34),Name,Naomi Melchor,,17504,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca35),Name,Kashmear Hatchett,,10423,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca36),Name,Desiree Caufield,,17179,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca37),Name,Sherrie Meredith,,17217,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca38),Name,Sue Knight,,4389,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca39),Name,Stephanie Castillo,,17157,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca3a),Name,Lissette Amparan,,5979,Consistency,texas_0
+ObjectId(5dd098fdf712fc2ae45bca3b),Name,Adelita Morales,,7414,Consistency,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b4f),Name,Terry L Brown,yr ryr nrrToL,19263,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b50),Name,Larry Foust,yturoasL rF,13162,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b51),Name,Delia Lira,DiilDiealD,7818,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b52),Name,Marcus Petitt,a  PPiiacsi a,4875,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b53),Name,Charlie Lockhart,oLCo ractak rerl,946,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b54),Name,Tremechian Hodge,Hmhh Hemi emrgra,9837,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b55),Name,Sandra Cooper,rn rdaCSpooea,6684,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b56),Name,Genevieve Hernandez,nveieaeznd vrHnGeee,3979,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b57),Name,Brenda Gomez,rnzeBm Gdoae,14664,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b58),Name,Jessica Dehoyos,ooieshshhsiosce,15109,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b59),Name,Roble Wilemon,RlnmlimelonRn,13627,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b5a),Name,Mary Goldsbery-Cantu,ayoaCubnMy Gtslrr-de,12131,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b5b),Name,Sylvia Mendoza," vnaayediMlzoS",16286,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b5c),Name,Julia Ramos,uu uauiim i,8453,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b5d),Name,Darren Deuble,nerbau eDDlre,15176,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b5e),Name,Johnnie Hendrickson," oJnknnehndiHrioesc",3914,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b5f),Name,Jo Ann Roznovak,oRRRvaJkznaJ nR,14074,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b60),Name,Maria Forcade,aMaioda eFcrr,17841,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b61),Name,Jaime Castillo," ostCteaasJCCC",11709,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b62),Name,Lori Davis,viir LDsao,19619,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b63),Name,Ellen Lawler,le LErwlneal,2411,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b64),Name,Mandeline Miller,Mrne nllMieiadle,14315,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b65),Name,Lois Jamison,miss noia Jn,2583,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b66),Name,Steven Weber," tnn teterbe",8223,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b67),Name,Celia Ramirez," RRereleiRze ",17383,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b68),Name,Anita Lovelace,it eeclat vece,747,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b69),Name,Danielle Douglas,l snlooDnsegglDs,13288,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b6a),Name,Ruthie Benson,nhuRosoeon hu,16762,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b6b),Name,Noelia Guerrero," uroleGeriroeNa",10963,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b6c),Name,Stephanie Bell,SeBBhheiBllpil,15890,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b6d),Name,Miguel Garza," uGGl zaMlzM",11072,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b6e),Name,Betty Guzman,auueuBBautym,566,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b6f),Name,Portia Johnson,sJrithoo onnaP,14529,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b70),Name,Vera Williams,liVeWamsl ria,8131,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b71),Name,Susan Morales,aasuls rMSneo,7434,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b72),Name,David Hernandez,nnvvzdeeaeHiDad,3968,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b73),Name,Erica Gutierrez,ruEireit Gezacr,10911,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b74),Name,Connie Lively,eienynC olvLi,1000,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b75),Name,Rebecca Aldrich,dcle iil eaicce,7929,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b76),Name,Edwin Staples,nisapSttadsEl,18631,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b77),Name,Kevin Costigan," gasiiaignaove",18318,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b78),Name,Jennifer Shaw,JwhewanfnSree,11297,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b79),Name,Christopher Hawkins," hinarsthsowpreiCkH",10408,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b7a),Name,Felipe Gonzalez,FzloeGpilzea ne,9440,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b7b),Name,Joyce Wickersham,keoWc yrmJsehaic,14111,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b7c),Name,Soledad Escajeda,aleScsdlaaeEe ds,19800,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b7d),Name,Karen Bailey,lKBaryen iea,1609,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b7e),Name,Dean Parrott,oeDattatDaP ,7603,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b7f),Name,Griselda Hernandez,slHazilae  zedeHGa,3981,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b80),Name,Stephanie Carwile,eahaelplwline ehw,15255,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b81),Name,Antoinette Miller,M eM illlMnentAne,16472,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b82),Name,Jennifer Hunnicutt,nrtifnnnuftfctnnii,11510,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b83),Name,Cloudy Middleton," di MMd  CCdytnt",11413,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b84),Name,John Kuchar,ohurancJK h,2825,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b85),Name,Marcia Berry,icrer  yMy M,19152,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b86),Name,Benita Hodge,aingetHtaait,9851,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b87),Name,Alda Moreno,aoAedrlon M,7448,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b88),Name,Jan Dupriest,itensr DJapu,3140,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b89),Name,Yolanda Palomarez,oodmraanzael aYPl,16623,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b8a),Name,Stephanie Flores,toli rpseeaSnhFe,18154,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b8b),Name,Aaron Ard Jr,ardr   rrnAA,15621,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b8c),Name,Alicia Lopez," AcLzoeilipa",7348,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b8d),Name,Stephanie Donley,inenieaieeaee en,13360,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b8e),Name,Rocha Jennings,ge innsRohncaJ,1398,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b8f),Name,Ivonne Pena,Pnevvnnvnen,7202,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b90),Name,Jaime Landeros,asdLLnJeenJamd,2630,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b91),Name,Karen Landrum,urLnrrenddnme,2611,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b92),Name,Pamela Dickson,DPnoDsnanamsDs,17362,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b93),Name,Jaime Hernandez Jr," aaarneaezJaeJznrd",4056,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b94),Name,Glenn Hardy,ed allHGnne,10625,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b95),Name,Michael Cheponis,cocshh eCnoipMhe,1891,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b96),Name,Angela Miller,enAlelnieeMel,8934,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b97),Name,Cara Inboden,aCInoaannda ,9054,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b98),Name,Suzanne Larson,nnnseLnaoznnne,11459,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b99),Name,Rosanna Hill,anlasniloHR ,4159,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b9a),Name,Susan Jarvis,SSaassnsssra,14895,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b9b),Name,Carla Scott,SocaoaCttra,559,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b9c),Name,Karen M Merritt,ner entttrrnit ,16299,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b9d),Name,Mario Guzman,uuGMGM uiazo,10874,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b9e),Name,Gladys Dimsdle,sGelsda ylDmid,15219,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4b9f),Name,Susanita Z Benavidez,na vBueizidaSeZsant ,19140,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4ba0),Name,Stacey Johnson,ota toaehhJahn,8045,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4ba1),Name,Edward Strieber Jr,JrrrwJdd rbJrdEEdd,18718,Validity,texas_0
+ObjectId(5dd09902f712fc1fb4bf4ba2),Name,Deborah Hill,eehrlhhlebrh,4146,Validity,texas_0
