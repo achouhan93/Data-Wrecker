@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+// import org.apache.logging.log4j.LOGGER;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -31,7 +31,7 @@ import com.mongodb.util.JSON;
 @Transactional
 public class ConsistencyServiceImpl implements ConsistencyService {
 
-	private static final Logger LOGGER = LogManager.getLogger();
+	//private static final LOGGER LOGGER = LogManager.getLOGGER();
 	@Autowired
 	private DataProfilerInfoRepo dataProfilerInfoRepo;
 	private DataProfilerInfo dataProfilerInfo;
@@ -65,7 +65,18 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 				
 				String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
 				if (colValue == null || colValue.isEmpty()) {
-					System.out.println("value is null ");
+					changesLog = new ChangesLog();
+					changesLog.setColumnName(columnName);
+					changesLog.setOid(recordIndexes.get(j));
+					changesLog.setDimensionName("Consistency");
+					changesLog.setDatasetName(collectionName);
+					changesLog.setOldValue(colValue);
+					datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, colValue);
+					datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
+					changesLog.setNewValue(colValue);
+					changesLogList.add(changesLog);
+					//addToDb(changesLog);
+					
 				} else {
 					changesLog = new ChangesLog();
 					changesLog.setColumnName(columnName);
@@ -78,7 +89,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 					datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
 					changesLog.setNewValue(colValue);
 					changesLogList.add(changesLog);
-					addToDb(changesLog);
+					//addToDb(changesLog);
 				}			
 			}
 
@@ -87,42 +98,46 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 			e.printStackTrace();
 		}
 
+		addToDb(changesLogList);
+		
 		return addIntoDatabase(collectionName, datasetArray);
 	}
 
-	private void addToDb(ChangesLog changesLog2) {
-		changesLogrepo.insert(changesLog);
+	private void addToDb(List<ChangesLog> changesLogList) {
+		for(int i =0; i < changesLogList.size(); i++) {
+			changesLogrepo.insert(changesLogList.get(i));
+		}
 	}
 
 	private String removeConsistency(String colValue, String columnDatatype) {
-		String result = "";
+		String result = " ";
 		switch (columnDatatype.toLowerCase()) {
 		case "string":
-			LOGGER.info("String");
+			// LOGGER.info("String");
 			if (colValue.isEmpty()) {
 				result = callServicesForString(colValue);
 			}
 			break;
 		case "integer":
-			LOGGER.info("Integer");
+			// LOGGER.info("Integer");
 			if (colValue.isEmpty()) {
 				result = callServicesForInteger(Integer.parseInt(colValue));
 			}
 			break;
 		case "character":
-			LOGGER.info("Character");
+			// LOGGER.info("Character");
 			if (colValue.isEmpty()) {
 				result = callServicesForChar(colValue);
 			}
 			break;
 		case "date":
-			LOGGER.info("Date");
+			// LOGGER.info("Date");
 			if (colValue.isEmpty()) {
 				result = callServicesForDate(colValue);
 			}
 			break;
 		case "boolean":
-			LOGGER.info("Boolean");
+			// LOGGER.info("Boolean");
 			if (colValue.isEmpty()) {
 				result = callServicesForBoolean(colValue);
 			}
@@ -149,7 +164,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 			}
 		}
 
-		mongo.close();
+		// mongo.close();
 		return dbList;
 	}
 
@@ -175,7 +190,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 
 	private String callServicesForString(String colValue) {
 		int randomNum = getRandomNumber(2);
-		LOGGER.info("Random number selected " + randomNum);
+		// LOGGER.info("Random number selected " + randomNum);
 		String cha = "";
 		switch (randomNum) {
 		case 0:
@@ -184,11 +199,14 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 			} else {
 				cha = waysofConsistencyToBeApplied.reverseCase(colValue);
 			}
-			LOGGER.info("Value after Change " + cha);
+			// LOGGER.info("Value after Change " + cha);
 			break;
 		case 1:
 			cha = waysofConsistencyToBeApplied.reverseCase(colValue);
-			LOGGER.info("Value after Change " + cha);
+			// LOGGER.info("Value after Change " + cha);
+			break;
+		default:	
+			cha = waysofConsistencyToBeApplied.reverseCase(colValue);
 			break;
 		}
 		return cha;
@@ -204,9 +222,12 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 			} else {
 				cha = waysofConsistencyToBeApplied.reverseCase(colValue);
 			}
-			LOGGER.info("Value after Change " + cha);
+			// LOGGER.info("Value after Change " + cha);
 			break;
 		case 1:
+			cha = waysofConsistencyToBeApplied.consistencyForCharacters(colValue);
+			break;
+		default:
 			cha = waysofConsistencyToBeApplied.consistencyForCharacters(colValue);
 			break;
 		}
@@ -223,6 +244,10 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 			break;
 		case 1:
 			num = waysofConsistencyToBeApplied.convertToFloat(colValue);
+			break;
+		default:
+			num = waysofConsistencyToBeApplied.convertIntegerIntoBinary(colValue);
+			break;
 
 		}
 		return num;
@@ -272,11 +297,11 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		int versionNumber;
 		if (name[name.length - 1].isEmpty()) {
 			newCollectionName = name[0] + "_1";
-			// LOGGER.info("New Collection Name is "+ name[0]+"_1");
+			// // LOGGER.info("New Collection Name is "+ name[0]+"_1");
 		} else {
 			versionNumber = Integer.parseInt(name[name.length - 1]) + 1;
 			newCollectionName = name[0] + "_" + versionNumber;
-			// LOGGER.info("New Collection Name is "+newCollectionName);
+			// // LOGGER.info("New Collection Name is "+newCollectionName);
 		}
 
 		DBCollection collection = db.createCollection(collectionName, null);
@@ -291,7 +316,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 				e.printStackTrace();
 			}
 		}
-		mongo.close();
+		 // mongo.close();
 		return collectionName;
 	}
 
@@ -300,10 +325,10 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		String newCollectionName;
 		if (Integer.parseInt(name[name.length - 1]) == 1) {
 			newCollectionName = collectionName;
-			LOGGER.info("New Collection Name is " + collectionName);
+			// LOGGER.info("New Collection Name is " + collectionName);
 		} else {
 			newCollectionName = name[0] + "_" + 0;
-			LOGGER.info("New Collection Name is " + newCollectionName);
+			// LOGGER.info("New Collection Name is " + newCollectionName);
 		}
 		return newCollectionName;
 	}

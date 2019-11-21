@@ -161,6 +161,16 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		return totalRowsCanBeWrecked -(totalCount - maxValue);
 		
 	}
+
+	@Override
+	public Dimensions UniquenessCheck(DatasetStats datasetStats, int avgWreckingCount) {
+		dimensions = new Dimensions();
+		dimensions.setDimensionName("Uniqueness");
+		dimensions.setStatus(true);
+		dimensions.setReason("Uniqueness is performed at the record level");	
+		dimensions.setRemainingWreakingCount(avgWreckingCount);
+		return dimensions;
+	}
 	
 	
 	/*private boolean isValid(DatasetStats datasetStats,int totalRowsCanBeWrecked) {

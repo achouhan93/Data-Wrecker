@@ -213,5 +213,17 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 			}
 		}
 	}
+
+	@Override
+	public Dimensions UniquenessCheck(DatasetStats datasetStats, int avgWreckingCount, int Colcount) {
+		
+		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(avgWreckingCount, datasetStats.getProfilingInfo().getColumnStats().getRowCount(), Colcount);
+		dimensions = new Dimensions();
+		dimensions.setDimensionName("Uniqueness");
+		dimensions.setStatus(true);
+		dimensions.setReason("Uniqueness is performed at the record level");	
+		dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked);
+		return dimensions;
+	}
 	
 }

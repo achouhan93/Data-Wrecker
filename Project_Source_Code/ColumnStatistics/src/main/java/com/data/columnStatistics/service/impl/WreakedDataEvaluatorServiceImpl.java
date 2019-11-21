@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.stereotype.Service;
 
+import com.data.columnStatistics.model.ChangesLog;
 import com.data.columnStatistics.model.DataProfilerInfo;
 import com.data.columnStatistics.model.DatasetStats;
 import com.data.columnStatistics.repository.ColumnStatsRepo;
@@ -76,7 +77,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 		// columnPatternModel.get(i).getProfilingInfo();
 		columnNamesList = getColumnHeaders(dbList.getJSONObject(0));
 		columnNamesList.remove("isWreaked");
-		System.out.println("+++++"+columnNamesList);
+		// System.out.println("+++++"+columnNamesList); commented
 		for (int i = 0; i < datasetStatsList.size(); i++) {
 			if (datasetStatsList.get(i).getFileName().equals(fileName)) {
 				dataProfilerInfo = datasetStatsList.get(i);
@@ -88,7 +89,9 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 			}
 
 		}
-		System.out.println("columnDataTypeList" + columnDataTypeList);
+		// System.out.println("columnDataTypeList" + columnDataTypeList); commented
+		List<ChangesLog> changeslogList = new ArrayList<ChangesLog>();
+		ChangesLog changesLog = new ChangesLog(); 
 		for (int i = 0; i < datasetSize; i++) {
 			for (int j = 0; j < columnNamesList.size(); j++) {
 
@@ -106,7 +109,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 						/*System.out.println("Record Data ColumnName:" + columnName + " ColumnValue:" + colValue
 								+ " DataType:" + columnDataTypeList.get(j) );*/
 						dbList.getJSONObject(i).put("isWreaked",true);
-						//System.out.println("+++++++++++"+dbList);
+						//System.out.println("+++++++++++"+dbList); commented
 					}
 					break;
 				case "String":

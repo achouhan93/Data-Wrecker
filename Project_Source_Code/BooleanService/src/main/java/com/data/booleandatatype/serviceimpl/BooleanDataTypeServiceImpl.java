@@ -155,6 +155,18 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 			return true;
 		}
 	}
+
+	@Override
+	public Dimensions UniquenessCheck(DatasetStats datasetStats, int avgWreckingCount) {
+		
+		dimensions = new Dimensions();
+		dimensions.setDimensionName("Uniqueness");
+		dimensions.setStatus(true);
+		dimensions.setReason("Uniqueness is performed at the record level");	
+		dimensions.setRemainingWreakingCount(avgWreckingCount);
+		return dimensions;
+		
+	}
 	
 	/*private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
 		

@@ -73,6 +73,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 				dimensionsList.add(dateService.AccuracyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(dateService.ConsistencyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(dateService.ValidityCheck(datasetStatsList.get(j),avgWreckingCount));
+				dimensionsList.add(dateService.UniquenessCheck(datasetStatsList.get(j), avgWreckingCount));
 				dimensionServices = new DimensionInfoModel();
 				dimensionServices.setDimensionsList(dimensionsList);
 				datasetStatsList.get(j).setDimensionsList(dimensionsList);

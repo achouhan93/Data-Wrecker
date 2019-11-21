@@ -14,6 +14,6 @@ public interface BooleanDataTypeService {
 	
 	public Dimensions AccuracyCheck(DatasetStats datasetStats, int avgWreckingCount);
 	
-	
+	public Dimensions UniquenessCheck(DatasetStats datasetStats, int avgWreckingCount);
 	
 }

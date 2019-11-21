@@ -174,15 +174,6 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(collectionName);
 		List<DatasetStats> datasetStatsList = dataprofilerInfo.getDatasetStats();
 		
-		/*for(int j =0; j< datasetStatsList.size(); j++) {
-			if(datasetStatsList.get(j).getColumnName().equals(columnHeaders.get(j))) {
-				List<Dimensions> dimensionList = new ArrayList<Dimensions>();
-				dimensionList = getDimensionResults(datasetStatsList.get(j));
-				result = callDimensionServicesForWrecking(dimensionList, columnHeaders.get(j));
-				
-			}			
-		}*/
-		
 		int totalRowCount = datasetStatsList.get(1).getProfilingInfo().getColumnStats().getRowCount();
 		int totalNumberOfRecordsToWreck = numberOfrecordsTobePicked(totalRowCount,wreckingPercentage);
 		List<Integer> uniqueIdsToWreck = getIdsToWreck(totalNumberOfRecordsToWreck, totalRowCount);
@@ -294,18 +285,10 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	
 	private String wreckRecordsWithIDs(List<Integer> uniqueIdList, String collectionName) {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
-		List<String> objectIds = new ArrayList<String>();
+		//List<String> objectIds = new ArrayList<String>();
 		List<String> columnNames = new ArrayList<String>();
 		String newCollectionName = collectionName;
 		int i=0;
-		try {			
-			for(i =0; i < uniqueIdList.size(); i++ ) {
-				objectIds.add(datasetArray.getJSONObject(uniqueIdList.get(i)).getJSONObject("_id").getString("$oid"));
-			}
-			
-		} catch (JSONException e) {
-			e.printStackTrace();
-		} 
 		
 		columnNames = getColumnHeaders(collectionName);
 		
@@ -313,9 +296,9 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	
 			String colName = columnNames.get(i);
 			int totalRecordsToWreck = getTotalRecordsToWreck(collectionName, colName);
-			Collections.shuffle(objectIds);
+		
 			List<Integer> recordIndexes = new ArrayList<Integer>();
-			//objectIdsToWreck = objectIds.subList(0, totalRecordsToWreck);
+		
 			
 			for(int j =0; j < totalRecordsToWreck; j++) {
 				if(!uniqueIdList.isEmpty()) {
@@ -336,6 +319,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		String firstVersionOfCollection = getFirstVersionOfCollection(collectionName);
 		// LOGGER.info("First Version "+firstVersionOfCollection);
 		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(firstVersionOfCollection);
+		
 		List<Dimensions> dimensionsList = new ArrayList<Dimensions>();
 		List<Integer> wreckingIdsForDimension = new ArrayList<Integer>();
 		String newCollectionName = collectionName;
@@ -343,27 +327,44 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		for( i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
 			if(dataprofilerInfo.getDatasetStats().get(i).getColumnName().equals(colName)) {
 				dimensionsList = new ArrayList<Dimensions>();
-				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionList().getDimensionsList();
+				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionsList();
 				break;
 			}
 		}
 		if(!dimensionsList.isEmpty()) {
-			int count =0;
-			int dimensionWreckingCount = 0;
+		
+		
 			for(i =0; i< dimensionsList.size(); i++) {
-				if(dimensionsList.get(i).isStatus()) {
-					 dimensionWreckingCount = dimensionWreckingCount + dimensionsList.get(i).getRemainingWreakingCount();
-					wreckingIdsForDimension = objectIdsToWreck.subList(count, dimensionWreckingCount-1);
-					
+				int dimensionWreckingCount = 0;
+				wreckingIdsForDimension = new ArrayList<Integer>();
+				
+				if(dimensionsList.get(i).isStatus() == true) {
+					 
+					dimensionWreckingCount =  dimensionsList.get(i).getRemainingWreakingCount();
+					wreckingIdsForDimension = getDatasetRecordIDS(dimensionWreckingCount, firstVersionOfCollection);
+						 
+					 }
 					
 					newCollectionName =  callDimension(wreckingIdsForDimension, dimensionsList.get(i).getDimensionName(), colName, newCollectionName);
-					count = dimensionWreckingCount;
-				}
 			}			
 		}
 		
 		return newCollectionName;
 	}
+	
+	
+	private List<Integer> getDatasetRecordIDS(int wreckingCount, String collectionName) {
+		
+		JSONArray datasetArray = getDatasetFromDb(collectionName);
+		List<Integer> wreckingIdsForDimension = new ArrayList<Integer>();
+		Random rand = new Random();
+		for(int t=0; t< wreckingCount; t++) {
+			rand = new Random();
+			wreckingIdsForDimension.add(rand.nextInt(datasetArray.length()));
+		}
+		return wreckingIdsForDimension;
+	}
+	
 	
 	private int getTotalRecordsToWreck(String collectionName, String columnName) {
 		
@@ -374,7 +375,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		for( i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
 			if(dataprofilerInfo.getDatasetStats().get(i).getColumnName().equals(columnName)) {
 				dimensionsList = new ArrayList<Dimensions>();
-				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionList().getDimensionsList();
+				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionsList();
 			}
 		}
 		if(!dimensionsList.isEmpty()) {
@@ -400,5 +401,6 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		}
 		return newCollectionName;
 	}
+	
 	
 }

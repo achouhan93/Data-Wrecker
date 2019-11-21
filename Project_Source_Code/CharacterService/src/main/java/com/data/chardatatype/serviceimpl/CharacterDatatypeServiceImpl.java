@@ -66,18 +66,25 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 			
 			dimensions = new Dimensions();
 			dimensions.setDimensionName("Consistency");
-			dimensions.setStatus(true);
+			
 			dimensions.setReason("The patterns identified are less than the desired count");
-			dimensions.setRemainingWreakingCount(avgWrecking - dirtyPatternCount);
+			if((avgWrecking - dirtyPatternCount) > 0) {
+				dimensions.setStatus(true);
+				dimensions.setRemainingWreakingCount(avgWrecking - dirtyPatternCount);
+				
+			}else {
+				dimensions.setStatus(false);
+			}
+			
 			return dimensions;
 			
 		}else {
 			
 			dimensions = new Dimensions();
 			dimensions.setDimensionName("Consistency");
-			dimensions.setStatus(true);
+			dimensions.setStatus(false);
 			dimensions.setReason("The patterns identified are greater than the desired count");
-			dimensions.setRemainingWreakingCount(avgWrecking - dirtyPatternCount);
+			// dimensions.setRemainingWreakingCount(avgWrecking - dirtyPatternCount);
 			return dimensions;
 			
 		}
@@ -125,10 +132,15 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 		return dimensions;
 	}
 	
-	/*private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {
+	@Override
+	public Dimensions UniquenessCheck(DatasetStats datasetStats, int avgWreckingCount) {
 		
-		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 4) ; 
-		return totalRowsCanBeWrecked;
+		dimensions = new Dimensions();
+		dimensions.setDimensionName("Uniqueness");
+		dimensions.setStatus(true);
+		dimensions.setReason("Uniqueness is performed at the record level");	
+		dimensions.setRemainingWreakingCount(avgWreckingCount);
+		return dimensions;
+		
 	}
-	*/
 }

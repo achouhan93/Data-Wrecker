@@ -9,7 +9,7 @@ import java.util.Random;
 import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+// import org.apache.logging.log4j.// LOGGER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -26,7 +26,7 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 
 	@Autowired
 	private DataProfilerInfoRepo dataProfilerInfoRepo;
-	private static final Logger LOGGER = LogManager.getLogger();
+	//private static final // LOGGER // LOGGER = LogManager.get// LOGGER();
 	private Random rand = new Random(); 
 	private List<DataProfilerInfo> dataProfilerInfoList;
 	private List<DatasetStats> datasetStatsList;
@@ -36,7 +36,7 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 	
 	@Override
 	public String generateJunkValues(String colValue) {
-		LOGGER.info("Generate Junk Values ");
+		// LOGGER.info("Generate Junk Values ");
 		String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 		char[] characters = colValue.toCharArray();
 		char[] newString = new char[characters.length];
@@ -50,7 +50,7 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 
 	@Override
 	public String shuffleString(String colValue) {
-		LOGGER.info("Shuffle Strings");
+		// LOGGER.info("Shuffle Strings");
 		List<Character> characters = new ArrayList<Character>();
         for(char c:colValue.toCharArray()){
             characters.add(c);
@@ -65,7 +65,7 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 
 	@Override
 	public String generateStringAndSpecialChars(String colValue) {
-		LOGGER.info("Generate Junk Values ");
+		// LOGGER.info("Generate Junk Values ");
 		String str = "!@#$%^&*()_+{}:>?/.,;'[]";
 		char[] characters = colValue.toCharArray();
 		char[] newString = new char[characters.length];
@@ -118,6 +118,8 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 				value = "-0";
 			}
 			break;
+		default:
+			value = "Tr";
 			
 		}
 		return value;
@@ -129,7 +131,7 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 	public String invalidateInteger(int colValue) {
 	 int length = String.valueOf(colValue).length();
 	 
-	 LOGGER.info("Generate Junk Values ");
+	 // LOGGER.info("Generate Junk Values ");
 		String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 		char[] characters = str.toCharArray();
 		char[] newString = new char[characters.length];
@@ -144,9 +146,9 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 	
 	@Override
 	public String invalidDecimal(String colValue) {
-	 /*int length = String.valueOf(colValue).length();
+	 int length = String.valueOf(colValue).length();
 	 
-	 LOGGER.info("Generate Junk Values ");
+	 // LOGGER.info("Generate Junk Values ");
 		String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+{}|,<>?[]./";
 		char[] characters = str.toCharArray();
 		char[] newString = new char[characters.length];
@@ -155,8 +157,7 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 			int index = rand.nextInt(characters.length);
 			newString[i] = characters[index];			
 		}
-		return String.copyValueOf(newString);*/ 
-		return null;
+		return String.copyValueOf(newString); 
 	 
 	}
 	

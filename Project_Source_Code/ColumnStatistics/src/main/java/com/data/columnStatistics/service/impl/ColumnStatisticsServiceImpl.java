@@ -213,8 +213,8 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
         	frequencyOfColumnValuesList.add(frequencyOfColumnValues);
         }
 
-        frequencyOfColumnValuesMap.forEach((k,v) -> System.out.println("Key = "
-                + k + ", Value = " + v));
+       /* frequencyOfColumnValuesMap.forEach((k,v) -> System.out.println("Key = "
+                + k + ", Value = " + v)); commented*/
 
 		FrequencyOfColumn frequencyOfColumn = new FrequencyOfColumn();
 		frequencyOfColumn.setFrequencyOfColumnValuesList(frequencyOfColumnValuesList);

@@ -9,7 +9,6 @@ public class IntegerDataTypeService
     public static void main( String[] args )
     {
     	SpringApplication.run(IntegerDataTypeService.class, args);
-    	System.out.println("*************************IntegerdataTypeService*************************");
     }
 }
 

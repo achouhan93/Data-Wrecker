@@ -62,7 +62,7 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 			datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
 			changesLog.setNewValue("");
 			changesLogList.add(changesLog);
-			addToDb(changesLog);
+			//addToDb(changesLog);
 		
 		}
 		
@@ -70,6 +70,9 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		addToDb(changesLogList);
+		
 		return addIntoDatabase(collectionName,datasetArray);		
 	}
 	
@@ -91,12 +94,14 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 			} 
 		}
 		
-		mongo.close();
+		// mongo.close();
 		return dbList;
 	}
 	
-	private void addToDb(ChangesLog changesLog) {
-		changesLogrepo.insert(changesLog);
+	private void addToDb(List<ChangesLog> changesLogList) {
+		for(int i =0; i < changesLogList.size(); i++) {
+			changesLogrepo.insert(changesLogList.get(i));
+		}
 	}
 	
 	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {
@@ -129,7 +134,7 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 				e.printStackTrace();
 			}
 		 }		
-		 mongo.close();
+		// // mongo.close();
 		return collectionName;
 	}
 	
