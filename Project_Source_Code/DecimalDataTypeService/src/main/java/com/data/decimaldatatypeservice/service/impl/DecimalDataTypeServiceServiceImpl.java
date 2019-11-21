@@ -12,7 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.decimaldatatypeservice.model.DataProfilerInfo;
 import com.data.decimaldatatypeservice.model.DataSetStats;
-import com.data.decimaldatatypeservice.model.DimensionInfoModel;
 import com.data.decimaldatatypeservice.model.Dimensions;
 import com.data.decimaldatatypeservice.model.ProfilingInfoModel;
 import com.data.decimaldatatypeservice.repository.DecimalDataTypeServiceRepository;
@@ -36,7 +35,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 
 		// get header of the dataset
 		List<String> columnHeader1 = new ArrayList<String>();
-		
+		columnHeader1 = getColumnHeaders(collectionName); //Getting columnheader from the document in mongo
 		int indivisualWreakingCountForDimentions = 0;
 		LinkedHashSet<String> datadimention = new LinkedHashSet<String>();
 
@@ -56,7 +55,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 			for (int datasetHeadersIterator = 0; datasetHeadersIterator < columnHeader1
 					.size(); datasetHeadersIterator++) {
 				
-				DimensionInfoModel dimensionInfoModel = new DimensionInfoModel();
+				
 				List<Dimensions> DimensionsList = new ArrayList<Dimensions>();
 
 				int consistancyCnt = 0;
@@ -156,8 +155,9 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - accuracyCnt);
 						DimensionsList.add(dimensions);
 					}
-					dimensionInfoModel.setDimensionsList(DimensionsList);
-					dataSetStatsList.get(datasetHeadersIterator).setDimensionList(dimensionInfoModel);
+
+					//dimensionInfoModel.setDimensionsList(DimensionsList);
+					dataSetStatsList.get(datasetHeadersIterator).setDimensionsList(DimensionsList);
 				}
 
 				
@@ -170,6 +170,26 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 		}
 		return "Success";
 	}
+
+	private List<String> getColumnHeaders(String collectionName) {
+		List<DataProfilerInfo> datasetProfilerInfo = decimalDataTypeServiceRepository.findAll();
+		List<DataSetStats> datasetStats = new ArrayList<DataSetStats>();
+		List<String> columnHeader1 = new ArrayList<String>();
+		
+		for(int i =0;i < datasetProfilerInfo.size();i++) {
+			if(datasetProfilerInfo.get(i).getFileName().equals(collectionName)) {
+				datasetStats = datasetProfilerInfo.get(i).getDatasetStats();
+				for(int index = 0;index<datasetStats.size();index++) {
+					columnHeader1.add(datasetStats.get(index).getColumnName());
+				}
+				break;
+			}
+		}
+		
+		return columnHeader1;
+	}
+		
+	
 
 	private DataProfilerInfo getDatasetThroughColumnName(String collectionName, String columnName,
 			List<DataProfilerInfo> datasetStatsList) {

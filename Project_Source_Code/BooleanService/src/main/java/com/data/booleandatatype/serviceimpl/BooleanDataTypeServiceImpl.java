@@ -49,6 +49,7 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 				dimensions.setDimensionName("Consistency");
 				dimensions.setStatus(true);
 				dimensions.setReason("The patterns identified are less than the desired count");
+				dimensions.setRemainingWreakingCount(avgWrecking);
 				return dimensions;
 			}else {
 				dimensions.setDimensionName("Consistency");
@@ -85,12 +86,12 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(true);
 			dimensions.setReason("The column contains valid values");
-			dimensions.setRemainingWreakingCount(avgWrecking - count);
+			dimensions.setRemainingWreakingCount(avgWrecking);
 			return dimensions;
 		}else {
 			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(false);
-			dimensions.setRemainingWreakingCount(avgWrecking - count);
+			dimensions.setRemainingWreakingCount(avgWrecking);
 			dimensions.setReason("The column contains valid values");
 			return dimensions;
 		}

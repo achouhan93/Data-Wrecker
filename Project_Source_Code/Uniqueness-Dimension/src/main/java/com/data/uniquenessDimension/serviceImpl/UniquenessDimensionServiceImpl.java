@@ -2,7 +2,6 @@ package com.data.uniquenessDimension.serviceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -40,40 +39,39 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		JSONArray changedRecordObj= new JSONArray();
 		changesLogList = new ArrayList<ChangesLog>();
-		
+		List<Integer> recordIndexes = new ArrayList<Integer>();
+
+		for(String str : wreckingIdsForDimension) {
+			recordIndexes.add(Integer.valueOf(str));
+		}
 		try {
 			
-		for(int j =0; j < wreckingIdsForDimension.size(); j++ ) {
+		for(int j =0; j < recordIndexes.size(); j++ ) {
 				
 				changedRecordObj= new JSONArray();				
 				String objectId = wreckingIdsForDimension.get(j);
 				
-				for(int i =0; i < datasetArray.length(); i++) {
 					
-						String oid = datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid");
-						if(oid.equals(objectId)) {
+						String oid = datasetArray.getJSONObject(j).getJSONObject("_id").getString("$oid");
+						
 							// LOGGER.info("Initial length " + datasetArray.length() );
 							changesLog = new ChangesLog();
 							changesLog.setDimensionName("Uniqueness");
 							changesLog.setDatasetName(collectionName);
 							changesLog.setColumnName(columnName);
 							changesLog.setOid(objectId);
-							changesLog.setOldValue(datasetArray.getJSONObject(i).get(columnName).toString());
+							changesLog.setOldValue(datasetArray.getJSONObject(j).get(columnName).toString());
 							JSONObject jsonObject = new JSONObject();
-							jsonObject = datasetArray.getJSONObject(i);
-							datasetArray.getJSONObject(i).put("isWrecked", true);
-							jsonObject.remove("_id");
+							jsonObject = datasetArray.getJSONObject(j);
+							datasetArray.getJSONObject(j).put("isWrecked", true);
+							jsonObject.put("_id",null);
 							jsonObject.put("isWrecked", true);				
 							changedRecordObj.put(jsonObject);
-							changesLog.setNewValue(datasetArray.getJSONObject(i).get(columnName).toString());
+							changesLog.setNewValue(datasetArray.getJSONObject(j).get(columnName).toString());
 							changesLogList.add(changesLog);
 							addToDb(changesLog);
 							break;
-						}
-					
-					
-					
-			}
+	
 		
 		}
 		

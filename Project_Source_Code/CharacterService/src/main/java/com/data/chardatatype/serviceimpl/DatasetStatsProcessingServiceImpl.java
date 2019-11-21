@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.chardatatype.model.DataProfilerInfo;
 import com.data.chardatatype.model.DatasetStats;
-import com.data.chardatatype.model.DimensionInfoModel;
 import com.data.chardatatype.model.Dimensions;
 import com.data.chardatatype.repository.DatasetStatsInfoRepository;
 import com.data.chardatatype.service.CharacterDataTypeService;
@@ -28,7 +27,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	private List<Dimensions> dimensionsList;
 	private List<DataProfilerInfo> dataProfilerInfoList;
 	private DataProfilerInfo dataProfilerInfo;
-	
+
 	@Override
 	public String getDimensionResults(String fileName,int wreckingPercentage) {
 		dimensionsList = new ArrayList<Dimensions>();
@@ -37,7 +36,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 			if(dataProfilerInfoList.get(i).getFileName().equals(fileName)) {
 				dataProfilerInfo = new DataProfilerInfo();
 				dataProfilerInfo = dataProfilerInfoList.get(i);
-				break;				
+				break;
 			}
 		}
 		datasetStatsList =getDimensionResults(dataProfilerInfo.getDatasetStats(),wreckingPercentage);
@@ -48,21 +47,21 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 			return "Fail";
 		}
 	}
-	
+
 	private boolean updateDimensionList(DataProfilerInfo dataProfilerInfo) {
 		if(datasetStatsRepo.save(dataProfilerInfo) != null) {
-			return true;	
+			return true;
 		}else {
 			return false;
-		}			
+		}
 	}
-	
-	
+
+
 	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
-		DimensionInfoModel dimensionServices = new DimensionInfoModel();
+
 		int totalRowCount = datasetStatsList.get(0).getProfilingInfo().getColumnStats().getRowCount();
 		int avgWreckingCount = (totalRowCount * wreckingPercentage) / (100 * 4 * datasetStatsList.size());
-		
+
 		for(int j =0; j< datasetStatsList.size(); j++) {
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("Character")) {
 				dimensionsList.add(characterService.NullCheck(datasetStatsList.get(j),avgWreckingCount));
@@ -70,13 +69,11 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 				dimensionsList.add(characterService.ConsistencyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(characterService.ValidityCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(characterService.UniquenessCheck(datasetStatsList.get(j), avgWreckingCount));
-				dimensionServices = new DimensionInfoModel();
-				dimensionServices.setDimensionsList(dimensionsList);
 				datasetStatsList.get(j).setDimensionsList(dimensionsList);
 			}
 		}
 		return datasetStatsList;
 	}
-	
+
 
 }

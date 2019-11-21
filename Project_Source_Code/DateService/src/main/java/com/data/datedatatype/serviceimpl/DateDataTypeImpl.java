@@ -28,13 +28,13 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		//int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		
 		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > wreckingPercentage) {
-			dimensions.setDimensionName("NullCheck");
+			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(false);
 			dimensions.setRemainingWreakingCount(wreckingPercentage - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			dimensions.setReason("The number of null values exceeds threshold");
 			return dimensions;
 		} else {
-			dimensions.setDimensionName("NullCheck");
+			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(true);
 			dimensions.setRemainingWreakingCount(wreckingPercentage - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			dimensions.setReason("The number of null values less than threshold");
@@ -49,13 +49,13 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		
 		if(datasetStats.getProfilingInfo().getPatternsIdentified().size() > 1) {
 			if(isConsistent(datasetStats,totalRowsCanBeWrecked)) {
-				dimensions.setDimensionName("ConsistencyCheck");
+				dimensions.setDimensionName("Consistency");
 				dimensions.setStatus(true);
 				dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
 				dimensions.setReason("The patterns identified are less than the desired percentage");
 				return dimensions;
 			}else {
-				dimensions.setDimensionName("ConsistencyCheck");
+				dimensions.setDimensionName("Consistency");
 				dimensions.setStatus(false);
 				dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
 				dimensions.setReason("The patterns identified are greater than the desired percentage");
@@ -63,7 +63,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			}
 			
 		}else {
-			dimensions.setDimensionName("ConsistencyCheck");
+			dimensions.setDimensionName("Consistency");
 			dimensions.setStatus(true);
 			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
 			dimensions.setReason("The patterns identified are less than the desired percentage");
@@ -89,13 +89,13 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		}
 		
 		if(totalCount > totalRowsCanBeWrecked) {
-			dimensions.setDimensionName("ValidityCheck");
+			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(true);
 			dimensions.setReason("There are valid values which is less than 20");
 			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - invalidValues);
 			return dimensions;
 		}else {
-			dimensions.setDimensionName("ValidityCheck");
+			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(false);
 			dimensions.setReason("There are Invalid values which is greater than 20");
 			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - invalidValues);
@@ -107,7 +107,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	public Dimensions AccuracyCheck(DatasetStats datasetStats, int totalRowsCanBeWrecked) {
 		// int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		dimensions = new Dimensions();
-		dimensions.setDimensionName("AccuracyCheck");
+		dimensions.setDimensionName("Accuracy");
 		dimensions.setStatus(true);
 		dimensions.setReason("There are Accurate values in the datasets");
 		dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked);

@@ -12,7 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.integerdatatypeservice.model.DataProfilerInfo;
 import com.data.integerdatatypeservice.model.DataSetStats;
-import com.data.integerdatatypeservice.model.DimensionInfoModel;
 import com.data.integerdatatypeservice.model.Dimensions;
 import com.data.integerdatatypeservice.model.ProfilingInfoModel;
 import com.data.integerdatatypeservice.repository.IntegerDataTypeRepository;
@@ -60,7 +59,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 			for (int datasetHeadersIterator = 0; datasetHeadersIterator < columnHeader1
 					.size(); datasetHeadersIterator++) {
 
-				DimensionInfoModel dimensionInfoModel = new DimensionInfoModel();
+				
 				List<Dimensions> DimensionsList = new ArrayList<Dimensions>();
 
 				int consistancyCnt = 0;
@@ -162,18 +161,8 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						DimensionsList.add(dimensions);
 					}
 					
-					/*if(wreakingPercentage > profilingInfoModel.getColumnStats().getDuplicateCount())
-					{
-						datadimention.add("Uniqueness");
-						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("Uniqueness");
-						dimensions.setReason("insufficient uniqueness values");
-						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(wreakingPercentage - profilingInfoModel.getColumnStats().getDuplicateCount());
-						DimensionsList.add(dimensions);
-						
-					}*/
-					dimensionInfoModel.setDimensionsList(DimensionsList);
+					
+					
 					dataSetStatsList.get(datasetHeadersIterator).setDimensionsList(DimensionsList);
 				}
 

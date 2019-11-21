@@ -1,0 +1,1827 @@
+_id,columnName,oldValue,newValue,oid,dimensionName,datasetName
+ObjectId(5dd192e7824bbc0d10cfe957),Total Revenue,13845.72,,6238,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe958),Total Revenue,26077.35,,11819,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe959),Total Revenue,41910.36,,18845,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe95a),Total Revenue,8238.39,,3773,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe95b),Total Revenue,41443.86,,18634,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe95c),Total Revenue,10748.16,,4869,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe95d),Total Revenue,2537.76,,1172,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe95e),Total Revenue,31722,,14303,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe95f),Total Revenue,34101.15,,15341,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe960),Total Revenue,39736.47,,17840,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe961),Total Revenue,9525.93,,4317,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe962),Total Revenue,6978.84,,3203,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe963),Total Revenue,5196.81,,2408,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe964),Total Revenue,28689.75,,12973,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe965),Total Revenue,30602.4,,13783,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe966),Total Revenue,4916.91,,2272,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe967),Total Revenue,32804.28,,14747,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe968),Total Revenue,38971.41,,17510,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe969),Total Revenue,15133.26,,6815,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe96a),Total Revenue,8341.02,,3815,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe96b),Total Revenue,21682.92,,9773,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe96c),Total Revenue,5859.24,,2688,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe96d),Total Revenue,8341.02,,3816,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe96e),Total Revenue,34782.24,,15634,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe96f),Total Revenue,18.66,,26,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe970),Total Revenue,18604.02,,8380,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe971),Total Revenue,35659.26,,16036,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe972),Total Revenue,33578.67,,15094,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe973),Total Revenue,33615.99,,15109,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe974),Total Revenue,13612.47,,6141,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe975),Total Revenue,42656.76,,19191,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe976),Total Revenue,22074.78,,9942,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe977),Total Revenue,35827.2,,16121,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe978),Total Revenue,42927.33,,19317,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe979),Total Revenue,30527.76,,13747,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe97a),Total Revenue,43748.37,,19682,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe97b),Total Revenue,32067.21,,14440,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe97c),Total Revenue,22298.7,,10050,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe97d),Total Revenue,23772.84,,10756,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe97e),Total Revenue,11475.9,,5181,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe97f),Total Revenue,9096.75,,4133,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe980),Total Revenue,18492.06,,8336,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe981),Total Revenue,13239.27,,5979,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe982),Total Revenue,8051.79,,3691,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe983),Total Revenue,4655.67,,2154,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe984),Total Revenue,25536.21,,11601,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe985),Total Revenue,28857.69,,13060,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe986),Total Revenue,42526.14,,19133,Completeness,sales_0
+ObjectId(5dd192e9824bbc0d10cfe987),Total Revenue,35528.64,,15957,Completeness,sales_0
+ObjectId(5dd1933c824bbc2d7835e786),Total Revenue,27579.48,27579.48,12519,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e787),Total Revenue,15767.7,15767.7,7104,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e788),Total Revenue,9320.67,9320.67,4230,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e789),Total Revenue,30938.28,30938.28,13933,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e78a),Total Revenue,2033.94,2033.94,948,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e78b),Total Revenue,4123.86,4123.86,1916,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e78c),Total Revenue,30117.24,30117.24,13572,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e78d),Total Revenue,39074.04,39074.04,17550,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e78e),Total Revenue,12343.59,12343.59,5560,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e78f),Total Revenue,34073.16,34073.16,15327,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e790),Total Revenue,31992.57,31992.57,14411,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e791),Total Revenue,15235.89,15235.89,6854,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e792),Total Revenue,17540.4,17540.4,7883,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e793),Total Revenue,13313.91,13313.91,6015,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e794),Total Revenue,8070.45,8070.45,3700,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e795),Total Revenue,34082.49,34082.49,15329,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e796),Total Revenue,37627.89,37627.89,16928,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e797),Total Revenue,11289.3,11289.3,5092,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e798),Total Revenue,35108.79,35108.79,15761,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e799),Total Revenue,3386.79,3386.79,1571,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e79a),Total Revenue,17997.57,17997.57,8100,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e79b),Total Revenue,15170.58,15170.58,6833,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e79c),Total Revenue,21440.34,21440.34,9652,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e79d),Total Revenue,30574.41,30574.41,13771,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e79e),Total Revenue,22354.68,22354.68,10076,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e79f),Total Revenue,22905.15,22905.15,10337,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a0),Total Revenue,21011.16,21011.16,9454,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a1),Total Revenue,19919.55,19919.55,8932,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a2),Total Revenue,5355.42,5355.42,2461,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a3),Total Revenue,39540.54,39540.54,17744,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a4),Total Revenue,18482.73,18482.73,8330,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a5),Total Revenue,4319.79,4319.79,2001,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a6),Total Revenue,5206.14,5206.14,2411,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a7),Total Revenue,35705.91,35705.91,16058,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a8),Total Revenue,26124,26124,11847,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7a9),Total Revenue,2267.19,2267.19,1051,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7aa),Total Revenue,23716.86,23716.86,10725,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7ab),Total Revenue,14340.21,14340.21,6454,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7ac),Total Revenue,38047.74,38047.74,17124,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7ad),Total Revenue,9330,9330,4234,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7ae),Total Revenue,8723.55,8723.55,3973,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7af),Total Revenue,8882.16,8882.16,4030,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7b0),Total Revenue,33933.21,33933.21,15260,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7b1),Total Revenue,5168.82,5168.82,2389,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7b2),Total Revenue,25834.77,25834.77,11713,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7b3),Total Revenue,15431.82,15431.82,6948,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7b4),Total Revenue,35948.49,35948.49,16182,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7b5),Total Revenue,28484.49,28484.49,12887,Accuracy,sales_0
+ObjectId(5dd1933c824bbc2d7835e7b6),Total Revenue,19854.24,19854.24,8902,Accuracy,sales_0
+ObjectId(5dd1935a824bbc0d10cfe98a),Units Sold,3798,,15917,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe98b),Units Sold,4439,,18625,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe98c),Units Sold,4631,,19441,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe98d),Units Sold,3027,,12787,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe98e),Units Sold,3555,,14917,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe98f),Units Sold,1282,,5398,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe990),Units Sold,2697,,11423,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe991),Units Sold,1210,,5094,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe992),Units Sold,2143,,8963,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe993),Units Sold,693,,2968,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe994),Units Sold,229,,994,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe995),Units Sold,2104,,8798,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe996),Units Sold,2546,,10750,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe997),Units Sold,4213,,17652,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe998),Units Sold,970,,4105,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe999),Units Sold,3918,,16454,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe99a),Units Sold,764,,3262,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe99b),Units Sold,481,,2080,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe99c),Units Sold,1910,,8022,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe99d),Units Sold,580,,2487,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe99e),Units Sold,3067,,12948,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe99f),Units Sold,3073,,12966,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a0),Units Sold,525,,2262,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a1),Units Sold,99,,443,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a2),Units Sold,3994,,16759,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a3),Units Sold,3192,,13441,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a4),Units Sold,3324,,13967,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a5),Units Sold,1220,,5138,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a6),Units Sold,2449,,10317,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a7),Units Sold,3012,,12738,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a8),Units Sold,644,,2755,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9a9),Units Sold,4316,,18089,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9aa),Units Sold,4455,,18688,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9ab),Units Sold,2618,,11066,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9ac),Units Sold,1109,,4684,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9ad),Units Sold,1325,,5570,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9ae),Units Sold,3700,,15514,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9af),Units Sold,4420,,18543,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b0),Units Sold,519,,2237,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b1),Units Sold,4693,,19702,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b2),Units Sold,3018,,12756,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b3),Units Sold,4400,,18444,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b4),Units Sold,4007,,16828,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b5),Units Sold,20,,111,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b6),Units Sold,4600,,19312,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b7),Units Sold,3106,,13105,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b8),Units Sold,4057,,17042,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9b9),Units Sold,1773,,7448,Completeness,sales_0
+ObjectId(5dd1935a824bbc0d10cfe9ba),Units Sold,2608,,11023,Completeness,sales_0
+ObjectId(5dd19392824bbc1348183b9d),Units Sold,4547,,19083,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183b9e),Units Sold,2864,,12135,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183b9f),Units Sold,1008,,4270,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba0),Units Sold,3158,,13305,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba1),Units Sold,2694,,11408,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba2),Units Sold,1910,,8018,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba3),Units Sold,448,,1939,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba4),Units Sold,1066,,4512,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba5),Units Sold,938,,3986,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba6),Units Sold,316,,1389,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba7),Units Sold,552,,2385,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba8),Units Sold,4627,,19417,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183ba9),Units Sold,1797,,7544,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183baa),Units Sold,4738,,19905,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bab),Units Sold,2380,,10015,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bac),Units Sold,2695,,11412,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bad),Units Sold,831,,3550,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bae),Units Sold,3272,,13749,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183baf),Units Sold,1376,,5796,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb0),Units Sold,4742,,19924,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb1),Units Sold,474,,2051,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb2),Units Sold,3057,,12903,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb3),Units Sold,2633,,11127,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb4),Units Sold,3530,,14812,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb5),Units Sold,2465,,10388,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb6),Units Sold,119,,539,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb7),Units Sold,279,,1209,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb8),Units Sold,3960,,16614,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bb9),Units Sold,3305,,13887,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bba),Units Sold,1268,,5330,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bbb),Units Sold,2744,,11627,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bbc),Units Sold,1071,,4528,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bbd),Units Sold,3675,,15422,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bbe),Units Sold,2098,,8772,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bbf),Units Sold,317,,1395,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc0),Units Sold,650,,2786,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc1),Units Sold,3545,,14874,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc2),Units Sold,1870,,7843,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc3),Units Sold,4162,,17449,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc4),Units Sold,1854,,7779,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc5),Units Sold,4227,,17708,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc6),Units Sold,3695,,15496,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc7),Units Sold,4469,,18748,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc8),Units Sold,3246,,13638,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bc9),Units Sold,2641,,11168,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bca),Units Sold,2500,,10541,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bcb),Units Sold,2955,,12518,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bcc),Units Sold,1709,,7170,Consistency,sales_0
+ObjectId(5dd19393824bbc1348183bcd),Units Sold,3891,,16344,Consistency,sales_0
+ObjectId(5dd193e8824bbc178ce0ca65),Units Sold,3143,Cw50                                                          ,13257,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca66),Units Sold,4128,WwWC                                                          ,17320,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca67),Units Sold,1679,gare                                                          ,7058,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca68),Units Sold,4670,RBaW                                                          ,19612,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca69),Units Sold,4511,zx9Q                                                          ,18925,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca6a),Units Sold,3712,dclD                                                          ,15564,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca6b),Units Sold,622,Vcd                                                           ,2667,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca6c),Units Sold,4586,7CCK                                                          ,19245,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca6d),Units Sold,4329,VZXb                                                          ,18151,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca6e),Units Sold,3617,3v3z                                                          ,15161,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca6f),Units Sold,4316,LLfs                                                          ,18090,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca70),Units Sold,2339,XZPM                                                          ,9826,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca71),Units Sold,2296,pA5F                                                          ,9638,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca72),Units Sold,2690,sAwY                                                          ,11392,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca73),Units Sold,1574,noTI                                                          ,6601,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca74),Units Sold,2509,0YrK                                                          ,10581,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca75),Units Sold,3680,Z23O                                                          ,15438,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca76),Units Sold,1871,P7iC                                                          ,7849,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca77),Units Sold,3730,HsIw                                                          ,15643,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca78),Units Sold,1475,p8fn                                                          ,6205,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca79),Units Sold,965,azE                                                           ,4089,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca7a),Units Sold,4502,1Jza                                                          ,18883,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca7b),Units Sold,3975,08oY                                                          ,16686,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca7c),Units Sold,2171,Zxyd                                                          ,9092,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca7d),Units Sold,3480,IMzf                                                          ,14606,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca7e),Units Sold,4099,c7Be                                                          ,17214,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca7f),Units Sold,3408,gbpx                                                          ,14328,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca80),Units Sold,4378,2eZD                                                          ,18347,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca81),Units Sold,177,k2a                                                           ,786,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca82),Units Sold,2614,JVM3                                                          ,11051,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca83),Units Sold,2240,6FTN                                                          ,9390,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca84),Units Sold,197,Aij                                                           ,860,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca85),Units Sold,4303,rM7g                                                          ,18027,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca86),Units Sold,2833,QXAS                                                          ,11993,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca87),Units Sold,2788,j7u5                                                          ,11795,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca88),Units Sold,2436,lPy1                                                          ,10253,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca89),Units Sold,4388,k2iF                                                          ,18402,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca8a),Units Sold,3980,v1OF                                                          ,16711,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca8b),Units Sold,2420,VKaZ                                                          ,10186,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca8c),Units Sold,2820,u8Vv                                                          ,11937,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca8d),Units Sold,3492,JgqZ                                                          ,14655,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca8e),Units Sold,78,YN                                                            ,337,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca8f),Units Sold,1588,Vl48                                                          ,6657,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca90),Units Sold,106,3Gd                                                           ,481,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca91),Units Sold,3034,jNtS                                                          ,12813,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca92),Units Sold,3752,O1La                                                          ,15724,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca93),Units Sold,4439,NcIV                                                          ,18626,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca94),Units Sold,2180,9kb1                                                          ,9123,Validity,sales_0
+ObjectId(5dd193e9824bbc178ce0ca95),Units Sold,4587,u0Yv                                                          ,19251,Validity,sales_0
+ObjectId(5dd19403824bbc2d7835e7b9),Units Sold,3186,-3186,13421,Accuracy,sales_0
+ObjectId(5dd19403824bbc2d7835e7ba),Units Sold,2272,-2272,9530,Accuracy,sales_0
+ObjectId(5dd19403824bbc2d7835e7bb),Units Sold,491,-491,2125,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7bc),Units Sold,4240,29340.8,17749,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7bd),Units Sold,2863,-2863,12134,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7be),Units Sold,1470,-1470,6182,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7bf),Units Sold,4134,-4134,17351,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c0),Units Sold,3123,-3123,13174,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c1),Units Sold,1855,-1855,7782,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c2),Units Sold,4249,39643.17,17798,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c3),Units Sold,3790,Middle East and North Africa,15885,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c4),Units Sold,2236,5388.76,9375,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c5),Units Sold,3435,-3435,14430,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c6),Units Sold,1509,3636.69,6344,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c7),Units Sold,4036,310673463,16944,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c8),Units Sold,1384,3335.44,5831,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7c9),Units Sold,4090,Cambodia,17172,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7ca),Units Sold,2577,9.33,10879,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7cb),Units Sold,1968,18361.44,8272,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7cc),Units Sold,3306,-3306,13889,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7cd),Units Sold,2923,137921607,12384,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7ce),Units Sold,83,-83,363,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7cf),Units Sold,3164,21894.88,13334,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d0),Units Sold,295,-295,1280,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d1),Units Sold,1882,-1882,7897,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d2),Units Sold,4634,-4634,19451,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d3),Units Sold,1938,-1938,8137,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d4),Units Sold,288,-288,1247,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d5),Units Sold,1126,Fruits,4771,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d6),Units Sold,3308,22891.36,13893,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d7),Units Sold,2547,17625.24,10754,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d8),Units Sold,1364,494597899,5744,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7d9),Units Sold,124,858.08,566,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7da),Units Sold,1339,-1339,5635,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7db),Units Sold,1618,15095.94,6791,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7dc),Units Sold,2860,26683.8,12115,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7dd),Units Sold,2820,26310.6,11941,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7de),Units Sold,4017,6.92,16866,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7df),Units Sold,377,-377,1634,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7e0),Units Sold,2164,20190.12,9058,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7e1),Units Sold,3304,Sub-Saharan Africa,13877,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7e2),Units Sold,2528,6.92,10659,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7e3),Units Sold,1544,-1544,6477,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7e4),Units Sold,3934,-3934,16514,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7e5),Units Sold,1947,-1947,8187,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7e6),Units Sold,4726,635152947,19850,Accuracy,sales_0
+ObjectId(5dd19404824bbc2d7835e7e7),Units Sold,4142,9.33,17383,Accuracy,sales_0
+ObjectId(5dd19405824bbc2d7835e7e8),Units Sold,2364,-2364,9930,Accuracy,sales_0
+ObjectId(5dd19405824bbc2d7835e7e9),Units Sold,706,-706,3022,Accuracy,sales_0
+ObjectId(5dd19462824bbc0d10cfe9bd),Order ID,565732228,,6689,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9be),Order ID,841614377,,5267,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9bf),Order ID,817625129,,9658,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c0),Order ID,349536740,,19072,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c1),Order ID,404775226,,3589,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c2),Order ID,582703530,,15837,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c3),Order ID,824179589,,8020,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c4),Order ID,225781762,,11419,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c5),Order ID,459990966,,1752,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c6),Order ID,675598514,,14562,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c7),Order ID,445130670,,12341,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c8),Order ID,105348002,,15402,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9c9),Order ID,901807868,,16129,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9ca),Order ID,723412644,,11577,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9cb),Order ID,751556527,,4801,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9cc),Order ID,475983798,,12829,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9cd),Order ID,539004123,,9005,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9ce),Order ID,140086257,,14652,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9cf),Order ID,810832059,,8699,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9d0),Order ID,819782912,,3578,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9d1),Order ID,989251315,,1329,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9d2),Order ID,363280379,,6679,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9d3),Order ID,471483266,,5183,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9d4),Order ID,322162330,,16156,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9d5),Order ID,755744206,,1558,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9d6),Order ID,454760873,,11453,Completeness,sales_0
+ObjectId(5dd19462824bbc0d10cfe9d7),Order ID,362571418,,7538,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9d8),Order ID,467325198,,3273,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9d9),Order ID,585295188,,3028,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9da),Order ID,899938905,,3321,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9db),Order ID,774809348,,9035,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9dc),Order ID,213680922,,7514,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9dd),Order ID,892651450,,17825,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9de),Order ID,706750762,,8832,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9df),Order ID,931611716,,14548,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e0),Order ID,247979724,,6568,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e1),Order ID,935157811,,11987,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e2),Order ID,386564099,,7398,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e3),Order ID,975537288,,8464,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e4),Order ID,938062322,,9836,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e5),Order ID,125925910,,13209,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e6),Order ID,125421226,,15855,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e7),Order ID,640376174,,1711,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e8),Order ID,117781007,,12174,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9e9),Order ID,674381434,,13898,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9ea),Order ID,985203969,,10996,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9eb),Order ID,382672107,,165,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9ec),Order ID,924479615,,12358,Completeness,sales_0
+ObjectId(5dd19463824bbc0d10cfe9ed),Order ID,188502061,,3433,Completeness,sales_0
+ObjectId(5dd19472824bbc1348183bd0),Order ID,748648583,,2599,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd1),Order ID,838434779,,1467,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd2),Order ID,916529977,,1915,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd3),Order ID,731697881,,18950,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd4),Order ID,321681678,,6764,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd5),Order ID,599667966,,16505,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd6),Order ID,562021768,,15035,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd7),Order ID,299009931,,10711,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd8),Order ID,848243081,,11985,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bd9),Order ID,468414390,,13002,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bda),Order ID,337328612,,7920,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bdb),Order ID,928392207,,3167,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bdc),Order ID,939144647,,11096,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bdd),Order ID,464972150,,18655,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bde),Order ID,885683715,,9862,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bdf),Order ID,437497317,,16927,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be0),Order ID,800126397,,16945,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be1),Order ID,402748763,,4915,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be2),Order ID,696512019,,9385,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be3),Order ID,429447257,,7720,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be4),Order ID,362773549,,6757,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be5),Order ID,480907905,,840,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be6),Order ID,416502702,,5298,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be7),Order ID,694649922,,5067,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be8),Order ID,241727817,,6253,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183be9),Order ID,867603909,,8916,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bea),Order ID,518291461,,11918,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183beb),Order ID,785924851,,6233,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bec),Order ID,307016646,,7983,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bed),Order ID,688398015,,4765,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bee),Order ID,242614877,,16739,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bef),Order ID,746319568,,5903,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf0),Order ID,675833690,,12924,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf1),Order ID,761085021,,3531,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf2),Order ID,612937819,,3325,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf3),Order ID,800731503,,13093,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf4),Order ID,382372987,,6374,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf5),Order ID,728108441,,9771,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf6),Order ID,940600335,,14279,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf7),Order ID,912812650,,1747,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf8),Order ID,277444541,,3673,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bf9),Order ID,422718131,,2343,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bfa),Order ID,220309627,,14149,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bfb),Order ID,799111449,,15477,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bfc),Order ID,214427649,,11686,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bfd),Order ID,647814261,,6267,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bfe),Order ID,189453065,,9334,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183bff),Order ID,177258670,,15245,Consistency,sales_0
+ObjectId(5dd19472824bbc1348183c00),Order ID,813776481,,14293,Consistency,sales_0
+ObjectId(5dd194b8824bbc178ce0ca98),Order ID,962834775,BKL3pndII                                                     ,12921,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0ca99),Order ID,153767240,UJiUad15v                                                     ,8398,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0ca9a),Order ID,604090821,sNeHgtwc0                                                     ,11654,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0ca9b),Order ID,593305337,OOqJ2Raf3                                                     ,4599,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0ca9c),Order ID,989095962,7iG5q8jbJ                                                     ,18153,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0ca9d),Order ID,858074128,Pai1q9p9X                                                     ,8621,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0ca9e),Order ID,168667447,2zT6C61Dp                                                     ,5471,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0ca9f),Order ID,287185466,NP49gwu5c                                                     ,14363,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa0),Order ID,249814355,3JSZ4NPEF                                                     ,18765,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa1),Order ID,787723004,C9Vj2j98I                                                     ,15088,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa2),Order ID,921507728,faRl17Tc6                                                     ,14566,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa3),Order ID,212121379,7UprwLs7Q                                                     ,1233,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa4),Order ID,782076203,uC3VOO3c2                                                     ,10906,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa5),Order ID,359969460,ZCtnF5VLE                                                     ,7637,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa6),Order ID,466189229,Qj6wp88mL                                                     ,19342,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa7),Order ID,423366582,p6gc3cugC                                                     ,10252,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa8),Order ID,136842715,Q1Nzo6dpY                                                     ,15337,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caa9),Order ID,818714320,G2IW5Xns9                                                     ,19369,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caaa),Order ID,353959596,TkuVPNlYt                                                     ,14136,Validity,sales_0
+ObjectId(5dd194b8824bbc178ce0caab),Order ID,228477275,IEGNDouVp                                                     ,1550,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0caac),Order ID,491119182,FxEwxqAu1                                                     ,8124,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0caad),Order ID,600273072,Wy0xlhGQa                                                     ,12672,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0caae),Order ID,105714499,V0kiyqNXx                                                     ,8893,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0caaf),Order ID,403457725,MTKsTUDbo                                                     ,4068,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab0),Order ID,870111024,1M4sMtw7C                                                     ,16977,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab1),Order ID,975775897,gyC4OKWvU                                                     ,11100,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab2),Order ID,469194161,mppLmRUbe                                                     ,16086,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab3),Order ID,854192435,QpIvfwve9                                                     ,14194,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab4),Order ID,979496657,vyUOwcJfl                                                     ,15448,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab5),Order ID,216696155,HerfApNmB                                                     ,17060,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab6),Order ID,719449841,J6judobNH                                                     ,221,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab7),Order ID,648362290,23wDeEIlg                                                     ,15380,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab8),Order ID,316982448,UNHWQSXWf                                                     ,4258,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cab9),Order ID,977930247,JLJJ7KVht                                                     ,656,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0caba),Order ID,985973441,3MngKLpbw                                                     ,1342,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cabb),Order ID,139209496,U6VixIEYw                                                     ,16955,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cabc),Order ID,887378013,QR3wXetcE                                                     ,15636,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cabd),Order ID,980952346,pxS4Pu4gS                                                     ,18684,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cabe),Order ID,233005273,wk5GWHYf0                                                     ,1274,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cabf),Order ID,771394574,qeqVpM3Ri                                                     ,6932,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac0),Order ID,968007791,vZfDhDCrd                                                     ,16259,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac1),Order ID,350145280,FHAZihiK5                                                     ,19405,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac2),Order ID,932590186,8pcgKrNQ7                                                     ,12748,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac3),Order ID,952659976,Wm13VT53k                                                     ,8836,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac4),Order ID,779373824,hr6eICTTT                                                     ,12252,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac5),Order ID,575772273,8i4gBUJ54                                                     ,11267,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac6),Order ID,988689553,MZMBRWuJN                                                     ,17068,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac7),Order ID,109845101,wS1kzl4qS                                                     ,18709,Validity,sales_0
+ObjectId(5dd194b9824bbc178ce0cac8),Order ID,470306098,seAUrbTah                                                     ,12206,Validity,sales_0
+ObjectId(5dd194d7824bbc2d7835e7ec),Order ID,102265393,3511.37,6132,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7ed),Order ID,875415360,-875415360,15571,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7ee),Order ID,165359961,-165359961,10724,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7ef),Order ID,628961551,2555,10787,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f0),Order ID,470579040,-470579040,15314,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f1),Order ID,171235072,Sub-Saharan Africa,4729,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f2),Order ID,103492772,Online,19598,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f3),Order ID,420835435,-420835435,14350,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f4),Order ID,590475070,33121.5,14896,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f5),Order ID,230406749,-230406749,5601,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f6),Order ID,549272477,-549272477,3373,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f7),Order ID,310260188,-310260188,7304,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f8),Order ID,916194379,-916194379,4796,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7f9),Order ID,371757447,Namibia,650,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7fa),Order ID,179322898,-179322898,18820,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7fb),Order ID,607539927,8242.2,14374,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7fc),Order ID,358857524,Middle East and North Africa,11720,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7fd),Order ID,481011760,Online,3924,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7fe),Order ID,806196773,-806196773,1710,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e7ff),Order ID,724057662,Fruits,15122,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e800),Order ID,436236894,-436236894,4413,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e801),Order ID,433951222,Online,19595,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e802),Order ID,413490903,-413490903,22,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e803),Order ID,365512406,-365512406,8775,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e804),Order ID,164623534,Europe,19376,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e805),Order ID,100373685,C,6965,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e806),Order ID,192162311,-192162311,16588,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e807),Order ID,473556506,11442.68,19945,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e808),Order ID,837029302,-837029302,18563,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e809),Order ID,668738067,-668738067,13903,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e80a),Order ID,838445079,Online,14230,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e80b),Order ID,608693063,-608693063,19562,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e80c),Order ID,295299470,9.33,19016,Accuracy,sales_0
+ObjectId(5dd194d7824bbc2d7835e80d),Order ID,362261998,-362261998,998,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e80e),Order ID,102776944,Online,12007,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e80f),Order ID,122853600,3965,16643,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e810),Order ID,470639550,Fruits,6532,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e811),Order ID,676307475,7871.06,13725,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e812),Order ID,307938039,C,19158,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e813),Order ID,215432298,6.92,256,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e814),Order ID,963211572,-963211572,19159,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e815),Order ID,663353908,-663353908,93,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e816),Order ID,272005450,6.92,5524,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e817),Order ID,976004207,Malawi,829,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e818),Order ID,216118514,-216118514,13192,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e819),Order ID,983687770,-983687770,16484,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e81a),Order ID,785864341,H,15001,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e81b),Order ID,971479642,6.92,5339,Accuracy,sales_0
+ObjectId(5dd194d8824bbc2d7835e81c),Order ID,214662826,-214662826,9891,Accuracy,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f0),Sales Channel,Online,,4116,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f1),Sales Channel,Offline,,15293,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f2),Sales Channel,Offline,,12332,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f3),Sales Channel,Offline,,5333,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f4),Sales Channel,Offline,,15423,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f5),Sales Channel,Offline,,19316,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f6),Sales Channel,Offline,,6872,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f7),Sales Channel,Offline,,12990,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f8),Sales Channel,Online,,3283,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9f9),Sales Channel,Offline,,6766,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9fa),Sales Channel,Offline,,12570,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9fb),Sales Channel,Offline,,9316,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9fc),Sales Channel,Online,,16918,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9fd),Sales Channel,Offline,,9900,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9fe),Sales Channel,Offline,,7626,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfe9ff),Sales Channel,Offline,,13178,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea00),Sales Channel,Online,,18485,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea01),Sales Channel,Offline,,19570,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea02),Sales Channel,Online,,18550,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea03),Sales Channel,Online,,3263,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea04),Sales Channel,Online,,3646,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea05),Sales Channel,Offline,,16545,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea06),Sales Channel,Online,,11135,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea07),Sales Channel,Offline,,18039,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea08),Sales Channel,Online,,8825,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea09),Sales Channel,Offline,,9342,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea0a),Sales Channel,Offline,,19190,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea0b),Sales Channel,Offline,,980,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea0c),Sales Channel,Offline,,14405,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea0d),Sales Channel,Online,,17855,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea0e),Sales Channel,Online,,8532,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea0f),Sales Channel,Offline,,16076,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea10),Sales Channel,Online,,6432,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea11),Sales Channel,Offline,,7742,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea12),Sales Channel,Offline,,9821,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea13),Sales Channel,Online,,7799,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea14),Sales Channel,Online,,16170,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea15),Sales Channel,Offline,,19898,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea16),Sales Channel,Offline,,8828,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea17),Sales Channel,Online,,10448,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea18),Sales Channel,Online,,16747,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea19),Sales Channel,Offline,,12521,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea1a),Sales Channel,Offline,,8611,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea1b),Sales Channel,Offline,,5345,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea1c),Sales Channel,Offline,,8232,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea1d),Sales Channel,Online,,9381,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea1e),Sales Channel,Offline,,14974,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea1f),Sales Channel,Online,,2276,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea20),Sales Channel,Online,,7605,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea21),Sales Channel,Online,,10461,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea22),Sales Channel,Online,,13129,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea23),Sales Channel,Offline,,2280,Completeness,sales_0
+ObjectId(5dd194e8824bbc0d10cfea24),Sales Channel,Online,,8241,Completeness,sales_0
+ObjectId(5dd194f3824bbc2d7835e81f),Sales Channel,Online,nleniO,8864,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e820),Sales Channel,Online,H,17659,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e821),Sales Channel,Offline,O&ffline,13406,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e822),Sales Channel,Online,nlineO,9528,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e823),Sales Channel,Offline,OffTiRe,19632,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e824),Sales Channel,Online,9.33,13124,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e825),Sales Channel,Online,Onl$ine,19463,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e826),Sales Channel,Offline,iefOnfl,269,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e827),Sales Channel,Online,enilnO,592,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e828),Sales Channel,Offline,9.33,9847,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e829),Sales Channel,Online,lnienO,2780,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e82a),Sales Channel,Offline,Offlinne,12431,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e82b),Sales Channel,Offline,Omffline,9301,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e82c),Sales Channel,Online,39083.37,17556,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e82d),Sales Channel,Offline,Oeflfni,16482,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e82e),Sales Channel,Offline,6.92,11885,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e82f),Sales Channel,Offline,C,10236,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e830),Sales Channel,Offline,O(ffline,12797,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e831),Sales Channel,Offline,Middle East and North Africa,240,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e832),Sales Channel,Offline,OfBline,12207,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e833),Sales Channel,Online,Onnlie,6103,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e834),Sales Channel,Online,Onlinte,11139,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e835),Sales Channel,Online,7815.63,13627,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e836),Sales Channel,Offline,O'ffline,9573,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e837),Sales Channel,Online,9.33,7496,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e838),Sales Channel,Offline,fenOfli,3686,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e839),Sales Channel,Online,Onlin$,8060,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e83a),Sales Channel,Online,#Online,5500,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e83b),Sales Channel,Online,Oinlne,17515,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e83c),Sales Channel,Online,Central America and the Caribbean,2719,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e83d),Sales Channel,Offline,O;f7ine,16247,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e83e),Sales Channel,Offline,OffliMe,10905,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e83f),Sales Channel,Offline,1464.81,700,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e840),Sales Channel,Offline,Offlin/e,10380,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e841),Sales Channel,Offline,ffilOen,14139,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e842),Sales Channel,Online,Sub-Saharan Africa,8557,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e843),Sales Channel,Offline,OfflWine,5995,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e844),Sales Channel,Online,Onl>ine,19107,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e845),Sales Channel,Online,{5line,1020,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e846),Sales Channel,Offline,1063,4495,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e847),Sales Channel,Offline,L,11449,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e848),Sales Channel,Online,1138,4816,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e849),Sales Channel,Online,ineOnl,10863,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e84a),Sales Channel,Online,Moldova,10781,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e84b),Sales Channel,Online,Onlime,1528,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e84c),Sales Channel,Offline,Offl:ine,3894,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e84d),Sales Channel,Online,_Online,11766,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e84e),Sales Channel,Online,Onlin@e,11487,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e84f),Sales Channel,Offline,jf8line,13954,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e850),Sales Channel,Online,4439,18628,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e851),Sales Channel,Offline,Offlin.e,10073,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e852),Sales Channel,Online,ODlinT,2090,Accuracy,sales_0
+ObjectId(5dd194f3824bbc2d7835e853),Sales Channel,Offline,4486,18824,Accuracy,sales_0
+ObjectId(5dd194f8824bbc1348183c03),Sales Channel,Offline,,4612,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c04),Sales Channel,Online,,4481,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c05),Sales Channel,Online,,5179,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c06),Sales Channel,Online,,18218,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c07),Sales Channel,Offline,,17294,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c08),Sales Channel,Offline,,8845,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c09),Sales Channel,Offline,,3253,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c0a),Sales Channel,Online,,19197,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c0b),Sales Channel,Online,,554,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c0c),Sales Channel,Online,,10645,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c0d),Sales Channel,Online,,1977,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c0e),Sales Channel,Online,,16863,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c0f),Sales Channel,Online,,5818,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c10),Sales Channel,Offline,,11789,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c11),Sales Channel,Offline,,1216,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c12),Sales Channel,Online,,8287,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c13),Sales Channel,Offline,,14288,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c14),Sales Channel,Online,,1154,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c15),Sales Channel,Offline,,6476,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c16),Sales Channel,Offline,,6503,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c17),Sales Channel,Offline,,4335,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c18),Sales Channel,Offline,,10407,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c19),Sales Channel,Online,,15521,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c1a),Sales Channel,Offline,,16619,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c1b),Sales Channel,Offline,,5574,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c1c),Sales Channel,Online,,17528,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c1d),Sales Channel,Online,,9272,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c1e),Sales Channel,Offline,,13502,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c1f),Sales Channel,Offline,,7862,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c20),Sales Channel,Online,,6655,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c21),Sales Channel,Offline,,5830,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c22),Sales Channel,Online,,14127,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c23),Sales Channel,Offline,,7272,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c24),Sales Channel,Online,,9818,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c25),Sales Channel,Offline,,14150,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c26),Sales Channel,Online,,18014,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c27),Sales Channel,Offline,,598,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c28),Sales Channel,Online,,2464,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c29),Sales Channel,Offline,,3834,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c2a),Sales Channel,Offline,,18408,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c2b),Sales Channel,Offline,,6924,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c2c),Sales Channel,Online,,4148,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c2d),Sales Channel,Offline,,17776,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c2e),Sales Channel,Offline,,6978,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c2f),Sales Channel,Offline,,7465,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c30),Sales Channel,Online,,3942,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c31),Sales Channel,Online,,16210,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c32),Sales Channel,Offline,,8170,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c33),Sales Channel,Online,,16684,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c34),Sales Channel,Offline,,1427,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c35),Sales Channel,Offline,,2540,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c36),Sales Channel,Online,,19788,Consistency,sales_0
+ObjectId(5dd194f8824bbc1348183c37),Sales Channel,Online,,16204,Consistency,sales_0
+ObjectId(5dd19502824bbc178ce0cacb),Sales Channel,Online,ielnnO,9010,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cacc),Sales Channel,Offline,efOfnef,12023,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cacd),Sales Channel,Online,einOnl,13291,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cace),Sales Channel,Offline,fifnelO,8142,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cacf),Sales Channel,Offline,fenOOfi,15488,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad0),Sales Channel,Online,eOnOnn,12213,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad1),Sales Channel,Offline,nflOOii,13802,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad2),Sales Channel,Online,eOeOnn,386,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad3),Sales Channel,Offline,lnnelif,1799,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad4),Sales Channel,Offline,ffffffO,15263,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad5),Sales Channel,Offline,eflfOin,7102,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad6),Sales Channel,Offline,inilfOO,15070,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad7),Sales Channel,Online,ennenl,14960,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad8),Sales Channel,Offline,efliOfn,13399,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cad9),Sales Channel,Online,nOeinl,14335,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cada),Sales Channel,Offline,ifOefnl,7454,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cadb),Sales Channel,Online,iOinll,13382,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cadc),Sales Channel,Offline,fiOenfl,18969,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cadd),Sales Channel,Online,lOnnie,17460,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cade),Sales Channel,Online,Onenel,1229,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cadf),Sales Channel,Online,niOlne,12039,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae0),Sales Channel,Online,enennO,14383,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae1),Sales Channel,Online,iniiOn,17257,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae2),Sales Channel,Online,Oneiln,11889,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae3),Sales Channel,Online,enOnli,12988,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae4),Sales Channel,Offline,nfOffOO,15547,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae5),Sales Channel,Offline,elnffif,6864,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae6),Sales Channel,Offline,OelOefO,2273,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae7),Sales Channel,Offline,nOnOili,6480,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae8),Sales Channel,Offline,llellii,13883,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0cae9),Sales Channel,Offline,Oneiiff,2966,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0caea),Sales Channel,Online,OOnlnn,9156,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0caeb),Sales Channel,Online,neilOi,17589,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0caec),Sales Channel,Offline,OOnnelf,14427,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0caed),Sales Channel,Offline,llflnff,18105,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0caee),Sales Channel,Offline,flniefO,3479,Validity,sales_0
+ObjectId(5dd19502824bbc178ce0caef),Sales Channel,Online,nleOin,7209,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf0),Sales Channel,Offline,fnOflie,19379,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf1),Sales Channel,Online,leOnni,11112,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf2),Sales Channel,Offline,eifOOlO,15955,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf3),Sales Channel,Online,nnOilO,4380,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf4),Sales Channel,Online,elinnO,3795,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf5),Sales Channel,Online,lnnlnO,8203,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf6),Sales Channel,Offline,nOiffel,16274,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf7),Sales Channel,Online,nnneln,2843,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf8),Sales Channel,Online,nenele,14391,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caf9),Sales Channel,Online,nnieei,7194,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0cafa),Sales Channel,Offline,ffinOle,1225,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0cafb),Sales Channel,Online,nOOnil,19338,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0cafc),Sales Channel,Offline,ifeeiei,18945,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0cafd),Sales Channel,Offline,fnflOei,9516,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0cafe),Sales Channel,Online,nnnene,1501,Validity,sales_0
+ObjectId(5dd19503824bbc178ce0caff),Sales Channel,Online,OeeeOl,6739,Validity,sales_0
+ObjectId(5dd1950d824bbc0d10cfea27),Item Type,Fruits,,13854,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea28),Item Type,Fruits,,17529,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea29),Item Type,Fruits,,7833,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea2a),Item Type,Fruits,,6567,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea2b),Item Type,Fruits,,18400,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea2c),Item Type,Fruits,,18170,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea2d),Item Type,Fruits,,2623,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea2e),Item Type,Fruits,,13339,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea2f),Item Type,Fruits,,3194,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea30),Item Type,Fruits,,13916,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea31),Item Type,Fruits,,6706,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea32),Item Type,Fruits,,11435,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea33),Item Type,Fruits,,7876,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea34),Item Type,Fruits,,7026,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea35),Item Type,Fruits,,19826,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea36),Item Type,Fruits,,19766,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea37),Item Type,Fruits,,14710,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea38),Item Type,Fruits,,17038,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea39),Item Type,Fruits,,19785,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea3a),Item Type,Fruits,,8386,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea3b),Item Type,Fruits,,664,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea3c),Item Type,Fruits,,16384,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea3d),Item Type,Fruits,,5110,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea3e),Item Type,Fruits,,8625,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea3f),Item Type,Fruits,,19343,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea40),Item Type,Fruits,,16208,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea41),Item Type,Fruits,,784,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea42),Item Type,Fruits,,424,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea43),Item Type,Fruits,,15522,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea44),Item Type,Fruits,,7823,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea45),Item Type,Fruits,,7805,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea46),Item Type,Fruits,,3477,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea47),Item Type,Fruits,,9830,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea48),Item Type,Fruits,,11069,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea49),Item Type,Fruits,,14865,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea4a),Item Type,Fruits,,10780,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea4b),Item Type,Fruits,,12054,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea4c),Item Type,Fruits,,2625,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea4d),Item Type,Fruits,,2381,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea4e),Item Type,Fruits,,2216,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea4f),Item Type,Fruits,,14263,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea50),Item Type,Fruits,,2879,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea51),Item Type,Fruits,,19919,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea52),Item Type,Fruits,,10384,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea53),Item Type,Fruits,,5168,Completeness,sales_0
+ObjectId(5dd1950d824bbc0d10cfea54),Item Type,Fruits,,13665,Completeness,sales_0
+ObjectId(5dd1950e824bbc0d10cfea55),Item Type,Fruits,,13281,Completeness,sales_0
+ObjectId(5dd1950e824bbc0d10cfea56),Item Type,Fruits,,10410,Completeness,sales_0
+ObjectId(5dd1950e824bbc0d10cfea57),Item Type,Fruits,,15019,Completeness,sales_0
+ObjectId(5dd1950e824bbc0d10cfea58),Item Type,Fruits,,5311,Completeness,sales_0
+ObjectId(5dd1950e824bbc0d10cfea59),Item Type,Fruits,,7808,Completeness,sales_0
+ObjectId(5dd1950e824bbc0d10cfea5a),Item Type,Fruits,,2910,Completeness,sales_0
+ObjectId(5dd1950e824bbc0d10cfea5b),Item Type,Fruits,,8413,Completeness,sales_0
+ObjectId(5dd19517824bbc2d7835e856),Item Type,Fruits,Frui+y,7260,Accuracy,sales_0
+ObjectId(5dd19517824bbc2d7835e857),Item Type,Fruits,5415.27,9426,Accuracy,sales_0
+ObjectId(5dd19517824bbc2d7835e858),Item Type,Fruits,Fguits,2453,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e859),Item Type,Fruits,F/ruits,11284,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e85a),Item Type,Fruits,H,18177,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e85b),Item Type,Fruits,Fr/its,2045,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e85c),Item Type,Fruits,Fruitz,7446,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e85d),Item Type,Fruits,rsFtiu,4615,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e85e),Item Type,Fruits,FruUits,19579,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e85f),Item Type,Fruits,893757808,6930,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e860),Item Type,Fruits,562122189,13869,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e861),Item Type,Fruits,Fruit5,19528,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e862),Item Type,Fruits,Fr5uits,12276,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e863),Item Type,Fruits,Fru_its,3644,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e864),Item Type,Fruits,siFtru,12885,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e865),Item Type,Fruits,Fsriut,7179,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e866),Item Type,Fruits,Fru1its,9799,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e867),Item Type,Fruits,irtusF,5231,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e868),Item Type,Fruits,WFruits,15945,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e869),Item Type,Fruits,Fruils,7237,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e86a),Item Type,Fruits,Offline,14574,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e86b),Item Type,Fruits,rsutFi,5811,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e86c),Item Type,Fruits,Ftuirs,4066,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e86d),Item Type,Fruits,_Ku.ts,5060,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e86e),Item Type,Fruits,6345.53,11128,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e86f),Item Type,Fruits,F4oits,17680,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e870),Item Type,Fruits,FFruits,8751,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e871),Item Type,Fruits,816,3488,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e872),Item Type,Fruits,mFruits,18921,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e873),Item Type,Fruits,Fisrtu,11370,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e874),Item Type,Fruits,Fr@its,3805,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e875),Item Type,Fruits,MruiSs,7146,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e876),Item Type,Fruits,Fruit@s,10084,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e877),Item Type,Fruits,trsiFu,4827,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e878),Item Type,Fruits,itrusF,8498,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e879),Item Type,Fruits,Frsitu,2064,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e87a),Item Type,Fruits,rtusiF,4355,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e87b),Item Type,Fruits,ZIui*s,11729,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e87c),Item Type,Fruits,FruitRs,17608,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e87d),Item Type,Fruits,Frui;ts,17876,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e87e),Item Type,Fruits,Fruiets,5611,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e87f),Item Type,Fruits,Fr8Fts,18141,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e880),Item Type,Fruits,iFrtsu,12460,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e881),Item Type,Fruits,truits,8816,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e882),Item Type,Fruits,rFusti,17024,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e883),Item Type,Fruits,Fitsru,15455,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e884),Item Type,Fruits,Fruitr,17995,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e885),Item Type,Fruits,isFtru,12780,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e886),Item Type,Fruits,6Fruits,11804,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e887),Item Type,Fruits,FOuits,17433,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e888),Item Type,Fruits,Fruixts,8793,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e889),Item Type,Fruits,1604.76,762,Accuracy,sales_0
+ObjectId(5dd19518824bbc2d7835e88a),Item Type,Fruits,Frui:ts,6409,Accuracy,sales_0
+ObjectId(5dd1951b824bbc1348183c3a),Item Type,Fruits,,8662,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c3b),Item Type,Fruits,,4838,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c3c),Item Type,Fruits,,2292,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c3d),Item Type,Fruits,,19051,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c3e),Item Type,Fruits,,10624,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c3f),Item Type,Fruits,,4127,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c40),Item Type,Fruits,,2935,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c41),Item Type,Fruits,,12478,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c42),Item Type,Fruits,,11338,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c43),Item Type,Fruits,,19510,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c44),Item Type,Fruits,,12841,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c45),Item Type,Fruits,,12683,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c46),Item Type,Fruits,,6780,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c47),Item Type,Fruits,,18910,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c48),Item Type,Fruits,,9791,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c49),Item Type,Fruits,,10749,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c4a),Item Type,Fruits,,13217,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c4b),Item Type,Fruits,,18448,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c4c),Item Type,Fruits,,3448,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c4d),Item Type,Fruits,,3966,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c4e),Item Type,Fruits,,15059,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c4f),Item Type,Fruits,,2614,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c50),Item Type,Fruits,,15680,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c51),Item Type,Fruits,,11105,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c52),Item Type,Fruits,,12557,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c53),Item Type,Fruits,,7004,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c54),Item Type,Fruits,,4829,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c55),Item Type,Fruits,,17577,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c56),Item Type,Fruits,,17696,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c57),Item Type,Fruits,,18200,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c58),Item Type,Fruits,,13964,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c59),Item Type,Fruits,,8424,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c5a),Item Type,Fruits,,6617,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c5b),Item Type,Fruits,,9808,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c5c),Item Type,Fruits,,7857,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c5d),Item Type,Fruits,,19980,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c5e),Item Type,Fruits,,16958,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c5f),Item Type,Fruits,,2830,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c60),Item Type,Fruits,,11629,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c61),Item Type,Fruits,,1585,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c62),Item Type,Fruits,,11133,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c63),Item Type,Fruits,,17958,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c64),Item Type,Fruits,,2705,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c65),Item Type,Fruits,,15441,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c66),Item Type,Fruits,,19722,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c67),Item Type,Fruits,,17034,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c68),Item Type,Fruits,,3518,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c69),Item Type,Fruits,,16553,Consistency,sales_0
+ObjectId(5dd1951b824bbc1348183c6a),Item Type,Fruits,,14607,Consistency,sales_0
+ObjectId(5dd1951c824bbc1348183c6b),Item Type,Fruits,,15735,Consistency,sales_0
+ObjectId(5dd1951c824bbc1348183c6c),Item Type,Fruits,,4254,Consistency,sales_0
+ObjectId(5dd1951c824bbc1348183c6d),Item Type,Fruits,,14803,Consistency,sales_0
+ObjectId(5dd1951c824bbc1348183c6e),Item Type,Fruits,,6338,Consistency,sales_0
+ObjectId(5dd1952b824bbc178ce0cb02),Item Type,Fruits,iFrFFs,9337,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb03),Item Type,Fruits,itirru,9341,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb04),Item Type,Fruits,FsuFFu,110,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb05),Item Type,Fruits,itrFsu,10187,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb06),Item Type,Fruits,rFsiut,11264,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb07),Item Type,Fruits,rFsutt,370,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb08),Item Type,Fruits,tiutsr,10495,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb09),Item Type,Fruits,Fusirt,410,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb0a),Item Type,Fruits,riitFi,18312,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb0b),Item Type,Fruits,iusiss,10826,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb0c),Item Type,Fruits,rtuiFs,12722,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb0d),Item Type,Fruits,iFrssF,10883,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb0e),Item Type,Fruits,ruiisF,13821,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb0f),Item Type,Fruits,sitrrs,9183,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb10),Item Type,Fruits,sitstt,2743,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb11),Item Type,Fruits,rrssFr,4199,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb12),Item Type,Fruits,Fiusrt,3654,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb13),Item Type,Fruits,ritiir,14245,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb14),Item Type,Fruits,istuFr,6919,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb15),Item Type,Fruits,tsriFu,8901,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb16),Item Type,Fruits,uitrsF,17357,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb17),Item Type,Fruits,iusrtF,19366,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb18),Item Type,Fruits,surisF,16949,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb19),Item Type,Fruits,rrutts,8514,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb1a),Item Type,Fruits,ussstr,10437,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb1b),Item Type,Fruits,Ftiurs,456,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb1c),Item Type,Fruits,iuFusF,5738,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb1d),Item Type,Fruits,rstFiu,12255,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb1e),Item Type,Fruits,tuusFF,15303,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb1f),Item Type,Fruits,FssFti,14841,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb20),Item Type,Fruits,iirtii,9459,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb21),Item Type,Fruits,tririu,13882,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb22),Item Type,Fruits,rsuutt,4390,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb23),Item Type,Fruits,iuFtsu,673,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb24),Item Type,Fruits,iuFtrr,2549,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb25),Item Type,Fruits,FitFts,19055,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb26),Item Type,Fruits,isurFt,4585,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb27),Item Type,Fruits,sFutut,4381,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb28),Item Type,Fruits,itrFuF,8127,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb29),Item Type,Fruits,tsusts,3296,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb2a),Item Type,Fruits,FirFuF,19330,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb2b),Item Type,Fruits,FriFuu,19054,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb2c),Item Type,Fruits,utrisF,15242,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb2d),Item Type,Fruits,ruttri,12326,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb2e),Item Type,Fruits,FstriF,11194,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb2f),Item Type,Fruits,FFttrF,513,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb30),Item Type,Fruits,iFtrFF,13154,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb31),Item Type,Fruits,tFists,13828,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb32),Item Type,Fruits,FttFus,3403,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb33),Item Type,Fruits,suiFrt,11465,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb34),Item Type,Fruits,FiuitF,13944,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb35),Item Type,Fruits,ruiFts,4862,Validity,sales_0
+ObjectId(5dd1952b824bbc178ce0cb36),Item Type,Fruits,Fuiusr,6183,Validity,sales_0
+ObjectId(5dd19537824bbc0d10cfea5e),Total Profit,9329.11,,16262,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea5f),Total Profit,8941.1,,15554,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea60),Total Profit,9835.21,,17137,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea61),Total Profit,718.18,,1302,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea62),Total Profit,6499.77,,11421,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea63),Total Profit,1764.12,,3138,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea64),Total Profit,3906.61,,6811,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea65),Total Profit,7063.71,,12417,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea66),Total Profit,549.48,,986,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea67),Total Profit,3759.6,,6546,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea68),Total Profit,3299.29,,5765,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea69),Total Profit,10122,,17597,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea6a),Total Profit,1973.79,,3504,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea6b),Total Profit,11329.41,,19733,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea6c),Total Profit,1339.96,,2400,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea6d),Total Profit,3863.23,,6734,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea6e),Total Profit,6784.15,,11913,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea6f),Total Profit,3506.55,,6123,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea70),Total Profit,6678.11,,11723,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea71),Total Profit,3381.23,,5919,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea72),Total Profit,9688.2,,16882,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea73),Total Profit,11049.85,,19238,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea74),Total Profit,6266,,10984,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea75),Total Profit,11312.54,,19706,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea76),Total Profit,918.21,,1650,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea77),Total Profit,5239.34,,9097,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea78),Total Profit,6473.26,,11369,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea79),Total Profit,4092.18,,7131,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea7a),Total Profit,5596.02,,9765,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea7b),Total Profit,6388.91,,11206,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea7c),Total Profit,4622.38,,8050,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea7d),Total Profit,2070.19,,3671,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea7e),Total Profit,8541.04,,14870,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea7f),Total Profit,9772.55,,17030,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea80),Total Profit,9415.87,,16409,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea81),Total Profit,5340.56,,9282,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea82),Total Profit,9061.6,,15752,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea83),Total Profit,5769.54,,10070,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea84),Total Profit,4685.04,,8169,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea85),Total Profit,9738.81,,16966,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea86),Total Profit,4203.04,,7322,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea87),Total Profit,8528.99,,14846,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea88),Total Profit,4123.51,,7173,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea89),Total Profit,9690.61,,16885,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea8a),Total Profit,5422.5,,9441,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea8b),Total Profit,8849.52,,15412,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea8c),Total Profit,1279.71,,2281,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea8d),Total Profit,9733.99,,16959,Completeness,sales_0
+ObjectId(5dd19537824bbc0d10cfea8e),Total Profit,286.79,,540,Completeness,sales_0
+ObjectId(5dd19540824bbc2d7835e88d),Total Profit,2569.06,2569.06,4509,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e88e),Total Profit,330.17,330.17,621,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e88f),Total Profit,8589.24,8589.24,14950,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e890),Total Profit,241,241,451,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e891),Total Profit,5675.55,5675.55,9894,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e892),Total Profit,1433.95,1433.95,2544,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e893),Total Profit,5651.45,5651.45,9855,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e894),Total Profit,10150.92,10150.92,17646,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e895),Total Profit,3475.22,3475.22,6072,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e896),Total Profit,3190.84,3190.84,5569,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e897),Total Profit,2207.56,2207.56,3898,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e898),Total Profit,10003.91,10003.91,17411,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e899),Total Profit,9276.09,9276.09,16168,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e89a),Total Profit,4234.37,4234.37,7377,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e89b),Total Profit,8719.38,8719.38,15163,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e89c),Total Profit,10507.6,10507.6,18282,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e89d),Total Profit,1026.66,1026.66,1838,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e89e),Total Profit,11454.73,11454.73,19964,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e89f),Total Profit,8225.33,8225.33,14356,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a0),Total Profit,236.18,236.18,439,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a1),Total Profit,831.45,831.45,1506,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a2),Total Profit,4805.54,4805.54,8383,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a3),Total Profit,6576.89,6576.89,11564,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a4),Total Profit,5964.75,5964.75,10434,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a5),Total Profit,5730.98,5730.98,10006,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a6),Total Profit,6244.31,6244.31,10951,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a7),Total Profit,788.07,788.07,1430,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a8),Total Profit,5140.53,5140.53,8920,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8a9),Total Profit,2395.54,2395.54,4210,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8aa),Total Profit,9801.47,9801.47,17077,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8ab),Total Profit,11254.7,11254.7,19611,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8ac),Total Profit,1383.34,1383.34,2459,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8ad),Total Profit,3733.09,3733.09,6502,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8ae),Total Profit,1602.65,1602.65,2851,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8af),Total Profit,1853.29,1853.29,3291,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b0),Total Profit,10483.5,10483.5,18237,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b1),Total Profit,8304.86,8304.86,14481,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b2),Total Profit,9673.74,9673.74,16857,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b3),Total Profit,4169.3,4169.3,7258,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b4),Total Profit,6049.1,6049.1,10587,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b5),Total Profit,9492.99,9492.99,16537,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b6),Total Profit,7714.41,7714.41,13475,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b7),Total Profit,10982.37,10982.37,19126,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b8),Total Profit,281.97,281.97,527,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8b9),Total Profit,4860.97,4860.97,8462,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8ba),Total Profit,5147.76,5147.76,8935,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8bb),Total Profit,7369.78,7369.78,12911,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8bc),Total Profit,11266.75,11266.75,19633,Accuracy,sales_0
+ObjectId(5dd19540824bbc2d7835e8bd),Total Profit,11095.64,11095.64,19331,Accuracy,sales_0
+ObjectId(5dd1954a824bbc0d10cfea91),Total Cost,21673.44,,13218,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea92),Total Cost,25057.32,,15174,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea93),Total Cost,6691.64,,4097,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea94),Total Cost,1307.88,,830,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea95),Total Cost,17978.16,,10979,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea96),Total Cost,20234.08,,12387,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea97),Total Cost,7349.04,,4492,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea98),Total Cost,11348.8,,6880,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea99),Total Cost,7778.08,,4757,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea9a),Total Cost,24503.72,,14860,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea9b),Total Cost,15812.2,,9587,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea9c),Total Cost,3217.8,,2012,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea9d),Total Cost,31818.16,,19304,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea9e),Total Cost,2186.72,,1387,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfea9f),Total Cost,12469.84,,7561,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa0),Total Cost,16393.48,,9962,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa1),Total Cost,18379.52,,11230,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa2),Total Cost,12359.12,,7507,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa3),Total Cost,14760.36,,8922,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa4),Total Cost,11203.48,,6799,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa5),Total Cost,13583.96,,8244,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa6),Total Cost,1972.2,,1234,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa7),Total Cost,14912.6,,9014,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa8),Total Cost,18178.84,,11104,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaa9),Total Cost,8345.52,,5072,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaaa),Total Cost,6677.8,,4090,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaab),Total Cost,14116.8,,8551,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaac),Total Cost,108403.9,,12,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaad),Total Cost,21410.48,,13063,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaae),Total Cost,7445.92,,4548,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaaf),Total Cost,29839.04,,18071,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab0),Total Cost,15964.44,,9698,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab1),Total Cost,15383.16,,9318,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab2),Total Cost,11591,,7043,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab3),Total Cost,17625.24,,10755,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab4),Total Cost,11134.28,,6754,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab5),Total Cost,28503.48,,17290,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab6),Total Cost,3030.96,,1894,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab7),Total Cost,26275.24,,15912,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab8),Total Cost,29894.4,,18110,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeab9),Total Cost,22192.44,,13499,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeaba),Total Cost,28351.24,,17206,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeabb),Total Cost,26233.72,,15890,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeabc),Total Cost,14815.72,,8956,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeabd),Total Cost,3736.8,,2330,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeabe),Total Cost,13210.28,,8015,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeabf),Total Cost,30648.68,,18579,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeac0),Total Cost,5037.76,,3126,Completeness,sales_0
+ObjectId(5dd1954a824bbc0d10cfeac1),Total Cost,4020.52,,2490,Completeness,sales_0
+ObjectId(5dd19554824bbc2d7835e8c0),Total Cost,14047.6,14047.6,8509,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c1),Total Cost,10504.56,10504.56,6371,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c2),Total Cost,9348.92,9348.92,5693,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c3),Total Cost,19341.4,19341.4,11824,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c4),Total Cost,11881.64,11881.64,7204,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c5),Total Cost,228.36,228.36,150,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c6),Total Cost,19203,19203,11741,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c7),Total Cost,21016.04,21016.04,12822,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c8),Total Cost,22351.6,22351.6,13579,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8c9),Total Cost,24912,24912,15098,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8ca),Total Cost,5127.72,5127.72,3172,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8cb),Total Cost,13210.28,13210.28,8014,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8cc),Total Cost,31181.52,31181.52,18904,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8cd),Total Cost,20697.72,20697.72,12655,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8ce),Total Cost,7819.6,7819.6,4793,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8cf),Total Cost,3390.8,3390.8,2120,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d0),Total Cost,498.24,498.24,312,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d1),Total Cost,19763.52,19763.52,12104,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d2),Total Cost,24552.16,24552.16,14886,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d3),Total Cost,15659.96,15659.96,9493,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d4),Total Cost,25361.8,25361.8,15379,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d5),Total Cost,16718.72,16718.72,10171,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d6),Total Cost,20019.56,20019.56,12268,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d7),Total Cost,19659.72,19659.72,12025,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d8),Total Cost,6131.12,6131.12,3789,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8d9),Total Cost,1792.28,1792.28,1122,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8da),Total Cost,1896.08,1896.08,1188,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8db),Total Cost,5667.48,5667.48,3503,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8dc),Total Cost,31188.44,31188.44,18905,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8dd),Total Cost,6677.8,6677.8,4088,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8de),Total Cost,18884.68,18884.68,11563,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8df),Total Cost,16012.88,16012.88,9729,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e0),Total Cost,2643.44,2643.44,1655,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e1),Total Cost,10345.4,10345.4,6292,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e2),Total Cost,442.88,442.88,283,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e3),Total Cost,30863.2,30863.2,18705,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e4),Total Cost,12995.76,12995.76,7882,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e5),Total Cost,23451.88,23451.88,14246,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e6),Total Cost,8400.88,8400.88,5113,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e7),Total Cost,22337.76,22337.76,13571,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e8),Total Cost,5882,5882,3629,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8e9),Total Cost,19576.68,19576.68,11978,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8ea),Total Cost,17521.44,17521.44,10681,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8eb),Total Cost,4359.6,4359.6,2698,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8ec),Total Cost,4691.76,4691.76,2906,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8ed),Total Cost,30780.16,30780.16,18660,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8ee),Total Cost,19998.8,19998.8,12253,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8ef),Total Cost,8539.28,8539.28,5198,Accuracy,sales_0
+ObjectId(5dd19554824bbc2d7835e8f0),Total Cost,3280.08,3280.08,2052,Accuracy,sales_0
+ObjectId(5dd1955f824bbc0d10cfeac4),Unit Cost,6.92,,565,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeac5),Unit Cost,6.92,,11415,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeac6),Unit Cost,6.92,,13306,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeac7),Unit Cost,6.92,,15551,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeac8),Unit Cost,6.92,,4186,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeac9),Unit Cost,6.92,,8368,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeaca),Unit Cost,6.92,,2505,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeacb),Unit Cost,6.92,,4049,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeacc),Unit Cost,6.92,,15687,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeacd),Unit Cost,6.92,,15424,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeace),Unit Cost,6.92,,9589,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeacf),Unit Cost,6.92,,18868,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead0),Unit Cost,6.92,,16710,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead1),Unit Cost,6.92,,5058,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead2),Unit Cost,6.92,,12356,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead3),Unit Cost,6.92,,17070,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead4),Unit Cost,6.92,,1648,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead5),Unit Cost,6.92,,6135,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead6),Unit Cost,6.92,,17105,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead7),Unit Cost,6.92,,19319,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead8),Unit Cost,6.92,,15593,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfead9),Unit Cost,6.92,,16134,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeada),Unit Cost,6.92,,11900,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeadb),Unit Cost,6.92,,7499,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeadc),Unit Cost,6.92,,6853,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeadd),Unit Cost,6.92,,14201,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeade),Unit Cost,6.92,,16486,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeadf),Unit Cost,6.92,,14058,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeae0),Unit Cost,6.92,,3077,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeae1),Unit Cost,6.92,,10267,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeae2),Unit Cost,6.92,,193,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeae3),Unit Cost,6.92,,9579,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeae4),Unit Cost,6.92,,3934,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeae5),Unit Cost,6.92,,3849,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeae6),Unit Cost,6.92,,13668,Completeness,sales_0
+ObjectId(5dd1955f824bbc0d10cfeae7),Unit Cost,6.92,,8942,Completeness,sales_0
+ObjectId(5dd1956d824bbc2d7835e8f3),Unit Cost,6.92,6.92,11034,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8f4),Unit Cost,6.92,6.92,4728,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8f5),Unit Cost,6.92,6.92,14997,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8f6),Unit Cost,6.92,6.92,7226,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8f7),Unit Cost,6.92,6.92,5510,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8f8),Unit Cost,6.92,6.92,10805,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8f9),Unit Cost,6.92,6.92,4071,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8fa),Unit Cost,6.92,6.92,2233,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8fb),Unit Cost,6.92,6.92,377,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8fc),Unit Cost,6.92,6.92,18782,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8fd),Unit Cost,6.92,6.92,19520,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8fe),Unit Cost,6.92,6.92,11922,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e8ff),Unit Cost,6.92,6.92,10791,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e900),Unit Cost,6.92,6.92,15966,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e901),Unit Cost,6.92,6.92,12702,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e902),Unit Cost,6.92,6.92,5564,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e903),Unit Cost,6.92,6.92,6629,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e904),Unit Cost,6.92,6.92,5017,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e905),Unit Cost,6.92,6.92,1252,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e906),Unit Cost,6.92,6.92,8717,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e907),Unit Cost,6.92,6.92,1204,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e908),Unit Cost,6.92,6.92,12437,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e909),Unit Cost,6.92,6.92,13871,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e90a),Unit Cost,6.92,6.92,662,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e90b),Unit Cost,6.92,6.92,11348,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e90c),Unit Cost,6.92,6.92,10884,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e90d),Unit Cost,6.92,6.92,5130,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e90e),Unit Cost,6.92,6.92,9490,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e90f),Unit Cost,6.92,6.92,9400,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e910),Unit Cost,6.92,6.92,17439,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e911),Unit Cost,6.92,6.92,17078,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e912),Unit Cost,6.92,6.92,5059,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e913),Unit Cost,6.92,6.92,13391,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e914),Unit Cost,6.92,6.92,10402,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e915),Unit Cost,6.92,6.92,2081,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e916),Unit Cost,6.92,6.92,6013,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e917),Unit Cost,6.92,6.92,9223,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e918),Unit Cost,6.92,6.92,9111,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e919),Unit Cost,6.92,6.92,31,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e91a),Unit Cost,6.92,6.92,2805,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e91b),Unit Cost,6.92,6.92,6674,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e91c),Unit Cost,6.92,6.92,5716,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e91d),Unit Cost,6.92,6.92,10551,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e91e),Unit Cost,6.92,6.92,17427,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e91f),Unit Cost,6.92,6.92,14617,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e920),Unit Cost,6.92,6.92,622,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e921),Unit Cost,6.92,6.92,18287,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e922),Unit Cost,6.92,6.92,14392,Accuracy,sales_0
+ObjectId(5dd1956d824bbc2d7835e923),Unit Cost,6.92,6.92,10914,Accuracy,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaea),Order Priority,C,,615,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaeb),Order Priority,H,,13894,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaec),Order Priority,C,,2136,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaed),Order Priority,M,,13835,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaee),Order Priority,H,,14826,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaef),Order Priority,M,,11164,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf0),Order Priority,H,,15718,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf1),Order Priority,H,,12820,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf2),Order Priority,L,,16039,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf3),Order Priority,L,,6223,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf4),Order Priority,C,,10067,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf5),Order Priority,H,,17299,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf6),Order Priority,C,,8149,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf7),Order Priority,L,,13470,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf8),Order Priority,L,,8609,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaf9),Order Priority,L,,10732,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeafa),Order Priority,C,,14787,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeafb),Order Priority,M,,2058,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeafc),Order Priority,L,,8746,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeafd),Order Priority,M,,4582,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeafe),Order Priority,C,,6024,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeaff),Order Priority,H,,4211,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb00),Order Priority,C,,12573,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb01),Order Priority,M,,773,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb02),Order Priority,C,,17693,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb03),Order Priority,M,,8534,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb04),Order Priority,C,,2963,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb05),Order Priority,H,,7735,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb06),Order Priority,H,,10193,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb07),Order Priority,C,,1325,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb08),Order Priority,L,,6668,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb09),Order Priority,L,,13634,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb0a),Order Priority,L,,12947,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb0b),Order Priority,L,,8949,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb0c),Order Priority,L,,9168,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb0d),Order Priority,L,,16616,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb0e),Order Priority,H,,4777,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb0f),Order Priority,H,,8851,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb10),Order Priority,H,,15413,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb11),Order Priority,L,,19941,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb12),Order Priority,H,,10851,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb13),Order Priority,C,,14615,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb14),Order Priority,M,,12441,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb15),Order Priority,H,,5809,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb16),Order Priority,C,,3151,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb17),Order Priority,L,,9241,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb18),Order Priority,H,,3093,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb19),Order Priority,C,,19138,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb1a),Order Priority,M,,5029,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb1b),Order Priority,H,,17778,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb1c),Order Priority,M,,18662,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb1d),Order Priority,H,,15073,Completeness,sales_0
+ObjectId(5dd1957b824bbc0d10cfeb1e),Order Priority,C,,763,Completeness,sales_0
+ObjectId(5dd19587824bbc2d7835e926),Order Priority,C,Y,7098,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e927),Order Priority,H,*,3788,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e928),Order Priority,H,9.33,17226,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e929),Order Priority,C,C,10698,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e92a),Order Priority,L,L,13684,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e92b),Order Priority,H,4622.56,2868,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e92c),Order Priority,C,Europe,9462,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e92d),Order Priority,M,Middle East and North Africa,14251,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e92e),Order Priority,M,M,4395,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e92f),Order Priority,M,8,2891,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e930),Order Priority,L,8,19214,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e931),Order Priority,C,J,13506,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e932),Order Priority,M,U,3222,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e933),Order Priority,M,1200,5053,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e934),Order Priority,C,(,8144,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e935),Order Priority,M,9.33,14208,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e936),Order Priority,H,1273,5352,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e937),Order Priority,M,M,4377,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e938),Order Priority,C,C,7630,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e939),Order Priority,L,uL,18323,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e93a),Order Priority,L,L,12278,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e93b),Order Priority,L,+,3324,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e93c),Order Priority,M,M,5093,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e93d),Order Priority,H,],14228,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e93e),Order Priority,H,?H,16996,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e93f),Order Priority,L,L,378,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e940),Order Priority,C,wC,17015,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e941),Order Priority,H,}H,9545,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e942),Order Priority,L,Fruits,10672,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e943),Order Priority,C,9,3299,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e944),Order Priority,M,604962003,2397,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e945),Order Priority,H,H,2651,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e946),Order Priority,C,k,9998,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e947),Order Priority,H,L,14528,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e948),Order Priority,M,13024.68,5889,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e949),Order Priority,M,M,16640,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e94a),Order Priority,L,vL,8270,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e94b),Order Priority,H,H,14833,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e94c),Order Priority,L,6.92,6556,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e94d),Order Priority,M,F,1199,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e94e),Order Priority,H,26161.32,11865,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e94f),Order Priority,L,L,18453,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e950),Order Priority,H,oH,7336,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e951),Order Priority,L,9.33,10151,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e952),Order Priority,C,8C,16196,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e953),Order Priority,H,kH,18098,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e954),Order Priority,H,1,1110,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e955),Order Priority,L,WL,13045,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e956),Order Priority,M,pM,12821,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e957),Order Priority,L,?L,8877,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e958),Order Priority,H,H,18417,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e959),Order Priority,H,H,13829,Accuracy,sales_0
+ObjectId(5dd19587824bbc2d7835e95a),Order Priority,H,'H,7682,Accuracy,sales_0
+ObjectId(5dd1958b824bbc1348183c71),Order Priority,C,,19274,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c72),Order Priority,H,,1933,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c73),Order Priority,H,,18232,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c74),Order Priority,H,,12099,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c75),Order Priority,C,,6185,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c76),Order Priority,H,,5612,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c77),Order Priority,L,,15674,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c78),Order Priority,L,,3088,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c79),Order Priority,H,,12753,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c7a),Order Priority,C,,14122,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c7b),Order Priority,H,,2753,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c7c),Order Priority,L,,10793,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c7d),Order Priority,C,,492,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c7e),Order Priority,H,,19247,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c7f),Order Priority,L,,19692,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c80),Order Priority,C,,8449,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c81),Order Priority,M,,1044,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c82),Order Priority,M,,16800,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c83),Order Priority,M,,473,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c84),Order Priority,H,,15542,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c85),Order Priority,L,,11463,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c86),Order Priority,M,,16846,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c87),Order Priority,M,,19642,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c88),Order Priority,L,,13619,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c89),Order Priority,H,,16334,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c8a),Order Priority,H,,16749,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c8b),Order Priority,M,,18440,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c8c),Order Priority,L,,15831,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c8d),Order Priority,H,,3890,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c8e),Order Priority,L,,15063,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c8f),Order Priority,H,,883,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c90),Order Priority,C,,14243,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c91),Order Priority,M,,7197,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c92),Order Priority,H,,17059,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c93),Order Priority,H,,16447,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c94),Order Priority,L,,1124,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c95),Order Priority,M,,992,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c96),Order Priority,H,,7863,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c97),Order Priority,C,,2099,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c98),Order Priority,M,,16381,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c99),Order Priority,C,,10737,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c9a),Order Priority,H,,2732,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c9b),Order Priority,C,,4505,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c9c),Order Priority,C,,9820,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c9d),Order Priority,C,,6621,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c9e),Order Priority,H,,17358,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183c9f),Order Priority,H,,8928,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183ca0),Order Priority,H,,17588,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183ca1),Order Priority,H,,10629,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183ca2),Order Priority,C,,17170,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183ca3),Order Priority,H,,17126,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183ca4),Order Priority,C,,3506,Consistency,sales_0
+ObjectId(5dd1958b824bbc1348183ca5),Order Priority,L,,16609,Consistency,sales_0
+ObjectId(5dd19595824bbc178ce0cb39),Order Priority,C,<,4849,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb3a),Order Priority,H," ",12577,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb3b),Order Priority,M,^,17004,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb3c),Order Priority,M,',18949,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb3d),Order Priority,M,',9742,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb3e),Order Priority,H,:,17546,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb3f),Order Priority,C,],8704,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb40),Order Priority,H,},17925,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb41),Order Priority,M,=,2486,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb42),Order Priority,C,;,12486,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb43),Order Priority,L,',4305,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb44),Order Priority,H,=,4187,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb45),Order Priority,C,&,5310,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb46),Order Priority,L,*,6820,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb47),Order Priority,C,_,4226,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb48),Order Priority,M,=,19187,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb49),Order Priority,H,_,11980,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb4a),Order Priority,L,(,900,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb4b),Order Priority,M,<,15887,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb4c),Order Priority,L,?,17359,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb4d),Order Priority,L,[,17712,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb4e),Order Priority,M,},13329,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb4f),Order Priority,H,_,5895,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb50),Order Priority,H,+,3822,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb51),Order Priority,H,},12935,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb52),Order Priority,H,<,17143,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb53),Order Priority,L,(,7866,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb54),Order Priority,L,=,14516,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb55),Order Priority,H,+,18518,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb56),Order Priority,L,&,9387,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb57),Order Priority,C,?,16490,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb58),Order Priority,H,],14258,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb59),Order Priority,L,(,8088,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb5a),Order Priority,L,-,10146,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb5b),Order Priority,C,+,4414,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb5c),Order Priority,C,(,11086,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb5d),Order Priority,L,!,12544,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb5e),Order Priority,C,/,4873,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb5f),Order Priority,H,^,4603,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb60),Order Priority,M,.,12724,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb61),Order Priority,C,?,17009,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb62),Order Priority,L,%,2796,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb63),Order Priority,M,$,6277,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb64),Order Priority,H,},19137,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb65),Order Priority,M,=,11604,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb66),Order Priority,M,#,3765,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb67),Order Priority,M,*,18884,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb68),Order Priority,H,?,11441,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb69),Order Priority,C,/,15231,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb6a),Order Priority,C,#,17871,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb6b),Order Priority,L,?,9432,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb6c),Order Priority,L,(,15256,Validity,sales_0
+ObjectId(5dd19595824bbc178ce0cb6d),Order Priority,C,>,16902,Validity,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb21),Region,Middle East and North Africa,,9859,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb22),Region,Europe,,17076,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb23),Region,Middle East and North Africa,,2788,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb24),Region,Australia and Oceania,,8016,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb25),Region,Sub-Saharan Africa,,103,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb26),Region,Europe,,17674,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb27),Region,Sub-Saharan Africa,,3631,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb28),Region,Asia,,14646,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb29),Region,Europe,,16015,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb2a),Region,Middle East and North Africa,,14417,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb2b),Region,Australia and Oceania,,5032,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb2c),Region,Asia,,14705,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb2d),Region,Sub-Saharan Africa,,18191,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb2e),Region,Australia and Oceania,,750,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb2f),Region,Europe,,11030,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb30),Region,Sub-Saharan Africa,,12071,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb31),Region,Europe,,3535,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb32),Region,Europe,,5317,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb33),Region,Sub-Saharan Africa,,11662,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb34),Region,Asia,,6937,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb35),Region,Sub-Saharan Africa,,3502,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb36),Region,Asia,,12511,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb37),Region,Australia and Oceania,,3224,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb38),Region,Sub-Saharan Africa,,13839,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb39),Region,Central America and the Caribbean,,11224,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb3a),Region,Central America and the Caribbean,,11905,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb3b),Region,Sub-Saharan Africa,,15872,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb3c),Region,Asia,,16555,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb3d),Region,Europe,,6382,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb3e),Region,Australia and Oceania,,8958,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb3f),Region,Asia,,1731,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb40),Region,Sub-Saharan Africa,,3512,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb41),Region,Australia and Oceania,,7642,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb42),Region,Europe,,19038,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb43),Region,Central America and the Caribbean,,10396,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb44),Region,Sub-Saharan Africa,,17632,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb45),Region,Middle East and North Africa,,9317,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb46),Region,Middle East and North Africa,,4497,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb47),Region,Middle East and North Africa,,13458,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb48),Region,Europe,,14294,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb49),Region,Australia and Oceania,,445,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb4a),Region,Sub-Saharan Africa,,13652,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb4b),Region,Sub-Saharan Africa,,2846,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb4c),Region,Central America and the Caribbean,,13550,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb4d),Region,Europe,,14734,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb4e),Region,Asia,,10038,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb4f),Region,Middle East and North Africa,,3084,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb50),Region,Europe,,16504,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb51),Region,Sub-Saharan Africa,,2053,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb52),Region,Europe,,14197,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb53),Region,Sub-Saharan Africa,,17151,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb54),Region,Middle East and North Africa,,16057,Completeness,sales_0
+ObjectId(5dd1959f824bbc0d10cfeb55),Region,North America,,1061,Completeness,sales_0
+ObjectId(5dd195a8824bbc2d7835e95d),Region,Middle East and North Africa,ts addd f ahtaNroicr lienAEM,14475,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e95e),Region,Europe,6.92,1228,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e95f),Region,Middle East and North Africa,6.92,6652,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e960),Region,Sub-Saharan Africa,Sub-ochaq#d AfrVca,7401,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e961),Region,Europe,Eumrope,5242,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e962),Region,Central America and the Caribbean,CyDtzal Americanand the CMqibb@an,4,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e963),Region,Europe,E^rOpF,5805,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e964),Region,Sub-Saharan Africa,27420.87,12450,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e965),Region,Sub-Saharan Africa,fa-unSaaicrSAa hbr,1530,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e966),Region,Middle East and North Africa,H,3845,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e967),Region,Sub-Saharan Africa,458645999,10085,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e968),Region,Europe,Eureope,7568,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e969),Region,Australia and Oceania,AustraAlia and Oceania,11541,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e96a),Region,Asia,Thailand,4730,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e96b),Region,Asia,AsCia,6283,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e96c),Region,Sub-Saharan Africa,9.33,5568,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e96d),Region,Central America and the Caribbean,d aaAnni etCmabcbrCrhenera eil at,17267,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e96e),Region,Sub-Saharan Africa,frnha-ibraaS uASac,3050,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e96f),Region,Europe,Eu8rope,3180,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e970),Region,Sub-Saharan Africa,Sub-Sah@aran Africa,17088,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e971),Region,Australia and Oceania,sa Aeiarnia lOaucdnta,7751,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e972),Region,Sub-Saharan Africa,9.33,14599,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e973),Region,Europe,Fruits,7081,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e974),Region,Middle East and North Africa,Libya,4928,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e975),Region,Europe,epouEr,18607,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e976),Region,Australia and Oceania,Online,4374,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e977),Region,Europe,9.33,10093,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e978),Region,Central America and the Caribbean,Central Agmerica and the Caribbean,18380,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e979),Region,Europe,40818.75,18334,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e97a),Region,Sub-Saharan Africa,Sub-cSaharan Africa,7031,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e97b),Region,Central America and the Caribbean,tteibr hbmeCalrraaad ieeann  CcAn,11917,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e97c),Region,Central America and the Caribbean,CentrPal America and the Caribbean,18031,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e97d),Region,Central America and the Caribbean,rter  ibCatbAia eaenalamderncCn h,10505,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e97e),Region,Asia,AsRia,18357,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e97f),Region,Sub-Saharan Africa,uc hAari-anSbfaaSr,1436,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e980),Region,Sub-Saharan Africa,Fruits,4268,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e981),Region,Europe,Eumrope,1736,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e982),Region,Asia,4Jia,7143,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e983),Region,Sub-Saharan Africa,13500.92,8206,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e984),Region,Asia,aAis,5782,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e985),Region,Middle East and North Africa,Middle East and North Afric7a,16314,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e986),Region,Asia,dAsia,8578,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e987),Region,Sub-Saharan Africa,Sub-SaXaraB Alrica,10731,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e988),Region,Asia,M,8294,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e989),Region,Asia,AsLia,11341,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e98a),Region,Sub-Saharan Africa,Srh-aSucfriaanab A,4670,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e98b),Region,Central America and the Caribbean,Haiti,2496,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e98c),Region,Asia,Asira,9621,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e98d),Region,Middle East and North Africa,Middle East and North 0Africa,4808,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e98e),Region,Australia and Oceania,aEo%rauia and#OCennC$,11144,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e98f),Region,Sub-Saharan Africa,frhbaSaSu rcA-naia,867,Accuracy,sales_0
+ObjectId(5dd195a8824bbc2d7835e990),Region,Central America and the Caribbean,eAbrnn raaae abrntl aiimtc heCeCd,10829,Accuracy,sales_0
+ObjectId(5dd195b2824bbc178ce0cb70),Region,Sub-Saharan Africa,ranSaShfarA i-cbau,1897,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb71),Region,Central America and the Caribbean,dha   ctbebiCenrma nrtrAaCnaiaeel,12177,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb72),Region,Sub-Saharan Africa,ncSrAnr bcnrrSSnaS,5483,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb73),Region,Asia,isAa,17416,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb74),Region,Central America and the Caribbean,aaaCemearelnabrmCn  ianirahretmin,14,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb75),Region,Australia and Oceania,ita iOlarn nesAaacdau,18470,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb76),Region,Europe,ueprEo,17455,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb77),Region,Sub-Saharan Africa," n-Scc-aaccaaaahii",5523,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb78),Region,Europe,ooroup,12344,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb79),Region,Central America and the Caribbean," m hmarCrnaaCiAaantaaiertamh  bcc",5389,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb7a),Region,Middle East and North Africa," triM dtda aodaErl NAfncishe",5280,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb7b),Region,Central America and the Caribbean,Acrn he ma  ibeteCandabCertaliran,14991,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb7c),Region,Europe,repouE,2557,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb7d),Region,Middle East and North Africa,aAd hrntMe  iNciEo fsraladtd,13065,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb7e),Region,Asia,Aias,19567,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb7f),Region,Europe,uEeorp,10023,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb80),Region,Sub-Saharan Africa,inAbfhaSrSuaca- ar,18472,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb81),Region,Europe,Euorep,3389,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb82),Region,Europe,eEroup,13597,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb83),Region,Sub-Saharan Africa,aaccra-uarbbahaaiS,4987,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb84),Region,Central America and the Caribbean,iaeatnaeci anbeCe heaeerai mrahe ,17923,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb85),Region,North America,ANhamAoAhitoc,5084,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb86),Region,Middle East and North Africa," aiacA   i asi rdcMr dnalreM",2075,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb87),Region,Asia,siss,15841,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb88),Region,Sub-Saharan Africa,bacfi aarauhA-SrSn,6561,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb89),Region,Australia and Oceania,nu AOnAactaasisn siAn,10774,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb8a),Region,Europe,purrEo,18785,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb8b),Region,Sub-Saharan Africa,S-ucnirrASabhaafa ,16165,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb8c),Region,Australia and Oceania,Oita cdaaslaunieA arn,9470,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb8d),Region,Europe,purepp,5329,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb8e),Region,Sub-Saharan Africa,f ru na Aa-auahabc,16833,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb8f),Region,Europe,roeoEp,16758,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb90),Region,Middle East and North Africa," aanMlcE MlAa oreaaerororsol",19049,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb91),Region,Sub-Saharan Africa,SaSbniahSSra rarSf,16991,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb92),Region,Asia,isAa,5285,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb93),Region,Sub-Saharan Africa,fbacSAaauaraaahaa ,975,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb94),Region,Asia,aAis,11082,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb95),Region,Sub-Saharan Africa,cfabSnfuacSaAaafuf,8589,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb96),Region,Sub-Saharan Africa,iurfafriiaraA-arar,791,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb97),Region,Sub-Saharan Africa,rrraannafaaarrfrna,9176,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb98),Region,Europe,upeoEr,7077,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb99),Region,Asia,siAa,9840,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb9a),Region,Europe,peuorE,887,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb9b),Region,Europe,pueeuo,1328,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb9c),Region,Europe,Eurrup,2806,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb9d),Region,Australia and Oceania,teilO n aAceAi raua  ,17011,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb9e),Region,Australia and Oceania,arlnda aircrAdl uAaad,5952,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cb9f),Region,Australia and Oceania,ansA lnetOdacuraaia i,4371,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cba0),Region,Middle East and North Africa,t i ctartaNnsdhraeaA  ldt rh,16971,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cba1),Region,Sub-Saharan Africa,A-hSbcSiSn-aSahS-a,3223,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cba2),Region,Middle East and North Africa,asodfaAEer da inhtcdr  itNlM,18814,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cba3),Region,Asia,iiss,5161,Validity,sales_0
+ObjectId(5dd195b2824bbc178ce0cba4),Region,Europe,ruperE,16507,Validity,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb58),Country,South Korea,,1269,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb59),Country,Trinidad and Tobago,,18310,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb5a),Country,Djibouti,,5445,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb5b),Country,Lebanon,,6241,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb5c),Country,Ukraine,,13214,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb5d),Country,Botswana,,2840,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb5e),Country,Indonesia,,12559,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb5f),Country,Philippines,,6892,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb60),Country,New Zealand,,1,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb61),Country,Zambia,,1684,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb62),Country,Republic of the Congo,,15085,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb63),Country,Indonesia,,9810,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb64),Country,Seychelles,,1839,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb65),Country,Mauritius,,8675,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb66),Country,Macedonia,,18991,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb67),Country,Armenia,,14706,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb68),Country,Solomon Islands,,4146,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb69),Country,Kazakhstan,,13010,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb6a),Country,Comoros,,12076,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb6b),Country,Honduras,,14813,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb6c),Country,Democratic Republic of the Congo,,13782,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb6d),Country,Netherlands,,1364,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb6e),Country,Zimbabwe,,16510,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb6f),Country,Eritrea,,67,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb70),Country,Maldives,,13764,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb71),Country,Chad,,16998,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb72),Country,Japan,,11448,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb73),Country,New Zealand,,10041,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb74),Country,South Korea,,19365,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb75),Country,Oman,,2328,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb76),Country,Latvia,,9543,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb77),Country,Senegal,,16267,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb78),Country,Kiribati,,3546,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb79),Country,Austria,,4780,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb7a),Country,Liberia,,1009,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb7b),Country,Lesotho,,16594,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb7c),Country,Maldives,,6221,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb7d),Country,Bhutan,,17722,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb7e),Country,Mauritania,,3379,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb7f),Country,Macedonia,,13184,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb80),Country,Cameroon,,7135,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb81),Country,Finland,,10169,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb82),Country,Malta,,5708,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb83),Country,Saint Lucia,,11119,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb84),Country,Turkey,,1475,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb85),Country,Costa Rica,,1878,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb86),Country,Mongolia,,15574,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb87),Country,Israel,,18967,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb88),Country,The Gambia,,1069,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb89),Country,Iraq,,19361,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb8a),Country,Qatar,,3139,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb8b),Country,Nepal,,5874,Completeness,sales_0
+ObjectId(5dd195bc824bbc0d10cfeb8c),Country,Greece,,124,Completeness,sales_0
+ObjectId(5dd195c5824bbc2d7835e993),Country,Israel,Issrael,11498,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e994),Country,Kazakhstan,KazakFhstan,10130,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e995),Country,Vietnam,Online,15288,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e996),Country,Azerbaijan,zaieAbnarj,232,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e997),Country,Yemen,Yemi!,4778,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e998),Country,United Kingdom,United HPngd}m,16219,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e999),Country,Azerbaijan,ABzerbaijan,1949,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e99a),Country,Sweden,wSnede,14268,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e99b),Country,Taiwan,aTwnai,6759,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e99c),Country,Jamaica,Jamaic3,16202,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e99d),Country,Morocco,Middle East and North Africa,14302,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e99e),Country,Mauritius,usiiuartM,12184,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e99f),Country,Trinidad and Tobago,aagddiraTT indob no,7979,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a0),Country,Fiji,FYji,17007,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a1),Country,Lesotho,Lstehoo,17031,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a2),Country,Iran,Irxan,4865,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a3),Country,Kazakhstan,KaEakhs^an,9170,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a4),Country,Central African Republic,pilReetncfubicaCArnal r ,17463,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a5),Country,Norway,20992.5,9439,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a6),Country,Mongolia,"{""$oid"":""5dd190cd33becc34fa6752d4""}",2104,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a7),Country,Fiji,Fijo,4543,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a8),Country,Belize,2158,9032,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9a9),Country,The Bahamas,/TeIBahamas,13791,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9aa),Country,Jordan,"{""$oid"":""5dd190cd33becc34fa6787d4""}",15672,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9ab),Country,Lithuania,"{""$oid"":""5dd190cd33becc34fa674b1e""}",130,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9ac),Country,Iran,eran,13681,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9ad),Country,Zambia,ZambiSa,15353,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9ae),Country,Iceland,^c.land,16360,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9af),Country,Australia,/us{r?lia,2462,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b0),Country,Honduras,Hondurras,18803,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b1),Country,Saint Kitts and Nevis,vsii ts ittdN eSananK,6444,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b2),Country,Macedonia,Macjedonia,9100,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b3),Country,Morocco,16677.2,10132,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b4),Country,Malawi,Offline,11229,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b5),Country,Saint Vincent and the Grenadines,36778.86,16548,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b6),Country,Greece,eceeGr,8440,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b7),Country,France,FrBance,18156,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b8),Country,Dominican Republic,Doqminican Republic,7761,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9b9),Country,Fiji,L,6410,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9ba),Country,Central African Republic,calRntnAeparbeli Crciuf ,16937,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9bb),Country,Turkmenistan,6355.17,11150,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9bc),Country,Bahrain,FBahrain,3598,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9bd),Country,Luxembourg,19891.56,8914,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9be),Country,United Arab Emirates,Uniteed Arab Emirates,17468,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9bf),Country,Solomon Islands,Solomo;n Islands,14743,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9c0),Country,Seychelles,lhySeseecl,13516,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9c1),Country,South Africa,6.92,416,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9c2),Country,Iceland,Icseland,10839,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9c3),Country,China,Chimna,11365,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9c4),Country,United Kingdom,Ketonmdid nUig,8605,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9c5),Country,Pakistan,}a)istan,14105,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9c6),Country,Mexico,eociMx,3408,Accuracy,sales_0
+ObjectId(5dd195c5824bbc2d7835e9c7),Country,The Gambia,T$e Gambia,441,Accuracy,sales_0
+ObjectId(5dd195c8824bbc1348183ca8),Country,Cote d'Ivoire,,422,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183ca9),Country,North Korea,,18556,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183caa),Country,Ukraine,,224,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cab),Country,Moldova,,5284,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cac),Country,Sao Tome and Principe,,16911,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cad),Country,Albania,,13255,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cae),Country,Andorra,,7506,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183caf),Country,Sierra Leone,,1775,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb0),Country,Thailand,,16007,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb1),Country,Belarus,,9663,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb2),Country,Seychelles,,2345,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb3),Country,Vatican City,,5694,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb4),Country,Morocco,,3071,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb5),Country,East Timor,,7628,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb6),Country,Namibia,,4977,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb7),Country,Benin,,18051,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb8),Country,Finland,,19155,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cb9),Country,Federated States of Micronesia,,13956,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cba),Country,Republic of the Congo,,17133,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cbb),Country,Pakistan,,14478,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cbc),Country,Senegal,,11688,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cbd),Country,Maldives,,15569,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cbe),Country,Madagascar,,9997,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cbf),Country,Russia,,7684,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc0),Country,Democratic Republic of the Congo,,14970,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc1),Country,Vanuatu,,16910,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc2),Country,Mauritius,,11578,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc3),Country,Brunei,,5595,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc4),Country,Panama,,4318,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc5),Country,Chad,,14126,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc6),Country,Finland,,1324,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc7),Country,Syria,,5792,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc8),Country,Lithuania,,16913,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cc9),Country,Egypt,,12234,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cca),Country,Luxembourg,,17111,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183ccb),Country,Sri Lanka,,350,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183ccc),Country,Azerbaijan,,14987,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183ccd),Country,Sweden,,3279,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cce),Country,Grenada,,12187,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183ccf),Country,Philippines,,10425,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd0),Country,Nauru,,11652,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd1),Country,Slovakia,,98,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd2),Country,Panama,,4647,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd3),Country,Tunisia,,12272,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd4),Country,Guinea-Bissau,,18665,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd5),Country,Moldova,,15495,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd6),Country,Marshall Islands,,15349,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd7),Country,Tuvalu,,9682,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd8),Country,Macedonia,,16862,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cd9),Country,Saint Lucia,,18808,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cda),Country,Kuwait,,3188,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cdb),Country,Madagascar,,18410,Consistency,sales_0
+ObjectId(5dd195c8824bbc1348183cdc),Country,Federated States of Micronesia,,17952,Consistency,sales_0
+ObjectId(5dd195d2824bbc178ce0cba7),Country,Kazakhstan,tsaztanzka,4392,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cba8),Country,Cambodia,miaaaabb,18740,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cba9),Country,Hungary,gHHygaa,5962,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbaa),Country,Sri Lanka,naiLakSiS,9187,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbab),Country,Lesotho,oeshLto,9864,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbac),Country,Turkey,uyrTke,3074,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbad),Country,Grenada,adnaeGr,14458,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbae),Country,Lebanon,Loebann,9602,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbaf),Country,Thailand,aTdalihn,3949,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb0),Country,Cambodia,Cbaoabid,17215,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb1),Country,Kyrgyzstan,gyrzzzsyas,4936,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb2),Country,Ukraine,nininUe,13014,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb3),Country,Vanuatu,utVuatn,8774,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb4),Country,The Gambia,hbbGGeGi a,14523,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb5),Country,Nigeria,Negiaig,18570,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb6),Country,Mongolia,oMonMiaM,11459,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb7),Country,Thailand,naTldiah,10699,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb8),Country,Finland,dinaiia,3161,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbb9),Country,Kazakhstan,hktasKaazn,1155,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbba),Country,Spain,niaSp,12782,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbbb),Country,Bhutan,BBatah,1636,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbbc),Country,Slovakia,aaoSlkvi,9581,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbbd),Country,Latvia,LLvtaa,836,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbbe),Country,The Bahamas,hssThmmhmsB,2477,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbbf),Country,Switzerland,atldzireSnw,10037,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc0),Country,Mauritius,MisiraMui,18869,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc1),Country,Switzerland,Sreidwzntla,14966,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc2),Country,Saint Kitts and Nevis,s vttai ednN aKsitniS,14895,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc3),Country,Slovakia,vSkaiaol,2291,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc4),Country,Poland,llnPPP,14487,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc5),Country,Austria,tssAiii,3921,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc6),Country,Lithuania,uaLnahiit,5173,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc7),Country,Cape Verde,epeaCreVd ,4715,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc8),Country,The Gambia,imih  eah ,6533,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbc9),Country,Cape Verde,epeCrVr ra,18272,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbca),Country,Republic of the Congo,bo hnpgC tlRfo cioeue,16135,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbcb),Country,Finland,dFlanin,11772,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbcc),Country,Sri Lanka,iriakSaSa,15346,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbcd),Country,Federated States of Micronesia,Faoo  o o a  rrttaati rrrte of,14622,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbce),Country,The Bahamas,BhhsThemhms,3054,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbcf),Country,Armenia,rirrima,18571,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd0),Country,Tonga,noTga,13057,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd1),Country,Monaco,acooMn,2395,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd2),Country,Sierra Leone,eieiLeere ie,13294,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd3),Country,Comoros,smoosss,1921,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd4),Country,Poland,addlln,3696,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd5),Country,Saint Vincent and the Grenadines,tnanitidtedies ctehdn eet e easn,4094,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd6),Country,Republic of the Congo,bne f  ctlihpCguooReo,1157,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd7),Country,Bhutan,nntnBt,11156,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd8),Country,Ireland,edrnIal,75,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbd9),Country,South Africa,tr uctauarrt,1486,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbda),Country,Lithuania,tutLLhnta,16426,Validity,sales_0
+ObjectId(5dd195d2824bbc178ce0cbdb),Country,Taiwan,nawwnn,14983,Validity,sales_0
+ObjectId(5dd195dc824bbc2d7835e9ca),Unit Price,9.33,9.33,15988,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9cb),Unit Price,9.33,9.33,17102,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9cc),Unit Price,9.33,9.33,8338,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9cd),Unit Price,9.33,9.33,11158,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9ce),Unit Price,9.33,9.33,19162,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9cf),Unit Price,9.33,9.33,17940,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d0),Unit Price,9.33,9.33,6881,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d1),Unit Price,9.33,9.33,8779,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d2),Unit Price,9.33,9.33,9643,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d3),Unit Price,9.33,9.33,17849,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d4),Unit Price,9.33,9.33,12283,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d5),Unit Price,9.33,9.33,1464,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d6),Unit Price,9.33,9.33,5212,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d7),Unit Price,9.33,9.33,916,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d8),Unit Price,9.33,9.33,6472,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9d9),Unit Price,9.33,9.33,293,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9da),Unit Price,9.33,9.33,12505,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9db),Unit Price,9.33,9.33,15244,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9dc),Unit Price,9.33,9.33,1404,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9dd),Unit Price,9.33,9.33,1638,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9de),Unit Price,9.33,9.33,7268,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9df),Unit Price,9.33,9.33,11584,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e0),Unit Price,9.33,9.33,19572,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e1),Unit Price,9.33,9.33,311,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e2),Unit Price,9.33,9.33,11384,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e3),Unit Price,9.33,9.33,16854,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e4),Unit Price,9.33,9.33,8781,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e5),Unit Price,9.33,9.33,13904,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e6),Unit Price,9.33,9.33,18348,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e7),Unit Price,9.33,9.33,19950,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e8),Unit Price,9.33,9.33,4651,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9e9),Unit Price,9.33,9.33,5055,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9ea),Unit Price,9.33,9.33,17500,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9eb),Unit Price,9.33,9.33,12711,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9ec),Unit Price,9.33,9.33,12497,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9ed),Unit Price,9.33,9.33,12667,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9ee),Unit Price,9.33,9.33,19778,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9ef),Unit Price,9.33,9.33,12346,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f0),Unit Price,9.33,9.33,3218,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f1),Unit Price,9.33,9.33,17138,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f2),Unit Price,9.33,9.33,10532,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f3),Unit Price,9.33,9.33,9690,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f4),Unit Price,9.33,9.33,3312,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f5),Unit Price,9.33,9.33,16201,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f6),Unit Price,9.33,9.33,137,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f7),Unit Price,9.33,9.33,11876,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f8),Unit Price,9.33,9.33,14836,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9f9),Unit Price,9.33,9.33,17458,Accuracy,sales_0
+ObjectId(5dd195dc824bbc2d7835e9fa),Unit Price,9.33,9.33,913,Accuracy,sales_0
