@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.List;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import javax.transaction.Transactional;
 
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONArray;
@@ -26,7 +25,6 @@ import com.mongodb.DBObject;
 import com.mongodb.Mongo;
 import com.mongodb.util.JSON;
 
-@Transactional
 @Service
 public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorService {
 	
