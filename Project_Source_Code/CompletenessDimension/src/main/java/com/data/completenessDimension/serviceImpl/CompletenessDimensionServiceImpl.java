@@ -94,7 +94,7 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 			} 
 		}
 		
-		// mongo.close();
+		 mongo.close();
 		return dbList;
 	}
 	
@@ -134,7 +134,7 @@ public class CompletenessDimensionServiceImpl implements CompletenessDimensionSe
 				e.printStackTrace();
 			}
 		 }		
-		// // mongo.close();
+		 mongo.close();
 		return collectionName;
 	}
 	

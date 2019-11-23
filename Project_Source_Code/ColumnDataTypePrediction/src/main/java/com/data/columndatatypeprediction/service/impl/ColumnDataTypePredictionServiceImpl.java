@@ -83,9 +83,9 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 				String pattern = profilingInfoModel.getPatternsIdentified().get(patternIterator).getPattern();
 				int patternOccurance = profilingInfoModel.getPatternsIdentified().get(patternIterator).getOccurance();
 				int checkforDateWithdoubleSlashOrDot = 0;
-				checkforDateWithdoubleSlashOrDot = StringUtils.countMatches(pattern, ".");
-				checkforDateWithdoubleSlashOrDot = StringUtils.countMatches(pattern, "-");
-				checkforDateWithdoubleSlashOrDot = StringUtils.countMatches(pattern, "/");
+				int checkforDateWith2Dot = StringUtils.countMatches(pattern, ".");
+				int checkforDateWith2dash = StringUtils.countMatches(pattern, "-");
+				int checkforDateWith2Slash = StringUtils.countMatches(pattern, "/");
 				// Can either be a character or a boolean.
 				if (pattern.length() == 1) {
 					// ----incomplete logic
@@ -108,7 +108,7 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 				} else if (pattern.matches("[0-9]+")) {
 					intCnt = intCnt + patternOccurance;
 					dataTypes.put("Integer", intCnt);
-				} else if (checkforDateWithdoubleSlashOrDot == 2) {
+				} else if (checkforDateWith2Dot == 2 || checkforDateWith2dash == 2 ||checkforDateWith2Slash == 2) {
 					dateCnt = dateCnt + patternOccurance;
 					dataTypes.put("Date", dateCnt);
 				} else {

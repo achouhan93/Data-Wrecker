@@ -67,6 +67,7 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 		int avgWreckingCount = (totalRowCount * wreckingPercentage) / (100 * 4 * datasetStatsList.size());
 
 		for(int j =0; j< datasetStatsList.size(); j++) {
+			dimensionsList = new ArrayList<Dimensions>();
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("Date")) {
 				dimensionsList.add(dateService.NullCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(dateService.AccuracyCheck(datasetStatsList.get(j),avgWreckingCount));

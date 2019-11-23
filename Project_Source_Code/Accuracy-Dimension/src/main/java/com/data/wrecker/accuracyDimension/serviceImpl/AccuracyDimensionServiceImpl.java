@@ -74,7 +74,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 					changesLog.setDatasetName(collectionName);
 					JSONObject jsonObj = datasetArray.getJSONObject(recordIndexes.get(j));
 					changesLog.setOldValue(jsonObj.get(columnName).toString());
-					jsonObj = removeAccuracy(columnName, columnDataType, jsonObj);
+					jsonObj = removeAccuracy(columnName, columnDataType, jsonObj,collectionName);
 					datasetArray.put(jsonObj);
 					changesLog.setNewValue(jsonObj.get(columnName).toString());
 					changesLogList.add(changesLog);
@@ -155,7 +155,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 				e.printStackTrace();
 			} 
 		}
-		//mongo.close();
+		mongo.close();
 		return dbList;
 	}
 	
@@ -183,7 +183,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 	
 	}
 	
-	private JSONObject removeAccuracy(String colName, String columnDatatype, JSONObject jsonObj) {
+	private JSONObject removeAccuracy(String colName, String columnDatatype, JSONObject jsonObj, String collectionName) {
 		
 		switch(columnDatatype.toLowerCase()) {
 		case "string": 
@@ -200,7 +200,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 			break;
 		case "date":
 			//// LOGGER.info("Date");
-			jsonObj = callServicesForDate(jsonObj,colName);
+			jsonObj = callServicesForDate(jsonObj,colName,collectionName);
 			break;
 		case "boolean":
 			//// LOGGER.info("Boolean");
@@ -253,10 +253,9 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 
 
 
-	private JSONObject callServicesForDate(JSONObject jsonObj, String colName) {
+	private JSONObject callServicesForDate(JSONObject jsonObj, String colName, String collectionName) {
 		rand = new Random();
 		int options = rand.nextInt(2);
-		String collectionName = "";
 		String result = "";
 		DatasetStats datasetStatsInfo = getDatasetStats(colName, collectionName);
 		try {
