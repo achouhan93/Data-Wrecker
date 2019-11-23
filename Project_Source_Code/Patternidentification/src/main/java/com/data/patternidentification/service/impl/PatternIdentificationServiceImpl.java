@@ -106,7 +106,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					/*
 					 * if (columnDataIterator == 0) { continue; }
 					 */
-					if (columnHeaders.contains("Date") || columnHeaders.get(z).contains("Time")) {
+					if (columnHeaders.get(z).contains("Date") || columnHeaders.get(z).contains("Time")) {
 						smallAphabetFillteredStr = findPatternForDate(columnData.get(columnDataIterator));
 					}
 					// patternIdentificationLogic
@@ -127,7 +127,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 							smallAphabetFillteredStr = columnData.get(columnDataIterator);
 						} else {
 							columnStr = columnData.get(columnDataIterator);
-							integerFilteredStr = columnStr.replaceAll("[0-9]", "0");
+							integerFilteredStr = columnStr.replaceAll("[0-9]", "9");
 							capAphabetFillteredStr = integerFilteredStr.replaceAll("[A-Z]", "X");
 							smallAphabetFillteredStr = capAphabetFillteredStr.replaceAll("[a-z]", "x");
 
@@ -242,7 +242,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		}
 		JSONObject json_obj;
 		try {
-			json_obj = dbList.getJSONObject(1);
+			json_obj = dbList.getJSONObject(0);
 			Iterator columnNames = json_obj.keys();
 
 			while (columnNames.hasNext()) {

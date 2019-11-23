@@ -87,21 +87,28 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 				checkforDateWithdoubleSlashOrDot = StringUtils.countMatches(pattern, "-");
 				checkforDateWithdoubleSlashOrDot = StringUtils.countMatches(pattern, "/");
 				// Can either be a character or a boolean.
-				if (pattern.length() == 1) {
+				if (pattern.length() == 1 && pattern.matches("/^[a-zA-Z]+$/")) {
 					// ----incomplete logic
 					// 1st get the name of that column with pattern with size of 1
 					// then get the complete data of that column
 					// go through data and check if it contains 0/1. if yes it a boolean else
 					// character.
-					if (pattern.equals("1") || pattern.equals("0")) {
+					/*if (pattern.equals("1") || pattern.equals("0")) {
 						boolCnt = boolCnt + patternOccurance;
 						dataTypes.put("Boolean", boolCnt);
-					} else {
+					} else {*/
 						charCnt = charCnt + patternOccurance;
 						dataTypes.put("Character", charCnt);
+					
+				}
+				
+					else if (pattern.equalsIgnoreCase("true") || pattern.equalsIgnoreCase("false"))
+					{
+						boolCnt = boolCnt + patternOccurance;
+						dataTypes.put("Boolean", boolCnt);
 					}
-
-				} else if (pattern.matches("(\\+|-)?([0-9]+(\\.[0-9]+))")
+				
+				 else if (pattern.matches("(\\+|-)?([0-9]+(\\.[0-9]+))")
 						|| pattern.matches("(\\+|-)?([0-9]+(\\,[0-9]+))")) {
 					doubleCnt = doubleCnt + patternOccurance;
 					dataTypes.put("Decimal", doubleCnt);

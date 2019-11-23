@@ -118,7 +118,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 				e.printStackTrace();
 			}
 		}
-		// mongo.close();
+		 mongo.close();
 		return collectionName;
 	}
 
@@ -147,7 +147,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 			}
 		}
 
-		// mongo.close();
+		 mongo.close();
 		return dbList;
 	}
 

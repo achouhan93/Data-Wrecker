@@ -64,7 +64,7 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 							JSONObject jsonObject = new JSONObject();
 							jsonObject = datasetArray.getJSONObject(j);
 							datasetArray.getJSONObject(j).put("isWrecked", true);
-							jsonObject.put("_id",null);
+							jsonObject.put("_id","");
 							jsonObject.put("isWrecked", true);				
 							changedRecordObj.put(jsonObject);
 							changesLog.setNewValue(datasetArray.getJSONObject(j).get(columnName).toString());

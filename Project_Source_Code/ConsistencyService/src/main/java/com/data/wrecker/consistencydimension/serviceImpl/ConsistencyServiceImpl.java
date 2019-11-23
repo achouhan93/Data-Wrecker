@@ -164,7 +164,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 			}
 		}
 
-		// mongo.close();
+		 mongo.close();
 		return dbList;
 	}
 
@@ -316,7 +316,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 				e.printStackTrace();
 			}
 		}
-		 // mongo.close();
+		  mongo.close();
 		return collectionName;
 	}
 

@@ -109,9 +109,18 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 							//LOGGER.info("Accuracy may be called");
 						}
 					}
+					
+					Dimensions dimensions = null;
+					datadimention.add("Uniqueness");
+					dimensions = new Dimensions();
+					dimensions.setDimensionName("Uniqueness");
+					dimensions.setReason("insufficient unique values");
+					dimensions.setStatus(true);
+					dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions);
+					DimensionsList.add(dimensions);
 					if (indivisualWreakingCountForDimentions > completenessCnt) {
 						datadimention.add("Completeness");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Completeness");
 						dimensions.setReason("insufficient null values");
 						dimensions.setStatus(true);
@@ -121,7 +130,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 					
 					if (indivisualWreakingCountForDimentions > consistancyCnt) {
 						datadimention.add("Consistancy");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Consistancy");
 						dimensions.setReason("insufficient integer values");
 						dimensions.setStatus(true);
@@ -131,7 +140,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 
 					if (indivisualWreakingCountForDimentions > positiveValidityCnt) {
 						datadimention.add("validaity");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
 						dimensions.setReason("insufficient +ve Decimal values");
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - positiveValidityCnt);
@@ -139,7 +148,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 					}
 					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
 						datadimention.add("validaity");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
 						dimensions.setReason("insufficient -ve Decimal values");
 						dimensions.setStatus(true);
@@ -148,7 +157,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 					}
 					if (indivisualWreakingCountForDimentions > accuracyCnt) {
 						datadimention.add("Accuracy");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Accuracy");
 						dimensions.setReason("insufficient accurate values");
 						dimensions.setStatus(true);
