@@ -157,8 +157,8 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			
 		}
 		
-		int maxValue = Collections.max(regexCounts);
-		return totalRowsCanBeWrecked -(totalCount - maxValue);
+		//int maxValue = Collections.max(regexCounts);
+		return totalRowsCanBeWrecked;
 		
 	}
 

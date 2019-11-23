@@ -48,8 +48,8 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 	private ChangesLogsRepository changesLogrepo;
 	private Mongo mongo;
 	private DB db;
-	
-	
+
+
 	@Override
 	public String removeAccuracyDimension(String collectionName, String columnName,List<String> wreckingIds) {
 		String firstCollectionName = getFirstVersionOfCollection(collectionName);
@@ -62,11 +62,11 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 			recordIndexes.add(Integer.valueOf(str));
 		}
 
-		
-		
+
+
 		try {
 		for(int j =0; j < recordIndexes.size(); j++ ) {
-			
+
 					changesLog = new ChangesLog();
 					changesLog.setColumnName(columnName);
 					changesLog.setOid(recordIndexes.get(j));
@@ -80,33 +80,33 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 					changesLogList.add(changesLog);
 					//addToDb(changesLog);
 		}
-		
+
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		addToDb(changesLogList);
-		
+
 		return addIntoDatabase(collectionName,datasetArray);
 	}
-	
-	
-	
+
+
+
 	private void addToDb(List<ChangesLog> changesLogList) {
 		for(int i =0; i < changesLogList.size(); i++) {
 			changesLogrepo.insert(changesLogList.get(i));
 		}
 	}
-	
-	
+
+
 
 	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {
 		mongo = new Mongo("localhost", 27017);
 		db = mongo.getDB("ReverseEngineering");
 		String[] name = collectionName.split("_");
 		List<Document> jsonList = new ArrayList<Document>();
-		
+
 		String newCollectionName;
 		int versionNumber;
 		if(name[name.length - 1].isEmpty()) {
@@ -117,10 +117,10 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 			newCollectionName = name[0]+"_"+versionNumber;
 			// LOGGER.info("New Collection Name is "+newCollectionName);
 		}
-			
+
 		DBCollection collection = db.createCollection(collectionName, null);
 		 for (int i =0; i < jsonArray.length(); i++) {
-		 
+
 			 DBObject dbObject;
 			try {
 				dbObject = (DBObject) JSON.parse(jsonArray.getJSONObject(i).toString());
@@ -130,71 +130,71 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		 }		
+		 }
 		return collectionName;
 	}
 
 
 	private JSONArray getDatasetFromDb(String collectionName) {
-		
+
 		mongo = new Mongo("localhost", 27017);
 		db = mongo.getDB("ReverseEngineering");
-		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
+		DBCollection collection = db.getCollection(collectionName); //giving the collection name
 		DBCursor cursor = collection.find();
 		JSONArray dbList = new JSONArray();
 		List<String> columnNamesList = new ArrayList<String>();
-		
-		
+
+
 		while(cursor.hasNext()) {
 			String str = cursor.next().toString();
-			try {	
+			try {
 				JSONObject jsnobj = new JSONObject(str);
-				dbList.put(jsnobj);				
+				dbList.put(jsnobj);
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} 
+			}
 		}
 		mongo.close();
 		return dbList;
 	}
-	
+
 	private String getColumnDataType(String collectionName,String columnName) {
-	
+
 		dataProfilerInfoList = dataProfilerInfoRepo.findAll();
 		String colDatatype = "";
 		for(int i =0; i < dataProfilerInfoList.size(); i++) {
 			if(dataProfilerInfoList.get(i).getFileName().equals(collectionName)) {
 				dataProfilerInfo = new DataProfilerInfo();
 				dataProfilerInfo = dataProfilerInfoList.get(i);
-				break;				
+				break;
 			}
-		}	
-		
+		}
+
 		for(int i=0; i<dataProfilerInfo.getDatasetStats().size(); i++) {
-			
+
 			if(dataProfilerInfo.getDatasetStats().get(i).getColumnName().equals(columnName)) {
 				colDatatype = dataProfilerInfo.getDatasetStats().get(i).getProfilingInfo().getColumnDataType();
 				break;
 			}
 		}
-		
-		return colDatatype;		
-	
+
+		return colDatatype;
+
 	}
-	
-	private JSONObject removeAccuracy(String colName, String columnDatatype, JSONObject jsonObj,String collectionName) {
-		
+
+	private JSONObject removeAccuracy(String colName, String columnDatatype, JSONObject jsonObj, String collectionName) {
+
 		switch(columnDatatype.toLowerCase()) {
-		case "string": 
+		case "string":
 			// // LOGGER.info("String");
-			jsonObj = callServicesForString(jsonObj,colName);			
+			jsonObj = callServicesForString(jsonObj,colName);
 			break;
-		case "integer":	
+		case "integer":
 			//// LOGGER.info("Integer");
 				jsonObj = callServicesForInteger(jsonObj,colName);
 			break;
-		case "character":	
+		case "character":
 			// // LOGGER.info("Character");
 			jsonObj = callServicesForString(jsonObj,colName);
 			break;
@@ -211,7 +211,7 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 			jsonObj = callServicesForDecimal(jsonObj, colName);
 		break;
 		}
-		
+
 		return jsonObj;
 	}
 
@@ -223,14 +223,14 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 		String[] truthValues = {"tRuE","TRue","TruE","Treu","Ture","t","T","1","Trre"};
 		String[] falseValues = {"faLsE","FaLSE","FaLSe","FAls","f","0","FASE","Fals","FLSE","Fale"};
 		switch(options) {
-		case 1: 
+		case 1:
 			try {
 				jsonObj.put(colName, truthValues[rand.nextInt(truthValues.length - 1)]);
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+
 			break;
 		case 2:
 			try {
@@ -246,22 +246,22 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 		default:
 			jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
 			break;
-		
+
 		}
 		return jsonObj;
 	}
 
 
 
-	private JSONObject callServicesForDate(JSONObject jsonObj, String colName,String collectionName) {
+	private JSONObject callServicesForDate(JSONObject jsonObj, String colName, String collectionName) {
 		rand = new Random();
 		int options = rand.nextInt(2);
 		String result = "";
 		DatasetStats datasetStatsInfo = getDatasetStats(colName, collectionName);
 		try {
-			
+
 		switch(options) {
-			case 0: 
+			case 0:
 				jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
 				// LOGGER.info("AfterApplying Accuracy interChangedValues "+jsonObj.toString());
 				break;
@@ -269,18 +269,18 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 				result = accuracyServiceImpl.addYearsToDate(datasetStatsInfo, jsonObj.getString(colName));
 				jsonObj.put(colName, result);
 				// LOGGER.info("AfterApplying Accuracy addYearsToDate "+jsonObj.toString());
-				break;	
+				break;
 			default:
 				jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
 				break;
-				
+
 			}
 		}catch (JSONException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-			
-		
+
+
 		return jsonObj;
 	}
 
@@ -291,13 +291,13 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 		int options = rand.nextInt(2);
 		int result = 0;
 		try {
-			
+
 			switch(options) {
-			case 0: 
+			case 0:
 				jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
 				// LOGGER.info("AfterApplying Accuracy interChangedValues "+jsonObj.toString());
 				break;
-			case 1: 
+			case 1:
 				//result = accuracyServiceImpl.convertIntToOppositeSign();
 				jsonObj.put(colName, result);
 				// LOGGER.info("AfterApplying Accuracy convertIntToOppositeSign "+jsonObj.toString());
@@ -306,18 +306,18 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 				jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
 				break;
 			}
-			
+
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return jsonObj;
 	}
 
-	
+
 	private JSONObject callServicesForDecimal(JSONObject jsonObj, String colName) {
-		
+
 		jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
 		return jsonObj;
 	}
@@ -326,8 +326,8 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 	private JSONObject callServicesForString(JSONObject jsonObj, String colName) {
 		rand = new Random();
 		int options = rand.nextInt(4);
-		String result;	
-		 
+		String result;
+
 			try {
 				switch(options) {
 			case 0:
@@ -345,25 +345,25 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 				jsonObj.put(colName, result);
 				// LOGGER.info("AfterApplying Accuracy generateJunkValues "+jsonObj.toString());
 				break;
-			case 3: 
+			case 3:
 				jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
 				// LOGGER.info("AfterApplying Accuracy interChangedValues "+jsonObj.toString());
 				break;
 			default:
 				jsonObj = accuracyServiceImpl.interChangedValues(jsonObj, colName);
-				break;	
+				break;
 				}
-			} catch (JSONException e) {				
+			} catch (JSONException e) {
 				e.printStackTrace();
 			}
 		return jsonObj;
 	}
 
-	
+
 	private DatasetStats getDatasetStats(String colName, String cllectionName) {
-		
+
 		dataProfilerInfoList = new ArrayList<DataProfilerInfo>();
-		
+
 		dataProfilerInfoList = dataProfilerInfoRepo.findAll();
 		for(int i =0; i < dataProfilerInfoList.size(); i++) {
 			if(dataProfilerInfoList.get(i).getFileName().equals(cllectionName)) {
@@ -375,14 +375,14 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 						datasetStats = datasetStatsList.get(j);
 						break;
 					}
-				}	
+				}
 			}
 		}
-		
+
 		return datasetStats;
 	}
-	
-	
+
+
 
 	private String getFirstVersionOfCollection(String collectionName) {
 		String[] name = collectionName.split("_");
@@ -396,5 +396,5 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 		}
 		return collectionName;
 	}
-	
+
 }
