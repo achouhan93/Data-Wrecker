@@ -34,8 +34,8 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 	private ChangesLogsRepository changesLogrepo;
 	private Mongo mongo;
 	private DB db;
-	
-	
+
+
 	@Override
 	public String applyUniquenessDimension(String collectionName, String columnName,List<String> wreckingIdsForDimension) {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
@@ -47,11 +47,11 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 			recordIndexes.add(Integer.valueOf(str));
 		}
 		try {
-			
-			changedRecordObj= new JSONArray();	
-			
+
+			changedRecordObj= new JSONArray();
+
 		for(int j =0; j < recordIndexes.size(); j++ ) {
-			
+
 				//String objectId = wreckingIdsForDimension.get(j);
 							JSONObject jsonObject = new JSONObject();
 							jsonObject = datasetArray.getJSONObject(recordIndexes.get(j));
@@ -61,74 +61,74 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 							changesLog.setColumnName(columnName);
 							changesLog.setOid(" ");
 							changesLog.setOldValue(datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString());
-							
+
 							datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
 							LOGGER.info("OBJ : "+datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true).toString());
 							jsonObject.put("_id",null);
-							jsonObject.put("isWrecked", true);				
+							jsonObject.put("isWrecked", true);
 							changedRecordObj.put(jsonObject);
 							//addIntoDatabase(collectionName,changedRecordObj);
 							changesLog.setNewValue(datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString());
 							changesLogList.add(changesLog);
 							addToDb(changesLog);
-	
-		
+
+
 		}
-		
-		
+
+
 		}catch(JSONException e) {
 			e.printStackTrace();
 		}
-		
+
 		// LOGGER.info("Final length " + datasetArray.length() );
-		
+
 		for(int k=0;k<changedRecordObj.length();k++) {
-			
+
 			try {
 				datasetArray.put(changedRecordObj.getJSONObject(k));
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+
 		}
-		
+
 		return addIntoDatabase(collectionName,datasetArray);
 	}
 
-	
 
-	
-	
+
+
+
 	private JSONArray getDatasetFromDb(String collectionName) {
 		Mongo mongo = new Mongo("localhost", 27017);
 		DB db = mongo.getDB("ReverseEngineering");
-		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
+		DBCollection collection = db.getCollection(collectionName); //giving the collection name
 		DBCursor cursor = collection.find();
 		JSONArray dbList = new JSONArray();
 		List<String> columnNamesList = new ArrayList<String>();
-		
-		
+
+
 		while(cursor.hasNext()) {
 			String str = cursor.next().toString();
-			try {	
+			try {
 				JSONObject jsnobj = new JSONObject(str);
-				dbList.put(jsnobj);				
+				dbList.put(jsnobj);
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} 
+			}
 		}
-		
-	
+
+
 		return dbList;
 	}
-	
+
 	private void addToDb(ChangesLog changesLog) {
 		changesLogrepo.insert(changesLog);
 	}
-	
-	
+
+
 	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {
 		mongo = new Mongo("localhost", 27017);
 		db = mongo.getDB("ReverseEngineering");
@@ -161,7 +161,7 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 		 mongo.close();
 		return collectionName;
 	}
-	
-	
+
+
 
 }

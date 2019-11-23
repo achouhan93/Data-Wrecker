@@ -58,11 +58,11 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		for(String str : wreckingIds) {
 			recordIndexes.add(Integer.valueOf(str));
 		}
-		
+
 		try {
 
 			for (int j = 0; j < recordIndexes.size(); j++) {
-				
+
 				String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
 				if (colValue == null || colValue.isEmpty()) {
 					changesLog = new ChangesLog();
@@ -76,7 +76,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 					changesLog.setNewValue(colValue);
 					changesLogList.add(changesLog);
 					//addToDb(changesLog);
-					
+
 				} else {
 					changesLog = new ChangesLog();
 					changesLog.setColumnName(columnName);
@@ -90,7 +90,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 					changesLog.setNewValue(colValue);
 					changesLogList.add(changesLog);
 					//addToDb(changesLog);
-				}			
+				}
 			}
 
 		} catch (JSONException e) {
@@ -99,7 +99,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		}
 
 		addToDb(changesLogList);
-		
+
 		return addIntoDatabase(collectionName, datasetArray);
 	}
 
@@ -205,7 +205,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 			cha = waysofConsistencyToBeApplied.reverseCase(colValue);
 			// LOGGER.info("Value after Change " + cha);
 			break;
-		default:	
+		default:
 			cha = waysofConsistencyToBeApplied.reverseCase(colValue);
 			break;
 		}

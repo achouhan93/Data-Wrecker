@@ -106,7 +106,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					/*
 					 * if (columnDataIterator == 0) { continue; }
 					 */
-					if (columnHeaders.contains("Date") || columnHeaders.get(z).contains("Time")) {
+					if (columnHeaders.get(z).contains("Date") || columnHeaders.get(z).contains("Time")) {
 						smallAphabetFillteredStr = findPatternForDate(columnData.get(columnDataIterator));
 					}
 					// patternIdentificationLogic

@@ -113,9 +113,17 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 							//LOGGER.info("Accuracy may be called");
 						}
 					}
+					Dimensions dimensions = null;
+					datadimention.add("Uniqueness");
+					dimensions = new Dimensions();
+					dimensions.setDimensionName("Uniqueness");
+					dimensions.setReason("insufficient unique values");
+					dimensions.setStatus(true);
+					dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions);
+					DimensionsList.add(dimensions);
 					if (indivisualWreakingCountForDimentions > completenessCnt) {
 						datadimention.add("Completeness");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Completeness");
 						dimensions.setReason("insufficient null values");
 						dimensions.setStatus(true);
@@ -125,7 +133,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					
 					if (indivisualWreakingCountForDimentions > consistancyCnt) {
 						datadimention.add("Consistency");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Consistency");
 						dimensions.setReason("insufficient decimal values");
 						dimensions.setStatus(true);
@@ -135,7 +143,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 
 					if (indivisualWreakingCountForDimentions > positiveValidityCnt) {
 						datadimention.add("Validity");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient +ve integer values");
 						dimensions.setStatus(true);
@@ -144,7 +152,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					}
 					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
 						datadimention.add("Validity");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient -ve integer values");
 						dimensions.setStatus(true);
@@ -153,7 +161,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					}
 					if (indivisualWreakingCountForDimentions > accuracyCnt) {
 						datadimention.add("Accuracy");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Accuracy");
 						dimensions.setReason("insufficient accurate values");
 						dimensions.setStatus(true);
