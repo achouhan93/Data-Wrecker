@@ -153,7 +153,7 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 
 	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount, int colCount) {
 		
-		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 4 * colCount) ;  
+		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 5 * colCount) ;  
 		return totalRowsCanBeWrecked;
 		
 	}
