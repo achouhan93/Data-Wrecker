@@ -116,8 +116,14 @@ public class ColumnDataTypePredictionServiceImpl implements ColumnDataTypePredic
 					intCnt = intCnt + patternOccurance;
 					dataTypes.put("Integer", intCnt);
 				} else if (checkforDateWithdoubleSlashOrDot == 2) {
-					dateCnt = dateCnt + patternOccurance;
-					dataTypes.put("Date", dateCnt);
+					if(pattern.matches( "^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$") ||
+							pattern.matches( "^([0-2][0-9]|(3)[0-1])(\\-)(((0)[0-9])|((1)[0-2]))(\\-)\\d{4}$") ||
+					        pattern.matches( "^([0-2][0-9]|(3)[0-1])(\\.)(((0)[0-9])|((1)[0-2]))(\\.)\\d{4}$")		
+									)
+					{
+						dateCnt = dateCnt + patternOccurance;
+						dataTypes.put("Date", dateCnt);
+					}
 				} else {
 					strCnt = strCnt + patternOccurance;
 					dataTypes.put("String", strCnt);
