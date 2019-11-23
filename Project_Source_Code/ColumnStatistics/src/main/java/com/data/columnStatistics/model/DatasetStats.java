@@ -1,5 +1,7 @@
 package com.data.columnStatistics.model;
 
+import java.util.List;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,6 +12,6 @@ public class DatasetStats {
 
 	private String columnName;
 	private ProfilingInfoModel profilingInfo;
-	private DimensionInfoModel dimensionList;
+	private List<Dimensions> dimensionsList;
 
 }

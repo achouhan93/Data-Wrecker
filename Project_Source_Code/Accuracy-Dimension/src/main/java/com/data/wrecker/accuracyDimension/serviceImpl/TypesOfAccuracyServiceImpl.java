@@ -10,7 +10,7 @@ import java.util.Random;
 import java.util.regex.Pattern;
 
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+// import org.apache.logging.log4j.// LOGGER;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
@@ -24,12 +24,12 @@ import com.data.wrecker.accuracyDimension.service.TypesOfAccuracyToBeEffected;
 @Transactional
 public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected {
 
-	private static final Logger LOGGER = LogManager.getLogger();
+	// private static final // LOGGER // LOGGER = LogManager.get// LOGGER();
 	private Random rand = new Random();
 
 	@Override
 	public JSONObject interChangedValues(JSONObject jsonObj, String columnName) {
-		LOGGER.info("Interchanging values " + jsonObj.toString());
+		// LOGGER.info("Interchanging values " + jsonObj.toString());
 
 		Iterator columnNames = jsonObj.keys();
 		List<String> columnHeaders = new ArrayList<String>();
@@ -65,7 +65,7 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected {
 
 	@Override
 	public String typosForValues(String colValue) {
-		LOGGER.info("colValue " + colValue);
+		// LOGGER.info("colValue " + colValue);
 		if (!colValue.isEmpty()) {
 			rand = new Random();
 			int count = 0;
@@ -85,14 +85,16 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected {
 				count--;
 			}
 			return new String(chars);
+		}else {
+			return " ";
 		}
-		return null;
+		
 	}
 
 	@Override
 	public String generateJunkValues(String colValue) {
-		LOGGER.info("Generate Junk Values ");
-		LOGGER.info("colValue " + colValue);
+		// LOGGER.info("Generate Junk Values ");
+		// LOGGER.info("colValue " + colValue);
 		if (!colValue.isEmpty()) {
 			rand = new Random();
 			String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+{}:>?/.,;'[] ";
@@ -102,19 +104,19 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected {
 			return colValue.substring(0, subStringLength) + characters[randomIndex]
 					+ colValue.substring(subStringLength);
 		}
-		LOGGER.info("colvalue is null");
+		// LOGGER.info("colvalue is null");
 		return "null";
 	}
 
 	@Override
 	public String generateDates(String colValue) {
-		LOGGER.info("Generating Dates");
+		// LOGGER.info("Generating Dates");
 		return null;
 	}
 
 	@Override
 	public String shuffleString(String colValue) {
-		LOGGER.info("Shuffle Strings");
+		// LOGGER.info("Shuffle Strings");
 		List<Character> characters = new ArrayList<Character>();
 		for (char c : colValue.toCharArray()) {
 			characters.add(c);
@@ -129,7 +131,7 @@ public class TypesOfAccuracyServiceImpl implements TypesOfAccuracyToBeEffected {
 
 	@Override
 	public int convertIntToOppositeSign(int colValue) {
-		return -colValue;
+		return colValue;
 	}
 
 	@Override

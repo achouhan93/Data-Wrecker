@@ -18,61 +18,61 @@ public class CallDimensionServicesImpl implements CallDimensionServices{
 	private String url = "";
 
 	@Override
-	public String callCompletenessService(List<String> objectIds, String colName, String collectionName) {
+	public String callCompletenessService(List<Integer> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		/*LOGGER.info("Completeness Service Called for column "+colName);
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
 		url = "http://localhost:8092/dimension/completenessDimension?collectionName="+collectionName+"&columnName="+colName+"&wreckingIdsForDimension="+listToString(objectIds);
-		System.out.println("collectionName: "+collectionName+" colName: "+colName+" completeness");
+		//System.out.println("collectionName: "+collectionName+" colName: "+colName+" completeness");
 		 LOGGER.info("URL \n"+url);
 		return new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override
-	public String callUniquenessService(List<String> objectIds, String colName, String collectionName) {
+	public String callUniquenessService(List<Integer> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		/*LOGGER.info("Uniqueness Service Called for column "+colName);
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
 		url = "http://localhost:8093/dimension/uniquenessDimension?collectionName="+collectionName+"&columnName="+colName+"&wreckingIdsForDimension="+listToString(objectIds);
 		// LOGGER.info("URL \n"+url);
-		System.out.println("collectionName: "+collectionName+" colName: "+colName+" uniqueness");
+		//System.out.println("collectionName: "+collectionName+" colName: "+colName+" uniqueness");
 		return new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override
-	public String callConsistencyService(List<String> objectIds, String colName, String collectionName) {
+	public String callConsistencyService(List<Integer> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		/*LOGGER.info("Consistency Service Called for column "+colName);
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
 		url = "http://localhost:8094/dimension/consistencyDimension?collectionName="+collectionName+"&columnName="+colName+"&wreckingIdsForDimension="+listToString(objectIds);
-		System.out.println("collectionName: "+collectionName+" colName: "+colName+" consistancy");
+		//System.out.println("collectionName: "+collectionName+" colName: "+colName+" consistancy");
 		return new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override
-	public String callAccuracyServcie(List<String> objectIds, String colName, String collectionName) {
+	public String callAccuracyServcie(List<Integer> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		/*LOGGER.info("Accuracy Service Called for column "+colName);
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
 		url = "http://localhost:8095/dimension/accuracyDimension?collectionName="+collectionName+"&columnName="+colName+"&wreckingIdsForDimension="+listToString(objectIds);
-		System.out.println("collectionName: "+collectionName+" colName: "+colName+" accuracy");
+		//System.out.println("collectionName: "+collectionName+" colName: "+colName+" accuracy");
 		return new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override
-	public String callValidityServcie(List<String> objectIds, String colName, String collectionName) {
+	public String callValidityServcie(List<Integer> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		// LOGGER.info("Validity Service Called for column "+colName);
 		// LOGGER.info("OBJECT ids length "+objectIds.size());
 		url = "http://localhost:8096/dimension/validityDimension?collectionName="+collectionName+"&columnName="+colName+"&wreckingIdsForDimension="+listToString(objectIds);
-		System.out.println("collectionName: "+collectionName+" colName: "+colName+" validity");
+		//System.out.println("collectionName: "+collectionName+" colName: "+colName+" validity");
 		return new RestTemplate().getForObject(url, String.class);
 	}
 	
-	private String listToString(List<String> objIds) {
+	private String listToString(List<Integer> objIds) {
 		StringBuilder namesStr = new StringBuilder();
 		 
-		 for(String name : objIds)
+		 for(Integer name : objIds)
 		    {
 		        namesStr = namesStr.length() > 0 ? namesStr.append(",").append(name) : namesStr.append(name);
 		    }

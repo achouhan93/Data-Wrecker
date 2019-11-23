@@ -9,6 +9,5 @@ public class DecimalDataTypeService
     public static void main( String[] args )
     {
     	SpringApplication.run(DecimalDataTypeService.class, args);
-    	System.out.println("*************************DecimalDataTypeService*************************");
     }
 }

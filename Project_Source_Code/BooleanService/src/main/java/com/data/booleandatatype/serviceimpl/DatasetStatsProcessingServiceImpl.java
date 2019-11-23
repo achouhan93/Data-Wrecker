@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.booleandatatype.model.DataProfilerInfo;
 import com.data.booleandatatype.model.DatasetStats;
-import com.data.booleandatatype.model.DimensionInfoModel;
 import com.data.booleandatatype.model.Dimensions;
 import com.data.booleandatatype.repository.DatasetStatsInfoRepository;
 import com.data.booleandatatype.service.BooleanDataTypeService;
@@ -26,18 +25,18 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	private List<Dimensions> dimensionsList;
 	private List<DataProfilerInfo> dataProfilerInfoList;
 	private DataProfilerInfo dataProfilerInfo;
-	
-	
+
+
 	@Override
 	public String getDimensionResults(String fileName,int wreckingPercentage) {
-	
+
 		dimensionsList = new ArrayList<Dimensions>();
 		dataProfilerInfoList = datasetStatsRepo.findAll();
 		for(int i =0; i < dataProfilerInfoList.size(); i++) {
 			if(dataProfilerInfoList.get(i).getFileName().equals(fileName)) {
 				dataProfilerInfo = new DataProfilerInfo();
 				dataProfilerInfo = dataProfilerInfoList.get(i);
-				break;				
+				break;
 			}
 		}
 		datasetStatsList =getDimensionResults(dataProfilerInfo.getDatasetStats(),wreckingPercentage);
@@ -48,31 +47,33 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 			return "Fail";
 		}
 	}
-	
+
 	private boolean updateDimensionList(DataProfilerInfo dataProfilerInfo) {
 		if(datasetStatsRepo.save(dataProfilerInfo) != null) {
-			return true;	
+			return true;
 		}else {
 			return false;
-		}			
+		}
 	}
-	
+
 	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
-		DimensionInfoModel dimensionServices = new DimensionInfoModel();
+
+		int totalRowCount = datasetStatsList.get(0).getProfilingInfo().getColumnStats().getRowCount();
+		int avgWreckingCount = (totalRowCount * wreckingPercentage) / (100 * 4 * datasetStatsList.size());
 		for(int j =0; j< datasetStatsList.size(); j++) {
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("Boolean")) {
-				dimensionsList.add(booleanService.NullCheck(datasetStatsList.get(j),wreckingPercentage));
-				dimensionsList.add(booleanService.AccuracyCheck(datasetStatsList.get(j),wreckingPercentage));
-				dimensionsList.add(booleanService.ConsistencyCheck(datasetStatsList.get(j),wreckingPercentage));
-				dimensionsList.add(booleanService.ValidityCheck(datasetStatsList.get(j),wreckingPercentage));
-				dimensionServices = new DimensionInfoModel();
-				dimensionServices.setDimensionsList(dimensionsList);
-				datasetStatsList.get(j).setDimentionList(dimensionServices);
+				dimensionsList = new ArrayList<Dimensions>();
+				dimensionsList.add(booleanService.NullCheck(datasetStatsList.get(j),avgWreckingCount));
+				dimensionsList.add(booleanService.AccuracyCheck(datasetStatsList.get(j),avgWreckingCount));
+				dimensionsList.add(booleanService.ConsistencyCheck(datasetStatsList.get(j),avgWreckingCount));
+				dimensionsList.add(booleanService.ValidityCheck(datasetStatsList.get(j),avgWreckingCount));
+				dimensionsList.add(booleanService.UniquenessCheck(datasetStatsList.get(j), avgWreckingCount));
+				datasetStatsList.get(j).setDimensionsList(dimensionsList);
 			}
 		}
 		return datasetStatsList;
 	}
-	
-	
+
+
 
 }

@@ -13,4 +13,6 @@ public interface StringDataTypeService {
 	
 	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount);
 	
+	public Dimensions UniquenessCheck(DatasetStats datasetStats, int avgWreckingCount, int Colcount);
+	
 }

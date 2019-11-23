@@ -12,7 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.integerdatatypeservice.model.DataProfilerInfo;
 import com.data.integerdatatypeservice.model.DataSetStats;
-import com.data.integerdatatypeservice.model.DimensionInfoModel;
 import com.data.integerdatatypeservice.model.Dimensions;
 import com.data.integerdatatypeservice.model.ProfilingInfoModel;
 import com.data.integerdatatypeservice.repository.IntegerDataTypeRepository;
@@ -60,7 +59,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 			for (int datasetHeadersIterator = 0; datasetHeadersIterator < columnHeader1
 					.size(); datasetHeadersIterator++) {
 
-				DimensionInfoModel dimensionInfoModel = new DimensionInfoModel();
+				
 				List<Dimensions> DimensionsList = new ArrayList<Dimensions>();
 
 				int consistancyCnt = 0;
@@ -77,7 +76,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						profilingInfoModel = dataSetStatsList.get(j).getProfilingInfo();
 					}
 					int numberOfRecords = profilingInfoModel.getColumnStats().getRowCount();
-					 indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
+					indivisualWreakingCountForDimentions = ( ( (wreakingPercentage / 4) * numberOfRecords) / ( 100* columnHeader1.size() ) );
 				}
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Integer")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
@@ -114,9 +113,17 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 							//LOGGER.info("Accuracy may be called");
 						}
 					}
+					Dimensions dimensions = null;
+					datadimention.add("Uniqueness");
+					dimensions = new Dimensions();
+					dimensions.setDimensionName("Uniqueness");
+					dimensions.setReason("insufficient unique values");
+					dimensions.setStatus(true);
+					dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions);
+					DimensionsList.add(dimensions);
 					if (indivisualWreakingCountForDimentions > completenessCnt) {
 						datadimention.add("Completeness");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Completeness");
 						dimensions.setReason("insufficient null values");
 						dimensions.setStatus(true);
@@ -126,7 +133,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					
 					if (indivisualWreakingCountForDimentions > consistancyCnt) {
 						datadimention.add("Consistency");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Consistency");
 						dimensions.setReason("insufficient decimal values");
 						dimensions.setStatus(true);
@@ -136,7 +143,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 
 					if (indivisualWreakingCountForDimentions > positiveValidityCnt) {
 						datadimention.add("Validity");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient +ve integer values");
 						dimensions.setStatus(true);
@@ -145,7 +152,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					}
 					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
 						datadimention.add("Validity");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Validity");
 						dimensions.setReason("insufficient -ve integer values");
 						dimensions.setStatus(true);
@@ -154,7 +161,7 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 					}
 					if (indivisualWreakingCountForDimentions > accuracyCnt) {
 						datadimention.add("Accuracy");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Accuracy");
 						dimensions.setReason("insufficient accurate values");
 						dimensions.setStatus(true);
@@ -162,21 +169,12 @@ public class IntegerDataTypeServiceServiceImpl implements IntegerDataTypeService
 						DimensionsList.add(dimensions);
 					}
 					
-					/*if(wreakingPercentage > profilingInfoModel.getColumnStats().getDuplicateCount())
-					{
-						datadimention.add("Uniqueness");
-						Dimensions dimensions = new Dimensions();
-						dimensions.setDimensionName("Uniqueness");
-						dimensions.setReason("insufficient uniqueness values");
-						dimensions.setStatus(true);
-						dimensions.setRemainingWreakingCount(wreakingPercentage - profilingInfoModel.getColumnStats().getDuplicateCount());
-						DimensionsList.add(dimensions);
-						
-					}*/
+					
+					
+					dataSetStatsList.get(datasetHeadersIterator).setDimensionsList(DimensionsList);
 				}
 
-				dimensionInfoModel.setDimensionsList(DimensionsList);
-				dataSetStatsList.get(datasetHeadersIterator).setDimensionList(dimensionInfoModel);
+				
 			}
 			dataProfilerInfo.setDatasetStats(dataSetStatsList);
 			integerDataTypeRepository.save(dataProfilerInfo);

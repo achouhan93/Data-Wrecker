@@ -13,5 +13,7 @@ public interface DateDataTypeService {
 	
 	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
+	public Dimensions UniquenessCheck(DatasetStats datasetStats, int avgWreckingCount);
+	
 	
 }

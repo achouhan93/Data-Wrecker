@@ -25,37 +25,37 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage) {
 		
 		dimensions = new Dimensions();
-		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		
-		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > totalRowsCanBeWrecked) {
-			dimensions.setDimensionName("NullCheck");
+		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > wreckingPercentage) {
+			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(false);
-			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
+			dimensions.setRemainingWreakingCount(wreckingPercentage - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			dimensions.setReason("The number of null values exceeds threshold");
 			return dimensions;
 		} else {
-			dimensions.setDimensionName("NullCheck");
+			dimensions.setDimensionName("Completeness");
 			dimensions.setStatus(true);
-			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
+			dimensions.setRemainingWreakingCount(wreckingPercentage - datasetStats.getProfilingInfo().getColumnStats().getNullCount());
 			dimensions.setReason("The number of null values less than threshold");
 			return dimensions;
 		}
 	}
 
 	@Override
-	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int wreckingPercentage) {
+	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int totalRowsCanBeWrecked) {
 		dimensions = new Dimensions();
-		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		
 		if(datasetStats.getProfilingInfo().getPatternsIdentified().size() > 1) {
 			if(isConsistent(datasetStats,totalRowsCanBeWrecked)) {
-				dimensions.setDimensionName("ConsistencyCheck");
+				dimensions.setDimensionName("Consistency");
 				dimensions.setStatus(true);
 				dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
 				dimensions.setReason("The patterns identified are less than the desired percentage");
 				return dimensions;
 			}else {
-				dimensions.setDimensionName("ConsistencyCheck");
+				dimensions.setDimensionName("Consistency");
 				dimensions.setStatus(false);
 				dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
 				dimensions.setReason("The patterns identified are greater than the desired percentage");
@@ -63,7 +63,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			}
 			
 		}else {
-			dimensions.setDimensionName("ConsistencyCheck");
+			dimensions.setDimensionName("Consistency");
 			dimensions.setStatus(true);
 			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
 			dimensions.setReason("The patterns identified are less than the desired percentage");
@@ -72,9 +72,9 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	}
 
 	@Override
-	public Dimensions ValidityCheck(DatasetStats datasetStats, int wreckingPercentage) {
+	public Dimensions ValidityCheck(DatasetStats datasetStats, int totalRowsCanBeWrecked) {
 		dimensions = new Dimensions();
-		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		//int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		int totalCount = 0;
 		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified();
 		if(patternModelList.size() > 1) {
@@ -89,13 +89,13 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		}
 		
 		if(totalCount > totalRowsCanBeWrecked) {
-			dimensions.setDimensionName("ValidityCheck");
+			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(true);
 			dimensions.setReason("There are valid values which is less than 20");
 			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - invalidValues);
 			return dimensions;
 		}else {
-			dimensions.setDimensionName("ValidityCheck");
+			dimensions.setDimensionName("Validity");
 			dimensions.setStatus(false);
 			dimensions.setReason("There are Invalid values which is greater than 20");
 			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked - invalidValues);
@@ -104,10 +104,10 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	}
 
 	@Override
-	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage) {
-		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+	public Dimensions AccuracyCheck(DatasetStats datasetStats, int totalRowsCanBeWrecked) {
+		// int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
 		dimensions = new Dimensions();
-		dimensions.setDimensionName("AccuracyCheck");
+		dimensions.setDimensionName("Accuracy");
 		dimensions.setStatus(true);
 		dimensions.setReason("There are Accurate values in the datasets");
 		dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked);
@@ -157,9 +157,19 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			
 		}
 		
-		int maxValue = Collections.max(regexCounts);
-		return totalRowsCanBeWrecked -(totalCount - maxValue);
+		//int maxValue = Collections.max(regexCounts);
+		return totalRowsCanBeWrecked;
 		
+	}
+
+	@Override
+	public Dimensions UniquenessCheck(DatasetStats datasetStats, int avgWreckingCount) {
+		dimensions = new Dimensions();
+		dimensions.setDimensionName("Uniqueness");
+		dimensions.setStatus(true);
+		dimensions.setReason("Uniqueness is performed at the record level");	
+		dimensions.setRemainingWreakingCount(avgWreckingCount);
+		return dimensions;
 	}
 	
 	
@@ -208,12 +218,12 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			invalidValues = number1 + number2 - totalRowsCanBeWrecked;
 			return true;
 		}
-	}*/
+	}
 	
 	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount) {	
 		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 4) ; 
 		return totalRowsCanBeWrecked;
-	}
+	}*/
 	
 	
 }

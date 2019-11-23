@@ -18,8 +18,8 @@ public class DataOrchestratorController {
 	CallDataTypeServices callDatatypeServices;
 	
 	@GetMapping("/getDataprofileInfo")
-	public String getDataprofileInfo(@RequestParam String fileName) {
-		return callAllServices.callDataprofilingServices(fileName);
+	public String getDataprofileInfo(@RequestParam String fileName, @RequestParam int wreckingPercentage) {
+		return callAllServices.callDataprofilingServices(fileName, wreckingPercentage);
 	
 	}
 	

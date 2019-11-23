@@ -17,8 +17,8 @@ public class CharacterServiceController {
 
 
 	@RequestMapping(value = "/characterDatatypeDimensions", method = RequestMethod.GET)
-	public String getDimensionResults(@RequestParam String fileName,@RequestParam String wreckingPercentage){
-		return datasetStatsProcessingService.getDimensionResults(fileName,25);
+	public String getDimensionResults(@RequestParam String fileName,@RequestParam int wreckingPercentage){
+		return datasetStatsProcessingService.getDimensionResults(fileName,wreckingPercentage);
 	}
 	
 }

@@ -1,0 +1,2167 @@
+_id,columnName,oldValue,newValue,oid,dimensionName,datasetName
+ObjectId(5dd32970760b2a21b4c4989c),generation,Generation X,,6993,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c4989d),generation,Silent,,12276,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c4989e),generation,Generation Z,,4170,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c4989f),generation,Generation X,,18290,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a0),generation,Generation X,,16196,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a1),generation,Silent,,17129,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a2),generation,Boomers,,1769,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a3),generation,Millenials,,12684,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a4),generation,Generation X,,8093,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a5),generation,Generation X,,96,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a6),generation,Generation X,,5448,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a7),generation,Millenials,,4338,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a8),generation,Silent,,13570,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498a9),generation,Boomers,,14227,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498aa),generation,Generation X,,10031,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498ab),generation,Millenials,,2843,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498ac),generation,Boomers,,15644,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498ad),generation,Millenials,,15638,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498ae),generation,Generation X,,1915,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498af),generation,Generation X,,1041,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b0),generation,Silent,,13958,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b1),generation,G.I. Generation,,17501,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b2),generation,Silent,,15906,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b3),generation,Silent,,17329,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b4),generation,Generation X,,3935,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b5),generation,Generation X,,1348,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b6),generation,Generation X,,8748,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b7),generation,Generation Z,,17041,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b8),generation,Boomers,,4612,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498b9),generation,Silent,,8792,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498ba),generation,Boomers,,11485,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498bb),generation,Silent,,15736,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498bc),generation,Generation X,,10092,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498bd),generation,Generation Z,,5611,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498be),generation,Millenials,,17999,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498bf),generation,Millenials,,14873,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c0),generation,Millenials,,14859,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c1),generation,Boomers,,18099,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c2),generation,Silent,,2324,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c3),generation,Generation X,,17210,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c4),generation,Boomers,,13186,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c5),generation,Silent,,9271,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c6),generation,Silent,,2628,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c7),generation,Silent,,3392,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c8),generation,Boomers,,12758,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498c9),generation,Generation X,,19513,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498ca),generation,G.I. Generation,,5273,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498cb),generation,Boomers,,14075,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498cc),generation,Silent,,19118,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498cd),generation,Boomers,,6044,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498ce),generation,Millenials,,18785,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498cf),generation,Silent,,14118,Completeness,master_0
+ObjectId(5dd32971760b2a21b4c498d0),generation,Millenials,,18793,Completeness,master_0
+ObjectId(5dd329ee760b2a2ff82531c2),generation,Millenials,isMlanilel,4420,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531c3),generation,Generation X,GenerVation X,12830,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531c4),generation,Boomers,BEomerD,18578,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531c5),generation,Boomers,,18731,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531c6),generation,Generation Z,OeneratiLn Z,922,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531c7),generation,Generation Z,Gen+ratyon Z,19299,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531c8),generation,Generation X,Chile1987,5298,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531c9),generation,Generation X,G+eneration X,19737,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531ca),generation,Millenials,M]llenialO,7016,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531cb),generation,G.I. Generation,G.KI. Generation,19456,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531cc),generation,Boomers,Nicaragua,17864,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531cd),generation,Silent,lteiSn,147,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531ce),generation,Boomers,Boomerhs,10198,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531cf),generation,Generation X,Genera?tion X,14818,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d0),generation,Silent,Sil'ent,18935,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d1),generation,Generation X,Genera6ibn @,19374,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d2),generation,G.I. Generation,G.I9m.eSeoaB#on,2944,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d3),generation,G.I. Generation,.nGiaGer nteo.I,2286,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d4),generation,Boomers,'oomlrs,17608,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d5),generation,Millenials,Milleni0ls,211,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d6),generation,Silent,0.741,9093,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d7),generation,Millenials,494200,12511,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d8),generation,Millenials,MillVnials,17024,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531d9),generation,Silent,Sile{nt,6870,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531da),generation,Generation X,SGeneration X,2652,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531db),generation,Boomers,336,12867,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531dc),generation,Boomers,esoorBm,13059,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531dd),generation,Boomers,Bresomo,13368,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531de),generation,Boomers,oBsoemr,2784,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531df),generation,Generation X,Genera8Von X,1052,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e0),generation,Generation X,GeneratioEn X,5843,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e1),generation,Generation X,Gen'ratIon#@,12834,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e2),generation,Silent,9Zlen@,17499,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e3),generation,Silent,eSnitl,14663,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e4),generation,G.I. Generation,G.I. ienera[Uon,6714,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e5),generation,Boomers,BofmerM,9043,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e6),generation,Millenials,0.674,16373,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e7),generation,Generation X,Gene.7tijn X,4716,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e8),generation,Silent,Sslent,16099,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531e9),generation,Generation X,Gene{atP_n#N,5681,Accuracy,master_0
+ObjectId(5dd329ee760b2a2ff82531ea),generation,Generation Z,GenerBti]nKZ,15017,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531eb),generation,Generation X,eteaornin XG,9796,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531ec),generation,Millenials,Mixllenials,17052,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531ed),generation,Generation X,Peneration^n,13150,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531ee),generation,Boomers,'oB(ers,2001,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531ef),generation,Boomers,Germany1991,9726,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531f0),generation,Boomers,Boomcers,14445,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531f1),generation,Boomers,OBoomers,17899,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531f2),generation,G.I. Generation,7,6036,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531f3),generation,Boomers,Boomebrs,6745,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531f4),generation,Millenials,Millvni1l#,4674,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531f5),generation,Generation X,G aXenorenit,9117,Accuracy,master_0
+ObjectId(5dd329ef760b2a2ff82531f6),generation,Silent,SiYlent,12110,Accuracy,master_0
+ObjectId(5dd32a55760b2a2b14b1f233),generation,Boomers,rsBrmom,17563,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f234),generation,Generation X,nnnXanonreni,9797,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f235),generation,Boomers,ssmsBem,16916,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f236),generation,Generation X,XXnXoannea r,3199,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f237),generation,Generation X,XrG enanoeit,9323,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f238),generation,Silent,ilStne,16900,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f239),generation,Generation Z,anreoirnnren,5599,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f23a),generation,Silent,tlnSei,5087,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f23b),generation,G.I. Generation,roo.e.et eGttri,18619,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f23c),generation,Generation X,rn  tnrXioin,2066,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f23d),generation,Generation X,ntna eo eeXG,2160,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f23e),generation,Silent,Stntle,2347,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f23f),generation,Generation X,niGonienGGie,19371,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f240),generation,Millenials,ielliMeesn,9685,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f241),generation,Millenials,ilslielnaM,5915,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f242),generation,Generation X,XGno eie Gi ,4403,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f243),generation,Boomers,erBmoso,1035,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f244),generation,Silent,tiSlne,13580,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f245),generation,Silent,Siltll,802,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f246),generation,Generation Z,ZZieeaiGeirn,7073,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f247),generation,Millenials,lMsanliiel,13567,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f248),generation,Silent,tltine,1034,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f249),generation,Silent,netliS,1346,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f24a),generation,Silent,etlteS,6846,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f24b),generation,Generation Z,nnZe oraGite,11995,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f24c),generation,Millenials,sllslneiMi,7387,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f24d),generation,G.I. Generation,t.eIniiG...tatn,12961,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f24e),generation,Generation X,eaiinnXaiXen,15955,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f24f),generation,Millenials,insieaeili,11573,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f250),generation,Silent,nSintt,16808,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f251),generation,Generation Z,n oneZoeGtZo,14452,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f252),generation,Millenials,llnlilelan,17626,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f253),generation,Generation X,taXrorXGrinr,3913,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f254),generation,Silent,ietttn,12038,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f255),generation,G.I. Generation,.nGeonnnGr nGI.,10425,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f256),generation,Millenials,linMllsiea,15208,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f257),generation,Millenials,illnselMai,13805,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f258),generation,G.I. Generation,n..e rGGIorGn.G,5312,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f259),generation,Boomers,srrrBro,140,Validity,master_0
+ObjectId(5dd32a55760b2a2b14b1f25a),generation,Boomers,mmeomor,1087,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f25b),generation,Millenials,iallMsenil,15008,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f25c),generation,Generation X,aaonGnnXaGno,16739,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f25d),generation,Millenials,liiMilllli,12400,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f25e),generation,Silent,lSneti,16887,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f25f),generation,Generation X,ne nteieaXre,19842,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f260),generation,Generation X,rtaonXiGene ,458,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f261),generation,Millenials,liMliealns,19626,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f262),generation,Generation X,reatnnXiG eo,3747,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f263),generation,Boomers,esssemo,4894,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f264),generation,G.I. Generation,o.etn.nIiareGG ,13378,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f265),generation,Generation X,tenain oXerG,1258,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f266),generation,Generation X,GGnXtGe toei,12821,Validity,master_0
+ObjectId(5dd32a56760b2a2b14b1f267),generation,Millenials,lllllslnil,11207,Validity,master_0
+ObjectId(5dd32a8c760b2a21b4c498d3),country,Colombia,,5636,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498d4),country,Denmark,,7643,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498d5),country,Austria,,2060,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498d6),country,Greece,,10367,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498d7),country,Chile,,5536,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498d8),country,Hungary,,11590,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498d9),country,Chile,,5558,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498da),country,Belize,,4071,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498db),country,Belize,,3851,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498dc),country,Mexico,,16702,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498dd),country,France,,9222,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498de),country,Argentina,,862,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498df),country,Belarus,,3284,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e0),country,Ecuador,,7981,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e1),country,Guatemala,,10846,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e2),country,Belize,,4038,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e3),country,Guatemala,,11041,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e4),country,Kuwait,,14446,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e5),country,Mexico,,16870,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e6),country,Hungary,,11616,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e7),country,Belarus,,3347,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e8),country,Albania,,23,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498e9),country,Luxembourg,,15489,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498ea),country,New Zealand,,17698,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498eb),country,Iceland,,11868,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498ec),country,Chile,,5350,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498ed),country,Denmark,,7612,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498ee),country,Nicaragua,,17829,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498ef),country,Belgium,,3503,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f0),country,Costa Rica,,6016,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f1),country,Fiji,,8681,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f2),country,Latvia,,14838,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f3),country,Belarus,,3215,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f4),country,Australia,,1633,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f5),country,Panama,,18469,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f6),country,Armenia,,1210,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f7),country,Germany,,10006,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f8),country,Bahamas,,2605,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498f9),country,Czech Republic,,7118,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498fa),country,Germany,,9716,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498fb),country,Bahamas,,2595,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498fc),country,Germany,,9823,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498fd),country,Estonia,,8357,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498fe),country,Portugal,,19651,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c498ff),country,Iceland,,11748,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c49900),country,Italy,,13051,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c49901),country,Bulgaria,,4797,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c49902),country,Grenada,,10515,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c49903),country,Bahrain,,2690,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c49904),country,Kuwait,,14249,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c49905),country,Antigua and Barbuda,,450,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c49906),country,Fiji,,8669,Completeness,master_0
+ObjectId(5dd32a8c760b2a21b4c49907),country,Puerto Rico,,19798,Completeness,master_0
+ObjectId(5dd32a99760b2a2ff82531f9),country,Belize,B3elize,3889,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff82531fa),country,Jamaica,amaiaJc,13202,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff82531fb),country,Cuba,CUba,6816,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff82531fc),country,Luxembourg,Luxemboufrg,15424,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff82531fd),country,Philippines,pinliPpiseh,18920,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff82531fe),country,Israel,ksra2l,12703,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff82531ff),country,Netherlands,Npther7and',17098,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253200),country,Puerto Rico,RotoceiruP ,19995,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253201),country,Costa Rica,Rtoica saC,6022,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253202),country,Canada,,4958,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253203),country,Aruba,aArbu,1368,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253204),country,Bahamas,uahamap,2631,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253205),country,Bahrain,anhBria,2778,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253206),country,Barbados,boadsraB,2959,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253207),country,Armenia,male,980,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253208),country,Maldives,esavlMdi,15744,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff8253209),country,Estonia,notEias,8420,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff825320a),country,Luxembourg,huxeHbourg,15368,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff825320b),country,Belize,QBelize,4139,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff825320c),country,Luxembourg,Luxem[bourg,15307,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff825320d),country,Kuwait,Kuwa6it,14374,Accuracy,master_0
+ObjectId(5dd32a99760b2a2ff825320e),country,Estonia,EsYonia,8413,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825320f),country,Finland,nlFiadn,9001,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253210),country,Grenada,Gre:nada,10703,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253211),country,Netherlands,Boomers,17440,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253212),country,Brazil,BrazDil,4456,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253213),country,Germany,1997,9805,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253214),country,Belize,Millenials,4112,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253215),country,Latvia,Latvt&,14845,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253216),country,Bahamas,BahPamas,2544,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253217),country,Czech Republic,Czech Republ&ic,7105,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253218),country,Germany,manGyer,9721,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253219),country,Estonia,20.91,8502,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825321a),country,Puerto Rico,0.96,19846,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825321b),country,Australia,25-34 years,1459,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825321c),country,Israel,rIesla,12639,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825321d),country,Estonia,tniasoE,8537,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825321e),country,Bulgaria,arlaiugB,4700,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825321f),country,Italy,:tapy,12814,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253220),country,Cuba,CubV,6872,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253221),country,Czech Republic,hzech Republic,7270,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253222),country,Italy,altyI,12918,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253223),country,Bahamas,B@h:man,2600,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253224),country,Greece,2011,10340,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253225),country,Belarus,21.66,3217,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253226),country,Mexico,Mexi%co,16582,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253227),country,Israel,Isra(I,12683,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253228),country,Antigua and Barbuda,4994,547,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff8253229),country,Kyrgyzstan,435,14575,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825322a),country,Australia,Australha,1528,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825322b),country,Germany,"37,57,69,82,81,118",9973,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825322c),country,Costa Rica,CosQta Rica,6352,Accuracy,master_0
+ObjectId(5dd32a9a760b2a2ff825322d),country,Paraguay,Parazguay,18660,Accuracy,master_0
+ObjectId(5dd32b19760b2a06b8db6973),country,Cuba,,6683,Consistency,master_0
+ObjectId(5dd32b19760b2a06b8db6974),country,Latvia,,14858,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6975),country,Belgium,,3447,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6976),country,Mexico,,16788,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6977),country,Mexico,,16764,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6978),country,Barbados,,3172,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6979),country,Poland,,19158,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db697a),country,Belize,,4144,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db697b),country,Chile,,5594,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db697c),country,Ecuador,,7996,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db697d),country,Austria,,1974,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db697e),country,Malta,,15966,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db697f),country,Latvia,,14851,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6980),country,Cuba,,6699,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6981),country,Belgium,,3504,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6982),country,Guyana,,11150,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6983),country,Bahrain,,2642,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6984),country,Albania,,202,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6985),country,Argentina,,799,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6986),country,Hungary,,11508,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6987),country,Australia,,1609,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6988),country,Bahrain,,2662,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6989),country,Kyrgyzstan,,14621,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db698a),country,Italy,,13097,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db698b),country,Denmark,,7563,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db698c),country,Bulgaria,,4601,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db698d),country,Norway,,18187,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db698e),country,Belize,,3984,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db698f),country,Panama,,18476,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6990),country,Kuwait,,14254,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6991),country,Luxembourg,,15417,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6992),country,Kazakhstan,,13953,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6993),country,Belgium,,3700,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6994),country,New Zealand,,17762,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6995),country,Barbados,,3142,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6996),country,Croatia,,6607,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6997),country,Belize,,3931,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6998),country,Australia,,1477,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db6999),country,Bahrain,,2707,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db699a),country,Panama,,18333,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db699b),country,Israel,,12515,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db699c),country,Lithuania,,15153,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db699d),country,Guyana,,11083,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db699e),country,Aruba,,1309,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db699f),country,Grenada,,10681,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db69a0),country,Argentina,,627,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db69a1),country,Iceland,,11988,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db69a2),country,Austria,,1837,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db69a3),country,Grenada,,10465,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db69a4),country,Kiribati,,14170,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db69a5),country,Luxembourg,,15527,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db69a6),country,Netherlands,,17268,Consistency,master_0
+ObjectId(5dd32b1a760b2a06b8db69a7),country,El Salvador,,8332,Consistency,master_0
+ObjectId(5dd32b2c760b2a2b14b1f26a),country,Japan,annaa,13656,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f26b),country,Malta,MaalM,16151,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f26c),country,Kazakhstan,aatskzknaK,13737,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f26d),country,Japan,naaJp,13467,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f26e),country,Poland,ldnnlo,19255,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f26f),country,Guyana,yGaGaa,11305,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f270),country,Azerbaijan,zjaneeaaji,2338,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f271),country,Colombia,bCiimiil,5845,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f272),country,Austria,stiiAAt,1946,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f273),country,Mauritius,iMsiauurt,16444,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f274),country,Ireland,daraarn,12360,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f275),country,Albania,iibbbaa,191,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f276),country,Colombia,mlilbail,5776,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f277),country,Japan,Jnaap,13431,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f278),country,Grenada,erdadaa,10645,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f279),country,Philippines,hslipPeipni,18916,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f27a),country,Croatia,atCaaaa,6432,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f27b),country,Israel,elIsra,12432,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f27c),country,Barbados,daboBrsa,2908,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f27d),country,Portugal,otulatao,19623,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f27e),country,Guyana,uaayay,11175,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f27f),country,Guatemala,amaGaGtal,11043,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f280),country,El Salvador,rSrvvdao Sl,8320,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f281),country,Argentina,nneeeraAe,847,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f282),country,Nicaragua,ugaguaaau,17842,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f283),country,Canada,dnndCd,4934,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f284),country,Japan,aaaaJ,13498,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f285),country,Bahamas,asaaBah,2403,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f286),country,Iceland,ealacca,12007,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f287),country,Mexico,cixeic,16797,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f288),country,Mauritius,Msiruauii,16200,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f289),country,Mexico,Meocxi,16618,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f28a),country,Cyprus,usussp,6975,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f28b),country,Kyrgyzstan,sagttsyzta,14776,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f28c),country,El Salvador,vlSodEar al,8246,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f28d),country,Armenia,inAmmii,1048,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f28e),country,Argentina,tneigArna,937,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f28f),country,Norway,Noyawy,18037,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f290),country,Kazakhstan,zatnhasakK,14015,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f291),country,Kuwait,aatuuK,14368,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f292),country,Jamaica,caaimaJ,13212,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f293),country,Portugal,PaagPluP,19554,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f294),country,Estonia,ntEaiso,8577,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f295),country,Chile,Cllil,5352,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f296),country,Argentina,earigireA,716,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f297),country,Kyrgyzstan,KysyygyzaK,14495,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f298),country,Lithuania,iLntihihi,15289,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f299),country,Grenada,aaeread,10575,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f29a),country,Bulgaria,Barguial,4684,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f29b),country,Australia,tuaaattii,1467,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f29c),country,Barbados,Boaarsdb,3035,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f29d),country,Belgium,Bemluig,3800,Validity,master_0
+ObjectId(5dd32b2c760b2a2b14b1f29e),country,Mauritius,usuiaitut,16286,Validity,master_0
+ObjectId(5dd32b3b760b2a21b4c4990a),HDI for year,,,8877,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4990b),HDI for year,0.727,,13363,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4990c),HDI for year,,,7207,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4990d),HDI for year,0.883,,17982,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4990e),HDI for year,,,5287,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4990f),HDI for year,,,17502,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49910),HDI for year,0.837,,15268,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49911),HDI for year,,,12862,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49912),HDI for year,,,2313,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49913),HDI for year,,,4194,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49914),HDI for year,0.888,,9438,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49915),HDI for year,0.873,,13127,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49916),HDI for year,,,4391,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49917),HDI for year,,,19962,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49918),HDI for year,,,4556,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49919),HDI for year,,,2580,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4991a),HDI for year,0.755,,4521,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4991b),HDI for year,,,16931,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4991c),HDI for year,,,14131,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4991d),HDI for year,,,11529,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4991e),HDI for year,,,5467,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4991f),HDI for year,,,2496,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49920),HDI for year,,,6906,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49921),HDI for year,,,8453,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49922),HDI for year,,,629,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49923),HDI for year,,,6408,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49924),HDI for year,,,1352,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49925),HDI for year,,,15609,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49926),HDI for year,,,10848,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49927),HDI for year,,,14713,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49928),HDI for year,0.867,,9331,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49929),HDI for year,,,1113,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4992a),HDI for year,,,19883,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4992b),HDI for year,,,6395,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4992c),HDI for year,0.786,,3396,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4992d),HDI for year,,,16862,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4992e),HDI for year,,,10535,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4992f),HDI for year,,,2998,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49930),HDI for year,0.718,,5977,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49931),HDI for year,,,14830,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49932),HDI for year,0.639,,14733,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49933),HDI for year,0.748,,16881,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49934),HDI for year,,,17004,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49935),HDI for year,0.759,,18511,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49936),HDI for year,,,11163,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49937),HDI for year,,,7734,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49938),HDI for year,0.639,,14743,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c49939),HDI for year,0.611,,10996,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4993a),HDI for year,,,19586,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4993b),HDI for year,,,13267,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4993c),HDI for year,,,11659,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4993d),HDI for year,,,17581,Completeness,master_0
+ObjectId(5dd32b3b760b2a21b4c4993e),HDI for year,,,12510,Completeness,master_0
+ObjectId(5dd32b5e760b2a06b8db69aa),HDI for year,0.619,,78,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69ab),HDI for year,0.786,,19171,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69ac),HDI for year,0.903,,5225,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69ad),HDI for year,0.805,,17445,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69ae),HDI for year,0.85,,12600,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69af),HDI for year,0.729,,15874,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69b0),HDI for year,0.874,,13613,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69b1),HDI for year,0.852,,7031,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69b2),HDI for year,0.873,,13133,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69b3),HDI for year,0.921,,7640,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69b4),HDI for year,0.756,,16920,Consistency,master_0
+ObjectId(5dd32b5e760b2a06b8db69b5),HDI for year,0.682,,6135,Consistency,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a1),HDI for year,,,19512,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a2),HDI for year,0.513,3.1.0,10819,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a3),HDI for year,,,4619,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a4),HDI for year,,,10443,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a5),HDI for year,,,15521,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a6),HDI for year,,,4586,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a7),HDI for year,0.804,00048,14312,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a8),HDI for year,,,17541,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2a9),HDI for year,,,7486,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2aa),HDI for year,,,7087,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2ab),HDI for year,,,18420,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2ac),HDI for year,,,3266,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2ad),HDI for year,,,15764,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2ae),HDI for year,,,9854,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2af),HDI for year,,,19587,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b0),HDI for year,0.731,3107.,715,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b1),HDI for year,,,18289,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b2),HDI for year,,,2310,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b3),HDI for year,,,3097,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b4),HDI for year,0.579,09.55,18627,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b5),HDI for year,,,11125,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b6),HDI for year,,,4247,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b7),HDI for year,0.867,7.608,10324,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b8),HDI for year,,,14944,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2b9),HDI for year,0.618,16.80,11260,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2ba),HDI for year,,,17423,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2bb),HDI for year,,,840,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2bc),HDI for year,0.921,.9..0,7631,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2bd),HDI for year,,,17110,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2be),HDI for year,,,6174,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2bf),HDI for year,0.828,8.082,11641,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c0),HDI for year,,,10277,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c1),HDI for year,,,12256,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c2),HDI for year,0.899,0898.,12024,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c3),HDI for year,0.766,6766.,12853,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c4),HDI for year,,,15157,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c5),HDI for year,,,6615,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c6),HDI for year,0.831,08130,917,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c7),HDI for year,,,12152,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c8),HDI for year,,,4385,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2c9),HDI for year,,,13955,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2ca),HDI for year,,,14064,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2cb),HDI for year,,,17081,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2cc),HDI for year,,,1399,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2cd),HDI for year,0.738,88.38,12786,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2ce),HDI for year,0.935,359.5,1772,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2cf),HDI for year,,,5808,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2d0),HDI for year,0.756,067.5,16923,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2d1),HDI for year,,,8683,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2d2),HDI for year,,,3497,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2d3),HDI for year,,,19277,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2d4),HDI for year,,,9187,Validity,master_0
+ObjectId(5dd32ba1760b2a2b14b1f2d5),HDI for year,,,4053,Validity,master_0
+ObjectId(5dd32bab760b2a21b4c49941),gdp_per_capita ($),5561,,4141,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49942),gdp_per_capita ($),1965,,10394,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49943),gdp_per_capita ($),7403,,6301,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49944),gdp_per_capita ($),45128,,1709,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49945),gdp_per_capita ($),819,,11147,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49946),gdp_per_capita ($),462,,2225,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49947),gdp_per_capita ($),23091,,19679,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49948),gdp_per_capita ($),21871,,5043,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49949),gdp_per_capita ($),7002,,19700,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4994a),gdp_per_capita ($),19505,,7412,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4994b),gdp_per_capita ($),20050,,1510,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4994c),gdp_per_capita ($),6040,,10041,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4994d),gdp_per_capita ($),17161,,14229,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4994e),gdp_per_capita ($),6364,,8021,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4994f),gdp_per_capita ($),8436,,18485,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49950),gdp_per_capita ($),1366,,5648,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49951),gdp_per_capita ($),2438,,14801,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49952),gdp_per_capita ($),13283,,4498,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49953),gdp_per_capita ($),25570,,5129,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49954),gdp_per_capita ($),3672,,6134,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49955),gdp_per_capita ($),2215,,10919,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49956),gdp_per_capita ($),26840,,19965,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49957),gdp_per_capita ($),11443,,6355,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49958),gdp_per_capita ($),1977,,10882,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49959),gdp_per_capita ($),51749,,12010,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4995a),gdp_per_capita ($),1898,,4177,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4995b),gdp_per_capita ($),49901,,9372,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4995c),gdp_per_capita ($),25059,,1652,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4995d),gdp_per_capita ($),3121,,4376,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4995e),gdp_per_capita ($),30671,,2519,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4995f),gdp_per_capita ($),9483,,19437,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49960),gdp_per_capita ($),28156,,17215,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49961),gdp_per_capita ($),52832,,9065,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49962),gdp_per_capita ($),8541,,2945,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49963),gdp_per_capita ($),37483,,17997,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49964),gdp_per_capita ($),24874,,9856,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49965),gdp_per_capita ($),7333,,2922,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49966),gdp_per_capita ($),3228,,14841,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49967),gdp_per_capita ($),37035,,13139,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49968),gdp_per_capita ($),14558,,14994,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49969),gdp_per_capita ($),20536,,12624,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4996a),gdp_per_capita ($),4250,,8390,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4996b),gdp_per_capita ($),4686,,13329,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4996c),gdp_per_capita ($),11951,,14992,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4996d),gdp_per_capita ($),30688,,13447,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4996e),gdp_per_capita ($),4250,,8394,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c4996f),gdp_per_capita ($),4738,,13323,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49970),gdp_per_capita ($),4206,,8666,Completeness,master_0
+ObjectId(5dd32bab760b2a21b4c49971),gdp_per_capita ($),5517,,15839,Completeness,master_0
+ObjectId(5dd32baf760b2a06b8db69b8),gdp_per_capita ($),12887,,3054,Consistency,master_0
+ObjectId(5dd32baf760b2a06b8db69b9),gdp_per_capita ($),6518,,16670,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69ba),gdp_per_capita ($),1124,,18931,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69bb),gdp_per_capita ($),11873,,15992,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69bc),gdp_per_capita ($),3397,,7955,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69bd),gdp_per_capita ($),12286,,2381,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69be),gdp_per_capita ($),2651,,6091,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69bf),gdp_per_capita ($),3037,,6740,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c0),gdp_per_capita ($),35772,,9879,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c1),gdp_per_capita ($),26450,,1876,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c2),gdp_per_capita ($),14335,,530,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c3),gdp_per_capita ($),3735,,10487,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c4),gdp_per_capita ($),15328,,12133,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c5),gdp_per_capita ($),22623,,12612,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c6),gdp_per_capita ($),2489,,5859,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c7),gdp_per_capita ($),14299,,6606,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c8),gdp_per_capita ($),8591,,5986,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69c9),gdp_per_capita ($),18661,,17102,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69ca),gdp_per_capita ($),2057,,18688,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69cb),gdp_per_capita ($),2091,,10858,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69cc),gdp_per_capita ($),1273,,14742,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69cd),gdp_per_capita ($),27646,,8873,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69ce),gdp_per_capita ($),7763,,2931,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69cf),gdp_per_capita ($),53302,,17376,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d0),gdp_per_capita ($),4711,,8429,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d1),gdp_per_capita ($),6364,,8020,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d2),gdp_per_capita ($),13961,,7280,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d3),gdp_per_capita ($),21133,,12656,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d4),gdp_per_capita ($),54278,,2146,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d5),gdp_per_capita ($),32656,,9312,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d6),gdp_per_capita ($),3947,,11031,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d7),gdp_per_capita ($),1253,,9585,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d8),gdp_per_capita ($),1346,,5704,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69d9),gdp_per_capita ($),15312,,12126,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69da),gdp_per_capita ($),24133,,1330,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69db),gdp_per_capita ($),12391,,19546,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69dc),gdp_per_capita ($),37283,,14403,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69dd),gdp_per_capita ($),24718,,7082,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69de),gdp_per_capita ($),10870,,8476,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69df),gdp_per_capita ($),1225,,13852,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e0),gdp_per_capita ($),5144,,18427,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e1),gdp_per_capita ($),1213,,4659,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e2),gdp_per_capita ($),34701,,8938,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e3),gdp_per_capita ($),1996,,7792,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e4),gdp_per_capita ($),14676,,10231,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e5),gdp_per_capita ($),21573,,19650,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e6),gdp_per_capita ($),27503,,2885,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e7),gdp_per_capita ($),15883,,5612,Consistency,master_0
+ObjectId(5dd32bb0760b2a06b8db69e8),gdp_per_capita ($),3409,,6767,Consistency,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2d8),gdp_per_capita ($),20076,GajFG                                                         ,14252,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2d9),gdp_per_capita ($),25589,Wx7IM                                                         ,5098,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2da),gdp_per_capita ($),17007,aTYWW                                                         ,3133,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2db),gdp_per_capita ($),1328,SYXQ                                                          ,13856,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2dc),gdp_per_capita ($),991,2ID                                                           ,14739,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2dd),gdp_per_capita ($),7028,xXim                                                          ,15152,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2de),gdp_per_capita ($),14383,sZA2A                                                         ,2724,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2df),gdp_per_capita ($),10290,saheY                                                         ,10689,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e0),gdp_per_capita ($),3400,MT5F                                                          ,16277,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e1),gdp_per_capita ($),80639,nhNrg                                                         ,15540,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e2),gdp_per_capita ($),7779,Z71U                                                          ,16782,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e3),gdp_per_capita ($),2448,tGei                                                          ,9616,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e4),gdp_per_capita ($),23984,Tpnki                                                         ,16131,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e5),gdp_per_capita ($),22523,SzGg7                                                         ,3509,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e6),gdp_per_capita ($),4640,ULhJ                                                          ,19152,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e7),gdp_per_capita ($),8546,cg74                                                          ,765,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e8),gdp_per_capita ($),24922,waESY                                                         ,9837,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2e9),gdp_per_capita ($),4904,rrJb                                                          ,16704,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2ea),gdp_per_capita ($),2840,1tTb                                                          ,820,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2eb),gdp_per_capita ($),13894,crqrG                                                         ,19308,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2ec),gdp_per_capita ($),14193,wdUyu                                                         ,12483,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2ed),gdp_per_capita ($),10078,z0Rr2                                                         ,398,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2ee),gdp_per_capita ($),6995,rHpU                                                          ,11503,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2ef),gdp_per_capita ($),10566,Lizti                                                         ,19471,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f0),gdp_per_capita ($),3136,f9Vr                                                          ,4268,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f1),gdp_per_capita ($),6404,1jb3                                                          ,672,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f2),gdp_per_capita ($),14676,3OjWW                                                         ,10232,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f3),gdp_per_capita ($),111328,dYZcm1                                                        ,15614,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f4),gdp_per_capita ($),45142,krMT8                                                         ,9978,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f5),gdp_per_capita ($),1823,Izw1                                                          ,13746,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f6),gdp_per_capita ($),4570,wlGT                                                          ,8682,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f7),gdp_per_capita ($),27316,q7Dla                                                         ,11735,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f8),gdp_per_capita ($),6475,DV6R                                                          ,841,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2f9),gdp_per_capita ($),50893,8bjV5                                                         ,3752,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2fa),gdp_per_capita ($),3744,3R7t                                                          ,8645,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2fb),gdp_per_capita ($),1704,YYdJ                                                          ,18779,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2fc),gdp_per_capita ($),4373,KaSw                                                          ,15754,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2fd),gdp_per_capita ($),2497,mFyc                                                          ,6713,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2fe),gdp_per_capita ($),3053,gdp3                                                          ,10983,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f2ff),gdp_per_capita ($),14479,P38qX                                                         ,17080,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f300),gdp_per_capita ($),17504,9QJ2Q                                                         ,8503,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f301),gdp_per_capita ($),23188,cl0pW                                                         ,4974,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f302),gdp_per_capita ($),5147,KKBO                                                          ,11468,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f303),gdp_per_capita ($),21625,XxaBu                                                         ,12915,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f304),gdp_per_capita ($),8188,rvBt                                                          ,10635,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f305),gdp_per_capita ($),2307,n9AG                                                          ,8608,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f306),gdp_per_capita ($),6863,HkBy                                                          ,7237,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f307),gdp_per_capita ($),697,RgS                                                           ,71,Validity,master_0
+ObjectId(5dd32bb7760b2a2b14b1f308),gdp_per_capita ($),24003,XytIk                                                         ,19591,Validity,master_0
+ObjectId(5dd32bc0760b2a2ff8253230),gdp_per_capita ($),4923,-4923,4078,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253231),gdp_per_capita ($),5098,-5098,4055,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253232),gdp_per_capita ($),14444,-14444,16029,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253233),gdp_per_capita ($),4072,-4072,601,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253234),gdp_per_capita ($),17504,-17504,8497,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253235),gdp_per_capita ($),5006,Silent,18862,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253236),gdp_per_capita ($),26450,1992,1874,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253237),gdp_per_capita ($),3516,G.I. Generation,4237,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253238),gdp_per_capita ($),46922,-46922,9424,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253239),gdp_per_capita ($),79187,-79187,18217,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825323a),gdp_per_capita ($),14362,589432,6591,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825323b),gdp_per_capita ($),3957,-3957,1216,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825323c),gdp_per_capita ($),50167,-50167,9999,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825323d),gdp_per_capita ($),38711,Austria,2018,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825323e),gdp_per_capita ($),8576,-8576,19731,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825323f),gdp_per_capita ($),1267,0.89,9467,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253240),gdp_per_capita ($),3773,-3773,1208,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253241),gdp_per_capita ($),2389,-2389,6025,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253242),gdp_per_capita ($),79007,-79007,18119,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253243),gdp_per_capita ($),14686,-14686,19336,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253244),gdp_per_capita ($),47702,"37,52,36,56,07,148",9935,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253245),gdp_per_capita ($),14758,Latvia,14945,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253246),gdp_per_capita ($),14552,Poland2013,19321,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253247),gdp_per_capita ($),3611,-3611,6779,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253248),gdp_per_capita ($),37408,0.51,13638,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253249),gdp_per_capita ($),23007,-23007,16097,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825324a),gdp_per_capita ($),44862,-44862,9074,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825324b),gdp_per_capita ($),14417,-14417,17496,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825324c),gdp_per_capita ($),18081,male,15682,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825324d),gdp_per_capita ($),22317,-22317,1296,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825324e),gdp_per_capita ($),1122,-1122,10747,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825324f),gdp_per_capita ($),22804,886382,10253,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253250),gdp_per_capita ($),6638,-6638,12059,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253251),gdp_per_capita ($),38088,-38088,9907,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253252),gdp_per_capita ($),10572,-10572,16522,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253253),gdp_per_capita ($),4472,-4472,11057,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253254),gdp_per_capita ($),8541,23000,2939,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253255),gdp_per_capita ($),1330,-1330,18606,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253256),gdp_per_capita ($),50232,25-34 years,9041,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253257),gdp_per_capita ($),30394,1995,3566,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253258),gdp_per_capita ($),2920,Paraguay,18827,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253259),gdp_per_capita ($),14362,-14362,6584,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825325a),gdp_per_capita ($),23414,2005,10264,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825325b),gdp_per_capita ($),3611,-3611,6780,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825325c),gdp_per_capita ($),7148,Cuba2013,6886,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825325d),gdp_per_capita ($),49041,-49041,5193,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825325e),gdp_per_capita ($),122729,"60,00,46,30,234",15629,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff825325f),gdp_per_capita ($),34249,-34249,7030,Accuracy,master_0
+ObjectId(5dd32bc0760b2a2ff8253260),gdp_per_capita ($),5073,-5073,8734,Accuracy,master_0
+ObjectId(5dd32bc9760b2a21b4c49974),country-year,Chile2003,,5488,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c49975),country-year,Canada1998,,5076,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c49976),country-year,Luxembourg2008,,15588,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c49977),country-year,Puerto Rico1995,,19810,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c49978),country-year,Brazil2011,,4491,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c49979),country-year,Israel1998,,12573,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c4997a),country-year,New Zealand1988,,17494,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c4997b),country-year,Italy2002,,12999,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c4997c),country-year,Ireland1986,,12075,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c4997d),country-year,Germany2005,,9901,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c4997e),country-year,Belgium2000,,3631,Completeness,master_0
+ObjectId(5dd32bc9760b2a21b4c4997f),country-year,El Salvador2014,,8343,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49980),country-year,Netherlands1989,,17124,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49981),country-year,Ireland2002,,12261,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49982),country-year,Colombia2014,,5989,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49983),country-year,Maldives2003,,15724,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49984),country-year,El Salvador2010,,8298,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49985),country-year,France2009,,9374,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49986),country-year,Kyrgyzstan2004,,14658,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49987),country-year,Canada1987,,4945,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49988),country-year,Kyrgyzstan2011,,14741,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49989),country-year,Poland2003,,19207,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4998a),country-year,Ireland1992,,12140,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4998b),country-year,Malta1986,,15823,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4998c),country-year,Luxembourg1997,,15452,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4998d),country-year,Poland1993,,19111,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4998e),country-year,Guatemala1999,,10864,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4998f),country-year,El Salvador2011,,8307,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49990),country-year,Ireland1988,,12102,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49991),country-year,Macau1994,,15678,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49992),country-year,Greece2014,,10376,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49993),country-year,Grenada2016,,10695,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49994),country-year,Luxembourg1998,,15462,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49995),country-year,New Zealand2009,,17741,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49996),country-year,Belgium2011,,3756,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49997),country-year,New Zealand2013,,17794,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49998),country-year,Guatemala1992,,10781,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c49999),country-year,Estonia2013,,8572,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4999a),country-year,Malta2014,,16158,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4999b),country-year,Maldives2004,,15743,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4999c),country-year,Iceland2011,,11989,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4999d),country-year,Bahrain2006,,2787,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4999e),country-year,Paraguay2004,,18753,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c4999f),country-year,Australia1990,,1499,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a0),country-year,Canada1990,,4981,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a1),country-year,Georgia1992,,9474,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a2),country-year,Latvia2003,,14899,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a3),country-year,Finland1990,,8784,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a4),country-year,Georgia2007,,9622,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a5),country-year,Kuwait2009,,14416,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a6),country-year,Ecuador2009,,7985,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a7),country-year,Canada2012,,5250,Completeness,master_0
+ObjectId(5dd32bca760b2a21b4c499a8),country-year,Mauritius2014,,16532,Completeness,master_0
+ObjectId(5dd32bd8760b2a2ff8253263),country-year,Netherlands1997,Netherl>&]sQJ97,17212,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253264),country-year,Belgium2002,3,3654,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253265),country-year,Bahamas1985,5a8s1h9maBa,2371,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253266),country-year,Costa Rica1999,co1tiC9saa R99,6187,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253267),country-year,Croatia2001,Croat!a2001,6451,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253268),country-year,Lithuania2000,Lithuansa2000,15107,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253269),country-year,Kyrgyzstan2009,y029tyzasKgn0r,14707,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825326a),country-year,Portugal2007,Uo1Yugal2007,19589,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825326b),country-year,Belize2002,2002,3991,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825326c),country-year,El Salvador1991,E^l Salvador1991,8082,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825326d),country-year,Ecuador2003,Ecuador,7913,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825326e),country-year,Malta1992,75+ years,15894,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825326f),country-year,Barbados1987,Ba.bUdon1987,2918,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253270),country-year,Netherlands2000,esela0rdnt02h0N,17247,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253271),country-year,Mexico1990,3595,16632,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253272),country-year,Hungary1995,Hungary199W5,11423,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253273),country-year,Cuba2012,1Ca0bu22,6879,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253274),country-year,Ireland2011,IJreland2011,12368,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253275),country-year,Panama2010,8991,18490,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253276),country-year,Poland1992,Polandm1992,19095,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253277),country-year,France2007,68.04,9350,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253278),country-year,Canada2004,Caua?a2Q04,5154,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253279),country-year,Mexico2001,,16756,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825327a),country-year,Brazil2006,Brazilb2006,4433,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825327b),country-year,Iceland1998,Icelandd1998,11836,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825327c),country-year,Norway2009,r$rDay2*09,18147,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825327d),country-year,Greece2009,Greece20'9,10317,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825327e),country-year,Portugal1998,r1ou9gt98Pla,19517,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825327f),country-year,Finland1999,n91lFa9in9d,8882,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253280),country-year,Greece2007,GreeceH2007,10296,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253281),country-year,Iceland2004,25-34 years,11905,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253282),country-year,Cyprus2009,0ys9r02Cup,7011,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253283),country-year,Guatemala1998,GuNSemana1998,10852,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253284),country-year,Brazil1994,z91l4riBa9,4288,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253285),country-year,Norway2005,$orway2rY5,18103,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253286),country-year,Paraguay2006,rP2gyu0a0a6a,18792,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253287),country-year,Japan1998,2385,13527,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253288),country-year,Bahrain2014,"33,38,77,12,766",2878,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253289),country-year,Australia1990,Au*i1aliaM990,1494,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825328a),country-year,Belgium2002,iBelgium2002,3648,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825328b),country-year,Azerbaijan1992,12Aie9aan9jbrz,2198,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825328c),country-year,Estonia2004,E+toniD2004,8470,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825328d),country-year,Kuwait2012,02auw12Kit,14453,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825328e),country-year,Chile2006,Cl0h2e06i,5520,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff825328f),country-year,Azerbaijan1992,zAbr2j99ae1ani,2200,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253290),country-year,Bahrain2004,3126,2765,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253291),country-year,Netherlands2004,Neth[erlands2004,17302,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253292),country-year,Iceland1985,13357,11682,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253293),country-year,Lithuania2004,496461,15158,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253294),country-year,Estonia2008,Eswonia2008,8519,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253295),country-year,Philippines2000,P&ilzppiae{20+e,18948,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253296),country-year,Grenada2005,Gjen?dJB005,10568,Accuracy,master_0
+ObjectId(5dd32bd8760b2a2ff8253297),country-year,El Salvador2011,ralS2Eav01dl1o ,8311,Accuracy,master_0
+ObjectId(5dd32bdf760b2a06b8db69eb),country-year,Dominica1985,,7691,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69ec),country-year,Belize1987,,3829,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69ed),country-year,Italy1996,,12931,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69ee),country-year,Belarus2014,,3435,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69ef),country-year,Netherlands1995,,17193,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f0),country-year,Czech Republic1997,,7182,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f1),country-year,Netherlands1995,,17194,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f2),country-year,Belgium1999,,3607,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f3),country-year,Costa Rica2006,,6264,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f4),country-year,Greece2002,,10239,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f5),country-year,Malta2007,,16082,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f6),country-year,El Salvador1997,,8145,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f7),country-year,New Zealand2007,,17717,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f8),country-year,Brazil2007,,4436,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69f9),country-year,Mauritius2011,,16498,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69fa),country-year,Mexico1999,,16741,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69fb),country-year,Costa Rica1993,,6106,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69fc),country-year,Mauritius2000,,16369,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69fd),country-year,Armenia2010,,1181,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69fe),country-year,Ecuador2006,,7951,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db69ff),country-year,Grenada2002,,10527,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a00),country-year,Netherlands1999,,17243,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a01),country-year,Brazil2003,,4395,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a02),country-year,Australia2000,,1612,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a03),country-year,Bulgaria1997,,4699,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a04),country-year,Chile2006,,5522,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a05),country-year,Barbados1993,,2990,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a06),country-year,Bulgaria2006,,4795,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a07),country-year,Croatia2001,,6441,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a08),country-year,Kuwait2007,,14393,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a09),country-year,Latvia2006,,14928,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a0a),country-year,Panama2006,,18452,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a0b),country-year,El Salvador1998,,8158,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a0c),country-year,Mauritius1985,,16189,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a0d),country-year,Kazakhstan2009,,13969,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a0e),country-year,Kyrgyzstan2003,,14636,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a0f),country-year,Italy1989,,12837,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a10),country-year,Paraguay2009,,18824,Consistency,master_0
+ObjectId(5dd32bdf760b2a06b8db6a11),country-year,Georgia1996,,9512,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a12),country-year,Israel2009,,12705,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a13),country-year,Kuwait2014,,14469,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a14),country-year,Italy1990,,12852,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a15),country-year,Luxembourg1988,,15345,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a16),country-year,Malta1996,,15948,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a17),country-year,Belarus1993,,3224,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a18),country-year,Puerto Rico2011,,19996,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a19),country-year,Belgium1996,,3574,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a1a),country-year,Kuwait2005,,14366,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a1b),country-year,Guatemala1988,,10735,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a1c),country-year,Armenia1991,,979,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a1d),country-year,New Zealand1993,,17546,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a1e),country-year,Mauritius1995,,16310,Consistency,master_0
+ObjectId(5dd32be0760b2a06b8db6a1f),country-year,Germany1995,,9772,Consistency,master_0
+ObjectId(5dd32be9760b2a2b14b1f30b),country-year,Hungary2016,uayaunn1r21,11673,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f30c),country-year,Hungary1997,99nn99u119H,11438,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f30d),country-year,Greece2000,e0reG02e0c,10209,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f30e),country-year,Azerbaijan2000,0A0aba02nrizej,2292,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f30f),country-year,Hungary2000,0a2g0yrHn0u,11473,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f310),country-year,Aruba2007,20aAb0ur7,1372,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f311),country-year,Portugal1991,991auuP9ttl9,19429,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f312),country-year,Luxembourg2008,08o02bemguuxLr,15586,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f313),country-year,Mexico2006,M0006oMiii,16824,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f314),country-year,Netherlands2005,sea00htdNt0res2,17309,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f315),country-year,Norway1992,2w1yo12rrN,17938,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f316),country-year,Estonia2012,2oEtiinnita,8560,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f317),country-year,Czech Republic1991,1l11hp1lucp991Rzee,7111,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f318),country-year,Cyprus2005,02ys52uss0,6954,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f319),country-year,Canada2003,3a00Ca0aaa,5140,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f31a),country-year,Norway2008,00yw8Nwowy,18130,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f31b),country-year,Croatia2007,CtaCCo70Cia,6516,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f31c),country-year,Georgia2012,gea12i2o1Go,9668,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f31d),country-year,Kazakhstan2013,h0Knak2st3zaa1,14013,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f31e),country-year,Mexico1990,9c0M91exoi,16635,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f31f),country-year,Puerto Rico1985,8ciotr59RuP1o e,19690,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f320),country-year,France2001,0Fra01e2cn,9286,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f321),country-year,Jamaica2001,miaJa012c0a,13260,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f322),country-year,Brazil2011,ll1z021l0a,4486,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f323),country-year,Mauritius1995,Mai15urit9u9s,16313,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f324),country-year,Bulgaria2013,03Bruaruigrl,4892,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f325),country-year,Antigua and Barbuda1991,tudag19tai91a1rtB1a9au9,343,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f326),country-year,Kazakhstan1999,Kz9saha9a9t1kn,13844,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f327),country-year,Czech Republic2000,le0c2hciC0zup b0eR,7226,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f328),country-year,Japan2013,n321J221a,13703,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f329),country-year,Kuwait2003,wK2003auti,14347,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f32a),country-year,Jamaica2011,a0c0i01aa1i,13353,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f32b),country-year,Georgia2010,ag0GoGeGGo2,9642,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f32c),country-year,Germany2010,my0a1r0en2G,9953,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f32d),country-year,Guyana2003,0yay0uan0n,11238,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f32e),country-year,Denmark2010,nrmmk1kn1r0,7614,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f32f),country-year,Denmark2003,0mnkrDann0e,7535,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f330),country-year,Puerto Rico1990,99 Rrt1ooPcui0e,19744,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f331),country-year,Brazil2004,l4z44rr004,4402,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f332),country-year,Norway1990,raay0aryNo,17924,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f333),country-year,Finland2009,9idd90nF2a0,9012,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f334),country-year,Ecuador2012,2cEad10u2ro,8022,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f335),country-year,Malta2006,60a6aMatt,16066,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f336),country-year,Croatia2009,C0aC9o9000r,6547,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f337),country-year,New Zealand1998,wN9 ewn89wd1aan,17604,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f338),country-year,Australia2006,a2tl0iura06sA,1681,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f339),country-year,Kazakhstan2005,5ttk20Kastzhh0,13927,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f33a),country-year,Panama2007,P2a00man7a,18462,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f33b),country-year,Fiji2011,1F021iii,8724,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f33c),country-year,Luxembourg1997,umx1rug7LrLugL,15453,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f33d),country-year,Panama2015,1aPaaaPPa5,18569,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f33e),country-year,New Zealand2001," Na2en1e0Zdl0aw",17646,Validity,master_0
+ObjectId(5dd32be9760b2a2b14b1f33f),country-year,Armenia2006,0rmn2A6a0ei,1139,Validity,master_0
+ObjectId(5dd32bf0760b2a21b4c499ab),year,2000,,16948,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499ac),year,2009,,534,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499ad),year,1987,,9120,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499ae),year,1993,,15412,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499af),year,2010,,4481,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b0),year,2004,,13298,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b1),year,1997,,6692,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b2),year,1988,,6057,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b3),year,2014,,5985,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b4),year,2009,,9634,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b5),year,1994,,17184,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b6),year,2008,,16849,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b7),year,1995,,3249,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b8),year,2003,,1649,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499b9),year,2007,,11565,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499ba),year,1989,,10078,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499bb),year,1991,,2185,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499bc),year,1994,,17558,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499bd),year,2006,,1363,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499be),year,1992,,10116,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499bf),year,2011,,11607,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c0),year,2006,,11547,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c1),year,2006,,19937,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c2),year,2008,,10602,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c3),year,2005,,11922,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c4),year,1995,,1028,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c5),year,2001,,15505,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c6),year,2009,,8527,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c7),year,2011,,17390,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c8),year,2002,,8200,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499c9),year,1989,,4231,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499ca),year,2013,,15265,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499cb),year,1999,,7863,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499cc),year,2007,,1684,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499cd),year,2015,,588,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499ce),year,2007,,16085,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499cf),year,2015,,10686,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d0),year,2003,,4001,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d1),year,2015,,7401,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d2),year,2003,,14640,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d3),year,2002,,3337,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d4),year,2009,,19270,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d5),year,2003,,13014,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d6),year,1992,,9481,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d7),year,2002,,10529,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d8),year,2003,,15728,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499d9),year,2014,,6357,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499da),year,2016,,12048,Completeness,master_0
+ObjectId(5dd32bf0760b2a21b4c499db),year,1992,,8800,Completeness,master_0
+ObjectId(5dd32bf8760b2a06b8db6a22),year,1997,,12567,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a23),year,2008,,11303,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a24),year,1989,,25,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a25),year,1991,,977,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a26),year,2002,,5851,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a27),year,2006,,5178,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a28),year,2012,,15004,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a29),year,1987,,14211,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a2a),year,2001,,1622,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a2b),year,1991,,16638,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a2c),year,2005,,14913,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a2d),year,1996,,15066,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a2e),year,1990,,8777,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a2f),year,1988,,18299,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a30),year,1998,,15974,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a31),year,1999,,132,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a32),year,2011,,19301,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a33),year,2005,,12305,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a34),year,2003,,19571,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a35),year,1998,,399,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a36),year,2008,,4821,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a37),year,2007,,14691,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a38),year,2012,,14002,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a39),year,2004,,18421,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a3a),year,1998,,403,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a3b),year,2008,,9936,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a3c),year,2000,,9557,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a3d),year,1999,,6722,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a3e),year,2001,,9845,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a3f),year,1999,,18032,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a40),year,2011,,5238,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a41),year,2000,,3953,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a42),year,2013,,11353,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a43),year,2008,,3371,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a44),year,1991,,18653,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a45),year,1991,,1863,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a46),year,2004,,4409,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a47),year,1997,,13818,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a48),year,1985,,2369,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a49),year,1988,,1463,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a4a),year,1989,,4222,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a4b),year,1988,,15843,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a4c),year,1998,,1583,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a4d),year,1996,,17995,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a4e),year,2008,,865,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a4f),year,2010,,11321,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a50),year,1998,,17242,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a51),year,2006,,7295,Consistency,master_0
+ObjectId(5dd32bf8760b2a06b8db6a52),year,2003,,4394,Consistency,master_0
+ObjectId(5dd32bfe760b2a2b14b1f342),year,2013,ed9b                                                          ,6892,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f343),year,2009,jaI9                                                          ,10313,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f344),year,1999,Vz8i                                                          ,3305,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f345),year,1997,veb7                                                          ,8379,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f346),year,1985,28NC                                                          ,3440,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f347),year,1997,8D3K                                                          ,17594,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f348),year,1985,k1xj                                                          ,2364,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f349),year,2002,sjYO                                                          ,7903,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f34a),year,2011,yXGq                                                          ,9659,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f34b),year,1996,0SWW                                                          ,2429,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f34c),year,2011,GSXd                                                          ,2849,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f34d),year,1992,1RqJ                                                          ,19094,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f34e),year,2006,LZKn                                                          ,9340,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f34f),year,1996,LgWX                                                          ,11434,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f350),year,1997,Jgsl                                                          ,12211,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f351),year,2011,tKd4                                                          ,2851,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f352),year,2004,DSoM                                                          ,5156,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f353),year,1995,Q7tl                                                          ,13795,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f354),year,2006,0FZq                                                          ,6502,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f355),year,2009,emvs                                                          ,6843,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f356),year,2009,cRKZ                                                          ,7010,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f357),year,2012,0Cpo                                                          ,2112,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f358),year,2014,4u2W                                                          ,9687,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f359),year,2004,25tZ                                                          ,14906,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f35a),year,1998,P7D3                                                          ,5424,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f35b),year,2000,awwO                                                          ,19535,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f35c),year,1998,wKn3                                                          ,18028,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f35d),year,2004,7Vc3                                                          ,10555,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f35e),year,1993,55Ks                                                          ,12159,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f35f),year,2002,DMcI                                                          ,6754,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f360),year,1988,7YYI                                                          ,4208,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f361),year,1999,YyUG                                                          ,11469,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f362),year,2013,8PTx                                                          ,3778,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f363),year,1995,VriM                                                          ,17568,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f364),year,1995,at5O                                                          ,6379,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f365),year,1999,HvAZ                                                          ,2459,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f366),year,1986,kxtR                                                          ,13181,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f367),year,1986,L77u                                                          ,14195,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f368),year,1992,y908                                                          ,15900,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f369),year,2009,WrYt                                                          ,15216,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f36a),year,1990,8BUV                                                          ,961,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f36b),year,2007,ymb0                                                          ,16457,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f36c),year,2006,D5cQ                                                          ,210,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f36d),year,1995,jMBn                                                          ,15048,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f36e),year,1999,7XJ3                                                          ,8893,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f36f),year,2000,faXx                                                          ,9277,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f370),year,2003,1ClI                                                          ,10909,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f371),year,2003,Vj71                                                          ,3059,Validity,master_0
+ObjectId(5dd32bfe760b2a2b14b1f372),year,2008,2Yn4                                                          ,8696,Validity,master_0
+ObjectId(5dd32c04760b2a2ff825329a),year,1996,"4,45,70,45,75,163",17205,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff825329b),year,1988,5-14 years,4219,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff825329c),year,2014,3965,8349,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff825329d),year,2005,-2005,4019,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff825329e),year,2002,"2,13,37,77,71,504",1993,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff825329f),year,1990,female,19074,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a0),year,2007,-2007,14383,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a1),year,1990,-1990,18631,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a2),year,1999,-1999,15989,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a3),year,1991,392100,7773,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a4),year,1997,-1997,2436,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a5),year,2016,-2016,1250,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a6),year,1990,8356,19423,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a7),year,2003,-2003,11516,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a8),year,2011,-2011,12726,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532a9),year,1995,0,14246,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532aa),year,2003,530989,12277,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532ab),year,1991,-1991,16261,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532ac),year,2004,-2004,10261,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532ad),year,1990,G.I. Generation,19741,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532ae),year,2012,-2012,7371,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532af),year,1993,-1993,19460,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b0),year,2013,0,16153,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b1),year,2007,male,13628,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b2),year,1998,50700,16340,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b3),year,2005,0.891,17304,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b4),year,1994,Poland1994,19154,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b5),year,2003,-2003,17288,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b6),year,2003,25-34 years,8643,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b7),year,1999,-1999,6177,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b8),year,2003,-2003,19897,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532b9),year,1990,-1990,2178,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532ba),year,1998,101.77,1942,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532bb),year,1994,Hungary1994,11397,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532bc),year,2004,"12,05,92,01,242",8462,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532bd),year,1985,25-34 years,3443,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532be),year,2006,-2006,10580,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532bf),year,1987,,18585,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c0),year,2009,"2,33,82,16,70,544",5926,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c1),year,2015,-2015,8059,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c2),year,2000,Albania2000,143,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c3),year,2002,5-14 years,5479,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c4),year,1993,-1993,14076,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c5),year,1993,5-14 years,3881,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c6),year,2000,3795,13244,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c7),year,2004,-2004,13907,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c8),year,1989,75+ years,10429,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532c9),year,2015,-2015,12783,Accuracy,master_0
+ObjectId(5dd32c04760b2a2ff82532ca),year,2003,female,10917,Accuracy,master_0
+ObjectId(5dd32c14760b2a21b4c499de),sex,male,,17949,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499df),sex,male,,10249,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e0),sex,female,,13949,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e1),sex,female,,16693,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e2),sex,female,,18803,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e3),sex,male,,9204,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e4),sex,male,,15714,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e5),sex,male,,15560,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e6),sex,female,,3595,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e7),sex,male,,10286,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e8),sex,male,,10768,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499e9),sex,female,,19646,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499ea),sex,female,,9597,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499eb),sex,male,,18611,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499ec),sex,female,,6596,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499ed),sex,male,,19275,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499ee),sex,male,,5686,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499ef),sex,male,,16729,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f0),sex,male,,11212,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f1),sex,male,,19458,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f2),sex,female,,3096,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f3),sex,male,,1124,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f4),sex,male,,15707,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f5),sex,male,,7051,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f6),sex,female,,5186,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f7),sex,female,,751,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f8),sex,female,,1902,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499f9),sex,male,,12210,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499fa),sex,male,,14215,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499fb),sex,female,,19041,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499fc),sex,female,,19974,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499fd),sex,male,,1823,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499fe),sex,female,,16679,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c499ff),sex,male,,16231,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a00),sex,male,,16061,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a01),sex,female,,11108,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a02),sex,female,,9189,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a03),sex,female,,18379,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a04),sex,female,,1660,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a05),sex,female,,9038,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a06),sex,female,,15822,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a07),sex,male,,12347,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a08),sex,female,,5308,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a09),sex,male,,9416,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a0a),sex,male,,1607,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a0b),sex,male,,19969,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a0c),sex,male,,12588,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a0d),sex,female,,19407,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a0e),sex,male,,10539,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a0f),sex,female,,15778,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a10),sex,male,,18575,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a11),sex,female,,4936,Completeness,master_0
+ObjectId(5dd32c14760b2a21b4c49a12),sex,male,,12671,Completeness,master_0
+ObjectId(5dd32c1a760b2a2ff82532cd),sex,female,283198,12229,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532ce),sex,female,eaemlf,18301,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532cf),sex,male,mvale,4176,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d0),sex,male,18311628,4290,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d1),sex,male,"9,50,76,45,260",16124,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d2),sex,female,ealmfe,6377,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d3),sex,male,2002,11496,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d4),sex,male,lame,9768,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d5),sex,female,5.55,5260,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d6),sex,male,mQale,936,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d7),sex,female,femal/,13886,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d8),sex,female,lefmae,1705,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532d9),sex,male,"11,63,85,36,834",9638,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532da),sex,male,maRle,16114,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532db),sex,male,m/le,10262,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532dc),sex,female,eelmfa,9862,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532dd),sex,male,male,4986,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532de),sex,female,Generation Z,1785,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532df),sex,female,;emale,446,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e0),sex,male,maUle,17830,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e1),sex,female,eefmal,13535,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e2),sex,female,@em;le,8411,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e3),sex,female,fema?le,11345,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e4),sex,male,male,12164,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e5),sex,female,Cemale,2015,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e6),sex,male,malre,10419,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e7),sex,female,efalem,14766,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e8),sex,male,lame,523,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532e9),sex,female,fem;ale,14448,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532ea),sex,female,sfemale,10111,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532eb),sex,female,f emale,8300,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532ec),sex,female,75+ years,4726,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532ed),sex,female,eeamfl,12613,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532ee),sex,female,femal3e,7577,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532ef),sex,female,",female",9322,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f0),sex,male,lema,670,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f1),sex,male,mlls,16065,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f2),sex,female,femAale,10412,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f3),sex,male,Vmale,14346,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f4),sex,female,fem;ale,6275,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f5),sex,male,5166179,952,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f6),sex,female,eamlfe,10805,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f7),sex,male,mAale,9955,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f8),sex,female,"6,38,56,95,187",16417,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532f9),sex,female,memal],2545,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532fa),sex,female,lmeeaf,17643,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532fb),sex,female,0,569,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532fc),sex,male,Zmale,15536,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532fd),sex,female,elaemf,1599,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532fe),sex,male,Silent,14973,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff82532ff),sex,female,Millenials,8170,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff8253300),sex,male,1920,3834,Accuracy,master_0
+ObjectId(5dd32c1a760b2a2ff8253301),sex,female,Generation X,15945,Accuracy,master_0
+ObjectId(5dd32c21760b2a06b8db6a55),sex,male,,19739,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a56),sex,female,,2280,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a57),sex,male,,17483,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a58),sex,male,,2215,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a59),sex,female,,827,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a5a),sex,male,,1017,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a5b),sex,male,,2467,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a5c),sex,female,,16833,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a5d),sex,male,,9014,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a5e),sex,female,,5476,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a5f),sex,female,,5995,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a60),sex,male,,9528,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a61),sex,female,,18531,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a62),sex,female,,362,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a63),sex,female,,8719,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a64),sex,male,,3078,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a65),sex,male,,4739,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a66),sex,male,,17043,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a67),sex,female,,15528,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a68),sex,male,,1559,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a69),sex,female,,10569,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a6a),sex,female,,7070,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a6b),sex,male,,3823,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a6c),sex,female,,7059,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a6d),sex,male,,904,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a6e),sex,male,,9434,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a6f),sex,female,,2211,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a70),sex,female,,5586,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a71),sex,male,,2556,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a72),sex,male,,6107,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a73),sex,female,,13637,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a74),sex,male,,9782,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a75),sex,female,,5847,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a76),sex,male,,18180,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a77),sex,male,,1813,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a78),sex,female,,1188,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a79),sex,male,,2115,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a7a),sex,male,,8640,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a7b),sex,female,,14185,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a7c),sex,female,,14255,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a7d),sex,male,,8557,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a7e),sex,male,,12216,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a7f),sex,female,,15688,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a80),sex,female,,18110,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a81),sex,female,,11180,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a82),sex,male,,13151,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a83),sex,female,,10457,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a84),sex,male,,10756,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a85),sex,male,,7974,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a86),sex,female,,17240,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a87),sex,male,,502,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a88),sex,female,,172,Consistency,master_0
+ObjectId(5dd32c21760b2a06b8db6a89),sex,male,,4737,Consistency,master_0
+ObjectId(5dd32c26760b2a2b14b1f375),sex,female,efmela,19397,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f376),sex,male,lmma,5554,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f377),sex,female,lmfeea,7803,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f378),sex,male,ealm,8595,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f379),sex,male,meam,6069,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f37a),sex,female,amlefe,14364,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f37b),sex,male,lmea,13568,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f37c),sex,female,mefeee,13801,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f37d),sex,female,mefael,8360,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f37e),sex,female,lemelf,6551,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f37f),sex,male,meal,11749,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f380),sex,female,aleeee,8028,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f381),sex,male,alla,12731,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f382),sex,female,leafef,4987,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f383),sex,male,aeml,12995,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f384),sex,male,leam,12395,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f385),sex,female,feflfm,363,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f386),sex,male,lmle,6059,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f387),sex,female,efelma,11072,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f388),sex,female,emalfe,12715,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f389),sex,female,elalla,12085,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f38a),sex,female,elelme,4393,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f38b),sex,female,eelaee,10577,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f38c),sex,male,alme,13686,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f38d),sex,male,alme,9192,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f38e),sex,male,leam,16806,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f38f),sex,female,efaeae,1447,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f390),sex,male,elae,13739,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f391),sex,female,feleam,10579,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f392),sex,male,alla,18529,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f393),sex,female,aefaee,2109,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f394),sex,female,emfale,10446,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f395),sex,female,eflfee,10271,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f396),sex,female,ammele,12363,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f397),sex,female,maelef,8458,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f398),sex,male,male,294,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f399),sex,female,efmlea,2296,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f39a),sex,female,afaeff,7568,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f39b),sex,male,amle,11425,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f39c),sex,female,emeefm,12113,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f39d),sex,female,emflll,2497,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f39e),sex,female,laaelf,3912,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f39f),sex,male,eeee,7919,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a0),sex,female,eleamf,14016,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a1),sex,male,lema,4018,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a2),sex,male,aelm,4353,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a3),sex,female,aemaff,18326,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a4),sex,female,aemfel,6171,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a5),sex,male,lame,7520,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a6),sex,female,maaeee,16361,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a7),sex,female,lmefef,19711,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a8),sex,male,aela,8798,Validity,master_0
+ObjectId(5dd32c26760b2a2b14b1f3a9),sex,male,aeaa,16979,Validity,master_0
+ObjectId(5dd32c2c760b2a21b4c49a15),population,1245745,,5483,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a16),population,3880,,2499,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a17),population,279800,,17574,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a18),population,21872177,,4382,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a19),population,100800,,16288,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a1a),population,1022887,,7290,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a1b),population,685233,,8305,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a1c),population,678000,,677,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a1d),population,571290,,12615,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a1e),population,23200,,15971,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a1f),population,20600,,11753,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a20),population,4175544,,5862,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a21),population,858988,,6795,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a22),population,617200,,5337,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a23),population,1168283,,10862,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a24),population,83083,,8712,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a25),population,63070,,11095,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a26),population,290873,,12356,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a27),population,27200,,15903,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a28),population,1107,,1327,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a29),population,509800,,1062,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a2a),population,469742,,17392,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a2b),population,56285,,16074,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a2c),population,71811,,18848,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a2d),population,759680,,2000,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a2e),population,29893,,15557,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a2f),population,32853,,13207,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a30),population,1268923,,19655,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a31),population,1195065,,3768,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a32),population,431074,,2125,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a33),population,570472,,17833,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a34),population,31600,,15349,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a35),population,323700,,6402,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a36),population,341171,,12394,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a37),population,21059,,16145,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a38),population,448004,,10982,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a39),population,16927682,,4349,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a3a),population,137869,,11003,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a3b),population,251033,,19811,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a3c),population,210020,,19464,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a3d),population,138663,,12389,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a3e),population,5778173,,16892,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a3f),population,206867,,18305,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a40),population,1259000,,5304,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a41),population,577782,,12310,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a42),population,2937109,,19253,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a43),population,246200,,1031,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a44),population,612178,,10326,Completeness,master_0
+ObjectId(5dd32c2c760b2a21b4c49a45),population,4163,,10563,Completeness,master_0
+ObjectId(5dd32c30760b2a06b8db6a8c),population,1503026,,3650,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a8d),population,529287,,1888,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a8e),population,78163,,8575,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a8f),population,689694,,3707,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a90),population,338232,,4796,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a91),population,594335,,17801,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a92),population,21000,,15374,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a93),population,240998,,1143,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a94),population,3305700,,16667,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a95),population,546431,,10304,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a96),population,167410,,12610,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a97),population,328000,,1102,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a98),population,26200,,2904,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a99),population,63902,,11101,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a9a),population,7414,,1412,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a9b),population,646185,,863,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a9c),population,1446346,,11514,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a9d),population,248767,,1169,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a9e),population,15797130,,13604,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6a9f),population,281770,,17669,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa0),population,558000,,4657,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa1),population,1658149,,5386,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa2),population,802949,,10885,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa3),population,1302835,,5460,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa4),population,2293665,,5212,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa5),population,394300,,14554,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa6),population,3331708,,792,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa7),population,682100,,7133,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa8),population,6784,,1276,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aa9),population,6640,,14099,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aaa),population,329601,,8968,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aab),population,35553,,15741,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aac),population,3294844,,19180,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aad),population,96017,,11258,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aae),population,7453,,3977,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aaf),population,34112,,15470,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab0),population,395605,,6246,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab1),population,1413500,,1523,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab2),population,4304,,11080,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab3),population,85940,,16978,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab4),population,25481,,11094,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab5),population,3711936,,9440,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab6),population,2362,,10545,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab7),population,12835,,481,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab8),population,3044200,,595,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6ab9),population,28055,,18597,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6aba),population,10704300,,16658,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6abb),population,540184,,19604,Consistency,master_0
+ObjectId(5dd32c30760b2a06b8db6abc),population,391100,,123,Consistency,master_0
+ObjectId(5dd32c37760b2a2b14b1f3ac),population,275561,UVwBqx                                                        ,6753,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3ad),population,484631,C2bhjw                                                        ,3627,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3ae),population,22968,XkBXk                                                         ,12005,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3af),population,39641,M1mZ0                                                         ,10728,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b0),population,3887,ln7t                                                          ,14377,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b1),population,237813,Gh9fDn                                                        ,1249,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b2),population,4603966,W5RjldU                                                       ,19322,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b3),population,338328,iDWDxg                                                        ,18561,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b4),population,560410,U0ZqYm                                                        ,14647,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b5),population,9882000,eF8SA1P                                                       ,16676,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b6),population,53001,G1FST                                                         ,6288,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b7),population,153580,LMgYNj                                                        ,17775,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b8),population,747545,yWqail                                                        ,13942,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3b9),population,25523153,Gex4216I                                                      ,4465,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3ba),population,1279200,XeuAUAc                                                       ,17224,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3bb),population,1401500,Da2FDHe                                                       ,1524,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3bc),population,29208,D77L4                                                         ,16112,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3bd),population,555500,mZvOrs                                                        ,4673,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3be),population,685500,RRdLzg                                                        ,7124,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3bf),population,28150,T8HPZ                                                         ,8524,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c0),population,81700,T4pHT                                                         ,16486,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c1),population,180100,Oofw5o                                                        ,14826,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c2),population,38375,0e8tq                                                         ,4074,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c3),population,941900,NO8RkX                                                        ,7709,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c4),population,1072500,Btk9BcL                                                       ,17180,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c5),population,139352,2L8pC5                                                        ,2869,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c6),population,59325,xydmM                                                         ,6259,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c7),population,1130796,cjLpC0P                                                       ,3423,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c8),population,68952,39uxB                                                         ,12228,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3c9),population,4819,1D1h                                                          ,8664,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3ca),population,334557,jktY4o                                                        ,9058,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3cb),population,483890,RXmyjy                                                        ,1940,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3cc),population,485554,0a2T03                                                        ,17413,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3cd),population,260156,2cYsHx                                                        ,18401,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3ce),population,52100,nGhLj                                                         ,14531,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3cf),population,4407,ZdPg                                                          ,10500,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d0),population,371498,uMK3xW                                                        ,6308,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d1),population,6344,gXzr                                                          ,265,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d2),population,368000,W9c1j3                                                        ,8815,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d3),population,2850418,HSjlaKc                                                       ,12943,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d4),population,21000,C4ESI                                                         ,11789,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d5),population,4013700,lqWemch                                                       ,5755,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d6),population,1285400,TJV80js                                                       ,9170,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d7),population,7566353,OZUKtSw                                                       ,12891,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d8),population,1085400,es8XskD                                                       ,4788,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3d9),population,1041700,im4EvtP                                                       ,19075,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3da),population,253800,AXlI6q                                                        ,17531,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3db),population,25463652,EqPTOo9B                                                      ,4499,Validity,master_0
+ObjectId(5dd32c37760b2a2b14b1f3dc),population,281350,bGmPFL                                                        ,17671,Validity,master_0
+ObjectId(5dd32c3c760b2a2ff8253304),population,641700,-641700,14737,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253305),population,37499,2011,15622,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253306),population,618800,1986,4565,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253307),population,828100,-828100,7150,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253308),population,56144,3076,11312,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253309),population,40712,-40712,13178,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825330a),population,352281,7.66,12338,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825330b),population,25297,"1,36,96,93,171",14602,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825330c),population,173742,-173742,8409,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825330d),population,881672,male,7801,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825330e),population,354327,-354327,14433,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825330f),population,22200,-22200,2915,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253310),population,604133,35-54 years,12352,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253311),population,463500,-463500,2235,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253312),population,714857,male,19238,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253313),population,228002,Silent,6243,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253314),population,20542,-20542,16129,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253315),population,794500,-794500,6664,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253316),population,6261133,-6261133,5968,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253317),population,416344,11485,6359,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253318),population,10419,male,16379,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253319),population,372875,4.56,10887,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825331a),population,317112,Generation X,6241,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825331b),population,378929,68,15242,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825331c),population,98385,53.87,8441,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825331d),population,6532,0,11901,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825331e),population,697000,9,2212,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825331f),population,331536,-331536,19596,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253320),population,620354,-620354,10339,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253321),population,62893,-62893,7049,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253322),population,26900,0,2397,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253323),population,142886,-142886,14996,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253324),population,1409500,1993,1529,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253325),population,43218,-43218,15584,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253326),population,1199400,"21,65,00,00,000",3188,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253327),population,26200,-26200,15896,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253328),population,4430800,female,9788,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253329),population,7306000,-7306000,16644,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825332a),population,45300,55-74 years,16185,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825332b),population,367146,-367146,18559,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825332c),population,3782232,75+ years,13093,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825332d),population,6768,-6768,14111,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825332e),population,615800,1,3451,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff825332f),population,449867,,19922,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253330),population,5295,-5295,11099,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253331),population,299476,-299476,6496,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253332),population,480316,-480316,7478,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253333),population,6459,21987,1306,Accuracy,master_0
+ObjectId(5dd32c3c760b2a2ff8253334),population,12453,-12453,16017,Accuracy,master_0
+ObjectId(5dd32c42760b2a21b4c49a48),suicides_no,123,,7504,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a49),suicides_no,603,,14038,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a4a),suicides_no,186,,1828,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a4b),suicides_no,97,,15181,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a4c),suicides_no,1,,3884,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a4d),suicides_no,127,,17192,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a4e),suicides_no,29,,9096,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a4f),suicides_no,0,,15901,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a50),suicides_no,0,,339,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a51),suicides_no,3,,14339,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a52),suicides_no,3,,8179,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a53),suicides_no,76,,8201,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a54),suicides_no,71,,3250,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a55),suicides_no,232,,771,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a56),suicides_no,2,,9033,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a57),suicides_no,100,,8368,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a58),suicides_no,0,,6988,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a59),suicides_no,14,,7273,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a5a),suicides_no,6,,128,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a5b),suicides_no,64,,17449,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a5c),suicides_no,48,,6092,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a5d),suicides_no,74,,8045,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a5e),suicides_no,5,,2353,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a5f),suicides_no,100,,2149,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a60),suicides_no,9,,668,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a61),suicides_no,0,,10557,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a62),suicides_no,10,,14753,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a63),suicides_no,42,,17742,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a64),suicides_no,6,,17610,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a65),suicides_no,25,,8370,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a66),suicides_no,29,,11482,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a67),suicides_no,0,,3863,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a68),suicides_no,1323,,4485,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a69),suicides_no,57,,12634,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a6a),suicides_no,374,,5796,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a6b),suicides_no,26,,5680,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a6c),suicides_no,2,,8723,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a6d),suicides_no,3,,5358,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a6e),suicides_no,64,,19694,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a6f),suicides_no,0,,317,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a70),suicides_no,0,,10444,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a71),suicides_no,54,,3316,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a72),suicides_no,15,,622,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a73),suicides_no,68,,18106,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a74),suicides_no,4,,2756,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a75),suicides_no,135,,5547,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a76),suicides_no,486,,19105,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a77),suicides_no,2304,,10011,Completeness,master_0
+ObjectId(5dd32c42760b2a21b4c49a78),suicides_no,416,,6776,Completeness,master_0
+ObjectId(5dd32c48760b2a06b8db6abf),suicides_no,0,,11959,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac0),suicides_no,159,,17438,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac1),suicides_no,2,,15681,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac2),suicides_no,73,,18096,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac3),suicides_no,0,,3184,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac4),suicides_no,7,,14350,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac5),suicides_no,62,,7644,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac6),suicides_no,550,,11546,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac7),suicides_no,1,,12064,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac8),suicides_no,0,,5659,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ac9),suicides_no,0,,2930,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6aca),suicides_no,42,,3208,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6acb),suicides_no,18,,6217,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6acc),suicides_no,0,,14316,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6acd),suicides_no,125,,3416,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ace),suicides_no,10,,9614,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6acf),suicides_no,6,,18667,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad0),suicides_no,6,,19792,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad1),suicides_no,55,,17773,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad2),suicides_no,8,,18699,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad3),suicides_no,4,,67,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad4),suicides_no,0,,14089,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad5),suicides_no,6,,18238,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad6),suicides_no,249,,675,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad7),suicides_no,0,,12571,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad8),suicides_no,22,,13446,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ad9),suicides_no,3,,10924,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ada),suicides_no,0,,3871,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6adb),suicides_no,15,,7578,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6adc),suicides_no,2,,18582,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6add),suicides_no,19,,10287,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ade),suicides_no,400,,5185,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6adf),suicides_no,69,,1431,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae0),suicides_no,16,,2047,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae1),suicides_no,62,,19584,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae2),suicides_no,15,,16343,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae3),suicides_no,0,,441,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae4),suicides_no,0,,10437,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae5),suicides_no,213,,4592,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae6),suicides_no,686,,3633,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae7),suicides_no,24,,10256,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae8),suicides_no,29,,14771,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6ae9),suicides_no,39,,13013,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6aea),suicides_no,8,,3666,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6aeb),suicides_no,2,,19749,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6aec),suicides_no,0,,34,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6aed),suicides_no,1619,,13545,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6aee),suicides_no,10,,18896,Consistency,master_0
+ObjectId(5dd32c48760b2a06b8db6aef),suicides_no,7,,19779,Consistency,master_0
+ObjectId(5dd32c50760b2a2b14b1f3df),suicides_no,26,mF                                                            ,7531,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e0),suicides_no,0,j                                                             ,2838,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e1),suicides_no,1,l                                                             ,15552,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e2),suicides_no,14,XB                                                            ,12430,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e3),suicides_no,6,T                                                             ,9549,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e4),suicides_no,6,F                                                             ,18833,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e5),suicides_no,0,2                                                             ,15821,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e6),suicides_no,92,Pq                                                            ,7956,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e7),suicides_no,110,kQ1                                                           ,5361,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e8),suicides_no,49,oj                                                            ,8285,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3e9),suicides_no,0,5                                                             ,1314,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3ea),suicides_no,1945,HB0n                                                          ,13618,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3eb),suicides_no,95,VQ                                                            ,10168,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3ec),suicides_no,5,N                                                             ,16237,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3ed),suicides_no,343,ELX                                                           ,14027,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3ee),suicides_no,11,5f                                                            ,14774,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3ef),suicides_no,5,F                                                             ,11770,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f0),suicides_no,36,Jf                                                            ,19824,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f1),suicides_no,17,pv                                                            ,18211,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f2),suicides_no,18,L3                                                            ,2226,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f3),suicides_no,1,j                                                             ,12438,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f4),suicides_no,4,m                                                             ,17678,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f5),suicides_no,260,AE9                                                           ,16770,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f6),suicides_no,3,w                                                             ,11919,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f7),suicides_no,105,pB3                                                           ,10179,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f8),suicides_no,7,F                                                             ,6136,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3f9),suicides_no,1,I                                                             ,13172,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3fa),suicides_no,0,4                                                             ,15508,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3fb),suicides_no,14,Sf                                                            ,11308,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3fc),suicides_no,9,V                                                             ,12728,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3fd),suicides_no,95,Vp                                                            ,17191,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3fe),suicides_no,287,nbk                                                           ,5519,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f3ff),suicides_no,495,8Vs                                                           ,9309,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f400),suicides_no,0,H                                                             ,14224,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f401),suicides_no,1,d                                                             ,3461,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f402),suicides_no,73,YE                                                            ,7509,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f403),suicides_no,84,ff                                                            ,15170,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f404),suicides_no,58,lG                                                            ,10143,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f405),suicides_no,476,qEz                                                           ,6848,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f406),suicides_no,69,n5                                                            ,12166,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f407),suicides_no,89,Tb                                                            ,19014,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f408),suicides_no,0,W                                                             ,2555,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f409),suicides_no,9,B                                                             ,16098,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f40a),suicides_no,22,un                                                            ,19729,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f40b),suicides_no,188,BDs                                                           ,5169,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f40c),suicides_no,1,X                                                             ,10430,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f40d),suicides_no,390,qA9                                                           ,16794,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f40e),suicides_no,58,Bh                                                            ,14865,Validity,master_0
+ObjectId(5dd32c50760b2a2b14b1f40f),suicides_no,983,TH5                                                           ,9188,Validity,master_0
+ObjectId(5dd32c57760b2a2ff8253337),suicides_no,51,-51,7676,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253338),suicides_no,18,-18,644,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253339),suicides_no,404,Boomers,6764,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825333a),suicides_no,0,1571,531,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825333b),suicides_no,7,"1,27,94,53,79,258",12264,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825333c),suicides_no,533,-533,19060,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825333d),suicides_no,1,-1,11983,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825333e),suicides_no,302,15-24 years,5833,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825333f),suicides_no,4,-4,178,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253340),suicides_no,1,female,2975,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253341),suicides_no,812,-812,5254,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253342),suicides_no,2,-2,6689,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253343),suicides_no,3,-3,1158,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253344),suicides_no,226,-226,741,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253345),suicides_no,4,-4,153,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253346),suicides_no,68,,10167,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253347),suicides_no,4,-4,11288,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253348),suicides_no,177,2446400,4994,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253349),suicides_no,85,Ireland,12118,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825334a),suicides_no,1,-1,13196,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825334b),suicides_no,0,0,15554,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825334c),suicides_no,61,Philippines,18977,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825334d),suicides_no,1,23.13,10585,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825334e),suicides_no,0,0,8674,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825334f),suicides_no,150,Boomers,7585,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253350),suicides_no,101,-101,5152,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253351),suicides_no,17,11.03,16356,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253352),suicides_no,8,2009,17745,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253353),suicides_no,1,-1,16336,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253354),suicides_no,517,5552239,5928,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253355),suicides_no,0,Millenials,11766,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253356),suicides_no,35,35-54 years,10053,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253357),suicides_no,44,-44,10106,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253358),suicides_no,16,-16,2708,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253359),suicides_no,395,-395,5988,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825335a),suicides_no,8,,11784,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825335b),suicides_no,26,0.772,16506,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825335c),suicides_no,8,3.48,6037,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825335d),suicides_no,2148,35843,13563,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825335e),suicides_no,89,female,14020,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff825335f),suicides_no,61,-61,8251,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253360),suicides_no,30,"2,35,99,03,108",99,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253361),suicides_no,0,Generation X,434,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253362),suicides_no,461,-461,9967,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253363),suicides_no,0,616895,7215,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253364),suicides_no,17,Boomers,14337,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253365),suicides_no,0,0,10532,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253366),suicides_no,0,0,15792,Accuracy,master_0
+ObjectId(5dd32c57760b2a2ff8253367),suicides_no,210,55-74 years,596,Accuracy,master_0
+ObjectId(5dd32c5f760b2a21b4c49a7b),gdp_for_year ($),"7,54,89,12,105",,11825,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a7c),gdp_for_year ($),"44,22,73,433",,11126,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a7d),gdp_for_year ($),"2,33,10,05,587",,1349,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a7e),gdp_for_year ($),"21,91,77,06,491",,10914,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a7f),gdp_for_year ($),"9,26,44,82,40,318",,1704,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a80),gdp_for_year ($),"19,64,52,72,636",,7870,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a81),gdp_for_year ($),"30,07,57,889",,10442,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a82),gdp_for_year ($),"5,33,81,57,89,474",,19260,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a83),gdp_for_year ($),"1,87,34,52,514",,1293,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a84),gdp_for_year ($),"8,45,37,04,212",,11834,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a85),gdp_for_year ($),"3,24,87,81,05,053",,1515,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a86),gdp_for_year ($),"2,68,13,72,24,730",,4193,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a87),gdp_for_year ($),"1,36,84,31,037",,516,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a88),gdp_for_year ($),"19,65,24,92,637",,8533,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a89),gdp_for_year ($),"17,70,28,85,394",,5264,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a8a),gdp_for_year ($),"1,59,69,68,913",,1037,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a8b),gdp_for_year ($),"24,08,45,72,491",,7054,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a8c),gdp_for_year ($),"4,24,66,00,000",,3094,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a8d),gdp_for_year ($),"23,94,13,91,391",,14222,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a8e),gdp_for_year ($),"57,22,24,90,769",,3397,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a8f),gdp_for_year ($),"12,01,09,00,18,604",,16889,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a90),gdp_for_year ($),"9,85,85,185",,7687,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a91),gdp_for_year ($),"2,37,63,35,048",,1105,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a92),gdp_for_year ($),"16,87,08,17,135",,13848,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a93),gdp_for_year ($),"64,13,83,800",,3920,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a94),gdp_for_year ($),"15,69,64,96,61,400",,13012,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a95),gdp_for_year ($),"74,19,29,343",,11243,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a96),gdp_for_year ($),"1,93,87,03,50,137",,12292,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a97),gdp_for_year ($),"12,94,41,14,736",,11969,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a98),gdp_for_year ($),"15,96,87,26,862",,2773,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a99),gdp_for_year ($),"9,87,04,94,000",,18323,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a9a),gdp_for_year ($),"3,53,36,10,56,080",,7607,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a9b),gdp_for_year ($),"3,22,42,67,548",,16266,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a9c),gdp_for_year ($),"9,20,76,89,916",,11880,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a9d),gdp_for_year ($),"2,62,00,75,90,450",,19600,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a9e),gdp_for_year ($),"1,78,63,51,60,297",,7524,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49a9f),gdp_for_year ($),"58,08,58,56,019",,6585,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa0),gdp_for_year ($),"1,26,20,68,17,196",,634,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa1),gdp_for_year ($),"6,38,56,95,187",,16418,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa2),gdp_for_year ($),"2,37,63,35,048",,1104,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa3),gdp_for_year ($),"32,43,28,58,000",,7914,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa4),gdp_for_year ($),"2,54,71,63,582",,15868,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa5),gdp_for_year ($),"37,34,73,94,603",,15555,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa6),gdp_for_year ($),"5,10,22,91,36,227",,18188,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa7),gdp_for_year ($),"1,57,36,70,250",,4104,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa8),gdp_for_year ($),"3,43,97,16,562",,18577,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aa9),gdp_for_year ($),"4,75,15,189",,14048,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aaa),gdp_for_year ($),"3,17,67,49,593",,2240,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aab),gdp_for_year ($),"2,46,02,48,026",,14661,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aac),gdp_for_year ($),"1,31,51,58,670",,1019,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aad),gdp_for_year ($),"28,36,46,15,242",,6718,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aae),gdp_for_year ($),"97,72,40,04,252",,803,Completeness,master_0
+ObjectId(5dd32c5f760b2a21b4c49aaf),gdp_for_year ($),"79,98,82,148",,10649,Completeness,master_0
+ObjectId(5dd32c63760b2a06b8db6af2),gdp_for_year ($),"24,63,65,93,223",,13884,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6af3),gdp_for_year ($),"1,35,44,50,33,199",,12650,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6af4),gdp_for_year ($),"1,42,00,99,22,306",,17069,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6af5),gdp_for_year ($),"54,08,74,934",,11145,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6af6),gdp_for_year ($),"9,50,76,45,260",,16132,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6af7),gdp_for_year ($),"13,05,18,86,552",,7739,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6af8),gdp_for_year ($),"1,19,06,47,08,328",,8764,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6af9),gdp_for_year ($),"11,20,44,16,000",,13312,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6afa),gdp_for_year ($),"77,12,78,111",,10612,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6afb),gdp_for_year ($),"5,52,02,51,40,252",,931,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6afc),gdp_for_year ($),"46,65,97,96,773",,11432,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6afd),gdp_for_year ($),"22,55,59,41,176",,4585,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6afe),gdp_for_year ($),"57,62,95,18,806",,6605,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6aff),gdp_for_year ($),"15,96,87,26,862",,2770,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b00),gdp_for_year ($),"16,28,09,91,736",,3228,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b01),gdp_for_year ($),"59,44,01,08,585",,14351,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b02),gdp_for_year ($),"35,90,12,00,000",,6769,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b03),gdp_for_year ($),"14,37,32,69,156",,14908,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b04),gdp_for_year ($),"50,45,35,77,898",,6506,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b05),gdp_for_year ($),"37,52,36,56,07,148",,9932,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b06),gdp_for_year ($),"1,24,16,84,42,860",,1817,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b07),gdp_for_year ($),"55,98,58,250",,3882,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b08),gdp_for_year ($),"3,67,21,63,64,716",,1549,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b09),gdp_for_year ($),"44,54,14,38,76,947",,13465,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b0a),gdp_for_year ($),"4,66,29,47,00,058",,1650,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b0b),gdp_for_year ($),"13,71,15,30,04,986",,5207,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b0c),gdp_for_year ($),"49,42,55,13,611",,6608,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b0d),gdp_for_year ($),"52,62,28,42,840",,17627,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b0e),gdp_for_year ($),"1,19,29,25,407",,549,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b0f),gdp_for_year ($),"2,14,34,84,488",,16219,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b10),gdp_for_year ($),"29,44,02,87,600",,18491,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b11),gdp_for_year ($),"1,84,26,91,481",,8617,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b12),gdp_for_year ($),"1,29,05,73,400",,4042,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b13),gdp_for_year ($),"1,10,93,44,42,763",,620,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b14),gdp_for_year ($),"3,69,03,28,964",,9477,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b15),gdp_for_year ($),"3,88,39,51,62,301",,1592,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b16),gdp_for_year ($),"74,82,74,00,000",,19903,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b17),gdp_for_year ($),"1,03,32,15,70,859",,8825,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b18),gdp_for_year ($),"10,70,10,11,897",,217,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b19),gdp_for_year ($),"81,00,38,84,545",,13929,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b1a),gdp_for_year ($),"1,33,10,58,05,928",,1834,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b1b),gdp_for_year ($),"14,92,64,75,60,196",,9259,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b1c),gdp_for_year ($),"10,95,59,08,33,694",,12902,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b1d),gdp_for_year ($),"23,67,80,12,697",,6381,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b1e),gdp_for_year ($),"14,00,60,88,297",,8474,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b1f),gdp_for_year ($),"5,68,57,74,809",,8415,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b20),gdp_for_year ($),"4,69,19,625",,14074,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b21),gdp_for_year ($),"60,80,63,00,000",,6822,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b22),gdp_for_year ($),"1,82,28,15,594",,2926,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b23),gdp_for_year ($),"95,12,96,59,000",,8031,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b24),gdp_for_year ($),"58,64,23,92,718",,18246,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b25),gdp_for_year ($),"6,50,53,26,54,582",,17298,Consistency,master_0
+ObjectId(5dd32c63760b2a06b8db6b26),gdp_for_year ($),"1,98,73,70,95,012",,835,Consistency,master_0
+ObjectId(5dd32c6b760b2a2b14b1f412),gdp_for_year ($),"21,25,05,82,44,243","01,42,5,,,,02,5444",13099,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f413),gdp_for_year ($),"2,32,55,72,60,817",",10,6,560,0,1,16,",843,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f414),gdp_for_year ($),"55,98,58,250","9,585,28055,",3879,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f415),gdp_for_year ($),"4,62,55,44,32,624","646,,34,,552,4242",18129,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f416),gdp_for_year ($),"27,49,35,91,484",",9,,14457342,89",12426,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f417),gdp_for_year ($),"5,07,96,24,87,700",",,0,,048577296,70",4377,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f418),gdp_for_year ($),"2,10,02,23,150",",,,,22001,021,",13164,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f419),gdp_for_year ($),"13,22,92,47,948","3,2,88,912824,4",15370,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f41a),gdp_for_year ($),"33,11,38,87,818","3181,88,8,8,138",5324,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f41b),gdp_for_year ($),"24,08,45,72,491","8,512,47,4814,7",7048,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f41c),gdp_for_year ($),"63,76,75,97,194",",9,5567776,,616",11056,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f41d),gdp_for_year ($),"38,13,75,45,245","454122,17148458",14334,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f41e),gdp_for_year ($),"8,03,05,54,18,883","08,,8,4,4,,0,3,88",12819,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f41f),gdp_for_year ($),"82,99,51,45,792",",1,48,7,29991,7",18939,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f420),gdp_for_year ($),"2,38,30,34,43,425",53483324343343333,19622,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f421),gdp_for_year ($),"53,82,13,15,066",",5351810,2,,636",11484,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f422),gdp_for_year ($),"38,90,60,68,93,347","343883,0030,0,,36,",9998,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f423),gdp_for_year ($),"25,43,21,44,406","4,242,4440,651,",6407,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f424),gdp_for_year ($),"26,97,28,63,394","66,,8,926762,67",15034,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f425),gdp_for_year ($),"12,13,02,52,200","2,1,,05153,11,,",18362,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f426),gdp_for_year ($),"56,56,54,75,275",766766525255467,6572,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f427),gdp_for_year ($),"9,69,41,69,757",",,19776,19,766",13275,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f428),gdp_for_year ($),"6,68,02,69,200","8628268,,60600",8112,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f429),gdp_for_year ($),"1,36,19,13,53,468","63,1111631,363,13",10225,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f42a),gdp_for_year ($),"10,52,58,46,01,611","54155,,6011116,16,",1692,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f42b),gdp_for_year ($),"26,42,60,95,48,930",",48,925,548,,,9043",9394,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f42c),gdp_for_year ($),"21,85,16,01,83,384","4,812880,113,53,,6",13082,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f42d),gdp_for_year ($),"17,01,17,50,900","0,,0,7170951,10",8259,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f42e),gdp_for_year ($),"23,28,96,71,102","11,,780326,22,9",6442,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f42f),gdp_for_year ($),"49,27,95,85,355","4,,9,,,537,722,",5721,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f430),gdp_for_year ($),"3,51,05,40,809","31,,008,000,83",9524,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f431),gdp_for_year ($),"3,39,20,21,011",",,13,0,,322,22",2653,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f432),gdp_for_year ($),"30,74,93,08,511",",8113,301534813",2854,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f433),gdp_for_year ($),"1,27,94,53,79,258","3,4959,72,2,8715,",12262,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f434),gdp_for_year ($),"21,58,81,70,498","458919701,8,84,",15433,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f435),gdp_for_year ($),"1,95,30,50,84,919","4,59,30,198,,9105",7417,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f436),gdp_for_year ($),"10,61,93,20,049","00001,4,9410210",1211,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f437),gdp_for_year ($),"13,98,89,27,44,821","294821,,43788,3442",13364,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f438),gdp_for_year ($),"1,89,37,26,437","6,,177,3394,82",1064,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f439),gdp_for_year ($),"15,84,64,74,596","76,,5,4,,55,457",9663,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f43a),gdp_for_year ($),"1,46,83,17,350","73,131436,7,,,",1023,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f43b),gdp_for_year ($),"44,47,20,750","4745,4,50044",3864,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f43c),gdp_for_year ($),"38,74,97,15,722","729,27,347581,,",19386,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f43d),gdp_for_year ($),"6,92,12,64,132","1496333,2,,619",15327,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f43e),gdp_for_year ($),"8,28,94,68,12,397","89,9,8,,98996276,",17396,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f43f),gdp_for_year ($),"81,91,07,71,994","88,,,40197190,,",7241,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f440),gdp_for_year ($),"2,60,20,24,29,150","0,60,42,,,20200,9",3613,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f441),gdp_for_year ($),"8,85,80,06,036","880,655880,,83",2176,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f442),gdp_for_year ($),"41,30,50,000","00,4,0030,03",3856,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f443),gdp_for_year ($),"22,08,58,58,243","5,2282,5,08345,",6630,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f444),gdp_for_year ($),"6,26,58,44,252","684,225454,,26",15685,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f445),gdp_for_year ($),"9,36,22,82,11,513","1,825913,3,6,122,",17349,Validity,master_0
+ObjectId(5dd32c6b760b2a2b14b1f446),gdp_for_year ($),"34,63,04,30,000","3403,036,0303,3",19768,Validity,master_0
+ObjectId(5dd32c73760b2a21b4c49ab2),suicides/100k pop,17.52,,13501,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ab3),suicides/100k pop,3.29,,883,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ab4),suicides/100k pop,2.05,,7523,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ab5),suicides/100k pop,22.75,,13416,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ab6),suicides/100k pop,1.24,,8952,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ab7),suicides/100k pop,6.6,,654,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ab8),suicides/100k pop,0.16,,9937,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ab9),suicides/100k pop,0,,18500,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49aba),suicides/100k pop,9.81,,8119,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49abb),suicides/100k pop,4.13,,12219,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49abc),suicides/100k pop,3.87,,9970,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49abd),suicides/100k pop,15.64,,3673,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49abe),suicides/100k pop,6.16,,13009,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49abf),suicides/100k pop,15.54,,5387,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac0),suicides/100k pop,8.58,,15956,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac1),suicides/100k pop,1.49,,17957,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac2),suicides/100k pop,22.96,,17463,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac3),suicides/100k pop,0,,3028,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac4),suicides/100k pop,16.15,,6789,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac5),suicides/100k pop,19.48,,1995,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac6),suicides/100k pop,6.2,,8615,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac7),suicides/100k pop,0.18,,16647,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac8),suicides/100k pop,0,,3139,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ac9),suicides/100k pop,10.29,,2116,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49aca),suicides/100k pop,2.48,,12509,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49acb),suicides/100k pop,9.04,,18397,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49acc),suicides/100k pop,0.55,,8208,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49acd),suicides/100k pop,8.98,,15088,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ace),suicides/100k pop,3.71,,5177,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49acf),suicides/100k pop,0,,13226,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad0),suicides/100k pop,27.03,,17869,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad1),suicides/100k pop,0,,10441,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad2),suicides/100k pop,2.05,,18714,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad3),suicides/100k pop,0.93,,947,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad4),suicides/100k pop,34.04,,17126,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad5),suicides/100k pop,8.11,,10753,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad6),suicides/100k pop,2.67,,860,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad7),suicides/100k pop,20.35,,1947,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad8),suicides/100k pop,63.49,,8439,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ad9),suicides/100k pop,0.17,,12617,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ada),suicides/100k pop,3.45,,1738,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49adb),suicides/100k pop,0,,17025,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49adc),suicides/100k pop,16.6,,6458,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49add),suicides/100k pop,1.89,,4698,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ade),suicides/100k pop,0.26,,16695,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49adf),suicides/100k pop,1,,18778,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ae0),suicides/100k pop,58.89,,12022,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ae1),suicides/100k pop,3.27,,16177,Completeness,master_0
+ObjectId(5dd32c73760b2a21b4c49ae2),suicides/100k pop,27.21,,5001,Completeness,master_0
+ObjectId(5dd32c79760b2a2ff825336a),suicides/100k pop,13.86,13.86,4670,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825336b),suicides/100k pop,6.97,6.97,8704,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825336c),suicides/100k pop,0,0,14199,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825336d),suicides/100k pop,1.33,1.33,19174,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825336e),suicides/100k pop,22.39,22.39,5396,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825336f),suicides/100k pop,10.19,10.19,17642,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253370),suicides/100k pop,0,0,14394,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253371),suicides/100k pop,7.37,7.37,18281,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253372),suicides/100k pop,0,0,2966,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253373),suicides/100k pop,11.09,11.09,6276,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253374),suicides/100k pop,21.64,21.64,19465,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253375),suicides/100k pop,10.51,10.51,7103,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253376),suicides/100k pop,120.1,120.1,11520,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253377),suicides/100k pop,0,0,4156,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253378),suicides/100k pop,6.21,6.21,2249,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253379),suicides/100k pop,19.33,19.33,1805,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825337a),suicides/100k pop,28.84,28.84,14637,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825337b),suicides/100k pop,30.13,30.13,11939,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825337c),suicides/100k pop,39.88,39.88,11464,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825337d),suicides/100k pop,62.87,62.87,13760,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825337e),suicides/100k pop,0,0,3042,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825337f),suicides/100k pop,5.04,5.04,10227,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253380),suicides/100k pop,12.15,12.15,3374,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253381),suicides/100k pop,0,0,13291,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253382),suicides/100k pop,0,0,492,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253383),suicides/100k pop,54.97,54.97,652,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253384),suicides/100k pop,34.17,34.17,17916,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253385),suicides/100k pop,18.46,18.46,14593,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253386),suicides/100k pop,21.32,21.32,12740,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253387),suicides/100k pop,1.51,1.51,17529,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253388),suicides/100k pop,7.68,7.68,4199,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253389),suicides/100k pop,9.68,9.68,16855,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825338a),suicides/100k pop,4.74,4.74,5461,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825338b),suicides/100k pop,0.35,0.35,1123,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825338c),suicides/100k pop,16.87,16.87,8072,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825338d),suicides/100k pop,9.02,9.02,1455,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825338e),suicides/100k pop,42.91,42.91,13665,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825338f),suicides/100k pop,8.84,8.84,16767,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253390),suicides/100k pop,38.14,38.14,3500,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253391),suicides/100k pop,2.82,2.82,4417,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253392),suicides/100k pop,67.1,67.1,13961,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253393),suicides/100k pop,25.59,25.59,2076,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253394),suicides/100k pop,1.81,1.81,15949,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253395),suicides/100k pop,10.74,10.74,17946,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253396),suicides/100k pop,3.48,3.48,5213,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253397),suicides/100k pop,25.53,25.53,17573,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253398),suicides/100k pop,38.64,38.64,3486,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff8253399),suicides/100k pop,2.28,2.28,4370,Accuracy,master_0
+ObjectId(5dd32c79760b2a2ff825339a),suicides/100k pop,15.95,15.95,16122,Accuracy,master_0
+ObjectId(5dd32c7f760b2a21b4c49ae5),age,35-54 years,,9452,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49ae6),age,55-74 years,,2859,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49ae7),age,75+ years,,19056,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49ae8),age,25-34 years,,14884,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49ae9),age,35-54 years,,9267,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49aea),age,5-14 years,,8749,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49aeb),age,35-54 years,,18131,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49aec),age,15-24 years,,5039,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49aed),age,75+ years,,1361,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49aee),age,55-74 years,,14296,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49aef),age,55-74 years,,13149,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af0),age,25-34 years,,17589,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af1),age,75+ years,,16072,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af2),age,35-54 years,,10718,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af3),age,75+ years,,9804,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af4),age,5-14 years,,6928,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af5),age,55-74 years,,5805,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af6),age,35-54 years,,13539,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af7),age,75+ years,,5033,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af8),age,75+ years,,9918,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49af9),age,35-54 years,,19695,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49afa),age,25-34 years,,19184,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49afb),age,5-14 years,,3402,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49afc),age,55-74 years,,919,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49afd),age,25-34 years,,5953,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49afe),age,75+ years,,8951,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49aff),age,35-54 years,,5428,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b00),age,55-74 years,,18571,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b01),age,75+ years,,18408,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b02),age,75+ years,,13857,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b03),age,25-34 years,,3261,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b04),age,75+ years,,6738,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b05),age,75+ years,,8891,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b06),age,35-54 years,,2520,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b07),age,25-34 years,,2457,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b08),age,35-54 years,,9075,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b09),age,15-24 years,,5068,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b0a),age,55-74 years,,3802,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b0b),age,75+ years,,16420,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b0c),age,5-14 years,,4303,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b0d),age,75+ years,,5504,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b0e),age,15-24 years,,9054,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b0f),age,55-74 years,,4383,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b10),age,35-54 years,,16267,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b11),age,55-74 years,,13218,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b12),age,55-74 years,,19805,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b13),age,25-34 years,,1274,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b14),age,35-54 years,,13575,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b15),age,75+ years,,6454,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b16),age,55-74 years,,12642,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b17),age,5-14 years,,9553,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b18),age,5-14 years,,8670,Completeness,master_0
+ObjectId(5dd32c7f760b2a21b4c49b19),age,15-24 years,,3653,Completeness,master_0
+ObjectId(5dd32c84760b2a2ff825339d),age,25-34 years,2U-34 Wears,16604,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff825339e),age,15-24 years,1D-26 +ear4,16271,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff825339f),age,55-74 years,7r-4e 5y5as,6353,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a0),age,5-14 years,El Salvador2000,8185,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a1),age,75+ years,650900,16633,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a2),age,15-24 years,15-Q4myzErs,17788,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a3),age,55-74 years,55-74 y_ears,18014,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a4),age,25-34 years,25-34 yearK,18536,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a5),age,5-14 years,er45y-1sa ,13651,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a6),age,75+ years,ay7rs5+e ,16253,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a7),age,15-24 years,r154a eys-2,4260,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a8),age,35-54 years,a-5re4 sy53,14289,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533a9),age,15-24 years,a1y24e-5sr ,17508,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533aa),age,75+ years,7y+easr5 ,12825,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533ab),age,25-34 years," y4aser53-2",1072,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533ac),age,5-14 years,1ers5 -4ay,12138,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533ad),age,55-74 years,4yra755e-s ,3954,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533ae),age,55-74 years,a7r55e s-4y,15123,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533af),age,75+ years,75+ yea}rs,11073,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b0),age,75+ years,75+ yea@4,18987,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b1),age,55-74 years,55#74 yeaNs,7125,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b2),age,5-14 years,reay4-s 51,5202,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b3),age,75+ years,r a+e57sy,900,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b4),age,75+ years,75+ yeaBrs,12050,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b5),age,25-34 years,25-34 yTears,4065,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b6),age,75+ years,10389,17006,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b7),age,25-34 years,25L3X yedrs,1923,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b8),age,5-14 years,5-14 yearus,18448,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533b9),age,15-24 years,15-24 year9s,17000,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533ba),age,15-24 years,15-24 Eyears,14749,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533bb),age,75+ years,8188,10640,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533bc),age,55-74 years,sya45r7e5- ,1646,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533bd),age,75+ years,75+[ years,17772,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533be),age,75+ years,135142,12692,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533bf),age,35-54 years,35-54 y/ears,7343,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c0),age,15-24 years,51 y-srae24,439,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c1),age,5-14 years,5-14 yejars,17230,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c2),age,5-14 years,yr-54 sae1,6987,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c3),age,75+ years," 75ea+syr",19733,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c4),age,75+ years,7?5+ years,12156,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c5),age,15-24 years,1e5 r2sy-a4,12689,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c6),age,15-24 years,V5-(4 yea(s,5112,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c7),age,25-34 years,Greece2014,10373,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c8),age,5-14 years,5-14# years,11172,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533c9),age,5-14 years,5-14D7/ars,8581,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533ca),age,75+ years,75+ yearbs,17190,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533cb),age,35-54 years,a53r4e 5sy-,17223,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533cc),age,35-54 years,-ar5 54ey3s,432,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533cd),age,55-74 years,5r 75ysa-e4,544,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533ce),age,25-34 years,25-W34 years,4379,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533cf),age,15-24 years,%5-24 yeaZs,6604,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533d0),age,75+ years,female,7096,Accuracy,master_0
+ObjectId(5dd32c84760b2a2ff82533d1),age,75+ years,75+ yeAr:,17119,Accuracy,master_0
+ObjectId(5dd32c89760b2a06b8db6b29),age,15-24 years,,4756,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b2a),age,35-54 years,,12435,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b2b),age,25-34 years,,564,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b2c),age,35-54 years,,259,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b2d),age,55-74 years,,17272,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b2e),age,35-54 years,,13558,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b2f),age,75+ years,,9710,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b30),age,25-34 years,,4672,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b31),age,25-34 years,,11583,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b32),age,55-74 years,,5524,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b33),age,75+ years,,17783,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b34),age,75+ years,,14893,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b35),age,75+ years,,10752,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b36),age,15-24 years,,18650,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b37),age,25-34 years,,17758,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b38),age,5-14 years,,16058,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b39),age,55-74 years,,329,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b3a),age,15-24 years,,16069,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b3b),age,55-74 years,,8840,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b3c),age,55-74 years,,17786,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b3d),age,55-74 years,,12957,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b3e),age,25-34 years,,5013,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b3f),age,35-54 years,,16221,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b40),age,75+ years,,10417,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b41),age,25-34 years,,7743,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b42),age,15-24 years,,3377,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b43),age,5-14 years,,12714,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b44),age,5-14 years,,460,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b45),age,75+ years,,7000,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b46),age,5-14 years,,13722,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b47),age,5-14 years,,14573,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b48),age,25-34 years,,12421,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b49),age,35-54 years,,16351,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b4a),age,5-14 years,,19967,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b4b),age,15-24 years,,8006,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b4c),age,25-34 years,,9989,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b4d),age,25-34 years,,7925,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b4e),age,15-24 years,,16425,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b4f),age,35-54 years,,7277,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b50),age,35-54 years,,5439,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b51),age,55-74 years,,17233,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b52),age,5-14 years,,1557,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b53),age,75+ years,,15426,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b54),age,5-14 years,,1904,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b55),age,55-74 years,,18735,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b56),age,15-24 years,,16653,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b57),age,25-34 years,,12193,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b58),age,55-74 years,,5356,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b59),age,75+ years,,15118,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b5a),age,25-34 years,,17613,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b5b),age,35-54 years,,15116,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b5c),age,35-54 years,,1608,Consistency,master_0
+ObjectId(5dd32c89760b2a06b8db6b5d),age,5-14 years,,12558,Consistency,master_0
+ObjectId(5dd32c8e760b2a2b14b1f449),age,15-24 years,rs5a yy2s-5,10331,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f44a),age,15-24 years,sy y --5415,1483,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f44b),age,75+ years,s5r5ee+rr,4056,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f44c),age,75+ years,as7re5y+ ,3867,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f44d),age,25-34 years,432ysae r-5,18657,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f44e),age,25-34 years,2-5222432ae,2526,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f44f),age,55-74 years,75-e4 yras5,688,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f450),age,55-74 years,- 5re-5yas-,10779,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f451),age,75+ years,ryae5s+ 7,11211,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f452),age,55-74 years,as ee  aasr,19572,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f453),age,15-24 years,r5se -12a4y,10829,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f454),age,5-14 years," 5-5asy a5",5226,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f455),age,15-24 years,4e2ysar51- ,13565,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f456),age,55-74 years,-55a4es 7ry,19594,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f457),age,5-14 years,15er4-ays ,12498,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f458),age,5-14 years,s4re  er4r,9661,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f459),age,35-54 years,y5 ry55er55,4150,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f45a),age,55-74 years,5es5 5syr 5,5170,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f45b),age,75+ years,7as5s755y,16429,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f45c),age,15-24 years,re-s2se5254,12936,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f45d),age,25-34 years,35yy5e 3r-a,14158,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f45e),age,75+ years,y5essr7+5,10130,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f45f),age,5-14 years," 54erae5s-",12520,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f460),age,25-34 years,a3-rey2 4s5,16569,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f461),age,75+ years,5r ss5eae,18183,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f462),age,25-34 years,re -3y-a5s2,5036,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f463),age,55-74 years,ar5r7- 4-r5,7306,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f464),age,55-74 years," sr7-ea5y54",500,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f465),age,25-34 years,- s-s3syy3-,12057,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f466),age,15-24 years,aara-y2e 5 ,10490,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f467),age,35-54 years,e 3e 5 5 3e,17178,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f468),age,15-24 years,25142e sye5,15828,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f469),age,25-34 years,ea-eeer-sa ,955,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f46a),age,55-74 years,r-- s7yaa5y,19562,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f46b),age,55-74 years,5555 ay5 57,4813,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f46c),age,5-14 years,ay 4-554rr,7536,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f46d),age,25-34 years,e5 ry24a r ,10481,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f46e),age,15-24 years,sar aeey -1,6285,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f46f),age,5-14 years,ayr541e-s ,5442,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f470),age,35-54 years,ra34-se 55y,17940,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f471),age,55-74 years,s5yrs-7 y77,19925,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f472),age,35-54 years,543 r554ss ,8085,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f473),age,5-14 years,s5 4a -yye,1310,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f474),age,5-14 years,1rys5sas-y,967,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f475),age,35-54 years,-s 5433r-ee,8025,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f476),age,55-74 years,y47e5 y-e-s,641,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f477),age,15-24 years,-r14 es5y2a,4127,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f478),age,35-54 years,55y rs4aar-,6356,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f479),age,15-24 years,y1r422 y5rs,1598,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f47a),age,15-24 years,sae25ry14 -,2735,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f47b),age,75+ years,ee5+e7r77,19907,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f47c),age,5-14 years,4a1-5--s5s,13851,Validity,master_0
+ObjectId(5dd32c8e760b2a2b14b1f47d),age,55-74 years,7aes5r-5y 4,8,Validity,master_0

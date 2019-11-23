@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+// import org.apache.logging.log4j.// LOGGER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,7 +28,7 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 	private DataProfilerInfo dataProfilerInfo;
 	private List<DataProfilerInfo> dataProfilerInfoList;
 	private Random rand = new Random();
-	private static final Logger LOGGER = LogManager.getLogger();
+	// private static final // LOGGER // LOGGER = LogManager.get// LOGGER();
 	
 	@Override
 	public String interchangeColumnValues(String colValue, DataProfilerInfo datasetProfiler,String columnName,String fileName) {
@@ -110,7 +110,7 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		 LOGGER.info("New Date "+newDate);
+		 // LOGGER.info("New Date "+newDate);
 		return newDate;
 	}
 
@@ -131,7 +131,7 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 			index = rand.nextInt(falseValues.length);
 			boolValue = falseValues[index];
 		}
-		LOGGER.info("Value "+boolValue);
+		// LOGGER.info("Value "+boolValue);
 		return boolValue;
 	}
 	

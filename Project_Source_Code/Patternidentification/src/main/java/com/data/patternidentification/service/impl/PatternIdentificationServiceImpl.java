@@ -92,7 +92,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					}
 				}
 				mongoClient.close();
-				//System.out.println("   " + columnData);
+				// System.out.println(" " + columnData);
 
 				List<PatternModel> patternDataList = new ArrayList<PatternModel>();
 				propertyData = new ProfilingInfoModel();
@@ -106,28 +106,33 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					/*
 					 * if (columnDataIterator == 0) { continue; }
 					 */
-					if (columnHeaders.contains("Date") || columnHeaders.get(z).contains("Time")) {
+					if (columnHeaders.get(z).contains("Date") || columnHeaders.get(z).contains("Time")) {
 						smallAphabetFillteredStr = findPatternForDate(columnData.get(columnDataIterator));
 					}
 					// patternIdentificationLogic
 					if (columnData.get(columnDataIterator).trim() != null && smallAphabetFillteredStr == null) {
-						/*if ( ( columnData.get(columnDataIterator).length() == 1
-								&& (columnData.get(columnDataIterator).equals("0") || columnData.get(columnDataIterator).equals("1"))
-								|| ((columnData.get(columnDataIterator).length() == 4 || (columnData.get(columnDataIterator).length() == 5))
-								&& (columnData.get(columnDataIterator).equalsIgnoreCase("True")
-												|| columnData.get(columnDataIterator).equalsIgnoreCase("False"))) ) )*/ 
-						if ( 
-								( columnData.get(columnDataIterator).length() == 1 
-								&& (columnData.get(columnDataIterator).equals("0") || columnData.get(columnDataIterator).equals("1") || 
-								columnData.get(columnDataIterator).equalsIgnoreCase("T") || columnData.get(columnDataIterator).equalsIgnoreCase("F") )) ||
-								( (columnData.get(columnDataIterator).length() == 4 && columnData.get(columnDataIterator).equalsIgnoreCase("True")) ||
-								(columnData.get(columnDataIterator).length() == 5 && columnData.get(columnDataIterator).equalsIgnoreCase("False")) ) 
-							)
-						{
+						/*
+						 * if ( ( columnData.get(columnDataIterator).length() == 1 &&
+						 * (columnData.get(columnDataIterator).equals("0") ||
+						 * columnData.get(columnDataIterator).equals("1")) ||
+						 * ((columnData.get(columnDataIterator).length() == 4 ||
+						 * (columnData.get(columnDataIterator).length() == 5)) &&
+						 * (columnData.get(columnDataIterator).equalsIgnoreCase("True") ||
+						 * columnData.get(columnDataIterator).equalsIgnoreCase("False"))) ) )
+						 */
+						if ((columnData.get(columnDataIterator).length() == 1
+								&& (columnData.get(columnDataIterator).equals("0")
+										|| columnData.get(columnDataIterator).equals("1")
+										|| columnData.get(columnDataIterator).equalsIgnoreCase("T")
+										|| columnData.get(columnDataIterator).equalsIgnoreCase("F")))
+								|| ((columnData.get(columnDataIterator).length() == 4
+										&& columnData.get(columnDataIterator).equalsIgnoreCase("True"))
+										|| (columnData.get(columnDataIterator).length() == 5
+												&& columnData.get(columnDataIterator).equalsIgnoreCase("False")))) {
 							smallAphabetFillteredStr = columnData.get(columnDataIterator);
 						} else {
 							columnStr = columnData.get(columnDataIterator);
-							integerFilteredStr = columnStr.replaceAll("[0-9]", "0");
+							integerFilteredStr = columnStr.replaceAll("[0-9]", "9");
 							capAphabetFillteredStr = integerFilteredStr.replaceAll("[A-Z]", "X");
 							smallAphabetFillteredStr = capAphabetFillteredStr.replaceAll("[a-z]", "x");
 
@@ -184,41 +189,82 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 	}
 
 	public String findPatternForDate(String value) throws PatternIdentificationException {
-		Date date = null;
+		// Date date = null;
+		String finalDatePattern = null;
+		String[] datepieces = null;
+		String[] dataPattern = new String[2];
+		String dateseparator = null;
 		int dateFormatIterator = 0;
-		List<String> dateFormats = Arrays.asList("dd-MM-yyyy","dd/MM/yyyy", "MM/dd/yyyy", "yyyy/dd/MM", "yyyy/MM/dd");
-		// "yyyy-MM-dd",
-		// "yyyy-dd-MM",
-		// "yyyy-MM-dd
-		// HH:mm:ss",
-		// "yyyy-MM-dd
-		// HH:mm:ss:SSS",
-		// "yyyy-MM-dd
-		// HH:mm:ss.SSS
-		// Z",
-		// "dd/MM/yyyy");
-		try {
-
-			while (date == null && dateFormatIterator < dateFormats.size()) {
-				try {
-					SimpleDateFormat sdf = new SimpleDateFormat(dateFormats.get(dateFormatIterator));
-					date = sdf.parse(value);
-					if (!value.equals(sdf.format(date))) {
-						date = null;
-						dateFormatIterator++;
+		if (!value.isEmpty() &&  null != value ) {
+			if (value.contains("-")) {
+				datepieces = value.split("-");
+				dateseparator = "-";
+			} else if (value.contains(".")) {
+				datepieces = value.split("\\.");
+				dateseparator = ".";
+			} else {
+				datepieces = value.split("/");
+				dateseparator = "/";
+			}
+			System.out.println("date: " + datepieces[0] + "   " + datepieces[1] + "  " + datepieces[2] + "  ");
+			int date1 = Integer.parseInt(datepieces[0]);
+			int date2 = Integer.parseInt(datepieces[1]);
+			int date3 = Integer.parseInt(datepieces[2]);
+			//as year cannot be in middle
+			dataPattern[0]=datepieces[0];
+			dataPattern[1]=datepieces[2];
+			
+			int i;
+			for (i = 0; i < 2; i++) {
+				switch (dataPattern[i].length()) {
+				case 4:
+					dataPattern[i] = "yyyy";
+					break;
+				case 2:
+				
+					if (date1 < 12 && date2 < 12) {
+						dataPattern[i] = "dd"+dateseparator+"MM";
+						
+					} else if (date1 > 12 || date2 < 12) {
+						dataPattern[i] = "dd"+dateseparator+"MM";
+						
 					}
-				} catch (ParseException ex) {
-					return null;
+					else
+					{
+						dataPattern[i] = "MM-dd";
+					}
+					
+					break;
 				}
 			}
+			
+		 finalDatePattern = dataPattern[0] +dateseparator+ dataPattern[1];
+		 System.out.println("finalDatePattern:"+finalDatePattern);
+			/*
+			 * List<String> dateFormats =
+			 * Arrays.asList("dd-MM-yyyy","dd/MM/yyyy","dd.MM.yyyy"); // "yyyy-MM-dd", //
+			 * "yyyy-dd-MM", // "yyyy-MM-dd // HH:mm:ss", // "yyyy-MM-dd // HH:mm:ss:SSS",
+			 * // "yyyy-MM-dd // HH:mm:ss.SSS // Z", // "dd/MM/yyyy");
+			 */ // try {
 
-		} catch (Exception ex) {
-			ex.printStackTrace();
-			throw new PatternIdentificationException(
-					com.data.patternidentification.exception.ErrorCodes.SOMETHING_WENT_WRONG);
-
+			/*
+			 * while (date == null && dateFormatIterator < dateFormats.size()) { try {
+			 * SimpleDateFormat sdf = new
+			 * SimpleDateFormat(dateFormats.get(dateFormatIterator)); date =
+			 * sdf.parse(value); if (!value.equals(sdf.format(date))) { date = null;
+			 * dateFormatIterator++; } } catch (ParseException ex) { return null; } }
+			 */
+			/*
+			 * } catch (Exception ex) { ex.printStackTrace(); throw new
+			 * PatternIdentificationException(
+			 * com.data.patternidentification.exception.ErrorCodes.SOMETHING_WENT_WRONG);
+			 * 
+			 * }
+			 */
+			// return dateFormats.get(dateFormatIterator);
+			
 		}
-		return dateFormats.get(dateFormatIterator);
+		return finalDatePattern;
 	}
 
 	@SuppressWarnings("deprecation")
@@ -242,7 +288,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		}
 		JSONObject json_obj;
 		try {
-			json_obj = dbList.getJSONObject(1);
+			json_obj = dbList.getJSONObject(0);
 			Iterator columnNames = json_obj.keys();
 
 			while (columnNames.hasNext()) {

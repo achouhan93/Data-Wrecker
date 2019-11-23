@@ -9,8 +9,9 @@ import lombok.ToString;
 @ToString
 public class Dimensions {
 
-	private String dimensionName;
-	private boolean status;
-	private String reason;
-	private int remainingWreakingCount;
+	String dimensionName;
+	boolean status;
+	String reason;
+	int remainingWreakingCount;
+	
 }

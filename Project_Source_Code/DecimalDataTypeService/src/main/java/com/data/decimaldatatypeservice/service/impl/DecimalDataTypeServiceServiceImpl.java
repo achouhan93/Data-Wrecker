@@ -12,7 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.decimaldatatypeservice.model.DataProfilerInfo;
 import com.data.decimaldatatypeservice.model.DataSetStats;
-import com.data.decimaldatatypeservice.model.DimensionInfoModel;
 import com.data.decimaldatatypeservice.model.Dimensions;
 import com.data.decimaldatatypeservice.model.ProfilingInfoModel;
 import com.data.decimaldatatypeservice.repository.DecimalDataTypeServiceRepository;
@@ -36,7 +35,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 
 		// get header of the dataset
 		List<String> columnHeader1 = new ArrayList<String>();
-		
+		columnHeader1 = getColumnHeaders(collectionName); //Getting columnheader from the document in mongo
 		int indivisualWreakingCountForDimentions = 0;
 		LinkedHashSet<String> datadimention = new LinkedHashSet<String>();
 
@@ -56,7 +55,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 			for (int datasetHeadersIterator = 0; datasetHeadersIterator < columnHeader1
 					.size(); datasetHeadersIterator++) {
 				
-				DimensionInfoModel dimensionInfoModel = new DimensionInfoModel();
+				
 				List<Dimensions> DimensionsList = new ArrayList<Dimensions>();
 
 				int consistancyCnt = 0;
@@ -73,7 +72,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 						profilingInfoModel = dataSetStatsList.get(j).getProfilingInfo();
 					}
 					int numberOfRecords = profilingInfoModel.getColumnStats().getRowCount();
-					 indivisualWreakingCountForDimentions = (((wreakingPercentage / 4) * numberOfRecords) / 100);
+					indivisualWreakingCountForDimentions = ( ( (wreakingPercentage / 4) * numberOfRecords) / ( 100* columnHeader1.size() ) );
 				}
 				if (profilingInfoModel.getColumnDataType().equalsIgnoreCase("Decimal")) {
 					for (int patternIterator = 0; patternIterator < profilingInfoModel.getPatternsIdentified()
@@ -110,9 +109,18 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 							//LOGGER.info("Accuracy may be called");
 						}
 					}
+					
+					Dimensions dimensions = null;
+					datadimention.add("Uniqueness");
+					dimensions = new Dimensions();
+					dimensions.setDimensionName("Uniqueness");
+					dimensions.setReason("insufficient unique values");
+					dimensions.setStatus(true);
+					dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions);
+					DimensionsList.add(dimensions);
 					if (indivisualWreakingCountForDimentions > completenessCnt) {
 						datadimention.add("Completeness");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Completeness");
 						dimensions.setReason("insufficient null values");
 						dimensions.setStatus(true);
@@ -122,7 +130,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 					
 					if (indivisualWreakingCountForDimentions > consistancyCnt) {
 						datadimention.add("Consistancy");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Consistancy");
 						dimensions.setReason("insufficient integer values");
 						dimensions.setStatus(true);
@@ -132,7 +140,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 
 					if (indivisualWreakingCountForDimentions > positiveValidityCnt) {
 						datadimention.add("validaity");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
 						dimensions.setReason("insufficient +ve Decimal values");
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - positiveValidityCnt);
@@ -140,7 +148,7 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 					}
 					if (indivisualWreakingCountForDimentions > negativeValidityCnt) {
 						datadimention.add("validaity");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("validaity");
 						dimensions.setReason("insufficient -ve Decimal values");
 						dimensions.setStatus(true);
@@ -149,17 +157,19 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 					}
 					if (indivisualWreakingCountForDimentions > accuracyCnt) {
 						datadimention.add("Accuracy");
-						Dimensions dimensions = new Dimensions();
+						 dimensions = new Dimensions();
 						dimensions.setDimensionName("Accuracy");
 						dimensions.setReason("insufficient accurate values");
 						dimensions.setStatus(true);
 						dimensions.setRemainingWreakingCount(indivisualWreakingCountForDimentions - accuracyCnt);
 						DimensionsList.add(dimensions);
 					}
+
+					//dimensionInfoModel.setDimensionsList(DimensionsList);
+					dataSetStatsList.get(datasetHeadersIterator).setDimensionsList(DimensionsList);
 				}
 
-				dimensionInfoModel.setDimensionsList(DimensionsList);
-				dataSetStatsList.get(datasetHeadersIterator).setDimensionList(dimensionInfoModel);
+				
 			}
 			dataProfilerInfo.setDatasetStats(dataSetStatsList);
 			decimalDataTypeServiceRepository.save(dataProfilerInfo);
@@ -169,6 +179,26 @@ public class DecimalDataTypeServiceServiceImpl implements DecimalDataTypeService
 		}
 		return "Success";
 	}
+
+	private List<String> getColumnHeaders(String collectionName) {
+		List<DataProfilerInfo> datasetProfilerInfo = decimalDataTypeServiceRepository.findAll();
+		List<DataSetStats> datasetStats = new ArrayList<DataSetStats>();
+		List<String> columnHeader1 = new ArrayList<String>();
+		
+		for(int i =0;i < datasetProfilerInfo.size();i++) {
+			if(datasetProfilerInfo.get(i).getFileName().equals(collectionName)) {
+				datasetStats = datasetProfilerInfo.get(i).getDatasetStats();
+				for(int index = 0;index<datasetStats.size();index++) {
+					columnHeader1.add(datasetStats.get(index).getColumnName());
+				}
+				break;
+			}
+		}
+		
+		return columnHeader1;
+	}
+		
+	
 
 	private DataProfilerInfo getDatasetThroughColumnName(String collectionName, String columnName,
 			List<DataProfilerInfo> datasetStatsList) {

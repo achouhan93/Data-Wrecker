@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+// import org.apache.logging.log4j.// LOGGER;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -31,7 +31,7 @@ import com.mongodb.util.JSON;
 @Transactional
 public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 
-	private static final Logger LOGGER = LogManager.getLogger();
+	// private static final // LOGGER // LOGGER = LogManager.get// LOGGER();
 	@Autowired
 	private DataProfilerInfoRepo dataProfilerInfoRepo;
 	private DataProfilerInfo dataProfilerInfo;
@@ -53,37 +53,38 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType = getColumnDataType(firstCollectionName, columnName);
 		changesLogList = new ArrayList<ChangesLog>();
+		List<Integer> recordIndexes = new ArrayList<Integer>();
+
+		for(String str : wreckingIds) {
+			recordIndexes.add(Integer.valueOf(str));
+		}
+		
 
 		try {
-			for (int j = 0; j < wreckingIds.size(); j++) {
-
-				String objectId = wreckingIds.get(j);
-
-				for (int i = 0; i < datasetArray.length(); i++) {
-
-					if (datasetArray.getJSONObject(i).getJSONObject("_id").getString("$oid").equals(objectId)) {
-						String colValue = datasetArray.getJSONObject(i).get(columnName).toString();
+			for (int j = 0; j < recordIndexes.size(); j++) {
+				
+						String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
 						changesLog = new ChangesLog();
 						changesLog.setColumnName(columnName);
-						changesLog.setOid(objectId);
+						changesLog.setOid(recordIndexes.get(j));
 						changesLog.setDimensionName("Validity");
 						changesLog.setDatasetName(collectionName);
 						changesLog.setOldValue(colValue);
 						colValue = removeValidity(colValue, columnDataType);
-						datasetArray.getJSONObject(i).put(columnName, colValue);
-						datasetArray.getJSONObject(i).put("isWrecked", true);
+						datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, colValue);
+						datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
 						changesLog.setNewValue(colValue);
 						changesLogList.add(changesLog);
-						addToDb(changesLog);
-					}
-
-				}
+						//addToDb(changesLog);
+					
 			}
 
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		addToDb(changesLogList);
+		
 		return addIntoDatabase(collectionName, datasetArray);
 	}
 
@@ -98,11 +99,11 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		int versionNumber;
 		if (name[name.length - 1].isEmpty()) {
 			newCollectionName = name[0] + "_1";
-			LOGGER.info("New Collection Name is " + name[0] + "_1");
+			// LOGGER.info("New Collection Name is " + name[0] + "_1");
 		} else {
 			versionNumber = Integer.parseInt(name[name.length - 1]) + 1;
 			newCollectionName = name[0] + "_" + versionNumber;
-			LOGGER.info("New Collection Name is " + newCollectionName);
+			// LOGGER.info("New Collection Name is " + newCollectionName);
 		}
 
 		DBCollection collection = db.createCollection(collectionName, null);
@@ -117,13 +118,14 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 				e.printStackTrace();
 			}
 		}
-		mongo.close();
+		 mongo.close();
 		return collectionName;
 	}
 
-	private void addToDb(ChangesLog changesLog2) {
-		changesLogrepo.insert(changesLog);
-
+	private void addToDb(List<ChangesLog> changesLogList) {
+		for(int i =0; i < changesLogList.size(); i++) {
+			changesLogrepo.insert(changesLogList.get(i));
+		}
 	}
 
 	private JSONArray getDatasetFromDb(String collectionName) {
@@ -145,7 +147,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 			}
 		}
 
-		mongo.close();
+		 mongo.close();
 		return dbList;
 	}
 
@@ -174,50 +176,50 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		String newCollectionName;
 		if (Integer.parseInt(name[name.length - 1]) == 1) {
 			newCollectionName = collectionName;
-			LOGGER.info("New Collection Name is " + collectionName);
+			// LOGGER.info("New Collection Name is " + collectionName);
 		} else {
 			newCollectionName = name[0] + "_" + 1;
-			LOGGER.info("New Collection Name is " + newCollectionName);
+			// LOGGER.info("New Collection Name is " + newCollectionName);
 		}
-		return newCollectionName;
+		return collectionName;
 	}
 
 	private String removeValidity(String colValue, String columnDatatype) {
-		String result = "";
+		String result = " ";
 		switch (columnDatatype.toLowerCase()) {
 		case "string":
-			LOGGER.info("String");
+			// LOGGER.info("String");
 			if (!colValue.isEmpty()) {
 				result = callServicesForString(colValue);
 			}
 			break;
 		case "integer":
-			LOGGER.info("Integer");
+			// LOGGER.info("Integer");
 			if (!colValue.isEmpty() && colValue.matches("^[0-9]*$")) {
 				result = callServicesForInteger(Integer.parseInt(colValue));
 			}
 			break;
 		case "character":
-			LOGGER.info("Character");
+			// LOGGER.info("Character");
 			if (!colValue.isEmpty()) {
 				result = callServicesForChar(colValue);
 			}
 			break;
 		case "date":
-			LOGGER.info("Date");
+			// LOGGER.info("Date");
 			if (!colValue.isEmpty()) {
 				result = callServicesForDate(colValue);
 			}
 			break;
 		case "boolean":
-			LOGGER.info("Boolean");
+			// LOGGER.info("Boolean");
 			if (!colValue.isEmpty()) {
 				result = callServicesForBoolean(colValue);
 			}
 			break;
 			// decimal use this regex - impl pending
 		case "decimal":
-			LOGGER.info("decimal");
+			// LOGGER.info("decimal");
 			if (!colValue.isEmpty() && colValue.matches("^(\\d*\\.)?\\d+$")) {
 				result = callServicesForDecimal(colValue);
 			}
@@ -266,6 +268,10 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		case 2:
 			result = waysToAffectValidityService.shuffleString(colValue);
 			break;
+		default:
+			result = waysToAffectValidityService.generateStringAndSpecialChars(colValue);
+			break;
+			
 
 		}
 		return result;

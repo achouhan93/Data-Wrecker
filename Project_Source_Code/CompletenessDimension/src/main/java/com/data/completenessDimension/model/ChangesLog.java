@@ -13,7 +13,7 @@ public class ChangesLog {
 	private String columnName;
 	private String oldValue;
 	private String newValue;
-	private String oid;
+	private int oid;
 	private String dimensionName;
 	private String datasetName;
 }

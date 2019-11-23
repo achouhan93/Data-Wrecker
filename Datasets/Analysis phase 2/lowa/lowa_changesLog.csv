@@ -1,0 +1,1956 @@
+_id,columnName,oldValue,newValue,oid,dimensionName,datasetName
+ObjectId(5dd45988760b2a326c3a6993),Function,Human Services,,15818,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a6994),Function,Education,,13325,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a6995),Function,Administration and Regulation,,8886,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a6996),Function,Justice System,,10410,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a6997),Function,Agriculture and Natural Resources,,13031,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a6998),Function,Human Services,,14655,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a6999),Function,Capital,,9027,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a699a),Function,Agriculture and Natural Resources,,8340,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a699b),Function,Agriculture and Natural Resources,,11578,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a699c),Function,Administration and Regulation,,8912,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a699d),Function,Justice System,,2793,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a699e),Function,Human Services,,581,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a699f),Function,Agriculture and Natural Resources,,12911,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a0),Function,Agriculture and Natural Resources,,12263,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a1),Function,Justice System,,7393,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a2),Function,Human Services,,14541,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a3),Function,Economic Development,,5688,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a4),Function,Administration and Regulation,,18527,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a5),Function,Economic Development,,4185,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a6),Function,Economic Development,,19980,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a7),Function,Administration and Regulation,,18594,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a8),Function,Administration and Regulation,,16993,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69a9),Function,Human Services,,776,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69aa),Function,Education,,13664,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69ab),Function,Economic Development,,4900,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69ac),Function,Human Services,,3263,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69ad),Function,Education,,13846,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69ae),Function,Economic Development,,19479,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69af),Function,Human Services,,322,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b0),Function,Administration and Regulation,,18537,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b1),Function,Education,,7856,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b2),Function,Economic Development,,19992,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b3),Function,Capital,,3570,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b4),Function,Administration and Regulation,,18532,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b5),Function,Economic Development,,4959,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b6),Function,Judicial Branch,,10735,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b7),Function,Human Services,,1325,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b8),Function,Administration and Regulation,,18076,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69b9),Function,Human Services,,15386,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69ba),Function,AdministrationandRegulation,,3689,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69bb),Function,Agriculture and Natural Resources,,12329,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69bc),Function,Agriculture and Natural Resources,,12410,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69bd),Function,Agriculture and Natural Resources,,12754,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69be),Function,Justice System,,3063,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69bf),Function,Economic Development,,5219,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c0),Function,Human Services,,14968,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c1),Function,Agriculture and Natural Resources,,12257,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c2),Function,Administration and Regulation,,3731,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c3),Function,Justice System,,2321,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c4),Function,Justice System,,10244,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c5),Function,Human Services,,1482,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c6),Function,Human Services,,18229,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c7),Function,Economic Development,,5257,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c8),Function,Economic Development,,16657,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69c9),Function,Agriculture and Natural Resources,,18695,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69ca),Function,Economic Development,,5653,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69cb),Function,Agriculture and Natural Resources,,12425,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69cc),Function,Human Services,,266,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69cd),Function,Human Services,,1246,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69ce),Function,Justice System,,16686,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69cf),Function,Agriculture and Natural Resources,,12105,Completeness,lowa_0
+ObjectId(5dd45988760b2a326c3a69d0),Function,Human Services,,15487,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d1),Function,Human Services,,3287,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d2),Function,Human Services,,16161,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d3),Function,Human Services,,14086,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d4),Function,Administration and Regulation,,11041,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d5),Function,Economic Development,,4263,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d6),Function,Human Services,,7245,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d7),Function,Economic Development,,4767,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d8),Function,Economic Development,,1738,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69d9),Function,Education,,8368,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69da),Function,Human Services,,7141,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69db),Function,Administration and Regulation,,5774,Completeness,lowa_0
+ObjectId(5dd45989760b2a326c3a69dc),Function,Agriculture and Natural Resources,,19376,Completeness,lowa_0
+ObjectId(5dd4598e760b2a2f58e05196),Function,Agriculture and Natural Resources,Agriculture and*NaDural ResoN32?s,12667,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e05197),Function,Human Services,Human Services,1372,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e05198),Function,Human Services,Human Services,16027,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e05199),Function,Agriculture and Natural Resources,AIriculture and NatRr:x_vesources,6343,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e0519a),Function,Administration and Regulation,,3229,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e0519b),Function,Justice System,etmietsc uySsJ,10503,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e0519c),Function,Justice System,Law Enforcement Academy,17145,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e0519d),Function,Economic Development,270,9555,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e0519e),Function,Human Services,ucsHeSniamerv ,282,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e0519f),Function,Human Services,Smea encvrHsiu,15806,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a0),Function,Education,9695,7683,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a1),Function,Capital,Car!tal,8255,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a2),Function,Justice System,J6stice S9stem,10032,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a3),Function,Economic Development," etlccmnnoieDvEpoome",19874,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a4),Function,Human Services,Human Serv?ices,14724,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a5),Function,Justice System,JusMtice System,16866,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a6),Function,Economic Development,Economic DevelopmenDt,5609,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a7),Function,Human Services," acmSvnsiuHree",6462,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a8),Function,Economic Development,e cmneloptEieoocvnmD,19459,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051a9),Function,Administration and Regulation,uia glodonmdnettRtiira aAinns,5753,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051aa),Function,Human Services,December,6962,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051ab),Function,Justice System,21338,19326,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051ac),Function,Human Services,,15103,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051ad),Function,Justice System,yits smtSeeucJ,17660,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051ae),Function,Administration and Regulation,nongmntoRieal isra iatuiAnddt,9101,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051af),Function,Administration and Regulation,,3169,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b0),Function,Justice System,Public Defense,7573,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b1),Function,Human Services,HumanpS/rvIc9s,14874,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b2),Function,Human Services,HumQan Services,14078,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b3),Function,Human Services,Human }Services,15640,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b4),Function,Human Services,,14550,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b5),Function,Administration and Regulation,lainAttsioode Rnugaitnd arinm,3912,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b6),Function,Education,Edu+cation,3854,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b7),Function,Human Services,H2mansSkrbOces,14289,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b8),Function,Human Services,Human Ser vices,6935,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051b9),Function,Judicial Branch,Judic0al B1ancA,10824,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051ba),Function,Human Services,,564,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051bb),Function,Human Services,Human Se0TiLks,16139,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051bc),Function,Human Services,Humnan Services,15645,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051bd),Function,Economic Development," nnvleoEDpomccmteoei",9284,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051be),Function,Human Services,HumGan Services,1205,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051bf),Function,Agriculture and Natural Resources,Ag1Gcglture anR Na@orql Rek%urcas,12875,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c0),Function,Economic Development,loEteoeo ncpnmceDvim,4690,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c1),Function,Justice System,JXustice System,10409,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c2),Function,Administration and Regulation,Administra^tion and Regulation,18590,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c3),Function,Education,Educati2on,4455,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c4),Function,Human Services,Human SEervices,382,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c5),Function,Economic Development,omnDlentoom cepiEvec,19474,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c6),Function,Capital,alCpiat,3591,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c7),Function,Transportation,Transportmdiib,9129,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c8),Function,Economic Development,vemcoiencp olteomnDE,18976,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051c9),Function,Economic Development,442.43,4970,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051ca),Function,Justice System,,7629,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051cb),Function,Human Services,HuIman Services,18345,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051cc),Function,Agriculture and Natural Resources,stcglir eolNAudarart neu cuesruaR,12011,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051cd),Function,Economic Development,vloc oemepcoentnDimE,4576,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051ce),Function,Human Services,HDuman Services,238,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051cf),Function,Human Services,sniSvaHcer meu,18881,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d0),Function,Administration and Regulation," ettanigtimaARorladdisnui non",8828,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d1),Function,Agriculture and Natural Resources,AgPicultuee and ]2tural Reso_rces,11609,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d2),Function,Administration and Regulation,Rdiamlnotsnaiot uta ieAindrng,11088,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d3),Function,Economic Development,Economic DevelopVment,19789,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d4),Function,Human Services,Human ServiceQs,6852,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d5),Function,Justice System,7,17585,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d6),Function,Administration and Regulation,anii iAgdlatonu idmonRratsnet,3654,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d7),Function,Transportation,Transportati'on,6136,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d8),Function,Agriculture and Natural Resources,Natural Resources,11738,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051d9),Function,Economic Development,Iowa Workforce Development,1682,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051da),Function,Judicial Branch,Judficial Branch,10814,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051db),Function,Education,EducQtion,13478,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051dc),Function,Human Services,,14162,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051dd),Function,Justice System,KuEtiZe Pls{em,1923,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051de),Function,Administration and Regulation,unimenradoaln toiditsg nAiRat,8598,Accuracy,lowa_0
+ObjectId(5dd4598e760b2a2f58e051df),Function,Human Services,H eiesmvnSrcua,15428,Accuracy,lowa_0
+ObjectId(5dd45994760b2a34f87a6d5b),Function,Judicial Branch,,10931,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d5c),Function,Administration and Regulation,,1591,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d5d),Function,Human Services,,14467,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d5e),Function,Education,,8174,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d5f),Function,Human Services,,16376,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d60),Function,Administration and Regulation,,3144,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d61),Function,Human Services,,6900,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d62),Function,Human Services,,15963,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d63),Function,Administration and Regulation,,7459,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d64),Function,Justice System,,2089,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d65),Function,Agriculture and Natural Resources,,6359,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d66),Function,Transportation,,5907,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d67),Function,Economic Development,,4818,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d68),Function,Education,,13388,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d69),Function,Administration and Regulation,,9078,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d6a),Function,Economic Development,,13260,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d6b),Function,Economic Development,,5193,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d6c),Function,Economic Development,,7997,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d6d),Function,Agriculture and Natural Resources,,12230,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d6e),Function,Agriculture and Natural Resources,,11831,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d6f),Function,Economic Development,,4359,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d70),Function,Justice System,,1811,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d71),Function,Justice System,,1894,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d72),Function,Human Services,,6473,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d73),Function,Human Services,,15682,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d74),Function,Human Services,,14269,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d75),Function,Transportation,,6137,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d76),Function,Human Services,,918,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d77),Function,Human Services,,1287,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d78),Function,Economic Development,,5336,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d79),Function,Economic Development,,4711,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d7a),Function,Human Services,,14818,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d7b),Function,Human Services,,14037,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d7c),Function,Justice System,,17602,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d7d),Function,Justice System,,2074,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d7e),Function,Justice System,,17343,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d7f),Function,Agriculture and Natural Resources,,12340,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d80),Function,Agriculture and Natural Resources,,12722,Consistency,lowa_0
+ObjectId(5dd45994760b2a34f87a6d81),Function,Justice System,,16885,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d82),Function,Administration and Regulation,,18603,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d83),Function,Administration and Regulation,,3742,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d84),Function,Justice System,,2910,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d85),Function,Justice System,,2325,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d86),Function,Economic Development,,19304,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d87),Function,Human Services,,368,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d88),Function,Justice System,,17920,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d89),Function,Justice System,,17713,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d8a),Function,Transportation,,6095,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d8b),Function,Administration and Regulation,,11060,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d8c),Function,Transportation,,5899,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d8d),Function,Human Services,,6637,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d8e),Function,Justice System,,18712,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d8f),Function,Legislative Branch,,9669,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d90),Function,Justice System,,1849,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d91),Function,Human Services,,15613,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d92),Function,Economic Development,,5432,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d93),Function,Human Services,,14833,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d94),Function,Human Services,,6956,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d95),Function,Justice System,,2943,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d96),Function,Human Services,,14077,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d97),Function,Justice System,,2278,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d98),Function,Justice System,,9902,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d99),Function,Economic Development,,19288,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d9a),Function,Agriculture and Natural Resources,,12581,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d9b),Function,Economic Development,,19765,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d9c),Function,Economic Development,,16677,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d9d),Function,Human Services,,14288,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d9e),Function,Human Services,,7524,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6d9f),Function,Education,,13454,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6da0),Function,Economic Development,,19615,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6da1),Function,Human Services,,16025,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6da2),Function,Human Services,,15692,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6da3),Function,Economic Development,,16488,Consistency,lowa_0
+ObjectId(5dd45995760b2a34f87a6da4),Function,Administration and Regulation,,8675,Consistency,lowa_0
+ObjectId(5dd4599b760b2a3618a4941c),Function,Human Services,vHemSrsani ceu,6512,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4941d),Function,Economic Development,EED cmDoDecEe nenmmp,5423,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4941e),Function,Administration and Regulation,rgmnan ieAni mtatdi uttondiiR,16972,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4941f),Function,Economic Development,iEpopm eoicmnEcDEoeE,16610,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49420),Function,Economic Development,opvemlonteceDEnmico ,4233,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49421),Function,Economic Development,cmnnit onomn evEmoDo,9490,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49422),Function,Economic Development,ceco oe n lEoolteooi,4561,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49423),Function,Human Services," meaeHncvuSirs",418,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49424),Function,Economic Development," lmomcEmee e eDnmeED",4090,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49425),Function,Education,nctadiuoE,13328,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49426),Function,Economic Development,miemon lmnlon eDEiDo,5079,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49427),Function,Agriculture and Natural Resources,silreldcrurei AAAlurus lsoiiattra,851,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49428),Function,Economic Development,lvmmncv voon  nco nl,19923,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49429),Function,Judicial Branch,BiBdiacl ccB la,10642,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4942a),Function,Human Services,SHemv rnascuei,1391,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4942b),Function,Justice System,tui sSeetycJem,2889,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4942c),Function,Human Services,cvmseec mcrsec,15460,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4942d),Function,Human Services,neSHmcavee es ,540,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4942e),Function,Education,antciduEo,13811,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4942f),Function,Administration and Regulation,asnagrmiedsasnugoaionoiaoaddi,18651,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49430),Function,Administration and Regulation,ntannetrgRdditiosmiialuoA a n,16997,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49431),Function,Human Services,ciamsevrSneHu ,442,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49432),Function,Economic Development,cemonlipocoicEvetcop,13229,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49433),Function,Justice System,iescJSsemie SS,9958,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49434),Function,Economic Development,oeceevtpcoollvnmi lc,1632,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49435),Function,Administration and Regulation,s isuAoAdairoggtentttnaiAtann,8605,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49436),Function,Justice System,ie sJuyctestmS,17340,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49437),Function,Human Services,erev SunmHscai,16242,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49438),Function,Justice System,Sit eJsemtyscu,10530,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49439),Function,Economic Development,emtoeevEnpEpi ovieo ,5186,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4943a),Function,Economic Development,to EenmcnioleDovpcem,5140,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4943b),Function,Human Services,e nivcSeuarsmH,191,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4943c),Function,Human Services,vra emcnuseSiH,15819,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4943d),Function,Human Services,erceanivuS smH,14485,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4943e),Function,Justice System,cJueetimmsemsS,2031,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4943f),Function,Economic Development,c lenvEoocpmDieomnet,19240,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49440),Function,Justice System,eucSteimytyemu,2337,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49441),Function,Human Services,miHescveau nrS,7233,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49442),Function,Justice System,it ieiccycesu ,9758,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49443),Function,Transportation,tpTntpTinpppin,6204,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49444),Function,Agriculture and Natural Resources,auiiruAu iurNrr idr acsNsr euAuu ,7587,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49445),Function,Human Services,ecccssSmssHu H,18353,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49446),Function,Human Services,vHuSenm ceisra,7200,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49447),Function,Justice System," uisuecytSesty",7658,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49448),Function,Agriculture and Natural Resources,aaRstceNcrclirucaes c eRuaitudttR,13024,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49449),Function,Economic Development,ecoclocDeeonmeeoEElm,4285,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4944a),Function,Human Services,amnH csieruSve,1260,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4944b),Function,Human Services,srSaHuemivc en,15280,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4944c),Function,Agriculture and Natural Resources,tlnod ieaae rtrulucesgrsANr cuaRu,11799,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4944d),Function,Justice System,setJJmJsscucit,17703,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4944e),Function,Judicial Branch,dnuluiBi hJiJcr,10702,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4944f),Function,Economic Development,EDvnemloooceitnc epm,8269,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49450),Function,Justice System,ssy tuctieJemS,17224,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49451),Function,Administration and Regulation,lse a nduntdAaRnomaitriongtii,17051,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49452),Function,Agriculture and Natural Resources,rRsuelelnaN tarrgcrtusdioea  Auuc,12422,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49453),Function,Economic Development,lnnop nveiEoomtmoiom,19125,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49454),Function,Judicial Branch," JrdaJcJ duJu l",10628,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49455),Function,Agriculture and Natural Resources," Nu aroiodeAcidccalerscee unc ree",12280,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49456),Function,Human Services,cHsmaSeivnr eu,6991,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49457),Function,Human Services,raceeaiiueveSv,209,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49458),Function,Human Services,mSicnee rsHvau,1311,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49459),Function,Economic Development,Eeponmpmeom evcemcic,4710,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4945a),Function,Human Services,ueH mvSsarecni,820,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4945b),Function,Economic Development,ovlenvmvne  mempocDt,19169,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4945c),Function,Human Services,eim  Ha civSmc,917,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4945d),Function,Agriculture and Natural Resources,nsc orRtaeucruleiuRtulra toos ds ,12905,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4945e),Function,Justice System,itJs Sctusmyee,2040,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a4945f),Function,Human Services,a SivHceuernsm,14543,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49460),Function,Economic Development,eoeocmnmvincpDEelto ,19000,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49461),Function,Justice System,SysciJusmssiii,10347,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49462),Function,Administration and Regulation,uaiinsAtRmddiioe nnatraog lnt,18815,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49463),Function,Justice System,it etcJcmeyeyS,17514,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49464),Function,Justice System,ee stumyiJtsSc,2085,Validity,lowa_0
+ObjectId(5dd4599b760b2a3618a49465),Function,Transportation,Tananoortitrsp,6157,Validity,lowa_0
+ObjectId(5dd459a0760b2a326c3a69df),Dept1,,,10023,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e0),Dept1,309,,19120,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e1),Dept1,284,,7282,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e2),Dept1,,,7840,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e3),Dept1,,,13524,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e4),Dept1,,,18559,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e5),Dept1,,,6687,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e6),Dept1,309,,4838,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e7),Dept1,671,,3286,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e8),Dept1,,,722,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69e9),Dept1,627,,9043,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69ea),Dept1,,,17734,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69eb),Dept1,671,,3426,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69ec),Dept1,,,6662,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69ed),Dept1,501,,9618,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69ee),Dept1,,,15804,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69ef),Dept1,309,,9440,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f0),Dept1,,,12246,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f1),Dept1,,,14074,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f2),Dept1,,,3782,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f3),Dept1,,,1434,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f4),Dept1,,,8359,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f5),Dept1,671,,18199,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f6),Dept1,,,12792,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f7),Dept1,,,14580,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f8),Dept1,,,12496,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69f9),Dept1,,,2766,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69fa),Dept1,114,,3621,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69fb),Dept1,,,17771,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69fc),Dept1,,,15605,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69fd),Dept1,,,2953,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69fe),Dept1,309,,19971,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a69ff),Dept1,,,9823,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a00),Dept1,309,,4921,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a01),Dept1,309,,19452,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a02),Dept1,543,,7783,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a03),Dept1,467,,17148,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a04),Dept1,309,,5539,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a05),Dept1,,,17614,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a06),Dept1,,,14856,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a07),Dept1,627,,8560,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a08),Dept1,,,39,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a09),Dept1,,,1276,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a0a),Dept1,,,288,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a0b),Dept1,,,17750,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a0c),Dept1,,,12965,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a0d),Dept1,444,,10666,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a0e),Dept1,,,12632,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a0f),Dept1,,,11934,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a10),Dept1,284,,7261,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a11),Dept1,,,2161,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a12),Dept1,,,6112,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a13),Dept1,,,8092,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a14),Dept1,,,813,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a15),Dept1,309,,5490,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a16),Dept1,,,11092,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a17),Dept1,,,14412,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a18),Dept1,,,2676,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a19),Dept1,,,1198,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a1a),Dept1,,,17921,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a1b),Dept1,,,17082,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a1c),Dept1,,,15581,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a1d),Dept1,,,2223,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a1e),Dept1,309,,9270,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a1f),Dept1,16,,9140,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a20),Dept1,,,15179,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a21),Dept1,,,140,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a22),Dept1,,,12596,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a23),Dept1,,,7542,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a24),Dept1,,,15364,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a25),Dept1,309,,4950,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a26),Dept1,,,18816,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a27),Dept1,,,9921,Completeness,lowa_0
+ObjectId(5dd459a0760b2a326c3a6a28),Dept1,,,12861,Completeness,lowa_0
+ObjectId(5dd459a4760b2a34f87a6da7),Dept1,309,,19951,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6da8),Dept1,269,,18675,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6da9),Dept1,444,,10817,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6daa),Dept1,671,,18314,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dab),Dept1,309,,16568,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dac),Dept1,284,,9571,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dad),Dept1,269,,11299,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dae),Dept1,309,,5173,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6daf),Dept1,309,,5439,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db0),Dept1,444,,10779,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db1),Dept1,309,,5415,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db2),Dept1,112,,10497,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db3),Dept1,309,,4363,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db4),Dept1,309,,9404,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db5),Dept1,284,,7268,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db6),Dept1,655,,4524,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db7),Dept1,444,,10674,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db8),Dept1,309,,9390,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6db9),Dept1,444,,10854,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dba),Dept1,309,,19053,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dbb),Dept1,309,,5180,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dbc),Dept1,301,,9520,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dbd),Dept1,309,,19841,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dbe),Dept1,309,,19128,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dbf),Dept1,504,,9661,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dc0),Dept1,112,,10552,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dc1),Dept1,309,,9452,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dc2),Dept1,309,,19605,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dc3),Dept1,309,,19903,Consistency,lowa_0
+ObjectId(5dd459a4760b2a34f87a6dc4),Dept1,309,,4374,Consistency,lowa_0
+ObjectId(5dd459a9760b2a3618a49468),Dept1,,,15797,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49469),Dept1,,,1592,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4946a),Dept1,,,6666,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4946b),Dept1,309,300,4567,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4946c),Dept1,627,726,8599,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4946d),Dept1,112,121,18455,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4946e),Dept1,,,9641,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4946f),Dept1,309,933,5298,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49470),Dept1,,,534,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49471),Dept1,269,629,11201,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49472),Dept1,,,10183,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49473),Dept1,,,3238,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49474),Dept1,309,939,4656,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49475),Dept1,,,1455,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49476),Dept1,,,7907,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49477),Dept1,,,6006,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49478),Dept1,,,14499,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49479),Dept1,,,2096,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4947a),Dept1,309,039,8734,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4947b),Dept1,,,17251,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4947c),Dept1,269,629,11338,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4947d),Dept1,,,11933,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4947e),Dept1,,,14180,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4947f),Dept1,,,9745,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49480),Dept1,,,2678,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49481),Dept1,284,242,7309,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49482),Dept1,,,2303,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49483),Dept1,,,1491,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49484),Dept1,,,13391,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49485),Dept1,,,3869,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49486),Dept1,,,10331,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49487),Dept1,,,7527,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49488),Dept1,114,411,3625,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49489),Dept1,,,6286,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4948a),Dept1,,,11779,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4948b),Dept1,,,15472,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4948c),Dept1,14,11,7443,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4948d),Dept1,,,6351,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4948e),Dept1,309,390,18971,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4948f),Dept1,,,6085,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49490),Dept1,,,2581,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49491),Dept1,309,099,5597,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49492),Dept1,309,909,4328,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49493),Dept1,,,16731,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49494),Dept1,,,7908,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49495),Dept1,,,18915,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49496),Dept1,,,2,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49497),Dept1,,,6944,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49498),Dept1,,,6329,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a49499),Dept1,,,13599,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4949a),Dept1,,,12902,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4949b),Dept1,655,565,19433,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4949c),Dept1,,,721,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4949d),Dept1,642,426,11008,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4949e),Dept1,,,10321,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a4949f),Dept1,309,903,9305,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a0),Dept1,309,039,9019,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a1),Dept1,9,9,11498,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a2),Dept1,,,9735,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a3),Dept1,,,1880,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a4),Dept1,9,9,11492,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a5),Dept1,309,930,5174,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a6),Dept1,269,962,8260,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a7),Dept1,9,9,11470,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a8),Dept1,309,330,1775,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494a9),Dept1,309,003,19294,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494aa),Dept1,269,926,11280,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494ab),Dept1,,,18775,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494ac),Dept1,,,15599,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494ad),Dept1,309,009,4189,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494ae),Dept1,,,17719,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494af),Dept1,,,6352,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494b0),Dept1,,,2526,Validity,lowa_0
+ObjectId(5dd459a9760b2a3618a494b1),Dept1,309,999,19534,Validity,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a2b),Fiscal Period,6,,9509,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a2c),Fiscal Period,7,,11945,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a2d),Fiscal Period,7,,17485,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a2e),Fiscal Period,7,,12844,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a2f),Fiscal Period,6,,8980,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a30),Fiscal Period,7,,9936,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a31),Fiscal Period,6,,9022,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a32),Fiscal Period,7,,15655,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a33),Fiscal Period,7,,17292,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a34),Fiscal Period,6,,2764,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a35),Fiscal Period,6,,708,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a36),Fiscal Period,6,,3230,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a37),Fiscal Period,7,,10405,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a38),Fiscal Period,7,,17610,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a39),Fiscal Period,7,,19767,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a3a),Fiscal Period,7,,12070,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a3b),Fiscal Period,7,,19835,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a3c),Fiscal Period,7,,10949,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a3d),Fiscal Period,7,,13528,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a3e),Fiscal Period,7,,13662,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a3f),Fiscal Period,7,,19790,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a40),Fiscal Period,7,,13306,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a41),Fiscal Period,7,,11588,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a42),Fiscal Period,7,,11744,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a43),Fiscal Period,6,,7834,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a44),Fiscal Period,7,,9747,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a45),Fiscal Period,6,,5413,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a46),Fiscal Period,6,,3752,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a47),Fiscal Period,6,,8436,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a48),Fiscal Period,6,,4629,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a49),Fiscal Period,5,,6889,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a4a),Fiscal Period,7,,18581,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a4b),Fiscal Period,6,,2693,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a4c),Fiscal Period,7,,13551,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a4d),Fiscal Period,7,,11662,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a4e),Fiscal Period,7,,10444,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a4f),Fiscal Period,6,,8428,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a50),Fiscal Period,7,,10028,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a51),Fiscal Period,6,,2379,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a52),Fiscal Period,7,,12326,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a53),Fiscal Period,6,,3374,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a54),Fiscal Period,6,,716,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a55),Fiscal Period,6,,5682,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a56),Fiscal Period,6,,6219,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a57),Fiscal Period,7,,14910,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a58),Fiscal Period,7,,17862,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a59),Fiscal Period,6,,8668,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a5a),Fiscal Period,7,,15835,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a5b),Fiscal Period,7,,12047,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a5c),Fiscal Period,7,,10608,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a5d),Fiscal Period,7,,14700,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a5e),Fiscal Period,7,,19792,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a5f),Fiscal Period,6,,3915,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a60),Fiscal Period,7,,18264,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a61),Fiscal Period,6,,932,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a62),Fiscal Period,6,,5532,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a63),Fiscal Period,6,,2284,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a64),Fiscal Period,6,,7471,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a65),Fiscal Period,6,,7401,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a66),Fiscal Period,7,,15492,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a67),Fiscal Period,6,,3033,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a68),Fiscal Period,6,,1602,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a69),Fiscal Period,7,,18090,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a6a),Fiscal Period,6,,6008,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a6b),Fiscal Period,7,,10964,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a6c),Fiscal Period,6,,8626,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a6d),Fiscal Period,6,,4969,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a6e),Fiscal Period,7,,10943,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a6f),Fiscal Period,6,,2962,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a70),Fiscal Period,7,,14680,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a71),Fiscal Period,7,,11560,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a72),Fiscal Period,6,,5491,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a73),Fiscal Period,6,,4210,Completeness,lowa_0
+ObjectId(5dd459ad760b2a326c3a6a74),Fiscal Period,6,,9363,Completeness,lowa_0
+ObjectId(5dd459b0760b2a2f58e051e2),Fiscal Period,7,7,16349,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051e3),Fiscal Period,6,6,3540,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051e4),Fiscal Period,6,6,4995,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051e5),Fiscal Period,7,January,12595,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051e6),Fiscal Period,7,7,12692,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051e7),Fiscal Period,7,16131,14119,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051e8),Fiscal Period,6,6,4443,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051e9),Fiscal Period,7,Corrections,10185,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051ea),Fiscal Period,7,7,10881,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051eb),Fiscal Period,7,7,17218,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051ec),Fiscal Period,7,7,18639,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051ed),Fiscal Period,7,7,17249,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051ee),Fiscal Period,7,7,17838,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051ef),Fiscal Period,6,,1234,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f0),Fiscal Period,6,6,8607,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f1),Fiscal Period,6,6,4172,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f2),Fiscal Period,6,6,7678,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f3),Fiscal Period,7,7,14117,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f4),Fiscal Period,6,6,6074,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f5),Fiscal Period,6,6,4587,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f6),Fiscal Period,7,7,13110,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f7),Fiscal Period,6,6,2016,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f8),Fiscal Period,13,2864,852,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051f9),Fiscal Period,6,6,4880,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051fa),Fiscal Period,7,7,19098,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051fb),Fiscal Period,6,6,2002,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051fc),Fiscal Period,7,7,15506,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051fd),Fiscal Period,6,6,1125,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051fe),Fiscal Period,7,7,14365,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e051ff),Fiscal Period,6,6,5056,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05200),Fiscal Period,7,7,17083,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05201),Fiscal Period,7,7,9949,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05202),Fiscal Period,7,7,9677,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05203),Fiscal Period,6,6,3024,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05204),Fiscal Period,7,Judicial Branch,10749,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05205),Fiscal Period,6,6,4166,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05206),Fiscal Period,7,7,11823,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05207),Fiscal Period,6,6,2116,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05208),Fiscal Period,6,,593,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05209),Fiscal Period,6,6,9029,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0520a),Fiscal Period,7,7,17570,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0520b),Fiscal Period,7,January,18273,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0520c),Fiscal Period,6,Economic Development,9362,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0520d),Fiscal Period,7,7,19201,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0520e),Fiscal Period,6,6,4265,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0520f),Fiscal Period,6,6,5250,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05210),Fiscal Period,7,7,15172,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05211),Fiscal Period,6,6,3666,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05212),Fiscal Period,6,6,2003,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05213),Fiscal Period,6,6,1984,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05214),Fiscal Period,7,7,11996,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05215),Fiscal Period,6,6,7383,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05216),Fiscal Period,7,7,19806,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05217),Fiscal Period,6,6,4357,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05218),Fiscal Period,6,6,1129,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e05219),Fiscal Period,6,6,2502,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0521a),Fiscal Period,7,7,19122,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0521b),Fiscal Period,7,7,17189,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0521c),Fiscal Period,6,6,5834,Accuracy,lowa_0
+ObjectId(5dd459b0760b2a2f58e0521d),Fiscal Period,7,7,12801,Accuracy,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dc7),Fiscal Period,6,,5664,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dc8),Fiscal Period,7,,17518,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dc9),Fiscal Period,6,,4911,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dca),Fiscal Period,7,,12386,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dcb),Fiscal Period,7,,12797,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dcc),Fiscal Period,6,,2217,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dcd),Fiscal Period,7,,9846,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dce),Fiscal Period,6,,8204,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dcf),Fiscal Period,6,,8968,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd0),Fiscal Period,6,,4344,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd1),Fiscal Period,7,,14008,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd2),Fiscal Period,6,,768,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd3),Fiscal Period,6,,5583,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd4),Fiscal Period,7,,15865,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd5),Fiscal Period,6,,4125,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd6),Fiscal Period,7,,19519,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd7),Fiscal Period,7,,10638,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd8),Fiscal Period,6,,1655,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dd9),Fiscal Period,7,,18362,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dda),Fiscal Period,7,,13335,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6ddb),Fiscal Period,7,,14837,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6ddc),Fiscal Period,6,,1362,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6ddd),Fiscal Period,6,,3520,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dde),Fiscal Period,6,,1936,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6ddf),Fiscal Period,7,,18723,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de0),Fiscal Period,6,,59,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de1),Fiscal Period,6,,7970,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de2),Fiscal Period,7,,15336,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de3),Fiscal Period,7,,18272,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de4),Fiscal Period,7,,16773,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de5),Fiscal Period,6,,2411,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de6),Fiscal Period,7,,10369,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de7),Fiscal Period,6,,7296,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de8),Fiscal Period,6,,1916,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6de9),Fiscal Period,6,,1200,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dea),Fiscal Period,7,,19846,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6deb),Fiscal Period,7,,12314,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dec),Fiscal Period,7,,15913,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6ded),Fiscal Period,6,,9536,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dee),Fiscal Period,6,,5961,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6def),Fiscal Period,7,,16817,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df0),Fiscal Period,6,,7152,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df1),Fiscal Period,6,,4482,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df2),Fiscal Period,7,,9803,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df3),Fiscal Period,6,,7277,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df4),Fiscal Period,6,,4139,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df5),Fiscal Period,7,,18017,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df6),Fiscal Period,7,,13967,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df7),Fiscal Period,6,,6997,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df8),Fiscal Period,7,,12737,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6df9),Fiscal Period,7,,13719,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dfa),Fiscal Period,7,,10926,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dfb),Fiscal Period,7,,16518,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dfc),Fiscal Period,7,,19286,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dfd),Fiscal Period,7,,10836,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dfe),Fiscal Period,7,,10386,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6dff),Fiscal Period,6,,6756,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e00),Fiscal Period,7,,19476,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e01),Fiscal Period,7,,16735,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e02),Fiscal Period,7,,14508,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e03),Fiscal Period,7,,9676,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e04),Fiscal Period,7,,16513,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e05),Fiscal Period,7,,10433,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e06),Fiscal Period,6,,8634,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e07),Fiscal Period,6,,2839,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e08),Fiscal Period,7,,17319,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e09),Fiscal Period,7,,17113,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e0a),Fiscal Period,6,,8737,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e0b),Fiscal Period,7,,15306,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e0c),Fiscal Period,7,,12497,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e0d),Fiscal Period,7,,12553,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e0e),Fiscal Period,6,,6397,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e0f),Fiscal Period,7,,17934,Consistency,lowa_0
+ObjectId(5dd459b4760b2a34f87a6e10),Fiscal Period,6,,5553,Consistency,lowa_0
+ObjectId(5dd459b8760b2a3618a494b4),Fiscal Period,7,,13582,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494b5),Fiscal Period,7,,17112,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494b6),Fiscal Period,7,,19279,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494b7),Fiscal Period,6,,7827,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494b8),Fiscal Period,6,,9239,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494b9),Fiscal Period,6,,1706,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494ba),Fiscal Period,7,,14342,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494bb),Fiscal Period,7,,9847,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494bc),Fiscal Period,7,,15216,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494bd),Fiscal Period,6,,8579,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494be),Fiscal Period,7,,19934,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494bf),Fiscal Period,6,,7662,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c0),Fiscal Period,7,,11074,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c1),Fiscal Period,5,,6853,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c2),Fiscal Period,7,,11406,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c3),Fiscal Period,6,,2616,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c4),Fiscal Period,7,,11458,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c5),Fiscal Period,6,,6743,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c6),Fiscal Period,7,,19506,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c7),Fiscal Period,7,,13124,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c8),Fiscal Period,7,,16847,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494c9),Fiscal Period,7,,19918,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494ca),Fiscal Period,6,,3370,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494cb),Fiscal Period,7,,12772,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494cc),Fiscal Period,6,,6032,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494cd),Fiscal Period,6,,1770,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494ce),Fiscal Period,7,,13699,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494cf),Fiscal Period,7,,12655,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d0),Fiscal Period,7,,13818,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d1),Fiscal Period,7,,16427,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d2),Fiscal Period,7,,18083,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d3),Fiscal Period,7,,19620,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d4),Fiscal Period,6,,5009,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d5),Fiscal Period,7,,12884,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d6),Fiscal Period,7,,10872,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d7),Fiscal Period,6,,4614,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d8),Fiscal Period,7,,19075,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494d9),Fiscal Period,6,,7213,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494da),Fiscal Period,6,,9482,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494db),Fiscal Period,7,,13172,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494dc),Fiscal Period,6,,7045,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494dd),Fiscal Period,7,,9756,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494de),Fiscal Period,6,,2543,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494df),Fiscal Period,6,,8176,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e0),Fiscal Period,7,,12511,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e1),Fiscal Period,7,,11863,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e2),Fiscal Period,6,,5849,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e3),Fiscal Period,6,,5686,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e4),Fiscal Period,7,,15745,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e5),Fiscal Period,6,,5963,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e6),Fiscal Period,7,,15083,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e7),Fiscal Period,6,,2416,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e8),Fiscal Period,6,,410,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494e9),Fiscal Period,7,,16353,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494ea),Fiscal Period,7,,17401,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494eb),Fiscal Period,6,,6234,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494ec),Fiscal Period,7,,12182,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494ed),Fiscal Period,7,,12172,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494ee),Fiscal Period,7,,18183,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494ef),Fiscal Period,6,,1456,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f0),Fiscal Period,7,,11690,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f1),Fiscal Period,7,,10048,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f2),Fiscal Period,7,,10291,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f3),Fiscal Period,6,,369,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f4),Fiscal Period,6,,1378,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f5),Fiscal Period,6,,3082,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f6),Fiscal Period,6,,7877,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f7),Fiscal Period,6,,7537,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f8),Fiscal Period,7,,11258,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494f9),Fiscal Period,7,,17038,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494fa),Fiscal Period,7,,17682,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494fb),Fiscal Period,6,,1518,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494fc),Fiscal Period,6,,4652,Validity,lowa_0
+ObjectId(5dd459b8760b2a3618a494fd),Fiscal Period,7,,18350,Validity,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a77),Fiscal Period Name,December,,6542,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a78),Fiscal Period Name,December,,8328,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a79),Fiscal Period Name,January,,18734,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a7a),Fiscal Period Name,January,,16845,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a7b),Fiscal Period Name,January,,19022,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a7c),Fiscal Period Name,January,,19584,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a7d),Fiscal Period Name,January,,15813,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a7e),Fiscal Period Name,January,,15565,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a7f),Fiscal Period Name,December,,1405,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a80),Fiscal Period Name,December,,8947,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a81),Fiscal Period Name,December,,4977,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a82),Fiscal Period Name,December,,924,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a83),Fiscal Period Name,January,,16213,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a84),Fiscal Period Name,December,,422,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a85),Fiscal Period Name,January,,12929,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a86),Fiscal Period Name,January,,13093,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a87),Fiscal Period Name,January,,15066,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a88),Fiscal Period Name,December,,2079,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a89),Fiscal Period Name,January,,15286,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a8a),Fiscal Period Name,December,,7377,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a8b),Fiscal Period Name,December,,3333,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a8c),Fiscal Period Name,December,,6507,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a8d),Fiscal Period Name,December,,3020,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a8e),Fiscal Period Name,December,,7056,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a8f),Fiscal Period Name,January,,18782,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a90),Fiscal Period Name,December,,8884,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a91),Fiscal Period Name,January,,16957,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a92),Fiscal Period Name,December,,5313,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a93),Fiscal Period Name,December,,2772,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a94),Fiscal Period Name,January,,11524,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a95),Fiscal Period Name,December,,1569,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a96),Fiscal Period Name,January,,13412,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a97),Fiscal Period Name,January,,18198,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a98),Fiscal Period Name,December,,5122,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a99),Fiscal Period Name,January,,13380,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a9a),Fiscal Period Name,December,,2778,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a9b),Fiscal Period Name,January,,12055,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a9c),Fiscal Period Name,December,,9090,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a9d),Fiscal Period Name,December,,8647,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a9e),Fiscal Period Name,December,,1636,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6a9f),Fiscal Period Name,January,,11663,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa0),Fiscal Period Name,January,,10621,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa1),Fiscal Period Name,November,,6840,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa2),Fiscal Period Name,December,,2260,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa3),Fiscal Period Name,December,,5345,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa4),Fiscal Period Name,December,,4560,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa5),Fiscal Period Name,January,,11160,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa6),Fiscal Period Name,December,,1678,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa7),Fiscal Period Name,December,,3348,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa8),Fiscal Period Name,January,,17493,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aa9),Fiscal Period Name,January,,19428,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aaa),Fiscal Period Name,December,,5112,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aab),Fiscal Period Name,January,,19705,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aac),Fiscal Period Name,December,,6918,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aad),Fiscal Period Name,January,,18553,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aae),Fiscal Period Name,December,,6423,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aaf),Fiscal Period Name,December,,7968,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab0),Fiscal Period Name,January,,12315,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab1),Fiscal Period Name,December,,9291,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab2),Fiscal Period Name,January,,18311,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab3),Fiscal Period Name,January,,13874,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab4),Fiscal Period Name,January,,17236,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab5),Fiscal Period Name,December,,6350,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab6),Fiscal Period Name,December,,8483,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab7),Fiscal Period Name,January,,12578,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab8),Fiscal Period Name,December,,3598,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ab9),Fiscal Period Name,January,,14754,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6aba),Fiscal Period Name,December,,1607,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6abb),Fiscal Period Name,December,,8496,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6abc),Fiscal Period Name,December,,7036,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6abd),Fiscal Period Name,January,,18988,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6abe),Fiscal Period Name,December,,339,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6abf),Fiscal Period Name,December,,1080,Completeness,lowa_0
+ObjectId(5dd459bc760b2a326c3a6ac0),Fiscal Period Name,December,,4655,Completeness,lowa_0
+ObjectId(5dd459c0760b2a2f58e05220),Fiscal Period Name,January,,15949,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05221),Fiscal Period Name,January,Jainuary,13797,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05222),Fiscal Period Name,January,7,16460,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05223),Fiscal Period Name,January,sapuar/,19404,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05224),Fiscal Period Name,January,Janjuary,9805,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05225),Fiscal Period Name,January,7,9985,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05226),Fiscal Period Name,January,Januar4y,19129,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05227),Fiscal Period Name,January,,10339,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05228),Fiscal Period Name,December,,3975,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05229),Fiscal Period Name,January,309,19471,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0522a),Fiscal Period Name,January,,12858,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0522b),Fiscal Period Name,December,Deberemc,3487,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0522c),Fiscal Period Name,January,Janugary,15684,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0522d),Fiscal Period Name,December,ercbeeDm,775,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0522e),Fiscal Period Name,December,beDemrce,5904,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0522f),Fiscal Period Name,December,cmeDerbe,3437,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05230),Fiscal Period Name,January,Janu5ary,19473,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05231),Fiscal Period Name,January,Human Services,15771,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05232),Fiscal Period Name,January,Human Services,15983,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05233),Fiscal Period Name,December,DJecember,3726,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05234),Fiscal Period Name,December,Human Services,1126,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05235),Fiscal Period Name,January,,15411,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05236),Fiscal Period Name,January,ayuJarn,15751,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05237),Fiscal Period Name,January,,14931,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05238),Fiscal Period Name,January,ayJranu,9757,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05239),Fiscal Period Name,January,JaHuary,11702,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0523a),Fiscal Period Name,December,DeceAmber,5621,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0523b),Fiscal Period Name,January,Janucary,16428,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0523c),Fiscal Period Name,December,Decembger,3955,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0523d),Fiscal Period Name,December,breDmcee,5984,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0523e),Fiscal Period Name,December,6,1388,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0523f),Fiscal Period Name,December,Dehcember,6123,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05240),Fiscal Period Name,January,9,11590,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05241),Fiscal Period Name,January,?Bnuary,10939,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05242),Fiscal Period Name,January,JanuarR,18396,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05243),Fiscal Period Name,January,VJanuary,16336,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05244),Fiscal Period Name,January,Jan.arx,15994,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05245),Fiscal Period Name,December,DeceobG(,6786,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05246),Fiscal Period Name,December,,7523,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05247),Fiscal Period Name,December,bmecDeer,3668,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05248),Fiscal Period Name,January,JQanuary,14428,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05249),Fiscal Period Name,December,Administrative Services,5760,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0524a),Fiscal Period Name,January,ds;uary,12200,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0524b),Fiscal Period Name,December,De+cember,3739,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0524c),Fiscal Period Name,January,ZaVuaLy,15347,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0524d),Fiscal Period Name,January,Janua8ry,14707,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0524e),Fiscal Period Name,January,"Ja/uam,",17034,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0524f),Fiscal Period Name,January,7,13236,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05250),Fiscal Period Name,January,,15759,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05251),Fiscal Period Name,December,Human Services,875,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05252),Fiscal Period Name,January,uarnyJa,13678,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05253),Fiscal Period Name,December,DecemQber,1665,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05254),Fiscal Period Name,January,J@n'ary,18203,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05255),Fiscal Period Name,December,Dec.mb)r,5192,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05256),Fiscal Period Name,January,Justice System,9765,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05257),Fiscal Period Name,January,unyaJar,19251,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05258),Fiscal Period Name,January,Ja;u'ry,13199,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05259),Fiscal Period Name,December,3251,1236,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0525a),Fiscal Period Name,December,Detcember,1423,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0525b),Fiscal Period Name,January,JanAuary,18310,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0525c),Fiscal Period Name,December,Dekcember,2555,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0525d),Fiscal Period Name,December,ceebmDer,7418,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0525e),Fiscal Period Name,January,Janu1ary,10216,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e0525f),Fiscal Period Name,December,D[cember,922,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05260),Fiscal Period Name,January,nuayaJr,11024,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05261),Fiscal Period Name,December,Human Services,1424,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05262),Fiscal Period Name,December,Decembeyr,205,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05263),Fiscal Period Name,December,cmDebree,3825,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05264),Fiscal Period Name,December,Drmeeebc,2228,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05265),Fiscal Period Name,January,ynaJaru,15113,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05266),Fiscal Period Name,January,iDnuaNy,15760,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05267),Fiscal Period Name,January,JanuFry,11124,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05268),Fiscal Period Name,December,ebDremec,7895,Accuracy,lowa_0
+ObjectId(5dd459c0760b2a2f58e05269),Fiscal Period Name,January,Janu$ary,13212,Accuracy,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e13),Fiscal Period Name,December,,5712,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e14),Fiscal Period Name,January,,10583,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e15),Fiscal Period Name,December,,3036,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e16),Fiscal Period Name,January,,14583,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e17),Fiscal Period Name,December,,2094,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e18),Fiscal Period Name,January,,13921,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e19),Fiscal Period Name,December,,4405,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e1a),Fiscal Period Name,December,,7549,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e1b),Fiscal Period Name,December,,8697,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e1c),Fiscal Period Name,January,,14579,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e1d),Fiscal Period Name,December,,2305,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e1e),Fiscal Period Name,December,,8031,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e1f),Fiscal Period Name,January,,10348,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e20),Fiscal Period Name,January,,19561,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e21),Fiscal Period Name,January,,18037,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e22),Fiscal Period Name,December,,8087,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e23),Fiscal Period Name,January,,11771,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e24),Fiscal Period Name,December,,8069,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e25),Fiscal Period Name,January,,17572,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e26),Fiscal Period Name,January,,11021,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e27),Fiscal Period Name,January,,14715,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e28),Fiscal Period Name,January,,15122,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e29),Fiscal Period Name,December,,7993,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e2a),Fiscal Period Name,December,,1190,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e2b),Fiscal Period Name,December,,8234,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e2c),Fiscal Period Name,January,,16762,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e2d),Fiscal Period Name,December,,8769,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e2e),Fiscal Period Name,December,,6057,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e2f),Fiscal Period Name,January,,18421,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e30),Fiscal Period Name,December,,6790,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e31),Fiscal Period Name,December,,4464,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e32),Fiscal Period Name,January,,19535,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e33),Fiscal Period Name,January,,14803,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e34),Fiscal Period Name,January,,15173,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e35),Fiscal Period Name,December,,2949,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e36),Fiscal Period Name,January,,17949,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e37),Fiscal Period Name,January,,19774,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e38),Fiscal Period Name,December,,5632,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e39),Fiscal Period Name,December,,2536,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e3a),Fiscal Period Name,December,,4136,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e3b),Fiscal Period Name,January,,19307,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e3c),Fiscal Period Name,December,,2887,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e3d),Fiscal Period Name,Januar,,17135,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e3e),Fiscal Period Name,January,,17675,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e3f),Fiscal Period Name,January,,16041,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e40),Fiscal Period Name,December,,1364,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e41),Fiscal Period Name,December,,7430,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e42),Fiscal Period Name,December,,5979,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e43),Fiscal Period Name,January,,15075,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e44),Fiscal Period Name,January,,14949,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e45),Fiscal Period Name,December,,8671,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e46),Fiscal Period Name,December,,4631,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e47),Fiscal Period Name,December,,6672,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e48),Fiscal Period Name,Januar,,9845,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e49),Fiscal Period Name,January,,12394,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e4a),Fiscal Period Name,January,,16499,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e4b),Fiscal Period Name,January,,14643,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e4c),Fiscal Period Name,January,,18340,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e4d),Fiscal Period Name,January,,18263,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e4e),Fiscal Period Name,December,,4843,Consistency,lowa_0
+ObjectId(5dd459c4760b2a34f87a6e4f),Fiscal Period Name,December,,8329,Consistency,lowa_0
+ObjectId(5dd459c8760b2a3618a49500),Fiscal Period Name,January,rynaauJ,10038,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49501),Fiscal Period Name,December,merecDeb,8093,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49502),Fiscal Period Name,January,unnyyJu,12818,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49503),Fiscal Period Name,December,Demcerbe,7948,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49504),Fiscal Period Name,December,mbreDeec,9469,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49505),Fiscal Period Name,January,nJrnaJa,17037,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49506),Fiscal Period Name,December,DDmereDr,8067,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49507),Fiscal Period Name,January,yayaaaa,15352,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49508),Fiscal Period Name,December,DDemeDce,3547,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49509),Fiscal Period Name,January,aJunayr,11589,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4950a),Fiscal Period Name,Dezember,eerrzbrr,6502,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4950b),Fiscal Period Name,January,aryunJa,10138,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4950c),Fiscal Period Name,January,aJJJyuu,12626,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4950d),Fiscal Period Name,January,ranaaru,14981,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4950e),Fiscal Period Name,January,JJrurau,9719,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4950f),Fiscal Period Name,January,naaanrJ,13254,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49510),Fiscal Period Name,January,raJaruy,15871,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49511),Fiscal Period Name,December,cDbemeec,886,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49512),Fiscal Period Name,December,emreeeer,1202,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49513),Fiscal Period Name,December,beDermec,1954,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49514),Fiscal Period Name,January,ryaJJya,11989,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49515),Fiscal Period Name,December,Deebcbre,3199,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49516),Fiscal Period Name,January,ynrrnan,13904,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49517),Fiscal Period Name,January,auaaauy,11077,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49518),Fiscal Period Name,December,DeDbrDDe,3290,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49519),Fiscal Period Name,January,ryJunaa,15167,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4951a),Fiscal Period Name,December,ebrbDbem,4674,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4951b),Fiscal Period Name,January,yunJnua,11720,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4951c),Fiscal Period Name,December,eceDbDrm,7677,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4951d),Fiscal Period Name,January,aJuaJaa,17414,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4951e),Fiscal Period Name,January,Jaarnuy,9732,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4951f),Fiscal Period Name,December,eeeDerre,881,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49520),Fiscal Period Name,December,ceDmerbe,4765,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49521),Fiscal Period Name,January,nJayuJJ,11173,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49522),Fiscal Period Name,January,nnJrJrn,13225,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49523),Fiscal Period Name,December,eDmbecre,2407,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49524),Fiscal Period Name,December,meDbeecr,3894,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49525),Fiscal Period Name,January,nyauaan,15049,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49526),Fiscal Period Name,January,aryayyy,16048,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49527),Fiscal Period Name,January,rJunrJr,15791,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49528),Fiscal Period Name,January,nJaJuyn,16007,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49529),Fiscal Period Name,January,yuJanar,10005,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4952a),Fiscal Period Name,December,eebebemr,8376,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4952b),Fiscal Period Name,December,rerrbDee,4670,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4952c),Fiscal Period Name,December,eremDebc,994,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4952d),Fiscal Period Name,January,yuyyryr,13319,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4952e),Fiscal Period Name,January,JryJaaa,14212,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4952f),Fiscal Period Name,December,eecbmbmr,3762,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49530),Fiscal Period Name,January,uyyyaua,19013,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49531),Fiscal Period Name,January,unayrJa,13420,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49532),Fiscal Period Name,January,aanJruy,13613,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49533),Fiscal Period Name,Dezember,emeDbezr,6730,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49534),Fiscal Period Name,January,uynnrnr,14847,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49535),Fiscal Period Name,January,Jauynny,14739,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49536),Fiscal Period Name,December,bmeeDcme,2756,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49537),Fiscal Period Name,December,beeberee,6231,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49538),Fiscal Period Name,January,auJuauJ,15576,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49539),Fiscal Period Name,December,eebrbrre,7000,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4953a),Fiscal Period Name,January,naayayn,13322,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4953b),Fiscal Period Name,January,ryanaJu,13480,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4953c),Fiscal Period Name,December,ercerrmb,4426,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4953d),Fiscal Period Name,December,ecmrbDee,3533,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4953e),Fiscal Period Name,December,eeeermcb,6635,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a4953f),Fiscal Period Name,December,embDrece,3224,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49540),Fiscal Period Name,January,uuuJJaa,16558,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49541),Fiscal Period Name,January,aauJJna,17632,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49542),Fiscal Period Name,January,nJryJyn,16924,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49543),Fiscal Period Name,January,nyaJuay,10633,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49544),Fiscal Period Name,January,ranyaJu,18289,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49545),Fiscal Period Name,January,rnaunya,13277,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49546),Fiscal Period Name,December,mrbcmeme,652,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49547),Fiscal Period Name,December,rmbeDbee,7355,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49548),Fiscal Period Name,January,ryaynnu,14865,Validity,lowa_0
+ObjectId(5dd459c8760b2a3618a49549),Fiscal Period Name,December,mcmrmmre,5403,Validity,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ac3),Dept,,,7214,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ac4),Dept,,,898,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ac5),Dept,,,15498,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ac6),Dept,,,16235,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ac7),Dept,Iowa Workforce Development,,4416,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ac8),Dept,,,19362,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ac9),Dept,,,10269,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6aca),Dept,,,9969,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6acb),Dept,,,15414,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6acc),Dept,,,16727,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6acd),Dept,Administrative Services - Capitals,,9261,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ace),Dept,,,3713,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6acf),Dept,Iowa Veterans Home,,18269,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad0),Dept,,,13043,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad1),Dept,,,7956,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad2),Dept,Iowa Workforce Development,,9309,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad3),Dept,,,12295,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad4),Dept,,,2467,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad5),Dept,,,16179,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad6),Dept,Iowa Communications Network,,8707,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad7),Dept,Iowa Workforce Development,,4191,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad8),Dept,,,14041,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ad9),Dept,,,10019,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ada),Dept,,,7824,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6adb),Dept,,,16814,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6adc),Dept,Iowa Veterans Home,,3367,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6add),Dept,Iowa Workforce Development,,4112,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ade),Dept,Iowa Workforce Development,,16504,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6adf),Dept,Iowa Workforce Development,,19546,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae0),Dept,Regents Capital,,3569,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae1),Dept,Iowa Workforce Development,,16575,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae2),Dept,,,11994,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae3),Dept,,,6419,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae4),Dept,,,2657,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae5),Dept,,,16438,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae6),Dept,,,1608,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae7),Dept,Iowa Workforce Development,,5495,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae8),Dept,,,3091,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6ae9),Dept,Iowa Workforce Development,,9454,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6aea),Dept,,,3649,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6aeb),Dept,,,1056,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6aec),Dept,Economic Development Authority,,7941,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6aed),Dept,Administrative Services - Capitals,,9233,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6aee),Dept,Iowa Workforce Development,,19110,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6aef),Dept,,,7931,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af0),Dept,,,15705,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af1),Dept,Iowa Workforce Development,,9347,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af2),Dept,,,8933,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af3),Dept,,,7370,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af4),Dept,Iowa Workforce Development,,19590,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af5),Dept,Iowa Workforce Development,,16523,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af6),Dept,,,12843,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af7),Dept,,,13567,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af8),Dept,,,12901,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6af9),Dept,,,6567,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6afa),Dept,Legislative Services Agency,,9657,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6afb),Dept,,,15219,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6afc),Dept,,,12261,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6afd),Dept,,,3122,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6afe),Dept,,,11739,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6aff),Dept,,,12520,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b00),Dept,Iowa Finance Authority,,7402,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b01),Dept,,,14620,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b02),Dept,Iowa Workforce Development,,4931,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b03),Dept,,,3753,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b04),Dept,Judicial Branch,,10856,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b05),Dept,,,14353,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b06),Dept,,,13930,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b07),Dept,,,16920,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b08),Dept,,,16169,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b09),Dept,,,17275,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b0a),Dept,,,17394,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b0b),Dept,,,7689,Completeness,lowa_0
+ObjectId(5dd459cc760b2a326c3a6b0c),Dept,Iowa Workforce Development,,19282,Completeness,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e52),Dept,Iowa Veterans Home,,18325,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e53),Dept,Iowa Veterans Home,,18408,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e54),Dept,Iowa Workforce Development,,5330,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e55),Dept,Iowa Workforce Development,,4340,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e56),Dept,Agriculture and Land Stewardship,,11495,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e57),Dept,Senate,,9615,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e58),Dept,Iowa Workforce Development,,4190,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e59),Dept,Legislative Services Agency,,9675,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e5a),Dept,Iowa Workforce Development,,5672,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e5b),Dept,Judicial Branch,,10676,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e5c),Dept,Iowa Workforce Development,,5272,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e5d),Dept,College Student Aid Commission,,7299,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e5e),Dept,Economic Development Authority,,11322,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e5f),Dept,Iowa Workforce Development,,4705,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e60),Dept,Economic Development Authority,,5734,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e61),Dept,Economic Development Authority,,11221,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e62),Dept,Judicial Branch,,10957,Consistency,lowa_0
+ObjectId(5dd459cf760b2a34f87a6e63),Dept,Iowa Workforce Development,,4922,Consistency,lowa_0
+ObjectId(5dd459d2760b2a3618a4954c),Dept,,,16935,Validity,lowa_0
+ObjectId(5dd459d2760b2a3618a4954d),Dept,,,9138,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4954e),Dept,Iowa Workforce Development,opflewt  rmceDkveeooWroIan,19891,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4954f),Dept,,,17334,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49550),Dept,,,6235,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49551),Dept,Iowa Workforce Development,olfrocvWroDwaee mnetekpI o,16662,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49552),Dept,,,687,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49553),Dept,Iowa Veterans Home,HVHmerVmIaooowHa  ,18281,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49554),Dept,Iowa Workforce Development,kfwIDeomvprleoWoa t eeorcn,4820,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49555),Dept,,,5845,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49556),Dept,,,1279,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49557),Dept,,,15013,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49558),Dept,,,2688,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49559),Dept,Iowa Workforce Development," nro eowcemfe mIreIemoeerl",5627,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4955a),Dept,,,15532,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4955b),Dept,,,16774,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4955c),Dept,,,16215,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4955d),Dept,,,69,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4955e),Dept,,,6255,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4955f),Dept,Iowa Communications Network,mwriCnImaus tkawcn eooiNtoo,8683,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49560),Dept,Iowa Workforce Development," pcooewwpccopwo rnvmaoo we",19600,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49561),Dept,Iowa Workforce Development,torrmeI mok nDovweDepvkaoo,5369,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49562),Dept,Agriculture and Land Stewardship,dned LaaddrhAuSaudwicutLirShupa ,11455,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49563),Dept,,,11141,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49564),Dept,Iowa Workforce Development,ocaffaoemvlofDknWWnvWapkke,19692,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49565),Dept,,,10375,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49566),Dept,,,1992,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49567),Dept,Iowa Workforce Development,llorlloDewroeolfenpo  wfev,4376,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49568),Dept,,,6362,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49569),Dept,Judicial Branch,laB caiirJducnh,10883,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4956a),Dept,,,8381,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4956b),Dept,,,7197,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4956c),Dept,,,2439,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4956d),Dept,Iowa Workforce Development,rare Dnefkv  e p oorolemeo,9098,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4956e),Dept,,,12356,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4956f),Dept,,,2708,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49570),Dept,,,12616,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49571),Dept,Iowa Workforce Development,ce ooeWoWlDleeWfeteoerceek,4831,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49572),Dept,Iowa Veterans Home,aHeaneHwo rmawoa I,3324,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49573),Dept,,,574,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49574),Dept,Civil Rights Commission," mniiCvossCitsRmiihog l",13869,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49575),Dept,,,6834,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49576),Dept,,,11944,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49577),Dept,,,12332,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49578),Dept,,,14824,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49579),Dept,,,2176,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4957a),Dept,,,609,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4957b),Dept,,,14409,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4957c),Dept,,,4010,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4957d),Dept,Iowa Workforce Development,ovInDl ertefoaoermcpWekow ,19585,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4957e),Dept,,,2940,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4957f),Dept,Judicial Branch,aducnBaJccaicic,10697,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49580),Dept,Iowa Workforce Development,WaDoeecpetkolrewof mrv Ino,4168,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49581),Dept,,,13586,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49582),Dept,,,7012,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49583),Dept,,,9705,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49584),Dept,,,15854,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49585),Dept,,,14246,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49586),Dept,,,7749,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49587),Dept,,,13216,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49588),Dept,,,5958,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49589),Dept,,,1815,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4958a),Dept,Iowa Workforce Development,veoorWevonackreoree DIreoW,19783,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4958b),Dept,,,1601,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4958c),Dept,,,15387,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4958d),Dept,,,17107,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4958e),Dept,Judicial Branch,iuacJldadhuadal,10756,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a4958f),Dept,,,2080,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49590),Dept,,,14247,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49591),Dept,,,14335,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49592),Dept,,,6901,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49593),Dept,,,10266,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49594),Dept,,,3738,Validity,lowa_0
+ObjectId(5dd459d3760b2a3618a49595),Dept,,,14136,Validity,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b0f),Spec Dept,Iowa Veterans Home,,18319,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b10),Spec Dept,Public Safety,,17762,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b11),Spec Dept,Iowa Communications Network,,8687,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b12),Spec Dept,Iowa Workforce Development,,19047,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b13),Spec Dept,Human Services,,274,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b14),Spec Dept,Attorney General,,7580,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b15),Spec Dept,Legislative Branch,,9622,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b16),Spec Dept,Public Health,,14349,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b17),Spec Dept,Revenue,,18002,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b18),Spec Dept,Public Defense,,17215,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b19),Spec Dept,Legislative Branch,,9607,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b1a),Spec Dept,Iowa Workforce Development,,5168,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b1b),Spec Dept,Human Services,,15984,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b1c),Spec Dept,Natural Resources,,11693,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b1d),Spec Dept,Public Defense,,17335,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b1e),Spec Dept,Iowa Workforce Development,,19890,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b1f),Spec Dept,Iowa Veterans Home,,3458,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b20),Spec Dept,Human Services,,426,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b21),Spec Dept,Human Services,,16062,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b22),Spec Dept,Human Services,,16274,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b23),Spec Dept,Natural Resources,,11765,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b24),Spec Dept,Commerce,,3645,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b25),Spec Dept,Iowa Workforce Development,,4209,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b26),Spec Dept,Public Health,,14237,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b27),Spec Dept,Iowa Workforce Development,,5281,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b28),Spec Dept,Human Services,,7461,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b29),Spec Dept,Revenue,,17944,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b2a),Spec Dept,Human Services,,15390,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b2b),Spec Dept,Public Safety,,17557,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b2c),Spec Dept,Human Services,,15471,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b2d),Spec Dept,Natural Resources,,12203,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b2e),Spec Dept,Judicial Branch,,10729,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b2f),Spec Dept,Iowa Finance Authority,,11382,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b30),Spec Dept,Iowa Workforce Development,,4722,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b31),Spec Dept,Civil Rights Commission,,13877,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b32),Spec Dept,Public Safety,,17626,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b33),Spec Dept,Natural Resources,,11718,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b34),Spec Dept,Education,,8143,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b35),Spec Dept,Inspections & Appeals,,2179,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b36),Spec Dept,Iowa Workforce Development,,9326,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b37),Spec Dept,Human Services,,1371,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b38),Spec Dept,Natural Resources,,12053,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b39),Spec Dept,Management,,9628,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b3a),Spec Dept,Administrative Services,,8834,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b3b),Spec Dept,Public Defense,,17415,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b3c),Spec Dept,Education,,13611,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b3d),Spec Dept,Public Safety,,2919,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b3e),Spec Dept,Human Services,,14757,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b3f),Spec Dept,Commerce,,9205,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b40),Spec Dept,Public Defense,,2472,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b41),Spec Dept,Human Rights,,3952,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b42),Spec Dept,Public Safety,,3040,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b43),Spec Dept,Human Services,,15463,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b44),Spec Dept,Natural Resources,,12577,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b45),Spec Dept,Human Services,,14976,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b46),Spec Dept,Iowa Workforce Development,,9472,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b47),Spec Dept,Natural Resources,,12564,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b48),Spec Dept,Economic Development Authority,,18664,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b49),Spec Dept,Agriculture Development Authority,,7439,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b4a),Spec Dept,Public Health,,14107,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b4b),Spec Dept,Public Health,,14272,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b4c),Spec Dept,Public Health,,7234,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b4d),Spec Dept,Iowa Workforce Development,,4901,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b4e),Spec Dept,Human Services,,827,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b4f),Spec Dept,Public Health,,6864,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b50),Spec Dept,Human Services,,15190,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b51),Spec Dept,Transportation,,6142,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b52),Spec Dept,Human Services,,16072,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b53),Spec Dept,Iowa Workforce Development,,18962,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b54),Spec Dept,Natural Resources,,11963,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b55),Spec Dept,Public Health,,14189,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b56),Spec Dept,Economic Development Authority,,19379,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b57),Spec Dept,Transportation,,5883,Completeness,lowa_0
+ObjectId(5dd459d7760b2a326c3a6b58),Spec Dept,Agriculture and Land Stewardship,,6339,Completeness,lowa_0
+ObjectId(5dd459da760b2a2f58e0526c),Spec Dept,Corrections,onsoirCrtec,10182,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0526d),Spec Dept,Public Health,uh bPHleitalc,6620,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0526e),Spec Dept,Attorney General,Consumer Advocate,3624,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0526f),Spec Dept,Natural Resources,Natural Resourc9es,12081,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05270),Spec Dept,Iowa Workforce Development,epo oevo oWeftlwkrraIcDmen,4366,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05271),Spec Dept,Human Services,Huqman Services,14883,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05272),Spec Dept,Iowa Workforce Development,Iyowa Workforce Development,18980,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05273),Spec Dept,Human Services,LHuman Services,14990,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05274),Spec Dept,Iowa Workforce Development,309,4635,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05275),Spec Dept,Human Services,HumanIServiceS,14926,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05276),Spec Dept,Human Services,HumWan Services,14784,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05277),Spec Dept,Administrative Services,Administrat*ive Services,8935,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05278),Spec Dept,Human Services,Huma/ )ervi#es,169,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05279),Spec Dept,Human Services,Human Servi[ces,1271,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0527a),Spec Dept,Inspections & Appeals,Inspecltions & Appeals,2175,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0527b),Spec Dept,Agriculture and Land Stewardship,aiwAptgthdueraSd e isrrna cLnuld,11531,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0527c),Spec Dept,Human Services,ices mSvaruneH,7880,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0527d),Spec Dept,Inspections & Appeals,InspecNtions & Appeals,2218,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0527e),Spec Dept,Public Safety,Public Safe/ty,2679,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0527f),Spec Dept,Judicial Branch,Jjdiyi7X B{ancJ,10714,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05280),Spec Dept,Natural Resources,1Mtu/_l Risoulceb,13022,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05281),Spec Dept,Iowa Workforce Development,3638,1629,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05282),Spec Dept,Iowa Workforce Development,Iowa Workforc3e Development,16650,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05283),Spec Dept,State Public Defender,State Pulblic Defender,1903,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05284),Spec Dept,Iowa Public Employees' Retirement System Administration,11086,9073,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05285),Spec Dept,Public Safety,Puavic Safnty,3939,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05286),Spec Dept,Public Defense,iulfcsbDnPeee ,17223,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05287),Spec Dept,Iowa Communications Network,zowa Comw2niBations NeumoRk,8715,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05288),Spec Dept,Natural Resources,Na{tural Resources,12622,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05289),Spec Dept,Natural Resources,Naqtural Resources,11743,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0528a),Spec Dept,Iowa Workforce Development,Iow@a Workforce Development,5134,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0528b),Spec Dept,Iowa Workforce Development,r rntfeam IkcleoWopoeDoevw,5726,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0528c),Spec Dept,Public Health,Publ/c HeTlth,6855,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0528d),Spec Dept,Human Services,January,15742,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0528e),Spec Dept,Human Services,menrvscuieH Sa,1001,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0528f),Spec Dept,Economic Development Authority,tAoelreEcyheDonumoc mtpinoitv ,11281,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05290),Spec Dept,Human Services,HumQ.xServFc+s,345,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05291),Spec Dept,Public Health,Public HeaKlth,6383,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05292),Spec Dept,Human Rights,HuUan R)Vhts,13981,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05293),Spec Dept,Iowa Veterans Home,IowH ^eteranSzHFme,18256,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05294),Spec Dept,State Public Defender,6,1947,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05295),Spec Dept,Human Services,eSruneasvc miH,15643,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05296),Spec Dept,Human Services,re scevmuHSain,14545,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05297),Spec Dept,Natural Resources,,12510,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05298),Spec Dept,Public Safety,Public S1fety,18716,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e05299),Spec Dept,Human Services,Human 8erv#ces,15730,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0529a),Spec Dept,Commerce,Commer$ce,16481,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0529b),Spec Dept,Iowa Workforce Development,Iowa Workforce Development,5456,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0529c),Spec Dept,Education,Etoanduic,13358,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0529d),Spec Dept,Human Services,Huma%n Services,14859,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0529e),Spec Dept,Iowa Veterans Home,Iowa VetCerans Home,3267,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e0529f),Spec Dept,Iowa Workforce Development,Iowa Workforce Development,4084,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a0),Spec Dept,Human Services,Hu_un Services,15544,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a1),Spec Dept,Economic Development Authority,AtciEiocmnoehy enmDtrpveo lout,11349,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a2),Spec Dept,Administrative Services,AdministrLative Services,8782,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a3),Spec Dept,Education,EducaBtion,13608,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a4),Spec Dept,Public Defense,sePnfl ieucDeb,17232,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a5),Spec Dept,Civil Rights Commission,v miiCnhmtoR siCosgiisl,13864,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a6),Spec Dept,Human Services,17369,15357,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a7),Spec Dept,Inspections & Appeals,19042,17030,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a8),Spec Dept,Iowa Workforce Development,Iow2 7or3force SA0eRTpmk]t,18968,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052a9),Spec Dept,Economic Development Authority,E*onqm'c g*v@>fpmeVt Adtho'ity,11269,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052aa),Spec Dept,Attorney General,450.5,18507,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052ab),Spec Dept,Blind,,13784,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052ac),Spec Dept,Iowa Workforce Development,Iowa Workforyce Development,4088,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052ad),Spec Dept,Iowa Workforce Development,ewcovrIketmorl eonpoDfae W,4427,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052ae),Spec Dept,Economic Development Authority,EconVomic Development Authority,8434,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052af),Spec Dept,Transportation,"7:a!sp!rtatio,",6251,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052b0),Spec Dept,Natural Resources,eaRtrNulo screusa,12852,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052b1),Spec Dept,Iowa Workforce Development,Iowa Wo!8f$rRe 1eve2opment,1749,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052b2),Spec Dept,Blind,nBidl,13770,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052b3),Spec Dept,Administrative Services,Ad7ministrative Services,11087,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052b4),Spec Dept,Natural Resources,Natur.a Reso/rcHt,12964,Accuracy,lowa_0
+ObjectId(5dd459da760b2a2f58e052b5),Spec Dept,Natural Resources,NaturalSR[so3pLCW,12680,Accuracy,lowa_0
+ObjectId(5dd459de760b2a34f87a6e66),Spec Dept,Public Safety,,2648,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e67),Spec Dept,Public Defense,,2492,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e68),Spec Dept,Corrections,,9959,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e69),Spec Dept,Revenue,,3175,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e6a),Spec Dept,Education,,13606,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e6b),Spec Dept,Education,,13572,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e6c),Spec Dept,Human Rights,,9226,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e6d),Spec Dept,Human Services,,14860,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e6e),Spec Dept,Revenue,,18016,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e6f),Spec Dept,Iowa Workforce Development,,5043,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e70),Spec Dept,Human Services,,16358,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e71),Spec Dept,Public Defense,,2562,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e72),Spec Dept,Economic Development Authority,,5738,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e73),Spec Dept,Inspections & Appeals,,16986,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e74),Spec Dept,Human Services,,14934,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e75),Spec Dept,Natural Resources,,12959,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e76),Spec Dept,Commerce,,16454,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e77),Spec Dept,Natural Resources,,12679,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e78),Spec Dept,Public Defense,,2296,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e79),Spec Dept,Corrections,,10112,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e7a),Spec Dept,Iowa Workforce Development,,19489,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e7b),Spec Dept,Public Defense,,17435,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e7c),Spec Dept,Natural Resources,,12758,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e7d),Spec Dept,Judicial Branch,,10869,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e7e),Spec Dept,Corrections,,9954,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e7f),Spec Dept,Regents,,14384,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e80),Spec Dept,Regents,,14378,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e81),Spec Dept,Revenue,,3104,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e82),Spec Dept,Iowa Veterans Home Capital,,9212,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e83),Spec Dept,Public Safety,,17774,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e84),Spec Dept,Iowa Veterans Home,,3273,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e85),Spec Dept,Human Services,,16234,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e86),Spec Dept,Iowa Veterans Home,,3481,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e87),Spec Dept,Iowa Workforce Development,,19589,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e88),Spec Dept,Natural Resources,,12494,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e89),Spec Dept,Iowa Workforce Development,,5590,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e8a),Spec Dept,Public Safety,,17795,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e8b),Spec Dept,State Public Defender,,16689,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e8c),Spec Dept,Human Services,,146,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e8d),Spec Dept,Human Services,,15497,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e8e),Spec Dept,Inspections & Appeals,,17105,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e8f),Spec Dept,Iowa Workforce Development,,4579,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e90),Spec Dept,Public Safety,,2937,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e91),Spec Dept,Cultural Affairs,,13269,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e92),Spec Dept,Inspections & Appeals,,3931,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e93),Spec Dept,Iowa Workforce Development,,4198,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e94),Spec Dept,Iowa Workforce Development,,16490,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e95),Spec Dept,Human Services,,16094,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e96),Spec Dept,Human Services,,1058,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e97),Spec Dept,Public Safety,,2997,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e98),Spec Dept,Human Services,,16096,Consistency,lowa_0
+ObjectId(5dd459de760b2a34f87a6e99),Spec Dept,Public Health,,6543,Consistency,lowa_0
+ObjectId(5dd459e2760b2a3618a49598),Spec Dept,Iowa Workforce Development,IenDImowoenmplraweeeretDnm,5171,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a49599),Spec Dept,Iowa Workforce Development,nIenertWpWofoDtaoo eeeeeto,4902,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a4959a),Spec Dept,Corrections,iernoctrCos,10446,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a4959b),Spec Dept,Public Health," uclatleiHhPb",6926,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a4959c),Spec Dept,Iowa Workforce Development,pmeweWtkoelaDfoner roIvoc ,19865,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a4959d),Spec Dept,Public Defense,suue selcbefeD,17250,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a4959e),Spec Dept,Public Health,"  ePPubh PuPc",6886,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a4959f),Spec Dept,Public Health,hbeuaeahlu aH,6775,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a0),Spec Dept,Transportation,napprtonnsrsro,6035,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a1),Spec Dept,Education,Euaontidc,13542,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a2),Spec Dept,Public Health,taehlclbiPH u,3781,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a3),Spec Dept,Iowa Workforce Development,teD cfrrwnaIeo vmoekoloWep,9398,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a4),Spec Dept,Corrections,rrsonCcetoi,9994,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a5),Spec Dept,Natural Resources,c auctuaceecerlut,12152,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a6),Spec Dept,Public Safety,ictyePu cu Sl,2835,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a7),Spec Dept,Iowa Workforce Development,clao evlmaafkroe  Ioeaeenl,19758,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a8),Spec Dept,Inspections & Appeals,li&te nnps eaopApcIss,2140,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495a9),Spec Dept,Public Defense,ci fenueinn ee,7426,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495aa),Spec Dept,Inspections & Appeals,aIaea antAciiIspsapAA,2132,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495ab),Spec Dept,Secretary of State,tyeatSoyetoaeyeeaa,11172,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495ac),Spec Dept,Corrections,noooCcroeCi,10151,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495ad),Spec Dept,Public Safety,tSa cbylfeuiP,2890,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495ae),Spec Dept,Iowa Veterans Home,eo eaHrIae mwnsVto,18252,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495af),Spec Dept,Public Safety,ePftbclySi au,2792,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b0),Spec Dept,Corrections,csrotCrnoie,9901,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b1),Spec Dept,Commerce,emmCemce,16442,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b2),Spec Dept,Commerce,oCCercro,8522,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b3),Spec Dept,Human Services,ausevcSenmi rH,15749,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b4),Spec Dept,Education,cacacncEc,13660,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b5),Spec Dept,Corrections,srtriCeonoc,9752,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b6),Spec Dept,Commerce,mCeeeeec,18568,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b7),Spec Dept,Public Safety,elSlSyfclyabl,2980,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b8),Spec Dept,Administrative Services,msAtvirradecseevi tSnii,8881,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495b9),Spec Dept,Public Health,bblcllHPPhtil,6584,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495ba),Spec Dept,Human Services," HieaScmi envr",1048,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495bb),Spec Dept,Public Defense,fc PePubuDuefe,2564,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495bc),Spec Dept,Attorney General,tGnr ley leaAlee,10529,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495bd),Spec Dept,Human Services,veHeSca unsimr,14651,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495be),Spec Dept,Human Services," snHrnueHevius",16350,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495bf),Spec Dept,Corrections,rsiCrieinic,8646,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c0),Spec Dept,Commerce,oeoceoeo,16434,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c1),Spec Dept,Attorney General,ertlGnoytnlteleA,10525,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c2),Spec Dept,Human Services,aaSmaineinrsur,7973,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c3),Spec Dept,Public Defense," PfbliencueDse",7436,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c4),Spec Dept,Natural Resources,aacutressNru Relo,13108,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c5),Spec Dept,Education,dtauEnnan,13504,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c6),Spec Dept,Human Rights,aHmHsta mnsg,4467,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c7),Spec Dept,Human Services,veensHcrmS iua,16233,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c8),Spec Dept,Public Safety,yitSucb eaPfl,3807,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495c9),Spec Dept,Inspections & Appeals,cose app lspepeian cs,17058,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495ca),Spec Dept,Iowa Workforce Development,owIerecofvonpoem k eltaWrD,5713,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495cb),Spec Dept,Iowa Workforce Development,IpaImm eDetepe mmrDr okoer,5419,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495cc),Spec Dept,Public Defense,iPeD se leenee,2524,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495cd),Spec Dept,Revenue,Rveveee,3170,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495ce),Spec Dept,Human Services,Su eHvHre mvrc,1149,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495cf),Spec Dept,Corrections,srnorciCtoe,10340,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d0),Spec Dept,Public Health,cuclliicalulu,6971,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d1),Spec Dept,Natural Resources,aatsoeeaa NesuRue,11684,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d2),Spec Dept,Public Health,uab ellhiPuce,14048,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d3),Spec Dept,Iowa Workforce Development,veInrktoe f eDoloeopamcrwW,9241,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d4),Spec Dept,Corrections,onCecrnroCn,10000,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d5),Spec Dept,Public Defense,n bePeDlifuces,7435,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d6),Spec Dept,Corrections,noCoitrsoer,10308,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d7),Spec Dept,Revenue,eReeeen,3212,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d8),Spec Dept,Transportation,tioannpopnipnn,6325,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495d9),Spec Dept,Agriculture and Land Stewardship,taeaSddrSsaSpcdelesnicrnStaadtAA,11528,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495da),Spec Dept,Iowa Workforce Development,e ooeeapDorltoWfrwm cevInk,5296,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495db),Spec Dept,Economic Development Authority,iDonr ytmnuEh olepAoetctmiveoc,19367,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495dc),Spec Dept,Revenue,uneReev,18031,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495dd),Spec Dept,Commerce,mermemcc,3644,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495de),Spec Dept,Natural Resources,sNroacrotsosusRru,12121,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495df),Spec Dept,Natural Resources,uleraresRcaN tosu,12569,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495e0),Spec Dept,Public Defense,fbelecnsfcsPne,7364,Validity,lowa_0
+ObjectId(5dd459e2760b2a3618a495e1),Spec Dept,State Public Defender,rinftPbte ueDelac eSd,1988,Validity,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b5b),Amount,,,6315,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b5c),Amount,,,6476,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b5d),Amount,,,545,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b5e),Amount,357,,8619,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b5f),Amount,,,14801,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b60),Amount,0.3,,19802,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b61),Amount,,,13425,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b62),Amount,,,481,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b63),Amount,,,6031,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b64),Amount,,,18434,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b65),Amount,,,14441,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b66),Amount,4,,16570,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b67),Amount,,,14918,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b68),Amount,,,3827,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b69),Amount,,,13078,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b6a),Amount,,,2297,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b6b),Amount,,,13843,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b6c),Amount,,,1098,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b6d),Amount,,,8638,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b6e),Amount,45,,8620,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b6f),Amount,1,,1762,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b70),Amount,,,9192,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b71),Amount,195.5,,17127,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b72),Amount,2,,1623,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b73),Amount,,,17729,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b74),Amount,42,,19661,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b75),Amount,,,6400,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b76),Amount,92.94,,18235,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b77),Amount,,,7779,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b78),Amount,,,11073,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b79),Amount,466.04,,16584,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b7a),Amount,1,,8623,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b7b),Amount,,,12225,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b7c),Amount,,,11014,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b7d),Amount,,,18499,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b7e),Amount,,,867,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b7f),Amount,,,1951,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b80),Amount,,,10261,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b81),Amount,,,16077,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b82),Amount,5.38,,3315,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b83),Amount,,,11130,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b84),Amount,103.41,,5501,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b85),Amount,,,17080,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b86),Amount,,,15079,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b87),Amount,,,14351,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b88),Amount,,,6562,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b89),Amount,55.96,,9230,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b8a),Amount,,,6258,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b8b),Amount,93.49,,11273,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b8c),Amount,-1,,2255,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b8d),Amount,,,14815,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b8e),Amount,1,,18227,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b8f),Amount,21.67,,18156,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b90),Amount,90.13,,11372,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b91),Amount,,,8940,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b92),Amount,-728.75,,18982,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b93),Amount,,,16672,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b94),Amount,,,14929,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b95),Amount,,,6220,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b96),Amount,,,17965,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b97),Amount,295,,11465,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b98),Amount,8.27,,5098,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b99),Amount,,,15187,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b9a),Amount,29,,19531,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b9b),Amount,,,14374,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b9c),Amount,,,3733,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b9d),Amount,,,6611,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b9e),Amount,5,,8437,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6b9f),Amount,,,13792,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6ba0),Amount,,,529,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6ba1),Amount,,,3670,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6ba2),Amount,,,18662,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6ba3),Amount,,,14282,Completeness,lowa_0
+ObjectId(5dd459e7760b2a326c3a6ba4),Amount,,,16175,Completeness,lowa_0
+ObjectId(5dd459ef760b2a2f58e052b8),Amount,454.98,454.9l8,4066,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052b9),Amount,,Administration and Regulation,17044,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052ba),Amount,19.--05,5.-1-09,4582,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052bb),Amount,,,13647,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052bc),Amount,126.66,b2A.66,9467,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052bd),Amount,,,3126,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052be),Amount,-0.02,Economic Development,4131,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052bf),Amount,,6,7165,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052c0),Amount,,null,1985,Accuracy,lowa_0
+ObjectId(5dd459ef760b2a2f58e052c1),Amount,,,12816,Accuracy,lowa_0
+ObjectId(5dd459f2760b2a34f87a6e9c),Amount,497.41,,11300,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6e9d),Amount,734.32,,11286,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6e9e),Amount,-597.5,,18986,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6e9f),Amount,359.56,,11568,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea0),Amount,1,,5916,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea1),Amount,62.75,,9663,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea2),Amount,110.08,,4370,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea3),Amount,1,,18188,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea4),Amount,104.75,,4971,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea5),Amount,3,,19853,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea6),Amount,14,,8097,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea7),Amount,33,,3594,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea8),Amount,1,,19588,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ea9),Amount,48,,8224,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6eaa),Amount,15,,10834,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6eab),Amount,3,,10755,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6eac),Amount,18.59,,5187,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6ead),Amount,398.88,,5479,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6eae),Amount,55.05,,19931,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6eaf),Amount,68.97,,11476,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6eb0),Amount,27.35,,4671,Consistency,lowa_0
+ObjectId(5dd459f3760b2a34f87a6eb1),Amount,24.42,,18349,Consistency,lowa_0
+ObjectId(5dd459f8760b2a3618a495e4),Amount,,,3789,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495e5),Amount,337.8,37887,1746,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495e6),Amount,,,14134,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495e7),Amount,2,2,10927,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495e8),Amount,,,12440,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495e9),Amount,,,7881,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495ea),Amount,,,15339,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495eb),Amount,6.5,66.,9435,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495ec),Amount,,,12546,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495ed),Amount,385.34,338.38,8564,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495ee),Amount,,,8952,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495ef),Amount,,,11858,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f0),Amount,3,3,5025,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f1),Amount,,,5795,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f2),Amount,,,967,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f3),Amount,,,3113,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f4),Amount,,,17839,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f5),Amount,217.26,12262.,4983,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f6),Amount,13,33,9286,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f7),Amount,,,10487,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f8),Amount,,,2032,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495f9),Amount,,,19437,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495fa),Amount,,,4438,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495fb),Amount,1,1,9446,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495fc),Amount,494.67,.747.7,11333,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495fd),Amount,,,9048,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495fe),Amount,,,19278,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a495ff),Amount,,,2684,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49600),Amount,61,11,9488,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49601),Amount,,,17117,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49602),Amount,,,11078,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49603),Amount,72,27,8688,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49604),Amount,,,7772,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49605),Amount,,,16823,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49606),Amount,,,7066,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49607),Amount,996.48,4496.8,19926,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49608),Amount,,,5776,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49609),Amount,,,3819,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4960a),Amount,1,1,19702,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4960b),Amount,,,12407,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4960c),Amount,,,12748,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4960d),Amount,,,12966,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4960e),Amount,,,5772,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4960f),Amount,,,13468,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49610),Amount,,,14716,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49611),Amount,218.02,210.28,4619,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49612),Amount,A,A,5326,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49613),Amount,,,7064,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49614),Amount,,,431,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49615),Amount,,,5944,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49616),Amount,,,868,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49617),Amount,1,1,19284,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49618),Amount,,,10233,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49619),Amount,,,6209,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4961a),Amount,1,1,9401,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4961b),Amount,,,12560,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4961c),Amount,,,13264,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4961d),Amount,,,12920,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4961e),Amount,,,172,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4961f),Amount,,,9950,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49620),Amount,,,7934,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49621),Amount,8.17,8.77,5709,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49622),Amount,,,11040,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49623),Amount,,,8874,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49624),Amount,,,17535,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49625),Amount,,,11914,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49626),Amount,,,16063,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49627),Amount,33.56,55556,4386,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49628),Amount,,,1394,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a49629),Amount,,,756,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4962a),Amount,,,6982,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4962b),Amount,12,12,4634,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4962c),Amount,,,10260,Validity,lowa_0
+ObjectId(5dd459f8760b2a3618a4962d),Amount,,,7486,Validity,lowa_0
+ObjectId(5dd459fc760b2a326c3a6ba7),Budget FY,17692,,15680,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6ba8),Budget FY,5962,,3950,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6ba9),Budget FY,18834,,16822,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6baa),Budget FY,18323,,16312,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bab),Budget FY,9002,,6990,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bac),Budget FY,5981,,3969,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bad),Budget FY,12058,,10046,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bae),Budget FY,5901,,3889,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6baf),Budget FY,21454,,19442,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb0),Budget FY,5496,,3495,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb1),Budget FY,9424,,7413,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb2),Budget FY,6894,,4882,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb3),Budget FY,9393,,7381,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb4),Budget FY,14343,,12331,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb5),Budget FY,5632,,3617,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb6),Budget FY,10928,,8916,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb7),Budget FY,9072,,7059,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb8),Budget FY,12953,,10941,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bb9),Budget FY,3870,,1855,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bba),Budget FY,19038,,17027,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bbb),Budget FY,17978,,15966,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bbc),Budget FY,8457,,6445,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bbd),Budget FY,14547,,12535,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bbe),Budget FY,18823,,16811,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bbf),Budget FY,11520,,9508,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc0),Budget FY,18257,,16245,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc1),Budget FY,21311,,19298,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc2),Budget FY,7077,,5064,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc3),Budget FY,4825,,2810,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc4),Budget FY,21345,,19333,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc5),Budget FY,5330,,3318,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc6),Budget FY,6990,,4978,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc7),Budget FY,20055,,18043,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc8),Budget FY,2636,,622,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bc9),Budget FY,14077,,12066,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bca),Budget FY,11292,,9280,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bcb),Budget FY,12488,,10476,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bcc),Budget FY,21148,,19136,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bcd),Budget FY,9935,,7923,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bce),Budget FY,21288,,19276,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bcf),Budget FY,5645,,3631,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd0),Budget FY,11028,,9016,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd1),Budget FY,2092,,80,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd2),Budget FY,8933,,6921,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd3),Budget FY,4620,,2611,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd4),Budget FY,4032,,2020,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd5),Budget FY,21787,,19776,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd6),Budget FY,16676,,14664,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd7),Budget FY,5520,,3508,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd8),Budget FY,2940,,925,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bd9),Budget FY,10252,,8240,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bda),Budget FY,12014,,10002,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bdb),Budget FY,8577,,6565,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bdc),Budget FY,2230,,218,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bdd),Budget FY,8377,,6365,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bde),Budget FY,20504,,18492,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bdf),Budget FY,19296,,17284,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be0),Budget FY,13547,,11535,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be1),Budget FY,7155,,5143,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be2),Budget FY,18479,,16467,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be3),Budget FY,12815,,10803,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be4),Budget FY,20455,,18443,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be5),Budget FY,17469,,15457,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be6),Budget FY,6228,,4213,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be7),Budget FY,17527,,15515,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be8),Budget FY,11814,,9800,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6be9),Budget FY,20636,,18624,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bea),Budget FY,21333,,19321,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6beb),Budget FY,8689,,6677,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bec),Budget FY,12364,,10352,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bed),Budget FY,12449,,10437,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bee),Budget FY,18995,,16980,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bef),Budget FY,14130,,12118,Completeness,lowa_0
+ObjectId(5dd459fc760b2a326c3a6bf0),Budget FY,19934,,17922,Completeness,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eb4),Budget FY,20457,,18446,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eb5),Budget FY,13523,,11510,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eb6),Budget FY,6017,,4005,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eb7),Budget FY,21588,,19577,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eb8),Budget FY,5697,,3685,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eb9),Budget FY,11471,,9458,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eba),Budget FY,6511,,4499,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ebb),Budget FY,20330,,18318,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ebc),Budget FY,10394,,8382,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ebd),Budget FY,6555,,4543,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ebe),Budget FY,20369,,18357,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ebf),Budget FY,11354,,9342,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec0),Budget FY,9354,,7342,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec1),Budget FY,6861,,4849,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec2),Budget FY,18145,,16133,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec3),Budget FY,10573,,8561,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec4),Budget FY,12618,,10606,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec5),Budget FY,15901,,13889,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec6),Budget FY,13239,,11227,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec7),Budget FY,19243,,17230,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec8),Budget FY,4172,,2160,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ec9),Budget FY,8084,,6076,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eca),Budget FY,14687,,12675,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ecb),Budget FY,13724,,11712,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ecc),Budget FY,8147,,6135,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ecd),Budget FY,5223,,3211,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ece),Budget FY,10929,,8917,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ecf),Budget FY,10114,,8102,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed0),Budget FY,17386,,15374,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed1),Budget FY,18545,,16533,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed2),Budget FY,13785,,11774,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed3),Budget FY,7815,,5803,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed4),Budget FY,18456,,16441,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed5),Budget FY,18496,,16484,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed6),Budget FY,19184,,17170,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed7),Budget FY,13347,,11334,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed8),Budget FY,20208,,18196,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ed9),Budget FY,7085,,5073,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eda),Budget FY,18595,,16583,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6edb),Budget FY,19031,,17019,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6edc),Budget FY,8997,,6985,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6edd),Budget FY,4971,,2959,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ede),Budget FY,16142,,14129,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6edf),Budget FY,5400,,3385,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee0),Budget FY,9114,,7102,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee1),Budget FY,4729,,2718,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee2),Budget FY,9248,,7236,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee3),Budget FY,9552,,7554,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee4),Budget FY,19632,,17620,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee5),Budget FY,19475,,17463,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee6),Budget FY,4940,,2928,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee7),Budget FY,17137,,15125,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee8),Budget FY,4788,,2776,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ee9),Budget FY,2382,,370,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eea),Budget FY,10750,,8738,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eeb),Budget FY,4474,,2462,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eec),Budget FY,5784,,3772,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eed),Budget FY,3333,,1321,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eee),Budget FY,21610,,19598,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6eef),Budget FY,10232,,8220,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef0),Budget FY,5972,,3960,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef1),Budget FY,11178,,9166,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef2),Budget FY,3732,,1720,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef3),Budget FY,16755,,14742,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef4),Budget FY,17436,,15425,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef5),Budget FY,21698,,19685,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef6),Budget FY,22000,,19988,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef7),Budget FY,15805,,13796,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef8),Budget FY,12133,,10121,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6ef9),Budget FY,15158,,13144,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6efa),Budget FY,17848,,15833,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6efb),Budget FY,19225,,17212,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6efc),Budget FY,6526,,4514,Consistency,lowa_0
+ObjectId(5dd459ff760b2a34f87a6efd),Budget FY,14390,,12379,Consistency,lowa_0
+ObjectId(5dd45a03760b2a3618a49630),Budget FY,12885,NrUmW                                                         ,10873,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49631),Budget FY,18515,5097Q                                                         ,16503,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49632),Budget FY,12889,dYRQF                                                         ,10877,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49633),Budget FY,16139,l2nLc                                                         ,14127,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49634),Budget FY,10194,XMEwc                                                         ,8182,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49635),Budget FY,6431,UuTu                                                          ,4418,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49636),Budget FY,15145,r8fHp                                                         ,13133,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49637),Budget FY,13615,n3jCn                                                         ,11604,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49638),Budget FY,4190,DoRk                                                          ,2178,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49639),Budget FY,14389,fYU6B                                                         ,12377,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4963a),Budget FY,3209,WknY                                                          ,1201,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4963b),Budget FY,8321,vqa5                                                          ,6309,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4963c),Budget FY,5252,xqzo                                                          ,3240,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4963d),Budget FY,8834,6etl                                                          ,6822,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4963e),Budget FY,12756,jsZLl                                                         ,10744,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4963f),Budget FY,13051,ejrtU                                                         ,11039,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49640),Budget FY,13845,x2mVS                                                         ,11832,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49641),Budget FY,14693,slsPb                                                         ,12681,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49642),Budget FY,16480,W0Ncg                                                         ,14466,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49643),Budget FY,9151,xoxa                                                          ,7136,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49644),Budget FY,15638,WV3Ny                                                         ,13625,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49645),Budget FY,20624,P5vC0                                                         ,18609,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49646),Budget FY,16607,kCrbc                                                         ,14595,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49647),Budget FY,9499,WP5X                                                          ,7484,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49648),Budget FY,13173,10cZk                                                         ,11161,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49649),Budget FY,16611,ng9uU                                                         ,14599,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4964a),Budget FY,17051,whDhH                                                         ,15039,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4964b),Budget FY,16331,Ze2bz                                                         ,14318,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4964c),Budget FY,16939,Upgux                                                         ,14927,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4964d),Budget FY,14410,w3q5k                                                         ,12398,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4964e),Budget FY,4217,JsIK                                                          ,2205,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4964f),Budget FY,19175,1vKVB                                                         ,17160,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49650),Budget FY,8290,HRgA                                                          ,6278,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49651),Budget FY,19242,S2K8i                                                         ,17228,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49652),Budget FY,13061,IO17o                                                         ,11049,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49653),Budget FY,6466,MRTY                                                          ,4454,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49654),Budget FY,5434,v2zk                                                          ,3422,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49655),Budget FY,7158,Zcy2                                                          ,5146,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49656),Budget FY,19889,71TBB                                                         ,17877,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49657),Budget FY,20395,KYvik                                                         ,18382,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49658),Budget FY,8394,SfIy                                                          ,6382,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49659),Budget FY,8483,qw0Q                                                          ,6470,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4965a),Budget FY,17170,QlnlY                                                         ,15158,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4965b),Budget FY,3858,4Ii1                                                          ,1845,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4965c),Budget FY,14013,bbsuY                                                         ,12001,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4965d),Budget FY,5357,hl6C                                                          ,3342,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4965e),Budget FY,3536,SfG1                                                          ,1524,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4965f),Budget FY,18570,LAV0J                                                         ,16557,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49660),Budget FY,10514,nm7gn                                                         ,8502,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49661),Budget FY,16226,mbuLl                                                         ,14214,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49662),Budget FY,17006,kh1k3                                                         ,14994,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49663),Budget FY,13545,HJBWF                                                         ,11533,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49664),Budget FY,9440,eTYM                                                          ,7428,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49665),Budget FY,3385,wHb5                                                          ,1373,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49666),Budget FY,5841,cUQ8                                                          ,3829,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49667),Budget FY,8007,S7QO                                                          ,5995,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49668),Budget FY,2135,crlk                                                          ,122,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49669),Budget FY,12981,Rarbt                                                         ,10969,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4966a),Budget FY,20061,fAkaY                                                         ,18049,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4966b),Budget FY,16252,8XwrP                                                         ,14240,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4966c),Budget FY,9386,nJrJ                                                          ,7374,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4966d),Budget FY,14987,8LN59                                                         ,12975,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4966e),Budget FY,21569,MdvkR                                                         ,19558,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a4966f),Budget FY,18288,x9CYR                                                         ,16276,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49670),Budget FY,9717,bBYC                                                          ,7705,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49671),Budget FY,9281,AQEC                                                          ,7269,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49672),Budget FY,4242,pxAM                                                          ,2230,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49673),Budget FY,7571,o6V3                                                          ,5559,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49674),Budget FY,19395,sVvtf                                                         ,17383,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49675),Budget FY,11622,3PaPy                                                         ,9610,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49676),Budget FY,7222,cfCF                                                          ,5210,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49677),Budget FY,16985,Em89e                                                         ,14973,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49678),Budget FY,13794,sG0oG                                                         ,11782,Validity,lowa_0
+ObjectId(5dd45a03760b2a3618a49679),Budget FY,14703,jctSO                                                         ,12699,Validity,lowa_0
+ObjectId(5dd45a07760b2a2f58e052c4),Budget FY,9990,-9990,7978,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052c5),Budget FY,15741,-15741,13729,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052c6),Budget FY,16203,7,14191,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052c7),Budget FY,9890,Human Services,7878,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052c8),Budget FY,4438,6,2426,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052c9),Budget FY,20316,Human Services,18304,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052ca),Budget FY,18166,7,16154,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052cb),Budget FY,20959,7,18947,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052cc),Budget FY,5739,-5739,3727,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052cd),Budget FY,8951,-8951,6939,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052ce),Budget FY,21993,-21993,19981,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052cf),Budget FY,9654,"{""$oid"":""5dd45472fb2e3fb3243c2df3""}",7642,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d0),Budget FY,21109,Iowa Workforce Development,19097,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d1),Budget FY,10248,1,8235,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d2),Budget FY,9705,Education,7693,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d3),Budget FY,4544,-4544,2532,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d4),Budget FY,5168,"{""$oid"":""5dd45472fb2e3fb3243c1c6d""}",3156,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d5),Budget FY,10890,-10890,8876,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d6),Budget FY,21789,-21789,19777,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d7),Budget FY,8265,Transportation,6253,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d8),Budget FY,15828,"{""$oid"":""5dd45472fb2e3fb3243c4611""}",13816,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052d9),Budget FY,16904,,14892,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052da),Budget FY,9886,-9886,7875,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052db),Budget FY,13722,January,11710,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052dc),Budget FY,21645,Economic Development,19633,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052dd),Budget FY,15298,,13292,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052de),Budget FY,11005,"{""$oid"":""5dd45472fb2e3fb3243c333a""}",8993,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052df),Budget FY,10917,,8905,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e0),Budget FY,12423,Corrections,10408,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e1),Budget FY,10800,Administrative Services,8788,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e2),Budget FY,4480,,2468,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e3),Budget FY,7303,December,5291,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e4),Budget FY,17367,January,15355,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e5),Budget FY,9733,-9733,7728,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e6),Budget FY,15826,,13814,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e7),Budget FY,2248,"{""$oid"":""5dd45471fb2e3fb3243c1105""}",236,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e8),Budget FY,2694,Human Services,679,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052e9),Budget FY,4827,"{""$oid"":""5dd45471fb2e3fb3243c1b17""}",2814,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052ea),Budget FY,2604,"{""$oid"":""5dd45471fb2e3fb3243c1269""}",592,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052eb),Budget FY,21772,-21772,19760,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052ec),Budget FY,4520,December,2508,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052ed),Budget FY,19970,-19970,17958,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052ee),Budget FY,5970,"{""$oid"":""5dd45472fb2e3fb3243c1f8f""}",3958,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052ef),Budget FY,10669,-10669,8654,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f0),Budget FY,19281,Public Defense,17269,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f1),Budget FY,16805,-16805,14793,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f2),Budget FY,5085,6,3075,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f3),Budget FY,14997,-14997,12985,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f4),Budget FY,19543,,17532,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f5),Budget FY,4273,-4273,2261,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f6),Budget FY,21382,-21382,19370,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f7),Budget FY,15023,7,13011,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f8),Budget FY,17073,-17073,15061,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052f9),Budget FY,11475,-11475,9463,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052fa),Budget FY,15555,January,13543,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052fb),Budget FY,8003,-8003,5991,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052fc),Budget FY,20204,Human Services,18193,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052fd),Budget FY,18907,-18907,16895,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052fe),Budget FY,18874,-18874,16862,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e052ff),Budget FY,12841,-12841,10835,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05300),Budget FY,18066,-18066,16054,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05301),Budget FY,2926,"{""$oid"":""5dd45471fb2e3fb3243c13ad""}",916,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05302),Budget FY,20160,-20160,18147,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05303),Budget FY,15311,7,13296,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05304),Budget FY,14557,7,12545,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05305),Budget FY,10756,December,8744,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05306),Budget FY,12766,-12766,10754,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05307),Budget FY,11117,-11117,9105,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05308),Budget FY,2797,6,782,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e05309),Budget FY,10387,-10387,8374,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e0530a),Budget FY,7304,-7304,5292,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e0530b),Budget FY,21535,200.34,19521,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e0530c),Budget FY,19012,-19012,17000,Accuracy,lowa_0
+ObjectId(5dd45a07760b2a2f58e0530d),Budget FY,2925,-2925,913,Accuracy,lowa_0
