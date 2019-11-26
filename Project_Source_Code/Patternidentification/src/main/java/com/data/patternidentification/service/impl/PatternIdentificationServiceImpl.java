@@ -103,10 +103,11 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					String smallAphabetFillteredStr = null;
 					Boolean matchFound = false;
 					columnPatternDetails = new DatasetStats();
+					String columnnamelowercase = columnHeaders.get(z).toLowerCase();
 					/*
 					 * if (columnDataIterator == 0) { continue; }
 					 */
-					if (columnHeaders.get(z).contains("Date") || columnHeaders.get(z).contains("Time")) {
+					if (columnnamelowercase.contains("date") || columnnamelowercase.equalsIgnoreCase("date")) {
 						smallAphabetFillteredStr = findPatternForDate(columnData.get(columnDataIterator));
 					}
 					// patternIdentificationLogic
@@ -195,6 +196,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 		String[] dataPattern = new String[2];
 		String dateseparator = null;
 		int dateFormatIterator = 0;
+		try {
 		if (!value.isEmpty() &&  null != value ) {
 			if (value.contains("-")) {
 				datepieces = value.split("-");
@@ -206,6 +208,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 				datepieces = value.split("/");
 				dateseparator = "/";
 			}
+			System.out.println("value date:"+value);
 			System.out.println("date: " + datepieces[0] + "   " + datepieces[1] + "  " + datepieces[2] + "  ");
 			int date1 = Integer.parseInt(datepieces[0]);
 			int date2 = Integer.parseInt(datepieces[1]);
@@ -231,15 +234,17 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 					}
 					else
 					{
-						dataPattern[i] = "MM-dd";
+						dataPattern[i] = "MM"+dateseparator+"dd";
 					}
-					
 					break;
+				case 1:
+					dataPattern[i] = "dd"+dateseparator+"MM";
 				}
 			}
 			
 		 finalDatePattern = dataPattern[0] +dateseparator+ dataPattern[1];
 		 System.out.println("finalDatePattern:"+finalDatePattern);
+		
 			/*
 			 * List<String> dateFormats =
 			 * Arrays.asList("dd-MM-yyyy","dd/MM/yyyy","dd.MM.yyyy"); // "yyyy-MM-dd", //
@@ -264,6 +269,11 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 			// return dateFormats.get(dateFormatIterator);
 			
 		}
+	}catch(Exception e){
+		System.out.println("in exception due to value: "+value);
+		return null;
+	}
+		
 		return finalDatePattern;
 	}
 

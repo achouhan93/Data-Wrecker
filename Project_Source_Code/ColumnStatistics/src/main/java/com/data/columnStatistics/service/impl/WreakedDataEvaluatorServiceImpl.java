@@ -114,7 +114,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 */
 							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
 							dbList.getJSONObject(i).put("isWreaked", true);
-							// System.out.println("+++++++++++"+dbList);
+							System.out.println("invalid value: "+colValue+" for datatype :Boolean");
 						}
 						break;
 						//int ^-?(0|[1-9]\\d*)(?<!-0)$
@@ -125,7 +125,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * System.out.println("Record Data ColumnName " + columnName + " ColumnValue " +
 							 * colValue + " DataType " + columnDataTypeList.get(j) );
 							 */
-							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
+							System.out.println("invalid value: "+colValue+" for datatype :Integer");
 							dbList.getJSONObject(i).put("isWreaked", true);
 						}
 						break;
