@@ -208,8 +208,8 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 				datepieces = value.split("/");
 				dateseparator = "/";
 			}
-			System.out.println("value date:"+value);
-			System.out.println("date: " + datepieces[0] + "   " + datepieces[1] + "  " + datepieces[2] + "  ");
+			//System.out.println("value date:"+value);
+			//System.out.println("date: " + datepieces[0] + "   " + datepieces[1] + "  " + datepieces[2] + "  ");
 			int date1 = Integer.parseInt(datepieces[0]);
 			int date2 = Integer.parseInt(datepieces[1]);
 			int date3 = Integer.parseInt(datepieces[2]);
@@ -243,7 +243,7 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 			}
 			
 		 finalDatePattern = dataPattern[0] +dateseparator+ dataPattern[1];
-		 System.out.println("finalDatePattern:"+finalDatePattern);
+		 //System.out.println("finalDatePattern:"+finalDatePattern);
 		
 			/*
 			 * List<String> dateFormats =

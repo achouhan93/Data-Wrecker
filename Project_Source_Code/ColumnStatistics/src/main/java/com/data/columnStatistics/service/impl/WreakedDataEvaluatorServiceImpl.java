@@ -52,8 +52,8 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 			while (cursor.hasNext()) {
 				String singleRowRecordStr = cursor.next().toString();
 				JSONObject jsnobj = new JSONObject(singleRowRecordStr);
-				jsnobj.put("isWreaked", false);
-				dbList.put(jsnobj); // getting all the records into a list as json Objects
+				jsnobj.put("isWrecked", false);
+				dbList.put(jsnobj); // getting all the records into a list as json Objects isWrecked
 				datasetSize++;
 				// System.out.println("Data Record is "+jsnobj.toString());
 				/*
@@ -76,7 +76,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 		List<String> columnDataTypeList = new ArrayList<String>();
 		// columnPatternModel.get(i).getProfilingInfo();
 		columnNamesList = getColumnHeaders(dbList.getJSONObject(0));
-		columnNamesList.remove("isWreaked");
+		columnNamesList.remove("isWrecked");
 		System.out.println("+++++" + columnNamesList);
 		for (int i = 0; i < datasetStatsList.size(); i++) {
 			if (datasetStatsList.get(i).getFileName().equals(fileName)) {
@@ -100,9 +100,9 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 				 * System.out.println("Record Data ColumnName " + columnName + " ColumnValue " +
 				 * colValue + " DataType " + columnDataTypeList.get(j));
 				 */
-				// String isWreaked = null;
+				// String isWrecked = null;
 				if (colValue.equals(null)) {
-					dbList.getJSONObject(i).put("isWreaked", true);
+					dbList.getJSONObject(i).put("isWrecked", true);
 					continue;
 				} else {
 					switch (columnDataTypeList.get(j)) {
@@ -113,7 +113,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * colValue + " DataType:" + columnDataTypeList.get(j) );
 							 */
 							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
-							dbList.getJSONObject(i).put("isWreaked", true);
+							dbList.getJSONObject(i).put("isWrecked", true);
 							System.out.println("invalid value: "+colValue+" for datatype :Boolean");
 						}
 						break;
@@ -126,7 +126,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * colValue + " DataType " + columnDataTypeList.get(j) );
 							 */
 							System.out.println("invalid value: "+colValue+" for datatype :Integer");
-							dbList.getJSONObject(i).put("isWreaked", true);
+							dbList.getJSONObject(i).put("isWrecked", true);
 						}
 						break;
 						//dec ^-?[0-9][0-9,.]+$
@@ -138,7 +138,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * colValue + " DataType " + columnDataTypeList.get(j));
 							 */
 							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
-							dbList.getJSONObject(i).put("isWreaked", true);
+							dbList.getJSONObject(i).put("isWrecked", true);
 						}
 						break;
 					case "Date":
@@ -152,7 +152,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * colValue + " DataType " + columnDataTypeList.get(j));
 							 */
 							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
-							dbList.getJSONObject(i).put("isWreaked", true);
+							dbList.getJSONObject(i).put("isWrecked", true);
 						}
 						break;
 					case "Character":
@@ -162,13 +162,13 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * colValue + " DataType " + columnDataTypeList.get(j));
 							 */
 							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
-							dbList.getJSONObject(i).put("isWreaked", true);
+							dbList.getJSONObject(i).put("isWrecked", true);
 						}
 						break;
 						
 					}
 					/*
-					 * if (dbList.getJSONObject(i).get("isWreaked").equals(true)) { break; }
+					 * if (dbList.getJSONObject(i).get("isWrecked").equals(true)) { break; }
 					 */
 				}
 			}
