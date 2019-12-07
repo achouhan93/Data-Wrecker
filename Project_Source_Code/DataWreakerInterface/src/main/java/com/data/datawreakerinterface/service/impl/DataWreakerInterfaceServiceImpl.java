@@ -21,9 +21,12 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.bson.Document;
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.client.RestTemplate;
 
 import com.data.datawreakerinterface.exception.DataWreakernterfaceException;
 import com.data.datawreakerinterface.model.DataProfilerInfo;
@@ -31,10 +34,15 @@ import com.data.datawreakerinterface.model.DatasetDetails;
 import com.data.datawreakerinterface.repository.DataProfilerInfoRepository;
 import com.data.datawreakerinterface.service.DataWreakerIntefaceService;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBObject;
+import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.util.JSON;
 
 
 @Service
@@ -44,6 +52,8 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 	@Autowired
 	private DataProfilerInfoRepository dataProfilerInfoRepo;
 	private DatasetDetails dataSet;
+	private Mongo mongo;
+	private DB db;
 
 	public DatasetDetails putCsvDataIntoMongo() throws DataWreakernterfaceException {
 		dataSet = new DatasetDetails();
@@ -51,16 +61,16 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 		String fileName = null;
 		String database = "ReverseEngineering";
 		String[] collectionName = null;
-		File dir = new File("F:\\Datasets\\test");
+		File dir = new File("C:\\dev\\eclipse workspace\\referenceDoc");
 		try {
 			File[] listOfFiles = dir.listFiles();
 
-			for (int i = 0; i < listOfFiles.length; i++) {
-				if (listOfFiles[i].isFile()) {
-					System.out.println("File " + listOfFiles[i].getName());
-					fileName = listOfFiles[i].getName();
-				}
-			}
+			for (int j = 0; j < listOfFiles.length; j++) {
+				if (listOfFiles[j].isFile()) {
+					System.out.println("File " + listOfFiles[j].getName());
+					fileName = listOfFiles[j].getName();
+				//}
+			//}
 			collectionName = fileName.split("\\.");
 			System.out.println(
 					"Executing shell command to import file data into MongoDB with extension " + collectionName[1]);
@@ -118,6 +128,8 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 				throw new DataWreakernterfaceException(
 						com.data.datawreakerinterface.exception.ErrorCodes.SOMETHING_WENT_WRONG);
 			}
+		}
+	}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -267,4 +279,61 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 		return dataProfilerInfo;
 	}
 
+	@Override
+	public DatasetDetails putRefenceColumnDataToMongo() throws IOException {
+		String fileName = null;
+		String database = "ReverseEngineering";
+		String[] collectionName = null;
+		File dir = new File("F:\\Datasets\\test");
+		File[] listOfFiles = dir.listFiles();
+
+		for (int i = 0; i < listOfFiles.length; i++) {
+			if (listOfFiles[i].isFile()) {
+				System.out.println("File " + listOfFiles[i].getName());
+				fileName = listOfFiles[i].getName();
+				collectionName = fileName.split("\\.");	
+				
+			}
+		}
+		
+		
+		collectionName = fileName.split("\\.");	
+		return null;
+	}
+
+	@Override
+	public String referenceDataApiToMongo(String referenceApi, String columnName) throws JSONException {
+		String apiResponseStr = "[";
+		apiResponseStr = apiResponseStr + new RestTemplate().getForObject(referenceApi, String.class);
+		apiResponseStr = apiResponseStr + "]";
+		System.out.println("responseApiStr: "+apiResponseStr);
+		JSONArray apiResponseJson = new JSONArray(apiResponseStr);
+		apiResponseJson.put(apiResponseStr);
+		
+		
+		System.out.println("responseApiJSON: "+apiResponseJson);
+		
+		return addIntoDatabase(columnName,apiResponseJson);
+	}
+	
+	private String addIntoDatabase(String collectionName, JSONArray jsonArray) {
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
+		List<Document> jsonList = new ArrayList<Document>();
+
+		DBCollection collection = db.createCollection(collectionName, null);
+		for (int i = 0; i < jsonArray.length(); i++) {
+
+			DBObject dbObject;
+			try {
+				dbObject = (DBObject) JSON.parse(jsonArray.getJSONObject(i).toString());
+				collection.save(dbObject);
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		 mongo.close();
+		return collectionName;
+	}
 }

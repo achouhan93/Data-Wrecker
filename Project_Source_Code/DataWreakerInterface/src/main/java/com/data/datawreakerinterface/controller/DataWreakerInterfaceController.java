@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,10 +34,24 @@ public class DataWreakerInterfaceController {
 		
 	}
 	
+	@GetMapping("/referenceDataApi")
+	public String referenceDataApiToMongo(@RequestParam String referenceApi,@RequestParam String columnName) throws FileNotFoundException, IOException, DataWreakernterfaceException, JSONException
+	{
+		LOGGER.info("DataPopulationIntoMongo controller");
+		return dataWreakerInterfaceService.referenceDataApiToMongo(referenceApi,columnName);
+		
+	}
+	
 	@GetMapping("/exportDatainCsv")
 	public DatasetDetails exportDataFromMongo(@RequestParam String collectionName) throws FileNotFoundException, IOException, DataWreakernterfaceException
 	{		
 		return dataWreakerInterfaceService.exportDataAsCSV(collectionName);
+	}
+	
+	@GetMapping("/referenceData")
+	public DatasetDetails exportDataFromMongo() throws FileNotFoundException, IOException, DataWreakernterfaceException
+	{		
+		return dataWreakerInterfaceService.putRefenceColumnDataToMongo();
 	}
 	
 }
