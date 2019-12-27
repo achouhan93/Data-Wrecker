@@ -64,12 +64,12 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 	private List<DatasetStats> getDimensionResults(List<DatasetStats> datasetStatsList, int wreckingPercentage) {
 
 		int totalRowCount = datasetStatsList.get(0).getProfilingInfo().getColumnStats().getRowCount();
-		int avgWreckingCount = (totalRowCount * wreckingPercentage) / (100 * 5 * datasetStatsList.size());
+		int avgWreckingCount = (totalRowCount * wreckingPercentage) / (100 * 4 * datasetStatsList.size());
 
 		for(int j =0; j< datasetStatsList.size(); j++) {
 			dimensionsList = new ArrayList<Dimensions>();
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("Date")) {
-				dimensionsList.add(dateService.NullCheck(datasetStatsList.get(j),avgWreckingCount));
+				//dimensionsList.add(dateService.NullCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(dateService.AccuracyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(dateService.ConsistencyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(dateService.ValidityCheck(datasetStatsList.get(j),avgWreckingCount));

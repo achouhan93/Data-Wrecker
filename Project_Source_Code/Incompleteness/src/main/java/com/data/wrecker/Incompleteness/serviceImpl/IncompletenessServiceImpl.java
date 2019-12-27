@@ -14,6 +14,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.data.wrecker.Incompleteness.model.ChangesLog;
+import com.data.wrecker.Incompleteness.model.ColumnStats;
+import com.data.wrecker.Incompleteness.model.DatasetStats;
 import com.data.wrecker.Incompleteness.repository.ChangesLogsRepository;
 import com.data.wrecker.Incompleteness.service.IncompletenessService;
 import com.mongodb.DB;
@@ -138,7 +140,59 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 		 mongo.close();
 		return collectionName;
 	}
-	
-	
+
+
+
+	@Override
+	public String removeValuesForDecimalAndInteger(String collectionName, String columnName, int wreckingCount,
+			DatasetStats datasetStats) {
+		int medianVal = datasetStats.getProfilingInfo().getColumnStats().getAverageValue();
+		JSONArray datasetArray = getDatasetFromDb(collectionName);
+		changesLogList = new ArrayList<ChangesLog>();
+		
+		for(int wr = 0; wr < wreckingCount; wr++) {
+			for(int ds = 0; ds< datasetArray.length();ds++) {
+			
+				try {
+					if(datasetArray.getJSONObject(ds).has("isWrecked")) {
+						if(datasetArray.getJSONObject(ds).getBoolean("isWrecked") == false) {
+							if(datasetArray.getJSONObject(ds).getInt(columnName) == medianVal) {
+								changesLog = new ChangesLog();
+								changesLog.setColumnName(columnName);
+								changesLog.setOid(0);
+								changesLog.setDimensionName("Completeness");
+								changesLog.setDatasetName(collectionName);
+								changesLog.setOldValue(datasetArray.getJSONObject(ds).get(columnName).toString());
+								datasetArray.getJSONObject(ds).put(columnName, "");
+								datasetArray.getJSONObject(ds).put("isWrecked", true);
+								changesLog.setNewValue("");
+								changesLogList.add(changesLog);
+								
+								
+							}
+						}
+					}
+				} catch (JSONException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		}
+		
+		addToDb(changesLogList);
+		
+		return addIntoDatabase(collectionName,datasetArray);
+	}
+
+	@Override
+	public String removeValuesBoolean(String collectionName, String columnName, int wreckingCount,
+			ColumnStats colStats) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
 	
 }

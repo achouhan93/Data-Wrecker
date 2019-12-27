@@ -173,7 +173,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 
 	private ColumnStats performStatsOperation(DatasetStats datasetStats,String fileName, String dateFormat, String booleanTrueValue, String booleanFalseValue) {
 		String columnName = datasetStats.getColumnName();
-		String columnDataType = "String";//datasetStats.getColumnDataType();
+		String columnDataType = datasetStats.getProfilingInfo().getColumnDataType();
 
 		ColumnStats columnStatisticsModel=new ColumnStats();
 		List<String> columnValuesList = columnStatisticsDaoMongo.getColumnValues(dbName, fileName, columnName);

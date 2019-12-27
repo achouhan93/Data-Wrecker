@@ -23,12 +23,10 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 	private static final Logger LOGGER = LogManager.getLogger();
 
 	
-	@Override
+	/*@Override
 	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount) {
 		dimensions = new Dimensions();
 		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount(), Colcount);
-		/*LOGGER.info("Total wreckingPercentage " + wreckingPercentage);
-		LOGGER.info("Total wreck count " + totalRowsCanBeWrecked);*/
 		
 		if(datasetStats.getProfilingInfo().getColumnStats().getNullCount() > totalRowsCanBeWrecked) {
 			dimensions.setDimensionName("Completeness");
@@ -42,9 +40,9 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 			dimensions.setReason("The number of null values less than threshold");
 			return dimensions;
 		}
-	}
+	}*/
 
-	@Override
+	/*@Override
 	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount) {
 		dimensions = new Dimensions();
 		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount(), Colcount);
@@ -71,26 +69,16 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 				
 		}
 		return dimensions;
-	}
+	}*/
 
-	@Override
+	
+	/*@Override
 	public  Dimensions ValidityCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount) {
 		String emailRegex = "^[a-z0-9+_.-]+@(.+)$";
 		int totalRowsCanBeWrecked = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount(), Colcount);
 		dimensions = new Dimensions();
 		
-		/*Pattern pattern = Pattern.compile(emailRegex);
-		for(int i = 0; i < profilerInfo.getRegexInfo().size(); i++) {
-			String regexPattern = profilerInfo.getRegexInfo().get(i).getRegexPattern();
-			Matcher matcher = pattern.matcher(regexPattern);
-			if(matcher.matches()) {
-				if(profilerInfo.getRegexInfo().get(i).getRegexPatternCount() >= 80) {
-					result = false;
-				}else {
-					result = true;
-				}
-			}
-		}*/
+		
 		
 		List<PatternModel> patternModel= new ArrayList<PatternModel>();
 		patternModel = datasetStats.getProfilingInfo().getPatternsIdentified();
@@ -116,7 +104,7 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 				
 		}
 		return dimensions;
-	}
+	}*/
 
 	@Override
 	public Dimensions AccuracyCheck(DatasetStats datasetStats, int wreckingPercentage, int Colcount) {
@@ -153,7 +141,7 @@ public class StringDatatypeServiceImpl implements StringDataTypeService {
 
 	private int noOfRowsToBeWrecked(int wreckingPercentage, int rowCount, int colCount) {
 		
-		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 5 * colCount) ;  
+		int totalRowsCanBeWrecked = (wreckingPercentage * rowCount)/(100 * 2 * colCount) ;  
 		return totalRowsCanBeWrecked;
 		
 	}

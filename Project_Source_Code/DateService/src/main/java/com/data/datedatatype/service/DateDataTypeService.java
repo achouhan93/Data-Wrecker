@@ -5,7 +5,7 @@ import com.data.datedatatype.model.Dimensions;
 
 public interface DateDataTypeService {
 	
-	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage);
+	//public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage);
 	
 	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int wreckingPercentage);
 	

@@ -66,10 +66,10 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 		for(int j =0; j< datasetStatsList.size(); j++) {
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("String")) {
 				dimensionsList = new ArrayList<Dimensions>();
-				dimensionsList.add(dateService.NullCheck(datasetStatsList.get(j),wreckingPercentage, columnCount));
+				// dimensionsList.add(dateService.NullCheck(datasetStatsList.get(j),wreckingPercentage, columnCount));
 				dimensionsList.add(dateService.AccuracyCheck(datasetStatsList.get(j),wreckingPercentage, columnCount));
-				dimensionsList.add(dateService.ConsistencyCheck(datasetStatsList.get(j),wreckingPercentage, columnCount));
-				dimensionsList.add(dateService.ValidityCheck(datasetStatsList.get(j),wreckingPercentage, columnCount));
+				// dimensionsList.add(dateService.ConsistencyCheck(datasetStatsList.get(j),wreckingPercentage, columnCount));
+				// dimensionsList.add(dateService.ValidityCheck(datasetStatsList.get(j),wreckingPercentage, columnCount));
 				dimensionsList.add(dateService.UniquenessCheck(datasetStatsList.get(j), wreckingPercentage, columnCount));
 				datasetStatsList.get(j).setDimensionsList(dimensionsList);
 			}
