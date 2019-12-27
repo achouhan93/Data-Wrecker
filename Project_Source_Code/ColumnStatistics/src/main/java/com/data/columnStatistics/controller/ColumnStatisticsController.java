@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.data.columnStatistics.service.ColumnStatisticsService;
+import com.data.columnStatistics.service.MultiColumnStatisticsService;
 import com.data.columnStatistics.service.WreakedDataEvaluatorService;
 
 @RestController
@@ -16,6 +17,9 @@ public class ColumnStatisticsController {
 	
 	@Autowired
 	ColumnStatisticsService columnStatisticsService;
+	
+	@Autowired
+	MultiColumnStatisticsService multiColumnStatisticsService;
 	
 	@Autowired
 	WreakedDataEvaluatorService wreakedDataEvaluatorService;
@@ -38,5 +42,10 @@ public class ColumnStatisticsController {
 		
 	}
 	
+	@GetMapping("/multiColumnStats")
+	public String multiColumnStats(@RequestParam String fileName) throws JSONException {
+		return multiColumnStatisticsService.multiColumnDataEvaluation(fileName);
+		
+	}
 	
 }
