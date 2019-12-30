@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.CompletableFuture;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,6 +22,7 @@ import com.data.wrecker.orchestrator.entity.Dimensions;
 import com.data.wrecker.orchestrator.repository.DataProfilerInfoRepository;
 import com.data.wrecker.orchestrator.service.CallAllMicroservices;
 import com.data.wrecker.orchestrator.service.CallDataTypeServices;
+import com.data.wrecker.orchestrator.service.CallDataTypeServicesParallel;
 import com.data.wrecker.orchestrator.service.CallDimensionServices;
 import com.data.wrecker.orchestrator.service.GetProfilerInfoFromServices;
 import com.mongodb.DB;
@@ -40,7 +42,9 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	private DataProfilerInfoRepository dataProfilerInfoRepo;
 	@Autowired
 	private CallDimensionServices callDimensionService;
-
+	/*@Autowired
+	private CallDataTypeServicesParallel callDatatypeServicesParallel;
+	*/
 	private static final Logger LOGGER = LogManager.getLogger();
 	private static final String RESULT = "Success";
 	private Mongo mongo;
@@ -72,7 +76,9 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 
 					LOGGER.info("ColumnStatistics Service Successful");
 					LOGGER.info("Data profiling is Completed \n Now calling Datatype services ");
-					result = callDatatypeServices(collectionName, wreckPercentage);
+					
+						result = callDatatypeServices(collectionName, wreckPercentage);
+					
 					LOGGER.info("Result after datatype services " + result);
 
 				}else {
@@ -166,6 +172,25 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		return result;
 	}
 
+	
+	/*
+	private String callDataTypeServicesInParallel(String fileName, int wreckPercentage)throws Throwable  {
+		
+		CompletableFuture<String> booleanRes = callDatatypeServicesParallel.callBooleanService(fileName, wreckPercentage);
+		CompletableFuture<String> stringRes = callDatatypeServicesParallel.callStringService(fileName, wreckPercentage);
+		CompletableFuture<String> integerRes = callDatatypeServicesParallel.callIntegerService(fileName, wreckPercentage);		
+		CompletableFuture<String> charRes = callDatatypeServicesParallel.callCharacterService(fileName, wreckPercentage);
+		CompletableFuture<String> dateRes = callDatatypeServicesParallel.callDateService(fileName, wreckPercentage);
+		CompletableFuture<String> decimalRes = callDatatypeServicesParallel.callDecimalService(fileName, wreckPercentage);
+		
+		System.out.println("Boolean : "+booleanRes+"\nString: "+stringRes+"\n Integer: "+integerRes+"\n char: "+charRes+"\n date: "+dateRes+"\n decimal: "+decimalRes);
+		
+		
+		
+		
+		return "Success";
+	}*/
+	
 	@Override
 	public String callAllDimensionServices(String collectionName,int wreckingPercentage) {
 		List<String> columnHeaders = new ArrayList<String>();
@@ -360,6 +385,12 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 	private List<Integer> getDatasetRecordIDS(int wreckingCount, String collectionName) {
 
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
+		try {
+			System.out.println(datasetArray.getJSONObject(0).has("isWrecked"));
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		List<Integer> wreckingIdsForDimension = new ArrayList<Integer>();
 		Random rand = new Random();
 		for(int t=0; t< wreckingCount; t++) {

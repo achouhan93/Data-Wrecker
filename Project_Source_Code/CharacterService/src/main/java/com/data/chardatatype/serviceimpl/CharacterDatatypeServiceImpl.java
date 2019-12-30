@@ -17,7 +17,7 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 
 	private Dimensions dimensions;
 
-	@Override
+/*	@Override
 	public Dimensions NullCheck(DatasetStats datasetStats,int avgWrecking) {
 
 		dimensions = new Dimensions();
@@ -35,7 +35,7 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 			dimensions.setReason("The number of null values less than the desired count");
 			return dimensions;
 		}
-	}
+	}*/
 
 	@Override
 	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int avgWrecking) {
@@ -91,7 +91,7 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 
 	}
 
-	@Override
+	/*@Override
 	public Dimensions ValidityCheck(DatasetStats datasetStats,int avgWrecking) {
 		dimensions = new Dimensions();
 		//int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
@@ -116,7 +116,7 @@ public class CharacterDatatypeServiceImpl  implements CharacterDataTypeService{
 			dimensions.setRemainingWreakingCount(avgWrecking);
 			return dimensions;
 		}
-	}
+	}*/
 
 	@Override
 	public Dimensions AccuracyCheck(DatasetStats datasetStats,int avgWrecking) {

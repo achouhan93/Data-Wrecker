@@ -21,7 +21,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 	private Dimensions dimensions;
 	private int invalidValues = 0;
 
-	@Override
+	/*@Override
 	public Dimensions NullCheck(DatasetStats datasetStats, int wreckingPercentage) {
 		
 		dimensions = new Dimensions();
@@ -40,7 +40,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			dimensions.setReason("The number of null values less than threshold");
 			return dimensions;
 		}
-	}
+	}*/
 
 	@Override
 	public Dimensions ConsistencyCheck(DatasetStats datasetStats, int totalRowsCanBeWrecked) {

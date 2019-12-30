@@ -1,5 +1,6 @@
 package com.data.booleandatatype.serviceimpl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -43,7 +44,7 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 	@Override
 	public Dimensions ConsistencyCheck(DatasetStats datasetStats,int avgWrecking) {
 		dimensions = new Dimensions();
-		 //int avgWrecking = noOfRowsToBeWrecked(wreckingPercentage, datasetStats.getProfilingInfo().getColumnStats().getRowCount());
+		
 		if(datasetStats.getProfilingInfo().getPatternsIdentified().size() > 2) {
 			if(isConsistent(datasetStats, avgWrecking)) {
 				dimensions.setDimensionName("Consistency");
@@ -137,7 +138,24 @@ public class BooleanDataTypeServiceImpl implements BooleanDataTypeService {
 	
 	private boolean isConsistent(DatasetStats datasetStats, int avgWrecking) {
 		int totalCount = 0;
-	
+	/*	
+		List<FrequencyOfColumnValues> frequentCollValues = new ArrayList<FrequencyOfColumnValues>();
+		String[] booleanValues = {"True","true","T","t","False","false","F","f","1","0"};
+		
+		frequentCollValues = datasetStats.getProfilingInfo().getColumnStats().getFrequencyOfColumnValues();
+		if(!frequentCollValues.isEmpty()) {
+			int count = 0;
+			for(int fq = 0; fq < frequentCollValues.size(); fq++) {
+					if(frequentCollValues.get(fq).getColumnDistinctValue().equals(booleanValues)) {
+						count = count + frequentCollValues.get(fq).getColumnDistinctValueOccurance();
+					}
+			}
+			
+			
+		}else {
+			
+		}
+		*/
 		List<PatternModel> patternModelList = datasetStats.getProfilingInfo().getPatternsIdentified(); 
 				
 		if(patternModelList.size() > 2 ) {
