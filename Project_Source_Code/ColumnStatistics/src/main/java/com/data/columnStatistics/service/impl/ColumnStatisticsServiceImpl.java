@@ -292,8 +292,29 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		case "Boolean":
 			//trueCount = getTrueCount(frequencyOfColumnValuesMap, booleanTrueValue);
 			//falseCount = getFalseCount(columnValuesListWithoutNull);
-			trueCount=frequencyOfColumnValuesMap.get(booleanTrueValue);
-			falseCount=frequencyOfColumnValuesMap.get(booleanFalseValue);
+			/*
+			 * 
+			 * 
+			 * 
+			 * 
+			 * 
+			 * 
+			 * trueCount=frequencyOfColumnValuesMap.get(booleanTrueValue);
+			 * falseCount=frequencyOfColumnValuesMap.get(booleanFalseValue);
+			 *
+			 *
+			 *
+			 *
+			 *
+			 *
+			 *
+			 *
+			 *
+			 */
+			
+			
+			
+			
 			break;
 		default:
 			break;

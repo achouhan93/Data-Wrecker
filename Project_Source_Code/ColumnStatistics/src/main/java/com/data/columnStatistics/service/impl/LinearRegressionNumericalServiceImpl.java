@@ -8,16 +8,16 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
 @Service
-public class LinearRegressionServiceImpl {
+public class LinearRegressionNumericalServiceImpl {
 
 	   private ArrayList<Float> Xdata;
 	    private ArrayList<Float> YData;
 	    private Float result1;
 	    private Float result2;
 	        
-	    public boolean linearRegessionEvaluator(ArrayList<Float> firstColumnData, ArrayList<Float> secoundColumnData) {
+	    public boolean linearRegessionNumericalEvaluator(ArrayList<Float> firstColumnData, ArrayList<Float> secoundColumnData) {
 	    	int predictionMatchCount=0;
-	    	LinearRegressionServiceImpl linearRegressionClassifier = new LinearRegressionServiceImpl( firstColumnData , secoundColumnData );
+	    	LinearRegressionNumericalServiceImpl linearRegressionClassifier = new LinearRegressionNumericalServiceImpl( firstColumnData , secoundColumnData );
 	    	for (int i=0; i<firstColumnData.size();i++)
 	    	{
 	    	Float predictionedValueBasedOnValueProvided = linearRegressionClassifier.predictValue( firstColumnData.get(i), i);
@@ -38,7 +38,7 @@ public class LinearRegressionServiceImpl {
 	    	return false;
 		}
 
-	    public LinearRegressionServiceImpl (ArrayList xdata, ArrayList YData) {
+	    public LinearRegressionNumericalServiceImpl (ArrayList xdata, ArrayList YData) {
 	        Xdata = xdata;
 	        this.YData = YData;
 	    }
