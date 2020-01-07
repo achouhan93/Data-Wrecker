@@ -53,43 +53,51 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType = getColumnDataType(firstCollectionName, columnName);
 		changesLogList = new ArrayList<ChangesLog>();
-		List<Integer> recordIndexes = new ArrayList<Integer>();
+		List<String> recordIndexes = new ArrayList<String>();
 
 		for(String str : wreckingIds) {
-			recordIndexes.add(Integer.valueOf(str));
+			recordIndexes.add(str);
 		}
 
 		try {
 
 			for (int j = 0; j < recordIndexes.size(); j++) {
 
-				String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
-				if (colValue == null || colValue.isEmpty()) {
-					changesLog = new ChangesLog();
-					changesLog.setColumnName(columnName);
-					changesLog.setOid(recordIndexes.get(j));
-					changesLog.setDimensionName("Consistency");
-					changesLog.setDatasetName(collectionName);
-					changesLog.setOldValue(colValue);
-					datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, colValue);
-					datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
-					changesLog.setNewValue(colValue);
-					changesLogList.add(changesLog);
-					//addToDb(changesLog);
+				for(int k = 0; k< datasetArray.length(); k++ ) {
+					
+					if(datasetArray.getJSONObject(k).has("_id") && datasetArray.getJSONObject(k).has("isWrecked")) {
+						if(datasetArray.getJSONObject(k).getJSONObject("_id").getString("$oid").equals(recordIndexes.get(j)) && datasetArray.getJSONObject(k).getBoolean("isWrecked") == false) {
+							String colValue = datasetArray.getJSONObject(k).get(columnName).toString();
+							if (colValue == null || colValue.isEmpty()) {
+								changesLog = new ChangesLog();
+								changesLog.setColumnName(columnName);
+								changesLog.setOid(recordIndexes.get(j));
+								changesLog.setDimensionName("Consistency");
+								changesLog.setDatasetName(collectionName);
+								changesLog.setOldValue(colValue);
+								datasetArray.getJSONObject(k).put(columnName, colValue);
+								datasetArray.getJSONObject(k).put("isWrecked", true);
+								changesLog.setNewValue(colValue);
+								changesLogList.add(changesLog);
+								//addToDb(changesLog);
 
-				} else {
-					changesLog = new ChangesLog();
-					changesLog.setColumnName(columnName);
-					changesLog.setOid(recordIndexes.get(j));
-					changesLog.setDimensionName("Consistency");
-					changesLog.setDatasetName(collectionName);
-					changesLog.setOldValue(colValue);
-					colValue = removeConsistency(colValue, columnDataType);
-					datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, colValue);
-					datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
-					changesLog.setNewValue(colValue);
-					changesLogList.add(changesLog);
-					//addToDb(changesLog);
+							} else {
+								changesLog = new ChangesLog();
+								changesLog.setColumnName(columnName);
+								changesLog.setOid(recordIndexes.get(j));
+								changesLog.setDimensionName("Consistency");
+								changesLog.setDatasetName(collectionName);
+								changesLog.setOldValue(colValue);
+								colValue = removeConsistency(colValue, columnDataType);
+								datasetArray.getJSONObject(k).put(columnName, colValue);
+								datasetArray.getJSONObject(k).put("isWrecked", true);
+								changesLog.setNewValue(colValue);
+								changesLogList.add(changesLog);
+								//addToDb(changesLog);
+							}
+						}
+					}
+					
 				}
 			}
 
@@ -114,31 +122,31 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		switch (columnDatatype.toLowerCase()) {
 		case "string":
 			// LOGGER.info("String");
-			if (colValue.isEmpty()) {
+			if (!colValue.isEmpty()) {
 				result = callServicesForString(colValue);
 			}
 			break;
 		case "integer":
 			// LOGGER.info("Integer");
-			if (colValue.isEmpty()) {
+			if (!colValue.isEmpty()) {
 				result = callServicesForInteger(Integer.parseInt(colValue));
 			}
 			break;
 		case "character":
 			// LOGGER.info("Character");
-			if (colValue.isEmpty()) {
+			if (!colValue.isEmpty()) {
 				result = callServicesForChar(colValue);
 			}
 			break;
 		case "date":
 			// LOGGER.info("Date");
-			if (colValue.isEmpty()) {
+			if (!colValue.isEmpty()) {
 				result = callServicesForDate(colValue);
 			}
 			break;
 		case "boolean":
 			// LOGGER.info("Boolean");
-			if (colValue.isEmpty()) {
+			if (!colValue.isEmpty()) {
 				result = callServicesForBoolean(colValue);
 			}
 		}
@@ -192,22 +200,10 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		int randomNum = getRandomNumber(2);
 		// LOGGER.info("Random number selected " + randomNum);
 		String cha = "";
-		switch (randomNum) {
-		case 0:
-			if (isStringUpper(colValue)) {
-				cha = waysofConsistencyToBeApplied.changeItIntoLowerCase(colValue);
-			} else {
-				cha = waysofConsistencyToBeApplied.reverseCase(colValue);
-			}
-			// LOGGER.info("Value after Change " + cha);
-			break;
-		case 1:
+		if (isStringUpper(colValue)) {
+			cha = waysofConsistencyToBeApplied.changeItIntoLowerCase(colValue);
+		} else {
 			cha = waysofConsistencyToBeApplied.reverseCase(colValue);
-			// LOGGER.info("Value after Change " + cha);
-			break;
-		default:
-			cha = waysofConsistencyToBeApplied.reverseCase(colValue);
-			break;
 		}
 		return cha;
 	}
@@ -215,21 +211,10 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 	private String callServicesForChar(String colValue) {
 		int randomNum = getRandomNumber(2);
 		String cha = "";
-		switch (randomNum) {
-		case 0:
-			if (isStringUpper(colValue)) {
-				cha = waysofConsistencyToBeApplied.changeItIntoLowerCase(colValue);
-			} else {
-				cha = waysofConsistencyToBeApplied.reverseCase(colValue);
-			}
-			// LOGGER.info("Value after Change " + cha);
-			break;
-		case 1:
-			cha = waysofConsistencyToBeApplied.consistencyForCharacters(colValue);
-			break;
-		default:
-			cha = waysofConsistencyToBeApplied.consistencyForCharacters(colValue);
-			break;
+		if (isStringUpper(colValue)) {
+			cha = waysofConsistencyToBeApplied.changeItIntoLowerCase(colValue);
+		} else {
+			cha = waysofConsistencyToBeApplied.reverseCase(colValue);
 		}
 		return cha;
 	}

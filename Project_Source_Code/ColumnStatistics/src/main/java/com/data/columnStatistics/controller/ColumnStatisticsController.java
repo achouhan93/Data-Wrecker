@@ -22,8 +22,8 @@ public class ColumnStatisticsController {
 	@GetMapping("/getColumnStats")
 	public String getColumnStatistics(@RequestParam String fileName) {
 		String dateFormat="dd-MM-yy";
-		String booleanTrueValue="Online";//True/1/Y/y
-		String booleanFalseValue="Offline";//False/0/N/n
+		String booleanTrueValue="True";//True/1/Y/y
+		String booleanFalseValue="False";//False/0/N/n
 		String status = columnStatisticsService.getColumnStatistics(fileName,dateFormat, booleanTrueValue, booleanFalseValue);
 		if(status.equals("Success")) {
 			return "Success";

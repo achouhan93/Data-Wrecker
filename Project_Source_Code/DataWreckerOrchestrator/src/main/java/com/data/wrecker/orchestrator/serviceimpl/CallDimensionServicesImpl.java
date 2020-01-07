@@ -18,18 +18,18 @@ public class CallDimensionServicesImpl implements CallDimensionServices{
 	private String url = "";
 
 	@Override
-	public String callCompletenessService(List<Integer> objectIds, String colName, String collectionName) {
+	public String callCompletenessService(List<String> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		/*LOGGER.info("Completeness Service Called for column "+colName);
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
-		url = "http://localhost:8092/dimension/completenessDimension?collectionName="+collectionName+"&columnName="+colName+"&wreckingIdsForDimension="+listToString(objectIds);
+		url = "http://localhost:8092/dimension/completenessDimension?collectionName="+collectionName+"&columnName="+colName+"&wreckingIdcount="+objectIds.size();
 		//System.out.println("collectionName: "+collectionName+" colName: "+colName+" completeness");
 		 LOGGER.info("URL \n"+url);
 		return new RestTemplate().getForObject(url, String.class);
 	}
 
 	@Override
-	public String callUniquenessService(List<Integer> objectIds, String colName, String collectionName) {
+	public String callUniquenessService(List<String> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		/*LOGGER.info("Uniqueness Service Called for column "+colName);
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
@@ -40,7 +40,7 @@ public class CallDimensionServicesImpl implements CallDimensionServices{
 	}
 
 	@Override
-	public String callConsistencyService(List<Integer> objectIds, String colName, String collectionName) {
+	public String callConsistencyService(List<String> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		/*LOGGER.info("Consistency Service Called for column "+colName);
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
@@ -50,7 +50,7 @@ public class CallDimensionServicesImpl implements CallDimensionServices{
 	}
 
 	@Override
-	public String callAccuracyServcie(List<Integer> objectIds, String colName, String collectionName) {
+	public String callAccuracyServcie(List<String> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		/*LOGGER.info("Accuracy Service Called for column "+colName);
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
@@ -60,7 +60,7 @@ public class CallDimensionServicesImpl implements CallDimensionServices{
 	}
 
 	@Override
-	public String callValidityServcie(List<Integer> objectIds, String colName, String collectionName) {
+	public String callValidityServcie(List<String> objectIds, String colName, String collectionName) {
 		// TODO Auto-generated method stub
 		// LOGGER.info("Validity Service Called for column "+colName);
 		// LOGGER.info("OBJECT ids length "+objectIds.size());
@@ -69,10 +69,10 @@ public class CallDimensionServicesImpl implements CallDimensionServices{
 		return new RestTemplate().getForObject(url, String.class);
 	}
 	
-	private String listToString(List<Integer> objIds) {
+	private String listToString(List<String> objIds) {
 		StringBuilder namesStr = new StringBuilder();
 		 
-		 for(Integer name : objIds)
+		 for(String name : objIds)
 		    {
 		        namesStr = namesStr.length() > 0 ? namesStr.append(",").append(name) : namesStr.append(name);
 		    }

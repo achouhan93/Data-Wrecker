@@ -64,7 +64,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 					performStatsOperation(dataProfilerInfo.getDatasetStats().get(j), "dd-MM-yy", "Online", "Offline"));*/
 			columnStats = new ColumnStats();
 			profilingInfoModel = new ProfilingInfoModel();
-			columnStats = performStatsOperation(dataProfilerInfo.getDatasetStats().get(j),fileName, "dd-MM-yy", "Online", "Offline");
+			columnStats = performStatsOperation(dataProfilerInfo.getDatasetStats().get(j),fileName, "dd-MM-yy", "TRUE", "FALSE");
 			
 			profilingInfoModel.setColumnDataType(dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().getColumnDataType());
 			profilingInfoModel.setPatternsIdentified(dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().getPatternsIdentified());

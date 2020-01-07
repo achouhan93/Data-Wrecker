@@ -25,6 +25,7 @@ import com.data.wrecker.orchestrator.service.CallDataTypeServices;
 import com.data.wrecker.orchestrator.service.CallDataTypeServicesParallel;
 import com.data.wrecker.orchestrator.service.CallDimensionServices;
 import com.data.wrecker.orchestrator.service.GetProfilerInfoFromServices;
+import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
@@ -172,25 +173,7 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		return result;
 	}
 
-	
-	/*
-	private String callDataTypeServicesInParallel(String fileName, int wreckPercentage)throws Throwable  {
-		
-		CompletableFuture<String> booleanRes = callDatatypeServicesParallel.callBooleanService(fileName, wreckPercentage);
-		CompletableFuture<String> stringRes = callDatatypeServicesParallel.callStringService(fileName, wreckPercentage);
-		CompletableFuture<String> integerRes = callDatatypeServicesParallel.callIntegerService(fileName, wreckPercentage);		
-		CompletableFuture<String> charRes = callDatatypeServicesParallel.callCharacterService(fileName, wreckPercentage);
-		CompletableFuture<String> dateRes = callDatatypeServicesParallel.callDateService(fileName, wreckPercentage);
-		CompletableFuture<String> decimalRes = callDatatypeServicesParallel.callDecimalService(fileName, wreckPercentage);
-		
-		System.out.println("Boolean : "+booleanRes+"\nString: "+stringRes+"\n Integer: "+integerRes+"\n char: "+charRes+"\n date: "+dateRes+"\n decimal: "+decimalRes);
-		
-		
-		
-		
-		return "Success";
-	}*/
-	
+
 	@Override
 	public String callAllDimensionServices(String collectionName,int wreckingPercentage) {
 		List<String> columnHeaders = new ArrayList<String>();
@@ -201,12 +184,33 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 
 		int totalRowCount = datasetStatsList.get(1).getProfilingInfo().getColumnStats().getRowCount();
 		int totalNumberOfRecordsToWreck = numberOfrecordsTobePicked(totalRowCount,wreckingPercentage);
-		List<Integer> uniqueIdsToWreck = getIdsToWreck(totalNumberOfRecordsToWreck, totalRowCount);
-
-		return wreckRecordsWithIDs(uniqueIdsToWreck, collectionName);
+		int totalWreckedRecords = getWreckedRecordsCount(collectionName);
+		int cleanRecords = totalRowCount - totalWreckedRecords;
+		String result = "";
+		if(totalWreckedRecords < totalNumberOfRecordsToWreck) {
+			columnHeaders = getColumnHeaders(collectionName);
+			for(int ch = 0; ch < columnHeaders.size(); ch++) {
+				result  = callDimensionServices(columnHeaders.get(ch), collectionName, totalNumberOfRecordsToWreck);
+			}
+			return result;
+		}else if(totalWreckedRecords >= totalNumberOfRecordsToWreck) {
+			return "There exists unclean records more than the selected threshold value";
+		}
+		
+		if(totalWreckedRecords > totalNumberOfRecordsToWreck) {
+			return "There exists unclean records more than the selected threshold value";
+		}else if(cleanRecords < totalNumberOfRecordsToWreck){
+			List<String> uniqueObjectIdsToWreck = getIdsToWreck(cleanRecords, totalRowCount, collectionName);
+			System.out.println(uniqueObjectIdsToWreck.size());
+			return wreckRecordsWithIDs(uniqueObjectIdsToWreck, collectionName);
+		}else{
+			List<String> uniqueObjectIdsToWreck = getIdsToWreck(totalNumberOfRecordsToWreck, totalRowCount, collectionName);
+			System.out.println(uniqueObjectIdsToWreck.size());
+			return wreckRecordsWithIDs(uniqueObjectIdsToWreck, collectionName);
+		}
 	}
 
-	private String callDimension(List<Integer> wreckingIdsForDimension, String dimensionName, String columnName, String collectionName ) {
+	private String callDimension(List<String> wreckingIdsForDimension, String dimensionName, String columnName, String collectionName ) {
 		String result = "";
 
 		switch (dimensionName) {
@@ -257,40 +261,49 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		return (rowCount * wreckingPercentage) / 100 ;
 	}
 
-	private List<Integer> getIdsToWreck(int recordsCount, int totalRowCount) {
-
-		ArrayList<Integer> recordIds = new ArrayList<Integer>();
-		ArrayList <Integer> uniqueIds = new ArrayList<Integer>();
-
-		int index =0;
-		for(index = 0; index < totalRowCount; index ++) {
-			recordIds.add(index);
+	private List<String> getIdsToWreck(int recordsCount, int totalRowCount, String collectionName) {
+		
+		ArrayList<String> objectIds = new ArrayList<String>();
+		JSONArray datasetArray = getDatasetFromDb(collectionName);
+		
+		Random rand = new Random();
+		
+		while(objectIds.size() < recordsCount) {
+			int id = rand.nextInt(datasetArray.length());
+			try {
+				if(datasetArray.getJSONObject(id).has("_id") && datasetArray.getJSONObject(id).getBoolean("isWrecked") == false) {
+					String oid = datasetArray.getJSONObject(id).getJSONObject("_id").getString("$oid").toString();
+					if(!objectIds.contains(oid)) {
+						objectIds.add(oid);
+					}
+				}
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}		
 		}
+	
+	
+		Collections.shuffle(objectIds);
+		System.out.println("Size of ids "+objectIds.size());
 
-		Collections.shuffle(recordIds);
-
-		for( index =0; index < recordsCount; index++) {
-			uniqueIds.add(recordIds.get(new Integer(index)));
-		}
-
-		return uniqueIds;
+		return objectIds;
 	}
 
 	private JSONArray getDatasetFromDb(String collectionName) {
 		mongo = new Mongo("localhost", 27017);
 		db = mongo.getDB("ReverseEngineering");
 		DBCollection collection = db.getCollection(collectionName); //giving the collection name
+	
 		DBCursor cursor = collection.find();
 		JSONArray dbList = new JSONArray();
-
-
+		
 		while(cursor.hasNext()) {
 			String str = cursor.next().toString();
 			try {
 				JSONObject jsnobj = new JSONObject(str);
 				dbList.put(jsnobj);
 			} catch (JSONException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -311,10 +324,22 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		return columnHeaders;
 	}
 
+	private int getWreckedRecordsCount(String collectionName) {
+		mongo = new Mongo("localhost", 27017);
+		db = mongo.getDB("ReverseEngineering");
+		BasicDBObject whereQuery = new BasicDBObject();
+		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
+		whereQuery.put("isWrecked", true);
+		DBCursor cursor = collection.find();
+		int cursor1 = collection.find(whereQuery).count();
+		System.out.println("count "+cursor1);
+		mongo.close();
+		return cursor1;
+	}
 
-	private String wreckRecordsWithIDs(List<Integer> uniqueIdList, String collectionName) {
+	private String wreckRecordsWithIDs(List<String> uniqueObjectIdList, String collectionName) {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
-		//List<String> objectIds = new ArrayList<String>();
+		//List<Integer> uniqueIdList = new ArrayList<Integer>();
 		List<String> columnNames = new ArrayList<String>();
 		String newCollectionName = collectionName;
 		int i=0;
@@ -322,39 +347,39 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		columnNames = getColumnHeaders(collectionName);
 
 		for(i =0; i < columnNames.size(); i++ ) {
-
+			List<String> recordIds = new ArrayList<>();
 			String colName = columnNames.get(i);
-			int totalRecordsToWreck = getTotalRecordsToWreck(collectionName, colName);
-
-			List<Integer> recordIndexes = new ArrayList<Integer>();
-
-
-			for(int j =0; j < totalRecordsToWreck; j++) {
-				if(!uniqueIdList.isEmpty()) {
-					recordIndexes.add(uniqueIdList.get(0));
-					uniqueIdList.remove(0);
+			int totalRecordsToWreck = getTotalRecordsToWreck(collectionName, colName);			
+			if(totalRecordsToWreck <=  uniqueObjectIdList.size()) {
+				for(int ids = 0; ids < totalRecordsToWreck; ids++) {
+					recordIds.add(uniqueObjectIdList.get(0));
+					uniqueObjectIdList.remove(0);
 				}
-
+				//newCollectionName = callDimensionServices(recordIds, colName, newCollectionName);
+				
+			}else {
+				//newCollectionName = callDimensionServices(uniqueObjectIdList, colName, newCollectionName);
+				
 			}
-
-			newCollectionName = callDimensionServices(recordIndexes, colName, newCollectionName);
 		}
 		return newCollectionName;
 	}
 
 
-	private String callDimensionServices(List<Integer> objectIdsToWreck, String colName, String collectionName) {
+	private String callDimensionServices(String colName, String collectionName, int totalNumberOfRecordsToWreck) {
 
 		String firstVersionOfCollection = getFirstVersionOfCollection(collectionName);
 		// LOGGER.info("First Version "+firstVersionOfCollection);
 		DataProfilerInfo dataprofilerInfo = getDataprofileInfo(firstVersionOfCollection);
 
 		List<Dimensions> dimensionsList = new ArrayList<Dimensions>();
-		List<Integer> wreckingIdsForDimension = new ArrayList<Integer>();
+		List<String> objectIdsToWreck = new ArrayList<String>();
+		int totalRecords = 0;
 		String newCollectionName = collectionName;
 		int i =0;
 		for( i =0; i < dataprofilerInfo.getDatasetStats().size(); i++ ) {
 			if(dataprofilerInfo.getDatasetStats().get(i).getColumnName().equals(colName)) {
+				totalRecords = dataprofilerInfo.getDatasetStats().get(i).getProfilingInfo().getColumnStats().getRowCount();
 				dimensionsList = new ArrayList<Dimensions>();
 				dimensionsList = dataprofilerInfo.getDatasetStats().get(i).getDimensionsList();
 				break;
@@ -362,19 +387,29 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 		}
 		if(!dimensionsList.isEmpty()) {
 
-
 			for(i =0; i< dimensionsList.size(); i++) {
 				int dimensionWreckingCount = 0;
-				wreckingIdsForDimension = new ArrayList<Integer>();
+				objectIdsToWreck = new ArrayList<String>();
 
 				if(dimensionsList.get(i).isStatus() == true) {
-
 					dimensionWreckingCount =  dimensionsList.get(i).getRemainingWreakingCount();
-					wreckingIdsForDimension = getDatasetRecordIDS(dimensionWreckingCount, firstVersionOfCollection);
+					int uncleanRecords = getWreckedRecordsCount(collectionName);
+					
+					if(uncleanRecords < totalNumberOfRecordsToWreck) {
+						
+						if(dimensionWreckingCount < (totalNumberOfRecordsToWreck-uncleanRecords) ) {
+							
+							objectIdsToWreck  = getIdsToWreck(dimensionWreckingCount, totalRecords, collectionName);
+							
+						}else {
+							objectIdsToWreck  = getIdsToWreck((totalNumberOfRecordsToWreck-uncleanRecords), totalRecords, collectionName);
+						}
+						
+					}
 						 
-					 }
+				}
 
-					newCollectionName =  callDimension(wreckingIdsForDimension, dimensionsList.get(i).getDimensionName(), colName, newCollectionName);
+					newCollectionName =  callDimension(objectIdsToWreck, dimensionsList.get(i).getDimensionName(), colName, newCollectionName);
 			}
 		}
 

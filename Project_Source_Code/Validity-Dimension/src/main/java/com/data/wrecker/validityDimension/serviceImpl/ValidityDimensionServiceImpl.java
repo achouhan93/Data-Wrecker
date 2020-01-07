@@ -53,28 +53,40 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType = getColumnDataType(firstCollectionName, columnName);
 		changesLogList = new ArrayList<ChangesLog>();
-		List<Integer> recordIndexes = new ArrayList<Integer>();
+		List<String> recordIndexes = new ArrayList<String>();
 
 		for(String str : wreckingIds) {
-			recordIndexes.add(Integer.valueOf(str));
+			recordIndexes.add(str);
 		}
 		
 
 		try {
 			for (int j = 0; j < recordIndexes.size(); j++) {
+				for(int k = 0; k< datasetArray.length(); k++ ) {
+					
+					if(datasetArray.getJSONObject(k).has("_id") && datasetArray.getJSONObject(k).has("isWrecked")) {
+						if(datasetArray.getJSONObject(k).getJSONObject("_id").getString("$oid").equals(recordIndexes.get(j)) && datasetArray.getJSONObject(k).getBoolean("isWrecked") == false) {
+							String colValue = datasetArray.getJSONObject(k).get(columnName).toString();
+							if (colValue == null || colValue.isEmpty()) {
+								changesLog = new ChangesLog();
+								changesLog.setColumnName(columnName);
+								changesLog.setOid(recordIndexes.get(j));
+								changesLog.setDimensionName("Validity");
+								changesLog.setDatasetName(collectionName);
+								changesLog.setOldValue(colValue);
+								colValue = removeValidity(colValue, columnDataType);
+								datasetArray.getJSONObject(k).put(columnName, colValue);
+								datasetArray.getJSONObject(k).put("isWrecked", true);
+								changesLog.setNewValue(colValue);
+								changesLogList.add(changesLog);
+							}
+						}
+					}
+					
+				}
 				
-						String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
-						changesLog = new ChangesLog();
-						changesLog.setColumnName(columnName);
-						changesLog.setOid(recordIndexes.get(j));
-						changesLog.setDimensionName("Validity");
-						changesLog.setDatasetName(collectionName);
-						changesLog.setOldValue(colValue);
-						colValue = removeValidity(colValue, columnDataType);
-						datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, colValue);
-						datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
-						changesLog.setNewValue(colValue);
-						changesLogList.add(changesLog);
+						
+						
 						//addToDb(changesLog);
 					
 			}
