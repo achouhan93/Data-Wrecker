@@ -32,5 +32,6 @@ public class ColumnStats {
 	LocalDate minDate;
 	LocalDate maxDate;
 	long trueCount;
-	long falseCount;	
+	long falseCount;
+	MultiColumnStats multiColumnStats;
 }

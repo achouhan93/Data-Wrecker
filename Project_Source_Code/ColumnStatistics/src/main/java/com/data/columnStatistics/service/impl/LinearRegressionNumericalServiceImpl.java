@@ -1,34 +1,44 @@
 package com.data.columnStatistics.service.impl;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.List;
 
-
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
 @Service
-public class LinearRegressionServiceImpl {
+public class LinearRegressionNumericalServiceImpl {
 
 	   private ArrayList<Float> Xdata;
 	    private ArrayList<Float> YData;
 	    private Float result1;
 	    private Float result2;
-	    	    
-	    public void linearRegessionEvaluator(ArrayList<Float> firstColumnData, ArrayList<Float> secoundColumnData) {
-	    	LinearRegressionServiceImpl linearRegressionClassifier = new LinearRegressionServiceImpl( firstColumnData , secoundColumnData );
+	        
+	    public boolean linearRegessionNumericalEvaluator(ArrayList<Float> firstColumnData, ArrayList<Float> secoundColumnData) {
+	    	int predictionMatchCount=0;
+	    	LinearRegressionNumericalServiceImpl linearRegressionClassifier = new LinearRegressionNumericalServiceImpl( firstColumnData , secoundColumnData );
 	    	for (int i=0; i<firstColumnData.size();i++)
 	    	{
 	    	Float predictionedValueBasedOnValueProvided = linearRegressionClassifier.predictValue( firstColumnData.get(i), i);
+	    	float predictionedValueBasedOnValueProvidedRoundupTo2 = 0.0F;
+	    	predictionedValueBasedOnValueProvidedRoundupTo2 = round(predictionedValueBasedOnValueProvided,2);
+	    	//input and predicted value matched
+	    	if(predictionedValueBasedOnValueProvidedRoundupTo2 == secoundColumnData.get(i))
+	    	{
+	    		predictionMatchCount++;
+	    		
 	    	}
-			
+	    	
+	    	}
+	    	if(predictionMatchCount > (2*firstColumnData.size()/3))
+    		{
+    		return true;
+    		}
+	    	return false;
 		}
 
-	    public LinearRegressionServiceImpl (ArrayList xdata, ArrayList YData) {
+	    public LinearRegressionNumericalServiceImpl (ArrayList xdata, ArrayList YData) {
 	        Xdata = xdata;
 	        this.YData = YData;
 	    }
@@ -71,8 +81,12 @@ public class LinearRegressionServiceImpl {
 	        return result2;
 	    }
 
-		
-
+	   
+	    public static float round(float number, int decimalPlace) {
+			BigDecimal bd = new BigDecimal(number);
+			bd = bd.setScale(decimalPlace, BigDecimal.ROUND_HALF_UP);
+			return bd.floatValue();
+		}
 	    
 	
 
