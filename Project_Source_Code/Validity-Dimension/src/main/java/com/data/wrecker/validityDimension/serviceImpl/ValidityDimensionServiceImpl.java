@@ -83,7 +83,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 				dataToBeWrecked.remove(colValue);
 				changesLog = new ChangesLog();
 				changesLog.setColumnName(columnName);
-				changesLog.setOid(recordIndexes.get(j));
+				changesLog.setOid(recordIndexes.get(j).toString());
 				changesLog.setDimensionName("Validity");
 				changesLog.setDatasetName(collectionName);
 				changesLog.setOldValue(colValue);
@@ -332,7 +332,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		//List<Double> zscore ="1.960","1.964","1.965","1.966","1.968","1.972","1.976","1.980","1.984","1.987","1.990","1.994","2.000","2.009","2.011","2.013","2.015","2.018","2.021","2.024","2.028","2.032","2.037","2.042","2.045","2.048","2.052","2.056","2.060","2.064","2.069","2.074","2.080","2.086","2.093","2.101","2.110","2.120","2.131","2.145","2.160","2.179","2.201","2.228","2.262","2.306","2.365","2.447","2.571","2.776","3.182","4.303","12.706";
 		double[] zscore = {1.964,1.965,1.966,1.968,1.972,1.976,1.980,1.984,1.987,1.990,1.994,2.000,2.009,2.011,2.013,2.015,2.018,2.021,2.024,2.028,2.032,2.037,2.042,2.045,2.048,2.052,2.056,2.060,2.064,2.069,2.074,2.080,2.086,2.093,2.101,2.110,2.120,2.131,2.145,2.160,2.179,2.201,2.228,2.262,2.306,2.365,2.447,2.571,2.776,3.182,4.303,12.706,-1.964,-1.965,-1.966,-1.968,-1.972,-1.976,-1.980,-1.984,-1.987,-1.990,-1.994,-2.000,-2.009,-2.011,-2.013,-2.015,-2.018,-2.021,-2.024,-2.028,-2.032,-2.037,-2.042,-2.045,-2.048,-2.052,-2.056,-2.060,-2.064,-2.069,-2.074,-2.080,-2.086,-2.093,-2.101,-2.110,-2.120,-2.131,-2.145,-2.160,-2.179,-2.201,-2.228,-2.262,-2.306,-2.365,-2.447,-2.571,-2.776,-3.182,-4.303,-12.706};
 		double zscoreSelected = getRandom(zscore);
-		double sampleMean = zscoreSelected * (stdDeviation / Math.sqrt(sampleDataSize)) + mean;
+		double sampleMean = zscoreSelected * stdDeviation + mean;
 		return sampleMean;
 	}
 
