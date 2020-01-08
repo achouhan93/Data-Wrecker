@@ -56,29 +56,36 @@ public class AccuracyDimensionServiceImpl implements AccuracyDimensionService{
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType  = getColumnDataType(firstCollectionName,columnName);
 		changesLogList = new ArrayList<ChangesLog>();
-		List<Integer> recordIndexes = new ArrayList<Integer>();
+		List<String> recordIndexes = new ArrayList<String>();
 
 		for(String str : wreckingIds) {
-			recordIndexes.add(Integer.valueOf(str));
+			recordIndexes.add(str);
 		}
 
 
 
 		try {
 		for(int j =0; j < recordIndexes.size(); j++ ) {
-
-					changesLog = new ChangesLog();
-					changesLog.setColumnName(columnName);
-					changesLog.setOid(recordIndexes.get(j));
-					changesLog.setDimensionName("Accuracy");
-					changesLog.setDatasetName(collectionName);
-					JSONObject jsonObj = datasetArray.getJSONObject(recordIndexes.get(j));
-					changesLog.setOldValue(jsonObj.get(columnName).toString());
-					jsonObj = removeAccuracy(columnName, columnDataType, jsonObj,collectionName);
-					datasetArray.put(jsonObj);
-					changesLog.setNewValue(jsonObj.get(columnName).toString());
-					changesLogList.add(changesLog);
-					//addToDb(changesLog);
+			for(int k = 0; k< datasetArray.length(); k++ ) {
+				if(datasetArray.getJSONObject(k).has("_id") && datasetArray.getJSONObject(k).has("isWrecked")) {
+					if(datasetArray.getJSONObject(k).getJSONObject("_id").getString("$oid").equals(recordIndexes.get(j)) && datasetArray.getJSONObject(k).getBoolean("isWrecked") == false) {
+						
+						changesLog = new ChangesLog();
+						changesLog.setColumnName(columnName);
+						changesLog.setOid(recordIndexes.get(j));
+						changesLog.setDimensionName("Accuracy");
+						changesLog.setDatasetName(collectionName);
+						JSONObject jsonObj = datasetArray.getJSONObject(k);
+						changesLog.setOldValue(jsonObj.get(columnName).toString());
+						jsonObj = removeAccuracy(columnName, columnDataType, jsonObj,collectionName);
+						datasetArray.put(jsonObj);
+						changesLog.setNewValue(jsonObj.get(columnName).toString());
+						changesLogList.add(changesLog);
+						//addToDb(changesLog);
+						
+					}
+				}
+			}
 		}
 
 		} catch (JSONException e) {

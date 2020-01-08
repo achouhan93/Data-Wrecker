@@ -2,6 +2,7 @@ package com.data.wrecker.Incompleteness.serviceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,12 +13,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.client.RestTemplate;
 
 import com.data.wrecker.Incompleteness.model.ChangesLog;
 import com.data.wrecker.Incompleteness.model.ColumnStats;
 import com.data.wrecker.Incompleteness.model.DatasetStats;
 import com.data.wrecker.Incompleteness.repository.ChangesLogsRepository;
 import com.data.wrecker.Incompleteness.service.IncompletenessService;
+import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
@@ -36,6 +39,7 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 	private ChangesLogsRepository changesLogrepo;
 	private Mongo mongo;
 	private DB db;
+	private Random rand;
 	
 	@Override
 	public String removeValues(String collectionName, String columnName, List<String> wreckingIdsForDimension) {
@@ -82,8 +86,12 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 	private JSONArray getDatasetFromDb(String collectionName) {
 		mongo = new Mongo("localhost", 27017);
 		db = mongo.getDB("ReverseEngineering");
+		BasicDBObject whereQuery = new BasicDBObject();
 		DBCollection collection = db.getCollection(collectionName); //giving the collection name 
+		whereQuery.put("isWrecked", true);
 		DBCursor cursor = collection.find();
+		int cursor1 = collection.find(whereQuery).count();
+		System.out.println("count "+cursor1);
 		JSONArray dbList = new JSONArray();		
 		
 		while(cursor.hasNext()) {
@@ -149,35 +157,36 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 		int medianVal = datasetStats.getProfilingInfo().getColumnStats().getAverageValue();
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		changesLogList = new ArrayList<ChangesLog>();
+		int wreackedCount = 0;
 		
-		for(int wr = 0; wr < wreckingCount; wr++) {
 			for(int ds = 0; ds< datasetArray.length();ds++) {
 			
 				try {
-					if(datasetArray.getJSONObject(ds).has("isWrecked")) {
-						if(datasetArray.getJSONObject(ds).getBoolean("isWrecked") == false) {
-							if(datasetArray.getJSONObject(ds).getInt(columnName) == medianVal) {
-								changesLog = new ChangesLog();
-								changesLog.setColumnName(columnName);
-								changesLog.setOid(0);
-								changesLog.setDimensionName("Completeness");
-								changesLog.setDatasetName(collectionName);
-								changesLog.setOldValue(datasetArray.getJSONObject(ds).get(columnName).toString());
-								datasetArray.getJSONObject(ds).put(columnName, "");
-								datasetArray.getJSONObject(ds).put("isWrecked", true);
-								changesLog.setNewValue("");
-								changesLogList.add(changesLog);
-								
-								
+					if(wreackedCount<wreckingCount) {						
+						if(datasetArray.getJSONObject(ds).has("isWrecked")) {
+							if(datasetArray.getJSONObject(ds).getBoolean("isWrecked") == false) {
+								if(datasetArray.getJSONObject(ds).getInt(columnName) == medianVal) {
+									changesLog = new ChangesLog();
+									changesLog.setColumnName(columnName);
+									changesLog.setOid(0);
+									changesLog.setDimensionName("Completeness");
+									changesLog.setDatasetName(collectionName);
+									changesLog.setOldValue(datasetArray.getJSONObject(ds).get(columnName).toString());
+									datasetArray.getJSONObject(ds).put(columnName, "");
+									datasetArray.getJSONObject(ds).put("isWrecked", true);
+									changesLog.setNewValue("");
+									changesLogList.add(changesLog);
+									wreackedCount++;									
+								}
 							}
-						}
+						}						
 					}
+					
 				} catch (JSONException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				
-			}
+
 		}
 		
 		addToDb(changesLogList);
@@ -188,11 +197,68 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 	@Override
 	public String removeValuesBoolean(String collectionName, String columnName, int wreckingCount,
 			ColumnStats colStats) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		String url = "http://127.0.0.1:5000/?collectionName="+collectionName+"&columnName="+columnName;
+		
+		String modelName = new RestTemplate().getForObject(url, String.class);
+		JSONArray datasetArray = getDatasetFromDb(collectionName);
+		
+			
+		if(modelName.equals("Success")) {
+			
+			
+			int wreckedCount = 0;
+			changesLogList = new ArrayList<ChangesLog>();
+			rand = new Random();
+			System.out.println("Wrecking count "+wreckingCount);
+			
+			for(int index = 0; index< datasetArray.length();index++) {
+				try {
+					
+					if(wreckedCount < wreckingCount) {
+						
+						if(datasetArray.getJSONObject(index).has("isWrecked") && datasetArray.getJSONObject(index).has("_id")) {
+							if(datasetArray.getJSONObject(index).getBoolean("isWrecked") == false) {
+								String oid = datasetArray.getJSONObject(index).getJSONObject("_id").getString("$oid");
+								url = "http://127.0.0.1:5000/model?collectionName="+collectionName+"&oid="+oid;
+								String result =  new RestTemplate().getForObject(url, String.class);
+								int res = Integer.parseInt(result);
+								boolean resValue = (res == 1);
+								if(datasetArray.getJSONObject(index).getBoolean(columnName) == resValue) {
+									changesLog = new ChangesLog();
+									changesLog.setColumnName(columnName);
+									changesLog.setOid(0);
+									changesLog.setDimensionName("Completeness");
+									changesLog.setDatasetName(collectionName);
+									changesLog.setOldValue(datasetArray.getJSONObject(index).get(columnName).toString());
+									datasetArray.getJSONObject(index).put(columnName, "");
+									datasetArray.getJSONObject(index).put("isWrecked", true);
+									changesLog.setNewValue("");
+									changesLogList.add(changesLog);
+									datasetArray.getJSONObject(index).put("isWrecked", true);
+									System.out.println("Wrecked count "+wreckedCount);
+									wreckedCount++;
+								}
+								
+							}
+						}
+						
+					}
+					
+				}catch (JSONException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+		
+		addToDb(changesLogList);
+		
+		return addIntoDatabase(collectionName,datasetArray);
 	}
 
-
+	
+	
 
 	
 }
