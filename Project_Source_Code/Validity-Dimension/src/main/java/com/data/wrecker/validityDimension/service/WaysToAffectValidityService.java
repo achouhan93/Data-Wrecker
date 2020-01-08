@@ -1,5 +1,7 @@
 package com.data.wrecker.validityDimension.service;
 
+import java.util.ArrayList;
+
 import com.data.wrecker.validityDimension.model.DatasetStats;
 
 public interface WaysToAffectValidityService {
@@ -16,11 +18,11 @@ public interface WaysToAffectValidityService {
 	
 	public String replaceCharacterWithSpecialChars(String colValue);
 
-	public String invalidateInteger(int colValue);
+	public String invalidateInteger(int colValue,ArrayList<String> columnData);
 	
 	public String addYearsToDate(DatasetStats datasetStats, String date);
 	
 	public String generateInvalidDates(String colValue);
 
-	public String invalidDecimal(String colValue);
+	public String invalidDecimal(String colValue,ArrayList<String> columnData);
 }

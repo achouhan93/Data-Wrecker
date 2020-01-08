@@ -49,7 +49,7 @@ public class DataWreakerInterfaceController {
 	}
 	
 	@GetMapping("/referenceData")
-	public DatasetDetails exportDataFromMongo() throws FileNotFoundException, IOException, DataWreakernterfaceException
+	public String exportDataFromMongo() throws FileNotFoundException, IOException, DataWreakernterfaceException
 	{		
 		return dataWreakerInterfaceService.putRefenceColumnDataToMongo();
 	}
