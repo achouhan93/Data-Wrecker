@@ -128,7 +128,7 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 	
 
 	@Override
-	public String invalidateInteger(int colValue) {
+	public String invalidateInteger(int colValue,ArrayList<String> columnData) {
 	 int length = String.valueOf(colValue).length();
 	 
 	 // LOGGER.info("Generate Junk Values ");
@@ -145,7 +145,7 @@ public class WaysToAffectValidityServiceImpl  implements WaysToAffectValiditySer
 	}
 	
 	@Override
-	public String invalidDecimal(String colValue) {
+	public String invalidDecimal(String colValue,ArrayList<String> columnData) {
 	 int length = String.valueOf(colValue).length();
 	 
 	 // LOGGER.info("Generate Junk Values ");

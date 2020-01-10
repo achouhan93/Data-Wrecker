@@ -280,11 +280,15 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 	}
 
 	@Override
-	public DatasetDetails putRefenceColumnDataToMongo() throws IOException {
+	public String putRefenceColumnDataToMongo() throws IOException {
 		String fileName = null;
+		String fileType = null;
 		String database = "ReverseEngineering";
 		String[] collectionName = null;
-		File dir = new File("C:\\Users\\i521676\\Documents\\Datasets");
+		//File dir = new File("C:\\Users\\i521676\\Documents\\Datasets");
+		
+		Runtime r = Runtime.getRuntime();
+		File dir = new File("C:\\dev\\eclipse workspace\\referenceDoc");
 		File[] listOfFiles = dir.listFiles();
 
 		for (int i = 0; i < listOfFiles.length; i++) {
@@ -292,19 +296,22 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 				System.out.println("File " + listOfFiles[i].getName());
 				fileName = listOfFiles[i].getName();
 				collectionName = fileName.split("\\.");	
-				
+				fileType = collectionName[1];
+				collectionName = fileName.split("\\.");	
+				r.exec("c:\\windows\\system32\\cmd.exe /c mongoimport -d " + database + " -c " + collectionName[0]
+						+ " --type "+fileType+" --file " + fileName + " --headerline", null, dir);
 			}
 		}
+
+		return "Success";
 		
-		
-		collectionName = fileName.split("\\.");	
-		return null;
 	}
 
 	@Override
 	public String referenceDataApiToMongo(String referenceApi, String columnName) throws JSONException {
 		String apiResponseStr = "[";
-		apiResponseStr = apiResponseStr + new RestTemplate().getForObject(referenceApi, String.class);
+		String str = new RestTemplate().getForObject(referenceApi, String.class);
+		apiResponseStr = apiResponseStr + str;
 		apiResponseStr = apiResponseStr + "]";
 		System.out.println("responseApiStr: "+apiResponseStr);
 		JSONArray apiResponseJson = new JSONArray(apiResponseStr);

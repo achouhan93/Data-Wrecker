@@ -13,8 +13,9 @@ public interface DataWreakerIntefaceService {
 	
 	public DatasetDetails exportDataAsCSV(String collectionName) throws DataWreakernterfaceException;
 
-	public DatasetDetails putRefenceColumnDataToMongo() throws IOException;
 
 	public String referenceDataApiToMongo(String referenceApi, String columnName) throws JSONException;
+
+	String putRefenceColumnDataToMongo() throws IOException;
 
 }

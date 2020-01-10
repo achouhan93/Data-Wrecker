@@ -1,6 +1,8 @@
 package com.data.wrecker.validityDimension.serviceImpl;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -48,47 +50,49 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 	private DB db;
 
 	@Override
-	public String removeValidityDimension(String collectionName, String columnName, List<String> wreckingIds) {
+	public String removeValidityDimension(String collectionName, String columnName, List<String> wreckingIds)
+			throws JSONException {
 		String firstCollectionName = getFirstVersionOfCollection(collectionName);
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		String columnDataType = getColumnDataType(firstCollectionName, columnName);
-		changesLogList = new ArrayList<ChangesLog>();
-		List<String> recordIndexes = new ArrayList<String>();
+		ArrayList<String> columnData = new ArrayList<String>();
+		ArrayList<String> dataToBeWrecked = new ArrayList<String>();
+		if (columnDataType.equals("Integer") || columnDataType.equals("Decimal")) {
+			for (int i = 0; i < datasetArray.length(); i++) {
 
-		for(String str : wreckingIds) {
-			recordIndexes.add(str);
+				String columnValue = datasetArray.getJSONObject(i).get(columnName).toString();
+				columnData.add(columnValue);
+
+			}
 		}
-		
+		changesLogList = new ArrayList<ChangesLog>();
+		List<Integer> recordIndexes = new ArrayList<Integer>();
+
+		for (String str : wreckingIds) {
+			recordIndexes.add(Integer.valueOf(str));
+		}
+		for (int j = 0; j < recordIndexes.size(); j++) {
+			String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
+			dataToBeWrecked.add(colValue);
+		}
 
 		try {
 			for (int j = 0; j < recordIndexes.size(); j++) {
-				for(int k = 0; k< datasetArray.length(); k++ ) {
-					
-					if(datasetArray.getJSONObject(k).has("_id") && datasetArray.getJSONObject(k).has("isWrecked")) {
-						if(datasetArray.getJSONObject(k).getJSONObject("_id").getString("$oid").equals(recordIndexes.get(j)) && datasetArray.getJSONObject(k).getBoolean("isWrecked") == false) {
-							String colValue = datasetArray.getJSONObject(k).get(columnName).toString();
-							if (colValue == null || colValue.isEmpty()) {
-								changesLog = new ChangesLog();
-								changesLog.setColumnName(columnName);
-								changesLog.setOid(recordIndexes.get(j));
-								changesLog.setDimensionName("Validity");
-								changesLog.setDatasetName(collectionName);
-								changesLog.setOldValue(colValue);
-								colValue = removeValidity(colValue, columnDataType);
-								datasetArray.getJSONObject(k).put(columnName, colValue);
-								datasetArray.getJSONObject(k).put("isWrecked", true);
-								changesLog.setNewValue(colValue);
-								changesLogList.add(changesLog);
-							}
-						}
-					}
-					
-				}
-				
-						
-						
-						//addToDb(changesLog);
-					
+
+				String colValue = datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString();
+				dataToBeWrecked.remove(colValue);
+				changesLog = new ChangesLog();
+				changesLog.setColumnName(columnName);
+				changesLog.setOid(recordIndexes.get(j).toString());
+				changesLog.setDimensionName("Validity");
+				changesLog.setDatasetName(collectionName);
+				changesLog.setOldValue(colValue);
+				colValue = removeValidity(colValue, columnDataType, columnData, dataToBeWrecked);
+				datasetArray.getJSONObject(recordIndexes.get(j)).put(columnName, colValue);
+				datasetArray.getJSONObject(recordIndexes.get(j)).put("isWrecked", true);
+				changesLog.setNewValue(colValue);
+				changesLogList.add(changesLog);
+				// addToDb(changesLog);
 			}
 
 		} catch (JSONException e) {
@@ -96,7 +100,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 			e.printStackTrace();
 		}
 		addToDb(changesLogList);
-		
+
 		return addIntoDatabase(collectionName, datasetArray);
 	}
 
@@ -130,12 +134,12 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 				e.printStackTrace();
 			}
 		}
-		 mongo.close();
+		mongo.close();
 		return collectionName;
 	}
 
 	private void addToDb(List<ChangesLog> changesLogList) {
-		for(int i =0; i < changesLogList.size(); i++) {
+		for (int i = 0; i < changesLogList.size(); i++) {
 			changesLogrepo.insert(changesLogList.get(i));
 		}
 	}
@@ -159,7 +163,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 			}
 		}
 
-		 mongo.close();
+		mongo.close();
 		return dbList;
 	}
 
@@ -196,27 +200,34 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		return collectionName;
 	}
 
-	private String removeValidity(String colValue, String columnDatatype) {
+	private String removeValidity(String colValue, String columnDatatype, ArrayList<String> columnData,
+			ArrayList<String> dataToBeWrecked) {
 		String result = " ";
 		switch (columnDatatype.toLowerCase()) {
-		case "string":
-			// LOGGER.info("String");
-			if (!colValue.isEmpty()) {
-				result = callServicesForString(colValue);
-			}
-			break;
+//		case "string":
+//			// LOGGER.info("String");
+//			if (!colValue.isEmpty()) {
+//				result = callServicesForString(colValue);
+//			}
+//			break;
 		case "integer":
 			// LOGGER.info("Integer");
 			if (!colValue.isEmpty() && colValue.matches("^[0-9]*$")) {
-				result = callServicesForInteger(Integer.parseInt(colValue));
+				Double mean = calculateMean(columnData);
+				Double stdDeviation = stdDeviation(columnData);
+				double sampleMean = calculateSampleMean(mean, stdDeviation,dataToBeWrecked.size());
+				double valueToBeReplaced = calculatePredictiveValueToBeReplaced(sampleMean, dataToBeWrecked);
+				//result = callServicesForInteger(Integer.parseInt(colValue), columnData);
+				result = Double.toString(valueToBeReplaced);
+				
 			}
 			break;
-		case "character":
-			// LOGGER.info("Character");
-			if (!colValue.isEmpty()) {
-				result = callServicesForChar(colValue);
-			}
-			break;
+//		case "character":
+//			// LOGGER.info("Character");
+//			if (!colValue.isEmpty()) {
+//				result = callServicesForChar(colValue);
+//			}
+//			break;
 		case "date":
 			// LOGGER.info("Date");
 			if (!colValue.isEmpty()) {
@@ -229,11 +240,16 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 				result = callServicesForBoolean(colValue);
 			}
 			break;
-			// decimal use this regex - impl pending
+		// decimal use this regex - impl pending
 		case "decimal":
 			// LOGGER.info("decimal");
 			if (!colValue.isEmpty() && colValue.matches("^(\\d*\\.)?\\d+$")) {
-				result = callServicesForDecimal(colValue);
+				Double mean = calculateMean(columnData);
+				Double stdDeviationSM = stdDeviation(columnData);
+				double sampleMean = calculateSampleMean(mean, stdDeviationSM, dataToBeWrecked.size() );
+				double valueToBeReplaced = calculatePredictiveValueToBeReplaced(sampleMean, dataToBeWrecked);
+				//result = callServicesForDecimal(colValue, columnData);
+				result = Double.toString(valueToBeReplaced);
 			}
 		}
 		return result;
@@ -248,15 +264,15 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 
 		return waysToAffectValidityService.convertBoolIntoPositiveNegative(colValue);
 	}
-	
-	private String callServicesForDecimal(String colValue) {
 
-		return waysToAffectValidityService.invalidDecimal(colValue);
+	private String callServicesForDecimal(String colValue, ArrayList<String> columnData) {
+
+		return waysToAffectValidityService.invalidDecimal(colValue, columnData);
 	}
 
-	private String callServicesForInteger(int parseInt) {
+	private String callServicesForInteger(int parseInt, ArrayList<String> columnData) {
 		// TODO Auto-generated method stub
-		return waysToAffectValidityService.invalidateInteger(parseInt);
+		return waysToAffectValidityService.invalidateInteger(parseInt, columnData);
 	}
 
 	private String callServicesForChar(String colValue) {
@@ -283,10 +299,56 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 		default:
 			result = waysToAffectValidityService.generateStringAndSpecialChars(colValue);
 			break;
-			
 
 		}
 		return result;
+	}
+
+	public static double calculateMean(ArrayList<String> columnData) {
+		double sum = 0;
+		for (int i = 0; i < columnData.size(); i++) {
+			sum = sum + Double.parseDouble(columnData.get(i));
+		}
+		double datasize = (double) columnData.size();
+		double meanValue = sum / datasize;
+		return meanValue;
+	}
+
+	public static double stdDeviation(ArrayList<String> columnData) {
+		double mean = calculateMean(columnData);
+		double temp = 0;
+
+		for (int i = 0; i < columnData.size(); i++) {
+			double val = Double.parseDouble(columnData.get(i));
+			double squrDiffToMean = Math.pow(val - mean, 2);
+			temp += squrDiffToMean;
+		}
+		double meanOfDiffs = (double) temp / (double) (columnData.size());
+		return Math.sqrt(meanOfDiffs);
+	}
+
+	public static double calculateSampleMean(Double mean, Double stdDeviation, int sampleDataSize) {
+		//double zscoreSelected = 2.009;
+		//List<Double> zscore ="1.960","1.964","1.965","1.966","1.968","1.972","1.976","1.980","1.984","1.987","1.990","1.994","2.000","2.009","2.011","2.013","2.015","2.018","2.021","2.024","2.028","2.032","2.037","2.042","2.045","2.048","2.052","2.056","2.060","2.064","2.069","2.074","2.080","2.086","2.093","2.101","2.110","2.120","2.131","2.145","2.160","2.179","2.201","2.228","2.262","2.306","2.365","2.447","2.571","2.776","3.182","4.303","12.706";
+		double[] zscore = {1.964,1.965,1.966,1.968,1.972,1.976,1.980,1.984,1.987,1.990,1.994,2.000,2.009,2.011,2.013,2.015,2.018,2.021,2.024,2.028,2.032,2.037,2.042,2.045,2.048,2.052,2.056,2.060,2.064,2.069,2.074,2.080,2.086,2.093,2.101,2.110,2.120,2.131,2.145,2.160,2.179,2.201,2.228,2.262,2.306,2.365,2.447,2.571,2.776,3.182,4.303,12.706,-1.964,-1.965,-1.966,-1.968,-1.972,-1.976,-1.980,-1.984,-1.987,-1.990,-1.994,-2.000,-2.009,-2.011,-2.013,-2.015,-2.018,-2.021,-2.024,-2.028,-2.032,-2.037,-2.042,-2.045,-2.048,-2.052,-2.056,-2.060,-2.064,-2.069,-2.074,-2.080,-2.086,-2.093,-2.101,-2.110,-2.120,-2.131,-2.145,-2.160,-2.179,-2.201,-2.228,-2.262,-2.306,-2.365,-2.447,-2.571,-2.776,-3.182,-4.303,-12.706};
+		double zscoreSelected = getRandom(zscore);
+		double sampleMean = zscoreSelected * stdDeviation + mean;
+		return sampleMean;
+	}
+
+	public static double calculatePredictiveValueToBeReplaced(double sampleMean, ArrayList<String> dataToBeWrecked) {
+		double sumWithoutWreckingValue = 0;
+		double valueToBeReplaced =0;
+		for (int i = 0; i < dataToBeWrecked.size(); i++) {
+			sumWithoutWreckingValue = sumWithoutWreckingValue + Double.parseDouble(dataToBeWrecked.get(i));
+		}
+		valueToBeReplaced = sampleMean * dataToBeWrecked.size() - sumWithoutWreckingValue;
+		return valueToBeReplaced;
+	}
+	
+	public static double getRandom(double[] array) {
+	    int rnd = new Random().nextInt(array.length);
+	    return array[rnd];
 	}
 
 }

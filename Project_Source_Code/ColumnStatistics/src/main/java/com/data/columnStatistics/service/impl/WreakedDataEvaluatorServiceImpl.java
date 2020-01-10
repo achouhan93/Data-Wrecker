@@ -89,6 +89,8 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 			}
 
 		}
+
+
 		System.out.println("columnDataTypeList" + columnDataTypeList);
 		for (int i = 0; i < datasetSize; i++) {
 			for (int j = 0; j < columnNamesList.size(); j++) {
@@ -173,7 +175,10 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 				}
 			}
 		}
-
+		String[] changedFileName = fileName.split("_");
+		String updatedFileName = changedFileName[0]+"_1";
+		dataProfilerInfo.setFileName(updatedFileName);
+		columnStatsRepo.save(dataProfilerInfo);
 		return addIntoDatabase(fileName, dbList);
 
 	}
