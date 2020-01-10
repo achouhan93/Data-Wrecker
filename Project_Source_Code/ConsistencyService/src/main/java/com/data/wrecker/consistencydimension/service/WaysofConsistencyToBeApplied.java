@@ -1,6 +1,7 @@
 package com.data.wrecker.consistencydimension.service;
 
 import com.data.wrecker.consistencydimension.model.DataProfilerInfo;
+import com.data.wrecker.consistencydimension.model.DatasetStats;
 
 public interface WaysofConsistencyToBeApplied {
 
@@ -14,7 +15,7 @@ public interface WaysofConsistencyToBeApplied {
 	
 	public String changeItIntoUpperLower(String colValue);
 	
-	public String changeDateFormat(String colValue);
+	public String changeDateFormat(String colValue, DatasetStats datasetStats);
 	
 	public String affectBooleanValues(boolean colValue);
 	

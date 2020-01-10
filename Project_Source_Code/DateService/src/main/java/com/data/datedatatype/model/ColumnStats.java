@@ -3,6 +3,8 @@ package com.data.datedatatype.model;
 import java.time.LocalDate;
 import java.util.List;
 
+
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -33,5 +35,6 @@ public class ColumnStats {
 	LocalDate maxDate;
 	long trueCount;
 	long falseCount;
+	MultiColumnStats multiColumnStats;
 	
 }

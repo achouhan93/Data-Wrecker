@@ -3,6 +3,8 @@ package com.data.wrecker.consistencydimension.serviceImpl;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
@@ -14,6 +16,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.data.wrecker.consistencydimension.model.DataProfilerInfo;
+import com.data.wrecker.consistencydimension.model.DatasetStats;
+import com.data.wrecker.consistencydimension.model.PatternModel;
 import com.data.wrecker.consistencydimension.repository.DataProfilerInfoRepo;
 import com.data.wrecker.consistencydimension.service.WaysofConsistencyToBeApplied;
 
@@ -79,19 +83,24 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 	}
 
 	@Override
-	public String changeDateFormat(String colValue) {
+	public String changeDateFormat(String colValue, DatasetStats datasetStats) {
 		String newDate = "";
+		List<PatternModel> patternsList  = datasetStats.getProfilingInfo().getPatternsIdentified();
+		PatternModel patternModel = getMostOccuredPattern(patternsList);
+		
+		String dateFormat = patternModel.getPattern();
+		
 		String[] dateFormats = {"dd-MM-yy","dd-MM-yyyy","MM-dd-yyyy","yyyy-MM-dd","EEEEE MMMMM yyyy HH:mm:ss.SSSZ","yyyy-MM-dd HH:mm:ss"};
 		int ind =0;
 		rand = new Random();
 		 try {
-			 DateFormat srcDf = new SimpleDateFormat(colValue);
+			 DateFormat srcDf = new SimpleDateFormat(dateFormat);
 			 
 			 Date date = srcDf.parse(colValue);
 			 
 			 ind = rand.nextInt(dateFormats.length);
 			 
-			 DateFormat destDf = new SimpleDateFormat(dateFormats[ind]);
+		 	 DateFormat destDf = new SimpleDateFormat(dateFormats[ind]);
 			 
 			 newDate = destDf.format(date);
 			 
@@ -114,6 +123,28 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 		return newDate;
 	}
 
+	private PatternModel getMostOccuredPattern(List<PatternModel> patternsList) {
+		
+		List<Integer> occuranceCounts = new ArrayList<Integer>();
+		PatternModel patternModel = new PatternModel();
+		
+		for(int occ = 0; occ<patternsList.size(); occ++) {
+			
+			occuranceCounts.add(patternsList.get(occ).getOccurance());
+		}
+		int maxCount = Collections.max(occuranceCounts);
+		
+		for(int maxVal = 0; maxVal < patternsList.size(); maxVal++) {
+		
+			if(patternsList.get(maxVal).getOccurance() == maxCount) {
+				patternModel= patternsList.get(maxVal);
+				break;
+			}
+			
+		}
+		return patternModel;
+	}
+	
 	@Override
 	public String affectBooleanValues(boolean colValue) {
 		String boolValue;
@@ -169,6 +200,8 @@ public class ConsistencyToBeAppliedImpl implements WaysofConsistencyToBeApplied{
 		 char c2 = (char)(rand.nextInt(26) + 'a');
 		return Character.toString(c) + Character.toString(c2) ;
 	}
+	
+	
 	
 	private boolean isPresentInList(List<String> distinctValueList, String s) {
 		boolean status = false;

@@ -228,6 +228,6 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 				e.printStackTrace();
 			}
 		}
-		return newCollectionName;
+		return "Success";
 	}
 }

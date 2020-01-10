@@ -284,7 +284,7 @@ public class DataWreakerInterfaceServiceImpl implements DataWreakerIntefaceServi
 		String fileName = null;
 		String database = "ReverseEngineering";
 		String[] collectionName = null;
-		File dir = new File("F:\\Datasets\\test");
+		File dir = new File("C:\\Users\\i521676\\Documents\\Datasets");
 		File[] listOfFiles = dir.listFiles();
 
 		for (int i = 0; i < listOfFiles.length; i++) {

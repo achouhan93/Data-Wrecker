@@ -29,5 +29,18 @@ public class GetProfilerInfoFromServicesImpl implements GetProfilerInfoFromServi
 		
 		return  new RestTemplate().getForObject("http://localhost:8081/patternIdentification/getPossiblePatternsForData?fileName="+filename, DatasetDetails.class);
 	}
+
+	@Override
+	public String callWreckedDataEvaluatorService(String fileName) {
+		
+		return new RestTemplate().getForObject("http://localhost:8083/columnStatistics/wreakedDataEvaluation?fileName="+fileName, String.class);
+		
+	}
+
+	@Override
+	public String callMultiColumnStatisticsService(String fileName) {
+		String resp = new RestTemplate().getForObject("http://localhost:8083/columnStatistics/multiColumnStats?fileName="+fileName, String.class);
+		return resp;
+	}
 	
 }

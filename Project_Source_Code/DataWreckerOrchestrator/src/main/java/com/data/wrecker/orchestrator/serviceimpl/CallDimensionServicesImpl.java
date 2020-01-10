@@ -24,7 +24,7 @@ public class CallDimensionServicesImpl implements CallDimensionServices{
 		LOGGER.info("OBJECT ids length "+objectIds.size());*/
 		url = "http://localhost:8092/dimension/completenessDimension?collectionName="+collectionName+"&columnName="+colName+"&wreckingIdcount="+objectIds.size();
 		//System.out.println("collectionName: "+collectionName+" colName: "+colName+" completeness");
-		 LOGGER.info("URL \n"+url);
+		 LOGGER.info("URL \n" +url);
 		return new RestTemplate().getForObject(url, String.class);
 	}
 

@@ -3,6 +3,7 @@ package com.data.integerdatatypeservice.model;
 import java.time.LocalDate;
 import java.util.List;
 
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -32,5 +33,6 @@ public class ColumnStats {
 	LocalDate minDate;
 	LocalDate maxDate;
 	long trueCount;
-	long falseCount;	
+	long falseCount;
+	MultiColumnStats multiColumnStats;
 }

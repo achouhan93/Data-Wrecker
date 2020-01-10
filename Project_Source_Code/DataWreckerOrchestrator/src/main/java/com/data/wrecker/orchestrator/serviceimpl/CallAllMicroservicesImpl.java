@@ -76,12 +76,31 @@ public class CallAllMicroservicesImpl implements CallAllMicroservices{
 				if(result.equals(RESULT)) {
 
 					LOGGER.info("ColumnStatistics Service Successful");
-					LOGGER.info("Data profiling is Completed \n Now calling Datatype services ");
 					
-						result = callDatatypeServices(collectionName, wreckPercentage);
-					
+					result = getProfilingServices.callMultiColumnStatisticsService(fileName);
+					if(result.equals(RESULT)) {
+						LOGGER.info("Multi ColumnStatistics Service Successful");
+						LOGGER.info("Data profiling is Completed \n Now calling Datatype services ");	
+							result = callDatatypeServices(collectionName, wreckPercentage);
+						
+						if(result.equals(RESULT)) {
+							
+							LOGGER.info("Datatype services  Successful");
+							result = getProfilingServices.callWreckedDataEvaluatorService(collectionName);
+							
+							if(result.equals(RESULT)) {
+								LOGGER.info("Wrecked data evalution completed.");
+								
+							}else {
+								result= "Wrecked data evalution failed";
+							}
+							
+						}
 					LOGGER.info("Result after datatype services " + result);
-
+					}else {
+						LOGGER.info("ColumnStatistics Servvice has failed! ");
+						result = "Failure in ColumnStatistics";
+					}
 				}else {
 
 					LOGGER.info("ColumnStatistics Servvice has failed! ");

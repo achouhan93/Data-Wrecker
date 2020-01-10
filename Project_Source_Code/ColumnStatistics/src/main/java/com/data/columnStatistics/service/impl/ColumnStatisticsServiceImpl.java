@@ -286,8 +286,8 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 			averageValueDecimal = getAvgValueDecimal(columnValuesListWithoutNull);
 			break;
 		case "Date":
-			maxDate = getMaxDate(columnValuesListWithoutNull,dateFormat);
-			minDate = getMinDate(columnValuesListWithoutNull,dateFormat);
+			//maxDate = getMaxDate(columnValuesListWithoutNull,dateFormat);
+			//minDate = getMinDate(columnValuesListWithoutNull,dateFormat);
 			break;
 		case "Boolean":
 			//trueCount = getTrueCount(frequencyOfColumnValuesMap, booleanTrueValue);

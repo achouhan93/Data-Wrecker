@@ -10,6 +10,9 @@ public interface GetProfilerInfoFromServices {
 	
 	public String callColumnStatisticsService(String filename);
 	
+	public String callWreckedDataEvaluatorService(String fileName);
+	
+	public String callMultiColumnStatisticsService(String fileName);
 	
 	
 }

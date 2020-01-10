@@ -33,5 +33,5 @@ public class ColumnStats {
 	LocalDate maxDate;
 	int trueCount;
 	int falseCount;
-	
+	MultiColumnStats multiColumnStats;
 }

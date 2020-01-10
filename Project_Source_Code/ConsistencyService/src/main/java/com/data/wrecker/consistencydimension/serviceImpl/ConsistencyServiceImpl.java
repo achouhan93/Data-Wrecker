@@ -16,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.data.wrecker.consistencydimension.model.ChangesLog;
 import com.data.wrecker.consistencydimension.model.DataProfilerInfo;
+import com.data.wrecker.consistencydimension.model.DatasetStats;
 import com.data.wrecker.consistencydimension.repository.ChangesLogsRepository;
 import com.data.wrecker.consistencydimension.repository.DataProfilerInfoRepo;
 import com.data.wrecker.consistencydimension.service.ConsistencyService;
@@ -54,7 +55,9 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		String columnDataType = getColumnDataType(firstCollectionName, columnName);
 		changesLogList = new ArrayList<ChangesLog>();
 		List<String> recordIndexes = new ArrayList<String>();
-
+		 
+		
+		
 		for(String str : wreckingIds) {
 			recordIndexes.add(str);
 		}
@@ -88,7 +91,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 								changesLog.setDimensionName("Consistency");
 								changesLog.setDatasetName(collectionName);
 								changesLog.setOldValue(colValue);
-								colValue = removeConsistency(colValue, columnDataType);
+								colValue = removeConsistency(colValue, columnName,firstCollectionName);
 								datasetArray.getJSONObject(k).put(columnName, colValue);
 								datasetArray.getJSONObject(k).put("isWrecked", true);
 								changesLog.setNewValue(colValue);
@@ -117,8 +120,10 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		}
 	}
 
-	private String removeConsistency(String colValue, String columnDatatype) {
+	private String removeConsistency(String colValue, String columnName, String collectionName) {
 		String result = " ";
+		DatasetStats datasetStats = getDatasetStats(collectionName, columnName);
+		String columnDatatype = datasetStats.getProfilingInfo().getColumnDataType();
 		switch (columnDatatype.toLowerCase()) {
 		case "string":
 			// LOGGER.info("String");
@@ -141,7 +146,7 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		case "date":
 			// LOGGER.info("Date");
 			if (!colValue.isEmpty()) {
-				result = callServicesForDate(colValue);
+				result = callServicesForDate(colValue, datasetStats);
 			}
 			break;
 		case "boolean":
@@ -196,6 +201,31 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		return colDatatype;
 	}
 
+	private DatasetStats getDatasetStats(String collectionName, String columnName) {
+		
+		dataProfilerInfoList = dataProfilerInfoRepo.findAll();
+		DatasetStats datasetStats = new DatasetStats();
+		
+		for (int i = 0; i < dataProfilerInfoList.size(); i++) {
+			if (dataProfilerInfoList.get(i).getFileName().equals(collectionName)) {
+				dataProfilerInfo = new DataProfilerInfo();
+				dataProfilerInfo = dataProfilerInfoList.get(i);
+				break;
+			}
+		}
+		
+		for (int i = 0; i < dataProfilerInfo.getDatasetStats().size(); i++) {
+
+			if (dataProfilerInfo.getDatasetStats().get(i).getColumnName().equals(columnName)) {
+				datasetStats = dataProfilerInfo.getDatasetStats().get(i);
+				break;
+			}
+		}
+		
+		
+		return datasetStats;
+	}
+	
 	private String callServicesForString(String colValue) {
 		int randomNum = getRandomNumber(2);
 		// LOGGER.info("Random number selected " + randomNum);
@@ -243,8 +273,8 @@ public class ConsistencyServiceImpl implements ConsistencyService {
 		return waysofConsistencyToBeApplied.affectBooleanValues(Boolean.parseBoolean(colValue));
 	}
 
-	private String callServicesForDate(String colValue) {
-		return waysofConsistencyToBeApplied.changeDateFormat(colValue);
+	private String callServicesForDate(String colValue, DatasetStats datasetStats) {
+		return waysofConsistencyToBeApplied.changeDateFormat(colValue, datasetStats);
 	}
 
 	private int getRandomNumber(int num) {
