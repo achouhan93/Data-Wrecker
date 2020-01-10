@@ -124,9 +124,14 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 	}
 
 	private LocalDate getMinDate(List<String> columnValuesListWithoutNull, String dateFormat) {
+		ArrayList<String> dateStrings = new ArrayList<>(  );
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
 		List<LocalDate> columnValuesListWithoutNullDate = columnValuesListWithoutNull.stream()
 				.map(date -> LocalDate.parse(date, formatter)).collect(Collectors.toList());
+		List<LocalDate> dates = dateStrings.stream()
+		        .map( LocalDate::parse )
+		        .collect( Collectors.toList() );
+		System.out.println("collection "+dates);
 		return Collections.min(columnValuesListWithoutNullDate);
 	}
 
@@ -162,9 +167,51 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		return lengthOfEachValueList;
 	}
 
-	private List<String> getListWithoutNull(List<String> list) {
-		return list.stream().filter(Objects::nonNull).collect(Collectors.toList());
-
+	private List<String> getListWithoutNull(List<String> list, String columnDataType) {
+		
+		List<String> columnDataWithoutNull = list.stream().filter(Objects::nonNull).collect(Collectors.toList());
+		List<String> columnData = new ArrayList<String>();
+		switch(columnDataType) {
+			case "String":
+				columnData.addAll(columnDataWithoutNull);
+				break;
+			case "Integer":
+				for (int i = 0 ; i < columnDataWithoutNull.size() ; i++ )
+				{
+					if (columnDataWithoutNull.get(i).matches("^[1-9]\\d*$") )
+					{
+						columnData.add(columnDataWithoutNull.get(i));
+					}
+				}
+				break;
+			case "Decimal":
+				for (int i = 0 ; i < columnDataWithoutNull.size() ; i++ )	
+				{
+					if (columnDataWithoutNull.get(i).matches("^[0-9]\\d*(\\.\\d+)?$") )
+					{
+						columnData.add(columnDataWithoutNull.get(i));
+					}
+				}
+				break;
+			case "Date":
+				for (int i = 0 ; i < columnDataWithoutNull.size() ; i++ )
+				{
+					if (columnDataWithoutNull.get(i).contains("-") || columnDataWithoutNull.get(i).contains(".") || columnDataWithoutNull.get(i).contains("/")  )
+					{
+						columnData.add(columnDataWithoutNull.get(i));
+					}
+				}
+			case "Boolean":
+				for (int i = 0 ; i < columnDataWithoutNull.size() ; i++ )
+				{
+					if (columnDataWithoutNull.get(i).equalsIgnoreCase("True") || columnDataWithoutNull.get(i).equalsIgnoreCase("False"))
+					{
+						columnData.add(columnDataWithoutNull.get(i));
+					}
+				}
+				break;
+		};
+				return columnData;
 	}
 
 	private int getNullValues(List<String> list) {
@@ -190,7 +237,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		 * System.out.println(" Column Statistics "); System.out.println("");
 		 * System.out.println("Total Row count :" + rowCount);
 		 */
-		List<String> columnValuesListWithoutNull = getListWithoutNull(columnValuesList);
+		List<String> columnValuesListWithoutNull = getListWithoutNull(columnValuesList,columnDataType );
 		int nullCount = rowCount - columnValuesListWithoutNull.size();
 		int nullCountnew = rowCount - getNullValues(columnValuesList);
 		// System.out.println("Hitesh chaudhari - null values: "+ nullCountnew);
@@ -290,14 +337,19 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 			averageLength = getAvgLength(columnValuesListWithoutNull);
 			break;
 		case "Integer":
+			
+			
 			maxValue = getMaxValueInteger(columnValuesListWithoutNull);
 			minValue = getMinValueInteger(columnValuesListWithoutNull);
 			averageValue = getAvgValueInteger(columnValuesListWithoutNull);
+			
 			break;
 		case "Decimal":
+			
 			maxValueDecimal = getMaxValueDecimal(columnValuesListWithoutNull);
 			minValueDecimal = getMinValueDecimal(columnValuesListWithoutNull);
 			averageValueDecimal = getAvgValueDecimal(columnValuesListWithoutNull);
+			
 			break;
 		case "Date":
 			// maxDate = getMaxDate(columnValuesListWithoutNull,dateFormat);
@@ -309,8 +361,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 			break;
 		default:
 			break;
-		}
-		;
+		};
 		columnStatisticsModel.setMaxValue(maxValue);
 		columnStatisticsModel.setMinValue(minValue);
 		columnStatisticsModel.setAverageValue(averageValue);
