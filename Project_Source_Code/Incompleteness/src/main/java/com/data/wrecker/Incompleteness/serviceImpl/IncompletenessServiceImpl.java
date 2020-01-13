@@ -49,17 +49,13 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 		changesLogList = new ArrayList<ChangesLog>();
 		
 		List<Integer> recordIndexes = new ArrayList<Integer>();
-
-		for(int p = 0; p < wreckingIdsForDimension.size(); p++) {
-			recordIndexes.add(Integer.valueOf(wreckingIdsForDimension.get(p)));
-		}
 		
 		try {
 		for(int j =0; j < recordIndexes.size(); j++ ) {
 			
 			changesLog = new ChangesLog();
 			changesLog.setColumnName(columnName);
-			changesLog.setOid(recordIndexes.get(j));
+			//changesLog.setOid(datasetArray.getJSONObject(ds).getJSONObject("_id").get("$oid").toString());
 			changesLog.setDimensionName("Completeness");
 			changesLog.setDatasetName(collectionName);
 			changesLog.setOldValue(datasetArray.getJSONObject(recordIndexes.get(j)).get(columnName).toString());
@@ -163,12 +159,12 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 			
 				try {
 					if(wreackedCount<wreckingCount) {						
-						if(datasetArray.getJSONObject(ds).has("isWrecked")) {
+						if(datasetArray.getJSONObject(ds).has("isWrecked") && datasetArray.getJSONObject(ds).has("_id")) {
 							if(datasetArray.getJSONObject(ds).getBoolean("isWrecked") == false) {
 								if(datasetArray.getJSONObject(ds).getInt(columnName) == medianVal) {
 									changesLog = new ChangesLog();
 									changesLog.setColumnName(columnName);
-									changesLog.setOid(0);
+									changesLog.setOid(datasetArray.getJSONObject(ds).getJSONObject("_id").get("$oid").toString());
 									changesLog.setDimensionName("Completeness");
 									changesLog.setDatasetName(collectionName);
 									changesLog.setOldValue(datasetArray.getJSONObject(ds).get(columnName).toString());
@@ -227,7 +223,7 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 								if(datasetArray.getJSONObject(index).getBoolean(columnName) == resValue) {
 									changesLog = new ChangesLog();
 									changesLog.setColumnName(columnName);
-									changesLog.setOid(0);
+									changesLog.setOid(datasetArray.getJSONObject(index).getJSONObject("_id").getString("$oid").toString());
 									changesLog.setDimensionName("Completeness");
 									changesLog.setDatasetName(collectionName);
 									changesLog.setOldValue(datasetArray.getJSONObject(index).get(columnName).toString());

@@ -6,5 +6,5 @@ import org.json.JSONException;
 
 public interface ValidityDimensionService {
 
-	public String removeValidityDimension(String collectionName, String columnName,List<String> wreckingIds) throws JSONException;
+	public String removeValidityDimension(String collectionName, String columnName,int wreckingIds) throws JSONException;
 }
