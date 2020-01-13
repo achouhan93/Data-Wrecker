@@ -79,6 +79,7 @@ public class MultiColumnStatisticsServiceImpl implements MultiColumnStatisticsSe
 						for (int i = 0; i < dbList.length(); i++) {
 
 							String booleanColumnValue = dbList.getJSONObject(i).get(booleanColumn).toString();
+							if (booleanColumnValue.equalsIgnoreCase("True") || booleanColumnValue.equalsIgnoreCase("False"))
 							booleanColumnData.add(booleanColumnValue);
 
 							String evaluatingColValue = dbList.getJSONObject(i).get(evaluatingColumn).toString();
@@ -127,12 +128,17 @@ public class MultiColumnStatisticsServiceImpl implements MultiColumnStatisticsSe
 					for (int i = 0; i < dbList.length(); i++) {
 
 						String numericalColumnValue = dbList.getJSONObject(i).get(currentColumn).toString();
+						if (numericalColumnValue.matches("^[0-9]\\\\d*(\\\\.\\\\d+)?$"))
+						{
 						Float firstColValueFloat = Float.parseFloat(numericalColumnValue);
 						numericalColumnData.add(firstColValueFloat);
-
+						}
 						String evaluatingColumnValue = dbList.getJSONObject(i).get(evaluatingColumn).toString();
+						if (numericalColumnValue.matches("^[0-9]\\\\d*(\\\\.\\\\d+)?$"))
+						{
 						Float evaluatingColumnValueFloat = Float.parseFloat(evaluatingColumnValue);
 						evaluatingColumnData.add(evaluatingColumnValueFloat);
+						}
 					}
 					//System.out.println("1st column selected :" + currentColumn + " comparing with 2nd column selected :" + evaluatingColumn);
 					Boolean isColumnDependent = linearRegressionNumericalServiceImpl
