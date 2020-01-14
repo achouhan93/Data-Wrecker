@@ -64,10 +64,8 @@ public class DatasetStatsProcessingServiceImpl implements DatasetStatsProcessing
 
 		for(int j =0; j< datasetStatsList.size(); j++) {
 			if(datasetStatsList.get(j).getProfilingInfo().getColumnDataType().equals("Character")) {
-				//dimensionsList.add(characterService.NullCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(characterService.AccuracyCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(characterService.ConsistencyCheck(datasetStatsList.get(j),avgWreckingCount));
-				//dimensionsList.add(characterService.ValidityCheck(datasetStatsList.get(j),avgWreckingCount));
 				dimensionsList.add(characterService.UniquenessCheck(datasetStatsList.get(j), avgWreckingCount));
 				datasetStatsList.get(j).setDimensionsList(dimensionsList);
 			}

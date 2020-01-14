@@ -50,7 +50,7 @@ public class IncompletenessController {
 		}
 		
 		
-		return result;//completenessDimensionService.removeValues(collectionName,columnName, wreckingIds);
+		return result;
 	}
 	
 	

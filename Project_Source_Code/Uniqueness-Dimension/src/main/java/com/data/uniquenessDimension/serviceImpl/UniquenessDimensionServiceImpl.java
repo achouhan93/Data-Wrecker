@@ -48,30 +48,31 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 		}
 		try {
 
-			changedRecordObj= new JSONArray();
+			
 
 		for(int j =0; j < recordIndexes.size(); j++ ) {
 
 			for(int k = 0; k< datasetArray.length(); k++ ) {
 				if(datasetArray.getJSONObject(k).has("_id") && datasetArray.getJSONObject(k).has("isWrecked")) {
-					if(datasetArray.getJSONObject(k).getJSONObject("_id").getString("$oid").equals(recordIndexes.get(j)) && datasetArray.getJSONObject(k).getBoolean("isWrecked") == false) {
-						
+					if(datasetArray.getJSONObject(k).getJSONObject("_id").getString("$oid").equals(recordIndexes.get(j)) ) {
+						changedRecordObj= new JSONArray();
 						JSONObject jsonObject = new JSONObject();
 						jsonObject = datasetArray.getJSONObject(k);
 						changesLog = new ChangesLog();
 						changesLog.setDimensionName("Uniqueness");
 						changesLog.setDatasetName(collectionName);
 						changesLog.setColumnName(columnName);
-						changesLog.setOid(" ");
+						changesLog.setOid(datasetArray.getJSONObject(k).getJSONObject("_id").getString("$oid"));
 						changesLog.setOldValue(datasetArray.getJSONObject(k).get(columnName).toString());
 
 						datasetArray.getJSONObject(k).put("isWrecked", true);
-						LOGGER.info("OBJ : "+datasetArray.getJSONObject(k).put("isWrecked", true).toString());
-						jsonObject.put("_id","");
+						//LOGGER.info("OBJ : "+datasetArray.getJSONObject(k).put("isWrecked", true).toString());
+						jsonObject.remove("_id");
 						jsonObject.put("isWrecked", true);
 						changedRecordObj.put(jsonObject);
 						//addIntoDatabase(collectionName,changedRecordObj);
 						changesLog.setNewValue(datasetArray.getJSONObject(k).get(columnName).toString());
+						addToDb(changesLog);
 						changesLogList.add(changesLog);						
 						
 					}
@@ -97,7 +98,6 @@ public class UniquenessDimensionServiceImpl implements UniquenessDimensionServic
 
 		}
 
-		addToDb(changesLog);
 		return addIntoDatabase(collectionName,datasetArray);
 	}
 
