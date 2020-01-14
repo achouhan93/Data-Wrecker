@@ -36,7 +36,7 @@ public class IncompletenessController {
 		switch(datasetStats.getProfilingInfo().getColumnDataType()) {
 		
 		case "Boolean":
-			result = "success";//completenessDimensionService.removeValuesBoolean(collectionName, columnName, wreckingIdcount, datasetStats.getProfilingInfo().getColumnStats());
+			result = completenessDimensionService.removeValuesBoolean(collectionName, columnName, wreckingIdcount, datasetStats.getProfilingInfo().getColumnStats());
 			break;
 		case "Decimal":
 			result = completenessDimensionService.removeValuesForDecimalAndInteger(collectionName, columnName, wreckingIdcount, datasetStats);
@@ -50,7 +50,7 @@ public class IncompletenessController {
 		}
 		
 		
-		return result;//completenessDimensionService.removeValues(collectionName,columnName, wreckingIds);
+		return result;
 	}
 	
 	

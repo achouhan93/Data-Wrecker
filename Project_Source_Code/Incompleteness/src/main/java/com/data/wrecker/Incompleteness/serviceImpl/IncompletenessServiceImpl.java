@@ -50,6 +50,8 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 		
 		List<Integer> recordIndexes = new ArrayList<Integer>();
 		
+		
+		
 		try {
 		for(int j =0; j < recordIndexes.size(); j++ ) {
 			
@@ -154,107 +156,142 @@ public class IncompletenessServiceImpl implements IncompletenessService{
 		JSONArray datasetArray = getDatasetFromDb(collectionName);
 		changesLogList = new ArrayList<ChangesLog>();
 		int wreackedCount = 0;
+		rand = new Random();
+		int random = rand.nextInt(1);
 		
-			for(int ds = 0; ds< datasetArray.length();ds++) {
-			
-				try {
-					if(wreackedCount<wreckingCount) {						
-						if(datasetArray.getJSONObject(ds).has("isWrecked") && datasetArray.getJSONObject(ds).has("_id")) {
-							if(datasetArray.getJSONObject(ds).getBoolean("isWrecked") == false) {
-								if(datasetArray.getJSONObject(ds).getInt(columnName) == medianVal) {
-									changesLog = new ChangesLog();
-									changesLog.setColumnName(columnName);
-									changesLog.setOid(datasetArray.getJSONObject(ds).getJSONObject("_id").get("$oid").toString());
-									changesLog.setDimensionName("Completeness");
-									changesLog.setDatasetName(collectionName);
-									changesLog.setOldValue(datasetArray.getJSONObject(ds).get(columnName).toString());
-									datasetArray.getJSONObject(ds).put(columnName, "");
-									datasetArray.getJSONObject(ds).put("isWrecked", true);
-									changesLog.setNewValue("");
-									changesLogList.add(changesLog);
-									wreackedCount++;									
-								}
-							}
-						}						
-					}
-					
-				} catch (JSONException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-
+		
+		switch (random) {
+		
+		case 0:
+			collectionName = removeThroughMlModels(collectionName, columnName, wreckingCount,datasetStats.getProfilingInfo().getColumnStats());
+			break;
+		case 1:
+			collectionName = removeUsingMeanMediad(collectionName, columnName, wreckingCount, datasetStats);
+			break;
+		default:
+			break;
+		
 		}
 		
-		addToDb(changesLogList);
-		
-		return addIntoDatabase(collectionName,datasetArray);
+		return collectionName;
 	}
 
 	@Override
 	public String removeValuesBoolean(String collectionName, String columnName, int wreckingCount,
 			ColumnStats colStats) {
-		
-		String url = "http://127.0.0.1:5000/?collectionName="+collectionName+"&columnName="+columnName;
-		
-		String modelName = new RestTemplate().getForObject(url, String.class);
-		JSONArray datasetArray = getDatasetFromDb(collectionName);
-		
-			
-		if(modelName.equals("Success")) {
-			
-			
-			int wreckedCount = 0;
-			changesLogList = new ArrayList<ChangesLog>();
-			rand = new Random();
-			System.out.println("Wrecking count "+wreckingCount);
-			
-			for(int index = 0; index< datasetArray.length();index++) {
-				try {
-					
-					if(wreckedCount < wreckingCount) {
-						
-						if(datasetArray.getJSONObject(index).has("isWrecked") && datasetArray.getJSONObject(index).has("_id")) {
-							if(datasetArray.getJSONObject(index).getBoolean("isWrecked") == false) {
-								String oid = datasetArray.getJSONObject(index).getJSONObject("_id").getString("$oid");
-								url = "http://127.0.0.1:5000/model?collectionName="+collectionName+"&oid="+oid;
-								String result =  new RestTemplate().getForObject(url, String.class);
-								int res = Integer.parseInt(result);
-								boolean resValue = (res == 1);
-								if(datasetArray.getJSONObject(index).getBoolean(columnName) == resValue) {
-									changesLog = new ChangesLog();
-									changesLog.setColumnName(columnName);
-									changesLog.setOid(datasetArray.getJSONObject(index).getJSONObject("_id").getString("$oid").toString());
-									changesLog.setDimensionName("Completeness");
-									changesLog.setDatasetName(collectionName);
-									changesLog.setOldValue(datasetArray.getJSONObject(index).get(columnName).toString());
-									datasetArray.getJSONObject(index).put(columnName, "");
-									datasetArray.getJSONObject(index).put("isWrecked", true);
-									changesLog.setNewValue("");
-									changesLogList.add(changesLog);
-									datasetArray.getJSONObject(index).put("isWrecked", true);
-									System.out.println("Wrecked count "+wreckedCount);
-									wreckedCount++;
-								}
-								
-							}
-						}
-						
-					}
-					
-				}catch (JSONException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			}
-		}
-		
-		addToDb(changesLogList);
-		
-		return addIntoDatabase(collectionName,datasetArray);
+		return removeThroughMlModels(collectionName, columnName, wreckingCount,colStats);
 	}
 
+	private String removeThroughMlModels(String collectionName, String columnName, int wreckingCount,ColumnStats colStats) {
+		
+		if(colStats.getMultiColumnStats().getDependantColumnNames().size() > 0) {
+		
+			String url = "http://127.0.0.1:5000/?collectionName="+collectionName+"&columnName="+columnName;
+			
+			String modelResult = new RestTemplate().getForObject(url, String.class);
+			JSONArray datasetArray = getDatasetFromDb(collectionName);
+			
+				
+			if(modelResult.equals("Success")) {
+				
+				
+				int wreckedCount = 0;
+				changesLogList = new ArrayList<ChangesLog>();
+				rand = new Random();
+				System.out.println("Wrecking count "+wreckingCount);
+				
+				for(int index = 0; index< datasetArray.length();index++) {
+					try {
+						
+						if(wreckedCount < wreckingCount) {
+							
+							if(datasetArray.getJSONObject(index).has("isWrecked") && datasetArray.getJSONObject(index).has("_id")) {
+								if(datasetArray.getJSONObject(index).getBoolean("isWrecked") == false) {
+									String oid = datasetArray.getJSONObject(index).getJSONObject("_id").getString("$oid");
+									url = "http://127.0.0.1:5000/model?collectionName="+collectionName+"&oid="+oid+"&columnName="+columnName;
+									String result =  new RestTemplate().getForObject(url, String.class);
+									int res = Integer.parseInt(result);
+									boolean resValue = (res == 1);
+									boolean colValue = datasetArray.getJSONObject(index).getBoolean(columnName);
+									if(colValue == resValue) {
+										changesLog = new ChangesLog();
+										changesLog.setColumnName(columnName);
+										changesLog.setOid(datasetArray.getJSONObject(index).getJSONObject("_id").getString("$oid").toString());
+										changesLog.setDimensionName("Completeness");
+										changesLog.setDatasetName(collectionName);
+										changesLog.setOldValue(datasetArray.getJSONObject(index).get(columnName).toString());
+										datasetArray.getJSONObject(index).put(columnName, "");
+										datasetArray.getJSONObject(index).put("isWrecked", true);
+										changesLog.setNewValue("");
+										changesLogList.add(changesLog);
+										datasetArray.getJSONObject(index).put("isWrecked", true);
+										System.out.println("Wrecked count "+wreckedCount);
+										wreckedCount++;
+									}									
+								}
+							}							
+						}
+						
+					}catch (JSONException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+			
+			addToDb(changesLogList);
+			
+			return addIntoDatabase(collectionName,datasetArray);
+			
+		}else {
+			
+			LOGGER.info("There were no dependant columns identified");
+			return collectionName;
+			
+		}
+		
+		
+	}
 	
-	
+	private String removeUsingMeanMediad(String collectionName, String columnName, int wreckingCount,DatasetStats datasetStats) {
+		
+		JSONArray datasetArray = getDatasetFromDb(collectionName);
+		changesLogList = new ArrayList<ChangesLog>();
+		int wreackedCount = 0;
+		int medianVal = datasetStats.getProfilingInfo().getColumnStats().getAverageValue();
+		
+		for(int ds = 0; ds< datasetArray.length();ds++) {
+			
+			try {
+				if(wreackedCount<wreckingCount) {						
+					if(datasetArray.getJSONObject(ds).has("isWrecked") && datasetArray.getJSONObject(ds).has("_id")) {
+						if(datasetArray.getJSONObject(ds).getBoolean("isWrecked") == false) {
+							if(datasetArray.getJSONObject(ds).getInt(columnName) == medianVal) {
+								changesLog = new ChangesLog();
+								changesLog.setColumnName(columnName);
+								changesLog.setOid(datasetArray.getJSONObject(ds).getJSONObject("_id").get("$oid").toString());
+								changesLog.setDimensionName("Completeness");
+								changesLog.setDatasetName(collectionName);
+								changesLog.setOldValue(datasetArray.getJSONObject(ds).get(columnName).toString());
+								datasetArray.getJSONObject(ds).put(columnName, "");
+								datasetArray.getJSONObject(ds).put("isWrecked", true);
+								changesLog.setNewValue("");
+								changesLogList.add(changesLog);
+								wreackedCount++;									
+							}
+						}
+					}						
+				}
+				
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 
+	}
+	
+	addToDb(changesLogList);
+	
+	return addIntoDatabase(collectionName,datasetArray);
+	}
 	
 }

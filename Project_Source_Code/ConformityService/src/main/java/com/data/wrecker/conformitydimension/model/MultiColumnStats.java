@@ -1,6 +1,5 @@
-package com.data.stringdatatype.model;
+package com.data.wrecker.conformitydimension.model;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import lombok.Getter;

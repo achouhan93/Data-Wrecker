@@ -105,7 +105,7 @@ public class ValidityDimensionServiceImpl implements ValidityDimensionService {
 							e.printStackTrace();
 						}
 						
-						
+						wreackedCount++;
 						//endif
 						
 						

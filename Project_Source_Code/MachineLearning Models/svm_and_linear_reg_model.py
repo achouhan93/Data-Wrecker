@@ -107,9 +107,10 @@ def ml_model():
     mydb = myclient["ReverseEngineering"]
     
     args = request.args
+    multiColStats=''
     
     collectionName = args['collectionName']
-    #columnName = args['columnName']
+    columnName = args['columnName']
     oid= args['oid']
     query = {"_id" : ObjectId(oid)}
     print(oid)
@@ -118,9 +119,20 @@ def ml_model():
     mycol = mydb[collectionName].find(query)
    
     df = pd.DataFrame(list(mycol))
-    df
     
-    test_data = df.loc[:, ['col1', 'col2', 'col3']].values
+    query1 = {'fileName': 'dataset_1'}  
+    mycoll = mydb['dataProfilerInfo'].find(query1)
+    print(mycoll)
+    for x in mycoll:
+        for data in x['datasetStats']:
+            if data.get('columnName') == columnName :
+                multiColStats = data.get('profilingInfo').get('columnStats').get('multiColumnStats')
+                colDatatype = data.get('profilingInfo').get('columnDataType')
+                print( multiColStats.get('dependantColumnNames'))
+                print(colDatatype)
+    
+    columns = multiColStats.get('dependantColumnNames')
+    test_data = df.loc[:, columns].values
     
     prediction = mlModel.predict(test_data)
     print(prediction[0])

@@ -65,7 +65,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 		}else {
 			dimensions.setDimensionName("Consistency");
 			dimensions.setStatus(true);
-			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked- numberOfinConsistentValues(datasetStats, totalRowsCanBeWrecked));
+			dimensions.setRemainingWreakingCount(totalRowsCanBeWrecked);
 			dimensions.setReason("The patterns identified are less than the desired percentage");
 			return dimensions;
 		}	
@@ -157,8 +157,7 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			
 		}
 		
-		//int maxValue = Collections.max(regexCounts);
-		return totalRowsCanBeWrecked;
+		return totalCount;
 		
 	}
 
