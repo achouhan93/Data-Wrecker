@@ -29,8 +29,8 @@ public class ColumnStats {
 	double minValueDecimal;
 	double maxValueDecimal;
 	double averageValueDecimal;
-	LocalDate minDate;
-	LocalDate maxDate;
+	String minDate;
+	String maxDate;
 	int trueCount;
 	int falseCount;
 	MultiColumnStats multiColumnStats;

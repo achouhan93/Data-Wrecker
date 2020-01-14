@@ -121,15 +121,9 @@ public class PatternIdentificationServiceImpl implements PatternIdentificationSe
 						 * (columnData.get(columnDataIterator).equalsIgnoreCase("True") ||
 						 * columnData.get(columnDataIterator).equalsIgnoreCase("False"))) ) )
 						 */
-						if ((columnData.get(columnDataIterator).length() == 1
-								&& (columnData.get(columnDataIterator).equals("0")
-										|| columnData.get(columnDataIterator).equals("1")
-										|| columnData.get(columnDataIterator).equalsIgnoreCase("T")
-										|| columnData.get(columnDataIterator).equalsIgnoreCase("F")))
-								|| ((columnData.get(columnDataIterator).length() == 4
-										&& columnData.get(columnDataIterator).equalsIgnoreCase("True"))
-										|| (columnData.get(columnDataIterator).length() == 5
-												&& columnData.get(columnDataIterator).equalsIgnoreCase("False")))) {
+						if ( columnData.get(columnDataIterator).length() == 1
+								|| columnData.get(columnDataIterator).equalsIgnoreCase("True")
+								|| columnData.get(columnDataIterator).equalsIgnoreCase("False") ) {
 							smallAphabetFillteredStr = columnData.get(columnDataIterator);
 						} else {
 							columnStr = columnData.get(columnDataIterator);
