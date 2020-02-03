@@ -1,8 +1,11 @@
 package com.data.columnStatistics.service.impl;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -70,12 +73,14 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 
 		String columnName;
 		String colValue;
+		String columnDatatype;
 
 		List<DatasetStats> columnPatternModel = null;
 		String dataTypeOfAColumn = null;
 		List<DataProfilerInfo> datasetStatsList = columnStatsRepo.findAll();
 		DataProfilerInfo dataProfilerInfo = new DataProfilerInfo();
 		List<String> columnDataTypeList = new ArrayList<String>();
+		Map<String, String> columnDatatypeMap = new HashMap<String, String>();
 		// columnPatternModel.get(i).getProfilingInfo();
 		columnNamesList = getColumnHeaders(dbList.getJSONObject(0));
 		columnNamesList.remove("isWrecked");
@@ -84,22 +89,35 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 			if (datasetStatsList.get(i).getFileName().equals(fileName)) {
 				dataProfilerInfo = datasetStatsList.get(i);
 				columnPatternModel = dataProfilerInfo.getDatasetStats();
-				for (int j = 0; j < columnNamesList.size(); j++) {
+				for (int j = 0; j < columnPatternModel.size(); j++) {
 					dataTypeOfAColumn = columnPatternModel.get(j).getProfilingInfo().getColumnDataType();
-					columnDataTypeList.add(dataTypeOfAColumn);
+					columnName = columnPatternModel.get(j).getColumnName();
+					columnDatatypeMap.put(columnName, dataTypeOfAColumn);
+					//columnDataTypeList.add(dataTypeOfAColumn);
+					
 				}
 			}
 
 		}
 
 
-		System.out.println("columnDataTypeList" + columnDataTypeList);
+		System.out.println("columnDataTypeList" + columnDatatypeMap);
+		
+		for (Map.Entry<String, String> entry : columnDatatypeMap.entrySet()) {
+		    System.out.println(entry.getKey() + "/" + entry.getValue());
+		}
+		
 		for (int i = 0; i < datasetSize; i++) {
-			for (int j = 0; j < columnNamesList.size(); j++) {
-
+			for (Map.Entry<String, String> entry : columnDatatypeMap.entrySet()) {
+			
+				
+				
 				// reading each record
-				colValue = dbList.getJSONObject(i).get(columnNamesList.get(j)).toString();
-				columnName = columnNamesList.get(j);
+				columnName = entry.getKey();
+				columnDatatype = entry.getValue();
+				colValue = dbList.getJSONObject(i).get(columnName).toString();
+				
+				//String columnDatatype = getColumnDatatype(columnName, fileName);
 				/*
 				 * System.out.println("Record Data ColumnName " + columnName + " ColumnValue " +
 				 * colValue + " DataType " + columnDataTypeList.get(j));
@@ -109,14 +127,14 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 					dbList.getJSONObject(i).put("isWrecked", true);
 					continue;
 				} else {
-					switch (columnDataTypeList.get(j)) {
+					switch (columnDatatype) {
 					case "Boolean":
 						if (!(colValue.equalsIgnoreCase("True") || colValue.equalsIgnoreCase("False"))) {
 							/*
 							 * System.out.println("Record Data ColumnName:" + columnName + " ColumnValue:" +
 							 * colValue + " DataType:" + columnDataTypeList.get(j) );
 							 */
-							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
+							System.out.println("current value:"+colValue+" datatype of a column:"+columnDatatype);
 							dbList.getJSONObject(i).put("isWrecked", true);
 							System.out.println("invalid value: "+colValue+" for datatype :Boolean");
 						}
@@ -141,7 +159,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * System.out.println("Record Data ColumnName " + columnName + " ColumnValue " +
 							 * colValue + " DataType " + columnDataTypeList.get(j));
 							 */
-							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
+							System.out.println("current value:"+colValue+" datatype of a column:"+columnDatatype);
 							dbList.getJSONObject(i).put("isWrecked", true);
 						}
 						break;
@@ -155,7 +173,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * System.out.println("Record Data ColumnName " + columnName + " ColumnValue " +
 							 * colValue + " DataType " + columnDataTypeList.get(j));
 							 */
-							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
+							System.out.println("current value:"+colValue+" datatype of a column:"+columnDatatype);
 							dbList.getJSONObject(i).put("isWrecked", true);
 						}
 						break;
@@ -165,7 +183,7 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 							 * System.out.println("Record Data ColumnName " + columnName + " ColumnValue " +
 							 * colValue + " DataType " + columnDataTypeList.get(j));
 							 */
-							System.out.println("current value:"+colValue+" datatype of a column:"+columnDataTypeList.get(j));
+							System.out.println("current value:"+colValue+" datatype of a column:"+columnDatatype);
 							dbList.getJSONObject(i).put("isWrecked", true);
 						}
 						break;
@@ -236,5 +254,26 @@ public class WreakedDataEvaluatorServiceImpl implements WreakedDataEvaluatorServ
 			}
 		}
 		return "Success";
+	}
+	
+	private String getColumnDatatype(String columnName, String fileName ) {
+		List<DataProfilerInfo> datasetStatsList  = columnStatsRepo.findAll();
+		DataProfilerInfo dataProfilerInfo = new DataProfilerInfo();
+		String dataType = null;
+		
+		for(int i= 0; i < datasetStatsList.size(); i++) {
+			if(datasetStatsList.get(i).getFileName().equals(fileName)) {
+				dataProfilerInfo = datasetStatsList.get(i);
+				break;
+			}
+		}
+		
+		for(int j = 0; j < dataProfilerInfo.getDatasetStats().size(); j++) {
+			if(dataProfilerInfo.getDatasetStats().get(j).getColumnName().equals(columnName)) {
+				dataType = dataProfilerInfo.getDatasetStats().get(j).getProfilingInfo().getColumnDataType();
+			}
+		}
+		
+		return dataType;
 	}
 }

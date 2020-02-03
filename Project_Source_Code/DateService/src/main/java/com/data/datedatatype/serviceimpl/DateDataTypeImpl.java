@@ -130,7 +130,11 @@ public class DateDataTypeImpl implements DateDataTypeService{
 			
 		}
 		
-		int maxValue = Collections.max(regexCounts);
+		
+		int maxValue =0;
+		if( regexCounts.size() > 0) {
+			maxValue = Collections.max(regexCounts);
+		}
 		if((totalCount - maxValue) > totalRowsCanBeWrecked) {
 			return false;
 		} else {
