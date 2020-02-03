@@ -1,5 +1,7 @@
 package com.data.columnStatistics.controller;
 
+import java.text.ParseException;
+
 import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,7 +26,7 @@ public class ColumnStatisticsController {
 	@Autowired
 	WreakedDataEvaluatorService wreakedDataEvaluatorService;
 	@GetMapping("/getColumnStats")
-	public String getColumnStatistics(@RequestParam String fileName) {
+	public String getColumnStatistics(@RequestParam String fileName) throws ParseException {
 		String dateFormat="dd-MM-yy";
 		String booleanTrueValue="True";
 		String booleanFalseValue="False";

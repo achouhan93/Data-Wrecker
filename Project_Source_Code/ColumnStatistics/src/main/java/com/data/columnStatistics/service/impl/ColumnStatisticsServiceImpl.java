@@ -1,9 +1,13 @@
 package com.data.columnStatistics.service.impl;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -40,7 +44,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 
 	@Override
 	public String getColumnStatistics(String fileName, String dateFormat, String booleanTrueValue,
-			String booleanFalseValue) {
+			String booleanFalseValue) throws ParseException {
 		// String fileName = "testdatasetSample1";
 		DataProfilerInfo dataProfilerInfo = null;
 
@@ -123,23 +127,57 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		return Collections.max(columnValuesListWithoutNullInteger);
 	}
 
-	private LocalDate getMinDate(List<String> columnValuesListWithoutNull, String dateFormat) {
-		ArrayList<String> dateStrings = new ArrayList<>(  );
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
-		List<LocalDate> columnValuesListWithoutNullDate = columnValuesListWithoutNull.stream()
-				.map(date -> LocalDate.parse(date, formatter)).collect(Collectors.toList());
-		List<LocalDate> dates = dateStrings.stream()
-		        .map( LocalDate::parse )
-		        .collect( Collectors.toList() );
-		System.out.println("collection "+dates);
-		return Collections.min(columnValuesListWithoutNullDate);
+	private String getMinDate(List<String> columnValuesListWithoutNull, String dateFormat) throws ParseException {
+//		ArrayList<String> dateStrings = new ArrayList<>(  );
+//		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
+//		List<LocalDate> columnValuesListWithoutNullDate = columnValuesListWithoutNull.stream()
+//				.map(date -> LocalDate.parse(date, formatter)).collect(Collectors.toList());
+//		List<LocalDate> dates = dateStrings.stream()
+//		        .map( LocalDate::parse )
+//		        .collect( Collectors.toList() );
+//		System.out.println("collection "+dates);
+//		return Collections.min(columnValuesListWithoutNullDate);
+		Date date[] = new Date[columnValuesListWithoutNull.size()];
+		SimpleDateFormat sobj = new SimpleDateFormat("dd-MM-yyyy");
+		for(int i=0;i<columnValuesListWithoutNull.size();i++)
+        {
+            date[i]=sobj.parse(columnValuesListWithoutNull.get(i));                         //parse the date string to date obj
+        }
+		 Arrays.sort(date);                                                                            
+        
+		 String minDateStr = sobj.format(date[0]);
+		
+		 return minDateStr;
 	}
 
-	private LocalDate getMaxDate(List<String> columnValuesListWithoutNull, String dateFormat) {
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
-		List<LocalDate> columnValuesListWithoutNullDate = columnValuesListWithoutNull.stream()
-				.map(date -> LocalDate.parse(date, formatter)).collect(Collectors.toList());
-		return Collections.max(columnValuesListWithoutNullDate);
+	private String getMaxDate(List<String> columnValuesListWithoutNull, String dateFormat) throws ParseException {
+		/*
+		 * DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
+		 * List<LocalDate> columnValuesListWithoutNullDate =
+		 * columnValuesListWithoutNull.stream() .map(date -> LocalDate.parse(date,
+		 * formatter)).collect(Collectors.toList());
+		 */
+		Date date[] = new Date[columnValuesListWithoutNull.size()];
+		SimpleDateFormat sobj = new SimpleDateFormat("dd-MM-yyyy");
+		for(int i=0;i<columnValuesListWithoutNull.size();i++)
+        {
+            date[i]=sobj.parse(columnValuesListWithoutNull.get(i));                         //parse the date string to date obj
+        }
+		 Arrays.sort(date);                                                                            
+         
+		/*
+		 * for(Date date1 : date) //Enchanced for loop, it loops through all element in
+		 * date array { //each time date[i] is copied to date1 like traditional for loop
+		 * System.out.println(sobj.format(date1)); //format the date1 to dd-MM-yyyy
+		 * using sobj }
+		 */
+		 String maxDateStr = sobj.format(date[date.length-1]);
+		// Date date1=new SimpleDateFormat("dd/MM/yyyy").parse(maxDateStr);  
+
+		// System.out.println("Max Date"+date1);
+		// LocalDate maxDate = LocalDate.parse(maxDateStr);
+		//return Collections.max(columnValuesListWithoutNullDate);
+		 return maxDateStr;
 	}
 
 	private int getAvgLength(List<String> columnValuesListWithoutNull) {
@@ -224,7 +262,7 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 	}
 
 	private ColumnStats performStatsOperation(DatasetStats datasetStats, String fileName, String dateFormat,
-			String booleanTrueValue, String booleanFalseValue) {
+			String booleanTrueValue, String booleanFalseValue) throws ParseException {
 		String columnName = datasetStats.getColumnName();
 		String columnDataType = datasetStats.getProfilingInfo().getColumnDataType();
 
@@ -326,8 +364,8 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 		double minValueDecimal = 0.0;
 		double maxValueDecimal = 0.0;
 		double averageValueDecimal = 0.0;
-		LocalDate minDate = null;
-		LocalDate maxDate = null;
+		String minDate = null;
+		String maxDate = null;
 		long trueCount = 0;
 		long falseCount = 0;
 		switch (columnDataType) {
@@ -337,7 +375,6 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 			averageLength = getAvgLength(columnValuesListWithoutNull);
 			break;
 		case "Integer":
-			
 			
 			maxValue = getMaxValueInteger(columnValuesListWithoutNull);
 			minValue = getMinValueInteger(columnValuesListWithoutNull);
@@ -352,8 +389,8 @@ public class ColumnStatisticsServiceImpl implements ColumnStatisticsService {
 			
 			break;
 		case "Date":
-			// maxDate = getMaxDate(columnValuesListWithoutNull,dateFormat);
-			// minDate = getMinDate(columnValuesListWithoutNull,dateFormat);
+			 maxDate = getMaxDate(columnValuesListWithoutNull,dateFormat);
+			 minDate = getMinDate(columnValuesListWithoutNull,dateFormat);
 			break;
 		case "Boolean":
 			trueCount = getTrueCount(columnValuesListWithoutNull);
