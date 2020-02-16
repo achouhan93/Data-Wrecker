@@ -47,6 +47,7 @@ def hello():
                 colDatatype = data.get('profilingInfo').get('columnDataType')
                 print( multiColStats.get('dependantColumnNames'))
                 print(colDatatype)
+                break
     
     # Importing the dataset
     if colDatatype == 'Boolean':
